@@ -4,9 +4,13 @@
       OnSelect: =Launch(Self.Text)
       Text: |+
         =/*  ===========================================================================
+            Paste this YAML code anywhere - it creates a label that shows the URL to 
+                the root SharePoint site in your current tenant. 
+            ===========================================================================
             Suggestion: Add it to your App.Formulas
-            fxRootSharePointURL: 
-                Concatenate("https://",First(Split(First(Split(First(Split(Substitute(Office365Users.MyProfileV2().mySite,"https://",""),"/")).Value,".")).Value,"-")).Value,".sharepoint.com/")
+            fxRootSharePointURL = Concatenate(
+                "https://",First(Split(First(Split(First(Split(Substitute(Office365Users.MyProfileV2().mySite,"https://",""),"/")).Value,".")).Value,"-")).Value,".sharepoint.com/"
+            );
             ======================================================================== */
         Concatenate(
             "https://",
