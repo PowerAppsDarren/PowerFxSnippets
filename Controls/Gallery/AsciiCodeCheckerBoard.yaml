@@ -1,0 +1,47 @@
+- Gallery1:
+    Control: Gallery
+    Variant: galleryVertical
+    Properties:
+      Items: |-
+        =ForAll(
+            Sequence(255),
+            {
+                AsciiCode:  Value,
+                Value:      Char(Value)
+            }
+        )
+      WrapCount: =9
+      DelayItemLoading: =true
+      Fill: =RGBA(214, 221, 224, 1)
+      Height: =App.Height
+      Layout: =Layout.Vertical
+      LoadingSpinner: =LoadingSpinner.Data
+      TemplateFill: |-
+        =If(
+            Mod(
+                ThisItem.AsciiCode,
+                2
+            ) = 1,
+            Color.White,
+            Color.Black
+        )
+      TemplateSize: =Gallery1.Width / 9
+      Width: =App.Width
+    Children:
+    - Label7:
+        Control: Label
+        Properties:
+          Text: =ThisItem.Value
+          Align: =Align.Center
+          Color: |-
+            =If(
+                Mod(
+                    ThisItem.AsciiCode,
+                    2
+                ) = 1,    
+                Color.Black,
+                Color.White
+            )
+          Height: =Parent.TemplateHeight
+          Size: =48
+          Width: =Parent.TemplateWidth
