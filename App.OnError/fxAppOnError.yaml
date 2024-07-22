@@ -23,6 +23,8 @@ App As appinfo:
         
                         Any global variables created here to make this code to 
                         work should be moved to App.Formulas. 
+
+                Sample: https://raw.githubusercontent.com/PowerAppsDarren/PowerFxSnippets/main/App.OnError/SampleImage.png
         
                ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️*/
             /* ===================================================================
