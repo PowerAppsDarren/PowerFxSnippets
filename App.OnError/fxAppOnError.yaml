@@ -16,17 +16,17 @@ App As appinfo:
                     https://learn.microsoft.com/en-us/power-platform/power-fx/error-handling      
             // ================================================================ */      
             /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-        
+
                 NOTE:   Please follow the instructions below to finalize the 
                         "installation" of this useful snippet of code to your 
                         Power Apps application. 
-        
+
+                        🔴 Please be sure to add the Office365Outlook connector!
+
                         Any global variables created here to make this code to 
                         work should be moved to App.Formulas. 
 
-                Sample: https://raw.githubusercontent.com/PowerAppsDarren/PowerFxSnippets/main/App.OnError/SampleImage.png
-        
-               ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️*/
+            ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️*/
             /* ===================================================================
                 VARIABLE 1️⃣ fxErrorHandlerEmail
                 ===================================================================
@@ -144,12 +144,12 @@ App As appinfo:
                             Clear(colAppErrors);
                             //
             =================================================================== */
-        
+
             
             /* ===================================================================
-        
-              👍👍 The rest of this code may remain unmodified 👍👍
-        
+
+            👍👍 The rest of this code may remain unmodified 👍👍
+
             =================================================================== */
             With(
                 {
@@ -244,7 +244,7 @@ App As appinfo:
             // ===================================================================
             //
             //                      END OF App.OnError 🔚
-            // 
+            //
             // ===================================================================
     OnStart: =
     Theme: =PowerAppsTheme
