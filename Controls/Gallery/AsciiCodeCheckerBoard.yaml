@@ -1,4 +1,4 @@
-- Gallery1:
+- galAsciiCodes:
     Control: Gallery
     Variant: galleryVertical
     Properties:
@@ -13,7 +13,7 @@
       WrapCount: =9
       DelayItemLoading: =true
       Fill: =RGBA(214, 221, 224, 1)
-      Height: =App.Height
+      Height: =App.Height - Self.Y
       Layout: =Layout.Vertical
       LoadingSpinner: =LoadingSpinner.Data
       TemplateFill: |-
@@ -25,10 +25,10 @@
             Color.White,
             Color.Black
         )
-      TemplateSize: =Gallery1.Width / 9
+      TemplateSize: =Self.Width / 9
       Width: =App.Width
     Children:
-    - Label7:
+    - lblShowAsciiValue:
         Control: Label
         Properties:
           Text: =ThisItem.Value
