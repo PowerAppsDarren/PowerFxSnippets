@@ -1,0 +1,36 @@
+- cmbEditTicket_Requestor:
+    Control: Classic/ComboBox
+    Properties:
+      DefaultSelectedItems: |-
+        =If(
+            IsBlank(locRecord),
+            Office365Users.SearchUser(
+                {
+                    searchTerm: User().FullName, 
+                    top: 1
+                }
+            ),
+            Office365Users.SearchUser(
+                {
+                    searchTerm: locRecord.RequestorName,
+                    top: 1
+                }
+            )
+        )
+      DisplayFields: =["DisplayName","JobTitle"]
+      Items: |-
+        =Office365Users.SearchUser(
+            {
+                searchTerm: Self.SearchText,
+                top: 20
+            }
+        )
+      SearchFields: =["DisplayName"]
+      SelectMultiple: =false
+      BorderColor: =varTheme.PrimaryDark
+      ChevronBackground: =varTheme.PrimaryDark
+      ChevronHoverBackground: =ColorFade(varTheme.PrimaryDark, -20%)
+      SelectionFill: =varTheme.PrimaryDark
+      Width: =320
+      X: =561
+      Y: =392
