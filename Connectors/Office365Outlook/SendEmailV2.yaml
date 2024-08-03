@@ -1,0 +1,26 @@
+- btnSendAttachments:
+    Control: Button
+    Properties:
+      OnSelect: |
+        =Office365Outlook.SendEmailV2(
+            User().Email,
+            "Subject Line",
+            "Body of Email...",
+            {
+                From: User().Email, 
+                Cc: User().Email,
+                Bcc: User().Email, 
+                Sensitivity: "Normal",              // "Normal" "Personal" "Private" "Confidential" 
+                ReplyTo: User().Email, 
+                Importance: "Normal",               // "Low" "Normal" "High"
+                Attachments: ForAll(
+                    attFiles.Attachments,
+                    {
+                        Name: ThisRecord.Name,
+                        ContentBytes: ThisRecord.Value
+                    }
+                )
+            }
+        );
+      Text: ="Send These Files"
+      Width: =220
