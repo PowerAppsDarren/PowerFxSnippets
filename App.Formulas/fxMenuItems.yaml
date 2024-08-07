@@ -1,0 +1,52 @@
+fxMenuItems = [
+    {
+        MenuLabel: "Home Screen",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.Home,
+        ShowForThisRole: "User",
+        ScreenToGoTo: App.ActiveScreen,
+        Visible: true,
+        LaunchLink: false,
+        LaunchURL: ""
+    },
+    {
+        MenuLabel: "New Screen",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.DetailList,
+        ShowForThisRole: "User",
+        ScreenToGoTo: App.ActiveScreen,
+        Visible: true,
+        LaunchLink: false,
+        LaunchURL: ""
+    },
+    {
+        MenuLabel: "Application Administration",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.Settings,
+        ShowForThisRole: "gblIsAppAdmin",
+        ScreenToGoTo: App.ActiveScreen,
+        Visible: true,
+        LaunchLink: false,
+        LaunchURL: ""
+    },
+    {
+        MenuLabel: "Developer Screen",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.Key,
+        ShowForThisRole: "gblIsAppDeveloper",
+        ScreenToGoTo: App.ActiveScreen,
+        Visible: true,
+        LaunchLink: false,
+        LaunchURL: ""
+    },
+    {
+        MenuLabel: "Web Site",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.Diamond,
+        ShowForThisRole: "User",
+        ScreenToGoTo: Blank(),
+        Visible: true,
+        LaunchLink: true,
+        LaunchURL: "https://superpowerlabs.co"
+    }
+];
