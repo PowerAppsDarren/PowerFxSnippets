@@ -40,10 +40,10 @@ App As appinfo:
                         or the person who will be responsible for supporting 
                         this application!
             STEP #2:    Copy the code to App.Formulas ⬇️                    
-                        fxErrorHandlerEmail = "errorhandling@superpowerlabs.co"; 
+                        fxErrorHandlerEmail = "YOUR_EMAIL_HERE"; 
             STEP #3:    Delete or comment out the use of the Set() function
         =================================================================== */
-        Set(fxErrorHandlerEmail, "errorhandling@superpowerlabs.co;" & User().Email);
+        Set(fxErrorHandlerEmail, ";" & User().Email);                           // Put your email address before the semicolon (;)
         // ==================================================================
         // 
         /* ===================================================================
