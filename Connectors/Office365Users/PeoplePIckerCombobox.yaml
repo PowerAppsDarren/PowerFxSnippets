@@ -9,6 +9,7 @@
             }
         )
       DisplayFields: =["DisplayName","JobTitle"]
+      InputTextPlaceholder: ="User Search"
       Items: |-
         =Office365Users.SearchUser(
             {
