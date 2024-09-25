@@ -36,7 +36,7 @@ App As appinfo:
                         include them all in the string and simply separate
                         them with semicolons as shown below
                         Example: "jon@domain.com;lisa@domain.com"
-            STEP #1:    Change the email address below to your email address 
+            STEP #1:    Change the email address below to your email address  
                         or the person who will be responsible for supporting 
                         this application!
             STEP #2:    Copy the code to App.Formulas ⬇️                    
