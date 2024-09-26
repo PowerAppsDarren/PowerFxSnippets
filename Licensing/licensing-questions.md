@@ -1,6 +1,6 @@
 # New Topic Template
 
-have you ever tried to understand Microsoft's Power Platform licensing? Let me tell you, it's about as straightforward as rocket surgery. And I should know - I once tried to perform rocket surgery. Turns out, rockets don't have organs. Who knew?
+Have you ever tried to understand Microsoft's Power Platform licensing? Let me tell you, it's about as straightforward as rocket surgery. And I should know - I once tried to perform rocket surgery. Turns out, rockets don't have organs. Who knew?
 
 ## Custom GPT
 
