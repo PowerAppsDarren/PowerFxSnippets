@@ -6,6 +6,10 @@ This folder is all about code that uses the Office365users connector.
 ## You May be interested in the following:
 
 - [People Picker Combobox](PeoplePIckerCombobox.md)
+- [Automatically Add a User](auto-add-user.md)
+- [Get Manager Rollup](get-manager-rollup.md)
+- [Get Direct Reports](get-direct-reports.md)
+- [Display All Profile Fields](display-all-fields.md)
 
 # Create Database Tables
 

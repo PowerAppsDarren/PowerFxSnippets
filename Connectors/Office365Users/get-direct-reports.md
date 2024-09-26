@@ -1,12 +1,11 @@
-# New Topic
+# Get Direct Reports
 
-This is a helpful canvas Power Apps code snippet.
+Yes, this is a one-line simple method call. 🤔👍
 
-## Add This to Your Application
+## Step 01 - Add this code to your screen
 
 ```JavaScript
-// This code does this or that...
-Notify("Hello, World");
+Office365Users.DirectReportsV2(User().EntraObjectId).value
 ```
 
 ## Final Considerations
