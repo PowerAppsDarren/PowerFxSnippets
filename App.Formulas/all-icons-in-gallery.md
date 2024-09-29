@@ -1,6 +1,6 @@
 # See All Icons in a Gallery
 
-[After you add this code into your App.Formulas](all-icons-in-gallery.md), then you can use the code below to see them all in a gallery!
+First of all, you need to implement the changes outlined in [this article](all-icons-in-gallery.md) to your application. This will create a collection of all the icons in your application. Once you've done that, you can use the code below to create a gallery that displays all the icons.
 
 ## Add This to Your Application
 
