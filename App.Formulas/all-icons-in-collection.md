@@ -1,8 +1,25 @@
-# All Icons in canvas Power Apps
+# Get All the Icons Defined in a Collection
 
-All the icons in canvas Power Apps are contained in an enumeration so you can easily referenced. Let's take this one step further and put them all into a collection so we can work with them much more easier. Just paste the code below in your App.Formulas.
+This code works great, doesn't it?
+
+```text
+IconControl1.Icon = Icon.Home 
+```
+
+Icon is an enumeration, just like Color, Font, and Alignment. You type these enumeration names, then use a "." to see all the possible values. Very nice. However, it can be a bit tedious to remember all the icons and their names. 
+
+That's why I've created a collection of all the icons in canvas Power Apps. This way, you can easily list, filter, sort, lookup and search for an icon by name or description, and use the "Icon" property in the collection just like you would do with the enumeration. Look at all the other fields contained in the colletion: 
+
+1. Sequence: A number that indicates the order of the icon in the collection. This can be useful for sorting or filtering the icons.
+2. Name: The name of the icon, which is the same as the name you would use in the enumeration. For example, "Home" is the name of the home icon.
+3. Icon: The actual icon, which you can use in your app. For example, Icon.Home is the home icon.
+4. Description: A brief description of the icon, which can be useful for understanding its purpose and usage.
+5. Tags: A list of keywords or tags associated with the icon, which can be used for searching or filtering the icons based on their functionality or appearance.
+6. Category: The category of the icon, which can be used for grouping or organizing the icons based on their purpose or usage. For example, "Actions" is a category that includes icons such as "Add", "Cancel", "Edit", "Check", "Search", "Filter", "Sort", "Reload", "Trash", "Save", "Download", "Copy", "LikeDislike", "Crop", and "Pin".
 
 ## Add This to Your Application
+
+All the icons in canvas Power Apps are contained in an enumeration so you can easily referenced. Let's take this one step further and put them all into a collection so we can work with them much more easier. Just paste the code below in your App.Formulas.
 
 ```JavaScript
     // Paste this in your App.Formulas
