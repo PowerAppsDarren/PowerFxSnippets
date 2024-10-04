@@ -1,4 +1,4 @@
-# New Topic Template
+# What Licenses are Assigned?
 
 Do you ever wonder what licensing has been assigned to you? Use the code below to reveal a link that uses your Entra ID that will direct you or your admin to the licencing screen. How cool is that?
 
