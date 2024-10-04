@@ -5,9 +5,6 @@ Do you ever wonder what licensing has been assigned to you? Use the code below t
 ## Copy & Paste this YAML Code
 
 ```JavaScript
-// This is a label that will display the link you or your 
-// admin needs to use to see the licensing that has been 
-// assigned to you, or whomever is using your canvas app. 
 - txtRevealLicensing:
     Control: Classic/TextInput
     Properties:
