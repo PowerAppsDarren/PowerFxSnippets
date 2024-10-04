@@ -22,7 +22,6 @@ That's why I've created a collection of all the icons in canvas Power Apps. This
 All the icons in canvas Power Apps are contained in an enumeration so you can easily referenced. Let's take this one step further and put them all into a collection so we can work with them much more easier. Just paste the code below in your App.Formulas.
 
 ```JavaScript
-    // Paste this in your App.Formulas
     fxIcons = Sort(
         [
             {
