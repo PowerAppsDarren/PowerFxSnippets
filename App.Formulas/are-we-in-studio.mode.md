@@ -1,4 +1,4 @@
-# Are We in Studio Mode
+# Are We in Studio Mode?
 
 This is a helpful canvas Power Apps code snippet.
 
