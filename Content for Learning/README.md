@@ -1,6 +1,6 @@
-# Content for Learning
+# Listing of Topics
 
-My bag of tricks for the Power Platform
+- [Making Power Apps Easy](making-powerapps-easy.md)
 
 ## Free Community & Course Materials
 
