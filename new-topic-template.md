@@ -12,7 +12,7 @@ This is a helpful canvas Power Apps code snippet.
 ![Dataverse](https://img.shields.io/badge/Dataverse-No-red "No")
 ![AI Builder](https://img.shields.io/badge/AI%20Builder-No-red "No")
 ![Custom Connectors](https://img.shields.io/badge/Custom%20Connectors-No-red "No")
-![Power Fx](https://img.shields.io/badge/Power%20Fx-No-red "No")
+![Power Fx](https://img.shields.io/badge/Power%20Fx-Yes-green "Yes")
 
 ## Add This to Your Application
 

@@ -1,8 +1,6 @@
 # New Topic
 
-This is a helpful canvas Power Apps code snippet.
-
-- [Color Collection](color-collection.md) (all 140 web colors defined in a Power Apps collection)
+Power Apps just can't handle raw SVG code. It needs to be encoded. Here's a simple function to do that for you. This function will take your SVG code and return it encoded so it can be used in a Power Apps image control.
 
 ## Applies to
 
@@ -19,8 +17,11 @@ This is a helpful canvas Power Apps code snippet.
 ## Add This to Your Application
 
 ```JavaScript
-// This code does this or that...
-Notify("Hello, World");
+    //
+    // Have SVG code formatted for Power Apps so it shows up properly?
+    //
+    fxSVGEncode(svgCode:Text):Text = 
+        "data:image/svg+xml; utf8, " & EncodeUrl(svgCode);
 ```
 
 ## Final Considerations
