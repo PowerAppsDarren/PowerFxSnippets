@@ -1,5 +1,5 @@
-05# PowerFxSnippets
-M bby bag of tricks for the Power Platform
+# PowerFxSnippets
+My bag of tricks for the Power Platform
 
 ## Free Community & Course Materials
 ➡️ Get access to our free Power Apps crash course (and our community) here: 
@@ -23,4 +23,3 @@ For posting snippets of Power FX code for Canvas Power Apps on GitHub, perhaps t
     - Add a brief description of the snippet's purpose
     - Use code blocks for the Power FX code
     - Include any additional explanations or usage notes.
-;;;;
