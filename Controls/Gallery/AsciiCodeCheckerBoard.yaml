@@ -4,7 +4,13 @@
     Properties:
       Items: |-
         =ForAll(
-            Sequence(255),
+            //
+            // 33 is !
+            // 126 is ~
+            // These two numbers mark the beginning and end of the 
+            // characters we're interested in!
+            //
+            Sequence(126 - 33, 33, 1),
             {
                 AsciiCode:  Value,
                 Value:      Char(Value)
@@ -13,7 +19,7 @@
       WrapCount: =9
       DelayItemLoading: =true
       Fill: =RGBA(214, 221, 224, 1)
-      Height: =App.Height - Self.Y
+      Height: =Parent.Height
       Layout: =Layout.Vertical
       LoadingSpinner: =LoadingSpinner.Data
       TemplateFill: |-
@@ -26,8 +32,24 @@
             Color.Black
         )
       TemplateSize: =Self.Width / 9
-      Width: =App.Width
+      Transition: =Transition.Push
+      Width: =Parent.Width
     Children:
+    - Label13:
+        Control: Label
+        Properties:
+          OnSelect: =Select(Parent)
+          Text: =ThisItem.AsciiCode
+          Color: |-
+            =If(
+                Mod(
+                    ThisItem.AsciiCode,
+                    2
+                ) = 1,    
+                Color.Black,
+                Color.White
+            )
+          Width: =146.22222222222223
     - lblShowAsciiValue:
         Control: Label
         Properties:
