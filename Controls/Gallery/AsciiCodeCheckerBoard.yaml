@@ -10,6 +10,8 @@
             // These two numbers mark the beginning and end of the 
             // characters we're interested in!
             //
+            // If you want more, add in the unicode chars: https://en.wikipedia.org/wiki/List_of_Unicode_characters
+            //
             Sequence(126 - 33, 33, 1),
             {
                 AsciiCode:  Value,
