@@ -1,8 +1,6 @@
-App As appinfo:
-    BackEnabled: =true
-    Formulas: =
-    OnError: |-
-        =/*  ======================================================================
+OnError: | # powerfx
+    =
+        /*  ======================================================================
         NOTE:   Here are links to helpful documentation if you'd like to fully 
                 understand the following code and, perhaps, add to it. 
         ======================================================================
@@ -246,13 +244,3 @@ App As appinfo:
         //                      END OF App.OnError 🔚
         //
         // ===================================================================
-    OnStart: =
-    Theme: =PowerAppsTheme
-
-    Host As hostControl.DefaultHostControlVariant:
-        OnCancel: =false
-        OnEdit: =false
-        OnNew: =false
-        OnSave: =false
-        OnView: =false
-

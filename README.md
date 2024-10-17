@@ -1,13 +1,18 @@
 # PowerFxSnippets
+
 My bag of tricks for the Power Platform
+![Power Apps](https://img.shields.io/badge/Power%20Apps-Yes-green "Yes")
+![Power Fx](https://img.shields.io/badge/Power%20Fx-Yes-green "Yes")
 
 ## Free Community & Course Materials
+
 🆓 Get access to our free Power Apps crash course (and our community) here: 
 - https://tinyurl.com/DarrensStuffFree 🔗
 
 ## Support
 - support@superpowerlabs.co
 - https://superpowerlabs.co/
+- https://www.skool.com/power-apps-community 
 
 ## Related Code Repositories / Resources
 
@@ -17,6 +22,7 @@ My bag of tricks for the Power Platform
 - [MS Open Source](https://opensource.microsoft.com/blog/)
 
 ## Disclaimer
+
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
 ## Chosen Format For Repository
