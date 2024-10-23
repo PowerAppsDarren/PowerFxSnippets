@@ -1,9 +1,5 @@
 # Icons, Icons, Icons! 🤠
 
-
-[Trendyol Baklava Icons](./Trendol-Baklava-Icons/) - A collection of icons for your projects. Includes icons for social media, devices, and more. Made by Trendyol. 📦
-Credit given to and imported from this GitHub [repository](https://github.com/trendyol/baklava-icons). Enjoy!
-
 - https://www.svgrepo.com/
 - https://icons.getbootstrap.com/
 - https://svgapi.com/
