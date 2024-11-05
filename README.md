@@ -7,7 +7,8 @@ My bag of tricks for the Power Platform
 
 ## Support
 - support@superpowerlabs.co
-- https://superpowerlabs.co/
+- https://superpowerlabs.co
+- https://powerplatformlinks.com
 
 ## Related Code Repositories / Resources
 
