@@ -15,3 +15,4 @@
 - https://fonts.google.com/icons
 - https://lineicons.com/free-icons
 - https://elements.envato.com/graphics/icons 
+- https://icon-sets.iconify.design/
