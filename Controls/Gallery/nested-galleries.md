@@ -2,9 +2,9 @@
 
 This is a helpful canvas Power Apps code snippet.
 
-[[nested-galleries.msapp]]
+[nested-galleries.msapp](https://github.com/PowerAppsDarren/PowerFxSnippets/blob/main/Controls/Gallery/ResponsiveGallery.yaml)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e7d61632ead649a096a4881d96ec96f0?sid=4e311220-82a9-4a07-9364-6d38475e4f3c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[Video](https://www.loom.com/share/e7d61632ead649a096a4881d96ec96f0?sid=413f2730-019c-46b3-954a-3bad50497a9b)
 
 ## Add This to Your Application
 
