@@ -170,6 +170,7 @@ App As appinfo:
                 ForAll(
                     AllErrors As My, 
                     {
+                        Kind:                   My.Kind,
                         Message:                Text(My.Message),
                         Source:                 Text(My.Source),
                         Observed:               Text(My.Observed),
@@ -215,6 +216,7 @@ App As appinfo:
                             $"<tr>
                                 <td>{TimeStamp}</td>
                                 <td>{ScreenName}</td>
+                                <td>{Kind}</td>
                                 <td>{Source}</td>
                                 <td>{Message}</td>
                                 <td>{Observed}</td>
