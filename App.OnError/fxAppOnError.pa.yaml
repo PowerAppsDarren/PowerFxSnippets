@@ -168,6 +168,7 @@ OnError: | # powerfx
                 ForAll(
                     AllErrors As My, 
                     {
+                        Kind:                   My.Kind,
                         Message:                Text(My.Message),
                         Source:                 Text(My.Source),
                         Observed:               Text(My.Observed),
@@ -213,6 +214,7 @@ OnError: | # powerfx
                             $"<tr>
                                 <td>{TimeStamp}</td>
                                 <td>{ScreenName}</td>
+                                <td>{Kind}</td>
                                 <td>{Source}</td>
                                 <td>{Message}</td>
                                 <td>{Observed}</td>
