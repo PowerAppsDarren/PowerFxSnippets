@@ -4,13 +4,12 @@ This is some YAML you can paste into your canvas Power Apps applciation that wil
 
 ## Add This to Your Application
 
-```PowerFx
+```MarkDown
 // This code does this or that...
 Notify("Hello, World");
 ```
 
-## Free Community & Course Materials 
-
+## Free Community & Course Materials
 🆓 Get access to our free Power Apps crash course (and our community) here: 
 - https://tinyurl.com/DarrensStuffFree 🔗
 
