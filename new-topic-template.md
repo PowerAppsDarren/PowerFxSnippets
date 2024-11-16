@@ -1,6 +1,6 @@
-# New Topic
+# NEW_TOPIC_GOES_HERE
 
-This is a helpful canvas Power Apps code snippet.
+This is some YAML you can paste into your canvas Power Apps applciation that will 
 
 ## Add This to Your Application
 
@@ -9,17 +9,19 @@ This is a helpful canvas Power Apps code snippet.
 Notify("Hello, World");
 ```
 
-## Free Community & Course Materials
+## Free Community & Course Materials 
+
 🆓 Get access to our free Power Apps crash course (and our community) here: 
 - https://tinyurl.com/DarrensStuffFree 🔗
 
 ## Support
 
 I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at 
-* [support@superpowerlabs.co](support@superpowerlabs.co).
-* https://powerplatformlinks.com 
+* [support@superpowerlabs.co](support@superpowerlabs.co)
+* https://superpowerlabs.co 
+
+---
 
 ## Disclaimer
 
-THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
-
+**THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**

@@ -1,15 +1,14 @@
-# NEW_TOPIC_GOES_HERE
+# New Sample Prompt
 
-This is some YAML you can paste into your canvas Power Apps applciation that will 
+This is an AI prompt that will do this or that. 
 
-## Add This to Your Application
+## Here is the prompt
 
 ```PowerFx
-// This code does this or that...
-Notify("Hello, World");
+Give me several genius generative AI prompts that anyone could use to help with development in canvas Power Apps.
 ```
 
-## Free Community & Course Materials 
+## Free Community & Course Materials
 
 🆓 Get access to our free Power Apps crash course (and our community) here: 
 - https://tinyurl.com/DarrensStuffFree 🔗
