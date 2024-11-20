@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="Liberation Sans, Arial, Nimbus Sans L, Helvetica, sans-serif">
+<title>SVG 1.1 Colour Swatch</title>
+<!-- Made in https://www.inkscape.org/ -->
+<defs>
+<linearGradient id="a" x1="2050" x2="2050" y2="2160" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dfdfdf" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+</defs>
+<rect width="3840" height="2160" fill="url(#a)"/>
+<rect x="1809" y="1925" width="1230" height="200" rx="20" ry="20" fill="none" stroke="#808080" stroke-width="2"/>
+<rect x="3079" y="1715" width="722" height="410" rx="20" ry="20" fill="none" stroke="#808080" stroke-width="2"/>
+<rect x="285" y="35" width="214" height="132" fill="#fffafa"/>
+<rect x="2825" y="35" width="214" height="132" fill="#f8f8ff"/>
+<rect x="1809" y="35" width="214" height="132" fill="#f5fffa"/>
+<rect x="2317" y="35" width="214" height="132" fill="#f0ffff"/>
+<rect x="1047" y="35" width="214" height="132" fill="#fffaf0"/>
+<rect x="2571" y="35" width="214" height="132" fill="#f0f8ff"/>
+<rect x="3587" y="35" width="214" height="132" fill="#fff0f5"/>
+<rect x="539" y="35" width="214" height="132" fill="#fff5ee"/>
+<rect x="1555" y="245" width="214" height="132" fill="#f0fff0"/>
+<rect x="1301" y="35" width="214" height="132" fill="#ffffe0"/>
+<rect x="2063" y="35" width="214" height="132" fill="#e0ffff"/>
+<rect x="793" y="35" width="214" height="132" fill="#fdf5e6"/>
+<rect x="1301" y="245" width="214" height="132" fill="#fff8dc"/>
+<rect x="539" y="245" width="214" height="132" fill="#faf0e6"/>
+<rect x="2825" y="245" width="214" height="132" fill="#e6e6fa"/>
+<rect x="1301" y="455" width="214" height="132" fill="#f5f5dc"/>
+<rect x="1301" y="875" width="214" height="132" fill="#fffacd"/>
+<rect x="1301" y="665" width="214" height="132" fill="#fafad2"/>
+<rect x="1047" y="245" width="214" height="132" fill="#ffefd5"/>
+<rect x="1047" y="455" width="214" height="132" fill="#ffebcd"/>
+<rect x="793" y="455" width="214" height="132" fill="#ffe4c4"/>
+<rect x="1047" y="665" width="214" height="132" fill="#ffe4b5"/>
+<rect x="793" y="665" width="214" height="132" fill="#ffdab9"/>
+<rect x="3587" y="245" width="214" height="132" fill="#ffc0cb"/>
+<rect x="1047" y="1085" width="214" height="132" fill="#ffdead"/>
+<rect x="2063" y="245" width="214" height="132" fill="#afeeee"/>
+<rect x="1047" y="875" width="214" height="132" fill="#f5deb3"/>
+<rect x="1301" y="1505" width="214" height="132" fill="#eee8aa"/>
+<rect x="3587" y="455" width="214" height="132" fill="#ffb6c1"/>
+<rect x="2317" y="245" width="214" height="132" fill="#b0e0e6"/>
+<rect x="3079" y="35" width="214" height="132" fill="#d8bfd8"/>
+<rect x="2317" y="455" width="214" height="132" fill="#add8e6"/>
+<rect x="1301" y="1295" width="214" height="132" fill="#f0e68c"/>
+<rect x="3333" y="245" width="214" height="132" fill="#ee82ee"/>
+<rect x="3333" y="35" width="214" height="132" fill="#dda0dd"/>
+<rect x="2571" y="245" width="214" height="132" fill="#b0c4de"/>
+<rect x="2063" y="455" width="214" height="132" fill="#7fffd4"/>
+<rect x="2571" y="455" width="214" height="132" fill="#87cefa"/>
+<rect x="2571" y="665" width="214" height="132" fill="#87ceeb"/>
+<rect x="1555" y="665" width="214" height="132" fill="#98fb98"/>
+<rect x="793" y="875" width="214" height="132" fill="#deb887"/>
+<rect x="3587" y="875" width="214" height="132" fill="#ff69b4"/>
+<rect x="539" y="455" width="214" height="132" fill="#ffa07a"/>
+<rect x="3333" y="455" width="214" height="132" fill="#da70d6"/>
+<rect x="1555" y="455" width="214" height="132" fill="#90ee90"/>
+<rect x="793" y="1085" width="214" height="132" fill="#d2b48c"/>
+<rect x="539" y="665" width="214" height="132" fill="#e9967a"/>
+<rect x="793" y="1295" width="214" height="132" fill="#f4a460"/>
+<rect x="285" y="455" width="214" height="132" fill="#f08080"/>
+<rect x="539" y="1505" width="214" height="132" fill="#fa8072"/>
+<rect x="1301" y="1085" width="214" height="132" fill="#ff0"/>
+<rect x="2063" y="665" width="214" height="132" fill="#0ff"/>
+<rect x="3333" y="665" width="214" height="132" fill="#f0f"/>
+<rect x="2063" y="875" width="214" height="132" fill="#40e0d0"/>
+<rect x="2571" y="1295" width="214" height="132" fill="#6495ed"/>
+<rect x="3587" y="665" width="214" height="132" fill="#db7093"/>
+<rect x="3079" y="875" width="214" height="132" fill="#9370db"/>
+<rect x="2063" y="1085" width="214" height="132" fill="#48d1cc"/>
+<rect x="3079" y="245" width="214" height="132" fill="#ba55d3"/>
+<rect x="285" y="875" width="214" height="132" fill="#bc8f8f"/>
+<rect x="1809" y="1085" width="214" height="132" fill="#8fbc8f"/>
+<rect x="1301" y="1715" width="214" height="132" fill="#bdb76b"/>
+<rect x="2063" y="1295" width="214" height="132" fill="#66cdaa"/>
+<rect x="1555" y="1295" width="214" height="132" fill="#adff2f"/>
+<rect x="3079" y="1085" width="214" height="132" fill="#7b68ee"/>
+<rect x="539" y="875" width="214" height="132" fill="#ff7f50"/>
+<rect x="1047" y="1295" width="214" height="132" fill="#ffd700"/>
+<rect x="2571" y="875" width="214" height="132" fill="#00bfff"/>
+<rect x="539" y="1295" width="214" height="132" fill="#ff6347"/>
+<rect x="2571" y="1505" width="214" height="132" fill="#1e90ff"/>
+<rect x="1047" y="1505" width="214" height="132" fill="#ffa500"/>
+<rect x="1047" y="1715" width="214" height="132" fill="#daa520"/>
+<rect x="2317" y="1085" width="214" height="132" fill="#5f9ea0"/>
+<rect x="2825" y="1505" width="214" height="132" fill="#789"/>
+<rect x="3079" y="665" width="214" height="132" fill="#8a2be2"/>
+<rect x="1555" y="1505" width="214" height="132" fill="#9acd32"/>
+<rect x="3079" y="1295" width="214" height="132" fill="#6a5acd"/>
+<rect x="3079" y="455" width="214" height="132" fill="#9932cc"/>
+<rect x="2317" y="665" width="214" height="132" fill="#00ced1"/>
+<rect x="793" y="1925" width="214" height="132" fill="#cd853f"/>
+<rect x="1809" y="245" width="214" height="132" fill="#00fa9a"/>
+<rect x="2571" y="1085" width="214" height="132" fill="#4169e1"/>
+<rect x="285" y="665" width="214" height="132" fill="#cd5c5c"/>
+<rect x="793" y="1505" width="214" height="132" fill="#ff8c00"/>
+<rect x="2825" y="1715" width="214" height="132" fill="#708090"/>
+<rect x="1555" y="875" width="214" height="132" fill="#7fff00"/>
+<rect x="1809" y="455" width="214" height="132" fill="#00ff7f"/>
+<rect x="2571" y="1715" width="214" height="132" fill="#4682b4"/>
+<rect x="1555" y="1085" width="214" height="132" fill="#7cfc00"/>
+<rect x="2317" y="875" width="214" height="132" fill="#20b2aa"/>
+<rect x="3333" y="1295" width="214" height="132" fill="#9400d3"/>
+<rect x="2063" y="1505" width="214" height="132" fill="#3cb371"/>
+<rect x="3587" y="1295" width="214" height="132" fill="#c71585"/>
+<rect x="793" y="1715" width="214" height="132" fill="#d2691e"/>
+<rect x="539" y="1085" width="214" height="132" fill="#ff4500"/>
+<rect x="1047" y="1925" width="214" height="132" fill="#b8860b"/>
+<rect x="3587" y="1505" width="214" height="132" fill="#dc143c"/>
+<rect x="1809" y="875" width="214" height="132" fill="#32cd32"/>
+<rect x="539" y="1715" width="214" height="132" fill="#a0522d"/>
+<rect x="1555" y="1715" width="214" height="132" fill="#6b8e23"/>
+<rect x="3079" y="1505" width="214" height="132" fill="#483d8b"/>
+<rect x="2063" y="1715" width="214" height="132" fill="#2e8b57"/>
+<rect x="3333" y="875" width="214" height="132" fill="#8b008b"/>
+<rect x="2317" y="1295" width="214" height="132" fill="#008b8b"/>
+<rect x="285" y="1085" width="214" height="132" fill="#f00"/>
+<rect x="1809" y="665" width="214" height="132" fill="#0f0"/>
+<rect x="2825" y="455" width="214" height="132" fill="#00f"/>
+<rect x="285" y="1925" width="214" height="132" fill="#a52a2a"/>
+<rect x="285" y="1295" width="214" height="132" fill="#b22222"/>
+<rect x="1301" y="1925" width="214" height="132" fill="#808000"/>
+<rect x="3333" y="1085" width="214" height="132" fill="#800080"/>
+<rect x="2317" y="1505" width="214" height="132" fill="#008080"/>
+<rect x="1555" y="1925" width="214" height="132" fill="#556b2f"/>
+<rect x="539" y="1925" width="214" height="132" fill="#8b4513"/>
+<rect x="2825" y="665" width="214" height="132" fill="#0000cd"/>
+<rect x="1809" y="1295" width="214" height="132" fill="#228b22"/>
+<rect x="3333" y="1505" width="214" height="132" fill="#4b0082"/>
+<rect x="2317" y="1715" width="214" height="132" fill="#2f4f4f"/>
+<rect x="2825" y="1295" width="214" height="132" fill="#191970"/>
+<rect x="285" y="1505" width="214" height="132" fill="#8b0000"/>
+<rect x="2825" y="875" width="214" height="132" fill="#00008b"/>
+<rect x="285" y="1715" width="214" height="132" fill="#800000"/>
+<rect x="37" y="35" width="214" height="132" fill="#639"/>
+<rect x="1809" y="1505" width="214" height="132" fill="#008000"/>
+<rect x="2825" y="1085" width="214" height="132" fill="#000080"/>
+<rect x="1809" y="1715" width="214" height="132" fill="#006400"/>
+<rect x="37" y="245" width="214" height="132" fill="#fff"/>
+<rect x="37" y="455" width="214" height="132" fill="#f5f5f5"/>
+<rect x="37" y="665" width="214" height="132" fill="#dcdcdc"/>
+<rect x="37" y="875" width="214" height="132" fill="#d3d3d3"/>
+<rect x="37" y="1085" width="214" height="132" fill="#c0c0c0"/>
+<rect x="37" y="1295" width="214" height="132" fill="#a9a9a9"/>
+<rect x="37" y="1505" width="214" height="132" fill="#808080"/>
+<rect x="37" y="1715" width="214" height="132" fill="#696969"/>
+<rect x="37" y="1925" width="214" height="132"/>
+<rect x="1555" y="35" width="214" height="132" fill="#fffff0"/>
+<rect x="285" y="245" width="214" height="132" fill="#ffe4e1"/>
+<rect x="793" y="245" width="214" height="132" fill="#faebd7"/>
+<rect x="3587" y="1085" width="214" height="132" fill="#ff1493"/>
+<g fill="#000000" font-size="18px" font-weight="bold" xml:space="preserve">
+<text x="288" y="188">snow</text>
+<text x="288" y="236">HSL 0,100,99</text>
+<text x="288" y="212">#FFFAFA 255,250,250</text>
+<text x="2828" y="188">ghostwhite</text>
+<text x="2828" y="236">HSL 240,100,99</text>
+<text x="2828" y="212">#F8F8FF 248,248,255</text>
+<text x="1812" y="188">mintcream</text>
+<text x="1812" y="236">HSL 150,100,98</text>
+<text x="1812" y="212">#F5FFFA 245,255,250</text>
+<text x="2320" y="188">azure</text>
+<text x="2320" y="236">HSL 180,100,97</text>
+<text x="2320" y="212">#F0FFFF 240,255,255</text>
+<text x="1050" y="188">floralwhite</text>
+<text x="1050" y="236">HSL 40,100,97</text>
+<text x="1050" y="212">#FFFAF0 255,250,240</text>
+<text x="2574" y="188">aliceblue</text>
+<text x="2574" y="236">HSL 208,100,97</text>
+<text x="2574" y="212">#F0F8FF 240,248,255</text>
+<text x="3590" y="188">lavenderblush</text>
+<text x="3590" y="236">HSL 340,100,97</text>
+<text x="3590" y="212">#FFF0F5 255,240,245</text>
+<text x="542" y="188">seashell</text>
+<text x="542" y="236">HSL 25,100,97</text>
+<text x="542" y="212">#FFF5EE 255,245,238</text>
+<text x="1558" y="398">honeydew</text>
+<text x="1558" y="446">HSL 120,100,97</text>
+<text x="1558" y="422">#F0FFF0 240,255,240</text>
+<text x="1304" y="188">lightyellow</text>
+<text x="1304" y="236">HSL 60,100,94</text>
+<text x="1304" y="212">#FFFFE0 255,255,224</text>
+<text x="2066" y="188">lightcyan</text>
+<text x="2066" y="236">HSL 180,100,94</text>
+<text x="2066" y="212">#E0FFFF 224,255,255</text>
+<text x="796" y="188">oldlace</text>
+<text x="796" y="236">HSL 39,85,95</text>
+<text x="796" y="212">#FDF5E6 253,245,230</text>
+<text x="1304" y="398">cornsilk</text>
+<text x="1304" y="446">HSL 48,100,93</text>
+<text x="1304" y="422">#FFF8DC 255,248,220</text>
+<text x="542" y="398">linen</text>
+<text x="542" y="446">HSL 30,67,94</text>
+<text x="542" y="422">#FAF0E6 250,240,230</text>
+<text x="2828" y="398">lavender</text>
+<text x="2828" y="446">HSL 240,67,94</text>
+<text x="2828" y="422">#E6E6FA 230,230,250</text>
+<text x="1304" y="608">beige</text>
+<text x="1304" y="656">HSL 60,56,91</text>
+<text x="1304" y="632">#F5F5DC 245,245,220</text>
+<text x="1304" y="1028">lemonchiffon</text>
+<text x="1304" y="1076">HSL 54,100,90</text>
+<text x="1304" y="1052">#FFFACD 255,250,205</text>
+<text x="1304" y="818">lightgoldenrodyellow</text>
+<text x="1304" y="866">HSL 60,80,90</text>
+<text x="1304" y="842">#FAFAD2 250,250,210</text>
+<text x="1050" y="398">papayawhip</text>
+<text x="1050" y="446">HSL 37,100,92</text>
+<text x="1050" y="422">#FFEFD5 255,239,213</text>
+<text x="1050" y="608">blanchedalmond</text>
+<text x="1050" y="656">HSL 36,100,90</text>
+<text x="1050" y="632">#FFEBCD 255,235,205</text>
+<text x="796" y="608">bisque</text>
+<text x="796" y="656">HSL 33,100,88</text>
+<text x="796" y="632">#FFE4C4 255,228,196</text>
+<text x="1050" y="818">moccasin</text>
+<text x="1050" y="866">HSL 38,100,85</text>
+<text x="1050" y="842">#FFE4B5 255,228,181</text>
+<text x="796" y="818">peachpuff</text>
+<text x="796" y="866">HSL 28,100,86</text>
+<text x="796" y="842">#FFDAB9 255,218,185</text>
+<text x="3590" y="398">pink</text>
+<text x="3590" y="446">HSL 350,100,88</text>
+<text x="3590" y="422">#FFC0CB 255,192,203</text>
+<text x="1050" y="1238">navajowhite</text>
+<text x="1050" y="1286">HSL 36,100,84</text>
+<text x="1050" y="1262">#FFDEAD 255,222,173</text>
+<text x="2066" y="398">paleturquoise</text>
+<text x="2066" y="446">HSL 180,65,81</text>
+<text x="2066" y="422">#AFEEEE 175,238,238</text>
+<text x="1050" y="1028">wheat</text>
+<text x="1050" y="1076">HSL 39,77,83</text>
+<text x="1050" y="1052">#F5DEB3 245,222,179</text>
+<text x="1304" y="1658">palegoldenrod</text>
+<text x="1304" y="1706">HSL 55,67,80</text>
+<text x="1304" y="1682">#EEE8AA 238,232,170</text>
+<text x="3590" y="608">lightpink</text>
+<text x="3590" y="656">HSL 351,100,86</text>
+<text x="3590" y="632">#FFB6C1 255,182,193</text>
+<text x="2320" y="398">powderblue</text>
+<text x="2320" y="446">HSL 187,52,80</text>
+<text x="2320" y="422">#B0E0E6 176,224,230</text>
+<text x="3082" y="188">thistle</text>
+<text x="3082" y="236">HSL 300,24,80</text>
+<text x="3082" y="212">#D8BFD8 216,191,216</text>
+<text x="2320" y="608">lightblue</text>
+<text x="2320" y="656">HSL 195,53,79</text>
+<text x="2320" y="632">#ADD8E6 173,216,230</text>
+<text x="1304" y="1448">khaki</text>
+<text x="1304" y="1496">HSL 54,77,75</text>
+<text x="1304" y="1472">#F0E68C 240,230,140</text>
+<text x="3336" y="398">violet</text>
+<text x="3336" y="446">HSL 300,76,72</text>
+<text x="3336" y="422">#EE82EE 238,130,238</text>
+<text x="3336" y="188">plum</text>
+<text x="3336" y="236">HSL 300,47,75</text>
+<text x="3336" y="212">#DDA0DD 221,160,221</text>
+<text x="2574" y="398">lightsteelblue</text>
+<text x="2574" y="446">HSL 214,41,78</text>
+<text x="2574" y="422">#B0C4DE 176,196,222</text>
+<text x="2066" y="608">aquamarine</text>
+<text x="2066" y="656">HSL 160,100,75</text>
+<text x="2066" y="632">#7FFFD4 127,255,212</text>
+<text x="2574" y="608">lightskyblue</text>
+<text x="2574" y="656">HSL 203,92,75</text>
+<text x="2574" y="632">#87CEFA 135,206,250</text>
+<text x="2574" y="818">skyblue</text>
+<text x="2574" y="866">HSL 197,71,73</text>
+<text x="2574" y="842">#87CEEB 135,206,235</text>
+<text x="1558" y="818">palegreen</text>
+<text x="1558" y="866">HSL 120,93,79</text>
+<text x="1558" y="842">#98FB98 152,251,152</text>
+<text x="796" y="1028">burlywood</text>
+<text x="796" y="1076">HSL 34,57,70</text>
+<text x="796" y="1052">#DEB887 222,184,135</text>
+<text x="3590" y="1028">hotpink</text>
+<text x="3590" y="1076">HSL 330,100,71</text>
+<text x="3590" y="1052">#FF69B4 255,105,180</text>
+<text x="542" y="608">lightsalmon</text>
+<text x="542" y="656">HSL 17,100,74</text>
+<text x="542" y="632">#FFA07A 255,160,122</text>
+<text x="3336" y="608">orchid</text>
+<text x="3336" y="656">HSL 302,59,65</text>
+<text x="3336" y="632">#DA70D6 218,112,214</text>
+<text x="1558" y="608">lightgreen</text>
+<text x="1558" y="656">HSL 120,73,75</text>
+<text x="1558" y="632">#90EE90 144,238,144</text>
+<text x="796" y="1238">tan</text>
+<text x="796" y="1286">HSL 34,44,69</text>
+<text x="796" y="1262">#D2B48C 210,180,140</text>
+<text x="542" y="818">darksalmon</text>
+<text x="542" y="866">HSL 15,72,70</text>
+<text x="542" y="842">#E9967A 233,150,122</text>
+<text x="796" y="1448">sandybrown</text>
+<text x="796" y="1496">HSL 28,87,67</text>
+<text x="796" y="1472">#F4A460 244,164,96</text>
+<text x="288" y="608">lightcoral</text>
+<text x="288" y="656">HSL 0,79,72</text>
+<text x="288" y="632">#F08080 240,128,128</text>
+<text x="542" y="1658">salmon</text>
+<text x="542" y="1706">HSL 6,93,71</text>
+<text x="542" y="1682">#FA8072 250,128,114</text>
+<text x="1304" y="1238">yellow</text>
+<text x="1304" y="1286">HSL 60,100,50</text>
+<text x="1304" y="1262">#FFFF00 255,255,0</text>
+<text x="2066" y="818">aqua</text>
+<text x="2066" y="866">HSL 180,100,50</text>
+<text x="2066" y="842">#00FFFF 0,255,255</text>
+<text x="3336" y="818">magenta</text>
+<text x="3336" y="866">HSL 300,100,50</text>
+<text x="3336" y="842">#FF00FF 255,0,255</text>
+<text x="2066" y="1028">turquoise</text>
+<text x="2066" y="1076">HSL 174,72,56</text>
+<text x="2066" y="1052">#40E0D0 64,224,208</text>
+<text x="2574" y="1448">cornflowerblue</text>
+<text x="2574" y="1496">HSL 219,79,66</text>
+<text x="2574" y="1472">#6495ED 100,149,237</text>
+<text x="3590" y="818">palevioletred</text>
+<text x="3590" y="866">HSL 340,60,65</text>
+<text x="3590" y="842">#DB7093 219,112,147</text>
+<text x="3082" y="1028">mediumpurple</text>
+<text x="3082" y="1076">HSL 260,60,65</text>
+<text x="3082" y="1052">#9370DB 147,112,219</text>
+<text x="2066" y="1238">mediumturquoise</text>
+<text x="2066" y="1286">HSL 178,60,55</text>
+<text x="2066" y="1262">#48D1CC 72,209,204</text>
+<text x="3082" y="398">mediumorchid</text>
+<text x="3082" y="446">HSL 288,59,58</text>
+<text x="3082" y="422">#BA55D3 186,85,211</text>
+<text x="288" y="1028">rosybrown</text>
+<text x="288" y="1076">HSL 0,25,65</text>
+<text x="288" y="1052">#BC8F8F 188,143,143</text>
+<text x="1812" y="1238">darkseagreen</text>
+<text x="1812" y="1286">HSL 120,25,65</text>
+<text x="1812" y="1262">#8FBC8F 143,188,143</text>
+<text x="1304" y="1868">darkkhaki</text>
+<text x="1304" y="1916">HSL 56,38,58</text>
+<text x="1304" y="1892">#BDB76B 189,183,107</text>
+<text x="2066" y="1448">mediumaquamarine</text>
+<text x="2066" y="1496">HSL 160,51,60</text>
+<text x="2066" y="1472">#66CDAA 102,205,170</text>
+<text x="1558" y="1448">greenyellow</text>
+<text x="1558" y="1496">HSL 84,100,59</text>
+<text x="1558" y="1472">#ADFF2F 173,255,47</text>
+<text x="3082" y="1238">mediumslateblue</text>
+<text x="3082" y="1286">HSL 249,80,67</text>
+<text x="3082" y="1262">#7B68EE 123,104,238</text>
+<text x="542" y="1028">coral</text>
+<text x="542" y="1076">HSL 16,100,66</text>
+<text x="542" y="1052">#FF7F50 255,127,80</text>
+<text x="1050" y="1448">gold</text>
+<text x="1050" y="1496">HSL 51,100,50</text>
+<text x="1050" y="1472">#FFD700 255,215,0</text>
+<text x="2574" y="1028">deepskyblue</text>
+<text x="2574" y="1076">HSL 195,100,50</text>
+<text x="2574" y="1052">#00BFFF 0,191,255</text>
+<text x="542" y="1448">tomato</text>
+<text x="542" y="1496">HSL 9,100,64</text>
+<text x="542" y="1472">#FF6347 255,99,71</text>
+<text x="2574" y="1658">dodgerblue</text>
+<text x="2574" y="1706">HSL 210,100,56</text>
+<text x="2574" y="1682">#1E90FF 30,144,255</text>
+<text x="1050" y="1658">orange</text>
+<text x="1050" y="1706">HSL 39,100,50</text>
+<text x="1050" y="1682">#FFA500 255,165,0</text>
+<text x="1050" y="1868">goldenrod</text>
+<text x="1050" y="1916">HSL 43,74,49</text>
+<text x="1050" y="1892">#DAA520 218,165,32</text>
+<text x="2320" y="1238">cadetblue</text>
+<text x="2320" y="1286">HSL 182,25,50</text>
+<text x="2320" y="1262">#5F9EA0 95,158,160</text>
+<text x="2828" y="1658">lightslategray</text>
+<text x="2828" y="1706">HSL 210,14,53</text>
+<text x="2828" y="1682">#778899 119,136,153</text>
+<text x="3082" y="818">blueviolet</text>
+<text x="3082" y="866">HSL 271,76,53</text>
+<text x="3082" y="842">#8A2BE2 138,43,226</text>
+<text x="1558" y="1658">yellowgreen</text>
+<text x="1558" y="1706">HSL 80,61,50</text>
+<text x="1558" y="1682">#9ACD32 154,205,50</text>
+<text x="3082" y="1448">slateblue</text>
+<text x="3082" y="1496">HSL 248,53,58</text>
+<text x="3082" y="1472">#6A5ACD 106,90,205</text>
+<text x="3082" y="608">darkorchid</text>
+<text x="3082" y="656">HSL 280,61,50</text>
+<text x="3082" y="632">#9932CC 153,50,204</text>
+<text x="2320" y="818">darkturquoise</text>
+<text x="2320" y="866">HSL 181,100,41</text>
+<text x="2320" y="842">#00CED1 0,206,209</text>
+<text x="796" y="2078">peru</text>
+<text x="796" y="2126">HSL 30,59,53</text>
+<text x="796" y="2102">#CD853F 205,133,63</text>
+<text x="1812" y="398">mediumspringgreen</text>
+<text x="1812" y="446">HSL 157,100,49</text>
+<text x="1812" y="422">#00FA9A 0,250,154</text>
+<text x="2574" y="1238">royalblue</text>
+<text x="2574" y="1286">HSL 225,73,57</text>
+<text x="2574" y="1262">#4169E1 65,105,225</text>
+<text x="288" y="818">indianred</text>
+<text x="288" y="866">HSL 0,53,58</text>
+<text x="288" y="842">#CD5C5C 205,92,92</text>
+<text x="796" y="1658">darkorange</text>
+<text x="796" y="1706">HSL 33,100,50</text>
+<text x="796" y="1682">#FF8C00 255,140,0</text>
+<text x="2828" y="1868">slategray</text>
+<text x="2828" y="1916">HSL 210,13,50</text>
+<text x="2828" y="1892">#708090 112,128,144</text>
+<text x="1558" y="1028">chartreuse</text>
+<text x="1558" y="1076">HSL 90,100,50</text>
+<text x="1558" y="1052">#7FFF00 127,255,0</text>
+<text x="1812" y="608">springgreen</text>
+<text x="1812" y="656">HSL 150,100,50</text>
+<text x="1812" y="632">#00FF7F 0,255,127</text>
+<text x="2574" y="1868">steelblue</text>
+<text x="2574" y="1916">HSL 207,44,49</text>
+<text x="2574" y="1892">#4682B4 70,130,180</text>
+<text x="1558" y="1238">lawngreen</text>
+<text x="1558" y="1286">HSL 90,100,49</text>
+<text x="1558" y="1262">#7CFC00 124,252,0</text>
+<text x="2320" y="1028">lightseagreen</text>
+<text x="2320" y="1076">HSL 177,70,41</text>
+<text x="2320" y="1052">#20B2AA 32,178,170</text>
+<text x="3336" y="1448">darkviolet</text>
+<text x="3336" y="1496">HSL 282,100,41</text>
+<text x="3336" y="1472">#9400D3 148,0,211</text>
+<text x="2066" y="1658">mediumseagreen</text>
+<text x="2066" y="1706">HSL 147,50,47</text>
+<text x="2066" y="1682">#3CB371 60,179,113</text>
+<text x="3590" y="1448">mediumvioletred</text>
+<text x="3590" y="1496">HSL 322,81,43</text>
+<text x="3590" y="1472">#C71585 199,21,133</text>
+<text x="796" y="1868">chocolate</text>
+<text x="796" y="1916">HSL 25,75,47</text>
+<text x="796" y="1892">#D2691E 210,105,30</text>
+<text x="542" y="1238">orangered</text>
+<text x="542" y="1286">HSL 16,100,50</text>
+<text x="542" y="1262">#FF4500 255,69,0</text>
+<text x="1050" y="2078">darkgoldenrod</text>
+<text x="1050" y="2126">HSL 43,89,38</text>
+<text x="1050" y="2102">#B8860B 184,134,11</text>
+<text x="3590" y="1658">crimson</text>
+<text x="3590" y="1706">HSL 348,83,58</text>
+<text x="3590" y="1682">#DC143C 220,20,60</text>
+<text x="1812" y="1028">limegreen</text>
+<text x="1812" y="1076">HSL 120,61,50</text>
+<text x="1812" y="1052">#32CD32 50,205,50</text>
+<text x="542" y="1868">sienna</text>
+<text x="542" y="1916">HSL 19,56,40</text>
+<text x="542" y="1892">#A0522D 160,82,45</text>
+<text x="1558" y="1868">olivedrab</text>
+<text x="1558" y="1916">HSL 80,60,35</text>
+<text x="1558" y="1892">#6B8E23 107,142,35</text>
+<text x="3082" y="1658">darkslateblue</text>
+<text x="3082" y="1706">HSL 248,39,39</text>
+<text x="3082" y="1682">#483D8B 72,61,139</text>
+<text x="2066" y="1868">seagreen</text>
+<text x="2066" y="1916">HSL 146,50,36</text>
+<text x="2066" y="1892">#2E8B57 46,139,87</text>
+<text x="3336" y="1028">darkmagenta</text>
+<text x="3336" y="1076">HSL 300,100,27</text>
+<text x="3336" y="1052">#8B008B 139,0,139</text>
+<text x="2320" y="1448">darkcyan</text>
+<text x="2320" y="1496">HSL 180,100,27</text>
+<text x="2320" y="1472">#008B8B 0,139,139</text>
+<text x="288" y="1238">red</text>
+<text x="288" y="1286">HSL 0,100,50</text>
+<text x="288" y="1262">#FF0000 255,0,0</text>
+<text x="1812" y="818">lime</text>
+<text x="1812" y="866">HSL 120,100,50</text>
+<text x="1812" y="842">#00FF00 0,255,0</text>
+<text x="2828" y="608">blue</text>
+<text x="2828" y="656">HSL 240,100,50</text>
+<text x="2828" y="632">#0000FF 0,0,255</text>
+<text x="288" y="2078">brown</text>
+<text x="288" y="2126">HSL 0,59,41</text>
+<text x="288" y="2102">#A52A2A 165,42,42</text>
+<text x="288" y="1448">firebrick</text>
+<text x="288" y="1496">HSL 0,68,42</text>
+<text x="288" y="1472">#B22222 178,34,34</text>
+<text x="1304" y="2078">olive</text>
+<text x="1304" y="2126">HSL 60,100,25</text>
+<text x="1304" y="2102">#808000 128,128,0</text>
+<text x="3336" y="1238">purple</text>
+<text x="3336" y="1286">HSL 300,100,25</text>
+<text x="3336" y="1262">#800080 128,0,128</text>
+<text x="2320" y="1658">teal</text>
+<text x="2320" y="1706">HSL 180,100,25</text>
+<text x="2320" y="1682">#008080 0,128,128</text>
+<text x="1558" y="2078">darkolivegreen</text>
+<text x="1558" y="2126">HSL 82,39,30</text>
+<text x="1558" y="2102">#556B2F 85,107,47</text>
+<text x="542" y="2078">saddlebrown</text>
+<text x="542" y="2126">HSL 25,76,31</text>
+<text x="542" y="2102">#8B4513 139,69,19</text>
+<text x="2828" y="818">mediumblue</text>
+<text x="2828" y="866">HSL 240,100,40</text>
+<text x="2828" y="842">#0000CD 0,0,205</text>
+<text x="1812" y="1448">forestgreen</text>
+<text x="1812" y="1496">HSL 120,61,34</text>
+<text x="1812" y="1472">#228B22 34,139,34</text>
+<text x="3336" y="1658">indigo</text>
+<text x="3336" y="1706">HSL 275,100,25</text>
+<text x="3336" y="1682">#4B0082 75,0,130</text>
+<text x="2320" y="1868">darkslategray</text>
+<text x="2320" y="1916">HSL 180,25,25</text>
+<text x="2320" y="1892">#2F4F4F 47,79,79</text>
+<text x="2828" y="1448">midnightblue</text>
+<text x="2828" y="1496">HSL 240,64,27</text>
+<text x="2828" y="1472">#191970 25,25,112</text>
+<text x="288" y="1658">darkred</text>
+<text x="288" y="1706">HSL 0,100,27</text>
+<text x="288" y="1682">#8B0000 139,0,0</text>
+<text x="2828" y="1028">darkblue</text>
+<text x="2828" y="1076">HSL 240,100,27</text>
+<text x="2828" y="1052">#00008B 0,0,139</text>
+<text x="288" y="1868">maroon</text>
+<text x="288" y="1916">HSL 0,100,25</text>
+<text x="288" y="1892">#800000 128,0,0</text>
+<text x="1812" y="1658">green</text>
+<text x="1812" y="1706">HSL 120,100,25</text>
+<text x="1812" y="1682">#008000 0,128,0</text>
+<text x="2828" y="1238">navy</text>
+<text x="2828" y="1286">HSL 240,100,25</text>
+<text x="2828" y="1262">#000080 0,0,128</text>
+<text x="1812" y="1868">darkgreen</text>
+<text x="1812" y="1916">HSL 120,100,20</text>
+<text x="1812" y="1892">#006400 0,100,0</text>
+<text x="40" y="398">white</text>
+<text x="40" y="446">HSL 0,0,100</text>
+<text x="40" y="422">#FFFFFF 255,255,255</text>
+<text x="40" y="608">whitesmoke</text>
+<text x="40" y="656">HSL 0,0,96</text>
+<text x="40" y="632">#F5F5F5 245,245,245</text>
+<text x="40" y="818">gainsboro</text>
+<text x="40" y="866">HSL 0,0,86</text>
+<text x="40" y="842">#DCDCDC 220,220,220</text>
+<text x="40" y="1028">lightgray</text>
+<text x="40" y="1076">HSL 0,0,83</text>
+<text x="40" y="1052">#D3D3D3 211,211,211</text>
+<text x="40" y="1238">silver</text>
+<text x="40" y="1286">HSL 0,0,75</text>
+<text x="40" y="1262">#C0C0C0 192,192,192</text>
+<text x="40" y="1448">darkgray</text>
+<text x="40" y="1496">HSL 0,0,66</text>
+<text x="40" y="1472">#A9A9A9 169,169,169</text>
+<text x="40" y="1658">gray</text>
+<text x="40" y="1706">HSL 0,0,50</text>
+<text x="40" y="1682">#808080 128,128,128</text>
+<text x="40" y="1868">dimgray</text>
+<text x="40" y="1916">HSL 0,0,41</text>
+<text x="40" y="1892">#696969 105,105,105</text>
+<text x="40" y="2078">black</text>
+<text x="40" y="2126">HSL 0,0,0</text>
+<text x="40" y="2102">#000000 0,0,0</text>
+<text x="1558" y="188">ivory</text>
+<text x="1558" y="236">HSL 60,100,97</text>
+<text x="1558" y="212">#FFFFF0 255,255,240</text>
+<text x="288" y="398">mistyrose</text>
+<text x="288" y="446">HSL 6,100,94</text>
+<text x="288" y="422">#FFE4E1 255,228,225</text>
+<text x="796" y="446">HSL 34,78,91</text>
+<text x="796" y="422">#FAEBD7 250,235,215</text>
+<text x="796" y="398">antiquewhite</text>
+<text x="3590" y="1238">deeppink</text>
+<text x="3590" y="1286">HSL 328,100,54</text>
+<text x="3590" y="1262">#FF1493 255,20,147</text>
+<text x="2770" y="1974">W3C Spec lets H be 0-360,</text>
+<text x="2770" y="1947">HSL RANGE CONVERSION</text>
+<text x="2770" y="2001">S,L can be from 0-100.</text>
+<text x="2770" y="2028">However, inkscape needs</text>
+<text x="2770" y="2056">S,L in the range 0-255,</text>
+<text x="2770" y="2083">so this x 2.55 table shows</text>
+<text x="2770" y="2110">0-100 value in 0-255 range</text>
+<text x="3215" y="1940">https://www.w3.org/TR/css-color-4/#named-colors</text>
+<text x="3180" y="1830">https://www.w3.org/TR/SVG11/types.html#ColorKeywords</text>
+</g>
+<g fill="#663399" font-size="18px" font-weight="bold" xml:space="preserve">
+<text x="40" y="188" font-style="italic">rebeccapurple</text>
+<text x="40" y="236" font-style="italic">HSL 270,50,40</text>
+<text x="40" y="212" font-style="italic">#663399 102,51,153</text>
+<text x="3110" y="2055">Note: rebeccapurple is not on the SVG1.1 spec, but is on others so it's</text>
+<text x="3110" y="2081">inclusion may assist anyone doing updates.</text>
+<text x="3110" y="2110">RIP Rebecca Meyer, after whom this color was named.</text>
+</g>
+<g font-size="16px" font-weight="bold">
+<text x="1827" y="1947">0 0</text>
+<text x="1827" y="1966">1 3</text>
+<text x="1827" y="1985">2 5</text>
+<text x="1827" y="2004">3 8</text>
+<text x="1827" y="2023">4 10</text>
+<text x="1827" y="2042">5 13</text>
+<text x="1827" y="2061">6 15</text>
+<text x="1827" y="2080">7 18</text>
+<text x="1827" y="2099">8 20</text>
+<text x="1827" y="2118">9 23</text>
+<text x="1897" y="1947">10 26</text>
+<text x="1897" y="1966">11 28</text>
+<text x="1897" y="1985">12 31</text>
+<text x="1897" y="2004">13 33</text>
+<text x="1897" y="2023">14 36</text>
+<text x="1897" y="2042">15 38</text>
+<text x="1897" y="2061">16 41</text>
+<text x="1897" y="2080">17 43</text>
+<text x="1897" y="2099">18 46</text>
+<text x="1897" y="2118">19 48</text>
+<text x="1977" y="1947">20 51</text>
+<text x="1977" y="1966">21 54</text>
+<text x="1977" y="1985">22 56</text>
+<text x="1977" y="2004">23 59</text>
+<text x="1977" y="2023">24 61</text>
+<text x="1977" y="2042">25 64</text>
+<text x="1977" y="2061">26 66</text>
+<text x="1977" y="2080">27 69</text>
+<text x="1977" y="2099">28 71</text>
+<text x="1977" y="2118">29 74</text>
+<text x="2057" y="1947">30 77</text>
+<text x="2057" y="1966">31 79</text>
+<text x="2057" y="1985">32 82</text>
+<text x="2057" y="2004">33 84</text>
+<text x="2057" y="2023">34 87</text>
+<text x="2057" y="2042">35 89</text>
+<text x="2057" y="2061">36 92</text>
+<text x="2057" y="2080">37 94</text>
+<text x="2057" y="2099">38 97</text>
+<text x="2057" y="2118">39 99</text>
+<text x="2137" y="1947">40 102</text>
+<text x="2137" y="1966">41 105</text>
+<text x="2137" y="1985">42 107</text>
+<text x="2137" y="2004">43 110</text>
+<text x="2137" y="2023">44 112</text>
+<text x="2137" y="2042">45 115</text>
+<text x="2137" y="2061">46 117</text>
+<text x="2137" y="2080">47 120</text>
+<text x="2137" y="2099">48 122</text>
+<text x="2137" y="2118">49 125</text>
+<text x="2227" y="1947">50 127</text>
+<text x="2227" y="1966">51 130</text>
+<text x="2227" y="1985">52 133</text>
+<text x="2227" y="2004">53 135</text>
+<text x="2227" y="2023">54 138</text>
+<text x="2227" y="2042">55 140</text>
+<text x="2227" y="2061">56 143</text>
+<text x="2227" y="2080">57 145</text>
+<text x="2227" y="2099">58 148</text>
+<text x="2227" y="2118">59 150</text>
+<text x="2317" y="1947">60 153</text>
+<text x="2317" y="1966">61 156</text>
+<text x="2317" y="1985">62 158</text>
+<text x="2317" y="2004">63 161</text>
+<text x="2317" y="2023">64 163</text>
+<text x="2317" y="2042">65 166</text>
+<text x="2317" y="2061">66 168</text>
+<text x="2317" y="2080">67 171</text>
+<text x="2317" y="2099">68 173</text>
+<text x="2317" y="2118">69 176</text>
+<text x="2407" y="1947">70 179</text>
+<text x="2407" y="1966">71 181</text>
+<text x="2407" y="1985">72 184</text>
+<text x="2407" y="2004">73 186</text>
+<text x="2407" y="2023">74 189</text>
+<text x="2407" y="2042">75 191</text>
+<text x="2407" y="2061">76 194</text>
+<text x="2407" y="2080">77 196</text>
+<text x="2407" y="2099">78 199</text>
+<text x="2407" y="2118">79 201</text>
+<text x="2497" y="1947">80 204</text>
+<text x="2497" y="1966">81 207</text>
+<text x="2497" y="1985">82 209</text>
+<text x="2497" y="2004">83 212</text>
+<text x="2497" y="2023">84 214</text>
+<text x="2497" y="2042">85 217</text>
+<text x="2497" y="2061">86 219</text>
+<text x="2497" y="2080">87 222</text>
+<text x="2497" y="2099">88 224</text>
+<text x="2497" y="2118">89 227</text>
+<text x="2587" y="1947">90 229</text>
+<text x="2587" y="1966">91 232</text>
+<text x="2587" y="1985">92 235</text>
+<text x="2587" y="2004">93 237</text>
+<text x="2587" y="2023">94 240</text>
+<text x="2587" y="2042">95 242</text>
+<text x="2587" y="2061">96 245</text>
+<text x="2587" y="2080">97 247</text>
+<text x="2587" y="2099">98 250</text>
+<text x="2587" y="2118">99 252</text>
+<text x="2677" y="1947">100 255</text>
+</g>
+<g fill="#000000" font-size="48px" font-weight="bold" xml:space="preserve">
+<text x="3145" y="1795">SVG 1.1 NAMED COLORS</text>
+</g>
+<g fill="#000000" font-size="40px" font-weight="bold" xml:space="preserve">
+<text x="3160" y="1905">"their use is not encouraged"</text>
+</g>
+</svg>
