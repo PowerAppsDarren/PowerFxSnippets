@@ -1,0 +1,4 @@
+- attAttachFiles:
+    Control: Attachments
+    Properties:
+      IsInDataCard: =true
