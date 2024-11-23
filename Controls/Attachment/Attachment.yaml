@@ -7,6 +7,7 @@
       MaxAttachments: =10
       Tooltip: ="Upload files here"
       BorderColor: =App.Theme.Colors.Lighter60
+      IsInDataCard: =true
       BorderThickness: =3
       Color: =App.Theme.Colors.Darker30
       Fill: =ColorFade(App.Theme.Colors.Lighter80, 70%)
@@ -20,3 +21,4 @@
       Width: =400
       X: =(Parent.Width - Self.Width) / 2
       Y: =(Parent.Height - Self.Height) / 2
+      
