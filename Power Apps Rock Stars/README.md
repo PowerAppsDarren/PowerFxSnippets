@@ -1,6 +1,14 @@
 # Power Apps Rock Stars
 
+Sorted by GitHub Username: 
+
+- https://github.com/aprildunnam
 - https://github.com/laskewitz
+- https://github.com/lisacrosbie
+- https://github.com/matthewdevaney
+- https://github.com/misskristine94
+- https://github.com/PowerAppsDarren
+
 
 ## Free Community & Course Materials 
 
