@@ -1,26 +1,25 @@
-# Color Palettes
+# App.OnStart
 
-This is some YAML you can paste into your canvas Power Apps applciation that will 
+Here are code comments to put at the top of your App.OnStart(). 
 
 ## Add This to Your Application
 
 ```PowerFx
-fxColorPalette = {
-    Primary:            ColorValue("#742774"), 
-    Dark:               ColorValue("#BB35A4"),
-    Light:              ColorValue("#D467B9"),
-    Lighter:            ColorValue("#E48CC7"),
-    Lightest:           ColorValue("#E9A1CB"),
-    Faint:              ColorFade(ColorValue("#E9A1CB"), 80%),
-    LightGray:          ColorValue("#f5f5f5"),
-    Background:         RGBA(255, 255, 255, 1),
-    Text:               RGBA(0, 0, 0, 1)
-}
+/* ======================================================================
+
+    App.OnStart 
+    
+                - Use this code block sparingly!
+                - Don't use it unless you have a good reason to, and
+                - Have determined what you put in here cannot be
+                  added to App.Formulas or even a loading screen's 
+                  OnVisible event property. 
+
+    For more information: 
+    https://powerplatformlinks.com/Power+Apps/Canvas/App+OnStart
+
+   =================================================================== */
 ```
-
-## Links
-
-- https://primer.style/prism/ ‼️
 
 ## Free Community & Course Materials 
 
