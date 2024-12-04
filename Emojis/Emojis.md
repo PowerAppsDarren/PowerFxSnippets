@@ -6,6 +6,7 @@
 - https://unicode.org/emoji/charts/index.html
 
 
+
 ## Free Community & Course Materials 
 
 🆓 Get access to our free Power Apps crash course (and our community) here: 
