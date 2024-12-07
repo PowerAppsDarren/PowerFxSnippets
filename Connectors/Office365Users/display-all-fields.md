@@ -4,7 +4,7 @@ This is a template to be used for new code snippets for this code repository.
 
 ## Add This to Your Application
 
-```JavaScript
+```PowerFx
 - Label8_93:
     Control: Label
     Properties:
