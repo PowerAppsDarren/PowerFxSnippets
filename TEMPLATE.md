@@ -1,6 +1,6 @@
 # NEW_TOPIC_GOES_HERE
 
-This is some YAML you can paste into your canvas Power Apps applciation that will 
+This is some YAML you can paste into your canvas Power Apps applciation.
 
 ## Add This to Your Application
 
@@ -13,6 +13,12 @@ Notify("Hello, World");
 
 🆓 Get access to our free Power Apps crash course (and our community) here: 
 - https://tinyurl.com/DarrensStuffFree 🔗
+
+
+
+
+
+
 
 ## Support
 

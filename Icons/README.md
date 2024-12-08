@@ -18,13 +18,13 @@
 - https://icon-sets.iconify.design/
 - https://marella.me/material-design-icons/demo/svg/
 - https://github.com/primer/octicons
+- https://github.com/microsoft/PowerBI-Icons
 
 
 ## Icon Packs
 
 | Pack | Github link |
 |--------------|-----------------|
-| Microsoft Icons | A collection of over 5000 Microsoft icons|
 | Fluent System Icons | https://github.com/microsoft/fluentui-system-icons|
 | Fluent Emoji's | https://github.com/microsoft/fluentui-emoji|
 | Google Material Design | https://github.com/google/material-design-icons|
