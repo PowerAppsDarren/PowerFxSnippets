@@ -1,5 +1,7 @@
 # Icons, Icons, Icons! 🤠
 
+Related: [[..\SVGs\SVGs.md]]
+
 - https://www.svgrepo.com/
 - https://icons.getbootstrap.com/
 - https://svgapi.com/
@@ -8,6 +10,7 @@
 - https://www.w3.org/Graphics/SVG/
 - https://github.com/google/material-design-icons 
 - https://github.com/Viglino/font-gis/tree/main/svg
+    - https://viglino.github.io/font-gis/
 - https://github.com/astrit/css.gg
 - https://github.com/coreui/coreui-icons
 - https://teenyicons.com/
