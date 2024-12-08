@@ -13,3 +13,5 @@ Credit: [Matthew Devaney](https://www.linkedin.com/feed/update/urn:li:activity:7
 ## Final Considerations
 
 I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).
+
+
