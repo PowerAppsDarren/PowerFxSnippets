@@ -5,7 +5,7 @@
 
 - https://www.webfx.com/tools/emoji-cheat-sheet/
 - https://unicode.org/emoji/charts/index.html
-
+- https://github.com/scotch-io/All-Github-Emoji-Icons
 
 
 ## Free Community & Course Materials 
