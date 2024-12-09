@@ -26,6 +26,9 @@ I hope you have found this helpful. If you need any help with the Power Platform
 **THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 
+
+https://github.com/scotch-io/All-Github-Emoji-Icons
+
 +1👍
 100💯
 1234🔢
