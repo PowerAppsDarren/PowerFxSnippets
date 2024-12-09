@@ -189,6 +189,9 @@ App As appinfo:
             // IfError() function.
             //
             // Clear(AllErrors);
+            // 
+            // Now it is time to send out an email notification to the developer(s)
+            // 
             Office365Outlook.SendEmailV2(
                 // =============================================================
                 // WHO TO SEND THE EMAIL TO
