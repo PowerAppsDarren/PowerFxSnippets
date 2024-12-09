@@ -16,3 +16,5 @@ fxGetColoredSVGNoEncode(SVGText:Text, ColorToReplace:Text, DesiredColor:Text):Te
 fxSVGEncode(svgCode:Text):Text = 
     "data:image/svg+xml; utf8, " & EncodeUrl(svgCode);
 ```
+
+- A beginners guide to SVG: https://www.youtube.com/playlist?list=PL4-IK0AVhVjP0EeV513_b30lhGRTfMbYd
