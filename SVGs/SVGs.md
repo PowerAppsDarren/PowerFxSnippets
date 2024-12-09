@@ -1,9 +1,12 @@
+# SVGs
 
-# Replace and Encode SVGs
+## Resources
+
+- [[Guide to SVGs]]
+
+## Replace and Encode SVGs
 
 These two formulas go well together.
-
-## Add This to Your Application
 
 ```PowerFx
 fxGetColoredSVGNoEncode(SVGText:Text, ColorToReplace:Text, DesiredColor:Text):Text =  
