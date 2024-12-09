@@ -3,6 +3,7 @@
 
 ## Related Links & Resources
 
+- https://github.com/muan/emojilib/blob/main/dist/emoji-en-US.json
 - https://emoji.muan.co/
 - https://www.webfx.com/tools/emoji-cheat-sheet/
 - https://unicode.org/emoji/charts/index.html
