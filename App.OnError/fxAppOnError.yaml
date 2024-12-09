@@ -183,7 +183,12 @@ App As appinfo:
                     }
                 )
             );
-            Clear(AllErrors);
+            //  
+            // The AllErrors collection is a global collection that is only 
+            // available in error contexts like this OnError event or inside an 
+            // IfError() function.
+            //
+            // Clear(AllErrors);
             Office365Outlook.SendEmailV2(
                 // =============================================================
                 // WHO TO SEND THE EMAIL TO
