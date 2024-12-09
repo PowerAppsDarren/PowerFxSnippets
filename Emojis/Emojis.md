@@ -3,6 +3,7 @@
 
 ## Related Links & Resources
 
+- https://www.webfx.com/tools/emoji-cheat-sheet/
 - https://unicode.org/emoji/charts/index.html
 
 
