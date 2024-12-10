@@ -189,12 +189,6 @@ The code will work as is after you paste this in, but I recommend that you follo
             )
         );
         //  
-        // The AllErrors collection is a global collection that is only 
-        // available in error contexts like this OnError event or inside an 
-        // IfError() function.
-        //
-        // Clear(AllErrors);
-        // 
         // Now it is time to send out an email notification to the developer(s)
         // 
         Office365Outlook.SendEmailV2(
