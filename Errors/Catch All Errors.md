@@ -6,7 +6,7 @@ Related content: https://youtu.be/8qcPq4peows 📺
 
 The code will work as is after you paste this in, but I recommend that you follow the steps outlined in the code comments. In fact most (**almost 70%**) of it is code comments for your benefit. 
 
-```
+```PowerFx
 /*  ======================================================================
     NOTE:   Here are links to helpful documentation if you'd like to fully 
             understand the following code and, perhaps, add to it. 
