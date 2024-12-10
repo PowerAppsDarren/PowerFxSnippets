@@ -2,6 +2,8 @@
 
 If you'd like to literally catch all errors in your canvas Power Apps, simply copy and paste the code shown below. 
 
+https://youtu.be/8qcPq4peows
+
 ```
 /*  ======================================================================
     NOTE:   Here are links to helpful documentation if you'd like to fully 
