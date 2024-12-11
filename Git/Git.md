@@ -5,3 +5,9 @@
 - [Git Traning Manual](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
     - [Source](https://github.com/githubtraining/training-manual)
     - [For Admins](https://githubtraining.github.io/admin-training/#/01_getting_ready_for_class)
+
+## Power Platform Related Repos
+
+- https://github.com/ewingjm/development-hub
+    - https://medium.com/capgemini-microsoft-team/continuous-integration-for-power-apps-the-development-hub-7f1b4320ecfd 
+- https://github.com/topics/powerapps-solutions
