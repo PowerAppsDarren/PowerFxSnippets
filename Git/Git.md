@@ -12,6 +12,7 @@
     - https://medium.com/capgemini-microsoft-team/continuous-integration-for-power-apps-the-development-hub-7f1b4320ecfd 
 - https://github.com/topics/powerapps-solutions
 - https://github.com/roshangautam/shazam 
+- https://learn.microsoft.com/en-us/power-platform/enterprise-templates/overview#available-enterprise-templates
 
 ## Topics
 
@@ -20,4 +21,5 @@
 
 ## Documentation Repos
 
+- https://github.com/MicrosoftDocs
 - https://github.com/MicrosoftDocs/power-platform
