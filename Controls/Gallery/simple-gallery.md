@@ -1,3 +1,6 @@
+# Simple Gallery
+
+```PowerFx
 - galFieldTypes:
     Control: Gallery
     Variant: galleryVertical
@@ -23,3 +26,4 @@
           Text: =ThisItem.SampleHeading
           Height: =Parent.TemplateHeight
           Width: =Parent.TemplateWidth
+```
