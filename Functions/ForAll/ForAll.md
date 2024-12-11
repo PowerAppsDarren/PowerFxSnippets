@@ -1,0 +1,7 @@
+# ForAll Function
+
+```PowerFx
+ForAll(
+    
+)
+```
