@@ -1,5 +1,7 @@
 # RGBtoLIN
 
+Credit: https://github.com/P3N-101/color-functions
+
 ```PowerFx
 RGBA(
       (R * 61.8 / 100.0 + G * 32 / 100.0 + B * 6.2 / 100.0),
