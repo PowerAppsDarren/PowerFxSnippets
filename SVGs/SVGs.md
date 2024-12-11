@@ -3,6 +3,7 @@
 ## Resources
 
 - [[Guide to SVGs]]
+- [2,000 Free Power Apps Icons](https://www.matthewdevaney.com/2000-free-power-apps-icons/)
 
 ## Replace and Encode SVGs
 
