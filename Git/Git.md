@@ -11,3 +11,9 @@
 - https://github.com/ewingjm/development-hub
     - https://medium.com/capgemini-microsoft-team/continuous-integration-for-power-apps-the-development-hub-7f1b4320ecfd 
 - https://github.com/topics/powerapps-solutions
+- https://github.com/roshangautam/shazam 
+
+## Topics
+
+- https://github.com/topics/powerapps 
+- https://github.com/topics/powerplatform 
