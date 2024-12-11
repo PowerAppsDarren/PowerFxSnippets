@@ -17,3 +17,7 @@
 
 - https://github.com/topics/powerapps 
 - https://github.com/topics/powerplatform 
+
+## Documentation Repos
+
+- https://github.com/MicrosoftDocs/power-platform
