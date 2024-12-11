@@ -58,3 +58,15 @@ I hope you have found this helpful. If you need any help with the Power Platform
 ## Disclaimer
 
 **THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+```
+- Image1:
+    Control: Image
+    Properties:
+      Image: ="data:image/svg+xml; utf8, " & EncodeUrl("<svg  viewBox='0 0 2048 2048' xmlns='http://www.w3.org/2000/svg'><path d='M1754 1220l142 308-338 30-30 338-308-142-196 277-196-277-308 142-30-338-338-30 142-308-277-196 277-196-142-308 338-30 30-338 308 142 196-277 196 277 308-142 30 338 338 30-142 308 277 196-277 196zm-50 196l-111-240 216-152-216-152 111-240-264-24-24-264-240 111-152-216-152 216-240-111-24 264-264 24 111 240-216 152 216 152-111 240 264 24 24 264 240-111 152 216 152-216 240 111 24-264 264-24z' fill='#000000'></path></svg>")
+      BorderThickness: =4
+      Height: =414
+      Width: =496
+      X: =102
+      Y: =84
+```
