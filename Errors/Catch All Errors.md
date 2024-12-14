@@ -207,7 +207,7 @@ The code will work as is after you paste this in, but I recommend that you follo
             $"<html><body>
                 <h3>Error Report for {MyUsersName} ({MyUsersEmail})</h3>
                 <table  style='width:100%;'
-                        border='1' 
+                        border='1'  
                         cellpadding='10' 
                         cellspacing='0'>
                     <tr style='{LightGrayColorHexBG} width:100%;'>     
