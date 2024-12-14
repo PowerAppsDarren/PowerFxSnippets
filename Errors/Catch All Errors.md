@@ -130,6 +130,7 @@ The code will work as is after you paste this in, but I recommend that you follo
         STEP #2:    Create 9 fields that are single line of text, 
                     string, or nvarchar(255) for SQL Server. 
                     {
+                        Kind:                   "",
                         Message:                "",
                         Source:                 "",
                         Observed:               "",
