@@ -5,4 +5,4 @@
 
 ## Useful Prompts
 
-![[.\Assets\image.png]]
+![[./Assets/image.png]]
