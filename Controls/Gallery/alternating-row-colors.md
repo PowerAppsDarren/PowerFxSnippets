@@ -69,7 +69,7 @@ Here's the YAML code to paste into a screen in Power Apps Studio:
               Height: =Parent.Height
               PaddingLeft: =10
               Size: =15
-              Width: =Parent.Width - Self.X - fxConstants.Control.Height
+              Width: =Parent.Width - Self.X - Parent.Height
               X: =lblHeading02_1.X + lblHeading02_1.Width
     - galListing_1:
         Control: Gallery
