@@ -21,4 +21,3 @@
       Width: =400
       X: =(Parent.Width - Self.Width) / 2
       Y: =(Parent.Height - Self.Height) / 2
-      
