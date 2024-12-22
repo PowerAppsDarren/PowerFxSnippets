@@ -48,7 +48,3 @@ First of all, you need to implement the changes outlined in [all-icons-in-galler
           PaddingTop: =Self.Height * 15%
           Width: =Self.Height
 ```
-
-## Final Considerations
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).
