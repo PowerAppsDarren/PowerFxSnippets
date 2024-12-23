@@ -2,6 +2,9 @@
 
 Related: [[..\SVGs\SVGs.md]]
 
+- https://svgmix.com/icons
+  - https://svgmix.com/collections
+  - https://svgmix.com/item/4roeO1/teammeeting2
 - https://www.svgrepo.com/
 - https://icons.getbootstrap.com/
 - https://svgapi.com/
