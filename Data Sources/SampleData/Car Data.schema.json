@@ -1,0 +1,114 @@
+{
+  "id": 670037,
+  "num_rows": 500,
+  "file_format": "csv",
+  "name": "Car Data",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "uuid",
+      "null_percentage": 0,
+      "type": "GUID",
+      "formula": null
+    },
+    {
+      "name": "status_code",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "active",
+        "inactive",
+        "pending",
+        "retired"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "created_at",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "1/1/2020",
+      "max": "12/31/2021",
+      "format": "%-m/%-d/%Y",
+      "formula": null
+    },
+    {
+      "name": "updated_at",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "1/1/2020",
+      "max": "12/31/2021",
+      "format": "%-m/%-d/%Y",
+      "formula": null
+    },
+    {
+      "name": "user_assigned_uuid",
+      "null_percentage": 0,
+      "type": "GUID",
+      "formula": null
+    },
+    {
+      "name": "notes",
+      "null_percentage": 0,
+      "type": "Paragraphs",
+      "min": 1,
+      "max": 1,
+      "formula": null
+    },
+    {
+      "name": "demand",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "category",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Economical",
+        "Sport",
+        "Luxury",
+        "Van",
+        "Truck",
+        "Extra Large"
+      ],
+      "selectionStyle": "custom",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "year",
+      "null_percentage": 0,
+      "type": "Car Model Year",
+      "formula": null
+    },
+    {
+      "name": "make",
+      "null_percentage": 0,
+      "type": "Car Make",
+      "formula": null
+    },
+    {
+      "name": "model",
+      "null_percentage": 0,
+      "type": "Car Model",
+      "formula": null
+    },
+    {
+      "name": "vin",
+      "null_percentage": 0,
+      "type": "Car VIN",
+      "formula": null
+    }
+  ]
+}
