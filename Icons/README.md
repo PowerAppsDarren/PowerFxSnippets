@@ -25,6 +25,7 @@ Related: [[..\SVGs\SVGs.md]]
 - https://marella.me/material-design-icons/demo/svg/
 - https://github.com/primer/octicons
 - https://github.com/microsoft/PowerBI-Icons
+- https://devicons.railway.com/
 
 
 ## Icon Packs
