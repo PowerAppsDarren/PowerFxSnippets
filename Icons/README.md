@@ -26,7 +26,8 @@ Related: [[..\SVGs\SVGs.md]]
 - https://github.com/primer/octicons
 - https://github.com/microsoft/PowerBI-Icons
 - https://devicons.railway.com/
-- https://devicons.railway.com/git?variant=color 
+- https://devicons.railway.com/
+  - https://devicons.railway.com/git?variant=color 
 - https://og.railway.com/
   - https://ogp.me/
 
