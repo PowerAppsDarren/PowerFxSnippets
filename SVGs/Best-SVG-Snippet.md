@@ -10,6 +10,8 @@ Here is the best SVG snippet that I've found so far. It's a bit more complex tha
 4. **SVG Prefix**: Directly from Google: "data:image/svg+xml;utf8," is a prefix used to embed an SVG image directly into a web page as a data URI, indicating that the following data is an SVG image encoded in UTF-8 format.
 5. **SVG Code with New Color**: Here, we'll just put these two strings together after we do a URL encode on SVGCodeWithNewColor
 
+## Put this code in your Image
+
 ```PowerFx
 With( 
     {
@@ -70,7 +72,7 @@ With(
                             7
                         ), // example: "#00ff00"
         // 
-        // STEP 4️⃣4
+        // STEP 4️⃣
         //              Directly from Google: 
         //              "data:image/svg+xml;utf8," is a prefix used to embed 
         //              an SVG image directly into a web page as a data URI, 
