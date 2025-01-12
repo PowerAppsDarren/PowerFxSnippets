@@ -2,12 +2,6 @@
 
 Here is the best SVG snippet that I've found so far. It's a bit more complex than the other snippets, but it's worth it. 
 
-> 💡If you'd like to take all this to the next level and simplify things, go to your App.Formulas,
-and create a named formula or user-defined function to replace each of these steps.
-1. [SVG code for a Spinner](Basic-SVG-Spinner.md) to add to your App.Formulas
-2. [Get Colored SVG](Basic-SVG-SVG-Color.md) to add to your App.Formulas
-
-
 ## Get These Ready!
 
 1. **SVG Code**: aYou can easily find SVG code on the net. SVG code will begin and end with a single double quote ("). There will be other double quotes inside the SVG code. You must double up on those! ...otherwise PowerFx will be confused and thinks that you're trying to end and start other strings inside. This is what is called an 'escape sequence' in the programming world.
@@ -112,3 +106,8 @@ With(
     )
 )
 ```
+
+> 💡If you'd like to take all this to the next level and simplify things, go to your App.Formulas,
+and create a named formula or user-defined function to replace each of these steps.
+1. [SVG code for a Spinner](Basic-SVG-Spinner.md) to add to your App.Formulas
+2. [Get Colored SVG](Basic-SVG-SVG-Color.md) to add to your App.Formulas
