@@ -37,7 +37,7 @@ With(
         //              is black as you see in the above example. It could be some other Color, 
         //              so adjust accordingly. 
         //
-        ReplacedColor:  "#000000", 
+        ReplacedColor:  "#000000",  
         // 
         // STEP 3️⃣
         //              Hexadecimal, also known as "hex", is a numbering system that 
