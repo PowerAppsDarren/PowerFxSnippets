@@ -103,7 +103,7 @@ With(
             SVGPrefix,
             EncodeUrl(SVGCodeWithNewColor)
         )
-    )
+    ) 
 )
 ```
 
