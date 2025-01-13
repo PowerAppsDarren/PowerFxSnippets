@@ -65,7 +65,7 @@ With(
                         Left(
                             Substitute(
                                 JSON(
-                                    cmpSpinner.PrimaryThemeColor,
+                                    App.Theme.Colors.Primary,
                                     JSONFormat.Compact
                                 ),
                                 """",
