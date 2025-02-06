@@ -4,6 +4,8 @@ In this directory you'll find resources related to specific data sources or samp
 
 ## Sample Data
 
+- https://tradingeconomics.com/
+
 ### File Downloads
 
 * [File: Person.csv](/SampleData/Person.csv)
