@@ -23,6 +23,3 @@ In this directory you'll find resources related to specific data sources or samp
 
 * [MSSQL - Model Table](/MSQL/ModelTable.md)
 
-## Final Considerations
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).
