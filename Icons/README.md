@@ -2,6 +2,7 @@
 
 Related: [[..\SVGs\SVGs.md]]
 
+- https://icomoon.io/ 
 - https://svgmix.com/icons
   - https://svgmix.com/collections
   - https://svgmix.com/item/4roeO1/teammeeting2
