@@ -2,6 +2,18 @@
 
 In this directory you'll find sample data (or links to them) you can easily import into your own projects. They are usually in CSV format, but can be in other formats as well.
 
+### File Downloads
+
+* [File: Person.csv](/SampleData/Person.csv)
+
+### Links to Downloads
+
+* [Data Catalog](https://datacatalog.worldbank.org/collections)
+* [Link: World countries](https://stefangabos.github.io/world_countries/)
+    * [On GitHub](https://github.com/stefangabos/world_countries/)
+
+### Other links I haven't had time to add descriptions for yet. 
+
 - https://tradingeconomics.com/
 - https://data.gov/
     - https://github.com/GSA/data.gov
