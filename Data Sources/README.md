@@ -1,14 +1,6 @@
 # Data Sources
 
-In this directory you'll find resources related to specific data sources or sample data you can easily import. 
-
-## Sample Data
-
-- https://tradingeconomics.com/
-- https://data.gov/
-    - https://github.com/GSA/data.gov
-    - https://github.com/orgs/GSA/repositories?q=sort%3Astars
-
+In this directory you'll find resources related to specific data sources. 
 
 ### File Downloads
 

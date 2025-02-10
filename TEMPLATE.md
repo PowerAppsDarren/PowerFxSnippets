@@ -14,14 +14,6 @@ Notify("Hello, World");
 🆓 Get access to our free Power Apps crash course (and our community) here: 
 - [Free Stuff](https://tinyurl.com/DarrensStuffFree) 🔗
 
-
-
-
-
-
-
-
-
 ## Support
 
 I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at 
