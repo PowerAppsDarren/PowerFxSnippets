@@ -1,4 +1,4 @@
-# Icons
+# Icon Enumeration to Collection
 
 This code works great, doesn't it?
 
@@ -7,6 +7,8 @@ IconControl1.Icon = Icon.Home
 ```
 
 Icon is an **enumeration**, just like Color, Font, and Alignment. You type these enumeration names, then use a "." to see all the possible values. Very nice. However, it can be a bit tedious to remember all the icons and their names. 
+
+With a collection, you can easily list, filter, sort, lookup, and search for an icon by name, category, tags, etc. 
 
 That's why I've created a collection of all the icons in canvas Power Apps. This way, you can easily list, filter, sort, lookup and search for an icon by name or description, and use the "Icon" property in the collection just like you would do with the enumeration. Look at all the other fields contained in the colletion: 
 
