@@ -6,8 +6,25 @@ This is a helpful canvas Power Apps code snippet.
 
 ```PowerFx
 
-    fxMyPerson := Type({FirstName: Text, LastName: Text});
+    //
+    // Here is an example of a user defined type in PowerFx
+    // with basic information about a person.
+    //
+    fxMyPerson := Type(
+        {
+            FirstName:          Text, 
+            LastName:           Text, 
+            DateOfBirth:        Date,
+            Email:              Text,
+            Phone:              Text,
+            Notes:              Text
+        }
+    );
 
+    //
+    // Here is an example of a user defined type in PowerFx
+    // We simply define a type that is a collection of the fxMyPerson type.
+    //
     fxPeople := Type([fxMyPerson]);
 
 ```
