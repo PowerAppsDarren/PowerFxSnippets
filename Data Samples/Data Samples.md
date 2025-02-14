@@ -26,3 +26,4 @@ In this directory you'll find sample data (or links to them) you can easily impo
 - https://www.reddit.com/r/cars/comments/c9u5qc/i_found_a_database_full_of_hd_car_photos_from_a/
 - https://github.com/topics/make-model-year
 - https://github.com/kingjosephm/vehicle_make_model_dataset
+- https://github.com/faezetta/VMMRdb
