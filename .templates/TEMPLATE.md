@@ -19,7 +19,7 @@ This is some YAML you can paste into your canvas Power Apps applciation.
 
 ### Support
 
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to message us from [Our Website](https://superpowerlabs.co)
+I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to message us from [Our Website](https://superpowerlabs.co) or check out our [YouTube Channel](https://youtube.com/superpowerlabs).
 
 ### Disclaimer
 
