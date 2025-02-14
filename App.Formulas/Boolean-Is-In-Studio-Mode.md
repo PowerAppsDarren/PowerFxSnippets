@@ -9,8 +9,16 @@ Credit: [Matthew Devaney](https://www.linkedin.com/feed/update/urn:li:activity:7
     fxIsInStudioMode = StartsWith(Host.Version, "PowerApps-Studio");
 ```
 
-## Final Considerations
+---
 
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).
+## Free Community & Course Materials
 
+🆓 Get access to our [free community and resources](https://tinyurl.com/DarrensStuffFree) ⬅️
 
+## Support
+
+I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to message us from [Our Website](https://superpowerlabs.co)
+
+## Disclaimer
+
+THIS CODE IS PROVIDED **AS IS WITHOUT WARRANTY OF ANY KIND**, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
