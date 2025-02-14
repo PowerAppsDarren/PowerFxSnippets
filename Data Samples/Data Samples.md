@@ -19,3 +19,9 @@ In this directory you'll find sample data (or links to them) you can easily impo
     - https://github.com/GSA/data.gov
     - https://github.com/orgs/GSA/repositories?q=sort%3Astars
 - https://abcnews.go.com/538
+
+### Car Data
+
+- https://www.kaggle.com/datasets/prondeau/the-car-connection-picture-dataset
+- https://www.reddit.com/r/cars/comments/c9u5qc/i_found_a_database_full_of_hd_car_photos_from_a/
+- https://github.com/topics/make-model-year
