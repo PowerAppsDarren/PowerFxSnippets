@@ -2,7 +2,7 @@
 
 This is a helpful canvas Power Apps code snippet.
 
-## Add This to Your Application
+## Add This to Your App.Formulas!
 
 ```PowerFx
 
@@ -25,20 +25,26 @@ This is a helpful canvas Power Apps code snippet.
     // Here is an example of a user defined type in PowerFx
     // We simply define a type that is a collection of the fxMyPerson type.
     //
-    fxPeople := Type([fxMyPerson]);
+    fxPeople := Type(
+        [
+            fxMyPerson
+        ]
+    );
 
 ```
 
 ---
 
-## Free Community & Course Materials
+# Parting Thoughts
+
+### Free Community & Course Materials
 
 🆓 Get access to our [free community and resources](https://tinyurl.com/DarrensStuffFree) ⬅️
 
-## Support
+### Support
 
 I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to message us from [Our Website](https://superpowerlabs.co)
 
-## Disclaimer
+### Disclaimer
 
 THIS CODE IS PROVIDED **AS IS WITHOUT WARRANTY OF ANY KIND**, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
