@@ -6,7 +6,7 @@ Credit: [Matthew Devaney](https://www.linkedin.com/feed/update/urn:li:activity:7
 
 
 ```PowerFx
-    fxInStudioMode = StartsWith(Host.Version, "PowerApps-Studio");
+    fxIsInStudioMode = StartsWith(Host.Version, "PowerApps-Studio");
 ```
 
 ## Final Considerations
