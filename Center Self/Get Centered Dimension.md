@@ -15,6 +15,11 @@ Need to center a control in relation to its parent dimension? Use this formula t
                             SelfDimension:Number):Number = (
         (ParentDimension - SelfDimension) / 2
     );
+
+    // You could simply copy/paste this for X value for centered self
+    // #️⃣ fxGetCenteredDimension(Parent.Width, Self.Width) 
+    // You could simply copy/paste this for Y value for centered self
+    // #️⃣ fxGetCenteredDimension(Parent.Height, Self.Height) 
 ```
 
 ---
