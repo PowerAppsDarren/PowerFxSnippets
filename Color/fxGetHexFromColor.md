@@ -15,8 +15,6 @@ Paste this code into your App.Formulas and call it to convert a ColorValue to a 
             Left(MyVal, Len(MyVal) - 2)
         )
     );
-
-
     fxGetHexFromColor(ColorValue:Color):Text = Left(
         Substitute(
             JSON(ColorValue, JSONFormat.Compact), 
