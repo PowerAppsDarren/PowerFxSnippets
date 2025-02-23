@@ -2,7 +2,7 @@
 
 ## Visual Demo
 
-![Images/2025-02-23-Simple-Elegant.png](Images/2025-02-23-Simple-Elegant.png)
+![Images/Gallery-Simple-Elegant.png](Images/Gallery-Simple-Elegant.png)
 
 ## Description of the code snippet
 
