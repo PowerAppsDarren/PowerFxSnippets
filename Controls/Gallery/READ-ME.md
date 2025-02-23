@@ -1,6 +1,4 @@
-# READ-ME 
-
-## Simple, Yet Elegant
+# Simple, Yet Elegant
 
 ![Images/gallery-elegant.png](Images/gallery-elegant.png)
 
@@ -129,3 +127,4 @@
                         Width: =Parent.Width - Self.X
                         X: =lblHeading01.X + lblHeading01.Width
 ```
+
