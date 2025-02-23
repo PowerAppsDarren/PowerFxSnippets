@@ -5,8 +5,7 @@
 ![Images/gallery-elegant.png](Images/gallery-elegant.png)
 
 
-```PowerFx
-- ctrGalleryContainingShadow:
+```PowerFx- ctrGalleryContainingShadow:
     Control: GroupContainer@1.3.0
     Variant: AutoLayout
     Properties:
@@ -19,8 +18,8 @@
       PaddingRight: =20
       PaddingTop: =20
       Width: =350
-      X: =225
-      Y: =48
+      X: =222
+      Y: =225
     Children:
       - cntGalleryGrouping:
           Control: GroupContainer@1.3.0
