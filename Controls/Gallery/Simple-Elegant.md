@@ -2,9 +2,10 @@
 
 ## Visual Demo
 
-![Images/gallery-elegant.png](Images/gallery-elegant.png)
+![Images/2025-02-23-Simple-Elegant.png](Images/2025-02-23-Simple-Elegant.png)
 
 https://www.youtube.com/live/quD2KMtAwTs?si=hsNJ9AebtTKM0Jqz
+
 
 ## Description of the code snippet
 
