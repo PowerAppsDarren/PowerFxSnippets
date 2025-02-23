@@ -2,7 +2,7 @@
 
 ## Simple, Yet Elegant
 
-![Images/elegant.png](Images/elegant.png)
+![Images/gallery-elegant.png](Images/gallery-elegant.png)
 
 
 ```PowerFx
