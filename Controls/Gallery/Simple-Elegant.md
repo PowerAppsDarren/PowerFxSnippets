@@ -1,9 +1,69 @@
 # Simple, Yet Elegant
 
+## Visual Demo
+
 ![Images/gallery-elegant.png](Images/gallery-elegant.png)
 
 https://www.youtube.com/live/quD2KMtAwTs?si=hsNJ9AebtTKM0Jqz
 
+## Description of the code snippet
+
+### GroupContainer
+- **Styling**
+  - Fill: Primary color
+  - Shadow: Semi-bold drop shadow
+  - Border: 
+    - Color: Matches primary fill
+    - Thickness: 2px
+  - Radius: 12px (all corners)
+- **Dimensions**
+  - Width: Matches parent container
+  - Height: Parent container height minus top/bottom padding
+- **Positioning**
+  - 40px from parent's left/top edges
+
+### Header
+- **Visual Design**
+  - Text: "APP USERS" in white (semi-bold)
+  - Fill: Primary color
+  - Border: Bottom border matching primary color
+- **Layout**
+  - Height: 50px
+  - Padding: Left 10px
+  - Radius: 0px (all corners)
+  - Width: Matches parent container
+- **Position**
+  - Fixed at container top
+
+### Gallery
+- **Layout**
+  - Direction: Vertical
+  - Transition: Push effect
+- **Dimensions**
+  - Width: Parent width minus left/right padding
+  - Height: Parent height minus header height & top padding
+- **Positioning**
+  - Below header
+  - 40px from container's left/top edges
+- **Visual Elements**
+  - Background: Light gray fill
+  - Border: Thin primary color outline
+  - Items:
+    - Default: Light gray fill
+    - Selected: White fill
+    - Height: 50px
+    - Padding: 2px
+    - Content:
+      - First + Last Name
+      - User Title
+      - **Badge**
+        - Style: Rounded brand-color
+        - Content: First initials
+        - Alignment: Vertical center
+
+### Responsive Behavior
+- Automatic adjustment to parent container dimensions
+- Dynamic positioning relative to header and container edges
 
 
 ```PowerFx- ctrGalleryContainingShadow:
