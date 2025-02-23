@@ -4,3 +4,4 @@
 | THUMBNAILS |
 |:--------:|
 | <a href="Simple-Elegant.md">Simple & Elegant<br><img src="Images/Gallery-Simple-Elegant.png" alt="Alt text description" width="300"/></a> |
+| <a href="Simple-Elegant.md">Alternating Row Colors<br><img src="Images/Gallery-Alternating-Background" alt="Alt text description" width="300"/></a> |
