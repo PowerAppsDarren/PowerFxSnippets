@@ -7,13 +7,14 @@
 ## Description of the code snippet
 
 ### GroupContainer
+
 - **Styling**
-  - Fill: Primary color
-  - Shadow: Semi-bold drop shadow
-  - Border: 
-    - Color: Matches primary fill
-    - Thickness: 2px
-  - Radius: 12px (all corners)
+    - Fill: Primary color
+    - Shadow: Semi-bold drop shadow
+    - Border: 
+        - Color: Matches primary fill
+        - Thickness: 2px
+    - Radius: 12px (all corners)
 - **Dimensions**
   - Width: Matches parent container
   - Height: Parent container height minus top/bottom padding
@@ -63,6 +64,7 @@
 - Automatic adjustment to parent container dimensions
 - Dynamic positioning relative to header and container edges
 
+## PowerFx code
 
 ```PowerFx- ctrGalleryContainingShadow:
     Control: GroupContainer@1.3.0
