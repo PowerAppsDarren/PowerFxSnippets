@@ -2,6 +2,8 @@
 
 ![Images/gallery-elegant.png](Images/gallery-elegant.png)
 
+https://www.youtube.com/live/quD2KMtAwTs?si=hsNJ9AebtTKM0Jqz
+
 - This gallery is a simple yet elegant way to display a list of items. 
 - The gallery is contained within a GroupContainer that has a semibold drop shadow and a dotted border style. 
 - The gallery itself has a light gray fill and a thin primary color border. 
