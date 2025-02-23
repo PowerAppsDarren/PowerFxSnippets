@@ -1,6 +1,6 @@
 # README: Gallery Control
 
-[[Simple-Elegant]]
+- [Simple & Elegant](Simple-Elegant.md)
 
 
 
