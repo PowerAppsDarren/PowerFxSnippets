@@ -4,11 +4,9 @@
 
 
 
-| Date Published  | Snippet |
-| --------------  | -------------------------------------------------------------------------  |
-| 2025/02/23      | [Simple & Elegant](Simple-Elegant.md)                                      | 
-|                 | <img src="Images/gallery-elegant.png" alt="Alt text" width="200"/>         | 
-
+| Snippet |
+|: --------------  :| 
+| Simple & Elegant<br><a href="Simple-Elegant.md"><img src="Images/gallery-elegant.png" alt="Alt text description" width="200"/></a> |
 
 
 
@@ -21,4 +19,9 @@
 
 Here's the link and the image I want to combine
 [Simple & Elegant](Simple-Elegant.md)       
-<img src="Images/gallery-elegant.png" alt="Alt text" width="200"/>        
+<img src="Images/gallery-elegant.png" alt="Alt text" width="200"/>  
+
+Simple & Elegant<br>
+<a href="Simple-Elegant.md">
+  <img src="Images/gallery-elegant.png" alt="Alt text description" width="200"/>
+</a>
