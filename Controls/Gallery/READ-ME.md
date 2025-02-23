@@ -1,27 +1,6 @@
 # README: Gallery Control
 
 
-
-
-
 | Snippet |
-|: --------------  :| 
-| Simple & Elegant<br><a href="Simple-Elegant.md"><img src="Images/gallery-elegant.png" alt="Alt text description" width="200"/></a> |
-
-
-
-| Column 1       | Column 2       |
-|----------------|----------------|
-| <td colspan=2>Span 2 columns</td> |
-| Normal         | Cells          |
-
-
-
-Here's the link and the image I want to combine
-[Simple & Elegant](Simple-Elegant.md)       
-<img src="Images/gallery-elegant.png" alt="Alt text" width="200"/>  
-
-Simple & Elegant<br>
-<a href="Simple-Elegant.md">
-  <img src="Images/gallery-elegant.png" alt="Alt text description" width="200"/>
-</a>
+|:--------:|
+|<a href="Simple-Elegant.md">Simple & Elegant<br><img src="Images/gallery-elegant.png" alt="Alt text description" width="300"/></a>|
