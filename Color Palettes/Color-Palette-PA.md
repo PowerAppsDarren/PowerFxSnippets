@@ -110,7 +110,6 @@
                 HexCode:"#ffffff", 
                 OppositeColorName:"Menu"
             }
-
         }
     };
 
