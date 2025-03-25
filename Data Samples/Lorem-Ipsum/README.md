@@ -1,6 +1,7 @@
 # Lorem-Ipsum
 
-## Not your grandma's Lipsum!
+
+- [Offical Lipsum Site](https://www.lipsum.com/)
 
 ### What is Lorem Ipsum?
 
@@ -19,6 +20,10 @@ It is a long established fact that a reader will be distracted by the readable c
 
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
 ```
+
+# Not your grandma's Lipsum!
+
+Want something more interesting than the standard Lorem Ipsum? Check out these fun alternatives!
 
 ## Samuel Jackson Lipsum
 
