@@ -23,7 +23,7 @@ It is a long established fact that a reader will be distracted by the readable c
 
 # Not your grandma's Lipsum!
 
-Want something more interesting than the standard Lorem Ipsum? Check out these fun alternatives!
+Want something more interesting than the standard Lorem Ipsum? Check out these fun alternatives! This is a G-rated git repo, so foul words have been replaced.
 
 ## Samuel Jackson Lipsum
 
