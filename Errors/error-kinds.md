@@ -13,7 +13,7 @@ This is a helpful canvas Power Apps code snippet.
             KindName: "None",
             KindNumber: 0,
             OrdinalPosition: 1,
-            Description: "System error. There's no error."
+            Description: "There's no error."
         },
         {
             KindName: "Sync",
