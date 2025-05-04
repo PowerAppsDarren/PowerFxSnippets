@@ -2,7 +2,7 @@
 
 There will always be a time where you need to fix data, sanitize it, or make it different for some reason. Even when you fix a bug that wrote data to a database; it doesn't mean the data was all fixed and made right when you fixed the bug! Find out to do mass updates or adding of records that are literally 10 times as fast as doing individual patches for each record in a loop. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0aonIcYUOsE?si=FD2ppmbzE13YUUa_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- [Associated YouTube Video Walkthrough](https://youtu.be/0aonIcYUOsE)
 
 ```PowerFx
 // ================================================================
