@@ -6,7 +6,7 @@ My bag of tricks for the Power Platform
 - https://tinyurl.com/DarrensStuffPower 🔗
  
 ## Support
-   
+      
 I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at 
 
 - support@superpowerlabs.co
