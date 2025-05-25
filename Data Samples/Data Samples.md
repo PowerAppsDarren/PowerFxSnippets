@@ -15,8 +15,8 @@ In this directory you'll find sample data (or links to them) you can easily impo
 ### Other links I haven't had time to add descriptions for yet. 
 
 - https://www.kaggle.com/datasets 
-- https://tradingeconomics.com/
-- https://data.gov/
+- https://tradingeconomics.com
+- https://data.gov
     - https://github.com/GSA/data.gov
     - https://github.com/orgs/GSA/repositories?q=sort%3Astars
 - https://abcnews.go.com/538
