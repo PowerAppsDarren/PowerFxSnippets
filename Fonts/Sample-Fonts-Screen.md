@@ -9,24 +9,6 @@ Screens:
       Fill: =RGBA(215, 223, 240, 1)
       LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
     Children:
-      - Label1:
-          Control: Label@2.5.1
-          Properties:
-            BorderColor: =RGBA(237, 237, 237, 1)
-            BorderThickness: =2
-            Fill: =RGBA(255, 255, 255, 1)
-            Font: =galFonts.Selected.FontName
-            Height: =210
-            PaddingBottom: =15
-            PaddingLeft: =15
-            PaddingRight: =15
-            PaddingTop: =15
-            Size: =28
-            Text: ="The quick brown fox jumps over the lazy dog."
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.Width - galFonts.X * 3 - galFonts.Width
-            X: =galFonts.X * 2 + galFonts.Width
-            Y: =20
       - galFonts:
           Control: Gallery@2.15.0
           Variant: Vertical
@@ -1909,7 +1891,7 @@ Screens:
             X: =20
             Y: =20
           Children:
-            - Label2:
+            - lblFontName:
                 Control: Label@2.5.1
                 Properties:
                   BorderColor: =RGBA(0, 18, 107, 1)
@@ -1920,7 +1902,7 @@ Screens:
                   Size: =24
                   Text: =$"{ThisItem.FontName}"
                   Width: =Parent.TemplateWidth * 60%
-            - Label2_1:
+            - lblCategory:
                 Control: Label@2.5.1
                 Properties:
                   BorderColor: =RGBA(0, 18, 107, 1)
@@ -1930,9 +1912,9 @@ Screens:
                   PaddingLeft: =15
                   Size: =24
                   Text: =$"{ThisItem.Category}"
-                  Width: =Parent.TemplateWidth - Label2.Width
-                  X: =Label2.Width
-            - Icon1:
+                  Width: =Parent.TemplateWidth - lblFontName.Width
+                  X: =lblFontName.Width
+            - icoWebSafe:
                 Control: Classic/Icon@2.5.0
                 Properties:
                   BorderColor: =RGBA(0, 18, 107, 1)
@@ -1944,10 +1926,11 @@ Screens:
                   PaddingLeft: =10
                   PaddingRight: =10
                   PaddingTop: =10
+                  Tooltip: ="Web Safe Fonts"
                   Visible: =ThisItem.IsWebSafe
                   Width: =Self.Height
                   X: =417
-      - Label1_1:
+      - lblParagraphSample:
           Control: Label@2.5.1
           Properties:
             BorderColor: =RGBA(237, 237, 237, 1)
@@ -1965,4 +1948,22 @@ Screens:
             Width: =Parent.Width - galFonts.X * 3 - galFonts.Width
             X: =galFonts.X * 2 + galFonts.Width
             Y: =252
+      - lblHeadingSample:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(237, 237, 237, 1)
+            BorderThickness: =2
+            Fill: =RGBA(255, 255, 255, 1)
+            Font: =galFonts.Selected.FontName
+            Height: =210
+            PaddingBottom: =15
+            PaddingLeft: =15
+            PaddingRight: =15
+            PaddingTop: =15
+            Size: =28
+            Text: ="The quick brown fox jumps over the lazy dog."
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.Width - galFonts.X * 3 - galFonts.Width
+            X: =galFonts.X * 2 + galFonts.Width
+            Y: =20
 ```
