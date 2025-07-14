@@ -1941,7 +1941,7 @@ Screens:
             PaddingBottom: =15
             PaddingLeft: =15
             PaddingRight: =15
-            PaddingTop: =15
+            PaddingTop: =15 
             Size: =17
             Text: ="The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. Sphinx of black quartz, judge my vow. How vexingly quick daft zebras jump!"
             VerticalAlign: =VerticalAlign.Top
