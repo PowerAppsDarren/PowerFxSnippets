@@ -8,3 +8,6 @@
 
 - [String Is Empty](String-Is-Empty.md): 
   This user-defined function checks if a given string is empty or contains only whitespace characters. It returns `true` if the string is empty or consists solely of whitespace, and `false` otherwise.
+
+- [Find String Exactly Within Table](Find-String-Exactly-Within-Table.md): 
+  This user-defined function checks if a specific string exists exactly within a table of strings, using a specified delimiter. It returns `true` if the string is found exactly as specified, and `false` otherwise.
