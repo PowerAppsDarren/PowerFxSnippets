@@ -8,8 +8,7 @@ To make this reusable and more efficient, paste in the code from [this code snip
 Screens:
   Fonts Screen:
     Properties:
-      Fill: =RGBA(215, 223, 240, 1)
-      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+      Fill: =App.Theme.Colors.Lighter70
     Children:
       - galFonts:
           Control: Gallery@2.15.0
@@ -1896,7 +1895,6 @@ Screens:
             - lblFontName:
                 Control: Label@2.5.1
                 Properties:
-                  BorderColor: =RGBA(0, 18, 107, 1)
                   Font: =ThisItem.FontName
                   Height: =Parent.TemplateHeight
                   OnSelect: =Select(Parent)
@@ -1907,11 +1905,9 @@ Screens:
             - lblCategory:
                 Control: Label@2.5.1
                 Properties:
-                  BorderColor: =RGBA(0, 18, 107, 1)
                   Font: =ThisItem.FontName
                   Height: =Parent.TemplateHeight
                   OnSelect: =Select(Parent)
-                  PaddingLeft: =15
                   Size: =24
                   Text: =$"{ThisItem.Category}"
                   Width: =Parent.TemplateWidth - lblFontName.Width
@@ -1919,7 +1915,6 @@ Screens:
             - icoWebSafe:
                 Control: Classic/Icon@2.5.0
                 Properties:
-                  BorderColor: =RGBA(0, 18, 107, 1)
                   Color: =RGBA(167, 182, 203, 1)
                   Height: =Parent.TemplateHeight
                   Icon: =Icon.ThumbsUpFilled
@@ -1935,15 +1930,13 @@ Screens:
       - lblParagraphSample:
           Control: Label@2.5.1
           Properties:
-            BorderColor: =RGBA(237, 237, 237, 1)
-            BorderThickness: =2
             Fill: =RGBA(255, 255, 255, 1)
             Font: =galFonts.Selected.FontName
             Height: =Parent.Height - Self.Y - 20
             PaddingBottom: =15
             PaddingLeft: =15
             PaddingRight: =15
-            PaddingTop: =15 
+            PaddingTop: =15
             Size: =17
             Text: ="The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. Sphinx of black quartz, judge my vow. How vexingly quick daft zebras jump!"
             VerticalAlign: =VerticalAlign.Top
