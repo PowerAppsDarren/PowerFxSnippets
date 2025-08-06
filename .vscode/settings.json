@@ -1,5 +1,5 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "material-icon-theme.folders.color": "#932d89", 
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.hidesExplorerArrows": false,
