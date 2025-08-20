@@ -95,8 +95,8 @@
         // TERMINAL
         // https://code.visualstudio.com/api/references/theme-color#terminal
         //
-        "terminal.background": "#4a1849",
-        "terminal.foreground": "#faf5fa",
+        "terminal.background": "#371236",
+        "terminal.foreground": "#ba39ad",
         "terminalCursor.background": "#faf5fa",
         "terminalCursor.foreground": "#e9a1cb",
         "terminal.ansiBlack": "#371236",
