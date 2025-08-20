@@ -1,9 +1,47 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "material-icon-theme.folders.color": "#932d89", 
-    "material-icon-theme.folders.theme": "specific",
-    "material-icon-theme.hidesExplorerArrows": false,
+    // Editor Core Settings
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.snippetSuggestions": "top",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [80, 120],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.stickyScroll.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineHeight": 20,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.renderWhitespace": "all",
+
+    // Markdown specific settings
+    "[markdown]": {
+        "editor.fontFamily": "Consolas, 'Courier New', monospace",
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+
+    "gitdoc.enabled": true,
+
+    // Theme settings
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
+<<<<<<< Updated upstream
         //
         // ACTIVITY BAR
         // https://code.visualstudio.com/api/references/theme-color#activity-bar
@@ -152,5 +190,261 @@
         "editorError.foreground": "#d467b9",
         "commandCenter.border": "#e7e7e799",
         "sash.hoverBorder": "#ffff00"
-    }
+    },
+
+    // Terminal settings
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+
+    // Window settings
+    "window.zoomLevel": 2,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+
+    // Workbench settings
+    "workbench.tree.indent": 16,
+    "workbench.startupEditor": "none",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.sideBar.location": "left",
+
+    // AI tools integration
+    "aiTools.chatDocumentation.enabled": true,
+    "aiTools.chatDocumentation.autoCreateFiles": true,
+    "aiTools.chatDocumentation.folderFormat": "yyyy-MM-dd-brief-description",
+    "aiTools.chatDocumentation.fileFormat": "NN-event-description",
+    "aiTools.timeUpdate.enabled": true,
+    "aiTools.timeUpdate.updateFrequencyMinutes": 30,
+    "aiTools.timeUpdate.runOnAIEngagement": true,
+
+    // Events that trigger time update
+    "aiTools.triggers": [
+        "onStartupFinished",
+        "onChatPanelOpen",
+        "onCopilotRequest"
+    ],
+    // AI Time Updater configuration
+    "tasks.runOn": {
+        "folderOpen": [
+            "Update Current Time"
+        ]
+    },
+
+    // GitHub Copilot settings - ADDED TO FIX INSTRUCTIONS ISSUE
+    "github.copilot.enable": {
+        "*": true
+    },
+    "github.copilot.chat.localeOverride": "en",
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "Always follow these copilot instructions when we chat and generate code. There are instructions in there about documenting all of our chats together and creating a folder in 'ai-chats'. Please follow those instructions! You need to get the current date and time first so you know what to name the folder!",
+        },
+        {
+            "file": ".github/copilot-instructions.md"
+        }
+    ],
+    "github.copilot.editor.enableCodeActions": true,
+    "github.copilot.editor.enableCodeCompletions": true,
+    "github.copilot.editor.enableInlineSuggestions": true,
+    "github.copilot.editor.enableChatCompletions": true,
+    "github.copilot.editor.enableChatCompletionsInEditor": true,
+    "github.copilot.editor.enableChatCompletionsInChat": true,
+    "github.copilot.editor.enableChatCompletionsInChatPanel": true,
+    "github.copilot.editor.enableChatCompletionsInChatPanelInline": true,
+    "github.copilot.advanced.useInstructionFiles": true,
+
+    // Critical: Point to the instructions file
+    "github.copilot.advanced": {
+        "instructionFilePath": "${workspaceFolder}/.github/copilot-instructions.md",
+        "indentationMode": {
+            "javascript": "tabs",
+            "typescript": "tabs"
+        }
+    },
+
+    // Ensure the file is included in context for each session
+    "github.copilot.advanced.setFileContext": ".github/copilot-instructions.md",
+    "github.copilot.advanced.setAutoCompletionsTemplate": "I want you to follow the instructions in the .github/copilot-instructions.md file for this project. Always apply those guidelines when generating code.",
+
+    // File Settings
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": false,
+        "**/.next": true,
+        "**/.nuxt": true,
+        "**/dist": false,
+        "**/build": false,
+        "**/.venv": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.next/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.venv/**": true
+    },
+
+    // Search Settings
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/dist": false,
+        "**/build": false,
+        "**/.next": true,
+        "**/.venv": true,
+        "**/__pycache__": true
+    },
+
+    // Git Settings
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.postCommitCommand": "none",
+
+    // JavaScript/TypeScript Settings
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // JSON Settings
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // HTML/CSS Settings
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Python Settings
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+
+    // Prettier Settings
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.tabWidth": 2,
+    "prettier.semi": true,
+    "prettier.printWidth": 80,
+
+    // ESLint Settings
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+
+    // Emmet Settings
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+
+    // Explorer Settings
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": true,
+
+    // Debug Settings
+    "debug.console.fontSize": 14,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+
+    // Live Server Settings
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+    // Code Spell Checker
+    "cSpell.userWords": [
+        "darren",
+        "claude",
+        "anthropic",
+        "gitea",
+        "cloudpanel",
+        "portainer",
+        "sashas",
+        "zoomtan",
+        "neurosity",
+        "msapp",
+        "powerfx",
+        "pcfproj",
+        "neese",
+        "superpowerlabs",
+        "agentic",
+        "gitignore",
+        "venv",
+        "pnpm",
+        "npmrc",
+        "dockerize",
+        "kubectl",
+        "devcontainer"
+    ],
+
+    // Remote Development
+    "remote.SSH.remotePlatform": {
+        "coolify.darrensapps.app": "linux",
+        "alienware": "linux"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.showLoginTerminal": true,
+
+    // Security
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ]
 }
