@@ -1,5 +1,9 @@
 # Left Nav Bar
 
+Look at this menu in action [here](example-left-nav-bar.png).
+
+<img src="example-left-nav-bar.png" width="400" alt="example-left-nav-bar">
+
 ```YAML
 ComponentDefinitions:
   compSideNavMenu:
@@ -139,16 +143,16 @@ ComponentDefinitions:
           =With(
               {
                   RandomNumber: RandBetween(1, 5)
-              }, 
+              },
               Switch(
-                  RandomNumber, 
+                  RandomNumber,
                   1, ScreenTransition.Cover,
                   2, ScreenTransition.CoverRight,
                   3, ScreenTransition.Fade,
                   4, ScreenTransition.UnCover,
                   5, ScreenTransition.UnCoverRight,
                   ScreenTransition.None
-              )    
+              )
           )
 
 
@@ -206,8 +210,8 @@ ComponentDefinitions:
                       compSideNavMenu.ScreenTransition
                   );,
                   Launch(
-                      ThisItem.LaunchURL, 
-                      {}, 
+                      ThisItem.LaunchURL,
+                      {},
                       LaunchTarget.New
                   );
                   Navigate(
