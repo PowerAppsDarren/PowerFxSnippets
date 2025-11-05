@@ -1,0 +1,105 @@
+{
+  // Editor Core Settings
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Lucida Console', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.snippetSuggestions": "top",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.rulers": [80, 120],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyScroll.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 20,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  "editor.renderWhitespace": "all",
+  
+  // Markdown specific settings
+  "[markdown]": {
+    "editor.fontFamily": "'Lucida Console', Consolas, 'Courier New', monospace",
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  
+  // Theme settings
+  "workbench.colorTheme": "Default Light+",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#ffffff",
+    "sideBar.background": "#fbf9ef",
+    "terminal.background": "#052245",
+    "terminal.foreground": "#ffff00",
+    "terminalCursor.background": "#dddddd",
+    "terminalCursor.foreground": "#0a0e14",
+    "terminal.ansiBlack": "#01060e",
+    "terminal.ansiRed": "#ea6c73",
+    "terminal.ansiGreen": "#91b362",
+    "terminal.ansiYellow": "#f9af4f",
+    "terminal.ansiBlue": "#53bdfa",
+    "terminal.ansiMagenta": "#fae994",
+    "terminal.ansiCyan": "#90e1c6",
+    "terminal.ansiWhite": "#c7c7c7",
+    "terminal.ansiBrightBlack": "#686868",
+    "terminal.ansiBrightRed": "#f07178",
+    "terminal.ansiBrightGreen": "#c2d94c",
+    "terminal.ansiBrightYellow": "#ffb454",
+    "terminal.ansiBrightBlue": "#59c2ff",
+    "terminal.ansiBrightMagenta": "#ffee99",
+    "terminal.ansiBrightCyan": "#95e6cb",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.selectionBackground": "#264f78",
+    "terminalCommandDecoration.defaultBackground": "#ffffff15",
+    "terminalCommandDecoration.successBackground": "#91b362",
+    "terminalCommandDecoration.errorBackground": "#ea6c73"
+  },
+  
+  // Terminal settings
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "normal",
+  
+  // Window settings
+  "window.zoomLevel": 1,
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  
+  // Workbench settings
+  "workbench.tree.indent": 16,
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.sideBar.location": "left",
+  
+  // Git settings
+  "gitdoc.enabled": true,
+  
+  // Files settings
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  
+  // Search settings
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true,
+    "**/build": true
+  }
+}
