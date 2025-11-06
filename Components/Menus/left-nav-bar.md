@@ -1,5 +1,11 @@
 # Left Nav Bar
 
+- Look at this menu in action [here](example-left-nav-bar.png).
+- Down below, there is a 2nd YAML code block that you could paste in to import this whole screen!
+- There are two code blocks below!
+
+<img src="example-left-nav-bar.png" width="400" alt="example-left-nav-bar">
+
 ```YAML
 ComponentDefinitions:
   compSideNavMenu:
@@ -139,16 +145,16 @@ ComponentDefinitions:
           =With(
               {
                   RandomNumber: RandBetween(1, 5)
-              }, 
+              },
               Switch(
-                  RandomNumber, 
+                  RandomNumber,
                   1, ScreenTransition.Cover,
                   2, ScreenTransition.CoverRight,
                   3, ScreenTransition.Fade,
                   4, ScreenTransition.UnCover,
                   5, ScreenTransition.UnCoverRight,
                   ScreenTransition.None
-              )    
+              )
           )
 
 
@@ -206,8 +212,8 @@ ComponentDefinitions:
                       compSideNavMenu.ScreenTransition
                   );,
                   Launch(
-                      ThisItem.LaunchURL, 
-                      {}, 
+                      ThisItem.LaunchURL,
+                      {},
                       LaunchTarget.New
                   );
                   Navigate(
@@ -425,5 +431,187 @@ ComponentDefinitions:
             Text: =compSideNavMenu.IconsOrImages
             Visible: =false
             Y: =484
+```
 
-````
+```YAML
+Screens:
+  Screen With Menu:
+    Children:
+      - ScreenContainer1:
+          Control: GroupContainer@1.3.0
+          Variant: AutoLayout
+          Properties:
+            Fill: =RGBA(180, 214, 250, 1)
+            Height: =Parent.Height
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutDirection: =LayoutDirection.Vertical
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            Width: =Parent.Width
+          Children:
+            - BottomContainer1_1:
+                Control: GroupContainer@1.3.0
+                Variant: AutoLayout
+                Properties:
+                  DropShadow: =DropShadow.None
+                  Fill: =Color.Transparent
+                  FillPortions: =0
+                  Height: =100
+                  LayoutAlignItems: =LayoutAlignItems.Stretch
+                  LayoutDirection: =LayoutDirection.Horizontal
+                  LayoutGap: =16
+                  LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                  LayoutWrap: =true
+                  PaddingBottom: =10
+                  PaddingLeft: =10
+                  PaddingRight: =10
+                  PaddingTop: =10
+                Children:
+                  - Container32:
+                      Control: GroupContainer@1.3.0
+                      Variant: AutoLayout
+                      Properties:
+                        DropShadow: =DropShadow.Regular
+                        Fill: =RGBA(255, 255, 255, 1)
+                        FillPortions: =0
+                        Height: =Parent.Height - Parent.PaddingTop * 2
+                        LayoutDirection: =LayoutDirection.Horizontal
+                        LayoutMinHeight: =50
+                        RadiusBottomLeft: =12
+                        RadiusBottomRight: =12
+                        RadiusTopLeft: =12
+                        RadiusTopRight: =12
+                        Width: =Parent.Width - Parent.PaddingLeft * 2
+            - BottomContainer1:
+                Control: GroupContainer@1.3.0
+                Variant: AutoLayout
+                Properties:
+                  DropShadow: =DropShadow.None
+                  Fill: =Color.Transparent
+                  LayoutAlignItems: =LayoutAlignItems.Stretch
+                  LayoutDirection: =LayoutDirection.Horizontal
+                  LayoutGap: =16
+                  LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                  LayoutWrap: =true
+                  PaddingBottom: =10
+                  PaddingLeft: =10
+                  PaddingRight: =10
+                  PaddingTop: =10
+                Children:
+                  - SidebarContainer1:
+                      Control: GroupContainer@1.3.0
+                      Variant: AutoLayout
+                      Properties:
+                        DropShadow: =DropShadow.Regular
+                        Fill: =RGBA(255, 255, 255, 1)
+                        FillPortions: =0
+                        LayoutDirection: =LayoutDirection.Vertical
+                        LayoutMinHeight: =Parent.Height - 100
+                        LayoutMinWidth: =80
+                        RadiusBottomLeft: =12
+                        RadiusBottomRight: =12
+                        RadiusTopLeft: =12
+                        RadiusTopRight: =12
+                        Width: '=compSideNavMenu_1.Width '
+                      Children:
+                        - compSideNavMenu_1:
+                            Control: CanvasComponent
+                            ComponentName: compSideNavMenu
+                            Properties:
+                              AutoRefreshColors: =false
+                              BackgroundColor: =ColorValue("#ffffff")
+                              Fill: =compSideNavMenu_1.BackgroundColor
+                              ForegroundColor: =compSideNavMenu_1.ForegroundColorOutput
+                              GroupsUserIsIn: |-
+                                ="User;" // Replace this string with all the named groups the current user is in, separated by a semicolon: i.e. "User;Admins;Devs;"
+                              Height: '=Parent.Height '
+                              HighLightBackcolor: =Color.LightYellow
+                              HoverFill: =RGBA(0, 0, 0, 10%)
+                              IconsOrImages: ="Images"
+                              MenuItems: |-
+                                =Table(
+                                    {
+                                        MenuLabel: "Home Screen",
+                                        MenuImage: SampleImage,
+                                        MenuIcon: Icon.Home,
+                                        ShowForThisRole: "User",
+                                        ScreenToGoTo: 'Home Screen',
+                                        Visible: true,
+                                        LaunchLink: false,
+                                        LaunchURL: ""
+                                    },
+                                    {
+                                        MenuLabel: "New Screen",
+                                        MenuImage: SampleImage,
+                                        MenuIcon: Icon.DetailList,
+                                        ShowForThisRole: "User",
+                                        Visible: true,
+                                        LaunchLink: false,
+                                        LaunchURL: ""
+                                    },
+                                    {
+                                        MenuLabel: "Application Administration",
+                                        MenuImage: SampleImage,
+                                        MenuIcon: Icon.Settings,
+                                        ShowForThisRole: "gblIsAppAdmin",
+                                        Visible: true,
+                                        LaunchLink: false,
+                                        LaunchURL: ""
+                                    },
+                                    {
+                                        MenuLabel: "Developer Screen",
+                                        MenuImage: SampleImage,
+                                        MenuIcon: Icon.Key,
+                                        ShowForThisRole: "gblIsAppDeveloper",
+                                        Visible: true,
+                                        LaunchLink: false,
+                                        LaunchURL: ""
+                                    },
+                                    {
+                                        MenuLabel: "Web Site",
+                                        MenuImage: SampleImage,
+                                        MenuIcon: Icon.Diamond,
+                                        ShowForThisRole: "User",
+                                        ScreenToGoTo: Blank(),
+                                        Visible: true,
+                                        LaunchLink: true,
+                                        LaunchURL: "https://powerappstutorial.com/"
+                                    }
+                                )
+                              ScreenTransition: |+
+                                =With(
+                                    {
+                                        RandomNumber: RandBetween(1, 5)
+                                    },
+                                    Switch(
+                                        RandomNumber,
+                                        1, ScreenTransition.Cover,
+                                        2, ScreenTransition.CoverRight,
+                                        3, ScreenTransition.Fade,
+                                        4, ScreenTransition.UnCover,
+                                        5, ScreenTransition.UnCoverRight,
+                                        ScreenTransition.None
+                                    )
+                                )
+
+
+
+                              ShowDottedOutline: =true
+                              ShowSideBars: =true
+                              Width: =If(compSideNavMenu_1.IsExpanded, 550, 80)
+                  - MainContainer1:
+                      Control: GroupContainer@1.3.0
+                      Variant: AutoLayout
+                      Properties:
+                        DropShadow: =DropShadow.Regular
+                        Fill: =RGBA(255, 255, 255, 1)
+                        FillPortions: =7
+                        LayoutDirection: =LayoutDirection.Vertical
+                        RadiusBottomLeft: =12
+                        RadiusBottomRight: =12
+                        RadiusTopLeft: =12
+                        RadiusTopRight: =12
+
+```
