@@ -1,0 +1,1 @@
+# Run this script to import secrets from a our profile's dotfiles repo

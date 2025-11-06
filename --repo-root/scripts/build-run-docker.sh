@@ -1,0 +1,1 @@
+# This script should build and deploy the project using Docker that is running on this computer always so I can use and test the app even when vs code is not running.

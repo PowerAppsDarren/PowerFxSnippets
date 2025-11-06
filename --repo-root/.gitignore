@@ -1,0 +1,329 @@
+# ===================================
+# GENERAL PURPOSE .GITIGNORE
+# ===================================
+# This file covers common patterns across all tech stacks
+# Copy this to your project root and add language-specific patterns as needed
+
+DARREN.md
+firebase-debug.log
+--repo-root/
+
+# ===================================
+# ENVIRONMENT & SECRETS
+# ===================================
+
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.envrc
+secrets.yml
+secrets.yaml
+*.secret
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+
+# ===================================
+# OPERATING SYSTEM FILES
+# ===================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# IDE & EDITOR FILES
+# ===================================
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime-project.workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+*_flymake.*
+.projectile
+
+# Atom
+.atom/
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.launch
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===================================
+# DEPENDENCIES & PACKAGES
+# ===================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.yarn-integrity
+.yarn/
+.pnp.*
+
+# PHP
+vendor/
+composer.phar
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+venv/
+ENV/
+env/
+
+# Ruby
+*.gem
+.bundle/
+vendor/bundle/
+
+# Go
+vendor/
+
+# ===================================
+# BUILD OUTPUT & ARTIFACTS
+# ===================================
+
+# General build directories
+build/
+dist/
+target/
+out/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Compiled files
+*.com
+*.o
+*.a
+*.lib
+
+# ===================================
+# CACHE & TEMPORARY FILES
+# ===================================
+
+# General cache
+cache/
+.cache/
+*.cache
+.temp/
+temp/
+tmp/
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Sass cache
+.sass-cache/
+
+# npm cache
+.npm/
+
+# ESLint cache
+.eslintcache
+
+# Stylelint cache
+.stylelintcache
+
+# Prettier cache
+.prettiercache
+
+# ===================================
+# LOGS
+# ===================================
+
+*.log
+logs/
+log/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# ===================================
+# BACKUP FILES
+# ===================================
+
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*~
+*.swp
+*.swo
+.~lock.*
+~$*
+
+
+# ===================================
+# DATABASE FILES
+# ===================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# ===================================
+# COMPRESSED FILES (optional)
+# ===================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# ===================================
+# COVERAGE & TEST RESULTS
+# ===================================
+
+coverage/
+.coverage
+.coverage.*
+*.cover
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+*.lcov
+.nyc_output/
+test-results/
+junit.xml
+
+# ===================================
+# MISC
+# ===================================
+
+# Lock files (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# Gemfile.lock
+# Pipfile.lock
+# poetry.lock
+
+# Documentation builds
+docs/_build/
+site/
+
+# Thumbnails
+*.thumb
+
+# Editor directories
+.history/
+
+# Project-specific (add your own)
+# config.local.js
+# settings.local.json
