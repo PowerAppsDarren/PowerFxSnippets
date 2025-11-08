@@ -4,6 +4,8 @@
 
 **Last Updated:** 2025-10-31
 
+Also!!! read in `./ai-chats/README.md`
+
 ---
 
 ## [CRITICAL] Protocol - Read First!

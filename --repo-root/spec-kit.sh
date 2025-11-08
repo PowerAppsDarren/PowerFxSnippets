@@ -1,1 +1,1 @@
-specify init --here --force --ai claude --script ps
+specify init --here --force --ai claude --script sh

@@ -10,6 +10,8 @@ THEN!!!...
 
 # Comprehensive Codebase Review and Enhancement
 
+Do this at least once. write out your findings. if the file you create is 5 days old, then to this review & enhancement again!
+
 Execute a thorough, multi-stage code review to detect issues, deviations from best practices, security vulnerabilities, performance bottlenecks, and optimization opportunities. Utilize AI for holistic codebase analysis, targeted improvement proposals, and actionable recommendations for tightening, refactoring, and modernization.
 
 YOU MUST ADHERE TO THE GUIDELINES IN `./ai-chats/README.md`, encompassing review methodology, tool integration, output formatting, and seamless workflow alignment with the project.
