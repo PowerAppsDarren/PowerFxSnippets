@@ -1,0 +1,87 @@
+name: Validate Snippets
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+      - '**/*.yaml'
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/*.yaml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: |
+        npm install -g markdownlint-cli
+        npm install -g js-yaml
+
+    - name: Validate markdown formatting
+      run: |
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./_archive/*" -exec markdownlint {} \;
+
+    - name: Validate YAML front matter
+      run: |
+        #!/bin/bash
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./_archive/*" | while read file; do
+          if head -n 20 "$file" | grep -q "^---$"; then
+            echo "Validating front matter in $file"
+            # Extract front matter and validate YAML
+            awk '/^---$/ { if (++count == 2) exit; next } count == 1 { print }' "$file" | js-yaml --validate || echo "Invalid YAML in $file"
+          fi
+        done
+
+    - name: Check for required metadata fields
+      run: |
+        #!/bin/bash
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./_archive/*" -not -path "./README.md" | while read file; do
+          if head -n 20 "$file" | grep -q "^---$"; then
+            front_matter=$(awk '/^---$/ { if (++count == 2) exit; next } count == 1 { print }' "$file")
+            if ! echo "$front_matter" | grep -q "title:"; then
+              echo "Missing 'title' field in $file"
+              exit 1
+            fi
+            if ! echo "$front_matter" | grep -q "description:"; then
+              echo "Missing 'description' field in $file"
+              exit 1
+            fi
+            if ! echo "$front_matter" | grep -q "category:"; then
+              echo "Missing 'category' field in $file"
+              exit 1
+            fi
+            if ! echo "$front_matter" | grep -q "difficulty:"; then
+              echo "Missing 'difficulty' field in $file"
+              exit 1
+            fi
+          fi
+        done
+
+    - name: Validate internal links
+      run: |
+        #!/bin/bash
+        find . -name "*.md" -not -path "./node_modules/*" -not -path "./_archive/*" | while read file; do
+          # Check for broken relative links
+          grep -n "\[.*\](\.\." "$file" | while read line; do
+            link=$(echo "$line" | grep -o "\[.*\](\.\.[^)]*)" | sed 's/.*(//' | sed 's/).*//')
+            if [ -n "$link" ]; then
+              # Resolve the relative path
+              dir=$(dirname "$file")
+              target="$dir/$link"
+              if [ ! -f "$target" ] && [ ! -d "$target" ]; then
+                echo "Broken link in $file: $link"
+              fi
+            fi
+          done
+        done
