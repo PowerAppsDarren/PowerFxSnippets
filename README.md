@@ -7,6 +7,27 @@
 [![GitHub PRs](https://img.shields.io/github/issues-pr/PowerAppsDarren/PowerFxSnippets)](https://github.com/PowerAppsDarren/PowerFxSnippets/pulls)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
+## 🚧 Repository Restructuring in Progress (2025-11-17)
+
+**We're making PowerFxSnippets even better!** A comprehensive restructuring is underway to improve navigation, discoverability, and developer experience.
+
+### 🆕 New Structure (In Progress)
+The repository is being reorganized into a **feature-first architecture** with:
+- 📱 **[app-lifecycle/](./app-lifecycle/)** - App initialization, error handling, formulas *(NEW STRUCTURE)*
+- 🎨 **[ui-controls/](./ui-controls/)** - Control-specific snippets *(NEW STRUCTURE)*
+- 🎭 **[ui-patterns/](./ui-patterns/)** - Reusable UI patterns *(NEW STRUCTURE)*
+- 🌈 **[visual-assets/](./visual-assets/)** - SVGs, icons, colors, fonts *(NEW STRUCTURE)*
+- 📊 **[data-operations/](./data-operations/)** - Data sources and transformations *(NEW STRUCTURE)*
+- 🔧 **[functions/](./functions/)** - UDFs, UDTs, utilities *(NEW STRUCTURE)*
+- 🔗 **[integrations/](./integrations/)** - Connectors and flows *(NEW STRUCTURE)*
+- 🎓 **[learning/](./learning/)** - Tutorials and best practices *(NEW STRUCTURE)*
+- 🧰 **[utilities/](./utilities/)** - Templates and tools *(NEW STRUCTURE)*
+
+📋 **[View Complete Restructuring Plan](./--new-structure-claude-code.md)**
+
+### 📚 Current Structure (Original)
+The existing organization remains functional during migration:
+
 ## 🚀 Quick Start
 
 **New to Power Fx?** Start here:
