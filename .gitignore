@@ -6,8 +6,8 @@
 
 DARREN.md
 firebase-debug.log
---repo-root/
-node_modules/
+--repo-root
+node_modules
 
 # ===================================
 # ENVIRONMENT & SECRETS
