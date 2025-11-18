@@ -1,5 +1,0 @@
-# Appointing Port Numbers
-
-Port 80, 8080, 3000, 3001, etc. are very common port number choices. There is a high probability that all those ports are being used for something else. Just assume they are and pick a random port number between 50000 and 60000. Then immediately check this port number and verify it isn't being used by anything else using tools like `netstat`, `lsof`, or `ss` commands (e.g., `netstat -tuln | grep :PORT` or `lsof -i :PORT` on Linux/macOS, or `netstat -ano | findstr :PORT` on Windows). If the port is in use, pick another random one in the same range and repeat the check until you find a free one.
-
-Now, whenever you pick a random port number for the front end, any other app services should sequentially be picked out. For example, if 55123 is the random port chosen, the API layer should run on 55124, and the backend would be 55125, etc. Ensure all assigned ports in the sequence are also checked for availability before finalizing.

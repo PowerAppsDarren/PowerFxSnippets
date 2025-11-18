@@ -1,1 +1,0 @@
-# Here, we just need a script that will build and run the project.
