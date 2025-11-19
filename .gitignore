@@ -7,6 +7,7 @@
 DARREN.md
 firebase-debug.log
 --repo-root
+--repo-root/
 node_modules
 
 # ===================================
