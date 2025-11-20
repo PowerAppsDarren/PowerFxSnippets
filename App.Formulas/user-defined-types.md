@@ -1,3 +1,15 @@
+---
+title: "User-Defined Types Examples"
+description: "Comprehensive examples of User-Defined Types (UDT), Named Formulas, and User-Defined Functions (UDF)."
+category: "App.Formulas"
+tags: ["udt", "udf", "named-formulas", "advanced"]
+difficulty: advanced
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # User-Defined Types
 
 The following code is based on this article here: https://powerplatformlinks.com/CanvasUserDefined

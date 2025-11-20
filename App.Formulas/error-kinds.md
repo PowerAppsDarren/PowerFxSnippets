@@ -1,6 +1,18 @@
-# New Topic
+---
+title: "Error Kinds Collection"
+description: "A collection of all standard Power Apps error kinds for reference and handling."
+category: "App.Formulas"
+tags: ["errors", "error-handling", "debugging", "collection"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
 
-This is a helpful canvas Power Apps code snippet.
+# Error Kinds Collection
+
+This is a helpful canvas Power Apps code snippet that creates a collection of all standard error kinds.
 
 ## Add This to Your Application
 

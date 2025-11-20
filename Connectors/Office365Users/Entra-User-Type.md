@@ -1,6 +1,20 @@
 
 
 
+---
+title: "Entra User Type"
+description: "Define a custom type for Entra (Azure AD) users and handle manager retrieval."
+category: "Connectors"
+tags: ["entra", "azure-ad", "users", "types"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
+# Entra User Type
+
 ```
 //
 // Replace this GUID with the EntraID of the manager

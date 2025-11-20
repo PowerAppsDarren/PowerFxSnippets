@@ -1,32 +1,40 @@
-# NEW_TOPIC_GOES_HERE
+---
+title: "Snippet Title"
+description: "Brief description of what this snippet does"
+category: "category-name"                       # e.g., ui-controls, functions, data-operations
+tags:
+  - tag1                                        # Searchable tags
+  - tag2
+difficulty: beginner                            # beginner|intermediate|advanced
+author: "Author Name"                           # Optional
+created: 2025-11-19                             # Creation date
+updated: 2025-11-19                             # Last update date
+license: "MIT"                                  # License type
+---
 
-This is why NEW_TOPIC_GOES_HERE is important to learn, know, and utilize. 
-- It helps you understand the context of the code and how it fits into the larger picture. 
-- This section should provide a brief overview of the topic, its significance, and any relevant background information.
+# Snippet Title
 
-> Need to Know...
-> - What: what is presented here? What is the value of using this?
-> - This section should outline the key concepts, principles, or techniques related to the topic.
+## Why It Matters
 
-# Add This to Your Application
+[Explain the problem this snippet solves and why it's important]
 
-This is some Power Fx or YAML code you could easily paste into your canvas Power Apps applciation.
+## Implementation
 
-```PowerFx
-//
-// This code does this or that...
-// 
-Notify("Hello, World");
+### Formula/Code
+
+```powerfx
+// Your Power Fx code here
 ```
 
->### Disclaimer
->THIS CODE IS PROVIDED **AS IS WITHOUT WARRANTY OF ANY KIND**, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+## Best Practices
 
-# Now What?
+- Best practice 1
+- Best practice 2
 
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to message us from [Our Website](https://superpowerlabs.co) or check out our free resources and community.
-- 🆓 [Free community and resources](https://tinyurl.com/DarrensStuffFree) ⬅️
-- 📺 [YouTube Channel](https://youtube.com/superpowerlabs)
-- 📖 [Power Platform Links](https://powerplatformlinks.com/)
+## Related Patterns
 
+- [Related Snippet 1](path/to/snippet.md)
 
+## Credits
+
+[Attribution and sources]

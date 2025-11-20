@@ -1,6 +1,18 @@
+---
+title: "Data Sources Resources"
+description: "Resources and links related to various data sources for Power Apps."
+category: "Data Sources"
+tags: ["data", "sources", "csv", "sql"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Data Sources
 
-In this directory you'll find resources related to specific data sources. 
+In this directory you'll find resources related to specific data sources.
 
 ### File Downloads
 

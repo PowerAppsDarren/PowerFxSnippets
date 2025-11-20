@@ -1,5 +1,19 @@
 
 
+---
+title: "Handling Vertical Sliders"
+description: "Example of using vertical sliders to control image position."
+category: "Controls"
+tags: ["slider", "vertical", "layout", "position"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
+# Handling Vertical Sliders
+
 ```PowerFx
 - Label2:
     Control: Label

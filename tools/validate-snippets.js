@@ -26,6 +26,48 @@ class SnippetValidator {
       invalid: 0,
       fixed: 0
     };
+    
+    // Allowed top-level categories (feature-first + legacy)
+    this.allowedCategories = [
+      'app-lifecycle',
+      'ui-controls',
+      'data-operations',
+      'business-logic',
+      'integrations',
+      'assets-and-media',
+      'advanced-patterns',
+      'learning-resources',
+      '01-getting-started',
+      '02-app-architecture',
+      '03-user-interface',
+      '04-data-management',
+      '05-business-logic',
+      '06-integrations',
+      '07-assets-and-media',
+      '08-advanced-patterns',
+      '09-learning-resources',
+      // Legacy directories
+      'App.Formulas',
+      'App.OnError',
+      'App.OnMessage',
+      'App.OnStart',
+      'App.StartScreen',
+      'Components',
+      'Connectors',
+      'Controls',
+      'Data Sources',
+      'Functions',
+      'Icons',
+      'Images',
+      'JSON',
+      'SVGs',
+      'String Manipulation',
+      'Text-Manipulation',
+      'Themes-Color-Palettes',
+      'Theming',
+      'User Defined Functions',
+      'User Defined Types'
+    ];
   }
 
   log(message, level = 'info') {
@@ -57,8 +99,17 @@ class SnippetValidator {
     const items = await fs.promises.readdir(rootPath, { withFileTypes: true });
 
     for (const item of items) {
-      if (item.isDirectory() && item.name.match(/^\d{2}-/)) {
-        categories.push(path.join(rootPath, item.name));
+      if (item.isDirectory() && !item.name.startsWith('.') && item.name !== 'node_modules' && item.name !== 'tools' && item.name !== '_archive') {
+        // Check if it's a known category or contains markdown files
+        if (this.allowedCategories.includes(item.name) || item.name.match(/^\d{2}-/)) {
+           categories.push(path.join(rootPath, item.name));
+        } else {
+           // Also check if directory contains .md files directly (legacy structure)
+           const subItems = await fs.promises.readdir(path.join(rootPath, item.name));
+           if (subItems.some(f => f.endsWith('.md'))) {
+             categories.push(path.join(rootPath, item.name));
+           }
+        }
       }
     }
 
@@ -111,12 +162,21 @@ class SnippetValidator {
         this.log(`Valid: ${relativePath}`, 'success');
       } else {
         this.stats.invalid++;
-        this.errors.push(...validation.errors);
-        this.warnings.push(...validation.warnings);
+        this.errors.push(...validation.errors.map(e => `${relativePath}: ${e}`));
+        this.warnings.push(...validation.warnings.map(w => `${relativePath}: ${w}`));
 
         if (this.options.fix && validation.canFix) {
           await this.fixSnippet(filePath, validation.fixes);
           this.stats.fixed++;
+          // Re-validate to confirm fix
+          const newContent = await fs.promises.readFile(filePath, 'utf8');
+          const revalidation = this.validateSnippetContent(newContent, filePath);
+          if (revalidation.isValid) {
+             this.stats.invalid--;
+             this.stats.valid++;
+             // Remove errors associated with this file from the list since it's fixed
+             this.errors = this.errors.filter(e => !e.startsWith(relativePath));
+          }
         }
       }
     } catch (error) {
@@ -135,15 +195,30 @@ class SnippetValidator {
     };
 
     // Check for YAML front matter
-    const frontMatterMatch = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+    // Allow for optional whitespace around delimiters and handle different newline styles
+    const frontMatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
+    
+    // Fix: Missing trailing newline after front matter
     if (!frontMatterMatch) {
-      result.errors.push('Missing YAML front matter');
-      result.isValid = false;
-      return result;
+        const looseMatch = content.match(/^---\s*\n([\s\S]*?)\n---([^\n][\s\S]*)$/);
+        if (looseMatch) {
+            result.canFix = true;
+            result.fixes.push({ type: 'add_newline_after_frontmatter' });
+        } else if (!content.startsWith('---')) {
+             result.errors.push('Missing YAML front matter');
+             result.isValid = false;
+             return result;
+        }
     }
 
-    const yamlContent = frontMatterMatch[1];
-    const bodyContent = frontMatterMatch[2];
+    if (!frontMatterMatch && !result.canFix) {
+        result.errors.push('Invalid YAML front matter format');
+        result.isValid = false;
+        return result;
+    }
+
+    const yamlContent = frontMatterMatch ? frontMatterMatch[1] : (content.match(/^---\n([\s\S]*?)\n---/) ? content.match(/^---\n([\s\S]*?)\n---/)[1] : '');
+    const bodyContent = frontMatterMatch ? frontMatterMatch[2] : content.replace(/^---\n[\s\S]*?\n---/, '');
 
     // Validate YAML
     let metadata;
@@ -155,12 +230,32 @@ class SnippetValidator {
       return result;
     }
 
-    // Required fields validation
-    const requiredFields = ['title', 'description', 'category', 'difficulty'];
+    // Required fields validation (Constitution + Template)
+    const requiredFields = [
+        'title', 
+        'description', 
+        'category', 
+        'tags', 
+        'difficulty', 
+        'author', 
+        'created', 
+        'updated', 
+        'license'
+    ];
+    
     for (const field of requiredFields) {
       if (!metadata[field]) {
-        result.errors.push(`Missing required field: ${field}`);
-        result.isValid = false;
+        // Backward compatibility: warn instead of error for some fields on legacy files
+        if (['license', 'created', 'updated', 'author'].includes(field)) {
+             result.warnings.push(`Missing recommended field: ${field}`);
+             if (this.options.fix && ['created', 'updated'].includes(field)) {
+                 result.canFix = true;
+                 result.fixes.push({ type: 'add_missing_field', field: field });
+             }
+        } else {
+            result.errors.push(`Missing required field: ${field}`);
+            result.isValid = false;
+        }
       }
     }
 
@@ -175,10 +270,13 @@ class SnippetValidator {
 
     // Category validation
     if (metadata.category) {
+      // We don't strictly enforce path matching anymore due to legacy structure, 
+      // but we can warn if it looks completely wrong
       const categoryPath = path.dirname(filePath);
       const expectedCategory = this.getCategoryFromPath(categoryPath);
-      if (metadata.category !== expectedCategory) {
-        result.warnings.push(`Category mismatch: expected '${expectedCategory}', got '${metadata.category}'`);
+      // Only warn if we could determine an expected category and it doesn't match
+      if (expectedCategory && !metadata.category.includes(expectedCategory) && !expectedCategory.includes(metadata.category)) {
+        result.warnings.push(`Category mismatch: path suggests '${expectedCategory}', metadata has '${metadata.category}'`);
       }
     }
 
@@ -202,13 +300,13 @@ class SnippetValidator {
     }
 
     // Content validation
-    if (!bodyContent.trim()) {
+    if (!bodyContent || !bodyContent.trim()) {
       result.errors.push('Snippet body is empty');
       result.isValid = false;
     }
 
     // Check for code blocks
-    if (!bodyContent.includes('```')) {
+    if (bodyContent && !bodyContent.includes('```')) {
       result.warnings.push('No code blocks found in snippet');
     }
 
@@ -218,21 +316,43 @@ class SnippetValidator {
   getCategoryFromPath(filePath) {
     const relativePath = path.relative(path.join(__dirname, '..'), filePath);
     const parts = relativePath.split(path.sep);
-    const categoryIndex = parts.findIndex(part => part.match(/^\d{2}-/));
-    if (categoryIndex >= 0) {
-      return parts.slice(categoryIndex, categoryIndex + 2).join('/');
+    // Use the first directory as the category
+    if (parts.length > 1) {
+        return parts[0];
     }
     return '';
   }
 
   isValidDate(dateString) {
+    // Handle Date objects if yaml parser converted them
+    if (dateString instanceof Date) return true;
     return /^\d{4}-\d{2}-\d{2}$/.test(dateString) && !isNaN(Date.parse(dateString));
   }
 
   async fixSnippet(filePath, fixes) {
-    // Implementation for auto-fixing common issues
     this.log(`Auto-fixing: ${path.relative(path.join(__dirname, '..'), filePath)}`, 'info');
-    // TODO: Implement specific fixes
+    
+    let content = await fs.promises.readFile(filePath, 'utf8');
+    let modified = false;
+
+    for (const fix of fixes) {
+        if (fix.type === 'add_newline_after_frontmatter') {
+            content = content.replace(/^(---\n[\s\S]*?\n---)([^\n])/, '$1\n$2');
+            modified = true;
+        } else if (fix.type === 'add_missing_field') {
+            const today = new Date().toISOString().split('T')[0];
+            if (fix.field === 'created' || fix.field === 'updated') {
+                // Insert before the closing ---
+                content = content.replace(/\n---/, `\n${fix.field}: ${today}\n---`);
+                modified = true;
+            }
+        }
+    }
+
+    if (modified) {
+        await fs.promises.writeFile(filePath, content, 'utf8');
+        this.log(`Fixed ${fixes.length} issues in ${path.basename(filePath)}`, 'success');
+    }
   }
 
   printSummary() {

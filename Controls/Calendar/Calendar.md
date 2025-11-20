@@ -1,5 +1,19 @@
 
 
+---
+title: "Custom Calendar Control"
+description: "A custom calendar implementation using galleries for month and day views."
+category: "Controls"
+tags: ["calendar", "date", "gallery", "ui"]
+difficulty: advanced
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
+# Custom Calendar Control
+
 ```PowerFx
 - MonthDayGallery1:
     Control: Gallery

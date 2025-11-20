@@ -1,3 +1,15 @@
+---
+title: "Canvas Control"
+description: "FluidGrid canvas control examples, including one with Data Cards."
+category: "Controls"
+tags: ["canvas", "fluidgrid", "layout", "responsive"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Canvas Control
 
 This is some YAML you can paste into your canvas Power Apps applciation.

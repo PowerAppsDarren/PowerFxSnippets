@@ -89,9 +89,9 @@
 - [ ] T044 [P2] Add frontmatter to all color-related files
 - [ ] T045 [P2] Create visual-assets/colors/README.md
 
-### Other Category Migrations (Lower Priority)
+### High-Quality Content Migration (Based on repository review)
 
-- [ ] T046 [P2] Migrate Controls/ (remaining 16 control types) to ui-controls/
+- [ ] T046 [P2] Migrate Controls/ (remaining 16 control types) to ui-controls/ with priority on well-documented examples
 - [ ] T047 [P2] Migrate Components/ to ui-patterns/components/custom-components/
 - [ ] T048 [P2] Migrate Code Components/ to ui-patterns/components/code-components/
 - [ ] T049 [P2] Migrate Menu-Related/ to ui-patterns/menus/
@@ -108,6 +108,15 @@
 - [ ] T060 [P2] Migrate Best Practices/ to learning/best-practices/
 - [ ] T061 [P2] Migrate Certification Exams/ to learning/certification/
 - [ ] T062 [P2] Migrate Learning/ + Content for Learning/ to learning/tutorials/
+- [ ] T063 [P2] Migrate 01-getting-started/ (high-priority foundational content) to learning/getting-started/
+- [ ] T064 [P2] Migrate 02-app-architecture/ to app-lifecycle/ (core functionality)
+- [ ] T065 [P2] Migrate 03-user-interface/ to ui-controls/ and ui-patterns/ as appropriate
+- [ ] T066 [P2] Migrate 04-data-management/ to data-operations/ (critical data operations)
+- [ ] T067 [P2] Migrate 05-business-logic/ to functions/ and app-lifecycle/ as appropriate
+- [ ] T068 [P2] Migrate 06-integrations/ to integrations/ (connectors and flows)
+- [ ] T069 [P2] Migrate 07-assets-and-media/ to visual-assets/ (media and assets)
+- [ ] T070 [P2] Migrate 08-advanced-patterns/ to appropriate categories in new structure
+- [ ] T071 [P2] Migrate 09-learning-resources/ to learning/ (comprehensive learning content)
 
 ---
 
@@ -117,30 +126,38 @@
 
 ### README File Creation
 
-- [ ] T063 [P3][P] Complete ui-patterns/README.md
-- [ ] T064 [P3][P] Complete visual-assets/README.md
-- [ ] T065 [P3][P] Complete data-operations/README.md
-- [ ] T066 [P3][P] Complete functions/README.md
-- [ ] T067 [P3][P] Complete integrations/README.md
-- [ ] T068 [P3][P] Complete learning/README.md
-- [ ] T069 [P3][P] Complete utilities/README.md
-- [ ] T070 [P3] Write README.md for all second-level directories (estimate 40+ files)
-- [ ] T071 [P3] Write README.md for all third-level directories with content (estimate 20+ files)
+- [ ] T072 [P3][P] Complete ui-patterns/README.md
+- [ ] T073 [P3][P] Complete visual-assets/README.md
+- [ ] T074 [P3][P] Complete data-operations/README.md
+- [ ] T075 [P3][P] Complete functions/README.md
+- [ ] T076 [P3][P] Complete integrations/README.md
+- [ ] T077 [P3][P] Complete learning/README.md
+- [ ] T078 [P3][P] Complete utilities/README.md
+- [ ] T079 [P3] Write README.md for all second-level directories (estimate 40+ files)
+- [ ] T080 [P3] Write README.md for all third-level directories with content (estimate 20+ files)
+
+### Content Quality Enhancement (Based on repository review)
+
+- [ ] T081 [P3] Add visual examples (screenshots/diagrams) where appropriate to enhance understanding
+- [ ] T082 [P3] Review and enhance existing documentation standards in all migrated content
+- [ ] T083 [P3] Ensure troubleshooting sections are present in all complex snippets
+- [ ] T084 [P3] Verify that next steps and related snippet references are updated
+- [ ] T085 [P3] Add comprehensive usage examples for all migrated snippets
 
 ### Search & Discovery Tools
 
-- [ ] T072 [P3] Generate SEARCH-INDEX.md - Complete searchable snippet catalog with all metadata
-- [ ] T073 [P3] Create TAG-INDEX.md - All snippets organized by tags
-- [ ] T074 [P3] Create DIFFICULTY-INDEX.md - Snippets organized by difficulty (beginner/intermediate/advanced)
-- [ ] T075 [P3] Create PRODUCT-INDEX.md - Snippets organized by Power Platform product
-- [ ] T076 [P3] Generate statistics (snippet counts by category, tag frequency, etc.)
+- [ ] T086 [P3] Generate SEARCH-INDEX.md - Complete searchable snippet catalog with all metadata
+- [ ] T087 [P3] Create TAG-INDEX.md - All snippets organized by tags
+- [ ] T088 [P3] Create DIFFICULTY-INDEX.md - Snippets organized by difficulty (beginner/intermediate/advanced)
+- [ ] T089 [P3] Create PRODUCT-INDEX.md - Snippets organized by Power Platform product
+- [ ] T090 [P3] Generate statistics (snippet counts by category, tag frequency, etc.)
 
 ### Migration Documentation
 
-- [ ] T077 [P3] Create MIGRATION-GUIDE.md with complete 52-entry old → new path mapping
-- [ ] T078 [P3] Add deprecation notices in old directory locations (after archiving)
-- [ ] T079 [P3] Update all internal links in migrated snippets to use new paths
-- [ ] T080 [P3] Verify no broken internal links using link-checker
+- [ ] T091 [P3] Create MIGRATION-GUIDE.md with complete 52-entry old → new path mapping
+- [ ] T092 [P3] Add deprecation notices in old directory locations (after archiving)
+- [ ] T093 [P3] Update all internal links in migrated snippets to use new paths
+- [ ] T094 [P3] Verify no broken internal links using link-checker
 
 ---
 
@@ -150,32 +167,34 @@
 
 ### GitHub Actions Workflows
 
-- [ ] T081 [P4][P] Create .github/workflows/validate-snippets.yml - Run snippet-validator.py on every PR
-- [ ] T082 [P4][P] Create .github/workflows/generate-indexes.yml - Auto-generate indexes on merge to main
-- [ ] T083 [P4][P] Create .github/workflows/check-links.yml - Weekly broken link checking
+- [ ] T095 [P4][P] Create .github/workflows/validate-snippets.yml - Run snippet-validator.py on every PR
+- [ ] T096 [P4][P] Create .github/workflows/generate-indexes.yml - Auto-generate indexes on merge to main
+- [ ] T097 [P4][P] Create .github/workflows/check-links.yml - Weekly broken link checking
+- [ ] T098 [P4][P] Create .github/workflows/content-completeness.yml - Verify content completeness
 
 ### GitHub Templates
 
-- [ ] T084 [P4][P] Create .github/ISSUE_TEMPLATE/bug-report.md
-- [ ] T085 [P4][P] Create .github/ISSUE_TEMPLATE/feature-request.md
-- [ ] T086 [P4][P] Create .github/ISSUE_TEMPLATE/snippet-submission.md
-- [ ] T087 [P4][P] Create .github/PULL_REQUEST_TEMPLATE.md with snippet submission checklist
+- [ ] T099 [P4][P] Create .github/ISSUE_TEMPLATE/bug-report.md
+- [ ] T100 [P4][P] Create .github/ISSUE_TEMPLATE/feature-request.md
+- [ ] T101 [P4][P] Create .github/ISSUE_TEMPLATE/snippet-submission.md
+- [ ] T102 [P4][P] Create .github/PULL_REQUEST_TEMPLATE.md with snippet submission checklist
 
 ### Contribution Guidelines
 
-- [ ] T088 [P4] Create CONTRIBUTING.md with:
+- [ ] T103 [P4] Create CONTRIBUTING.md with:
   - How to add new snippets
   - Snippet frontmatter requirements
   - README file standards
   - Testing and validation process
   - PR submission guidelines
+  - Documentation quality standards from repository review
 
 ### Validation & Testing
 
-- [ ] T089 [P4] Run snippet-validator.py on all snippets - fix any validation errors
-- [ ] T090 [P4] Test index-generator.py - verify all indexes generate correctly
-- [ ] T091 [P4] Test all GitHub Actions workflows in test repository
-- [ ] T092 [P4] Verify validate-all-snippets.sh works on full repository
+- [ ] T104 [P4] Run snippet-validator.py on all snippets - fix any validation errors
+- [ ] T105 [P4] Test index-generator.py - verify all indexes generate correctly
+- [ ] T106 [P4] Test all GitHub Actions workflows in test repository
+- [ ] T107 [P4] Verify validate-all-snippets.sh works on full repository
 
 ---
 
@@ -185,26 +204,27 @@
 
 ### Verification
 
-- [ ] T093 [P5] Generate file count report: old structure vs new structure (should match)
-- [ ] T094 [P5] Identify orphaned files (files not migrated to new structure)
-- [ ] T095 [P5] Migrate or archive any orphaned files
-- [ ] T096 [P5] Verify all internal links updated in migrated content (no old path references)
+- [ ] T108 [P5] Generate file count report: old structure vs new structure (should match)
+- [ ] T109 [P5] Identify orphaned files (files not migrated to new structure)
+- [ ] T110 [P5] Migrate or archive any orphaned files
+- [ ] T111 [P5] Verify all internal links updated in migrated content (no old path references)
 
 ### Archive Old Structure
 
-- [ ] T097 [P5] Create --old-structure-archive/ directory
-- [ ] T098 [P5] Move all old directories to --old-structure-archive/
-- [ ] T099 [P5] Add README.md in --old-structure-archive/ explaining deprecation
-- [ ] T100 [P5] Create redirect notes in old locations pointing to new paths
+- [ ] T112 [P5] Create --old-structure-archive/ directory
+- [ ] T113 [P5] Move all old directories to --old-structure-archive/
+- [ ] T114 [P5] Add README.md in --old-structure-archive/ explaining deprecation
+- [ ] T115 [P5] Create redirect notes in old locations pointing to new paths
 
 ### Final Validation
 
-- [ ] T101 [P5] Run snippet-validator.py on entire repository - 100% pass rate
-- [ ] T102 [P5] Generate all search indexes one final time
-- [ ] T103 [P5] Review all README files for completeness and accuracy
-- [ ] T104 [P5] Verify all GitHub Actions passing on main branch
-- [ ] T105 [P5] Final link check - no broken internal links
-- [ ] T106 [P5] Test snippet discovery workflow end-to-end
+- [ ] T116 [P5] Run snippet-validator.py on entire repository - 100% pass rate
+- [ ] T117 [P5] Generate all search indexes one final time
+- [ ] T118 [P5] Review all README files for completeness and accuracy
+- [ ] T119 [P5] Verify all GitHub Actions passing on main branch
+- [ ] T120 [P5] Final link check - no broken internal links
+- [ ] T121 [P5] Test snippet discovery workflow end-to-end
+- [ ] T122 [P5] Verify content quality standards are maintained throughout repository
 
 ---
 
@@ -214,39 +234,39 @@
 
 ### Communication
 
-- [ ] T107 [P6] Write launch announcement for GitHub Discussions
-- [ ] T108 [P6] Create GitHub Release with changelog
-- [ ] T109 [P6] Update main README.md with "What's New" section highlighting restructuring
-- [ ] T110 [P6] Notify regular contributors via GitHub mentions or email
+- [ ] T123 [P6] Write launch announcement for GitHub Discussions
+- [ ] T124 [P6] Create GitHub Release with changelog
+- [ ] T125 [P6] Update main README.md with "What's New" section highlighting restructuring
+- [ ] T126 [P6] Notify regular contributors via GitHub mentions or email
 
 ### Documentation Updates
 
-- [ ] T111 [P6] Update any external blog posts or articles linking to repository
-- [ ] T112 [P6] Update links in any related repositories or projects
-- [ ] T113 [P6] Create "Migration Guide for Contributors" documentation
+- [ ] T127 [P6] Update any external blog posts or articles linking to repository
+- [ ] T128 [P6] Update links in any related repositories or projects
+- [ ] T129 [P6] Create "Migration Guide for Contributors" documentation
 
 ### Monitoring & Feedback
 
-- [ ] T114 [P6] Set up GitHub Discussions category for restructuring feedback
-- [ ] T115 [P6] Monitor GitHub Issues for confusion or questions about new structure
-- [ ] T116 [P6] Track metrics: search usage, popular categories, contributor feedback
-- [ ] T117 [P6] Create feedback survey for community input
+- [ ] T130 [P6] Set up GitHub Discussions category for restructuring feedback
+- [ ] T131 [P6] Monitor GitHub Issues for confusion or questions about new structure
+- [ ] T132 [P6] Track metrics: search usage, popular categories, contributor feedback
+- [ ] T133 [P6] Create feedback survey for community input
 
 ---
 
 ## Summary Statistics
 
-**Total Tasks**: 117
+**Total Tasks**: 133 (increased from 117 based on repository review findings)
 - **Phase 1** (Foundation): 9 tasks ✅ COMPLETE
-- **Phase 2** (Migration): 53 tasks
-- **Phase 3** (Documentation): 18 tasks
-- **Phase 4** (Automation): 12 tasks
-- **Phase 5** (Cleanup): 14 tasks
+- **Phase 2** (Migration): 53 tasks (increased from 53 based on comprehensive content migration)
+- **Phase 3** (Documentation): 18 tasks (increased from 18 with quality enhancements)
+- **Phase 4** (Automation): 15 tasks (increased from 12 with content completeness validation)
+- **Phase 5** (Cleanup): 15 tasks (increased from 14 with quality verification)
 - **Phase 6** (Launch): 11 tasks
 
-**Parallelizable Tasks**: ~40 tasks marked with [P]
+**Parallelizable Tasks**: ~45 tasks marked with [P]
 
-**Current Progress**: 9/117 tasks complete (7.7%)
+**Current Progress**: 9/133 tasks complete (6.8%)
 **Phase 1 Progress**: 9/9 tasks complete (100%) ✅
 
 ---
@@ -257,9 +277,10 @@ The following tasks are blocking and must be completed sequentially:
 
 1. **P2 Prerequisites**: T010-T013 (utilities) must complete before migration tasks
 2. **P2 → P3**: At least 5 priority categories (T014-T045) must migrate before documentation
-3. **P3 → P4**: MIGRATION-GUIDE.md (T077) must complete before automation
-4. **P4 → P5**: All GitHub Actions (T081-T083) must work before cleanup
-5. **P5 → P6**: Verification (T093-T106) must pass before launch
+3. **P2 Content Migration**: T063-T070 (high-priority content) must complete before full docs
+4. **P3 → P4**: MIGRATION-GUIDE.md (T091) must complete before automation
+5. **P4 → P5**: All GitHub Actions (T095-T098) must work before cleanup
+6. **P5 → P6**: Verification (T116-T122) must pass before launch
 
 ---
 
@@ -269,18 +290,34 @@ The following tasks are blocking and must be completed sequentially:
 1. Create validation utilities (T010-T013)
 2. Begin App.Formulas migration (T014-T021)
 3. Begin Gallery migration (T022-T029)
+4. Begin high-priority content migration (T063-T070)
 
 **Short-term (Week 2-3):**
-4. Complete all priority category migrations
-5. Merge duplicate categories
-6. Migrate remaining categories
+5. Complete all priority category migrations
+6. Merge duplicate categories
+7. Migrate remaining categories
 
 **Medium-term (Week 3-4):**
-7. Complete all README files
-8. Generate all search indexes
-9. Create migration guide
+8. Complete all README files
+9. Generate all search indexes
+10. Create migration guide
+11. Enhance content quality based on repository review
 
 **Long-term (Week 4-6):**
-10. Set up automation
-11. Clean up old structure
-12. Launch and communicate
+12. Set up automation
+13. Clean up old structure
+14. Launch and communicate
+15. Monitor and collect feedback
+
+---
+
+## Repository Review Insights
+
+Based on comprehensive repository analysis, these enhancements have been incorporated:
+
+1. **Content Completeness**: Added tasks for comprehensive content migration across all 01-09 categories
+2. **Quality Standards**: Added documentation quality enhancement tasks (T081-T085)
+3. **Visual Content**: Added tasks for visual examples and screenshots (T081)
+4. **High-Priority Content**: Identified and prioritized foundational content like 01-getting-started
+5. **Validation**: Added content completeness validation in automation phase (T098)
+6. **Quality Verification**: Added final quality verification in cleanup phase (T122)

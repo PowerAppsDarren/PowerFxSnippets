@@ -1,3 +1,15 @@
+---
+title: "Spacer Rectangle"
+description: "A rectangle control used as a visual spacer or guide during development."
+category: "Controls"
+tags: ["rectangle", "spacer", "layout", "guide"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Spacer Medium Rectangle
 
 This is a helpful canvas Power Apps code snippet.

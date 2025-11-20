@@ -1,3 +1,15 @@
+---
+title: "Helpful Constants"
+description: "A set of standard constants for spacing, screen defaults, and control properties."
+category: "App.Formulas"
+tags: ["constants", "design", "layout", "standardization"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Helpful Constants
 
 This is a helpful canvas Power Apps code snippet.

@@ -1,3 +1,15 @@
+---
+title: "Find Proportional Value"
+description: "Calculates a proportional value based on two related fractions where one value is unknown."
+category: "App.Formulas"
+tags: ["math", "proportion", "calculation", "fraction"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Find Proportional Value
 
 Calculates a proportional value based on two related fractions where one value is unknown.
@@ -43,9 +55,11 @@ Solves for either UnknownNumerator or UnknownDenominator, but not both.
                 UnknownFraction: UnknownNumerator / UnknownDenominator
             },
             If(
+                // Solving for Numerator
                 IsBlank(UnknownNumerator),
-                KnownFractionUnknownDenominator,
+                KnownFraction * UnknownDenominator,
                 If(
+                    // Solving for Denominator
                     IsBlank(UnknownDenominator),
                     UnknownNumerator / KnownFraction,
                     Error("Both numerator and denominator of the unknown fraction are provided.")
@@ -107,9 +121,9 @@ Here is some YAML code you can paste onto a screen to use or test:
           Text: |-
             =If(
                 Len(txtUnknownDenominator.Text) = 0, 
-                fxSolveFraction(
-                    Value(txtNumerator.Text), 
-                    Value(txtDenominator.Text), 
+                fxFindProportionalValue(
+                    Value(txtNumerator.Text),
+                    Value(txtDenominator.Text),
                     Value(txtUnknownNumberator.Text),
                     Blank()
                 )
@@ -124,8 +138,8 @@ Here is some YAML code you can paste onto a screen to use or test:
           Text: |-
             =If(
                 Len(txtUnknownNumberator.Text) = 0, 
-                fxSolveFraction(
-                    Value(txtNumerator.Text), 
+                fxFindProportionalValue(
+                    Value(txtNumerator.Text),
                     Value(txtDenominator.Text),
                     Blank(),
                     Value(txtUnknownDenominator.Text)

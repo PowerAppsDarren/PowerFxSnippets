@@ -1,3 +1,15 @@
+---
+title: "Themed Chart Control"
+description: "A themed BarChart control inside a container with custom styling."
+category: "Controls"
+tags: ["chart", "bar-chart", "theme", "visualization"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Chart-Controls
 
 ```PowerFx

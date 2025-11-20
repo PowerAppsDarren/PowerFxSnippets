@@ -1,3 +1,15 @@
+---
+title: "Random Screen Transition"
+description: "A function to return a random screen transition effect."
+category: "App.Formulas"
+tags: ["navigation", "transition", "random", "ui"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Random Screen Transition
 
 This function will return one of the 5 screen transitions randomly.

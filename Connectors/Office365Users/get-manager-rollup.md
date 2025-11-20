@@ -1,3 +1,15 @@
+---
+title: "Get Manager Rollup"
+description: "Recursively retrieve a user's manager hierarchy (rollup) up to 10 levels."
+category: "Connectors"
+tags: ["office365", "users", "manager", "hierarchy", "rollup"]
+difficulty: advanced
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Get Manager Rollup
 
 The user and their manager and their manager and their manager, and so on.

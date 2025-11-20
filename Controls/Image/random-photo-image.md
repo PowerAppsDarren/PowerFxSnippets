@@ -1,3 +1,15 @@
+---
+title: "Random Profile Photo"
+description: "An Image control that displays a random person's face using an external service."
+category: "Controls"
+tags: ["image", "random", "profile", "avatar"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Need a Random Profile Photo
 
 This is really nice if you want to have a photo for each row in your gallery control for people.

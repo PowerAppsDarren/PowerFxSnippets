@@ -1,3 +1,15 @@
+---
+title: "Naming Controls Guidelines"
+description: "Best practices and rules for naming controls in Power Apps."
+category: "Controls"
+tags: ["naming", "best-practices", "standards", "conventions"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Naming Controls
 
 - [A better reading experience](https://powerplatformlinks.com/Power+Apps/Canvas/Naming+Controls).

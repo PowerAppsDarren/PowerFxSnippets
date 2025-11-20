@@ -1,6 +1,18 @@
 
 
 
+---
+title: "Top of App Formulas"
+description: "Table of contents and naming guidelines for App.Formulas."
+category: "App.Formulas"
+tags: ["formulas", "naming", "guidelines", "toc"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 ```PowerFx
     /*
         ==========================================
@@ -53,4 +65,5 @@
 
         ==========================================
     */
+    fxEnableErrorEmailNotifications = false; // Set to true to enable email notifications for errors (requires Office365Outlook connector)
 ```
