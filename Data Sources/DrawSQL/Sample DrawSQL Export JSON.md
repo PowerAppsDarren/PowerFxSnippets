@@ -1,6 +1,28 @@
+---
+title: "Sample DrawSQL Export JSON"
+description: "Complete JSON export from DrawSQL containing database schema with tables, columns, relationships, and metadata for Power Apps data modeling"
+category: "data-operations"
+subcategory: "drawsql"
+tags:
+  - data
+  - schema
+  - json
+  - export
+  - relationships
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Sample DrawSQL Export JSON
 
-This is some YAML you can paste into your canvas Power Apps applciation that will 
+This snippet provides a complete JSON export from DrawSQL, containing a full database schema with tables, columns, relationships, and metadata that can be used for data modeling in Power Apps.
 
 ## Add This to Your Application
 

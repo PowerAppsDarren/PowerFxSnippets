@@ -1,6 +1,29 @@
-# New Topic Template
+---
+title: "Auto-Add User from Office 365"
+description: "Automatically add the current user to the app's user table if they don't exist, retrieving profile information from Office 365 Users connector"
+category: "integrations"
+subcategory: "office365-users"
+tags:
+  - office365
+  - users
+  - auto-add
+  - profile
+  - authentication
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies:
+  - Office365Users
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
 
-This is a template to be used for new code snippets for this code repository.
+# Auto-Add User from Office 365
+
+This pattern automatically adds the current user to the app's user table if they don't exist, retrieving profile information from the Office 365 Users connector.
 
 ## Security and Privacy Considerations
 

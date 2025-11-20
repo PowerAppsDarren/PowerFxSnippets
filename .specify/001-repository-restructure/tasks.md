@@ -7,7 +7,8 @@
 
 ## Format: `[ID] [Phase] [P?] Description`
 
-- **[Phase]**: Which phase this task belongs to (P1, P2, P3, P4, P5, P6)
+- **[Phase]**: Which implementation phase this task belongs to (Phase1, Phase2, Phase3, Phase4, Phase5, Phase6)
+  _Note: Phase labels (Phase1-6) are distinct from user story priorities (P0/P1/P2) in spec.md_
 - **[P]**: Can run in parallel (different files, no dependencies)
 - Include exact paths in descriptions
 
@@ -187,6 +188,8 @@
   - README file standards
   - Testing and validation process
   - PR submission guidelines
+  - SLA commitment: Feedback provided within 48 hours on pull requests
+  - Recognition system for contributors
   - Documentation quality standards from repository review
 
 ### Validation & Testing

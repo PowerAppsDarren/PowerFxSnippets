@@ -1,3 +1,24 @@
+---
+title: "Gallery Control Snippets Overview"
+description: "Overview of gallery control snippets with visual examples and links"
+category: "ui-controls"
+subcategory: "gallery"
+tags:
+  - gallery
+  - controls
+  - ui
+  - overview
+difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # README: Gallery Control
 
 

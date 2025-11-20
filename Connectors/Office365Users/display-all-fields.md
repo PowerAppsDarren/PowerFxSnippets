@@ -1,6 +1,29 @@
-# Display All Profile Fields
+---
+title: "Display All Office 365 User Profile Fields"
+description: "Display all available fields from the current user's Office 365 profile using label controls"
+category: "integrations"
+subcategory: "office365-users"
+tags:
+  - office365
+  - profile
+  - fields
+  - display
+  - labels
+difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies:
+  - Office365Users
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
 
-This is a template to be used for new code snippets for this code repository.
+# Display All Office 365 User Profile Fields
+
+This snippet displays all available fields from the current user's Office 365 profile.
 
 ## Add This to Your Application
 

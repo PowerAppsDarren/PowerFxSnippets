@@ -75,10 +75,12 @@ The current repository has **1,213 files across 52 directories** with multiple c
 ### US4: As a maintainer, I want automated quality checks
 
 **Acceptance Criteria:**
-- [ ] Validation scripts for snippet frontmatter
-- [ ] Automated index generation
-- [ ] GitHub Actions for CI/CD
-- [ ] Link checking automation
+- [ ] Validation scripts for snippet frontmatter (required fields, valid values, ISO dates)
+- [ ] Internal link integrity checking (no broken cross-references)
+- [ ] Markdown formatting consistency validation
+- [ ] Category placement verification (files in correct directories)
+- [ ] Automated index generation from snippet metadata
+- [ ] GitHub Actions for CI/CD running all validations on PR
 - [ ] Content completeness verification
 
 **Priority:** P1 (Should Have)
@@ -169,7 +171,7 @@ related:
 | `String Manipulation/` + `Text-Manipulation/` | `functions/string-manipulation/` | **MERGE** duplicates |
 | `Color/` + `Color Palettes/` + `Themes-Color-Palettes/` | `visual-assets/colors/` | **CONSOLIDATE** |
 | `SVGs/` | `visual-assets/svgs/` | Maintain existing sub-structure |
-| ... | ... | See plan.md for complete 52-entry mapping |
+| ... | ... | See [complete 52-entry mapping](../../--new-structure-claude-code.md#migration-mapping) |
 
 ### Migration Priorities
 
@@ -199,11 +201,12 @@ Based on repository analysis, prioritize the following content areas for migrati
 - [ ] High-quality documentation standards preserved
 
 ### Scalability
-- [ ] Easy to add new snippets (template-based)
-- [ ] Clear contribution guidelines
-- [ ] Automated quality checks
+- [ ] Easy to add new snippets (template-based, <10 min using provided templates)
+- [ ] Clear contribution guidelines (<5 steps to submit PR)
+- [ ] Automated quality checks (validation completes in <30 seconds)
 - [ ] Consistent categorization
-- [ ] Support for 10x growth
+- [ ] Support for 10x growth (current: 1,213 files → target: 12,000+ files without performance degradation)
+- [ ] Index generation completes in <30 seconds for full repository
 - [ ] Community contribution enabled
 
 ### Content Completeness

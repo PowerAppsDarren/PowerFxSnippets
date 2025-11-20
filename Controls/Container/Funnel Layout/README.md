@@ -1,6 +1,27 @@
+---
+title: "Funnel Layout Container"
+description: "A responsive funnel layout with containers having decreasing numbers of columns (4, 3, 2, 1) for canvas apps"
+category: "ui-controls"
+subcategory: "container"
+tags:
+  - container
+  - layout
+  - funnel
+  - responsive
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Funnel Layout for Power Apps
 
-This is a simple snippet that can help you get started with creating a screen in canvas app. It is a set of containers with various number of columns. The first container has 4 columns, the second container has 3 columns, the third container has 2 columns, and the fourth container has 1 column.
+This snippet provides a responsive funnel layout with containers having decreasing numbers of columns (4, 3, 2, 1) for canvas apps.
 
 All credit goes to Daniel Laskewitz	GitHub (@Laskewitz )
 - https://github.com/laskewitz

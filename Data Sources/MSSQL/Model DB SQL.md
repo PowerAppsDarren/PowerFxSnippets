@@ -1,6 +1,28 @@
-# NEW_TOPIC_GOES_HERE
+---
+title: "Model Database SQL Schema"
+description: "SQL CREATE TABLE statements for a model database schema with main tables, details, and many-to-many relationships for Power Apps data sources"
+category: "data-operations"
+subcategory: "mssql"
+tags:
+  - data
+  - sql
+  - schema
+  - database
+  - relationships
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
 
-This is some YAML you can paste into your canvas Power Apps applciation that will 
+# Model Database SQL Schema
+
+This snippet provides SQL CREATE TABLE statements for a model database schema, including main tables, detail tables, and many-to-many mapping tables suitable for Power Apps data sources.
 
 ## Add This to Your Application
 

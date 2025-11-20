@@ -1,15 +1,18 @@
-
-
 ---
 title: "Component Resources"
 description: "Links to external resources for Power Apps components and design toolkits."
-category: "Components"
+category: "ui-patterns"
+subcategory: "resources"
 tags: ["components", "resources", "design", "toolkit"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
 license: "MIT"
+related: []
 ---
 
 # Component Resources

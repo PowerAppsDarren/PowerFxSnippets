@@ -1,3 +1,26 @@
+---
+title: "Left Nav Bar Component"
+description: "A reusable side navigation menu component for canvas apps with role-based visibility, customizable icons/images, and screen transitions"
+category: "ui-patterns"
+subcategory: "navigation"
+tags:
+  - navigation
+  - menu
+  - component
+  - role-based
+  - icons
+  - images
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Left Nav Bar
 
 - Look at this menu in action [here](example-left-nav-bar.png).
@@ -5,6 +28,23 @@
 - There are two code blocks below!
 
 <img src="example-left-nav-bar.png" width="400" alt="example-left-nav-bar">
+
+## Overview
+
+This component provides a reusable side navigation menu for canvas apps, featuring role-based menu item visibility, customizable icons or images, and smooth screen transitions. The first YAML block contains the component definition with all properties and logic, while the second YAML block provides a sample screen harness showing how to integrate the component into a full app layout.
+
+## Key Concepts
+
+- **Role-Based Visibility**: The `GroupsUserIsIn` input property accepts a semicolon-separated list of user group names. Menu items are filtered using `ShowForThisRole` to display only items appropriate for the current user's roles.
+- **Icons vs Images**: The `IconsOrImages` property toggles between displaying menu icons (from the Icon enum) or custom images. The `IconsOrImagesOutput` property provides the current state for conditional logic.
+- **Screen Transitions**: The `ScreenTransition` property randomly selects from available transition effects (Cover, CoverRight, Fade, UnCover, UnCoverRight) to provide visual feedback when navigating between screens.
+
+## Customization Checklist
+
+- Update menu items in the `MenuItems` table with your app's screens and labels
+- Configure user roles in `GroupsUserIsIn` and `ShowForThisRole` properties
+- Customize colors using `BackgroundColor`, `ForegroundColor`, and `HighLightBackcolor`
+- Set target screens in `ScreenToGoTo` or external URLs in `LaunchURL` for menu actions
 
 ```YAML
 ComponentDefinitions:

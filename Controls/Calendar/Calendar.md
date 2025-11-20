@@ -1,15 +1,19 @@
-
-
 ---
 title: "Custom Calendar Control"
 description: "A custom calendar implementation using galleries for month and day views."
-category: "Controls"
+category: "ui-controls"
+subcategory: "calendar"
 tags: ["calendar", "date", "gallery", "ui"]
 difficulty: advanced
+products:
+  - power-apps-canvas
+dependencies:
+  - Office365Outlook
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
 license: "MIT"
+related: []
 ---
 
 # Custom Calendar Control
@@ -40,12 +44,12 @@ license: "MIT"
           BorderColor: =RGBA(0, 0, 0, 0)
           Color: =If(DateAdd(_firstDayInView, ThisItem.Value) = _dateSelected, RGBA(255, 255, 255, 1), DateAdd(_firstDayInView, ThisItem.Value) = Today(), RGBA(47, 41, 43, 1), LblMonthSelected1.Color)
           Fill: |-
-            =/*Fill value changes if the gallery item day = today, or if it lies outside of the current month*/             
+            =/*Fill value changes if the gallery item day = today, or if it lies outside of the current month*/
             If(
                 /*Date selected is today*/
                 DateAdd(_firstDayInView, ThisItem.Value) = Today() && DateAdd(_firstDayInView, ThisItem.Value) = _dateSelected, RGBA(0,0,0,0),
                 /*Today when it is not selected*/
-                DateAdd(_firstDayInView, ThisItem.Value) = Today(), ColorFade(Subcircle1.Fill, 0.67), 
+                DateAdd(_firstDayInView, ThisItem.Value) = Today(), ColorFade(Subcircle1.Fill, 0.67),
                 /*The day is outside the range of the currently selected month*/
                 Abs(Self.Text - ThisItem.Value) > 10,RGBA(200, 200, 200, 0.3), RGBA(0, 0, 0, 0))
           FocusedBorderColor: =Self.Color
@@ -54,7 +58,7 @@ license: "MIT"
           Size: =17 * MonthDayGallery1.TemplateWidth / 91
           TabIndex: =0
           Visible: |-
-            =/*This item is in a row containing no days of the visible month. It is in the row after the row where the last day of the month occurs*/ 
+            =/*This item is in a row containing no days of the visible month. It is in the row after the row where the last day of the month occurs*/
              !(DateAdd(_firstDayInView,ThisItem.Value, TimeUnit.Days) - Weekday(DateAdd(_firstDayInView,ThisItem.Value, TimeUnit.Days)) + 1 > _lastDayOfMonth)
           Width: =MonthDayGallery1.TemplateWidth
           Wrap: =false
@@ -73,7 +77,7 @@ license: "MIT"
           OnSelect: =Select(Parent)
           Height: =Self.Width
           Visible: |-
-            =/*Visible if calendar events are found on this day*/               
+            =/*Visible if calendar events are found on this day*/
             CountRows(Filter(MyCalendarEvents, DateValue(Text(Start)) = DateAdd(_firstDayInView,ThisItem.Value, TimeUnit.Days))) > 0 && !Subcircle1.Visible && Title2.Visible
           Width: =6.5
           X: =MonthDayGallery1.TemplateWidth / 2 - Self.Width / 2
@@ -160,4 +164,3 @@ license: "MIT"
       Width: =419
       Wrap: =false
       Y: =dropdownCalendarSelection1.Y + dropdownCalendarSelection1.Height + 40
-```

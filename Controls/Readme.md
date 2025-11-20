@@ -1,3 +1,23 @@
+---
+title: "Controls Overview"
+description: "Overview of control-related code snippets for canvas Power Apps"
+category: "ui-controls"
+subcategory: "overview"
+tags:
+  - controls
+  - ui
+  - overview
+difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Controls
 
 Here in this folder, you will find code snippets related to the controls available in canvas Power Apps.

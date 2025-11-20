@@ -1,3 +1,25 @@
+---
+title: "Spinner Component"
+description: "A customizable loading spinner component for canvas apps with SVG animation and color replacement support"
+category: "ui-patterns"
+subcategory: "loading"
+tags:
+  - spinner
+  - loading
+  - component
+  - svg
+  - animation
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Spinner Component
 
 ````yaml
