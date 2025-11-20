@@ -10,8 +10,9 @@
 # Ignore all folders starting with -- or .
 --*/
 .*
-# Exception: Keep .vscode tracked
+# Exceptions: Keep these tracked
 !.vscode/
+!.github/
 !.gitignore
 !.gitattributes
 

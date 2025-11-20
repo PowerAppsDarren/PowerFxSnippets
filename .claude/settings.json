@@ -1,7 +1,0 @@
-{
-  "speckit": {
-    "enabled": true,
-    "specsDir": "specs",
-    "templatesDir": ".claude/templates"
-  }
-}
