@@ -1,6 +1,3 @@
-
-
-
 ---
 title: "Top of App Formulas"
 description: "Table of contents and naming guidelines for App.Formulas."
@@ -66,4 +63,3 @@ license: "MIT"
         ==========================================
     */
     fxEnableErrorEmailNotifications = false; // Set to true to enable email notifications for errors (requires Office365Outlook connector)
-```

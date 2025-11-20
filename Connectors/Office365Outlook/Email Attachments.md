@@ -1,15 +1,19 @@
-
-
 ---
 title: "Email Attachments"
 description: "Send email with multiple attachments using Office365Outlook connector."
-category: "Connectors"
+category: "integrations"
+subcategory: "office365-outlook"
 tags: ["email", "attachments", "outlook", "office365"]
 difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies:
+  - Office365Outlook
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
 license: "MIT"
+related: []
 ---
 
 # Email Attachments
@@ -78,5 +82,3 @@ license: "MIT"
       Width: =220
       X: =1089
       Y: =555
-
-```

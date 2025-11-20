@@ -1,15 +1,18 @@
-
-
 ---
 title: "Handling Vertical Sliders"
 description: "Example of using vertical sliders to control image position."
-category: "Controls"
+category: "ui-controls"
+subcategory: "slider"
 tags: ["slider", "vertical", "layout", "position"]
 difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
 license: "MIT"
+related: []
 ---
 
 # Handling Vertical Sliders

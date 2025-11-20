@@ -1,3 +1,25 @@
+---
+title: "Simple and Elegant Gallery"
+description: "An elegant gallery design with header, drop shadow, and badge elements for displaying user listings"
+category: "ui-controls"
+subcategory: "gallery"
+tags:
+  - gallery
+  - elegant
+  - header
+  - badge
+  - shadow
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Simple, Yet Elegant
 
 A full description of how this snippet was created, look at the bottom of this page.

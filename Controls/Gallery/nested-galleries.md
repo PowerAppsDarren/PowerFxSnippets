@@ -1,6 +1,27 @@
+---
+title: "Nested Galleries"
+description: "Implementation of nested galleries with parent-child relationships and dynamic data generation"
+category: "ui-controls"
+subcategory: "gallery"
+tags:
+  - gallery
+  - nested
+  - parent-child
+  - dynamic
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
+
 # Nested Galleries
 
-This is a helpful canvas Power Apps code snippet.
+This snippet demonstrates nested galleries with parent-child relationships and dynamic data generation.
 
 [nested-galleries.msapp](https://github.com/PowerAppsDarren/PowerFxSnippets/blob/main/Controls/Gallery/ResponsiveGallery.yaml)
 

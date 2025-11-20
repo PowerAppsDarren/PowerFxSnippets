@@ -1,15 +1,18 @@
-
-
 ---
 title: "Sample Chart Data"
 description: "Sample data collection for testing Column, Line, and Pie charts."
-category: "Controls"
+category: "ui-controls"
+subcategory: "chart"
 tags: ["chart", "data", "sample", "visualization"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
 license: "MIT"
+related: []
 ---
 
 # Sample Chart Data
@@ -23,7 +26,7 @@ This is the code for the sample data found in
 
 ```PowerFx
 //
-// Sample data found in 
+// Sample data found in
 //      - ColumnChartSample
 //      - LineChartSample
 //      - PieChartSample
@@ -93,18 +96,15 @@ fxSampleChartData = [
 ```
 
 ## Free Community & Course Materials
-🆓 Get access to our free Power Apps crash course (and our community) here: 
+🆓 Get access to our free Power Apps crash course (and our community) here:
 - https://tinyurl.com/DarrensStuffFree 🔗
 
 ## Support
 
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at 
+I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at
 * [support@superpowerlabs.co](support@superpowerlabs.co).
-* https://powerplatformlinks.com 
+* https://powerplatformlinks.com
 
 ## Disclaimer
 
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
-
-
-

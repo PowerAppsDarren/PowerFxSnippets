@@ -1,6 +1,28 @@
-# Sample JSON Schema
+---
+title: "Sample DrawSQL JSON Schema"
+description: "Sample JSON schema for DrawSQL database diagrams, containing table structures and relationships for Power Apps data modeling"
+category: "data-operations"
+subcategory: "drawsql"
+tags:
+  - data
+  - schema
+  - json
+  - database
+  - diagram
+difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
 
-This is Power Fx code you can paste into your App.Formulas. It will create a variable called fxSampleDrawSQLJSON that contains a JSON string.  This JSON string is a sample of the JSON schema that is used to draw a SQL database in Power Apps.  You can use this as a starting point for your own JSON schema.
+# Sample DrawSQL JSON Schema
+
+This snippet provides Power Fx code that creates a variable called fxSampleDrawSQLJSON containing a JSON string. This JSON represents a sample schema used to draw SQL database diagrams in Power Apps, which you can use as a starting point for your own database modeling.
 
 ## Add This to Your Application
 

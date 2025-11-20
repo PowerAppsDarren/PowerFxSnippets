@@ -1,6 +1,27 @@
-# Text (Modern Label Control)
+---
+title: "Modern Text Label Control"
+description: "A modern text label control with border styling and primary color font for canvas apps"
+category: "ui-controls"
+subcategory: "label"
+tags:
+  - text
+  - label
+  - modern
+  - ui
+difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+author: "PowerFxSnippets Community"
+created: 2025-11-20
+updated: 2025-11-20
+license: "MIT"
+related: []
+---
 
-This is a helpful canvas Power Apps code snippet.
+# Modern Text Label Control
+
+This snippet provides a modern text label control with border and primary color styling.
 
 ## Add This to Your Application
 
