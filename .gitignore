@@ -4,10 +4,19 @@
 # This file covers common patterns across all tech stacks
 # Copy this to your project root and add language-specific patterns as needed
 
+# ===================================
+# ROOT FOLDER PATTERNS
+# ===================================
+# Ignore all folders starting with -- or .
+--*/
+.*
+# Exception: Keep .vscode tracked
+!.vscode/
+!.gitignore
+!.gitattributes
+
 DARREN.md
 firebase-debug.log
---repo-root
---repo-root/
 node_modules
 
 # ===================================
@@ -74,7 +83,6 @@ $RECYCLE.BIN/
 # ===================================
 
 # VSCode
-.vscode/
 *.code-workspace
 .history/
 
