@@ -14,9 +14,9 @@ difficulty: intermediate
 products:
   - power-apps-canvas
 dependencies: []
-author: "PowerFxSnippets Community"
-created: 2025-11-20
-updated: 2025-11-20
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
 license: "MIT"
 related: []
 ---
