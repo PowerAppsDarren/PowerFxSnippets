@@ -1,3 +1,15 @@
+---
+title: "Simple Gallery"
+description: "A basic vertical gallery implementation."
+category: "Controls"
+tags: ["gallery", "basic", "ui", "list"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Simple Gallery
 
 ```PowerFx

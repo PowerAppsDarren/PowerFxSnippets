@@ -1,3 +1,15 @@
+---
+title: "Icon Enumeration to Collection"
+description: "Converts the standard Icon enumeration into a searchable, filterable collection with metadata."
+category: "App.Formulas"
+tags: ["icons", "collection", "ui", "design"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Icon Enumeration to Collection
 
 This code works great, doesn't it?

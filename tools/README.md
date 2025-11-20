@@ -74,6 +74,11 @@ Options:
 - ✅ Markdown formatting
 - ✅ Code block syntax
 
+**Auto-fix Capabilities:**
+When running with `--fix`, the validator can automatically repair:
+- Missing trailing newlines after front matter
+- Missing `created` and `updated` date fields (populates with current date)
+
 ### migrate-content.js
 
 Migrates existing content from old structure to new organization.

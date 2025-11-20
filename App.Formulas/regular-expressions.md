@@ -1,3 +1,15 @@
+---
+title: "Regular Expressions Collection"
+description: "A collection of common regular expressions for validation (email, phone, SSN, etc.)."
+category: "App.Formulas"
+tags: ["regex", "validation", "patterns", "input"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Regular Expressions
 
 Here's an easy way to implement a set of pre-defined regular expressions in your Power Apps application. This can be useful for validating user input, such as email addresses, phone numbers, and more. You can add more regular expressions to the `fxRegExStrings` table as needed.

@@ -1,3 +1,15 @@
+---
+title: "Add Media Control"
+description: "A styled Add Media button control for uploading images."
+category: "Controls"
+tags: ["media", "upload", "image", "button"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Add Media
 
 ```PowerFx

@@ -79,8 +79,8 @@ This project follows our [Code of Conduct](./CODE_OF_CONDUCT.md). By participati
 ### For New Snippets
 1. **Check Existing Content**: Search for similar snippets to avoid duplication
 2. **Choose Category**: Select the most appropriate category from our [structure](./new-structure-kilo-code.md)
-3. **Create Snippet**: Follow our [snippet guidelines](#snippet-guidelines)
-4. **Add Metadata**: Include complete YAML front matter
+3. **Create Snippet**: Use the canonical template at `utilities/templates/snippet-template.md`
+4. **Add Metadata**: Include complete YAML front matter as defined in the template
 5. **Test Thoroughly**: Ensure the code works as expected
 6. **Submit PR**: Create a pull request with clear description
 

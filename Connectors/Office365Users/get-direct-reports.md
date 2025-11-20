@@ -1,3 +1,15 @@
+---
+title: "Get Direct Reports"
+description: "Retrieve direct reports for the current user using Office365Users connector."
+category: "Connectors"
+tags: ["office365", "users", "direct-reports", "hierarchy"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Get Direct Reports
 
 Yes, this is a one-line simple method call. 🤔👍

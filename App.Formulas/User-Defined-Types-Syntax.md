@@ -1,3 +1,15 @@
+---
+title: "User Defined Types Syntax"
+description: "Examples of defining custom types (records and collections) in Power Fx."
+category: "App.Formulas"
+tags: ["types", "udt", "syntax", "data-structure"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # User Defined Types
 
 This is a helpful canvas Power Apps code snippet.

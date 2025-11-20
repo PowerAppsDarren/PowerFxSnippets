@@ -1,3 +1,15 @@
+---
+title: "File Type Icons"
+description: "Generate URLs for file type icons based on file extensions."
+category: "App.Formulas"
+tags: ["icons", "file-types", "ui", "sharepoint"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # File Type Icons
 
 The list will include various icon names, each corresponding to a different file type or application. Some examples you might see include:

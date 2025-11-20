@@ -1,8 +1,20 @@
 
 
+---
+title: "Sample Chart Data"
+description: "Sample data collection for testing Column, Line, and Pie charts."
+category: "Controls"
+tags: ["chart", "data", "sample", "visualization"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Sample Chart Data
 
-This is the code for the sample data found in 
+This is the code for the sample data found in
 - ColumnChartSample
 - LineChartSample
 - PieChartSample

@@ -1,3 +1,15 @@
+---
+title: "ASCII Code Checkerboard"
+description: "A gallery that displays ASCII codes in a checkerboard pattern."
+category: "Controls"
+tags: ["gallery", "ascii", "pattern", "ui"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # AsciiCodeCheckerBoard
 
 This is some YAML you can paste into your canvas Power Apps applciation.

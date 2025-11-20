@@ -1,5 +1,16 @@
+---
+title: "All Controls Expression"
+description: "A comprehensive table of all Power Apps controls with metadata like purpose, category, and tags."
+category: "App.Formulas"
+tags: ["controls", "reference", "metadata", "documentation"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
 
-## Listing of Controls 
+# All Controls Expression
 
 If you ever need a listing of all the controls available in Power Apps, here is a snippet you can paste in App.Formulas. It is an expression that will return a table of all the controls available in Power Apps.
 
@@ -994,4 +1005,3 @@ If you ever need a listing of all the controls available in Power Apps, here is 
       Width: =Self.Height"
         }
     ];
-```

@@ -1,3 +1,15 @@
+---
+title: "Attachment Control"
+description: "Examples of basic and advanced Attachment controls with accessibility and styling."
+category: "Controls"
+tags: ["attachments", "files", "upload", "accessibility"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Attachment Control
 
 This control is used to manage file attachments in Power Apps.

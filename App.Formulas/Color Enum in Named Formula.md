@@ -1,3 +1,15 @@
+---
+title: "Color Enum in Named Formula"
+description: "A collection of all 140 web colors for use in App.Formulas."
+category: "App.Formulas"
+tags: ["colors", "design", "web-colors", "enum"]
+difficulty: beginner
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
 # Color Enum in Named Formula
 
 This is a collection you can paste in your App.Formulas library to use in your apps. It contains all 140 web colors defined here: https://en.wikipedia.org/wiki/Web_colors

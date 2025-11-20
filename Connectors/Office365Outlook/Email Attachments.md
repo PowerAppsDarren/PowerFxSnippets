@@ -1,5 +1,19 @@
 
 
+---
+title: "Email Attachments"
+description: "Send email with multiple attachments using Office365Outlook connector."
+category: "Connectors"
+tags: ["email", "attachments", "outlook", "office365"]
+difficulty: intermediate
+author: "Darren Neese"
+created: 2025-11-19
+updated: 2025-11-19
+license: "MIT"
+---
+
+# Email Attachments
+
 ```PowerFx
 - Gallery2:
     Control: Gallery
