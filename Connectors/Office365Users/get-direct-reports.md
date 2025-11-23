@@ -1,13 +1,19 @@
 ---
 title: "Get Direct Reports"
 description: "Retrieve direct reports for the current user using Office365Users connector."
-category: "Connectors"
+category: "integrations"
+subcategory: "office365-users"
 tags: ["office365", "users", "direct-reports", "hierarchy"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies:
+  - Office365Users
 author: "Darren Neese"
 created: 2025-11-19
-updated: 2025-11-19
+updated: 2025-11-21
 license: "MIT"
+related: []
 ---
 
 # Get Direct Reports

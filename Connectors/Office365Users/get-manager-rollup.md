@@ -1,13 +1,19 @@
 ---
 title: "Get Manager Rollup"
 description: "Recursively retrieve a user's manager hierarchy (rollup) up to 10 levels."
-category: "Connectors"
+category: "integrations"
+subcategory: "office365-users"
 tags: ["office365", "users", "manager", "hierarchy", "rollup"]
 difficulty: advanced
+products:
+  - power-apps-canvas
+dependencies:
+  - Office365Users
 author: "Darren Neese"
 created: 2025-11-19
-updated: 2025-11-19
+updated: 2025-11-21
 license: "MIT"
+related: []
 ---
 
 # Get Manager Rollup
