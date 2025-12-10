@@ -1,0 +1,25 @@
+{
+  "name": "purple-power-theme",
+  "displayName": "Purple Power Theme",
+  "description": "A purplish-pink light theme for Power Platform developers",
+  "version": "0.1.0",
+  "publisher": "darren",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple Power",
+        "uiTheme": "vs",
+        "path": "./purple-power-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darren/purple-power-theme"
+  },
+  "keywords": ["theme", "purple", "pink", "power platform", "light theme"]
+}
