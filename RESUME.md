@@ -60,9 +60,12 @@ Repository in active development. Security audit completed.
 
 ## Next Steps (Pick Up Here)
 
-1. Review other error handling snippets in `Errors/` folder
-2. Continue repository restructure per `--new-structure-claude-code.md` plan
-3. Consider: `traycer.md` in repo root - commit or gitignore?
+1. **Add rate limiting to error handler** - User asked about email flooding protection
+   - Options discussed: counter-based, time-throttle, batch, or skip-duplicates
+   - User was about to choose an approach - pick up from there
+2. Review other error handling snippets in `Errors/` folder
+3. Continue repository restructure per `--new-structure-claude-code.md` plan
+4. Consider: `traycer.md` in repo root - commit or gitignore?
 
 ## Project Progress
 
