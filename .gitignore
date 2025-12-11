@@ -10,7 +10,10 @@
 # Ignore all folders starting with -- or .
 --*/
 .*
+
+# ===================================
 # Exceptions: Keep these tracked
+# ===================================
 !.vscode/
 !.github/
 !.gitignore
@@ -19,6 +22,12 @@
 DARREN.md
 firebase-debug.log
 node_modules
+.repo-root/
+
+# Keep these tracked for project management
+!.specify/
+!ai-chats/
+!ai-protocols/
 
 # ===================================
 # ENVIRONMENT & SECRETS

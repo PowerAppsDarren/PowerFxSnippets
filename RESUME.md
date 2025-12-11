@@ -1,54 +1,45 @@
 # RESUME.md - Project State
 
 ## Last Session
-- **Date:** 2025-12-10
+- **Date:** 2025-12-11
 - **Model:** Claude Opus 4.5
 
 ## Current State
 
-Repository in active development. Security audit completed.
-
-## What Was Accomplished This Session (2025-12-10 - Security Audit)
-
-**Task:** Security audit of public GitHub repository for sensitive data
-
-**Findings:**
-- 🚨 **CRITICAL:** Hardcoded SQL password in `Data Sources/MSSQL/CREATE Login.sql:6` (`p@ssw00rd1869`)
-- ⚠️ **MEDIUM:** Internal server URLs in `.repo-root/docs/git-workflow.md` and `.repo-root/scripts/gitea.sh`
-- ✅ **Safe:** Business email `support@superpowerlabs.co` (intentional contact info)
-- ✅ **Safe:** Sample data files (all fake/generated Mockaroo-style data)
-- ✅ **Safe:** No API keys, AWS keys, or tokens found
-
-**Recommended Actions:**
-1. Replace hardcoded SQL password with placeholder
-2. Sanitize internal server URLs in `.repo-root/` files
-
----
-
-## Previous Session (2025-12-10 - Error Handler Fixes)
+Repository restructure in progress. SpecKit restored and tasks updated.
 
 **Architectural Decision (2025-11-26):** Use ONLY non-numbered kebab-case folders. No numbered prefixes like `01-`, `02-`, etc.
 
-## What Was Accomplished This Session (2025-12-10)
+## What Was Accomplished This Session (2025-12-11)
 
-1. **Fixed `Errors/Catch All Errors.md`** - Comprehensive bug fixes and restructure:
-   - Fixed HTML table column mismatch (7 headers vs 8 data columns)
-   - Fixed date format bug (`mm` → `MM` for month)
-   - Fixed colspan mismatch (7 → 8)
-   - Fixed wrong field reference (`ScreenName` → `Screen`)
-   - Restructured from single 265-line code block to clear sections:
-     - Step 1: App.Formulas (configuration)
-     - Step 2: App.OnError (handler code)
-     - Optional: Data source persistence
+1. **Restored `.specify/` folder** from git history (commit `a61496e`):
+   - Was accidentally deleted in commit `deefec4`
+   - Contains: `001-repository-restructure/` (spec, plan, tasks), `memory/constitution.md`, templates, scripts
 
-2. **Restored `--new-structure-claude-code.md`** from git history:
-   - File was corrupted (showed placeholder text instead of 1,262-line plan)
-   - Recovered from commit `b3c6b3d`
+2. **Removed duplicate Gallery-StatusBoard.yaml**:
+   - Deleted from `Components/` (kept canonical version in `Controls/Gallery/`)
+   - Committed and pushed (commit `35910f3`)
 
-3. **Created ai-chats documentation**:
-   - `ai-chats/2025-12-10-01-error-handler-fixes/` with 4 files per v3.1 protocol
+3. **Updated SpecKit tasks.md** with actual status:
+   - Marked T063 complete (getting-started migration done 2025-11-27)
+   - Marked T064-T071 as SKIPPED (numbered folders were empty/deleted)
+   - Updated progress: 35/133 tasks (26.3%)
+
+4. **Verified branch status**:
+   - Only `main` branch exists
+   - Up to date with `origin/main`
+   - No unmerged branches
 
 ## Previous Sessions
+
+### 2025-12-10 (Security Audit)
+- Found hardcoded SQL password in `Data Sources/MSSQL/CREATE Login.sql`
+- Found internal server URLs in `.repo-root/` files
+- Sample data confirmed safe (Mockaroo-style fake data)
+
+### 2025-12-10 (Error Handler Fixes)
+- Fixed `Errors/Catch All Errors.md` bugs
+- Restored `--new-structure-claude-code.md` from git history
 
 ### 2025-11-27
 - Moved `01-getting-started/` content to `learning/getting-started/`
@@ -60,18 +51,30 @@ Repository in active development. Security audit completed.
 
 ## Next Steps (Pick Up Here)
 
-1. **Add rate limiting to error handler** - User asked about email flooding protection
-   - Options discussed: counter-based, time-throttle, batch, or skip-duplicates
-   - User was about to choose an approach - pick up from there
-2. Review other error handling snippets in `Errors/` folder
-3. Continue repository restructure per `--new-structure-claude-code.md` plan
-4. Consider: `traycer.md` in repo root - commit or gitignore?
+1. **Continue Phase 2 Migration** - Next priority tasks:
+   - T010-T013: Create validation utilities (snippet-validator.py, etc.)
+   - T014-T021: Migrate App.Formulas/ to app-lifecycle/formulas/
+   - T022-T029: Migrate Controls/Gallery/ to ui-controls/gallery/
 
-## Project Progress
+2. **Reference SpecKit** for all work:
+   - Tasks: `.specify/001-repository-restructure/tasks.md`
+   - Plan: `.specify/001-repository-restructure/plan.md`
+   - Spec: `.specify/001-repository-restructure/spec.md`
 
-- **Phase 1** (Foundation): 100% complete
-- **Phase 2a** (Components/): 100% complete
-- **Phase 2b** (Connectors/): 100% complete
-- **Folder Cleanup (01-09):** 100% complete
-- **Error Handling Review:** Started (1 file fixed)
-- **Overall:** ~25/139 tasks (~18%)
+3. **Pending decisions**:
+   - `traycer.md` in repo root - commit or gitignore?
+   - `.vscode/themes/` - commit or gitignore?
+   - Security fixes from 2025-12-10 audit
+
+## Project Progress (from SpecKit)
+
+| Phase | Status | Tasks |
+|-------|--------|-------|
+| Phase 1 (Foundation) | ✅ Complete | 9/9 |
+| Phase 1 (Audit) | ✅ Complete | 17/17 |
+| Phase 2 (Migration) | 🔄 In Progress | 9/53 |
+| Phase 3 (Documentation) | ⏳ Not Started | 0/18 |
+| Phase 4 (Automation) | ⏳ Not Started | 0/15 |
+| Phase 5 (Cleanup) | ⏳ Not Started | 0/15 |
+| Phase 6 (Launch) | ⏳ Not Started | 0/11 |
+| **Overall** | **26.3%** | **35/133** |
