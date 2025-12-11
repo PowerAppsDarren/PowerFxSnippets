@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Power Fx snippets repository containing reusable code patterns, formulas, and components for Microsoft Power Platform development. The repository serves as a comprehensive collection of Power Apps development resources.
 
+Whenever we edit a file
+
 ## Repository Structure
 
 ```
@@ -13,7 +15,7 @@ PowerFxSnippets/
 ├── Algorithms/          # Algorithm implementations and patterns
 ├── App.Formulas/       # Named formulas and app-level formulas
 ├── App.OnError/        # Error handling patterns
-├── App.OnMessage/      # Message handling patterns  
+├── App.OnMessage/      # Message handling patterns
 ├── App.OnStart/        # App initialization patterns
 ├── App.StartScreen/    # Start screen configurations
 ├── Components/         # Reusable Power Apps components
@@ -30,7 +32,7 @@ PowerFxSnippets/
 ## Key File Types
 
 - **`.md` files**: Documentation and code snippets in markdown format
-- **`.yaml` files**: Power Fx formula definitions and configurations  
+- **`.yaml` files**: Power Fx formula definitions and configurations
 - **`.msapp` files**: Power Apps application packages
 - **`.csv` files**: Sample data sets
 - **`.svg` files**: Scalable vector graphics for UI elements
