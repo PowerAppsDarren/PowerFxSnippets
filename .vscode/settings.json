@@ -150,6 +150,12 @@
         "editorRuler.foreground": "#e9a1cb40",
         "editorBracketMatch.background": "#e9a1cb40",
         "editorBracketMatch.border": "#932d89",
+        "editor.wordHighlightBackground": "#e9a1cb50",
+        "editor.wordHighlightBorder": "#932d89",
+        "editor.wordHighlightStrongBackground": "#d467b950",
+        "editor.wordHighlightStrongBorder": "#932d89",
+        "editor.wordHighlightTextBackground": "#e9a1cb30",
+        "editor.wordHighlightTextBorder": "#d467b9",
         //
         // SCROLLBAR
         // https://code.visualstudio.com/api/references/theme-color#scrollbar
@@ -202,6 +208,13 @@
         "terminal.selectionBackground": "#74277480",
         "terminal.border": "#932d89",
         "terminalOverviewRuler.cursorForeground": "#932d89",
+        "terminalCommandDecoration.defaultBackground": "#932d89",
+        "terminalCommandDecoration.successBackground": "#932d89",
+        "terminalCommandDecoration.errorBackground": "#ba39ad",
+        "terminal.inactiveSelectionBackground": "#e9a1cb40",
+        "terminal.findMatchBackground": "#e9a1cb80",
+        "terminal.findMatchHighlightBackground": "#d467b950",
+        "terminalStickyScrollHover.background": "#f5e8f1",
         //
         // PANEL (Terminal area, Output, Problems)
         // https://code.visualstudio.com/api/references/theme-color#panel
@@ -331,7 +344,11 @@
         "sash.hoverBorder": "#d467b9",
         "selection.background": "#e9a1cb80",
         "textLink.foreground": "#932d89",
-        "textLink.activeForeground": "#541f54"
+        "textLink.activeForeground": "#541f54",
+        "textPreformat.foreground": "#742774",
+        "textBlockQuote.background": "#f9ecf4",
+        "textBlockQuote.border": "#d467b9",
+        "textCodeBlock.background": "#f5e8f1"
     },
 
     // Terminal settings

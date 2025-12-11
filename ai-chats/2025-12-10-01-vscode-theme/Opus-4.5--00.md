@@ -5,7 +5,7 @@
 - **Topic:** Creating a purplish-pink VS Code theme for Power Platform development
 - **Tool:** Claude Code
 - **Project:** PowerFxSnippets
-- **Exchange Count:** 7
+- **Exchange Count:** 10+
 
 ## 💡 Conversation Summary
 
@@ -52,6 +52,12 @@ User wanted to finalize a purple/pink VS Code theme, replacing any remaining blu
 - `statusBarItem.prominentBackground` - Fixed blue "Screen Reader" indicator
 - `sideBar.foreground` changed to `#371236` - Improved file name readability
 - All list foreground colors updated to darkest purple
+- `editor.wordHighlightBackground` - Fixed blue word highlight when clicking on words
+- `terminal.ansiBlue` / `terminal.ansiBrightBlue` - Changed to magenta/pink
+- `editorGutter.background` - Pale pink gutter background
+- `terminalCommandDecoration.*` - Terminal command marker colors
+- `terminal.findMatchBackground` - Terminal search highlighting
+- `textPreformat`, `textBlockQuote`, `textCodeBlock` - Text formatting colors
 
 ## 📚 Lessons Learned
 
@@ -59,6 +65,9 @@ User wanted to finalize a purple/pink VS Code theme, replacing any remaining blu
 2. **File name visibility**: The `sideBar.foreground` and `list.*Foreground` colors control Explorer readability
 3. **Status bar items**: `statusBarItem.prominentBackground` controls special status items like "Screen Reader Optimized"
 4. **Theme testing**: Can test locally by opening theme folder and pressing F5
+5. **`editor.padding.left` doesn't exist**: It's an open feature request - use Custom CSS extension as workaround
+6. **Word highlights**: `editor.wordHighlightBackground` controls the color when you click on a word
+7. **Extension UI limitations**: Some extensions (like Claude Code) render their own UI that doesn't respect themes
 
 ## ⏭️ Next Steps
 
