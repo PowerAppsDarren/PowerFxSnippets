@@ -20,6 +20,7 @@
 !.gitattributes
 
 DARREN.md
+.darren/
 firebase-debug.log
 node_modules
 .repo-root/
