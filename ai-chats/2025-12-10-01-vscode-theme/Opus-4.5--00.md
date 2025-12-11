@@ -90,4 +90,7 @@ In the new repo (`purple-power-theme`):
 - [04 - Local test theme creation](./Opus-4.5--04.md)
 - [05 - Separate repo setup](./Opus-4.5--05.md)
 - [06 - File name readability fix](./Opus-4.5--06.md)
-- [07 - AI-chats protocol documentation](./Opus-4.5--07.md)
+- [07 - Editor gutter and padding](./Opus-4.5--07.md)
+- [08 - Word highlight blue fix](./Opus-4.5--08.md)
+- [09 - Terminal blue links fix](./Opus-4.5--09.md)
+- [10 - Final updates and wrap-up](./Opus-4.5--10.md)
