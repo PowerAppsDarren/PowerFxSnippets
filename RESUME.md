@@ -6,65 +6,78 @@
 
 ## Current State
 
-Repository restructure in progress. SpecKit restored and tasks updated.
+OnError handler v2.2 complete with email deduplication. Feature branch synced with main.
 
-**Architectural Decision (2025-11-26):** Use ONLY non-numbered kebab-case folders. No numbered prefixes like `01-`, `02-`, etc.
+**Branch:** `feature/error-handler-deduplication` (synced with `main`)
 
 ## What Was Accomplished This Session (2025-12-11)
 
-1. **Restored `.specify/` folder** from git history (commit `a61496e`):
-   - Was accidentally deleted in commit `deefec4`
-   - Contains: `001-repository-restructure/` (spec, plan, tasks), `memory/constitution.md`, templates, scripts
+1. **Reviewed OnError v2.2 Implementation** (from 2025-12-04):
+   - Confirmed email deduplication working (one email per unique error per session)
+   - Confirmed occurrence counting with `OccurrenceCount` field
+   - Confirmed full session reports in each email
+   - Confirmed `fxErrorKinds` integration for detailed error descriptions
+   - File location: `Errors/OnError.pa.yaml`
 
-2. **Removed duplicate Gallery-StatusBoard.yaml**:
-   - Deleted from `Components/` (kept canonical version in `Controls/Gallery/`)
-   - Committed and pushed (commit `35910f3`)
+2. **Session Documentation**:
+   - Existing docs in `ai-chats/2025-12-04-01-onerror-improvements/`
+   - Cleaned up duplicate ai-chats folders
 
-3. **Updated SpecKit tasks.md** with actual status:
-   - Marked T063 complete (getting-started migration done 2025-11-27)
-   - Marked T064-T071 as SKIPPED (numbered folders were empty/deleted)
-   - Updated progress: 35/133 tasks (26.3%)
+3. **Verified All Changes Committed**:
+   - OnError v2.2 is committed and pushed
+   - Feature branch is synced with main
 
-4. **Verified branch status**:
-   - Only `main` branch exists
-   - Up to date with `origin/main`
-   - No unmerged branches
+## OnError v2.2 Features Summary
+
+- **Deduplication:** Signature = `Screen || Kind || Source || First 100 chars of Message`
+- **Collection:** `colAppErrors` with 15 fields including `OccurrenceCount`, `FirstOccurrence`, `LastOccurrence`
+- **Email:** Only on first occurrence, includes full session report
+- **Error Kinds:** `fxErrorKinds` lookup for detailed descriptions
+
+### Required App.Formulas
+```powerfx
+fxEnableErrorEmailNotifications = false;
+fxErrorHandlerEmail = "YOUR_EMAIL_HERE";
+fxApplicationName = "The Power Apps Application";
+fxApplicationURL = "https://apps.powerapps.com/";
+fxLightGrayColor = "#e5e5e5";
+fxMaxUniqueErrorsPerSession = 50;
+fxErrorKinds = [...]; // 28 error kinds with descriptions
+```
 
 ## Previous Sessions
+
+### 2025-12-04 (OnError Improvements)
+- Implemented v2.0 → v2.1 → v2.2
+- Added email deduplication
+- Added occurrence counting
+- Added fxErrorKinds integration
 
 ### 2025-12-10 (Security Audit)
 - Found hardcoded SQL password in `Data Sources/MSSQL/CREATE Login.sql`
 - Found internal server URLs in `.repo-root/` files
-- Sample data confirmed safe (Mockaroo-style fake data)
-
-### 2025-12-10 (Error Handler Fixes)
-- Fixed `Errors/Catch All Errors.md` bugs
-- Restored `--new-structure-claude-code.md` from git history
 
 ### 2025-11-27
 - Moved `01-getting-started/` content to `learning/getting-started/`
 - Deleted all numbered folders (01-09)
 
-### 2025-11-26
-- Diagnosed empty directory GitHub issues
-- Made architectural decision for non-numbered folders
-
 ## Next Steps (Pick Up Here)
 
-1. **Continue Phase 2 Migration** - Next priority tasks:
+1. **Merge feature branch to main** (if desired):
+   ```bash
+   git checkout main
+   git merge feature/error-handler-deduplication
+   git push origin main
+   ```
+
+2. **Continue Phase 2 Migration** - Next priority tasks:
    - T010-T013: Create validation utilities (snippet-validator.py, etc.)
    - T014-T021: Migrate App.Formulas/ to app-lifecycle/formulas/
    - T022-T029: Migrate Controls/Gallery/ to ui-controls/gallery/
 
-2. **Reference SpecKit** for all work:
-   - Tasks: `.specify/001-repository-restructure/tasks.md`
-   - Plan: `.specify/001-repository-restructure/plan.md`
-   - Spec: `.specify/001-repository-restructure/spec.md`
-
 3. **Pending decisions**:
-   - `traycer.md` in repo root - commit or gitignore?
-   - `.vscode/themes/` - commit or gitignore?
    - Security fixes from 2025-12-10 audit
+   - `traycer.md` in repo root - commit or gitignore?
 
 ## Project Progress (from SpecKit)
 
