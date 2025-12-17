@@ -146,3 +146,11 @@ If you need any help with the Power Platform, don't hesitate to email us at:
 ## Disclaimer
 
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/ |

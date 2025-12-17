@@ -30,3 +30,11 @@ RGBA(
         B:[16.3, 32.0, 51.6]
 */
 ```
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Added YAML frontmatter |

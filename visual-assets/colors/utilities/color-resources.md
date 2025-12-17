@@ -79,3 +79,11 @@ For bright ambiance designs, it is, next to nord1 and nord2 as darker variants, 
   - https://svgmix.com/
 - https://icolorpalette.com/
   - https://icolorpalette.com/color/e5e5e5
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Added YAML frontmatter |

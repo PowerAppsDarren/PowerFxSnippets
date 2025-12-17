@@ -129,3 +129,10 @@ I hope you have found this helpful. If you need any help with the Power Platform
 
 THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Moved to interactions/ subfolder |

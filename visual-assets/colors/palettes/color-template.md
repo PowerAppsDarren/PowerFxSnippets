@@ -246,3 +246,11 @@ Credit: https://github.com/P3N-101/color-functions
     Y: =0
     ZIndex: =1
 ```
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Added YAML frontmatter |

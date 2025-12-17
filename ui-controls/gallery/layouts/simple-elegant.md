@@ -216,3 +216,11 @@ Control: GroupContainer@1.3.0
 ### Responsive Behavior
 - Automatic adjustment to parent container dimensions
 - Dynamic positioning relative to header and container edges
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/ |

@@ -46,3 +46,11 @@ updated: 2024-01-01
           Height: =Parent.TemplateHeight
           Width: =Parent.TemplateWidth
 ```
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/ |

@@ -1986,3 +1986,11 @@ fxExp_Colors = [
     }
 ];
 ```
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Added YAML frontmatter |

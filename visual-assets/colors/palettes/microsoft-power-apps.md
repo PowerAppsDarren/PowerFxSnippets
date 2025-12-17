@@ -23,3 +23,11 @@ Related Material to Consider:
     - [Microsoft Trademarks and Branding Guidelines](https://learn.microsoft.com/en-us/microsoft-365/cloud-storage-partner-program/online/branding)
     - [Localization Style Guides](https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides)
     - [Intellectual property and open innovation](https://www.microsoft.com/en-us/legal/intellectualproperty)
+
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2025-12-17 | Claude | Added YAML frontmatter |
