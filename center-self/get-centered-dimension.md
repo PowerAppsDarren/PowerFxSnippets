@@ -5,33 +5,19 @@ Need to center a control in relation to its parent dimension? Use this formula t
 ```PowerFx
     //
     // Get the X or the Y of a control in relation to
-    // its parent dimension. 
-    // 
-    // Understanding the parameters: 
-    //   - Pass in width values to get the X value for 'Self'
-    //   - Pass in height values to get the Y value for 'Self'   
+    // its parent dimension.
     //
-    fxGetCenteredDimension( ParentDimension:Number, 
+    // Understanding the parameters:
+    //   - Pass in width values to get the X value for 'Self'
+    //   - Pass in height values to get the Y value for 'Self'
+    //
+    fxGetCenteredDimension( ParentDimension:Number,
                             SelfDimension:Number):Number = (
         (ParentDimension - SelfDimension) / 2
     );
 
     // You could simply copy/paste this for X value for centered self
-    // #️⃣ fxGetCenteredDimension(Parent.Width, Self.Width) 
+    // #️⃣ fxGetCenteredDimension(Parent.Width, Self.Width)
     // You could simply copy/paste this for Y value for centered self
-    // #️⃣ fxGetCenteredDimension(Parent.Height, Self.Height) 
+    // #️⃣ fxGetCenteredDimension(Parent.Height, Self.Height)
 ```
-
----
-
-## Free Community & Course Materials
-
-🆓 Get access to our [free community and resources](https://tinyurl.com/DarrensStuffFree) ⬅️
-
-## Support
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to message us from [Our Website](https://superpowerlabs.co)
-
-## Disclaimer
-
-THIS CODE IS PROVIDED **AS IS WITHOUT WARRANTY OF ANY KIND**, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.

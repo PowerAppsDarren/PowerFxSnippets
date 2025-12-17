@@ -138,18 +138,3 @@ To add new sample datasets:
 Sample data in this repository is provided for educational and testing purposes. Check individual datasets for specific licensing terms.
 
 ---
-
-## Free Community & Course Materials
-
-Get access to our free Power Apps crash course (and our community):
-- https://tinyurl.com/DarrensStuffFree
-
-## Support
-
-If you need help with Power Platform:
-- Email: support@superpowerlabs.co
-- Links: https://powerplatformlinks.com
-
-## Disclaimer
-
-THIS DATA IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND. All data is mock/synthetic and should not be used for real-world decision making.

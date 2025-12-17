@@ -21,8 +21,4 @@ license: "MIT"
     Control: DataCard
 ```
 
-## Free Community & Course Materials 
-
-🆓 Get access to our free Power Apps crash course (and our community) here: 
-- https://tinyurl.com/DarrensStuffFree 🔗
 

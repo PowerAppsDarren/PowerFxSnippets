@@ -23,7 +23,7 @@ license: "MIT"
         ==========================================
         🚨 APP.FORMULAS - TABLE OF CONTENTS 🚨
 
-        Author: Darren Neese (support@superpowerlabs.co)
+        Author: Darren Neese
         
         ==========================================
 
@@ -66,7 +66,7 @@ license: "MIT"
                     - fxTyp_Customer_Table
                     - fxTyp_Customer_Collection
 
-            I love ProperCasing (personal preference - Darren Neese: support@superpowerlabs.co)
+            I love ProperCasing (personal preference - Darren Neese)
 
         ==========================================
     */

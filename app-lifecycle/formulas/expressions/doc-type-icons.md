@@ -38,6 +38,3 @@ The list will include various icon names, each corresponding to a different file
 $"https://static2.sharepointonline.com/files/fabric/assets/item-types/24/{" FILE_EXTENSION_HERE "}.svg"
 ```
 
-## Final Considerations
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).

@@ -11,13 +11,13 @@
 --*/
 .*/
 
-
-# ===================================
-# Exceptions: Keep these tracked
-# ===================================
 !.vscode/
 !.gitignore
 !.gitattributes
+
+# Explicitly ignore these dot folders
+.github/
+.specify/
 
 DARREN.md
 .darren/
@@ -26,8 +26,8 @@ node_modules
 .repo-root/
 
 # Keep these tracked for project management
-!ai-chats/
-!ai-protocols/
+ai-chats/
+ai-protocols/
 
 # ===================================
 # ENVIRONMENT & SECRETS

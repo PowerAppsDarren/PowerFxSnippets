@@ -18,9 +18,3 @@
     - Use combo boxes instead of drop downs
     - Use themes
     - Limit code inside the OnStart property
-
-
-## Free Community & Course Materials 
-
-🆓 Get access to our free Power Apps crash course (and our community) here: 
-- [Free Stuff](https://tinyurl.com/DarrensStuffFree) 🔗

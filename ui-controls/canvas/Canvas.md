@@ -115,9 +115,3 @@ This is some YAML you can paste into your canvas Power Apps applciation.
               X: =25
               Y: =25
 ```
-
-
-## Free Community & Course Materials 
-
-🆓 Get access to our free Power Apps crash course (and our community) here: 
-- https://tinyurl.com/DarrensStuffFree 🔗

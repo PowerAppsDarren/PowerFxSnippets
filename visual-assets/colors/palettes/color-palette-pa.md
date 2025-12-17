@@ -31,7 +31,7 @@ related:
         ThemeName:              "Power Apps Branding", // Should be unique by a particular theme author
         ThemeKey:               "POWER-APPS-BRANDING", // Should be unique by a particular theme author
         ThemeUUID:              "3e2bdee6-fc50-4d0f-8743-7e08a5d0ef5e", // A unique identifier value from the author
-        ThemeAuthor:            "Darren Neese (support@superpowerlabs.co)",
+        ThemeAuthor:            "Darren Neese",
         //
         // Three base properties so we never have to reference `App.Theme.___`
         //

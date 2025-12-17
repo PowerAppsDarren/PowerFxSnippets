@@ -34,7 +34,3 @@ This is really nice if you want to have a photo for each row in your gallery con
       RadiusTopLeft: =Average(Self.Height, Self.Width) * 10%
       RadiusTopRight: =Average(Self.Height, Self.Width) * 10%
 ```
-
-## Final Considerations
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).

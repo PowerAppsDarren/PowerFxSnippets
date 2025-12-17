@@ -532,7 +532,3 @@ This snippet displays all available fields from the current user's Office 365 pr
       Height: =80
       Width: =80
 ```
-
-## Final Considerations
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at [support@superpowerlabs.co](support@superpowerlabs.co).

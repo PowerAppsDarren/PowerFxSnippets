@@ -150,13 +150,11 @@ Power Fx is the low-code language that powers Microsoft Power Platform applicati
 ### Get Help
 - 🐛 **Issues**: [Report bugs or request features](https://github.com/PowerAppsDarren/PowerFxSnippets/issues)
 - 💬 **Discussions**: [Join community conversations](https://github.com/PowerAppsDarren/PowerFxSnippets/discussions)
-- 📧 **Email**: support@superpowerlabs.co
 
 ### Community Resources
 - 🌐 **Power Platform Community**: [powerplatform.com](https://powerplatform.microsoft.com/)
 - 📚 **Microsoft Learn**: [Power Fx documentation](https://learn.microsoft.com/en-us/power-platform/power-fx/)
 - 🎓 **Training**: [Power Apps training](https://learn.microsoft.com/en-us/training/paths/create-powerapps/)
-- 💼 **Super Power Labs**: [superpowerlabs.co](https://superpowerlabs.co)
 
 ## 📄 License
 
@@ -174,5 +172,3 @@ This repository is licensed under the MIT License - see the [LICENSE](./LICENSE)
 **⭐ Found this helpful?** [Star this repository](https://github.com/PowerAppsDarren/PowerFxSnippets) to show your support!
 
 **🤝 Want to contribute?** Check out our [Contribution Guide](./CONTRIBUTING.md) to get started!
-
-**📧 Need help?** Contact us at [support@superpowerlabs.co](mailto:support@superpowerlabs.co)

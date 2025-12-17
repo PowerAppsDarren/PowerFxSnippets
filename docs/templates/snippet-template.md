@@ -380,28 +380,6 @@ All contributions are welcome! Please ensure:
 | 1.0.0 | 2024-11-17 | Initial release |
 | 1.1.0 | 2024-XX-XX | {Planned improvements} |
 
-## 📞 Support
-
-### Getting Help
-- **Documentation**: Check the [troubleshooting section](#troubleshooting)
-- **Community**: Ask in [GitHub Discussions](../../discussions)
-- **Issues**: Report bugs [here](../../issues)
-
-### Contact Information
-- **Author**: [{Your Name}](https://github.com/YourGitHubUsername)
-- **Email**: support@superpowerlabs.co
-- **Community**: [Power Platform Community](https://powerplatform.microsoft.com/community/)
-
----
-
 ## 📝 License
 
 This code snippet is provided as-is under the [MIT License](../../LICENSE).
-
----
-
-**🎉 Found this helpful?** [Star the repository](https://github.com/PowerAppsDarren/PowerFxSnippets) and share with others!
-
-**💡 Have improvements?** [Submit a pull request](https://github.com/PowerAppsDarren/PowerFxSnippets/compare) to make it better!
-
-**❓ Need help?** [Ask in discussions](https://github.com/PowerAppsDarren/PowerFxSnippets/discussions)!

@@ -117,7 +117,3 @@ WrapCount: =Max(1, RoundDown((Parent.Width - 64) / 200, 0))
 - [Power Fx Gallery Documentation](https://learn.microsoft.com/power-apps/maker/canvas-apps/controls/control-gallery)
 - [Power Platform Links](https://powerplatformlinks.com)
 
-## Free Community & Course Materials
-
-Get access to our free Power Apps crash course (and our community) here:
-- https://tinyurl.com/DarrensStuffFree

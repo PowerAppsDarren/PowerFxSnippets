@@ -159,8 +159,3 @@ Here is some YAML code you can paste onto a screen to use or test:
           Y: =40
 ```
 
-## Final Considerations
-
-I hope you have found this helpful. If you need any help with the Power Platform, don't hesitate to email us at 
-* [support@superpowerlabs.co](support@superpowerlabs.co).
-* https://powerplatformlinks.com

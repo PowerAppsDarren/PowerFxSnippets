@@ -87,8 +87,3 @@ We recommend the following prefixes for organization:
 
 - [Power Fx Reference](https://learn.microsoft.com/en-us/power-platform/power-fx/overview)
 - [User-Defined Types Documentation](https://powerplatformlinks.com/CanvasUserDefined)
-- [Community Resources](https://tinyurl.com/DarrensStuffFree)
-
-## Support
-
-If you need help with the Power Platform, contact us at [support@superpowerlabs.co](mailto:support@superpowerlabs.co) or visit [https://powerplatformlinks.com](https://powerplatformlinks.com)
