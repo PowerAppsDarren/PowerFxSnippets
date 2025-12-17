@@ -6,78 +6,78 @@
 
 ## Current State
 
-OnError handler v2.2 enhanced with diagnostic logging and explicit `ThisRecord` references for reliable multi-row email output.
+Major file standardization completed: 1,273 files/directories renamed to lowercase-with-dashes format. Error handler enhanced with diagnostic logging.
 
 **Branch:** `feature/error-handler-deduplication`
 
 ## What Was Accomplished This Session (2025-12-17)
 
-1. **User Feedback on Error Handler**:
-   - Confirmed email deduplication working (only one email per unique error)
-   - User reported only seeing one row in email table (wanted all rows)
+### 1. Error Handler Enhancements
+- Fixed multi-row email output with explicit `ThisRecord` references
+- Added 4 `Trace()` statements for Power Apps Monitor debugging
+- Added documentation section on using Monitor to view traces
 
-2. **Fixed Multi-Row Email Output**:
-   - Updated `Concat()` in `Errors/Catch All Errors.md` to use explicit `ThisRecord` references
-   - Changed `{Occurrences}` → `{ThisRecord.Occurrences}`, etc.
-   - This ensures Power Fx properly iterates all rows in `colErrorSignatures`
+### 2. File Standardization (Phase 0 - PRIORITY 1)
+- **Renamed 1,168 files** to lowercase-with-dashes format
+- **Renamed 105 directories** to lowercase-with-dashes format
+- Created rename scripts in `utilities/tools/`:
+  - `rename-dryrun.py` - Preview what would be renamed
+  - `rename-execute.py` - Execute the renaming
+  - `rename-to-lowercase.py` - Interactive version
+- Preserved special files: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `CLAUDE.md`, `RESUME.md`
 
-3. **Added Diagnostic Logging**:
-   - Added 4 `Trace()` statements to App.OnError code
-   - `ErrorHandler: START` - Incoming error count, existing signatures
-   - `ErrorHandler: Processing Error` - Each error's signature, new/existing status
-   - `ErrorHandler: Pre-Email Check` - Count before/after, will-send-email flag
-   - `ErrorHandler: Sending Email` - Recipient, subject, summary of ALL errors
-   - Added documentation section on using Power Apps Monitor to view traces
+### 3. Documentation Standards (Started)
+- Added **Table of Contents** template to spec kit
+- Added **History Log** template to spec kit
+- Added TOC and history log to `errors/catch-all-errors.md` as example
 
-4. **Documentation Updates**:
-   - New "Diagnostic Logging" section with Monitor instructions
-   - Example trace output showing what to expect
-   - Instructions for disabling traces in production
+### 4. Spec Kit Updates
+- Added Phase 0 (File Standards) with 8 new tasks (T200-T207)
+- Completed 4/8 Phase 0 tasks
+- Updated progress: 39/141 tasks complete (27.7%)
 
-## File Modified
+## Files Modified
 
-- `Errors/Catch All Errors.md` - ThisRecord references + Trace diagnostics
+- `errors/catch-all-errors.md` - TOC, history log, diagnostic logging
+- `.specify/001-repository-restructure/tasks.md` - Phase 0 tasks added
+- `utilities/tools/` - New rename scripts
 
-## Previous Sessions
+## Naming Convention (New Standard)
 
-### 2025-12-11 (OnError Review)
-- Reviewed OnError v2.2 implementation
-- Confirmed deduplication working
-- Cleaned up ai-chats folders
+**Files:**
+- All lowercase, dashes between words
+- `Color Enum in Named Formula.md` → `color-enum-in-named-formula.md`
 
-### 2025-12-04 (OnError Improvements)
-- Implemented v2.0 → v2.1 → v2.2
-- Added email deduplication
-- Added occurrence counting
-- Added fxErrorKinds integration
-
-### 2025-12-10 (Security Audit)
-- Found hardcoded SQL password in `Data Sources/MSSQL/CREATE Login.sql`
-- Found internal server URLs in `.repo-root/` files
+**Directories:**
+- All lowercase, dashes between words
+- `App.Formulas` → `app-formulas`
+- `Best Practices` → `best-practices`
 
 ## Next Steps (Pick Up Here)
 
-1. **Test the updated error handler**:
-   - Trigger multiple different errors
-   - Check Monitor for Trace output
-   - Verify email now shows all unique error rows
+1. **Complete TOC/History addition** (T204-T205):
+   - Create bulk script to add TOC and history log to remaining 176 files
+   - Use `errors/catch-all-errors.md` as template
 
-2. **Merge feature branch to main** (when ready):
+2. **Update internal links** (T202):
+   - Many markdown files have links to old paths
+   - Need script to update all internal links
+
+3. **Verify no broken links** (T203):
+   - Run link checker across all files
+
+4. **Merge to main** (when ready):
    ```bash
    git checkout main
    git merge feature/error-handler-deduplication
    git push origin main
    ```
 
-3. **Continue Phase 2 Migration** - Next priority tasks:
-   - T010-T013: Create validation utilities
-   - T014-T021: Migrate App.Formulas/
-   - T022-T029: Migrate Controls/Gallery/
-
 ## Project Progress (from SpecKit)
 
 | Phase | Status | Tasks |
 |-------|--------|-------|
+| Phase 0 (File Standards) | 🔄 In Progress | 4/8 |
 | Phase 1 (Foundation) | ✅ Complete | 9/9 |
 | Phase 1 (Audit) | ✅ Complete | 17/17 |
 | Phase 2 (Migration) | 🔄 In Progress | 9/53 |
@@ -85,4 +85,4 @@ OnError handler v2.2 enhanced with diagnostic logging and explicit `ThisRecord` 
 | Phase 4 (Automation) | ⏳ Not Started | 0/15 |
 | Phase 5 (Cleanup) | ⏳ Not Started | 0/15 |
 | Phase 6 (Launch) | ⏳ Not Started | 0/11 |
-| **Overall** | **26.3%** | **35/133** |
+| **Overall** | **27.7%** | **39/141** |

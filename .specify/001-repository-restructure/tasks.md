@@ -7,10 +7,76 @@
 
 ## Format: `[ID] [Phase] [P?] Description`
 
-- **[Phase]**: Which implementation phase this task belongs to (Phase1, Phase2, Phase3, Phase4, Phase5, Phase6)
-  _Note: Phase labels (Phase1-6) are distinct from user story priorities (P0/P1/P2) in spec.md_
+- **[Phase]**: Which implementation phase this task belongs to (Phase0, Phase1, Phase2, Phase3, Phase4, Phase5, Phase6)
+  _Note: Phase labels (Phase0-6) are distinct from user story priorities (P0/P1/P2) in spec.md_
 - **[P]**: Can run in parallel (different files, no dependencies)
 - Include exact paths in descriptions
+
+---
+
+## 🔴 Phase 0: File Standards (PRIORITY 1 - DO FIRST)
+
+**Purpose**: Establish consistent file naming and documentation standards across all files
+
+**Status**: 🔄 In Progress (2025-12-17)
+
+### File Naming Standards
+
+- [x] T200 [P0] Rename all markdown files to lowercase-with-dashes format (1168 files) ✅ DONE 2025-12-17
+- [x] T201 [P0] Rename all directories to lowercase-with-dashes format (105 dirs) ✅ DONE 2025-12-17
+- [ ] T202 [P0] Update all internal links after renaming
+- [ ] T203 [P0] Verify no broken links after renaming
+
+### Documentation Standards
+
+- [ ] T204 [P0][P] Add table of contents to all markdown files (after H1 heading) - Example done in catch-all-errors.md
+- [ ] T205 [P0][P] Add history log section to bottom of all markdown files - Example done in catch-all-errors.md
+- [x] T206 [P0] Create template for TOC format ✅ DONE 2025-12-17 (documented in tasks.md)
+- [x] T207 [P0] Create template for history log format ✅ DONE 2025-12-17 (documented in tasks.md)
+
+### Naming Convention Rules
+
+**Files:**
+- All lowercase
+- Use dashes (`-`) between words
+- No spaces
+- No underscores (except for special cases like `CODE_OF_CONDUCT.md`)
+- Examples:
+  - `Color Enum in Named Formula.md` → `color-enum-in-named-formula.md`
+  - `Quick-Mass-Updates.md` → `quick-mass-updates.md`
+  - `README.md` → `readme.md`
+
+**Directories:**
+- All lowercase
+- Use dashes (`-`) between words
+- No spaces
+- Examples:
+  - `App.Formulas` → `app-formulas`
+  - `Best Practices` → `best-practices`
+  - `Color Palettes` → `color-palettes`
+
+### TOC Format
+
+```markdown
+## Table of Contents
+
+- [Section 1](#section-1)
+- [Section 2](#section-2)
+- [Section 3](#section-3)
+```
+
+### History Log Format
+
+```markdown
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| YYYY-MM-DD | Name | Initial creation |
+| YYYY-MM-DD | Name | Description of changes |
+```
 
 ---
 
@@ -301,7 +367,8 @@
 
 ## Summary Statistics
 
-**Total Tasks**: 133 (increased from 117 based on repository review findings)
+**Total Tasks**: 141 (added Phase 0 file standards)
+- **Phase 0** (File Standards): 8 tasks 🔴 PRIORITY 1
 - **Phase 1** (Foundation): 9 tasks ✅ COMPLETE
 - **Phase 1** (Audit): 17 tasks ✅ COMPLETE
 - **Phase 2** (Migration): 53 tasks (9 complete/skipped, 44 remaining)
@@ -310,15 +377,16 @@
 - **Phase 5** (Cleanup): 15 tasks (increased from 14 with quality verification)
 - **Phase 6** (Launch): 11 tasks
 
-**Parallelizable Tasks**: ~45 tasks marked with [P]
+**Parallelizable Tasks**: ~47 tasks marked with [P]
 
-**Current Progress**: 35/133 tasks complete (26.3%)
+**Current Progress**: 39/141 tasks complete (27.7%)
+- Phase 0 File Standards: 4/8 🔄 IN PROGRESS (T200-T201, T206-T207 complete)
 - Phase 1 Foundation: 9/9 ✅
 - Phase 1 Audit: 17/17 ✅
 - Phase 2 Migration: 9/53 (T063-T071)
 - Phase 3-6: Not started
 
-**Last Updated**: 2025-12-11 by Claude Opus 4.5
+**Last Updated**: 2025-12-17 by Claude Opus 4.5
 
 ---
 

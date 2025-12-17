@@ -1,0 +1,51 @@
+- lblRootSharePointURL:
+    Control: Label
+    Properties:
+      OnSelect: =Launch(Self.Text)
+      Text: |+
+        =/*  ===========================================================================
+            Paste this YAML code anywhere - it creates a label that shows the URL to 
+                the root SharePoint site in your current tenant. 
+            ===========================================================================
+            Suggestion: Add it to your App.Formulas
+            fxRootSharePointURL = Concatenate(
+                "https://",First(Split(First(Split(First(Split(Substitute(Office365Users.MyProfileV2().mySite,"https://",""),"/")).Value,".")).Value,"-")).Value,".sharepoint.com/"
+            );
+            ======================================================================== */
+        Concatenate(
+            "https://",
+            First(
+                Split(
+                    First(
+                        Split(
+                            First(
+                                Split(
+                                    Substitute(
+                                        Office365Users.MyProfileV2().mySite,
+                                        "https://",
+                                        ""
+                                    ),
+                                    "/"
+                                )
+                            ).Value,
+                            "."
+                        )
+                    ).Value,
+                    "-"
+                )
+            ).Value,
+            ".sharepoint.com/"
+        )
+
+      Align: =Align.Center
+      BorderColor: =App.Theme.Colors.Darker10
+      BorderThickness: =3
+      Fill: =App.Theme.Colors.Lighter80
+      Font: =Font.'Courier New'
+      FontWeight: =FontWeight.Semibold
+      PaddingLeft: =15
+      Size: =15
+      Underline: =true
+      Width: =Len(Self.Text) * 14
+      X: =604
+      Y: =376

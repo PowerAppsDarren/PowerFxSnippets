@@ -1,0 +1,18 @@
+fxMenuItems = [
+    {
+        ScreenToGoTo: App.ActiveScreen,
+        MenuText: Substitute(
+            Upper(App.ActiveScreen.Name), 
+            " SCREEN", 
+            ""
+        ),
+        ParentScreenName: "",
+        ImageOrIcon: "Icon",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.Home,
+        ShowForThisRole: "User;",
+        Visible: true,
+        LaunchLink: false,
+        LaunchURL: ""
+    }
+];
