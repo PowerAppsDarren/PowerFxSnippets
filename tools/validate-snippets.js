@@ -26,7 +26,80 @@ class SnippetValidator {
       invalid: 0,
       fixed: 0
     };
-    
+
+    // Directories to EXCLUDE from validation (documentation, not snippets)
+    this.excludedDirectories = [
+      // System/build directories
+      'ai-chats',
+      'ai-protocols',
+      'docs',
+      '.github',
+      'node_modules',
+      'tools',
+      '_archive',
+      'utilities',
+      // Resource/reference directories (not code snippets)
+      'communities',
+      'constants',
+      'data-erds',
+      'emojis',
+      'fonts',
+      'geocoding',
+      'git-or-github',
+      'icons',
+      'images',
+      'json',
+      'model-driven',
+      'powershell',
+      'power-apps-rock-stars',
+      'unicode-magic',
+      'wire-framing',
+      'custom-connectors-apis',
+      'text-manipulation',
+      'string-manipulation',
+      'certification',
+      'best-practices',
+      // Lifecycle handlers (documentation, not code snippets)
+      'app-onmessage',
+      'app-onstart',
+      'app-startscreen',
+      'center-self',
+      'app-onerror',
+      // Legacy/duplicate directories
+      'data-samples',
+      'design',
+      'errors',
+      // Reference/documentation directories
+      'code-components',
+      'dialogs',
+      'theming',
+      'menus',
+      '538-data',
+      'algorithms',
+      'built-in',
+      'encoding-decoding',
+      'user-defined-functions',
+      'user-defined-types',
+      'power-automate',
+      'sharepoint'
+    ];
+
+    // File patterns to EXCLUDE from validation (documentation files)
+    this.excludedFilePatterns = [
+      /^readme\.md$/i,
+      /^index\.md$/i,
+      /^changelog\.md$/i,
+      /^contributing\.md$/i,
+      /^license\.md$/i,
+      /^claude\.md$/i,
+      /^resume\.md$/i,
+      /^learning\.md$/i,
+      /^content-readme\.md$/i,
+      /^data-samples\.md$/i,
+      /^making-powerapps-easy\.md$/i,
+      /^world-cities\.md$/i
+    ];
+
     // Allowed top-level categories (feature-first + legacy)
     this.allowedCategories = [
       'app-lifecycle',
@@ -99,16 +172,21 @@ class SnippetValidator {
     const items = await fs.promises.readdir(rootPath, { withFileTypes: true });
 
     for (const item of items) {
-      if (item.isDirectory() && !item.name.startsWith('.') && item.name !== 'node_modules' && item.name !== 'tools' && item.name !== '_archive') {
-        // Check if it's a known category or contains markdown files
-        if (this.allowedCategories.includes(item.name) || item.name.match(/^\d{2}-/)) {
-           categories.push(path.join(rootPath, item.name));
-        } else {
-           // Also check if directory contains .md files directly (legacy structure)
-           const subItems = await fs.promises.readdir(path.join(rootPath, item.name));
-           if (subItems.some(f => f.endsWith('.md'))) {
-             categories.push(path.join(rootPath, item.name));
-           }
+      // Skip excluded directories
+      if (!item.isDirectory() ||
+          item.name.startsWith('.') ||
+          this.excludedDirectories.includes(item.name)) {
+        continue;
+      }
+
+      // Check if it's a known category or contains markdown files
+      if (this.allowedCategories.includes(item.name) || item.name.match(/^\d{2}-/)) {
+        categories.push(path.join(rootPath, item.name));
+      } else {
+        // Also check if directory contains .md files directly (legacy structure)
+        const subItems = await fs.promises.readdir(path.join(rootPath, item.name));
+        if (subItems.some(f => f.endsWith('.md'))) {
+          categories.push(path.join(rootPath, item.name));
         }
       }
     }
@@ -129,6 +207,8 @@ class SnippetValidator {
 
   async findMarkdownFiles(dirPath) {
     const files = [];
+    const excludedDirs = this.excludedDirectories;
+    const excludedPatterns = this.excludedFilePatterns;
 
     async function scan(dir) {
       const items = await fs.promises.readdir(dir, { withFileTypes: true });
@@ -136,10 +216,18 @@ class SnippetValidator {
       for (const item of items) {
         const fullPath = path.join(dir, item.name);
 
-        if (item.isDirectory() && !item.name.startsWith('.') && item.name !== '_archive') {
-          await scan(fullPath);
-        } else if (item.isFile() && item.name.endsWith('.md') && item.name !== 'README.md') {
-          files.push(fullPath);
+        if (item.isDirectory()) {
+          // Skip excluded directories and hidden directories
+          if (!item.name.startsWith('.') &&
+              !excludedDirs.includes(item.name)) {
+            await scan(fullPath);
+          }
+        } else if (item.isFile() && item.name.endsWith('.md')) {
+          // Skip files matching excluded patterns
+          const isExcluded = excludedPatterns.some(pattern => pattern.test(item.name));
+          if (!isExcluded) {
+            files.push(fullPath);
+          }
         }
       }
     }
