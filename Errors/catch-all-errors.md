@@ -64,8 +64,21 @@ fxApplicationName = "My Power App";
 // 🔗 App URL (Player or Studio link from make.powerapps.com)
 fxApplicationURL = "https://apps.powerapps.com/";
 
-// 🎨 Email table header color
-fxLightGrayColor = "#e5e5e5";
+// 🎨 Email theme colors (customize to match your brand)
+fxEmailColors = {
+    HeaderBg:       "#dc2626",      // Red banner background
+    HeaderText:     "#ffffff",      // White header text
+    CardBg:         "#ffffff",      // White card background
+    CardBorder:     "#e5e7eb",      // Light gray border
+    TableHeaderBg:  "#f9fafb",      // Very light gray
+    TableHeaderText:"#374151",      // Dark gray text
+    TableBorder:    "#e5e7eb",      // Light gray
+    CountBadgeBg:   "#fef2f2",      // Light red background
+    CountBadgeText: "#dc2626",      // Red text
+    FooterBg:       "#f3f4f6",      // Light gray footer
+    FooterText:     "#6b7280",      // Medium gray
+    LinkColor:      "#2563eb"       // Blue links
+};
 ```
 
 > 💡 **Finding your App URL:** Go to make.powerapps.com → Your App → `...` → Details → Web link
@@ -202,44 +215,150 @@ With(
         Office365Outlook.SendEmailV2(
             fxErrorHandlerEmail,
             SubjectLine,
-            $"<html><body>
-                <h3>Error Report for {MyUsersName} ({MyUsersEmail})</h3>
-                <p><strong>New unique error detected.</strong> Full session error summary below:</p>
-                <table style='width:100%;' border='1' cellpadding='8' cellspacing='0'>
-                    <tr style='{LightGrayColorHexBG}'>
-                        <th style='text-align:center;'>Count</th>
-                        <th>Screen</th>
-                        <th>Kind</th>
-                        <th>Source</th>
-                        <th>Message</th>
-                        <th>First Seen</th>
-                        <th>Last Seen</th>
-                    </tr>" &
-                    Concat(
-                        colErrorSignatures,
-                        $"<tr>
-                            <td style='text-align:center;font-weight:bold;font-size:1.2em;'>{ThisRecord.Occurrences}×</td>
-                            <td>{ThisRecord.Screen}</td>
-                            <td>{ThisRecord.Kind}</td>
-                            <td>{ThisRecord.Source}</td>
-                            <td>{ThisRecord.Message}</td>
-                            <td style='font-size:0.9em;'>{ThisRecord.FirstOccurrence}</td>
-                            <td style='font-size:0.9em;'>{ThisRecord.LastOccurrence}</td>
-                        </tr>"
-                    ) & $"
+            $"<html>
+            <head>
+                <meta charset='utf-8'>
+                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+            </head>
+            <body style='margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background-color:#f3f4f6;'>
+                <!-- Header Banner -->
+                <table width='100%' cellpadding='0' cellspacing='0' style='background-color:{fxEmailColors.HeaderBg};'>
                     <tr>
-                        <td colspan='7' style='{LightGrayColorHexBG}'>
-                            <div>
-                                <strong>Total unique errors:</strong> {CountRows(colErrorSignatures)} |
-                                <strong>Total occurrences:</strong> {Sum(colErrorSignatures, Occurrences)}
-                            </div>
-                            <div style='margin-top:8px;'>
-                                From Application: <a href='{fxApplicationURL}'>{fxApplicationName}</a>
+                        <td style='padding:24px 32px;'>
+                            <table width='100%' cellpadding='0' cellspacing='0'>
+                                <tr>
+                                    <td>
+                                        <span style='font-size:28px;'>⚠️</span>
+                                        <span style='color:{fxEmailColors.HeaderText};font-size:22px;font-weight:600;margin-left:12px;vertical-align:middle;'>
+                                            Error Alert
+                                        </span>
+                                    </td>
+                                    <td style='text-align:right;'>
+                                        <span style='color:{fxEmailColors.HeaderText};font-size:14px;opacity:0.9;'>
+                                            {Text(CurrentTime, ""mmm dd, yyyy · hh:mm AM/PM"")}
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Main Content Card -->
+                <table width='100%' cellpadding='0' cellspacing='0' style='padding:24px;'>
+                    <tr>
+                        <td>
+                            <table width='100%' cellpadding='0' cellspacing='0' style='background-color:{fxEmailColors.CardBg};border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);overflow:hidden;'>
+                                <!-- User Info -->
+                                <tr>
+                                    <td style='padding:24px 24px 16px 24px;border-bottom:1px solid {fxEmailColors.CardBorder};'>
+                                        <table width='100%' cellpadding='0' cellspacing='0'>
+                                            <tr>
+                                                <td>
+                                                    <div style='font-size:18px;font-weight:600;color:#111827;margin-bottom:4px;'>
+                                                        {MyUsersName}
+                                                    </div>
+                                                    <div style='font-size:14px;color:#6b7280;'>
+                                                        {MyUsersEmail}
+                                                    </div>
+                                                </td>
+                                                <td style='text-align:right;vertical-align:top;'>
+                                                    <span style='display:inline-block;background-color:{fxEmailColors.CountBadgeBg};color:{fxEmailColors.CountBadgeText};font-size:14px;font-weight:600;padding:6px 12px;border-radius:20px;'>
+                                                        {CountRows(colErrorSignatures)} unique error{If(CountRows(colErrorSignatures)>1,""s"","""")}
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <!-- Error Table -->
+                                <tr>
+                                    <td style='padding:0;'>
+                                        <table width='100%' cellpadding='0' cellspacing='0' style='border-collapse:collapse;'>
+                                            <tr style='background-color:{fxEmailColors.TableHeaderBg};'>
+                                                <th style='padding:12px 16px;text-align:center;font-size:12px;font-weight:600;color:{fxEmailColors.TableHeaderText};text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid {fxEmailColors.TableBorder};width:70px;'>Count</th>
+                                                <th style='padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:{fxEmailColors.TableHeaderText};text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid {fxEmailColors.TableBorder};'>Screen</th>
+                                                <th style='padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:{fxEmailColors.TableHeaderText};text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid {fxEmailColors.TableBorder};'>Kind</th>
+                                                <th style='padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:{fxEmailColors.TableHeaderText};text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid {fxEmailColors.TableBorder};'>Source</th>
+                                                <th style='padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:{fxEmailColors.TableHeaderText};text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid {fxEmailColors.TableBorder};'>Message</th>
+                                                <th style='padding:12px 16px;text-align:right;font-size:12px;font-weight:600;color:{fxEmailColors.TableHeaderText};text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid {fxEmailColors.TableBorder};width:140px;'>Timestamps</th>
+                                            </tr>" &
+                                            Concat(
+                                                colErrorSignatures,
+                                                $"<tr style='border-bottom:1px solid {fxEmailColors.TableBorder};'>
+                                                    <td style='padding:16px;text-align:center;vertical-align:top;'>
+                                                        <span style='display:inline-block;background-color:{fxEmailColors.CountBadgeBg};color:{fxEmailColors.CountBadgeText};font-size:16px;font-weight:700;padding:8px 14px;border-radius:8px;min-width:40px;'>
+                                                            {ThisRecord.Occurrences}×
+                                                        </span>
+                                                    </td>
+                                                    <td style='padding:16px;vertical-align:top;'>
+                                                        <span style='display:inline-block;background-color:#dbeafe;color:#1e40af;font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;'>
+                                                            {ThisRecord.Screen}
+                                                        </span>
+                                                    </td>
+                                                    <td style='padding:16px;vertical-align:top;'>
+                                                        <span style='display:inline-block;background-color:#fef3c7;color:#92400e;font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;'>
+                                                            {ThisRecord.Kind}
+                                                        </span>
+                                                    </td>
+                                                    <td style='padding:16px;vertical-align:top;font-size:14px;color:#374151;font-family:ui-monospace,monospace;'>
+                                                        {ThisRecord.Source}
+                                                    </td>
+                                                    <td style='padding:16px;vertical-align:top;font-size:14px;color:#111827;max-width:300px;'>
+                                                        {ThisRecord.Message}
+                                                    </td>
+                                                    <td style='padding:16px;vertical-align:top;text-align:right;'>
+                                                        <div style='font-size:12px;color:#6b7280;margin-bottom:4px;'>
+                                                            <strong>First:</strong> {ThisRecord.FirstOccurrence}
+                                                        </div>
+                                                        <div style='font-size:12px;color:#6b7280;'>
+                                                            <strong>Last:</strong> {ThisRecord.LastOccurrence}
+                                                        </div>
+                                                    </td>
+                                                </tr>"
+                                            ) & $"
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <!-- Summary Footer -->
+                                <tr>
+                                    <td style='padding:20px 24px;background-color:{fxEmailColors.FooterBg};border-top:1px solid {fxEmailColors.CardBorder};'>
+                                        <table width='100%' cellpadding='0' cellspacing='0'>
+                                            <tr>
+                                                <td>
+                                                    <span style='font-size:14px;color:{fxEmailColors.FooterText};'>
+                                                        <strong style='color:#374151;'>{CountRows(colErrorSignatures)}</strong> unique errors ·
+                                                        <strong style='color:#374151;'>{Sum(colErrorSignatures, Occurrences)}</strong> total occurrences
+                                                    </span>
+                                                </td>
+                                                <td style='text-align:right;'>
+                                                    <a href='{fxApplicationURL}' style='display:inline-block;background-color:{fxEmailColors.LinkColor};color:#ffffff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:8px;text-decoration:none;'>
+                                                        Open {fxApplicationName}
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Footer -->
+                <table width='100%' cellpadding='0' cellspacing='0'>
+                    <tr>
+                        <td style='padding:16px 24px 32px 24px;text-align:center;'>
+                            <div style='font-size:12px;color:#9ca3af;'>
+                                Automated error report from {fxApplicationName}
                             </div>
                         </td>
                     </tr>
                 </table>
-            </body></html>"
+            </body>
+            </html>"
         )
     );
 
@@ -373,6 +492,9 @@ Clear(colErrorSignatures);
 
 | Date | Author | Changes |
 |------|--------|---------|
+| 2025-12-17 | Claude Opus 4.5 | Redesigned email template with modern styling: header banner, color-coded badges, card layout |
+| 2025-12-17 | Claude Opus 4.5 | Added `fxEmailColors` record for customizable email theming |
+| 2025-12-17 | Claude Opus 4.5 | Created `email-template-preview.html` for live preview and color customization |
 | 2025-12-17 | Claude Opus 4.5 | Rewrote documentation for clarity: added quick-start, visual flow diagram, collapsible sections |
 | 2025-12-17 | Claude Opus 4.5 | Added diagnostic logging with Trace() statements |
 | 2025-12-17 | Claude Opus 4.5 | Fixed multi-row email output with explicit ThisRecord references |

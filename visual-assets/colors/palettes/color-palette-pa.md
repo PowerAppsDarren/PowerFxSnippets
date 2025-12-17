@@ -1,3 +1,17 @@
+---
+title: Power Apps Color Palette
+description: Extended theme configuration with Power Apps branding colors including primary, secondary, accent, and neutral colors
+category: colors/palettes
+tags:
+  - theme
+  - branding
+  - Power-Apps
+  - extended-theme
+related:
+  - ./color-palettes
+  - ./microsoft-power-apps
+---
+
 # Color Palette: Power Apps
 
 ```PowerFx

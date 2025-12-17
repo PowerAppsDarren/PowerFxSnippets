@@ -1,13 +1,20 @@
 ---
 title: "Alternating Row Colors in Gallery"
-description: "Implement alternating row colors (zebra striping) in a Gallery control using the Mod function."
-category: "Controls"
-tags: ["gallery", "ui", "design", "alternating-colors"]
+description: "Implement alternating row colors (zebra striping) in a Gallery control using the Mod function"
+category: "ui-controls"
+subcategory: "gallery"
+tags:
+  - gallery
+  - zebra-striping
+  - alternating-colors
+  - mod-function
+  - styling
 difficulty: intermediate
-author: "Darren Neese"
-created: 2025-11-19
-updated: 2025-11-19
-license: "MIT"
+products:
+  - power-apps-canvas
+author: "PowerAppsDarren"
+created: 2024-01-01
+updated: 2024-01-01
 ---
 
 # Alternating Row Colors

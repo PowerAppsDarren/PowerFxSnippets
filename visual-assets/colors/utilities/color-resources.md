@@ -1,3 +1,18 @@
+---
+title: Color Resources
+description: External color resources, tools, and theme references including Nord Theme, gradient generators, and palette tools
+category: colors/utilities
+tags:
+  - resources
+  - nord-theme
+  - gradients
+  - tools
+  - external-links
+related:
+  - ../palettes/color-palettes
+  - ../palettes/web-colors
+---
+
 # Color Resources
 
 ## Nord Theme

@@ -1,7 +1,21 @@
-# New Topic
+---
+title: Color Collection
+description: All 140 web colors defined as a Power Apps collection with names, hex codes, and RGB values
+category: colors/palettes
+tags:
+  - web-colors
+  - collection
+  - ColorValue
+  - named-formula
+related:
+  - ./web-colors
+  - ../functions/hex-2-rgb
+---
 
-All 140 web colors defined in a Power Apps collection. 
-Just copy the code below and paste it in your 
+# Color Collection
+
+All 140 web colors defined in a Power Apps collection.
+Just copy the code below and paste it in your
 App.Forumlas. Then you can use the collection in your app.
 
 ## Add This to Your Application

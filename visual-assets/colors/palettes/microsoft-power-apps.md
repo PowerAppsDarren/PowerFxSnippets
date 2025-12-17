@@ -1,7 +1,17 @@
+---
+title: Microsoft Power Apps Style
+description: Links to Microsoft's official branding and trademark guidelines for Power Apps development
+category: colors/palettes
+tags:
+  - Microsoft
+  - branding
+  - guidelines
+  - trademarks
+related:
+  - ./color-palette-pa
+---
+
 # Microsoft Power Apps Style
-
-
-
 
 
 # Microsoft's Official Guidlines

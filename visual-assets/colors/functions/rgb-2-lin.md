@@ -1,4 +1,19 @@
-# RGBtoLIN
+---
+title: RGB to Linear Conversion
+description: Convert sRGB color values to linearized values for accurate color calculations
+category: colors/functions
+tags:
+  - color-conversion
+  - RGB
+  - linear
+  - sRGB
+credit: https://github.com/P3N-101/color-functions
+related:
+  - ./luminance
+  - ./color-functions
+---
+
+# RGB to Linear (sRGBtoLIN)
 
 Credit: https://github.com/P3N-101/color-functions
 

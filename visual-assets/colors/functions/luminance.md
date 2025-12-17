@@ -1,3 +1,18 @@
+---
+title: Luminance Calculation
+description: Calculate luminance values for accessibility and color blindness simulations
+category: colors/functions
+tags:
+  - luminance
+  - accessibility
+  - achromatomaly
+  - RGBA
+credit: https://github.com/P3N-101/color-functions
+related:
+  - ./color-functions
+  - ./rgb-2-lin
+---
+
 # Luminance
 
 Credit: https://github.com/P3N-101/color-functions

@@ -1,6 +1,20 @@
+---
+title: Color Palettes
+description: Simple color palette configuration for Power Apps with primary, accent, and utility colors
+category: colors/palettes
+tags:
+  - palette
+  - ColorValue
+  - ColorFade
+  - named-formula
+related:
+  - ./color-palette-pa
+  - ../utilities/color-resources
+---
+
 # Color Palettes
 
-This is some YAML you can paste into your canvas Power Apps applciation that will 
+This is some YAML you can paste into your canvas Power Apps application.
 
 ## Add This to Your Application
 

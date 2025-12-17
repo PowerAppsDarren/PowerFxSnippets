@@ -1,3 +1,18 @@
+---
+title: Color Functions Template
+description: Canvas component template for color accessibility functions and color blindness simulations
+category: colors/palettes
+tags:
+  - template
+  - canvas-component
+  - accessibility
+  - color-blindness
+credit: https://github.com/P3N-101/color-functions
+related:
+  - ../functions/color-functions
+  - ../functions/luminance
+---
+
 # COLOR
 
 Credit: https://github.com/P3N-101/color-functions

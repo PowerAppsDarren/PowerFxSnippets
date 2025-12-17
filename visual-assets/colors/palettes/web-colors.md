@@ -1,3 +1,18 @@
+---
+title: Web Colors
+description: Complete collection of 140 web colors with names, hex codes, RGB values, categories, and tags
+category: colors/palettes
+tags:
+  - web-colors
+  - collection
+  - ColorValue
+  - named-formula
+  - categorized
+related:
+  - ./color-collection
+  - ../functions/hex-2-rgb
+---
+
 # Web-Colors
 
 This is some YAML you can paste into your App.Formulas to create a collection of web colors. This is a collection of 140 web colors, including their names, hex codes, RGB values, and some additional properties like categories and tags.

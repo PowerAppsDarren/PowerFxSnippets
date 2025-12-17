@@ -1,25 +1,32 @@
 ---
 title: "ASCII Code Checkerboard"
-description: "A gallery that displays ASCII codes in a checkerboard pattern."
-category: "Controls"
-tags: ["gallery", "ascii", "pattern", "ui"]
+description: "A gallery displaying ASCII codes in a visual checkerboard pattern using Mod function"
+category: "ui-controls"
+subcategory: "gallery"
+tags:
+  - gallery
+  - ascii
+  - checkerboard
+  - pattern
+  - styling
 difficulty: intermediate
-author: "Darren Neese"
-created: 2025-11-19
-updated: 2025-11-19
-license: "MIT"
+products:
+  - power-apps-canvas
+author: "PowerAppsDarren"
+created: 2024-01-01
+updated: 2024-01-01
 ---
 
-# AsciiCodeCheckerBoard
+# ASCII Code Checkerboard
 
-This is some YAML you can paste into your canvas Power Apps applciation.
+This is some YAML you can paste into your canvas Power Apps application.
 Once pasted into canvas Power Apps as YAML, you will get a gallery (vertical)
-that displays the ASCII codes from 33 to 126 in a checkerboard pattern, and it 
+that displays the ASCII codes from 33 to 126 in a checkerboard pattern, and it
 will look like a black and white checkerboard.
 
 ## Add This to Your Application
 
-```YAML
+```yaml
 - galAsciiCodes:
     Control: Gallery
     Variant: galleryVertical
@@ -29,7 +36,7 @@ will look like a black and white checkerboard.
             //
             // 33 is !
             // 126 is ~
-            // These two numbers mark the beginning and end of the 
+            // These two numbers mark the beginning and end of the
             // characters we're interested in!
             //
             // If you want more, add in the unicode chars: https://en.wikipedia.org/wiki/List_of_Unicode_characters
@@ -71,7 +78,7 @@ will look like a black and white checkerboard.
                 Mod(
                     ThisItem.AsciiCode,
                     2
-                ) = 1,    
+                ) = 1,
                 Color.Black,
                 Color.White
             )
@@ -86,7 +93,7 @@ will look like a black and white checkerboard.
                 Mod(
                     ThisItem.AsciiCode,
                     2
-                ) = 1,    
+                ) = 1,
                 Color.Black,
                 Color.White
             )
@@ -94,3 +101,18 @@ will look like a black and white checkerboard.
           Size: =48
           Width: =Parent.TemplateWidth
 ```
+
+## Free Community & Course Materials
+
+Get access to our free Power Apps crash course (and our community) here:
+- https://tinyurl.com/DarrensStuffFree
+
+## Support
+
+If you need any help with the Power Platform, don't hesitate to email us at:
+- support@superpowerlabs.co
+- https://powerplatformlinks.com
+
+## Disclaimer
+
+THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.

@@ -1,4 +1,19 @@
-# RGB To HSV
+---
+title: RGB to HSV Conversion
+description: Convert RGB color values to HSV (Hue, Saturation, Value) in Power Fx
+category: colors/functions
+tags:
+  - color-conversion
+  - RGB
+  - HSV
+credit: https://github.com/matthewdevaney/powerapps-custom-functions
+related:
+  - ./hsv-2-rgb
+  - ./rgb-2-hsl
+  - ./hex-2-rgb
+---
+
+# RGB to HSV
 
 Credit: https://github.com/matthewdevaney/powerapps-custom-functions/tree/main/custom_functions_hiro
 
@@ -53,8 +68,8 @@ With(
 
 ## Free Community & Course Materials 
 
-🆓 Get access to our free Power Apps crash course (and our community) here: 
-- https://tinyurl.com/DarrensStuffFree 🔗
+Get access to our free Power Apps crash course (and our community) here: 
+- https://tinyurl.com/DarrensStuffFree
 
 ## Support
 

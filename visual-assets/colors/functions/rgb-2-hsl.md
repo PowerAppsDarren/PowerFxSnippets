@@ -1,3 +1,18 @@
+---
+title: RGB to HSL Conversion
+description: Convert RGB color values to HSL (Hue, Saturation, Lightness) in Power Fx
+category: colors/functions
+tags:
+  - color-conversion
+  - RGB
+  - HSL
+credit: https://github.com/matthewdevaney/powerapps-custom-functions
+related:
+  - ./rgb-2-hsv
+  - ./hex-2-rgb
+  - ./hsv-2-rgb
+---
+
 # RGB to HSL
 
 Credit: https://github.com/matthewdevaney/powerapps-custom-functions/tree/main/custom_functions_hiro
