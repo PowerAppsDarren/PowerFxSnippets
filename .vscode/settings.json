@@ -39,7 +39,7 @@
 
     // Theme settings
     "workbench.colorTheme": "Default Light+",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations": {
         //
         // ACTIVITY BAR
