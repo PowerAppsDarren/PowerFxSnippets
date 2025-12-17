@@ -1,16 +1,35 @@
 # RESUME.md - Project State
 
 ## Last Session
-- **Date:** 2025-12-17
+- **Date:** 2025-12-17 (evening)
 - **Model:** Claude Opus 4.5
 
 ## Current State
 
-Major repository reorganization completed. Files reorganized into semantic folder structure with proper hierarchy.
+Repository reorganization continues. Documentation improvements in progress.
 
 **Branch:** `feature/error-handler-deduplication`
 
-## What Was Accomplished This Session (2025-12-17)
+## What Was Accomplished This Session (2025-12-17 evening)
+
+### Documentation Improvements
+1. **Rewrote `Errors/catch-all-errors.md`** for better readability:
+   - Added compelling intro explaining the problem/solution
+   - Added Quick Start table (3-step guide)
+   - Added ASCII flow diagram showing deduplication logic
+   - Consolidated 4 diagnostic sections → 1 with collapsible details
+   - Consolidated 3 optional sections → 1 "Optional Enhancements"
+   - Simplified collection schema reference
+   - Reduced from ~425 to ~380 lines while adding more visual structure
+
+2. **Updated `CLAUDE.md`** with markdown editing guidelines:
+   - Added "Editing Markdown Files" section
+   - Requires History section at bottom of all `.md` files
+   - Specifies table format and ordering (most recent first)
+
+---
+
+## Previous Session (2025-12-17 earlier)
 
 ### 1. Major Repository Reorganization (228 files)
 - **app-formulas/** → **app-lifecycle/formulas/** with subcategories:

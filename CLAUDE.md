@@ -6,7 +6,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Power Fx snippets repository containing reusable code patterns, formulas, and components for Microsoft Power Platform development. The repository serves as a comprehensive collection of Power Apps development resources.
 
-Whenever we edit a file
+## Editing Markdown Files
+
+When adding or updating any `.md` file in this repository:
+
+1. **Update the History section** at the bottom of the file (create one if it doesn't exist)
+2. Use this format:
+   ```markdown
+   ## History
+
+   | Date | Author | Changes |
+   |------|--------|---------|
+   | YYYY-MM-DD | Author Name | Brief description of changes |
+   ```
+3. Add new entries at the **top** of the table (most recent first)
 
 ## Repository Structure
 

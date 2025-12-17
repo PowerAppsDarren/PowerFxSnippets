@@ -1,108 +1,85 @@
-# Catching All Errors
+# Catching All Errors in Power Apps
 
-If you'd like to literally catch all errors in your canvas Power Apps, simply copy and paste the code shown below.
+> 📧 **Get notified of every error without inbox overload** — smart deduplication sends 2 emails instead of 60.
 
-Related content: https://youtu.be/8qcPq4peows
-![thumbnail](catch-all-errrors-thumbnail.png)
+Power Apps can silently swallow errors, leaving users frustrated and developers blind to problems. This error handler catches **every** error in your canvas app and emails you a detailed report — but intelligently groups duplicate errors so you don't get flooded with 50 identical emails.
 
-## Table of Contents
+Whether it's a network timeout, a formula error, or a connector failure, you'll know about it immediately with full context: which screen, which control, the error message, and how many times it occurred.
 
-- [Catching All Errors](#catching-all-errors)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Documentation Links](#documentation-links)
-  - [How It Works: Signature-Based Deduplication](#how-it-works-signature-based-deduplication)
-    - [The Approach](#the-approach)
-  - [Step 1: Add Named Formulas to `App.Formulas`](#step-1-add-named-formulas-to-appformulas)
-  - [Step 2: Add Error Handler to `App.OnError`](#step-2-add-error-handler-to-apponerror)
-  - [Diagnostic Logging](#diagnostic-logging)
-    - [How to View Diagnostic Logs](#how-to-view-diagnostic-logs)
-    - [Trace Events](#trace-events)
-    - [Example Monitor Output](#example-monitor-output)
-    - [Disabling Diagnostic Logging](#disabling-diagnostic-logging)
-  - [Collection Schema: `colErrorSignatures`](#collection-schema-colerrorsignatures)
-  - [Optional: View Error Collection in App](#optional-view-error-collection-in-app)
-  - [Optional: Clear Errors on App Start](#optional-clear-errors-on-app-start)
-  - [Optional: Persist Errors to a Data Source](#optional-persist-errors-to-a-data-source)
-    - [Step 1: Create a Data Source](#step-1-create-a-data-source)
-    - [Step 2: Persist on App Close](#step-2-persist-on-app-close)
-  - [History](#history)
+<img src="catch-all-errrors-thumbnail.png" alt="thumbnail" width="300">
+
+🎬 [Watch the video tutorial](https://youtu.be/8qcPq4peows)
 
 ---
 
-## Prerequisites
+## ⚡ Quick Start
 
-- ➡️ 🔴 **Add the Office365Outlook connector!** 🔴 ⬅️
+| Step | Action | Where |
+|:----:|--------|-------|
+| 1 | Add **Office365Outlook** connector | Data → Add data |
+| 2 | Copy [configuration formulas](#step-1-configure-settings) | `App.Formulas` |
+| 3 | Copy [error handler code](#step-2-add-error-handler) | `App.OnError` |
 
-## Documentation Links
-
-- [Error, IfError, IsError, IsBlankOrError functions](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-iferror)
-- [Errors function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-errors)
-- [Power Fx Error handling](https://learn.microsoft.com/en-us/power-platform/power-fx/error-handling)
+**That's it!** You'll receive email notifications for every unique error.
 
 ---
 
-## How It Works: Signature-Based Deduplication
+## How It Works
 
-This error handler uses **smart deduplication** to prevent email floods:
+```
+Error occurs → Generate signature → Already seen?
+                                         ↓
+                    ┌────────────────────┴────────────────────┐
+                    │ NO (new error)                          │ YES (repeat)
+                    │ • Add to collection                     │ • Increment counter
+                    │ • Send email with full summary          │ • No email
+                    └─────────────────────────────────────────┘
+```
 
-| What Happens | Old Behavior | New Behavior |
-|--------------|--------------|--------------|
-| Error A occurs 50× | 50 emails | 1 email |
-| Error B occurs 10× | 10 emails | 1 email (includes "Error A: 50×") |
+**Result:** 60 errors → 2 emails (one per unique error type)
+
+| Scenario | Without This | With This |
+|----------|:------------:|:---------:|
+| Error A × 50 | 50 emails | 1 email |
+| Error B × 10 | 10 emails | 1 email |
 | **Total** | **60 emails** | **2 emails** |
 
-### The Approach
-
-1. **Unique Signatures** - Each error gets a signature: `Screen|Source|Message`
-2. **Collection Tracking** - `colErrorSignatures` stores unique errors with occurrence counts
-3. **Smart Emailing** - Only sends email on **first occurrence** of each unique error
-4. **Full Context** - Every email includes the **complete session error summary** with counts
-
 ---
 
-## Step 1: Add Named Formulas to `App.Formulas`
+## Step 1: Configure Settings
 
-Copy this code block to your **App.Formulas** property. Update the values as needed for your application.
+Copy to **App.Formulas** and update the highlighted values:
 
 ```PowerFx
-// ============================================================================
-// ERROR HANDLER CONFIGURATION - Add to App.Formulas
-// ============================================================================
+// ══════════════════════════════════════════════════════════════
+// ERROR HANDLER SETTINGS
+// ══════════════════════════════════════════════════════════════
 
-// 1️⃣ Email address(es) to receive error notifications
-//    For multiple recipients, separate with semicolons: "jon@domain.com;lisa@domain.com"
+// 📧 Who receives error emails (semicolon-separated for multiple)
 fxErrorHandlerEmail = "YOUR_EMAIL_HERE";
 
-// 2️⃣ Application name (appears in email subject and body)
-fxApplicationName = "The Power Apps Application";
+// 📛 App name (shown in email subject/body)
+fxApplicationName = "My Power App";
 
-// 3️⃣ Application URL - Choose one option:
-//    OPTION A: Player URL (for users to open the app)
-//              Find at make.powerapps.com > Your App > ... > Details > Web link
-//              Example: https://apps.powerapps.com/play/e/12345.../a/12345...
-//    OPTION B: Studio URL (for developers to edit the app)
-//              Copy from browser address bar while editing
-//              Example: https://make.powerapps.com/e/12345.../canvas?...
+// 🔗 App URL (Player or Studio link from make.powerapps.com)
 fxApplicationURL = "https://apps.powerapps.com/";
 
-// 4️⃣ Table header background color (CSS hex format)
+// 🎨 Email table header color
 fxLightGrayColor = "#e5e5e5";
 ```
 
+> 💡 **Finding your App URL:** Go to make.powerapps.com → Your App → `...` → Details → Web link
+
 ---
 
-## Step 2: Add Error Handler to `App.OnError`
+## Step 2: Add Error Handler
 
-Copy this code block to your **App.OnError** property. This code can remain unmodified.
+Copy to **App.OnError** — no modifications needed:
 
 ```PowerFx
-// ============================================================================
-// ERROR HANDLER WITH SIGNATURE-BASED DEDUPLICATION - Add to App.OnError
-// ============================================================================
-// Only sends email on FIRST occurrence of each unique error.
-// Subsequent occurrences just increment the counter - no spam!
-// ============================================================================
+// ══════════════════════════════════════════════════════════════
+// ERROR HANDLER - Paste into App.OnError (no changes needed)
+// ══════════════════════════════════════════════════════════════
 With(
     {
         ScreenName:             App.ActiveScreen.Name,
@@ -265,149 +242,103 @@ With(
             </body></html>"
         )
     );
+
 );
 ```
 
 ---
 
-## Diagnostic Logging
+## Debugging with Monitor
 
-The error handler includes `Trace()` statements that output to **Power Apps Monitor**. This helps you debug and verify the error handling flow.
+The error handler logs to **Power Apps Monitor** so you can see exactly what's happening.
 
-### How to View Diagnostic Logs
+**To open Monitor:** Power Apps Studio → Advanced tools (`Alt+T`) → Monitor → Play your app
 
-1. Open your app in **Power Apps Studio**
-2. Click **Advanced tools** in the left panel (or press `Alt+T`)
-3. Select **Monitor** (opens in new tab)
-4. Click **Play** to run your app with monitoring enabled
-5. Trigger an error - you'll see trace entries in the Monitor
+| Trace Event | What It Shows |
+|-------------|---------------|
+| `ErrorHandler: START` | How many errors came in, current screen, user |
+| `ErrorHandler: Processing Error` | Each error's signature and whether it's new |
+| `ErrorHandler: Pre-Email Check` | Will an email be sent? How many new errors? |
+| `ErrorHandler: Sending Email` | Email recipient, subject, error summary |
 
-### Trace Events
-
-| Event | Severity | What It Shows |
-|-------|----------|---------------|
-| `ErrorHandler: START` | Information | Incoming error count, existing signatures, screen, user |
-| `ErrorHandler: Processing Error` | Information | Each error's signature, whether it's new, kind, message |
-| `ErrorHandler: Pre-Email Check` | Information | Count before/after, new errors added, will send email flag |
-| `ErrorHandler: Sending Email` | Warning | Recipient, subject, unique error count, summary of all errors |
-
-### Example Monitor Output
+<details>
+<summary>📋 Example Monitor Output</summary>
 
 ```
 [Information] ErrorHandler: START
-    IncomingErrorCount: 3
-    ExistingSignatureCount: 0
-    Screen: "HomeScreen"
-    User: "user@domain.com"
+    IncomingErrorCount: 3, Screen: "HomeScreen", User: "user@domain.com"
 
 [Information] ErrorHandler: Processing Error
     Signature: "HomeScreen|Button1.OnSelect|Network error"
-    IsNew: true
-    Kind: "Network"
-    Message: "Network error"
+    IsNew: true, Kind: "Network"
 
 [Information] ErrorHandler: Pre-Email Check
-    CountBefore: 0
-    CountAfter: 1
-    NewErrorsAdded: 1
-    WillSendEmail: true
-    TotalOccurrences: 1
+    CountBefore: 0, CountAfter: 1, WillSendEmail: true
 
 [Warning] ErrorHandler: Sending Email
     To: "admin@domain.com"
-    Subject: "Error(s) occurred in the My App application for John Doe"
     UniqueErrorCount: 1
     ErrorSummary: "HomeScreen: Network error (1×)"
 ```
 
-### Disabling Diagnostic Logging
+</details>
 
-To disable logging for production, remove or comment out the `Trace()` statements. They have minimal performance impact but may clutter your Monitor during normal debugging.
-
----
-
-## Collection Schema: `colErrorSignatures`
-
-This collection is automatically created and managed by the error handler:
-
-| Field Name      | Type   | Description |
-|-----------------|--------|-------------|
-| Signature       | Text   | Unique key: `Screen\|Source\|Message` |
-| Screen          | Text   | Screen where error occurred |
-| Source          | Text   | Control/function that caused error |
-| Kind            | Text   | Error type (Sync, Network, etc.) |
-| Message         | Text   | Error message text |
-| Observed        | Text   | Where error was observed |
-| HttpResponse    | Text   | HTTP response (if applicable) |
-| HttpStatusCode  | Text   | HTTP status code (if applicable) |
-| Occurrences     | Number | How many times this error occurred |
-| FirstOccurrence | Text   | Timestamp of first occurrence |
-| LastOccurrence  | Text   | Timestamp of most recent occurrence |
-| UserEmail       | Text   | User's email address |
-| UsersName       | Text   | User's display name |
+> 💡 **For production:** Remove the `Trace()` statements to declutter your Monitor.
 
 ---
 
-## Optional: View Error Collection in App
+## Reference: `colErrorSignatures` Collection
 
-Add a gallery to a debug/admin screen to see all tracked errors:
+The error handler automatically creates this collection to track errors:
+
+| Field | Description |
+|-------|-------------|
+| `Signature` | Unique key: `Screen\|Source\|Message` |
+| `Screen` | Where the error occurred |
+| `Source` | Control or function that caused it |
+| `Kind` | Error type (Sync, Network, etc.) |
+| `Message` | The error message |
+| `Occurrences` | How many times this error happened |
+| `FirstOccurrence` / `LastOccurrence` | Timestamps |
+| `UserEmail` / `UsersName` | Who triggered the error |
+| `HttpResponse` / `HttpStatusCode` | API details (if applicable) |
+
+---
+
+## Optional Enhancements
+
+### Display Errors in Your App
+
+Add a gallery bound to `colErrorSignatures` on a debug screen:
 
 ```PowerFx
-// Gallery Items property
+// Gallery.Items
 colErrorSignatures
 
-// Useful label formulas for the gallery template
+// Label formulas
 ThisItem.Occurrences & "× - " & ThisItem.Message
-"First: " & ThisItem.FirstOccurrence
-"Last: " & ThisItem.LastOccurrence
 ```
 
----
+### Clear Errors on App Start
 
-## Optional: Clear Errors on App Start
-
-Add to `App.OnStart` if you want a fresh collection each session:
+Add to `App.OnStart` for a fresh collection each session:
 
 ```PowerFx
 Clear(colErrorSignatures);
 ```
 
----
+### Persist Errors to SharePoint/Database
 
-## Optional: Persist Errors to a Data Source
+<details>
+<summary>📋 Click to expand persistence code</summary>
 
-If you'd like to store errors in a database or SharePoint list for historical tracking:
-
-### Step 1: Create a Data Source
-
-Create a table/list named `PowerAppsErrors` with these fields:
-
-| Field Name      | Type   |
-|-----------------|--------|
-| Signature       | Text   |
-| Screen          | Text   |
-| Source          | Text   |
-| Kind            | Text   |
-| Message         | Text   |
-| Observed        | Text   |
-| HttpResponse    | Text   |
-| HttpStatusCode  | Text   |
-| Occurrences     | Number |
-| FirstOccurrence | Text   |
-| LastOccurrence  | Text   |
-| UserEmail       | Text   |
-| UsersName       | Text   |
-
-### Step 2: Persist on App Close
-
-Add to a "Save & Exit" button or similar:
+Create a table/list with columns matching the collection fields, then add to a "Save & Exit" button:
 
 ```PowerFx
-// Persist all unique errors with their occurrence counts
 ForAll(
     colErrorSignatures,
     Patch(
-        PowerAppsErrors,
+        PowerAppsErrors,        // Your data source
         Defaults(PowerAppsErrors),
         {
             Signature:       Signature,
@@ -415,9 +346,6 @@ ForAll(
             Source:          Source,
             Kind:            Kind,
             Message:         Message,
-            Observed:        Observed,
-            HttpResponse:    HttpResponse,
-            HttpStatusCode:  HttpStatusCode,
             Occurrences:     Occurrences,
             FirstOccurrence: FirstOccurrence,
             LastOccurrence:  LastOccurrence,
@@ -429,14 +357,24 @@ ForAll(
 Clear(colErrorSignatures);
 ```
 
+</details>
+
+---
+
+## Further Reading
+
+- [Error, IfError, IsError functions](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-iferror)
+- [Errors function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-errors)
+- [Power Fx Error handling](https://learn.microsoft.com/en-us/power-platform/power-fx/error-handling)
+
 ---
 
 ## History
 
 | Date | Author | Changes |
 |------|--------|---------|
+| 2025-12-17 | Claude Opus 4.5 | Rewrote documentation for clarity: added quick-start, visual flow diagram, collapsible sections |
 | 2025-12-17 | Claude Opus 4.5 | Added diagnostic logging with Trace() statements |
 | 2025-12-17 | Claude Opus 4.5 | Fixed multi-row email output with explicit ThisRecord references |
-| 2025-12-17 | Claude Opus 4.5 | Added table of contents and history log |
 | 2025-12-04 | Claude Opus 4.5 | Implemented v2.2 with signature-based deduplication |
 | 2025-12-04 | Claude Opus 4.5 | Added occurrence counting and full session reports |
