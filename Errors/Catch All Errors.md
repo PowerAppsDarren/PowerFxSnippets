@@ -92,16 +92,43 @@ With(
                                     User().FullName
                                 )
     },
+    // ═══════════════════════════════════════════════════════════════════════
+    // DIAGNOSTIC: Log incoming errors (view in Monitor tool)
+    // ═══════════════════════════════════════════════════════════════════════
+    Trace(
+        "ErrorHandler: START",
+        TraceSeverity.Information,
+        {
+            IncomingErrorCount: CountRows(AllErrors),
+            ExistingSignatureCount: CountBefore,
+            Screen: ScreenName,
+            User: MyUsersEmail
+        }
+    );
     // Process each error - add new signatures or update existing counts
     ForAll(
         AllErrors As Err,
         With(
             {
                 // Generate unique signature: Screen|Source|Message
-                ErrSignature: ScreenName & "|" & Text(Err.Source) & "|" & Text(Err.Message)
+                ErrSignature: ScreenName & "|" & Text(Err.Source) & "|" & Text(Err.Message),
+                IsNewError: IsBlank(LookUp(colErrorSignatures, Signature = ScreenName & "|" & Text(Err.Source) & "|" & Text(Err.Message)))
             },
+            // ═══════════════════════════════════════════════════════════
+            // DIAGNOSTIC: Log each error being processed
+            // ═══════════════════════════════════════════════════════════
+            Trace(
+                "ErrorHandler: Processing Error",
+                TraceSeverity.Information,
+                {
+                    Signature: ErrSignature,
+                    IsNew: IsNewError,
+                    Kind: Text(Err.Kind),
+                    Message: Text(Err.Message)
+                }
+            );
             If(
-                IsBlank(LookUp(colErrorSignatures, Signature = ErrSignature)),
+                IsNewError,
                 // ═══════════════════════════════════════════════════════════
                 // NEW UNIQUE ERROR - Add to tracking collection
                 // ═══════════════════════════════════════════════════════════
@@ -111,7 +138,7 @@ With(
                         Signature:       ErrSignature,
                         Screen:          ScreenName,
                         Source:          Text(Err.Source),
-                        Kind:            Err.Kind,
+                        Kind:            Text(Err.Kind),
                         Message:         Text(Err.Message),
                         Observed:        Text(Err.Observed),
                         HttpResponse:    Text(Err.Details.HttpResponse),
@@ -138,10 +165,37 @@ With(
         )
     );
     // ═══════════════════════════════════════════════════════════════════════
+    // DIAGNOSTIC: Log collection state before email decision
+    // ═══════════════════════════════════════════════════════════════════════
+    Trace(
+        "ErrorHandler: Pre-Email Check",
+        TraceSeverity.Information,
+        {
+            CountBefore: CountBefore,
+            CountAfter: CountRows(colErrorSignatures),
+            NewErrorsAdded: CountRows(colErrorSignatures) - CountBefore,
+            WillSendEmail: CountRows(colErrorSignatures) > CountBefore,
+            TotalOccurrences: Sum(colErrorSignatures, Occurrences)
+        }
+    );
+    // ═══════════════════════════════════════════════════════════════════════
     // ONLY SEND EMAIL IF NEW UNIQUE ERROR(S) WERE ADDED
     // ═══════════════════════════════════════════════════════════════════════
     If(
         CountRows(colErrorSignatures) > CountBefore,
+        // ═══════════════════════════════════════════════════════════════════════
+        // DIAGNOSTIC: Log email content details
+        // ═══════════════════════════════════════════════════════════════════════
+        Trace(
+            "ErrorHandler: Sending Email",
+            TraceSeverity.Warning,
+            {
+                To: fxErrorHandlerEmail,
+                Subject: SubjectLine,
+                UniqueErrorCount: CountRows(colErrorSignatures),
+                ErrorSummary: Concat(colErrorSignatures, ThisRecord.Screen & ": " & ThisRecord.Message & " (" & ThisRecord.Occurrences & "×)", ", ")
+            }
+        );
         Office365Outlook.SendEmailV2(
             fxErrorHandlerEmail,
             SubjectLine,
@@ -161,13 +215,13 @@ With(
                     Concat(
                         colErrorSignatures,
                         $"<tr>
-                            <td style='text-align:center;font-weight:bold;font-size:1.2em;'>{Occurrences}×</td>
-                            <td>{Screen}</td>
-                            <td>{Kind}</td>
-                            <td>{Source}</td>
-                            <td>{Message}</td>
-                            <td style='font-size:0.9em;'>{FirstOccurrence}</td>
-                            <td style='font-size:0.9em;'>{LastOccurrence}</td>
+                            <td style='text-align:center;font-weight:bold;font-size:1.2em;'>{ThisRecord.Occurrences}×</td>
+                            <td>{ThisRecord.Screen}</td>
+                            <td>{ThisRecord.Kind}</td>
+                            <td>{ThisRecord.Source}</td>
+                            <td>{ThisRecord.Message}</td>
+                            <td style='font-size:0.9em;'>{ThisRecord.FirstOccurrence}</td>
+                            <td style='font-size:0.9em;'>{ThisRecord.LastOccurrence}</td>
                         </tr>"
                     ) & $"
                     <tr>
@@ -187,6 +241,62 @@ With(
     );
 );
 ```
+
+---
+
+## Diagnostic Logging
+
+The error handler includes `Trace()` statements that output to **Power Apps Monitor**. This helps you debug and verify the error handling flow.
+
+### How to View Diagnostic Logs
+
+1. Open your app in **Power Apps Studio**
+2. Click **Advanced tools** in the left panel (or press `Alt+T`)
+3. Select **Monitor** (opens in new tab)
+4. Click **Play** to run your app with monitoring enabled
+5. Trigger an error - you'll see trace entries in the Monitor
+
+### Trace Events
+
+| Event | Severity | What It Shows |
+|-------|----------|---------------|
+| `ErrorHandler: START` | Information | Incoming error count, existing signatures, screen, user |
+| `ErrorHandler: Processing Error` | Information | Each error's signature, whether it's new, kind, message |
+| `ErrorHandler: Pre-Email Check` | Information | Count before/after, new errors added, will send email flag |
+| `ErrorHandler: Sending Email` | Warning | Recipient, subject, unique error count, summary of all errors |
+
+### Example Monitor Output
+
+```
+[Information] ErrorHandler: START
+    IncomingErrorCount: 3
+    ExistingSignatureCount: 0
+    Screen: "HomeScreen"
+    User: "user@domain.com"
+
+[Information] ErrorHandler: Processing Error
+    Signature: "HomeScreen|Button1.OnSelect|Network error"
+    IsNew: true
+    Kind: "Network"
+    Message: "Network error"
+
+[Information] ErrorHandler: Pre-Email Check
+    CountBefore: 0
+    CountAfter: 1
+    NewErrorsAdded: 1
+    WillSendEmail: true
+    TotalOccurrences: 1
+
+[Warning] ErrorHandler: Sending Email
+    To: "admin@domain.com"
+    Subject: "Error(s) occurred in the My App application for John Doe"
+    UniqueErrorCount: 1
+    ErrorSummary: "HomeScreen: Network error (1×)"
+```
+
+### Disabling Diagnostic Logging
+
+To disable logging for production, remove or comment out the `Trace()` statements. They have minimal performance impact but may clutter your Monitor during normal debugging.
 
 ---
 
