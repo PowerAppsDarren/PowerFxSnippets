@@ -6,83 +6,79 @@
 
 ## Current State
 
-Major file standardization completed: 1,273 files/directories renamed to lowercase-with-dashes format. Error handler enhanced with diagnostic logging.
+Major repository reorganization completed. Files reorganized into semantic folder structure with proper hierarchy.
 
 **Branch:** `feature/error-handler-deduplication`
 
 ## What Was Accomplished This Session (2025-12-17)
 
-### 1. Error Handler Enhancements
-- Fixed multi-row email output with explicit `ThisRecord` references
-- Added 4 `Trace()` statements for Power Apps Monitor debugging
-- Added documentation section on using Monitor to view traces
+### 1. Major Repository Reorganization (228 files)
+- **app-formulas/** → **app-lifecycle/formulas/** with subcategories:
+  - `collections/` - Named formulas returning collections
+  - `expressions/` - Simple expressions and constants
+  - `user-defined-functions/` - UDFs
+  - `user-defined-types/` - Type definitions
 
-### 2. File Standardization (Phase 0 - PRIORITY 1)
-- **Renamed 1,168 files** to lowercase-with-dashes format
-- **Renamed 105 directories** to lowercase-with-dashes format
-- Created rename scripts in `utilities/tools/`:
-  - `rename-dryrun.py` - Preview what would be renamed
-  - `rename-execute.py` - Execute the renaming
-  - `rename-to-lowercase.py` - Interactive version
-- Preserved special files: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `CLAUDE.md`, `RESUME.md`
+- **Controls/** → **ui-controls/** (lowercase-dashes)
+- **Components/** → **ui-patterns/components/custom-components/**
+- **Color/** → **visual-assets/colors/** with `functions/`, `palettes/`, `utilities/`
+- **SVGs/** → **visual-assets/svgs/**
+- **data-sources/** → **data-operations/sources/**
+- **Connectors/**, **Flows/** → **integrations/**
+- **Learning/**, **best-practices/**, **certification-exams/** → **learning/**
+- **Algorithms/**, **Functions/** → **functions/**
 
-### 3. Documentation Standards (Started)
-- Added **Table of Contents** template to spec kit
-- Added **History Log** template to spec kit
-- Added TOC and history log to `errors/catch-all-errors.md` as example
+### 2. New Content Added
+- String manipulation snippets (`Functions/string-manipulation/`)
+- Data samples directory (`data-operations/samples/`)
+- Gallery subdirectories (`interactions/`, `layouts/`, `styling/`)
+- Utility tools (`utilities/tools/`)
 
-### 4. Spec Kit Updates
-- Added Phase 0 (File Standards) with 8 new tasks (T200-T207)
-- Completed 4/8 Phase 0 tasks
-- Updated progress: 39/141 tasks complete (27.7%)
+### 3. Git Remote Configuration
+- Added **origin**: git.superpowerlabs.app (Gitea)
+- Added **alt**: pool (Synology NAS)
+- Renamed GitHub remote to **github**
 
 ## Files Modified
 
-- `errors/catch-all-errors.md` - TOC, history log, diagnostic logging
-- `.specify/001-repository-restructure/tasks.md` - Phase 0 tasks added
-- `utilities/tools/` - New rename scripts
+- 228 files reorganized (renames, moves, new files)
+- `Errors/catch-all-errors.md` - Updated
+- New utility tools in `utilities/tools/`
 
-## Naming Convention (New Standard)
+## New Folder Structure
 
-**Files:**
-- All lowercase, dashes between words
-- `Color Enum in Named Formula.md` → `color-enum-in-named-formula.md`
-
-**Directories:**
-- All lowercase, dashes between words
-- `App.Formulas` → `app-formulas`
-- `Best Practices` → `best-practices`
+```
+PowerFxSnippets/
+├── app-lifecycle/          # App formulas, OnStart, OnError, etc.
+│   └── formulas/
+├── data-operations/        # Data sources and samples
+│   ├── samples/
+│   └── sources/
+├── functions/              # Algorithms, built-in, user-defined
+├── integrations/           # Connectors, Power Automate
+├── learning/               # Best practices, certification, tutorials
+├── ui-controls/            # Gallery, buttons, inputs, etc.
+├── ui-patterns/            # Components, dialogs, menus, theming
+├── utilities/              # Tools and scripts
+└── visual-assets/          # Colors, SVGs
+```
 
 ## Next Steps (Pick Up Here)
 
-1. **Complete TOC/History addition** (T204-T205):
-   - Create bulk script to add TOC and history log to remaining 176 files
-   - Use `errors/catch-all-errors.md` as template
-
-2. **Update internal links** (T202):
-   - Many markdown files have links to old paths
-   - Need script to update all internal links
-
-3. **Verify no broken links** (T203):
-   - Run link checker across all files
-
-4. **Merge to main** (when ready):
+1. **Complete migration** - Some files may still need moving
+2. **Update internal links** - Many markdown links point to old paths
+3. **Verify no broken links** - Run link checker
+4. **Merge to main** when ready:
    ```bash
    git checkout main
    git merge feature/error-handler-deduplication
-   git push origin main
+   git push --all
    ```
 
-## Project Progress (from SpecKit)
+## Git Remotes
 
-| Phase | Status | Tasks |
-|-------|--------|-------|
-| Phase 0 (File Standards) | 🔄 In Progress | 4/8 |
-| Phase 1 (Foundation) | ✅ Complete | 9/9 |
-| Phase 1 (Audit) | ✅ Complete | 17/17 |
-| Phase 2 (Migration) | 🔄 In Progress | 9/53 |
-| Phase 3 (Documentation) | ⏳ Not Started | 0/18 |
-| Phase 4 (Automation) | ⏳ Not Started | 0/15 |
-| Phase 5 (Cleanup) | ⏳ Not Started | 0/15 |
-| Phase 6 (Launch) | ⏳ Not Started | 0/11 |
-| **Overall** | **27.7%** | **39/141** |
+| Remote | URL |
+|--------|-----|
+| origin | ssh://git@git.superpowerlabs.app:2222/darren/PowerFxSnippets.git |
+| alt | ssh://git@pool:2222/darren/PowerFxSnippets.git |
+| github | git@github.com:PowerAppsDarren/PowerFxSnippets.git |
