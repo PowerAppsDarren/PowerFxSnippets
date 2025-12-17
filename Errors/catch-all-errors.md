@@ -3,20 +3,30 @@
 If you'd like to literally catch all errors in your canvas Power Apps, simply copy and paste the code shown below.
 
 Related content: https://youtu.be/8qcPq4peows
+![thumbnail](catch-all-errrors-thumbnail.png)
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Documentation Links](#documentation-links)
-- [How It Works: Signature-Based Deduplication](#how-it-works-signature-based-deduplication)
-- [Step 1: Add Named Formulas to App.Formulas](#step-1-add-named-formulas-to-appformulas)
-- [Step 2: Add Error Handler to App.OnError](#step-2-add-error-handler-to-apponerror)
-- [Diagnostic Logging](#diagnostic-logging)
-- [Collection Schema: colErrorSignatures](#collection-schema-colerrorsignatures)
-- [Optional: View Error Collection in App](#optional-view-error-collection-in-app)
-- [Optional: Clear Errors on App Start](#optional-clear-errors-on-app-start)
-- [Optional: Persist Errors to a Data Source](#optional-persist-errors-to-a-data-source)
-- [History](#history)
+- [Catching All Errors](#catching-all-errors)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Documentation Links](#documentation-links)
+  - [How It Works: Signature-Based Deduplication](#how-it-works-signature-based-deduplication)
+    - [The Approach](#the-approach)
+  - [Step 1: Add Named Formulas to `App.Formulas`](#step-1-add-named-formulas-to-appformulas)
+  - [Step 2: Add Error Handler to `App.OnError`](#step-2-add-error-handler-to-apponerror)
+  - [Diagnostic Logging](#diagnostic-logging)
+    - [How to View Diagnostic Logs](#how-to-view-diagnostic-logs)
+    - [Trace Events](#trace-events)
+    - [Example Monitor Output](#example-monitor-output)
+    - [Disabling Diagnostic Logging](#disabling-diagnostic-logging)
+  - [Collection Schema: `colErrorSignatures`](#collection-schema-colerrorsignatures)
+  - [Optional: View Error Collection in App](#optional-view-error-collection-in-app)
+  - [Optional: Clear Errors on App Start](#optional-clear-errors-on-app-start)
+  - [Optional: Persist Errors to a Data Source](#optional-persist-errors-to-a-data-source)
+    - [Step 1: Create a Data Source](#step-1-create-a-data-source)
+    - [Step 2: Persist on App Close](#step-2-persist-on-app-close)
+  - [History](#history)
 
 ---
 

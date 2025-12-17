@@ -1,0 +1,36 @@
+# ---
+# title: "Menu Items Collection"
+# description: "A template collection for building custom navigation menus with role-based visibility."
+# category: "app-lifecycle"
+# subcategory: "formulas"
+# tags:
+#   - menu
+#   - navigation
+#   - collection
+#   - roles
+# difficulty: beginner
+# products:
+#   - power-apps-canvas
+# author: "Darren Neese"
+# created: 2024-01-01
+# updated: 2024-01-01
+# ---
+
+fxMenuItems = [
+    {
+        ScreenToGoTo: App.ActiveScreen,
+        MenuText: Substitute(
+            Upper(App.ActiveScreen.Name), 
+            " SCREEN", 
+            ""
+        ),
+        ParentScreenName: "",
+        ImageOrIcon: "Icon",
+        MenuImage: SampleImage,
+        MenuIcon: Icon.Home,
+        ShowForThisRole: "User;",
+        Visible: true,
+        LaunchLink: false,
+        LaunchURL: ""
+    }
+];

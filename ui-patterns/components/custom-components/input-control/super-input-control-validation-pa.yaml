@@ -1,0 +1,568 @@
+ComponentDefinitions:
+  cmp_Input:
+    DefinitionType: CanvasComponent
+    Description: Input control for single line text, multiline text, dropdown and date with validation
+    CustomProperties:
+      BorderColor:
+        PropertyKind: Input
+        DisplayName: Border Color
+        Description: A custom property
+        DataType: Color
+        Default: =ColorValue("#30006F")
+      BorderColorRequired:
+        PropertyKind: Input
+        DisplayName: Border Color Required
+        Description: A custom property
+        DataType: Color
+        Default: =ColorValue("#EC008C")
+      BorderRadius:
+        PropertyKind: Input
+        DisplayName: Border Radius
+        Description: A custom property
+        DataType: Number
+        Default: =8
+      BorderWidth:
+        PropertyKind: Input
+        DisplayName: Border Width
+        Description: A custom property
+        DataType: Number
+        Default: =1
+      DateDefault:
+        PropertyKind: Input
+        DisplayName: Date Default
+        Description: Default date value for date picker
+        DataType: Date
+        Default: =Today()
+      DisplayMode:
+        PropertyKind: Input
+        DisplayName: Display Mode
+        Description: Edit, View, Disabled
+        DataType: Text
+        Default: ="Edit"
+      DropShadow:
+        PropertyKind: Input
+        DisplayName: Drop Shadow
+        Description: A custom property
+        DataType: Boolean
+        Default: =true
+      DropdownDefault:
+        PropertyKind: Input
+        DisplayName: Dropdown Default
+        Description: A custom property
+        DataType: Text
+        Default: ="Red"
+      DropdownItems:
+        PropertyKind: Input
+        DisplayName: Dropdown Items
+        Description: A custom property
+        DataType: Table
+        Default: =["", "Red", "Green", "Blue"]
+      DropdownSelectionColor:
+        PropertyKind: Input
+        DisplayName: Dropdown Selection Color
+        Description: A custom property
+        DataType: Color
+        Default: =Color.White
+      FieldName:
+        PropertyKind: Input
+        DisplayName: Field Name
+        Description: Text of the field name header
+        DataType: Text
+        Default: ="Field Name"
+      FieldNameColor:
+        PropertyKind: Input
+        DisplayName: Field Name Color
+        Description: A custom property
+        DataType: Color
+        Default: =cmp_Input.IconColor
+      FieldNameFontSize:
+        PropertyKind: Input
+        DisplayName: Field Name Font Size
+        Description: A custom property
+        DataType: Number
+        Default: =11
+      FieldNameHeight:
+        PropertyKind: Input
+        DisplayName: Field Name Height
+        Description: Height of Field Name label
+        DataType: Number
+        Default: =28
+      FillColor:
+        PropertyKind: Input
+        DisplayName: Fill Color
+        Description: A custom property
+        DataType: Color
+        Default: =Color.White
+      Font:
+        PropertyKind: Input
+        DisplayName: Font
+        Description: A custom property
+        DataType: Text
+        Default: ="Montserrat"
+      HintText:
+        PropertyKind: Input
+        DisplayName: Hint Text
+        Description: A custom property
+        DataType: Text
+        Default: =""
+      HoverFillColor:
+        PropertyKind: Input
+        DisplayName: Hover Fill Color
+        Description: A custom property
+        DataType: Color
+        Default: =ColorFade(cmp_Input.IconHoverColor, .95)
+      IconBackgroundColor:
+        PropertyKind: Input
+        DisplayName: Icon Background Color
+        Description: A custom property
+        DataType: Color
+        Default: =Color.White
+      IconColor:
+        PropertyKind: Input
+        DisplayName: Icon Color
+        Description: A custom property
+        DataType: Color
+        Default: =ColorValue("#30006F")
+      IconHoverColor:
+        PropertyKind: Input
+        DisplayName: Icon Hover Color
+        Description: A custom property
+        DataType: Color
+        Default: =ColorValue("#EC008C")
+      InputColor:
+        PropertyKind: Input
+        DisplayName: Input Color
+        Description: A custom property
+        DataType: Color
+        Default: =RGBA(0, 0, 0, 1)
+      InputFontSize:
+        PropertyKind: Input
+        DisplayName: Input Font Size
+        Description: A custom property
+        DataType: Number
+        Default: =13
+      InputType:
+        PropertyKind: Input
+        DisplayName: Input Type
+        Description: "Single line text: txt; Multi-line text: txtx; Dropdown: drp; Datepicker: dte"
+        DataType: Text
+        Default: ="txt"
+      IsValid:
+        PropertyKind: Output
+        DisplayName: IsValid
+        Description: Returns false when Required=true and value is blank, or when MinLength/MaxLength constraints are violated
+        DataType: Boolean
+      MaxLength:
+        PropertyKind: Input
+        DisplayName: Max Length
+        Description: Maximum character length for text inputs (0 = no limit)
+        DataType: Number
+        Default: =0
+      MinLength:
+        PropertyKind: Input
+        DisplayName: Min Length
+        Description: Minimum character length for text inputs
+        DataType: Number
+        Default: =0
+      OnChange:
+        PropertyKind: Event
+        DisplayName: OnChange
+        Description: A custom property
+        ReturnType: Text
+        Default: ="Text"
+      Required:
+        PropertyKind: Input
+        DisplayName: Required
+        Description: A custom property
+        DataType: Boolean
+        Default: =true
+      Reset:
+        PropertyKind: Input
+        DisplayName: Reset
+        Description: A custom property
+        DataType: Boolean
+        Default: =false
+      SpellCheck:
+        PropertyKind: Input
+        DisplayName: Spell Check
+        Description: A custom property
+        DataType: Boolean
+        Default: =true
+      TextFieldDefault:
+        PropertyKind: Input
+        DisplayName: Text Field Default
+        Description: A custom property
+        DataType: Text
+        Default: =""
+      Tooltip:
+        PropertyKind: Input
+        DisplayName: Tooltip
+        Description: A custom property
+        DataType: Text
+        Default: =""
+      ValidationMessage:
+        PropertyKind: Output
+        DisplayName: ValidationMessage
+        Description: Returns validation error message when invalid, empty string when valid
+        DataType: Text
+      aValue:
+        PropertyKind: Output
+        DisplayName: aValue
+        Description: A custom property
+        DataType: Text
+    Properties:
+      Height: =70
+      Width: =300
+      aValue: |-
+        =Switch(
+            cmp_Input.InputType,
+            "txt",
+            txt_Input.Text,
+            "txtx",
+            txtx_Input.Text,
+            "drp",
+            drp_Input.SelectedText.Value,
+            "dte",
+            dte_Input.SelectedDate
+        )
+      IsValid: |-
+        =With(
+            {
+                currentValue: Switch(
+                    cmp_Input.InputType,
+                    "txt",
+                    txt_Input.Text,
+                    "txtx",
+                    txtx_Input.Text,
+                    "drp",
+                    drp_Input.SelectedText.Value,
+                    "dte",
+                    Text(dte_Input.SelectedDate)
+                ),
+                currentLength: Switch(
+                    cmp_Input.InputType,
+                    "txt",
+                    Len(txt_Input.Text),
+                    "txtx",
+                    Len(txtx_Input.Text),
+                    0
+                )
+            },
+            //--- Check if required field is blank
+            If(
+                cmp_Input.Required && IsBlank(currentValue),
+                false,
+                //--- Check MinLength constraint for text inputs
+                If(
+                    (cmp_Input.InputType = "txt" || cmp_Input.InputType = "txtx") && cmp_Input.MinLength > 0 && !IsBlank(currentValue) && currentLength < cmp_Input.MinLength,
+                    false,
+                    //--- Check MaxLength constraint for text inputs
+                    If(
+                        (cmp_Input.InputType = "txt" || cmp_Input.InputType = "txtx") && cmp_Input.MaxLength > 0 && currentLength > cmp_Input.MaxLength,
+                        false,
+                        true
+                    )
+                )
+            )
+        )
+      ValidationMessage: |-
+        =With(
+            {
+                currentValue: Switch(
+                    cmp_Input.InputType,
+                    "txt",
+                    txt_Input.Text,
+                    "txtx",
+                    txtx_Input.Text,
+                    "drp",
+                    drp_Input.SelectedText.Value,
+                    "dte",
+                    Text(dte_Input.SelectedDate)
+                ),
+                currentLength: Switch(
+                    cmp_Input.InputType,
+                    "txt",
+                    Len(txt_Input.Text),
+                    "txtx",
+                    Len(txtx_Input.Text),
+                    0
+                )
+            },
+            //--- Check if required field is blank
+            If(
+                cmp_Input.Required && IsBlank(currentValue),
+                "This field is required",
+                //--- Check MinLength constraint for text inputs
+                If(
+                    (cmp_Input.InputType = "txt" || cmp_Input.InputType = "txtx") && cmp_Input.MinLength > 0 && !IsBlank(currentValue) && currentLength < cmp_Input.MinLength,
+                    "Minimum " & cmp_Input.MinLength & " characters required",
+                    //--- Check MaxLength constraint for text inputs
+                    If(
+                        (cmp_Input.InputType = "txt" || cmp_Input.InputType = "txtx") && cmp_Input.MaxLength > 0 && currentLength > cmp_Input.MaxLength,
+                        "Maximum " & cmp_Input.MaxLength & " characters exceeded",
+                        ""
+                    )
+                )
+            )
+        )
+    Children:
+      - ctr_Input:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            BorderColor: |-
+              =//--- SINGLE LINE TEXT INPUT
+              If(
+                  cmp_Input.Required && cmp_Input.InputType = "txt" && IsBlank(txt_Input.Text),
+                  cmp_Input.BorderColorRequired,
+
+                  //--- MULTILINE TEXT INPUT
+                  If(
+                      cmp_Input.Required && cmp_Input.InputType = "txtx" && IsBlank(txtx_Input.Text),
+                      cmp_Input.BorderColorRequired,
+
+                      //--- DROPDOWN INPUT
+                      If(
+                          cmp_Input.Required && cmp_Input.InputType = "drp" && IsBlank(drp_Input.SelectedText.Value),
+                          cmp_Input.BorderColorRequired,
+
+                          //--- DATE INPUT
+                          If(
+                              cmp_Input.Required && cmp_Input.InputType = "dte" && IsBlank(dte_Input.SelectedDate),
+                              cmp_Input.BorderColorRequired,
+                              cmp_Input.BorderColor
+                          )
+                      )
+                  )
+              )
+            BorderThickness: =cmp_Input.BorderWidth
+            DropShadow: |-
+              =If(
+                  cmp_Input.DropShadow,
+                  DropShadow.Semilight,
+                  DropShadow.None
+              )
+            Height: =Parent.Height - cmp_Input.FieldNameHeight - 5
+            RadiusBottomLeft: =cmp_Input.BorderRadius
+            RadiusBottomRight: =cmp_Input.BorderRadius
+            RadiusTopLeft: =cmp_Input.BorderRadius
+            RadiusTopRight: =cmp_Input.BorderRadius
+            Width: =Parent.Width - 10
+            X: =5
+            Y: =lbl_FieldName.Height
+          Children:
+            - dte_Input:
+                Control: Classic/DatePicker@2.6.0
+                Properties:
+                  AccessibleLabel: ="Date selector to " & Self.Tooltip
+                  BorderColor: =cmp_Input.BorderColor
+                  BorderStyle: =BorderStyle.None
+                  BorderThickness: =0
+                  Color: =cmp_Input.InputColor
+                  DefaultDate: =cmp_Input.DateDefault
+                  DisplayMode: |-
+                    =Switch(
+                        cmp_Input.DisplayMode,
+                        "Edit",
+                        DisplayMode.Edit,
+                        "View",
+                        DisplayMode.View,
+                        "Disabled",
+                        DisplayMode.Disabled
+                    )
+                  Fill: =cmp_Input.FillColor
+                  FocusedBorderThickness: =1
+                  Font: =cmp_Input.Font
+                  Height: =Parent.Height
+                  IconBackground: =Color.White
+                  IconFill: =cmp_Input.IconColor
+                  InputTextPlaceholder: =""
+                  IsEditable: =true
+                  PaddingLeft: =10
+                  PaddingTop: =5
+                  Reset: =cmp_Input.Reset
+                  Size: =cmp_Input.InputFontSize
+                  StartOfWeek: =StartOfWeek.Monday
+                  Tooltip: =cmp_Input.Tooltip
+                  Visible: =cmp_Input.InputType = "dte"
+                  Width: =Parent.Width
+                  X: =Parent.Width - Parent.Width
+                  Y: =Parent.Width - Parent.Width
+            - drp_Input:
+                Control: Classic/DropDown@2.3.1
+                Properties:
+                  AccessibleLabel: ="Drop down to " & Self.Tooltip
+                  AllowEmptySelection: =true
+                  BorderColor: =cmp_Input.BorderColor
+                  BorderThickness: =cmp_Input.BorderWidth
+                  ChevronBackground: =cmp_Input.IconBackgroundColor
+                  ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                  ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                  ChevronFill: =cmp_Input.IconColor
+                  ChevronHoverBackground: =cmp_Input.HoverFillColor
+                  ChevronHoverFill: =cmp_Input.IconHoverColor
+                  Color: =cmp_Input.InputColor
+                  Default: =cmp_Input.DropdownDefault
+                  DisplayMode: |-
+                    =Switch(
+                        cmp_Input.DisplayMode,
+                        "Edit",
+                        DisplayMode.Edit,
+                        "View",
+                        DisplayMode.View,
+                        "Disabled",
+                        DisplayMode.Disabled
+                    )
+                  Fill: =cmp_Input.FillColor
+                  FocusedBorderThickness: =1
+                  Font: =cmp_Input.Font
+                  Height: =Parent.Height
+                  HoverBorderColor: =Self.BorderColor
+                  HoverColor: =Self.Color
+                  HoverFill: =cmp_Input.HoverFillColor
+                  Items: =cmp_Input.DropdownItems
+                  Items.Value: =Value
+                  OnChange: =cmp_Input.OnChange()
+                  PaddingBottom: =5
+                  PaddingTop: =5
+                  PressedColor: =Self.HoverColor
+                  PressedFill: =Self.HoverFill
+                  Reset: =cmp_Input.Reset
+                  SelectionColor: =cmp_Input.DropdownSelectionColor
+                  SelectionFill: =cmp_Input.IconColor
+                  Size: =cmp_Input.InputFontSize
+                  Tooltip: =cmp_Input.Tooltip
+                  Visible: =cmp_Input.InputType = "drp"
+                  Width: =Parent.Width
+                  X: =Parent.Width - Parent.Width
+                  Y: =Parent.Width - Parent.Width
+            - txt_Input:
+                Control: Classic/TextInput@2.3.2
+                Properties:
+                  BorderStyle: =BorderStyle.None
+                  BorderThickness: =0
+                  Color: =cmp_Input.InputColor
+                  Default: =cmp_Input.TextFieldDefault
+                  DisplayMode: |-
+                    =Switch(
+                        cmp_Input.DisplayMode,
+                        "Edit",
+                        DisplayMode.Edit,
+                        "View",
+                        DisplayMode.View,
+                        "Disabled",
+                        DisplayMode.Disabled
+                    )
+                  EnableSpellCheck: =cmp_Input.SpellCheck
+                  Fill: =cmp_Input.FillColor
+                  Font: =cmp_Input.Font
+                  Height: =Parent.Height
+                  HintText: =cmp_Input.HintText
+                  HoverColor: =cmp_Input.InputColor
+                  HoverFill: =cmp_Input.HoverFillColor
+                  PaddingLeft: =10
+                  PressedFill: =Self.HoverFill
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                  Reset: =cmp_Input.Reset
+                  Size: =cmp_Input.InputFontSize
+                  Tooltip: =cmp_Input.Tooltip
+                  Visible: =cmp_Input.InputType = "txt"
+                  Width: =Parent.Width
+                  X: =Parent.Width - Parent.Width
+                  Y: =Parent.Width - Parent.Width
+            - txtx_Input:
+                Control: Classic/TextInput@2.3.2
+                Properties:
+                  BorderStyle: =BorderStyle.None
+                  BorderThickness: =0
+                  Color: =cmp_Input.InputColor
+                  Default: =cmp_Input.TextFieldDefault
+                  DisplayMode: |-
+                    =Switch(
+                        cmp_Input.DisplayMode,
+                        "Edit",
+                        DisplayMode.Edit,
+                        "View",
+                        DisplayMode.View,
+                        "Disabled",
+                        DisplayMode.Disabled
+                    )
+                  EnableSpellCheck: =cmp_Input.SpellCheck
+                  Fill: =cmp_Input.FillColor
+                  Font: =cmp_Input.Font
+                  Height: =Parent.Height
+                  HintText: =cmp_Input.HintText
+                  HoverColor: =cmp_Input.InputColor
+                  HoverFill: =cmp_Input.HoverFillColor
+                  Mode: =TextMode.MultiLine
+                  PaddingLeft: =10
+                  PressedFill: =Self.HoverFill
+                  RadiusBottomLeft: =0
+                  RadiusBottomRight: =0
+                  RadiusTopLeft: =0
+                  RadiusTopRight: =0
+                  Reset: =cmp_Input.Reset
+                  Size: =cmp_Input.InputFontSize
+                  Tooltip: =cmp_Input.Tooltip
+                  Visible: =cmp_Input.InputType = "txtx"
+                  Width: =Parent.Width
+                  X: =Parent.Width - Parent.Width
+                  Y: =Parent.Width - Parent.Width
+      - lbl_FieldName:
+          Control: Label@2.5.1
+          Properties:
+            Color: =cmp_Input.FieldNameColor
+            Font: =cmp_Input.Font
+            FontWeight: =FontWeight.Semibold
+            Height: =cmp_Input.FieldNameHeight
+            PaddingBottom: =2
+            PaddingLeft: =16
+            PaddingTop: =8
+            Size: =cmp_Input.FieldNameFontSize
+            Text: =cmp_Input.FieldName
+            VerticalAlign: =VerticalAlign.Bottom
+            Width: =Parent.Width
+      - lbl_CharCount:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Right
+            Color: |-
+              =If(
+                  !cmp_Input.IsValid,
+                  cmp_Input.BorderColorRequired,
+                  RGBA(100, 100, 100, 1)
+              )
+            Font: =cmp_Input.Font
+            FontWeight: =FontWeight.Normal
+            Height: =18
+            PaddingRight: =16
+            Size: =9
+            Text: |-
+              =With(
+                  {
+                      currentLength: Switch(
+                          cmp_Input.InputType,
+                          "txt",
+                          Len(txt_Input.Text),
+                          "txtx",
+                          Len(txtx_Input.Text),
+                          0
+                      )
+                  },
+                  If(
+                      cmp_Input.MaxLength > 0,
+                      currentLength & "/" & cmp_Input.MaxLength & " characters",
+                      ""
+                  )
+              )
+            Visible: |-
+              =And(
+                  Or(cmp_Input.InputType = "txt", cmp_Input.InputType = "txtx"),
+                  cmp_Input.MaxLength > 0
+              )
+            Width: =Parent.Width
+            X: =0
+            Y: =Parent.Height - Self.Height - 2

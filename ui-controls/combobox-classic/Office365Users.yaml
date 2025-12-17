@@ -1,0 +1,21 @@
+- cmbPeoplePicker:
+    Control: Classic/ComboBox
+    Properties:
+      DefaultSelectedItems: |-
+        =Office365Users.SearchUser(
+            {
+                searchTerm: User().FullName,
+                top: 1
+            }
+        )
+      DisplayFields: =["DisplayName","JobTitle"]
+      Items: |-
+        =Office365Users.SearchUser(
+            {
+                searchTerm: Self.SearchText,
+                top: 20
+            }
+        )
+      SearchFields: =["DisplayName"]
+      SelectMultiple: =false
+      Width: =300

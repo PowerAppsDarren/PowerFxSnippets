@@ -1,0 +1,69 @@
+# ---
+# title: "Root SharePoint URL Expression"
+# description: "Expression to extract the root SharePoint URL from the current user's profile."
+# category: "app-lifecycle"
+# subcategory: "formulas"
+# tags:
+#   - sharepoint
+#   - url
+#   - expression
+#   - office365
+# difficulty: intermediate
+# products:
+#   - power-apps-canvas
+# author: "Darren Neese"
+# created: 2024-01-01
+# updated: 2024-01-01
+# ---
+
+- lblRootSharePointURL:
+    Control: Label
+    Properties:
+      OnSelect: =Launch(Self.Text)
+      Text: |+
+        =/*  ===========================================================================
+            Paste this YAML code anywhere - it creates a label that shows the URL to 
+                the root SharePoint site in your current tenant. 
+            ===========================================================================
+            Suggestion: Add it to your App.Formulas
+            fxRootSharePointURL = Concatenate(
+                "https://",First(Split(First(Split(First(Split(Substitute(Office365Users.MyProfileV2().mySite,"https://",""),"/")).Value,".")).Value,"-")).Value,".sharepoint.com/"
+            );
+            ======================================================================== */
+        Concatenate(
+            "https://",
+            First(
+                Split(
+                    First(
+                        Split(
+                            First(
+                                Split(
+                                    Substitute(
+                                        Office365Users.MyProfileV2().mySite,
+                                        "https://",
+                                        ""
+                                    ),
+                                    "/"
+                                )
+                            ).Value,
+                            "."
+                        )
+                    ).Value,
+                    "-"
+                )
+            ).Value,
+            ".sharepoint.com/"
+        )
+
+      Align: =Align.Center
+      BorderColor: =App.Theme.Colors.Darker10
+      BorderThickness: =3
+      Fill: =App.Theme.Colors.Lighter80
+      Font: =Font.'Courier New'
+      FontWeight: =FontWeight.Semibold
+      PaddingLeft: =15
+      Size: =15
+      Underline: =true
+      Width: =Len(Self.Text) * 14
+      X: =604
+      Y: =376
