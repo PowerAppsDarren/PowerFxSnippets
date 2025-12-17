@@ -85,6 +85,143 @@ fxEmailColors = {
 
 ---
 
+## Customizing the Email Design
+
+The error emails use a modern, professional template with color-coded badges and a card layout. You can customize the colors to match your brand using either method below.
+
+### Option A: Use the Visual Preview Tool (Recommended)
+
+An interactive HTML preview file is included so you can see and customize the email design in your browser:
+
+1. **Open the preview:** Open [`email-template-preview.html`](email-template-preview.html) in any web browser
+2. **See sample data:** The preview shows 3 example errors so you can see how real emails will look
+3. **Pick your colors:** Use the color picker panel (top-right corner) to adjust:
+   - Header background color
+   - Count badge colors
+   - Button/link color
+   - Screen and Kind badge colors
+4. **Export to PowerFx:** Click **"📋 Copy PowerFx Colors"** to copy the `fxEmailColors` code
+5. **Paste in your app:** Replace the `fxEmailColors` record in your `App.Formulas`
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  email-template-preview.html                                │
+│  ┌─────────────────────────────────────┐  ┌──────────────┐  │
+│  │                                     │  │ 🎨 Colors    │  │
+│  │   ⚠️ Error Alert                    │  │ [■] Header   │  │
+│  │   ┌─────────────────────────────┐   │  │ [■] Badge    │  │
+│  │   │ John Doe    [3 errors]      │   │  │ [■] Button   │  │
+│  │   │ ─────────────────────────── │   │  │              │  │
+│  │   │ 47× │ HomeScreen │ Network  │   │  │ [Copy Code]  │  │
+│  │   │ 12× │ Detail     │ Sync     │   │  └──────────────┘  │
+│  │   └─────────────────────────────┘   │                    │
+│  └─────────────────────────────────────┘                    │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Option B: Edit Colors Directly in PowerFx
+
+If you already know your brand colors, edit the `fxEmailColors` record directly:
+
+| Property | What It Controls | Default |
+|----------|------------------|---------|
+| `HeaderBg` | Top banner background | `#dc2626` (red) |
+| `HeaderText` | Banner text color | `#ffffff` (white) |
+| `CountBadgeBg` | Error count badge background | `#fef2f2` (light red) |
+| `CountBadgeText` | Error count badge text | `#dc2626` (red) |
+| `LinkColor` | "Open App" button | `#2563eb` (blue) |
+| `CardBg` | Main card background | `#ffffff` (white) |
+| `TableHeaderBg` | Table header row | `#f9fafb` (light gray) |
+| `FooterBg` | Summary footer | `#f3f4f6` (light gray) |
+
+### Color Theme Examples
+
+<details>
+<summary>🔵 Blue Theme (Corporate)</summary>
+
+```PowerFx
+fxEmailColors = {
+    HeaderBg:       "#1e40af",      // Blue banner
+    HeaderText:     "#ffffff",
+    CardBg:         "#ffffff",
+    CardBorder:     "#e5e7eb",
+    TableHeaderBg:  "#eff6ff",      // Light blue
+    TableHeaderText:"#1e40af",
+    TableBorder:    "#bfdbfe",
+    CountBadgeBg:   "#dbeafe",      // Light blue badge
+    CountBadgeText: "#1e40af",
+    FooterBg:       "#f0f9ff",
+    FooterText:     "#6b7280",
+    LinkColor:      "#1e40af"
+};
+```
+</details>
+
+<details>
+<summary>🟢 Green Theme (Success-focused)</summary>
+
+```PowerFx
+fxEmailColors = {
+    HeaderBg:       "#059669",      // Green banner
+    HeaderText:     "#ffffff",
+    CardBg:         "#ffffff",
+    CardBorder:     "#e5e7eb",
+    TableHeaderBg:  "#ecfdf5",      // Light green
+    TableHeaderText:"#065f46",
+    TableBorder:    "#a7f3d0",
+    CountBadgeBg:   "#d1fae5",      // Light green badge
+    CountBadgeText: "#059669",
+    FooterBg:       "#f0fdf4",
+    FooterText:     "#6b7280",
+    LinkColor:      "#059669"
+};
+```
+</details>
+
+<details>
+<summary>🟣 Purple Theme (Modern)</summary>
+
+```PowerFx
+fxEmailColors = {
+    HeaderBg:       "#7c3aed",      // Purple banner
+    HeaderText:     "#ffffff",
+    CardBg:         "#ffffff",
+    CardBorder:     "#e5e7eb",
+    TableHeaderBg:  "#f5f3ff",      // Light purple
+    TableHeaderText:"#5b21b6",
+    TableBorder:    "#c4b5fd",
+    CountBadgeBg:   "#ede9fe",      // Light purple badge
+    CountBadgeText: "#7c3aed",
+    FooterBg:       "#faf5ff",
+    FooterText:     "#6b7280",
+    LinkColor:      "#7c3aed"
+};
+```
+</details>
+
+<details>
+<summary>⬛ Dark Theme</summary>
+
+```PowerFx
+fxEmailColors = {
+    HeaderBg:       "#1f2937",      // Dark gray banner
+    HeaderText:     "#f9fafb",
+    CardBg:         "#ffffff",
+    CardBorder:     "#e5e7eb",
+    TableHeaderBg:  "#f3f4f6",
+    TableHeaderText:"#1f2937",
+    TableBorder:    "#d1d5db",
+    CountBadgeBg:   "#374151",      // Dark badge
+    CountBadgeText: "#f9fafb",
+    FooterBg:       "#f9fafb",
+    FooterText:     "#6b7280",
+    LinkColor:      "#1f2937"
+};
+```
+</details>
+
+---
+
 ## Step 2: Add Error Handler
 
 Copy to **App.OnError** — no modifications needed:
@@ -492,6 +629,7 @@ Clear(colErrorSignatures);
 
 | Date | Author | Changes |
 |------|--------|---------|
+| 2025-12-17 | Claude Opus 4.5 | Added "Customizing the Email Design" section with visual preview instructions and 4 theme examples |
 | 2025-12-17 | Claude Opus 4.5 | Redesigned email template with modern styling: header banner, color-coded badges, card layout |
 | 2025-12-17 | Claude Opus 4.5 | Added `fxEmailColors` record for customizable email theming |
 | 2025-12-17 | Claude Opus 4.5 | Created `email-template-preview.html` for live preview and color customization |
