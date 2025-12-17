@@ -1,7 +1,7 @@
 # RESUME.md - Project State
 
 ## Last Session
-- **Date:** 2025-12-17 (evening)
+- **Date:** 2025-12-17 (late evening)
 - **Model:** Claude Opus 4.5
 
 ## Current State
@@ -10,7 +10,17 @@ Repository reorganization continues. Documentation improvements in progress.
 
 **Branch:** `feature/error-handler-deduplication`
 
-## What Was Accomplished This Session (2025-12-17 evening)
+## What Was Accomplished This Session (2025-12-17 late evening)
+
+### .gitignore Update
+- Updated root-level dot-folder ignore rules
+- Kept only `.vscode/` as exception (contains PowerApps purple theme)
+- Removed exceptions for `.github/` and `.specify/`
+- File-level exceptions (`.gitignore`, `.gitattributes`) remain
+
+---
+
+## Previous Session (2025-12-17 evening)
 
 ### Documentation Improvements
 1. **Rewrote `Errors/catch-all-errors.md`** for better readability:
