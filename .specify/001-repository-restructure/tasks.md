@@ -24,8 +24,10 @@
 
 - [x] T200 [P0] Rename all markdown files to lowercase-with-dashes format (1168 files) ✅ DONE 2025-12-17
 - [x] T201 [P0] Rename all directories to lowercase-with-dashes format (105 dirs) ✅ DONE 2025-12-17
-- [ ] T202 [P0] Update all internal links after renaming
-- [ ] T203 [P0] Verify no broken links after renaming
+- [x] T208 [P0] Major repository reorganization - semantic folder structure (228 files) ✅ DONE 2025-12-17
+- [ ] T202 [P0] Update all internal links after renaming ⚠️ CRITICAL - many links now point to old paths
+- [ ] T203 [P0] Verify no broken links after renaming (run link checker)
+- [ ] T209 [P0] Merge feature/error-handler-deduplication → main (after T202, T203 complete)
 
 ### Documentation Standards
 
@@ -367,8 +369,8 @@
 
 ## Summary Statistics
 
-**Total Tasks**: 141 (added Phase 0 file standards)
-- **Phase 0** (File Standards): 8 tasks 🔴 PRIORITY 1
+**Total Tasks**: 143 (added Phase 0 file standards + reorganization)
+- **Phase 0** (File Standards): 10 tasks 🔴 PRIORITY 1 (5 complete, 5 remaining)
 - **Phase 1** (Foundation): 9 tasks ✅ COMPLETE
 - **Phase 1** (Audit): 17 tasks ✅ COMPLETE
 - **Phase 2** (Migration): 53 tasks (9 complete/skipped, 44 remaining)
@@ -379,8 +381,8 @@
 
 **Parallelizable Tasks**: ~47 tasks marked with [P]
 
-**Current Progress**: 39/141 tasks complete (27.7%)
-- Phase 0 File Standards: 4/8 🔄 IN PROGRESS (T200-T201, T206-T207 complete)
+**Current Progress**: 40/143 tasks complete (28.0%)
+- Phase 0 File Standards: 5/10 🔄 IN PROGRESS (T200-T201, T206-T208 complete; T202-T203, T209 remaining)
 - Phase 1 Foundation: 9/9 ✅
 - Phase 1 Audit: 17/17 ✅
 - Phase 2 Migration: 9/53 (T063-T071)
@@ -405,11 +407,16 @@ The following tasks are blocking and must be completed sequentially:
 
 ## Next Actions
 
-**Immediate (Week 2):**
-1. Create validation utilities (T010-T013)
-2. Begin App.Formulas migration (T014-T021)
-3. Begin Gallery migration (T022-T029)
-4. Begin high-priority content migration (T063-T070)
+**Immediate (PRIORITY):**
+1. ⚠️ Update all internal markdown links to new paths (T202)
+2. ⚠️ Run link checker to verify no broken links (T203)
+3. Merge feature/error-handler-deduplication → main (T209)
+
+**Then Continue With:**
+4. Create validation utilities (T010-T013)
+5. Begin App.Formulas migration (T014-T021)
+6. Begin Gallery migration (T022-T029)
+7. Begin high-priority content migration (T063-T070)
 
 **Short-term (Week 2-3):**
 5. Complete all priority category migrations
