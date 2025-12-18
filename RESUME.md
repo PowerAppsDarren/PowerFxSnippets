@@ -1,71 +1,61 @@
 # RESUME.md - Project State
 
 ## Last Session
-- **Date:** 2025-12-17 (night)
+- **Date:** 2025-12-17 (late night)
 - **Model:** Claude Opus 4.5
 
 ## Current State
 
-Repository reorganization Phase 2 complete. Gallery and color migrations finished. Now on `main` branch.
+Validator fixed, folder casing corrected. All 3 remotes in sync. GitHub Actions should now pass.
 
-**Branch:** `main` (feature branch merged)
+**Branch:** `main`
 
-## What Was Accomplished This Session (2025-12-17 night)
+## What Was Accomplished This Session (2025-12-17 late night)
 
-### 1. Recovered Lost Session Work
-- Imported JSONL conversation export from crashed session
-- Parsed into proper ai-chats format: `2025-12-17-01-spec-kit-task-review/`
-- Created 12 files (--00 summary + 11 exchanges)
+### 1. Fixed Snippet Validator (GitHub Actions Failure)
+- **Problem:** 127 files failing validation with "Missing YAML front matter"
+- **Root Cause:** Validator was scanning documentation directories (ai-chats, ai-protocols, etc.) that aren't code snippets
+- **Solution:** Added exclusion lists to `tools/validate-snippets.js`:
+  - 44 excluded directories (ai-chats, ai-protocols, docs, utilities, fonts, icons, etc.)
+  - 12 excluded file patterns (readme.md, index.md, changelog.md, etc.)
+- **Result:** 199 files → 62 actual snippets validated, all passing ✅
 
-### 2. Completed Gallery Migration (T022-T029)
-- **Layouts converted:** 9 YAML files → markdown in `layouts/`
-  - gallery-datatable.md, gallery-imagegrid.md, gallery-modern-cards.md
-  - gallery-statusboard.md, gallery-timeline.md, gallery-with-headings.md
-  - responsive-gallery.md, simple-elegant.md, simple-gallery.md
-- **Styling organized:** Moved 2 files to `styling/`
-  - alternating-row-colors.md, asciicodecheckerboard.md
-- **Interactions organized:** Moved 2 files to `interactions/`
-  - nested-galleries.md, nested-galleries.msapp
-- **Cleanup:** Deleted 7 orphaned YAML files from gallery root
-- **README updated:** New folder structure with proper links
-
-### 3. Completed Color Files Update (T042-T045 partial)
-- Added YAML frontmatter to 12 color files
-- Added History sections to all color files
-- Files in: `functions/`, `palettes/`, `utilities/`
-
-### 4. Documentation Standards
-- Added History sections to all 24 modified files
-- Format: Date | Author | Changes table
+### 2. Fixed Git/GitHub Folder Casing Mismatch
+- **Problem:** GitHub showed `Communities`, `Constants`, etc. while local had lowercase
+- **Root Cause:** Windows/Git case insensitivity - Git tracked old PascalCase names
+- **Solution:** Used `git mv` two-step rename for 12 folders:
+  - Communities → communities
+  - Constants → constants
+  - Design → design
+  - Emojis → emojis
+  - Errors → errors
+  - Fonts → fonts
+  - Geocoding → geocoding
+  - Icons → icons
+  - Images → images
+  - JSON → json
+  - PowerShell → powershell
+  - Unicode-Magic → unicode-magic
 
 ### Commits Made
-- `e80d236` - refactor(gallery,colors): Complete Phase 2 migration cleanup
+- `4e3d81f` - fix(validator): exclude documentation directories from snippet validation
+- `32933eb` - Remove obsolete string manipulation functions (pushed during sync)
+- `8d9c38c` - fix: correct folder name casing for Git consistency
 
 ---
 
-## Previous Session (2025-12-17 late evening)
+## Previous Session (2025-12-17 night)
 
-### Snazzy Email Template Redesign
-- Redesigned error notification email with modern styling
-- Added `fxEmailColors` record for customizable theming
-- Created `Errors/email-template-preview.html` interactive preview
-- Added customization section to catch-all-errors.md
-
----
-
-## Previous Session (2025-12-17 evening)
-
-### Documentation Improvements
-- Rewrote `Errors/catch-all-errors.md` for better readability
-- Updated `CLAUDE.md` with markdown editing guidelines
+### Repository Reorganization Phase 2
+- Completed Gallery migration (T022-T029)
+- Completed Color files update (T042-T045 partial)
+- Added History sections to 24 modified files
 
 ---
 
-## Previous Session (2025-12-17 earlier)
+## Previous Sessions
 
-### Major Repository Reorganization (228 files)
-- Full semantic folder structure implemented
-- Git remotes configured (origin, alt, github)
+See git log for full history of reorganization work.
 
 ## Folder Structure
 
@@ -77,34 +67,16 @@ PowerFxSnippets/
 ├── integrations/           # Connectors, Power Automate
 ├── learning/               # Best practices, certification, tutorials
 ├── ui-controls/            # Gallery, buttons, inputs, etc.
-│   └── gallery/
-│       ├── layouts/        # 9 layout patterns ✅
-│       ├── styling/        # 2 styling patterns ✅
-│       ├── interactions/   # 1 interaction pattern ✅
-│       └── images/         # Screenshots
 ├── ui-patterns/            # Components, dialogs, menus, theming
 ├── utilities/              # Tools and scripts
 └── visual-assets/          # Colors, SVGs
-    └── colors/
-        ├── functions/      # 5 color conversion functions ✅
-        ├── palettes/       # 6 color palettes ✅
-        └── utilities/      # 1 resource file ✅
 ```
 
 ## Next Steps (Pick Up Here)
 
-1. **Update Spec Kit tasks.md** - Mark completed tasks:
-   - T022-T029 (Gallery migration) - DONE
-   - T042-T045 (Color merge) - PARTIALLY DONE
-
-2. **Continue Phase 2 migrations:**
-   - T010-T013: Create validation utilities
-   - T014-T021: App.Formulas migration
-   - T030-T033: Data Samples migration
-   - T034-T037: SVGs migration
-   - T038-T041: String manipulation merge
-
-3. **Fix broken internal links** (T202) - Critical before more migrations
+1. **Verify GitHub Actions passes** - Validator should now work
+2. **Continue Phase 2 migrations** from spec kit tasks
+3. **Fix broken internal links** (T202)
 
 ## Git Remotes
 
