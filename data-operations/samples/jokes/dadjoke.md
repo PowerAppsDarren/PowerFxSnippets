@@ -23,11 +23,11 @@ A curated collection of classic dad jokes perfect for testing Power Apps feature
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| ID | Number | Unique identifier for each joke |
-| Title | Text | The setup or question part of the joke |
-| Answer | Text | The punchline or answer |
+| Column | Type   | Description                            |
+|--------|--------|----------------------------------------|
+| ID     | Number | Unique identifier for each joke        |
+| Title  | Text   | The setup or question part of the joke |
+| Answer | Text   | The punchline or answer                |
 
 ## Use Cases
 
@@ -45,11 +45,11 @@ A curated collection of classic dad jokes perfect for testing Power Apps feature
 
 ## Sample Jokes
 
-| Title | Answer |
-|-------|--------|
-| Why don't skeletons fight each other? | They don't have the guts. |
-| What do you call a fish with no eyes? | Fsh. |
-| Why did the coffee file a police report? | It got mugged. |
+| Title                                   | Answer                    |
+|-----------------------------------------|---------------------------|
+| Why don't skeletons fight each other?   | They don't have the guts. |
+| What do you call a fish with no eyes?   | Fsh.                      |
+| Why did the coffee file a police report?| It got mugged.            |
 
 ## Sample Power Fx Usage
 

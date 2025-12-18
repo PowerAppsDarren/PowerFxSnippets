@@ -109,6 +109,6 @@ will look like a black and white checkerboard.
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2025-12-17 | Claude | Moved to styling/, updated frontmatter |
+| Date       | Author | Changes                                  |
+|------------|--------|------------------------------------------|
+| 2025-12-17 | Claude | Moved to styling/, updated frontmatter   |

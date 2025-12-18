@@ -23,10 +23,10 @@ Patterns and snippets for integrating Power Apps with external services and syst
 
 ## Directory Structure
 
-| Folder | Description |
-|--------|-------------|
-| [connectors/](./connectors/) | Power Platform connector patterns |
-| [power-automate/](./power-automate/) | Power Automate flow integrations |
+| Folder                               | Description                          |
+|--------------------------------------|--------------------------------------|
+| [connectors/](./connectors/)         | Power Platform connector patterns    |
+| [power-automate/](./power-automate/) | Power Automate flow integrations     |
 
 ## Connectors
 

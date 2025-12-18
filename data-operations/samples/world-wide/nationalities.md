@@ -23,9 +23,9 @@ A simple list of nationality demonyms (the terms used to describe people from sp
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| Nationality | Text | Nationality demonym (e.g., "American", "British") |
+| Column      | Type | Description                                         |
+|-------------|------|-----------------------------------------------------|
+| Nationality | Text | Nationality demonym (e.g., "American", "British")   |
 
 ## Sample Entries
 

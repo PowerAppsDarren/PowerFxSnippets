@@ -29,11 +29,11 @@ This category focuses on data operations and manipulation in Power Apps. It incl
 ## 🎯 Quick Access
 
 ### Most Popular
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [**Sample Data Overview**](./samples/data-samples.md) | Data sample collections | 🟢 |
-| [**Employee Dataset**](./samples/people/employee-5k.md) | HR data examples | 🟡 |
-| [**Database Schemas**](./samples/schemas/car-data-schema.md) | Data structure definitions | 🟡 |
+| Snippet                                                        | Description                 | Difficulty |
+|----------------------------------------------------------------|-----------------------------|------------|
+| [**Sample Data Overview**](./samples/data-samples.md)         | Data sample collections     | 🟢         |
+| [**Employee Dataset**](./samples/people/employee-5k.md)       | HR data examples            | 🟡         |
+| [**Database Schemas**](./samples/schemas/car-data-schema.md) | Data structure definitions  | 🟡         |
 
 ### By Difficulty
 

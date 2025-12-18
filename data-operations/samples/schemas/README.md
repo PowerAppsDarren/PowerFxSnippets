@@ -4,10 +4,10 @@ Schema definitions used to generate sample datasets.
 
 ## Contents
 
-| File | Description |
-|------|-------------|
-| `car-data-schema.json` | Mockaroo schema for vehicle data |
-| `car-data-schema.md` | Schema documentation |
+| File                   | Description                       |
+|------------------------|-----------------------------------|
+| `car-data-schema.json` | Mockaroo schema for vehicle data  |
+| `car-data-schema.md`   | Schema documentation              |
 
 ## About Mockaroo
 

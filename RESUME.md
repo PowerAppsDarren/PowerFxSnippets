@@ -80,8 +80,8 @@ PowerFxSnippets/
 
 ## Git Remotes
 
-| Remote | URL |
-|--------|-----|
+| Remote | URL                                                              |
+|--------|------------------------------------------------------------------|
 | origin | ssh://git@git.superpowerlabs.app:2222/darren/PowerFxSnippets.git |
-| alt | ssh://git@pool:2222/darren/PowerFxSnippets.git |
-| github | git@github.com:PowerAppsDarren/PowerFxSnippets.git |
+| alt    | ssh://git@pool:2222/darren/PowerFxSnippets.git                   |
+| github | git@github.com:PowerAppsDarren/PowerFxSnippets.git               |

@@ -4,21 +4,21 @@ Geographic reference data including countries, nationalities, and cities.
 
 ## Contents
 
-| File | Description | Rows |
-|------|-------------|------|
-| `countries.csv` | ISO country codes (sovereign nations) | ~200 |
-| `nationalities.csv` | Nationality demonyms | ~150 |
-| `world.csv` | Extended countries (including territories) | ~250 |
-| `world-cities.md` | World cities in Power Fx format | 100 cities |
+| File                | Description                                | Rows       |
+|---------------------|--------------------------------------------|------------|
+| `countries.csv`     | ISO country codes (sovereign nations)      | ~200       |
+| `nationalities.csv` | Nationality demonyms                       | ~150       |
+| `world.csv`         | Extended countries (including territories) | ~250       |
+| `world-cities.md`   | World cities in Power Fx format            | 100 cities |
 
 ## Dataset Comparison
 
-| Feature | countries.csv | world.csv |
-|---------|--------------|-----------|
-| Sovereign Nations | Yes | Yes |
-| Territories | No | Yes |
-| Dependencies | No | Yes |
-| Use Case | Citizenship | Shipping |
+| Feature           | countries.csv | world.csv  |
+|-------------------|---------------|------------|
+| Sovereign Nations | Yes           | Yes        |
+| Territories       | No            | Yes        |
+| Dependencies      | No            | Yes        |
+| Use Case          | Citizenship   | Shipping   |
 
 ## Data Fields
 

@@ -908,77 +908,77 @@ Community contribution - adapted from Power Apps forums
 
 ### Complete Path Conversions
 
-| Current Location | New Location | Notes |
-|-----------------|--------------|-------|
-| `App.Formulas/` | `app-lifecycle/formulas/` | Split into collections/, expressions/, user-defined-functions/, user-defined-types/ |
-| `App.OnError/` | `app-lifecycle/error-handling/` | Consolidate error patterns |
-| `App.OnMessage/` | `app-lifecycle/messaging/` | |
-| `App.OnStart/` | `app-lifecycle/initialization/` | |
-| `App.StartScreen/` | `app-lifecycle/navigation/` | |
-| `Controls/Gallery/` | `ui-controls/gallery/` | Split into layouts/, interactions/, styling/, filtering/ |
-| `Controls/Container/` | `ui-controls/container/` | |
-| `Controls/Label or Text/` | `ui-controls/label/` | Rename (remove "or Text") |
-| `Controls/Text Input/` | `ui-controls/text-input/` | Split into validation/, formatting/, behaviors/ |
-| `Controls/Combobox-Classic/` | `ui-controls/combobox/` | Rename (remove "-Classic") |
-| `Controls/Attachments/` | `ui-controls/attachments/` | |
-| `Controls/Calendar/` | `ui-controls/calendar/` | |
-| `Controls/Canvas/` | `ui-controls/canvas/` | |
-| `Controls/Chart/` | `ui-controls/chart/` | |
-| `Controls/DataCard/` | `ui-controls/datacard/` | |
-| `Controls/Date Picker/` | `ui-controls/date-picker/` | |
-| `Controls/Drop down/` | `ui-controls/dropdown/` | |
-| `Controls/Form/` | `ui-controls/form/` | |
-| `Controls/HTML text/` | `ui-controls/html-text/` | |
-| `Controls/Pen input/` | `ui-controls/pen-input/` | |
-| `Controls/Timer/` | `ui-controls/timer/` | |
-| `Components/` | `ui-patterns/components/custom-components/` | |
-| `Code Components/` | `ui-patterns/components/code-components/` | Merge with Components |
-| `Menu-Related/` | `ui-patterns/menus/` | |
-| `Dialogs/` | `ui-patterns/dialogs/` | |
-| `Center Self/` | `ui-patterns/layouts/positioning/` | |
-| `Wire Framing/` | `ui-patterns/layouts/patterns/` | |
-| `Color/` | `visual-assets/colors/functions/` | Split functions vs palettes |
-| `Color Palettes/` | `visual-assets/colors/palettes/` | |
-| `Themes-Color-Palettes/` | `visual-assets/colors/palettes/` | Merge with Color Palettes |
-| `Theming/` | `ui-patterns/theming/` | |
-| `SVGs/` | `visual-assets/svgs/` | Maintain sub-structure |
-| `Icons/` | `visual-assets/icons/` | |
-| `Fonts/` | `visual-assets/fonts/` | |
-| `Images/` | `visual-assets/images/` | |
-| `Emojis/` | `visual-assets/emojis/` | |
-| `Charts/` | `ui-controls/chart/` | Merge with Controls/Chart |
-| `Unicode-Magic/` | `visual-assets/unicode/` | |
-| `Data Samples/` | `data-operations/samples/` | Maintain sub-structure |
-| `Data Sources/` | `data-operations/sources/` | Split by source type |
-| `Data ERDs/` | `data-operations/schemas/erds/` | |
-| `Connectors/` | `integrations/connectors/office365/` | Split by connector type |
-| `Custom Connectors APIs/` | `integrations/connectors/custom-connectors/` | |
-| `Flows/` | `integrations/power-automate/` | |
-| `Functions/` | `functions/` | Split into subdirectories |
-| `User Defined Functions/` | `functions/user-defined-functions/` | Split by category |
-| `User Defined Types/` | `functions/user-defined-types/` | Split by category |
-| `Algorithms/` | `functions/algorithms/` | |
-| `String Manipulation/` | `functions/string-manipulation/` | |
-| `Text-Manipulation/` | `functions/string-manipulation/` | DUPLICATE - merge |
-| `Encode Decode/` | `functions/encoding-decoding/` | |
-| `Constants/` | `functions/constants/` | |
-| `Errors/` | `app-lifecycle/error-handling/` | Merge with App.OnError |
-| `Code Comments/` | `learning/best-practices/` | |
-| `JSON/` | `data-operations/validation/` | |
-| `Best Practices/` | `learning/best-practices/` | |
-| `Content for Learning/` | `learning/getting-started/` | |
-| `Learning/` | `learning/tutorials/` | |
-| `Certification Exams/` | `learning/certification/` | Maintain sub-structure |
-| `Communities/` | `learning/community/` | |
-| `Power Apps Rock Stars/` | `learning/community/` | |
-| `Licensing/` | `learning/licensing/` | |
-| `Design/` | `learning/design-patterns/` | |
-| `Model Driven/` | `integrations/external-systems/model-driven-apps/` | |
-| `PowerShell/` | `integrations/external-systems/powershell/` | |
-| `Git or GitHub/` | `integrations/external-systems/git-github/` | |
-| `Geocoding/` | `integrations/apis/third-party/` | |
-| `.templates/` | `utilities/templates/` | |
-| `--new-structure/` | DELETE | Empty, being replaced |
+| Current Location            | New Location                                     | Notes                                                                         |
+|-----------------------------|--------------------------------------------------|-------------------------------------------------------------------------------|
+| `App.Formulas/`             | `app-lifecycle/formulas/`                        | Split into collections/, expressions/, user-defined-functions/, user-defined-types/ |
+| `App.OnError/`              | `app-lifecycle/error-handling/`                  | Consolidate error patterns                                                    |
+| `App.OnMessage/`            | `app-lifecycle/messaging/`                       |                                                                               |
+| `App.OnStart/`              | `app-lifecycle/initialization/`                  |                                                                               |
+| `App.StartScreen/`          | `app-lifecycle/navigation/`                      |                                                                               |
+| `Controls/Gallery/`         | `ui-controls/gallery/`                           | Split into layouts/, interactions/, styling/, filtering/                      |
+| `Controls/Container/`       | `ui-controls/container/`                         |                                                                               |
+| `Controls/Label or Text/`   | `ui-controls/label/`                             | Rename (remove "or Text")                                                     |
+| `Controls/Text Input/`      | `ui-controls/text-input/`                        | Split into validation/, formatting/, behaviors/                               |
+| `Controls/Combobox-Classic/`| `ui-controls/combobox/`                          | Rename (remove "-Classic")                                                    |
+| `Controls/Attachments/`     | `ui-controls/attachments/`                       |                                                                               |
+| `Controls/Calendar/`        | `ui-controls/calendar/`                          |                                                                               |
+| `Controls/Canvas/`          | `ui-controls/canvas/`                            |                                                                               |
+| `Controls/Chart/`           | `ui-controls/chart/`                             |                                                                               |
+| `Controls/DataCard/`        | `ui-controls/datacard/`                          |                                                                               |
+| `Controls/Date Picker/`     | `ui-controls/date-picker/`                       |                                                                               |
+| `Controls/Drop down/`       | `ui-controls/dropdown/`                          |                                                                               |
+| `Controls/Form/`            | `ui-controls/form/`                              |                                                                               |
+| `Controls/HTML text/`       | `ui-controls/html-text/`                         |                                                                               |
+| `Controls/Pen input/`       | `ui-controls/pen-input/`                         |                                                                               |
+| `Controls/Timer/`           | `ui-controls/timer/`                             |                                                                               |
+| `Components/`               | `ui-patterns/components/custom-components/`      |                                                                               |
+| `Code Components/`          | `ui-patterns/components/code-components/`        | Merge with Components                                                         |
+| `Menu-Related/`             | `ui-patterns/menus/`                             |                                                                               |
+| `Dialogs/`                  | `ui-patterns/dialogs/`                           |                                                                               |
+| `Center Self/`              | `ui-patterns/layouts/positioning/`               |                                                                               |
+| `Wire Framing/`             | `ui-patterns/layouts/patterns/`                  |                                                                               |
+| `Color/`                    | `visual-assets/colors/functions/`                | Split functions vs palettes                                                   |
+| `Color Palettes/`           | `visual-assets/colors/palettes/`                 |                                                                               |
+| `Themes-Color-Palettes/`    | `visual-assets/colors/palettes/`                 | Merge with Color Palettes                                                     |
+| `Theming/`                  | `ui-patterns/theming/`                           |                                                                               |
+| `SVGs/`                     | `visual-assets/svgs/`                            | Maintain sub-structure                                                        |
+| `Icons/`                    | `visual-assets/icons/`                           |                                                                               |
+| `Fonts/`                    | `visual-assets/fonts/`                           |                                                                               |
+| `Images/`                   | `visual-assets/images/`                          |                                                                               |
+| `Emojis/`                   | `visual-assets/emojis/`                          |                                                                               |
+| `Charts/`                   | `ui-controls/chart/`                             | Merge with Controls/Chart                                                     |
+| `Unicode-Magic/`            | `visual-assets/unicode/`                         |                                                                               |
+| `Data Samples/`             | `data-operations/samples/`                       | Maintain sub-structure                                                        |
+| `Data Sources/`             | `data-operations/sources/`                       | Split by source type                                                          |
+| `Data ERDs/`                | `data-operations/schemas/erds/`                  |                                                                               |
+| `Connectors/`               | `integrations/connectors/office365/`             | Split by connector type                                                       |
+| `Custom Connectors APIs/`   | `integrations/connectors/custom-connectors/`     |                                                                               |
+| `Flows/`                    | `integrations/power-automate/`                   |                                                                               |
+| `Functions/`                | `functions/`                                     | Split into subdirectories                                                     |
+| `User Defined Functions/`   | `functions/user-defined-functions/`              | Split by category                                                             |
+| `User Defined Types/`       | `functions/user-defined-types/`                  | Split by category                                                             |
+| `Algorithms/`               | `functions/algorithms/`                          |                                                                               |
+| `String Manipulation/`      | `functions/string-manipulation/`                 |                                                                               |
+| `Text-Manipulation/`        | `functions/string-manipulation/`                 | DUPLICATE - merge                                                             |
+| `Encode Decode/`            | `functions/encoding-decoding/`                   |                                                                               |
+| `Constants/`                | `functions/constants/`                           |                                                                               |
+| `Errors/`                   | `app-lifecycle/error-handling/`                  | Merge with App.OnError                                                        |
+| `Code Comments/`            | `learning/best-practices/`                       |                                                                               |
+| `JSON/`                     | `data-operations/validation/`                    |                                                                               |
+| `Best Practices/`           | `learning/best-practices/`                       |                                                                               |
+| `Content for Learning/`     | `learning/getting-started/`                      |                                                                               |
+| `Learning/`                 | `learning/tutorials/`                            |                                                                               |
+| `Certification Exams/`      | `learning/certification/`                        | Maintain sub-structure                                                        |
+| `Communities/`              | `learning/community/`                            |                                                                               |
+| `Power Apps Rock Stars/`    | `learning/community/`                            |                                                                               |
+| `Licensing/`                | `learning/licensing/`                            |                                                                               |
+| `Design/`                   | `learning/design-patterns/`                      |                                                                               |
+| `Model Driven/`             | `integrations/external-systems/model-driven-apps/` |                                                                               |
+| `PowerShell/`               | `integrations/external-systems/powershell/`      |                                                                               |
+| `Git or GitHub/`            | `integrations/external-systems/git-github/`      |                                                                               |
+| `Geocoding/`                | `integrations/apis/third-party/`                 |                                                                               |
+| `.templates/`               | `utilities/templates/`                           |                                                                               |
+| `--new-structure/`          | DELETE                                           | Empty, being replaced                                                         |
 
 ---
 
@@ -993,14 +993,14 @@ Control-specific Power Fx snippets organized by control type.
 
 ## 📂 Categories
 
-| Control Type | Description | Snippet Count |
-|--------------|-------------|---------------|
-| [Gallery](./gallery/) | Data display with templates | 24 |
-| [Text Input](./text-input/) | User input fields | 15 |
-| [Combobox](./combobox/) | Dropdown selections | 12 |
-| [Button](./button/) | Action triggers | 8 |
-| [Form](./form/) | Data entry forms | 18 |
-| ... | ... | ... |
+| Control Type              | Description                  | Snippet Count |
+|---------------------------|------------------------------|---------------|
+| [Gallery](./gallery/)     | Data display with templates  | 24            |
+| [Text Input](./text-input/) | User input fields          | 15            |
+| [Combobox](./combobox/)   | Dropdown selections          | 12            |
+| [Button](./button/)       | Action triggers              | 8             |
+| [Form](./form/)           | Data entry forms             | 18            |
+| ...                       | ...                          | ...           |
 
 ## 🏷️ Browse by Tag
 
@@ -1068,11 +1068,11 @@ Data filtering and search
 
 ## 🔍 Browse by Difficulty
 
-| Difficulty | Snippets |
-|------------|----------|
-| 🟢 Beginner | [8 snippets](#beginner) |
-| 🟡 Intermediate | [12 snippets](#intermediate) |
-| 🔴 Advanced | [4 snippets](#advanced) |
+| Difficulty        | Snippets                     |
+|-------------------|------------------------------|
+| 🟢 Beginner       | [8 snippets](#beginner)      |
+| 🟡 Intermediate   | [12 snippets](#intermediate) |
+| 🔴 Advanced       | [4 snippets](#advanced)      |
 
 ## 🏷️ Tags
 

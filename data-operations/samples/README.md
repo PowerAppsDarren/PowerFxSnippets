@@ -20,23 +20,23 @@ samples/
 
 ### By Category
 
-| Category | Datasets | Best For |
-|----------|----------|----------|
-| People | 3 files | HR apps, directories, profiles |
-| Geographic | 4 files | Internationalization, dropdowns |
-| Vehicles | 1 file | Fleet management, inventory |
-| Reference | 2 files | Political analysis, statistics |
-| Entertainment | 2 files | Fun apps, demos |
-| Utility | 1 file | Comprehensive testing |
+| Category      | Datasets | Best For                         |
+|---------------|----------|----------------------------------|
+| People        | 3 files  | HR apps, directories, profiles   |
+| Geographic    | 4 files  | Internationalization, dropdowns  |
+| Vehicles      | 1 file   | Fleet management, inventory      |
+| Reference     | 2 files  | Political analysis, statistics   |
+| Entertainment | 2 files  | Fun apps, demos                  |
+| Utility       | 1 file   | Comprehensive testing            |
 
 ### By Size
 
-| Size | Datasets | Use Case |
-|------|----------|----------|
-| Small (<100 rows) | jokes, nationalities | Quick demos |
-| Medium (100-5K rows) | countries, employees | Standard apps |
-| Large (5K-50K rows) | person, car-data | Performance testing |
-| Extra Large (50K+) | all-kinds-of-data | Stress testing |
+| Size                  | Datasets              | Use Case             |
+|-----------------------|-----------------------|----------------------|
+| Small (<100 rows)     | jokes, nationalities  | Quick demos          |
+| Medium (100-5K rows)  | countries, employees  | Standard apps        |
+| Large (5K-50K rows)   | person, car-data      | Performance testing  |
+| Extra Large (50K+)    | all-kinds-of-data     | Stress testing       |
 
 ## Quick Start Guide
 

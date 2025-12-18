@@ -100,39 +100,39 @@ This document tracks the current status of the comprehensive repository restruct
 
 #### Files Requiring Standardization (11 files)
 
-| # | File | Subdirectory | Missing Fields |
-|---|------|--------------|----------------|
-| 1 | `simple-gallery.md` | Gallery | subcategory, products, dependencies, related |
-| 2 | `AsciiCodeCheckerBoard.md` | Gallery | subcategory, products, dependencies, related |
-| 3 | `alternating-row-colors.md` | Gallery | subcategory, products, dependencies, related |
-| 4 | `Themed-Chart.md` | Chart | subcategory, products, dependencies, related |
-| 5 | `attachment-control.md` | Attachment | subcategory, products, dependencies, related |
-| 6 | `Canvas.md` | Canvas | subcategory, products, dependencies, related |
-| 7 | `spacer-medium.md` | Rectangle | subcategory, products, dependencies, related |
-| 8 | `Add Media.md` | Add Media | subcategory, products, dependencies, related |
-| 9 | `DataCard.md` | DataCard | subcategory, products, dependencies, related |
-| 10 | `Drop Down List.md` | Drop Down List | subcategory, products, dependencies, related |
-| 11 | `random-photo-image.md` | Image | subcategory, products, dependencies, related |
-| 12 | `naming-controls.md` | Naming Controls | subcategory, products, dependencies, related |
-| 13 | `Code Editor.md` | Text Input | subcategory, products, dependencies, related |
+| #  | File                        | Subdirectory    | Missing Fields                               |
+|----|-----------------------------|-----------------|--------------------------------------------- |
+| 1  | `simple-gallery.md`         | Gallery         | subcategory, products, dependencies, related |
+| 2  | `AsciiCodeCheckerBoard.md`  | Gallery         | subcategory, products, dependencies, related |
+| 3  | `alternating-row-colors.md` | Gallery         | subcategory, products, dependencies, related |
+| 4  | `Themed-Chart.md`           | Chart           | subcategory, products, dependencies, related |
+| 5  | `attachment-control.md`     | Attachment      | subcategory, products, dependencies, related |
+| 6  | `Canvas.md`                 | Canvas          | subcategory, products, dependencies, related |
+| 7  | `spacer-medium.md`          | Rectangle       | subcategory, products, dependencies, related |
+| 8  | `Add Media.md`              | Add Media       | subcategory, products, dependencies, related |
+| 9  | `DataCard.md`               | DataCard        | subcategory, products, dependencies, related |
+| 10 | `Drop Down List.md`         | Drop Down List  | subcategory, products, dependencies, related |
+| 11 | `random-photo-image.md`     | Image           | subcategory, products, dependencies, related |
+| 12 | `naming-controls.md`        | Naming Controls | subcategory, products, dependencies, related |
+| 13 | `Code Editor.md`            | Text Input      | subcategory, products, dependencies, related |
 
 ---
 
 #### Files Already Compliant (11 files)
 
-| # | File | Subdirectory | Status |
-|---|------|--------------|--------|
-| 1 | `Readme.md` | Controls (root) | ✅ Complete |
-| 2 | `nested-galleries.md` | Gallery | ✅ Complete |
-| 3 | `Simple-Elegant.md` | Gallery | ✅ Complete |
-| 4 | `sample-data.md` | Chart | ✅ Complete |
-| 5 | `Chnage Pointer to Hand.md` | Icon | ✅ Complete |
-| 6 | `Calendar.md` | Calendar | ✅ Complete |
-| 7 | `Handing Vertical Sliders.md` | Sliders | ✅ Complete |
-| 8 | `label-classic.md` | Label or Text | ✅ Complete |
-| 9 | `text-modern.md` | Label or Text | ✅ Complete |
-| 10 | `README.md` | Gallery | ✅ Complete |
-| 11 | `Container/Funnel Layout/README.md` | Container | ✅ Complete |
+| #  | File                              | Subdirectory    | Status       |
+|----|-----------------------------------|-----------------|--------------|
+| 1  | `Readme.md`                       | Controls (root) | ✅ Complete  |
+| 2  | `nested-galleries.md`             | Gallery         | ✅ Complete  |
+| 3  | `Simple-Elegant.md`               | Gallery         | ✅ Complete  |
+| 4  | `sample-data.md`                  | Chart           | ✅ Complete  |
+| 5  | `Chnage Pointer to Hand.md`       | Icon            | ✅ Complete  |
+| 6  | `Calendar.md`                     | Calendar        | ✅ Complete  |
+| 7  | `Handing Vertical Sliders.md`     | Sliders         | ✅ Complete  |
+| 8  | `label-classic.md`                | Label or Text   | ✅ Complete  |
+| 9  | `text-modern.md`                  | Label or Text   | ✅ Complete  |
+| 10 | `README.md`                       | Gallery         | ✅ Complete  |
+| 11 | `Container/Funnel Layout/README.md` | Container     | ✅ Complete  |
 
 ---
 
@@ -392,26 +392,26 @@ node tools/validate-snippets.js --category Controls
 
 ### Phase Breakdown
 
-| Phase | Tasks | Complete | In Progress | Pending | Status |
-|-------|-------|----------|-------------|---------|--------|
-| Phase 1 | 9 | 9 | 0 | 0 | ✅ 100% |
-| Phase 2a | 8 | 8 | 0 | 0 | ✅ 100% |
-| Phase 2b | 6 | 6 | 0 | 0 | ✅ 100% |
-| Phase 2c | 6 | 0 | 6 | 0 | 🔄 0% |
-| Phase 2d+ | 53 | 0 | 0 | 53 | 📋 Pending |
-| Phase 3 | 18 | 0 | 0 | 18 | 📋 Pending |
-| Phase 4 | 15 | 0 | 0 | 15 | 📋 Pending |
-| Phase 5 | 15 | 0 | 0 | 15 | 📋 Pending |
-| Phase 6 | 11 | 0 | 0 | 11 | 📋 Pending |
+| Phase     | Tasks | Complete | In Progress | Pending | Status      |
+|-----------|-------|----------|-------------|---------|-------------|
+| Phase 1   | 9     | 9        | 0           | 0       | ✅ 100%     |
+| Phase 2a  | 8     | 8        | 0           | 0       | ✅ 100%     |
+| Phase 2b  | 6     | 6        | 0           | 0       | ✅ 100%     |
+| Phase 2c  | 6     | 0        | 6           | 0       | 🔄 0%       |
+| Phase 2d+ | 53    | 0        | 0           | 53      | 📋 Pending  |
+| Phase 3   | 18    | 0        | 0           | 18      | 📋 Pending  |
+| Phase 4   | 15    | 0        | 0           | 15      | 📋 Pending  |
+| Phase 5   | 15    | 0        | 0           | 15      | 📋 Pending  |
+| Phase 6   | 11    | 0        | 0           | 11      | 📋 Pending  |
 
 ### Files Processed
 
-| Directory | Total Files | Complete | Partial | Status |
-|-----------|-------------|----------|---------|--------|
-| Components/ | 3 | 3 | 0 | ✅ Complete |
-| Connectors/ | 7 | 7 | 0 | ✅ Complete |
-| Controls/ | 22 | 11 | 11 | 🔄 In Progress |
-| Data Sources/ | 3 | 3 | 0 | 📋 Pending |
+| Directory      | Total Files | Complete | Partial | Status          |
+|----------------|-------------|----------|---------|-----------------|
+| Components/    | 3           | 3        | 0       | ✅ Complete     |
+| Connectors/    | 7           | 7        | 0       | ✅ Complete     |
+| Controls/      | 22          | 11       | 11      | 🔄 In Progress  |
+| Data Sources/  | 3           | 3        | 0       | 📋 Pending      |
 
 ---
 

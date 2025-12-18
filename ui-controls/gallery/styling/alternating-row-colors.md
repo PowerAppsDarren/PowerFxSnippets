@@ -197,6 +197,6 @@ Here's the YAML code to paste into a screen in Power Apps Studio:
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2025-12-17 | Claude | Moved to styling/, updated frontmatter |
+| Date       | Author | Changes                                  |
+|------------|--------|------------------------------------------|
+| 2025-12-17 | Claude | Moved to styling/, updated frontmatter   |

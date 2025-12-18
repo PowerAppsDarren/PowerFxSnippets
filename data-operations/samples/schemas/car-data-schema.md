@@ -23,20 +23,20 @@ A Mockaroo schema definition file that describes how to generate realistic vehic
 
 ## Schema Fields
 
-| Field Name | Mockaroo Type | Description |
-|------------|---------------|-------------|
-| uuid | GUID | Unique identifier |
-| status_code | Custom List | Status values: active, inactive, pending, retired |
-| created_at | Datetime | Record creation timestamp |
-| updated_at | Datetime | Last update timestamp |
-| user_assigned_uuid | GUID | Assigned user reference |
-| notes | Paragraphs | Text notes |
-| demand | Custom List | Demand level: high, medium, low |
-| category | Custom List | Vehicle category |
-| year | Car Model Year | Vehicle year |
-| make | Car Make | Manufacturer |
-| model | Car Model | Model name |
-| vin | Car VIN | Vehicle ID number |
+| Field Name         | Mockaroo Type  | Description                                       |
+|--------------------|----------------|---------------------------------------------------|
+| uuid               | GUID           | Unique identifier                                 |
+| status_code        | Custom List    | Status values: active, inactive, pending, retired |
+| created_at         | Datetime       | Record creation timestamp                         |
+| updated_at         | Datetime       | Last update timestamp                             |
+| user_assigned_uuid | GUID           | Assigned user reference                           |
+| notes              | Paragraphs     | Text notes                                        |
+| demand             | Custom List    | Demand level: high, medium, low                   |
+| category           | Custom List    | Vehicle category                                  |
+| year               | Car Model Year | Vehicle year                                      |
+| make               | Car Make       | Manufacturer                                      |
+| model              | Car Model      | Model name                                        |
+| vin                | Car VIN        | Vehicle ID number                                 |
 
 ## Vehicle Categories
 

@@ -26,11 +26,11 @@ An index file cataloging available datasets from FiveThirtyEight (538), the stat
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| subfolder_name | Text | Name of the dataset subfolder in the 538 GitHub repo |
-| dataset_url | URL | Direct link to the dataset on GitHub |
-| article_url | URL | Link to the associated 538 article |
+| Column         | Type | Description                                         |
+|----------------|------|-----------------------------------------------------|
+| subfolder_name | Text | Name of the dataset subfolder in the 538 GitHub repo|
+| dataset_url    | URL  | Direct link to the dataset on GitHub                |
+| article_url    | URL  | Link to the associated 538 article                  |
 
 ## Available Datasets
 

@@ -4,22 +4,22 @@ Mock employee and person datasets for HR applications, directories, and testing.
 
 ## Contents
 
-| File | Description | Rows | Size |
-|------|-------------|------|------|
-| `employee-5k.csv` | Comprehensive employee records | 5,000 | ~1 MB |
-| `employeeinfo-5k.csv` | Basic employee information | 5,000 | ~500 KB |
-| `person.csv` | Large person dataset with images | 50,000+ | ~14 MB |
+| File                  | Description                        | Rows    | Size    |
+|-----------------------|------------------------------------|---------|---------|
+| `employee-5k.csv`     | Comprehensive employee records     | 5,000   | ~1 MB   |
+| `employeeinfo-5k.csv` | Basic employee information         | 5,000   | ~500 KB |
+| `person.csv`          | Large person dataset with images   | 50,000+ | ~14 MB  |
 
 ## Dataset Comparison
 
-| Feature | employee-5k | employeeinfo-5k | person |
-|---------|-------------|-----------------|--------|
-| Basic Info | Yes | Yes | Yes |
-| Department | Yes | No | No |
-| Boolean Flags | Yes | No | Yes |
-| Images | No | No | Yes (Base64) |
-| Notes | Yes | No | Yes |
-| Size | Medium | Small | Large |
+| Feature       | employee-5k | employeeinfo-5k | person       |
+|---------------|-------------|-----------------|--------------|
+| Basic Info    | Yes         | Yes             | Yes          |
+| Department    | Yes         | No              | No           |
+| Boolean Flags | Yes         | No              | Yes          |
+| Images        | No          | No              | Yes (Base64) |
+| Notes         | Yes         | No              | Yes          |
+| Size          | Medium      | Small           | Large        |
 
 ## Common Fields
 

@@ -325,14 +325,14 @@ cmp_FocusableInput.OnChange =
 
 ### Property Type Comparison
 
-| Property Type | Direction | Side Effects | Use Case | Example |
-|---------------|-----------|--------------|----------|---------|
-| **Data (Input)** | App → Component | No | Pass values in | BorderColor, Font |
-| **Data (Output)** | Component → App | No | Pass values out | SelectedValue |
-| **Function (Input)** | App → Component | No | Pass calculations in | FormatFunction |
-| **Function (Output)** | Component → App | No | Pass calculations out | ValidateInput() |
-| **Event** | App → Component | Yes | App defines logic | OnChange, OnSelect |
-| **Action** | Component → App | Yes | Component defines logic | Clear(), Reset() |
+| Property Type        | Direction       | Side Effects | Use Case              | Example            |
+|----------------------|-----------------|--------------|----------------------|--------------------|
+| **Data (Input)**     | App → Component | No           | Pass values in        | BorderColor, Font  |
+| **Data (Output)**    | Component → App | No           | Pass values out       | SelectedValue      |
+| **Function (Input)** | App → Component | No           | Pass calculations in  | FormatFunction     |
+| **Function (Output)**| Component → App | No           | Pass calculations out | ValidateInput()    |
+| **Event**            | App → Component | Yes          | App defines logic     | OnChange, OnSelect |
+| **Action**           | Component → App | Yes          | Component defines logic | Clear(), Reset() |
 
 ### Best Practices for SetFocus in Components
 

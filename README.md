@@ -39,17 +39,17 @@ The existing organization remains functional during migration:
 
 ### 🎯 Core Categories
 
-| Category | Description | Quick Access |
-|----------|-------------|--------------|
-| [**01-getting-started**](./01-getting-started/) | Entry point for new developers | [Hello World](./01-getting-started/hello-world/) • [Common Patterns](./01-getting-started/common-patterns/) |
-| [**02-app-architecture**](./02-app-architecture/) | Application structure and lifecycle | [App Events](./02-app-architecture/app-events/) • [Navigation](./02-app-architecture/navigation-patterns/) |
-| [**03-user-interface**](./03-user-interface/) | UI components and user experience | [Controls](./03-user-interface/controls/) • [Themes](./03-user-interface/themes-and-styling/) |
-| [**04-data-management**](./04-data-management/) | Data operations and sources | [Data Sources](./04-data-management/data-sources/) • [Validation](./04-data-management/data-validation/) |
-| [**05-business-logic**](./05-business-logic/) | Functions and calculations | [Functions](./05-business-logic/functions/) • [Error Handling](./05-business-logic/error-handling/) |
-| [**06-integrations**](./06-integrations/) | External services and APIs | [Microsoft 365](./06-integrations/microsoft-365/) • [Azure](./06-integrations/azure-services/) |
-| [**07-assets-and-media**](./07-assets-and-media/) | Visual assets and media | [Icons](./07-assets-and-media/icons/) • [SVGs](./07-assets-and-media/svgs/) |
-| [**08-advanced-patterns**](./08-advanced-patterns/) | Expert techniques and architecture | [Custom Components](./08-advanced-patterns/custom-components/) • [Security](./08-advanced-patterns/security-patterns/) |
-| [**09-learning-resources**](./09-learning-resources/) | Tutorials and educational content | [Tutorials](./09-learning-resources/tutorials/) • [Best Practices](./09-learning-resources/best-practices/) |
+| Category                                                      | Description                          | Quick Access                                                                                                                       |
+|---------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| [**01-getting-started**](./01-getting-started/)               | Entry point for new developers       | [Hello World](./01-getting-started/hello-world/) • [Common Patterns](./01-getting-started/common-patterns/)                        |
+| [**02-app-architecture**](./02-app-architecture/)             | Application structure and lifecycle  | [App Events](./02-app-architecture/app-events/) • [Navigation](./02-app-architecture/navigation-patterns/)                         |
+| [**03-user-interface**](./03-user-interface/)                 | UI components and user experience    | [Controls](./03-user-interface/controls/) • [Themes](./03-user-interface/themes-and-styling/)                                      |
+| [**04-data-management**](./04-data-management/)               | Data operations and sources          | [Data Sources](./04-data-management/data-sources/) • [Validation](./04-data-management/data-validation/)                           |
+| [**05-business-logic**](./05-business-logic/)                 | Functions and calculations           | [Functions](./05-business-logic/functions/) • [Error Handling](./05-business-logic/error-handling/)                                |
+| [**06-integrations**](./06-integrations/)                     | External services and APIs           | [Microsoft 365](./06-integrations/microsoft-365/) • [Azure](./06-integrations/azure-services/)                                     |
+| [**07-assets-and-media**](./07-assets-and-media/)             | Visual assets and media              | [Icons](./07-assets-and-media/icons/) • [SVGs](./07-assets-and-media/svgs/)                                                       |
+| [**08-advanced-patterns**](./08-advanced-patterns/)           | Expert techniques and architecture   | [Custom Components](./08-advanced-patterns/custom-components/) • [Security](./08-advanced-patterns/security-patterns/)             |
+| [**09-learning-resources**](./09-learning-resources/)         | Tutorials and educational content    | [Tutorials](./09-learning-resources/tutorials/) • [Best Practices](./09-learning-resources/best-practices/)                        |
 
 ### 🛠️ Repository Tools
 

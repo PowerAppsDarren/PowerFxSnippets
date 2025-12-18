@@ -23,34 +23,34 @@ A large, comprehensive sample dataset containing various data types commonly enc
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| AutoId | GUID | Auto-generated unique identifier |
-| uuid | GUID | Universally unique identifier |
-| email | Text | Email address |
-| ipAddress | Text | IP address (v4) |
-| pw | Text | Sample password string |
-| hash | Text | Bcrypt hash value |
-| lipsum | Text | Lorem ipsum placeholder text |
-| buzzword | Text | Business buzzword |
-| Latitude | Number | Geographic latitude coordinate |
-| longitude | Number | Geographic longitude coordinate |
-| ApplicationName | Text | Random application name |
-| AnimalCommon | Text | Common animal name |
-| AnimalScientific | Text | Scientific animal name |
-| City | Text | City name |
-| Country | Text | Country name |
-| Choices | Text | Sample choices field |
-| NatoPhonetic | Text | NATO phonetic alphabet string |
-| ccNumbers | Text | Sample credit card numbers (test data) |
-| color | Text | Color name |
-| sequence | Text | Sequence identifier |
-| domain | Text | Domain name |
-| dateTime | DateTime | Date and time value |
-| ip4 | Text | IPv4 address |
-| ip6 | Text | IPv6 address |
-| jsonArray | Text | JSON array string |
-| scenario | Text | Test scenario description |
+| Column           | Type     | Description                             |
+|------------------|----------|-----------------------------------------|
+| AutoId           | GUID     | Auto-generated unique identifier        |
+| uuid             | GUID     | Universally unique identifier           |
+| email            | Text     | Email address                           |
+| ipAddress        | Text     | IP address (v4)                         |
+| pw               | Text     | Sample password string                  |
+| hash             | Text     | Bcrypt hash value                       |
+| lipsum           | Text     | Lorem ipsum placeholder text            |
+| buzzword         | Text     | Business buzzword                       |
+| Latitude         | Number   | Geographic latitude coordinate          |
+| longitude        | Number   | Geographic longitude coordinate         |
+| ApplicationName  | Text     | Random application name                 |
+| AnimalCommon     | Text     | Common animal name                      |
+| AnimalScientific | Text     | Scientific animal name                  |
+| City             | Text     | City name                               |
+| Country          | Text     | Country name                            |
+| Choices          | Text     | Sample choices field                    |
+| NatoPhonetic     | Text     | NATO phonetic alphabet string           |
+| ccNumbers        | Text     | Sample credit card numbers (test data)  |
+| color            | Text     | Color name                              |
+| sequence         | Text     | Sequence identifier                     |
+| domain           | Text     | Domain name                             |
+| dateTime         | DateTime | Date and time value                     |
+| ip4              | Text     | IPv4 address                            |
+| ip6              | Text     | IPv6 address                            |
+| jsonArray        | Text     | JSON array string                       |
+| scenario         | Text     | Test scenario description               |
 
 ## Use Cases
 

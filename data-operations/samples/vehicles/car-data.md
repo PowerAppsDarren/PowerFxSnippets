@@ -25,18 +25,18 @@ A comprehensive vehicle dataset containing car records with make, model, year, V
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| UUID | GUID | Unique vehicle identifier |
-| CarModelYear | Number | Model year (1957-2012 range) |
-| CarMake | Text | Manufacturer (Audi, Toyota, Ford, etc.) |
-| CarModel | Text | Model name |
-| CarVIN | Text | Vehicle Identification Number |
-| BodyColor | Text | Exterior color (hex code) |
-| InteriorColor | Text | Interior color (hex code) |
-| NeedsMaintenance | Boolean | Maintenance required flag |
-| LastMaintenance | Date | Date of last maintenance |
-| PhotoBase64 | Text | Base64-encoded vehicle photo |
+| Column           | Type    | Description                             |
+|------------------|---------|-----------------------------------------|
+| UUID             | GUID    | Unique vehicle identifier               |
+| CarModelYear     | Number  | Model year (1957-2012 range)            |
+| CarMake          | Text    | Manufacturer (Audi, Toyota, Ford, etc.) |
+| CarModel         | Text    | Model name                              |
+| CarVIN           | Text    | Vehicle Identification Number           |
+| BodyColor        | Text    | Exterior color (hex code)               |
+| InteriorColor    | Text    | Interior color (hex code)               |
+| NeedsMaintenance | Boolean | Maintenance required flag               |
+| LastMaintenance  | Date    | Date of last maintenance                |
+| PhotoBase64      | Text    | Base64-encoded vehicle photo            |
 
 ## Car Makes Included
 

@@ -23,79 +23,79 @@ This component provides a unified interface for single line text, multiline text
 
 Configure the component using the `InputType` property:
 
-| Code | Type | Description |
-|------|------|-------------|
-| `txt` | Single Line Text | Standard text input for single line entries |
-| `txtx` | Multi-line Text | Expandable text area for longer content |
-| `drp` | Dropdown | Selection list with customizable items |
-| `dte` | Date Picker | Calendar-based date selection |
+| Code   | Type             | Description                                  |
+|--------|------------------|----------------------------------------------|
+| `txt`  | Single Line Text | Standard text input for single line entries |
+| `txtx` | Multi-line Text  | Expandable text area for longer content     |
+| `drp`  | Dropdown         | Selection list with customizable items      |
+| `dte`  | Date Picker      | Calendar-based date selection               |
 
 ## Custom Properties
 
 ### Core Configuration
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `InputType` | Text | `"txt"` | Input type: `txt`, `txtx`, `drp`, or `dte` |
-| `FieldName` | Text | `"Field Name"` | Label text displayed above the input |
-| `HintText` | Text | `""` | Placeholder text shown in empty text inputs |
-| `Tooltip` | Text | `""` | Tooltip text for accessibility and guidance |
-| `DisplayMode` | Text | `"Edit"` | Control mode: `"Edit"`, `"View"`, or `"Disabled"` |
-| `Required` | Boolean | `true` | Shows validation border when field is empty |
-| `Reset` | Boolean | `false` | Set to `true` to clear the input value |
-| `SpellCheck` | Boolean | `true` | Enable spell checking for text inputs |
-| `DropShadow` | Boolean | `true` | Show drop shadow effect on the input container |
+| Property      | Type    | Default        | Description                                         |
+|---------------|---------|----------------|-----------------------------------------------------|
+| `InputType`   | Text    | `"txt"`        | Input type: `txt`, `txtx`, `drp`, or `dte`         |
+| `FieldName`   | Text    | `"Field Name"` | Label text displayed above the input                |
+| `HintText`    | Text    | `""`           | Placeholder text shown in empty text inputs         |
+| `Tooltip`     | Text    | `""`           | Tooltip text for accessibility and guidance         |
+| `DisplayMode` | Text    | `"Edit"`       | Control mode: `"Edit"`, `"View"`, or `"Disabled"`  |
+| `Required`    | Boolean | `true`         | Shows validation border when field is empty         |
+| `Reset`       | Boolean | `false`        | Set to `true` to clear the input value             |
+| `SpellCheck`  | Boolean | `true`         | Enable spell checking for text inputs               |
+| `DropShadow`  | Boolean | `true`         | Show drop shadow effect on the input container      |
 
 ### Default Values
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `TextFieldDefault` | Text | `""` | Default value for text inputs (`txt` and `txtx`) |
-| `DropdownDefault` | Text | `"Red"` | Default selected value for dropdown |
-| `DateDefault` | Text | `Today()` | Default date for date picker |
-| `DropdownItems` | Table | `["", "Red", "Green", "Blue"]` | List of dropdown options |
+| Property           | Type  | Default                        | Description                                       |
+|--------------------|-------|--------------------------------|---------------------------------------------------|
+| `TextFieldDefault` | Text  | `""`                           | Default value for text inputs (`txt` and `txtx`) |
+| `DropdownDefault`  | Text  | `"Red"`                        | Default selected value for dropdown               |
+| `DateDefault`      | Text  | `Today()`                      | Default date for date picker                      |
+| `DropdownItems`    | Table | `["", "Red", "Green", "Blue"]` | List of dropdown options                          |
 
 ### Border Styling
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `BorderColor` | Color | `#30006F` | Normal border color |
-| `BorderColorRequired` | Color | `#EC008C` | Border color when required field is empty |
-| `BorderWidth` | Number | `1` | Border thickness in pixels |
-| `BorderRadius` | Number | `8` | Corner radius in pixels |
+| Property              | Type   | Default   | Description                               |
+|-----------------------|--------|-----------|-------------------------------------------|
+| `BorderColor`         | Color  | `#30006F` | Normal border color                       |
+| `BorderColorRequired` | Color  | `#EC008C` | Border color when required field is empty |
+| `BorderWidth`         | Number | `1`       | Border thickness in pixels                |
+| `BorderRadius`        | Number | `8`       | Corner radius in pixels                   |
 
 ### Color Styling
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `FillColor` | Color | `Color.White` | Background fill color of input |
-| `HoverFillColor` | Color | `ColorFade(cmp_Input.IconHoverColor, .95)` | Background color on hover |
-| `InputColor` | Color | `RGBA(0, 0, 0, 1)` | Text color for input values |
-| `FieldNameColor` | Color | `cmp_Input.IconColor` | Color of the field name label |
-| `IconColor` | Color | `#30006F` | Color for icons (dropdown chevron, date picker) |
-| `IconHoverColor` | Color | `#EC008C` | Icon color on hover |
-| `IconBackgroundColor` | Color | `Color.White` | Background color for icons |
-| `DropdownSelectionColor` | Color | `Color.White` | Text color for selected dropdown item |
+| Property                 | Type  | Default                                   | Description                                      |
+|--------------------------|-------|-------------------------------------------|--------------------------------------------------|
+| `FillColor`              | Color | `Color.White`                             | Background fill color of input                   |
+| `HoverFillColor`         | Color | `ColorFade(cmp_Input.IconHoverColor, .95)`| Background color on hover                        |
+| `InputColor`             | Color | `RGBA(0, 0, 0, 1)`                        | Text color for input values                      |
+| `FieldNameColor`         | Color | `cmp_Input.IconColor`                     | Color of the field name label                    |
+| `IconColor`              | Color | `#30006F`                                 | Color for icons (dropdown chevron, date picker)  |
+| `IconHoverColor`         | Color | `#EC008C`                                 | Icon color on hover                              |
+| `IconBackgroundColor`    | Color | `Color.White`                             | Background color for icons                       |
+| `DropdownSelectionColor` | Color | `Color.White`                             | Text color for selected dropdown item            |
 
 ### Font Styling
 
-| Property | Type | Default | Description |
-|----------|------|---------|-------------|
-| `Font` | Text | `"Montserrat"` | Font family for all text |
-| `InputFontSize` | Number | `13` | Font size for input values |
-| `FieldNameFontSize` | Number | `11` | Font size for field name label |
-| `FieldNameHeight` | Number | `28` | Height of the field name label area |
+| Property            | Type   | Default        | Description                          |
+|---------------------|--------|----------------|--------------------------------------|
+| `Font`              | Text   | `"Montserrat"` | Font family for all text             |
+| `InputFontSize`     | Number | `13`           | Font size for input values           |
+| `FieldNameFontSize` | Number | `11`           | Font size for field name label       |
+| `FieldNameHeight`   | Number | `28`           | Height of the field name label area  |
 
 ### Events
 
-| Property | Type | Description |
-|----------|------|-------------|
+| Property   | Type  | Description                                         |
+|------------|-------|-----------------------------------------------------|
 | `OnChange` | Event | Fires when the input value changes (dropdown only) |
 
 ### Output
 
-| Property | Type | Description |
-|----------|------|-------------|
+| Property | Type          | Description                                            |
+|----------|---------------|--------------------------------------------------------|
 | `aValue` | Text (Output) | Returns the current value of the active input control |
 
 ## Usage Examples

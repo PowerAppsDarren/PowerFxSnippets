@@ -22,17 +22,17 @@ A streamlined dataset of 5,000 employee records with essential information field
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| AutoNumber | Number | Sequential record identifier |
-| Name | Text | Full name combined |
-| FirstName | Text | Employee first name |
-| LastName | Text | Employee last name |
-| Email | Text | Email address |
-| Role | Text | Job title |
-| Location | Text | Work location |
-| Salary | Text | Salary amount with currency symbol |
-| Phone | Text | Phone number |
+| Column     | Type   | Description                          |
+|------------|--------|--------------------------------------|
+| AutoNumber | Number | Sequential record identifier         |
+| Name       | Text   | Full name combined                   |
+| FirstName  | Text   | Employee first name                  |
+| LastName   | Text   | Employee last name                   |
+| Email      | Text   | Email address                        |
+| Role       | Text   | Job title                            |
+| Location   | Text   | Work location                        |
+| Salary     | Text   | Salary amount with currency symbol   |
+| Phone      | Text   | Phone number                         |
 
 ## Use Cases
 
@@ -70,13 +70,13 @@ GroupBy(colEmployeeInfo, "Location", "Employees")
 
 ## Comparison with employee-5k.csv
 
-| Feature | employee-5k.csv | employeeinfo-5k.csv |
-|---------|-----------------|---------------------|
-| Columns | 15 | 9 |
-| Department | Yes | No |
-| Boolean Flags | Yes | No |
-| Notes Field | Yes | No |
-| DOB | Yes | No |
-| File Size | Larger | Smaller |
+| Feature       | employee-5k.csv | employeeinfo-5k.csv |
+|---------------|-----------------|---------------------|
+| Columns       | 15              | 9                   |
+| Department    | Yes             | No                  |
+| Boolean Flags | Yes             | No                  |
+| Notes Field   | Yes             | No                  |
+| DOB           | Yes             | No                  |
+| File Size     | Larger          | Smaller             |
 
 Use this dataset when you need a lighter-weight option for testing.

@@ -24,11 +24,11 @@ Educational resources for Power Platform and Power Apps development.
 
 ## Directory Structure
 
-| Folder | Description |
-|--------|-------------|
-| [tutorials/](./tutorials/) | Step-by-step learning tutorials |
-| [best-practices/](./best-practices/) | Development best practices and guidelines |
-| [certification/](./certification/) | Microsoft certification exam resources |
+| Folder                               | Description                                   |
+|--------------------------------------|-----------------------------------------------|
+| [tutorials/](./tutorials/)           | Step-by-step learning tutorials               |
+| [best-practices/](./best-practices/) | Development best practices and guidelines     |
+| [certification/](./certification/)   | Microsoft certification exam resources        |
 
 ## Tutorials
 

@@ -14,11 +14,11 @@ Whether it's a network timeout, a formula error, or a connector failure, you'll 
 
 ## ⚡ Quick Start
 
-| Step | Action | Where |
-|:----:|--------|-------|
-| 1 | Add **Office365Outlook** connector | Data → Add data |
-| 2 | Copy [configuration formulas](#step-1-configure-settings) | `App.Formulas` |
-| 3 | Copy [error handler code](#step-2-add-error-handler) | `App.OnError` |
+| Step | Action                                                      | Where             |
+|:----:|-------------------------------------------------------------|-------------------|
+| 1    | Add **Office365Outlook** connector                         | Data → Add data   |
+| 2    | Copy [configuration formulas](#step-1-configure-settings)  | `App.Formulas`    |
+| 3    | Copy [error handler code](#step-2-add-error-handler)       | `App.OnError`     |
 
 **That's it!** You'll receive email notifications for every unique error.
 
@@ -38,11 +38,11 @@ Error occurs → Generate signature → Already seen?
 
 **Result:** 60 errors → 2 emails (one per unique error type)
 
-| Scenario | Without This | With This |
-|----------|:------------:|:---------:|
-| Error A × 50 | 50 emails | 1 email |
-| Error B × 10 | 10 emails | 1 email |
-| **Total** | **60 emails** | **2 emails** |
+| Scenario     | Without This   | With This  |
+|--------------|:--------------:|:----------:|
+| Error A × 50 | 50 emails      | 1 email    |
+| Error B × 10 | 10 emails      | 1 email    |
+| **Total**    | **60 emails**  | **2 emails** |
 
 ---
 
@@ -103,12 +103,12 @@ An interactive HTML preview file is included so you can see and customize the em
 4. **Export to PowerFx:** Click **"📋 Copy PowerFx Colors"** to copy the `fxEmailColors` code
 5. **Paste in your app:** Replace the `fxEmailColors` record in your `App.Formulas`
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │  email-template-preview.html                                │
 │  ┌─────────────────────────────────────┐  ┌──────────────┐  │
 │  │                                     │  │ 🎨 Colors    │  │
-│  │   ⚠️ Error Alert                    │  │ [■] Header   │  │
+│  │    Error Alert!                     │  │ [■] Header   │  │
 │  │   ┌─────────────────────────────┐   │  │ [■] Badge    │  │
 │  │   │ John Doe    [3 errors]      │   │  │ [■] Button   │  │
 │  │   │ ─────────────────────────── │   │  │              │  │
@@ -123,16 +123,16 @@ An interactive HTML preview file is included so you can see and customize the em
 
 If you already know your brand colors, edit the `fxEmailColors` record directly:
 
-| Property | What It Controls | Default |
-|----------|------------------|---------|
-| `HeaderBg` | Top banner background | `#dc2626` (red) |
-| `HeaderText` | Banner text color | `#ffffff` (white) |
-| `CountBadgeBg` | Error count badge background | `#fef2f2` (light red) |
-| `CountBadgeText` | Error count badge text | `#dc2626` (red) |
-| `LinkColor` | "Open App" button | `#2563eb` (blue) |
-| `CardBg` | Main card background | `#ffffff` (white) |
-| `TableHeaderBg` | Table header row | `#f9fafb` (light gray) |
-| `FooterBg` | Summary footer | `#f3f4f6` (light gray) |
+| Property          | What It Controls              | Default                 |
+|-------------------|-------------------------------|-------------------------|
+| `HeaderBg`        | Top banner background         | `#dc2626` (red)         |
+| `HeaderText`      | Banner text color             | `#ffffff` (white)       |
+| `CountBadgeBg`    | Error count badge background  | `#fef2f2` (light red)   |
+| `CountBadgeText`  | Error count badge text        | `#dc2626` (red)         |
+| `LinkColor`       | "Open App" button             | `#2563eb` (blue)        |
+| `CardBg`          | Main card background          | `#ffffff` (white)       |
+| `TableHeaderBg`   | Table header row              | `#f9fafb` (light gray)  |
+| `FooterBg`        | Summary footer                | `#f3f4f6` (light gray)  |
 
 ### Color Theme Examples
 
@@ -510,12 +510,12 @@ The error handler logs to **Power Apps Monitor** so you can see exactly what's h
 
 **To open Monitor:** Power Apps Studio → Advanced tools (`Alt+T`) → Monitor → Play your app
 
-| Trace Event | What It Shows |
-|-------------|---------------|
-| `ErrorHandler: START` | How many errors came in, current screen, user |
-| `ErrorHandler: Processing Error` | Each error's signature and whether it's new |
-| `ErrorHandler: Pre-Email Check` | Will an email be sent? How many new errors? |
-| `ErrorHandler: Sending Email` | Email recipient, subject, error summary |
+| Trace Event                       | What It Shows                                     |
+|-----------------------------------|---------------------------------------------------|
+| `ErrorHandler: START`             | How many errors came in, current screen, user     |
+| `ErrorHandler: Processing Error`  | Each error's signature and whether it's new       |
+| `ErrorHandler: Pre-Email Check`   | Will an email be sent? How many new errors?       |
+| `ErrorHandler: Sending Email`     | Email recipient, subject, error summary           |
 
 <details>
 <summary>📋 Example Monitor Output</summary>
@@ -547,17 +547,17 @@ The error handler logs to **Power Apps Monitor** so you can see exactly what's h
 
 The error handler automatically creates this collection to track errors:
 
-| Field | Description |
-|-------|-------------|
-| `Signature` | Unique key: `Screen\|Source\|Message` |
-| `Screen` | Where the error occurred |
-| `Source` | Control or function that caused it |
-| `Kind` | Error type (Sync, Network, etc.) |
-| `Message` | The error message |
-| `Occurrences` | How many times this error happened |
-| `FirstOccurrence` / `LastOccurrence` | Timestamps |
-| `UserEmail` / `UsersName` | Who triggered the error |
-| `HttpResponse` / `HttpStatusCode` | API details (if applicable) |
+| Field                                 | Description                            |
+|---------------------------------------|----------------------------------------|
+| `Signature`                           | Unique key: `Screen\|Source\|Message`  |
+| `Screen`                              | Where the error occurred               |
+| `Source`                              | Control or function that caused it     |
+| `Kind`                                | Error type (Sync, Network, etc.)       |
+| `Message`                             | The error message                      |
+| `Occurrences`                         | How many times this error happened     |
+| `FirstOccurrence` / `LastOccurrence`  | Timestamps                             |
+| `UserEmail` / `UsersName`             | Who triggered the error                |
+| `HttpResponse` / `HttpStatusCode`     | API details (if applicable)            |
 
 ---
 
@@ -627,14 +627,14 @@ Clear(colErrorSignatures);
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
+| Date       | Author          | Changes                                                                                             |
+|------------|-----------------|-----------------------------------------------------------------------------------------------------|
 | 2025-12-17 | Claude Opus 4.5 | Added "Customizing the Email Design" section with visual preview instructions and 4 theme examples |
-| 2025-12-17 | Claude Opus 4.5 | Redesigned email template with modern styling: header banner, color-coded badges, card layout |
-| 2025-12-17 | Claude Opus 4.5 | Added `fxEmailColors` record for customizable email theming |
-| 2025-12-17 | Claude Opus 4.5 | Created `email-template-preview.html` for live preview and color customization |
-| 2025-12-17 | Claude Opus 4.5 | Rewrote documentation for clarity: added quick-start, visual flow diagram, collapsible sections |
-| 2025-12-17 | Claude Opus 4.5 | Added diagnostic logging with Trace() statements |
-| 2025-12-17 | Claude Opus 4.5 | Fixed multi-row email output with explicit ThisRecord references |
-| 2025-12-04 | Claude Opus 4.5 | Implemented v2.2 with signature-based deduplication |
-| 2025-12-04 | Claude Opus 4.5 | Added occurrence counting and full session reports |
+| 2025-12-17 | Claude Opus 4.5 | Redesigned email template with modern styling: header banner, color-coded badges, card layout      |
+| 2025-12-17 | Claude Opus 4.5 | Added `fxEmailColors` record for customizable email theming                                         |
+| 2025-12-17 | Claude Opus 4.5 | Created `email-template-preview.html` for live preview and color customization                     |
+| 2025-12-17 | Claude Opus 4.5 | Rewrote documentation for clarity: added quick-start, visual flow diagram, collapsible sections     |
+| 2025-12-17 | Claude Opus 4.5 | Added diagnostic logging with Trace() statements                                                   |
+| 2025-12-17 | Claude Opus 4.5 | Fixed multi-row email output with explicit ThisRecord references                                    |
+| 2025-12-04 | Claude Opus 4.5 | Implemented v2.2 with signature-based deduplication                                                 |
+| 2025-12-04 | Claude Opus 4.5 | Added occurrence counting and full session reports                                                  |

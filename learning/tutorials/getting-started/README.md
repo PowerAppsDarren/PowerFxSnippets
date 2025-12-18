@@ -31,11 +31,11 @@ The getting-started category is your launchpad for Power Fx development. Whether
 ## 🎯 Quick Access
 
 ### Most Popular
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [**Hello World**](./hello-world/basic-hello-world.md) | Your first Power Fx expression | Beginner |
-| [**Variable Basics**](./common-patterns/variable-declaration.md) | Understanding variables and scope | Beginner |
-| [**Simple Navigation**](./common-patterns/screen-navigation.md) | Moving between screens | Beginner |
+| Snippet                                                          | Description                        | Difficulty |
+|------------------------------------------------------------------|------------------------------------|------------|
+| [**Hello World**](./hello-world/basic-hello-world.md)           | Your first Power Fx expression     | Beginner   |
+| [**Variable Basics**](./common-patterns/variable-declaration.md) | Understanding variables and scope  | Beginner   |
+| [**Simple Navigation**](./common-patterns/screen-navigation.md)  | Moving between screens             | Beginner   |
 
 ### By Topic
 

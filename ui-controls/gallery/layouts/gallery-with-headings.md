@@ -137,6 +137,6 @@ A gallery layout featuring column headers for displaying structured data. Includ
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/ |
+| Date       | Author | Changes                                                 |
+|------------|----|-------------------------------------------------------------|
+| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/      |

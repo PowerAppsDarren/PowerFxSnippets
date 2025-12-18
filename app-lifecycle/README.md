@@ -29,11 +29,11 @@ This category focuses on application-level operations and lifecycle management i
 ## 🎯 Quick Access
 
 ### Most Popular
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [**App.OnStart Patterns**](../app-onstart/app-onstart.md) | Application initialization and startup logic | 🟢 |
-| [**App.OnError Handling**](../app-onerror/fxapponerror.yaml) | Global error management and user feedback | 🟡 |
-| [**Named Formulas**](./formulas/expressions/top-of-app-formulas.md) | Global formula organization and best practices | 🟡 |
+| Snippet                                                                | Description                                    | Difficulty |
+|------------------------------------------------------------------------|------------------------------------------------|------------|
+| [**App.OnStart Patterns**](../app-onstart/app-onstart.md)             | Application initialization and startup logic   | 🟢         |
+| [**App.OnError Handling**](../app-onerror/fxapponerror.yaml)          | Global error management and user feedback      | 🟡         |
+| [**Named Formulas**](./formulas/expressions/top-of-app-formulas.md)   | Global formula organization and best practices | 🟡         |
 
 ### By Difficulty
 

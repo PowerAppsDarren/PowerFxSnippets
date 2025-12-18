@@ -304,6 +304,6 @@ This formula calculates how many columns fit based on:
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/ |
+| Date       | Author | Changes                                                 |
+|------------|----|-------------------------------------------------------------|
+| 2025-12-17 | Claude | Converted from YAML to markdown, added to layouts/      |

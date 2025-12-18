@@ -25,12 +25,12 @@ An extended world countries list that includes not just sovereign nations but al
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| id | Number | Numeric ISO code |
-| alpha2 | Text | Two-letter code |
-| alpha3 | Text | Three-letter code |
-| name | Text | Full name |
+| Column | Type   | Description       |
+|--------|--------|-------------------|
+| id     | Number | Numeric ISO code  |
+| alpha2 | Text   | Two-letter code   |
+| alpha3 | Text   | Three-letter code |
+| name   | Text   | Full name         |
 
 ## Difference from countries.csv
 
@@ -71,10 +71,10 @@ Search(colWorld, txtSearch.Text, "name")
 
 ## When to Use Which File
 
-| Scenario | Recommended File |
-|----------|------------------|
-| Country of citizenship | countries.csv |
-| Shipping destinations | world.csv |
-| Political analysis | countries.csv |
-| Complete ISO reference | world.csv |
-| Simplified UI | countries.csv |
+| Scenario               | Recommended File |
+|------------------------|------------------|
+| Country of citizenship | countries.csv    |
+| Shipping destinations  | world.csv        |
+| Political analysis     | countries.csv    |
+| Complete ISO reference | world.csv        |
+| Simplified UI          | countries.csv    |

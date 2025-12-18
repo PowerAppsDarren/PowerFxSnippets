@@ -36,34 +36,34 @@ gallery/
 
 Gallery layout patterns for different data presentation needs:
 
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [Simple Gallery](layouts/simple-gallery.md) | Basic vertical gallery with selection | Beginner |
-| [Simple Elegant](layouts/simple-elegant.md) | Elegant gallery with header and badges | Intermediate |
-| [Gallery with Headings](layouts/gallery-with-headings.md) | Multi-column gallery with header row | Beginner |
-| [Responsive Gallery](layouts/responsive-gallery.md) | Responsive hero cards with auto wrap | Intermediate |
-| [Modern Cards](layouts/gallery-modern-cards.md) | Modern card layout with status indicators | Intermediate |
-| [Data Table](layouts/gallery-datatable.md) | Professional table with zebra striping | Intermediate |
-| [Timeline](layouts/gallery-timeline.md) | Chronological event timeline | Intermediate |
-| [Status Board](layouts/gallery-statusboard.md) | Kanban-style task board | Intermediate |
-| [Image Grid](layouts/gallery-imagegrid.md) | Responsive photo gallery grid | Intermediate |
+| Snippet                                                        | Description                                  | Difficulty   |
+|----------------------------------------------------------------|----------------------------------------------|--------------|
+| [Simple Gallery](layouts/simple-gallery.md)                   | Basic vertical gallery with selection        | Beginner     |
+| [Simple Elegant](layouts/simple-elegant.md)                   | Elegant gallery with header and badges       | Intermediate |
+| [Gallery with Headings](layouts/gallery-with-headings.md)     | Multi-column gallery with header row         | Beginner     |
+| [Responsive Gallery](layouts/responsive-gallery.md)           | Responsive hero cards with auto wrap         | Intermediate |
+| [Modern Cards](layouts/gallery-modern-cards.md)               | Modern card layout with status indicators    | Intermediate |
+| [Data Table](layouts/gallery-datatable.md)                    | Professional table with zebra striping       | Intermediate |
+| [Timeline](layouts/gallery-timeline.md)                       | Chronological event timeline                 | Intermediate |
+| [Status Board](layouts/gallery-statusboard.md)                | Kanban-style task board                      | Intermediate |
+| [Image Grid](layouts/gallery-imagegrid.md)                    | Responsive photo gallery grid                | Intermediate |
 
 ### Styling (`styling/`)
 
 Visual styling patterns and techniques:
 
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [Alternating Row Colors](styling/alternating-row-colors.md) | Zebra striping using Mod function | Intermediate |
-| [ASCII Checkerboard](styling/asciicodecheckerboard.md) | Checkerboard pattern with ASCII codes | Intermediate |
+| Snippet                                                         | Description                             | Difficulty   |
+|-----------------------------------------------------------------|-----------------------------------------|--------------|
+| [Alternating Row Colors](styling/alternating-row-colors.md)    | Zebra striping using Mod function       | Intermediate |
+| [ASCII Checkerboard](styling/asciicodecheckerboard.md)         | Checkerboard pattern with ASCII codes   | Intermediate |
 
 ### Interactions (`interactions/`)
 
 User interaction and behavior patterns:
 
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [Nested Galleries](interactions/nested-galleries.md) | Parent-child gallery relationships | Intermediate |
+| Snippet                                                  | Description                          | Difficulty   |
+|----------------------------------------------------------|--------------------------------------|--------------|
+| [Nested Galleries](interactions/nested-galleries.md)    | Parent-child gallery relationships   | Intermediate |
 
 ## Visual Examples
 

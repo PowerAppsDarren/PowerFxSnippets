@@ -208,9 +208,9 @@ Hello, World!
 
 ## 📊 Version History
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2024-11-17 | Initial release with basic examples |
+| Version | Date       | Changes                              |
+|---------|------------|--------------------------------------|
+| 1.0.0   | 2024-11-17 | Initial release with basic examples  |
 
 ---
 

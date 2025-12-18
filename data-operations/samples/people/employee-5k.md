@@ -25,23 +25,23 @@ A comprehensive dataset of 5,000 mock employee records suitable for testing HR a
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| AutoNumber | Number | Sequential record identifier |
-| FullName | Text | Employee full name |
-| FirstName | Text | Employee first name |
-| LastName | Text | Employee last name |
-| Email | Text | Work email address |
-| Role | Text | Job title/role |
-| Location | Text | Work location/city |
-| Salary | Text | Salary with currency code |
-| Phone | Text | Phone number |
-| Department | Text | Department name |
-| IsActive | Boolean | Active employee status |
-| IsManager | Boolean | Manager status flag |
-| IsAdmin | Boolean | Admin privileges flag |
-| DOB | DateTime | Date of birth |
-| Notes | Text | Additional notes (may contain special characters) |
+| Column     | Type     | Description                                        |
+|------------|----------|----------------------------------------------------|
+| AutoNumber | Number   | Sequential record identifier                       |
+| FullName   | Text     | Employee full name                                 |
+| FirstName  | Text     | Employee first name                                |
+| LastName   | Text     | Employee last name                                 |
+| Email      | Text     | Work email address                                 |
+| Role       | Text     | Job title/role                                     |
+| Location   | Text     | Work location/city                                 |
+| Salary     | Text     | Salary with currency code                          |
+| Phone      | Text     | Phone number                                       |
+| Department | Text     | Department name                                    |
+| IsActive   | Boolean  | Active employee status                             |
+| IsManager  | Boolean  | Manager status flag                                |
+| IsAdmin    | Boolean  | Admin privileges flag                              |
+| DOB        | DateTime | Date of birth                                      |
+| Notes      | Text     | Additional notes (may contain special characters)  |
 
 ## Departments Included
 

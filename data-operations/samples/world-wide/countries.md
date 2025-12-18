@@ -25,12 +25,12 @@ A comprehensive list of world countries with their ISO alpha-2 and alpha-3 codes
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| id | Number | Numeric country code (ISO 3166-1) |
-| alpha2 | Text | Two-letter country code (e.g., "us") |
-| alpha3 | Text | Three-letter country code (e.g., "usa") |
-| name | Text | Full country name |
+| Column | Type   | Description                                |
+|--------|--------|--------------------------------------------|
+| id     | Number | Numeric country code (ISO 3166-1)          |
+| alpha2 | Text   | Two-letter country code (e.g., "us")       |
+| alpha3 | Text   | Three-letter country code (e.g., "usa")    |
+| name   | Text   | Full country name                          |
 
 ## Use Cases
 

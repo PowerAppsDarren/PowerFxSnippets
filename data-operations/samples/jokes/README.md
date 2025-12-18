@@ -4,10 +4,10 @@ A collection of family-friendly joke datasets for testing and entertainment appl
 
 ## Contents
 
-| File | Description |
-|------|-------------|
-| `dadjoke.csv` | Collection of classic dad jokes |
-| `dadjoke.md` | Dataset documentation |
+| File          | Description                      |
+|---------------|----------------------------------|
+| `dadjoke.csv` | Collection of classic dad jokes  |
+| `dadjoke.md`  | Dataset documentation            |
 
 ## Dataset Details
 

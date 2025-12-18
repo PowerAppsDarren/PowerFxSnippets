@@ -4,11 +4,11 @@ Sample datasets and links from FiveThirtyEight, the statistical analysis and dat
 
 ## Contents
 
-| File | Description |
-|------|-------------|
-| `index.csv` | Index of available 538 datasets with URLs |
-| `538-data.md` | Original overview documentation |
-| `index.md` | Detailed dataset documentation |
+| File          | Description                             |
+|---------------|-----------------------------------------|
+| `index.csv`   | Index of available 538 datasets with URLs|
+| `538-data.md` | Original overview documentation         |
+| `index.md`    | Detailed dataset documentation          |
 
 ## About FiveThirtyEight Data
 

@@ -22,12 +22,12 @@ Reusable UI patterns and components for Power Apps canvas applications.
 
 ## Directory Structure
 
-| Folder | Description |
-|--------|-------------|
+| Folder                       | Description                                                  |
+|------------------------------|--------------------------------------------------------------|
 | [components/](./components/) | Reusable Power Apps components (custom and code components) |
-| [dialogs/](./dialogs/) | Dialog and modal patterns |
-| [menus/](./menus/) | Navigation and menu patterns |
-| [theming/](./theming/) | Theming and styling patterns |
+| [dialogs/](./dialogs/)       | Dialog and modal patterns                                    |
+| [menus/](./menus/)           | Navigation and menu patterns                                 |
+| [theming/](./theming/)       | Theming and styling patterns                                 |
 
 ## Components
 

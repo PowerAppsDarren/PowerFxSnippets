@@ -15,9 +15,9 @@ When adding or updating any `.md` file in this repository:
    ```markdown
    ## History
 
-   | Date | Author | Changes |
-   |------|--------|---------|
-   | YYYY-MM-DD | Author Name | Brief description of changes |
+   | Date       | Author      | Changes                          |
+   |------------|-------------|----------------------------------|
+   | YYYY-MM-DD | Author Name | Brief description of changes     |
    ```
 3. Add new entries at the **top** of the table (most recent first)
 

@@ -4,10 +4,10 @@ Automotive and fleet management sample datasets.
 
 ## Contents
 
-| File | Description | Rows |
-|------|-------------|------|
+| File           | Description                   | Rows    |
+|----------------|-------------------------------|---------|
 | `car-data.csv` | Comprehensive vehicle records | 50,000+ |
-| `car-data.md` | Dataset documentation | - |
+| `car-data.md`  | Dataset documentation         | -       |
 
 ## Dataset Features
 

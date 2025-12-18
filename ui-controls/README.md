@@ -29,11 +29,11 @@ This category focuses on control-specific implementations and patterns in Power 
 ## 🎯 Quick Access
 
 ### Most Popular
-| Snippet | Description | Difficulty |
-|---------|-------------|------------|
-| [**Simple Gallery Layout**](./gallery/layouts/simple-gallery.md) | Basic gallery setup with filtering | 🟢 |
-| [**DataCard Customization**](./datacard/DataCard.md) | Form datacard styling and behavior | 🟡 |
-| [**Text Input Validation**](./text-input/code-editor.md) | Input validation patterns | 🟡 |
+| Snippet                                                           | Description                          | Difficulty |
+|-------------------------------------------------------------------|--------------------------------------|------------|
+| [**Simple Gallery Layout**](./gallery/layouts/simple-gallery.md) | Basic gallery setup with filtering   | 🟢         |
+| [**DataCard Customization**](./datacard/DataCard.md)             | Form datacard styling and behavior   | 🟡         |
+| [**Text Input Validation**](./text-input/code-editor.md)         | Input validation patterns            | 🟡         |
 
 ### By Difficulty
 

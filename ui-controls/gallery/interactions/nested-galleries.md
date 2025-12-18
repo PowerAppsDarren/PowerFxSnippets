@@ -119,6 +119,6 @@ This snippet demonstrates nested galleries with parent-child relationships and d
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
+| Date       | Author | Changes                          |
+|------------|--------|----------------------------------|
 | 2025-12-17 | Claude | Moved to interactions/ subfolder |

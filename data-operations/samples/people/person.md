@@ -24,24 +24,24 @@ A large-scale person dataset with extensive identity information including secur
 
 ## Columns
 
-| Column | Type | Description |
-|--------|------|-------------|
-| Identifier | Number | Sequential identifier |
-| GUID | GUID | Unique identifier |
-| FirstName | Text | Person's first name |
-| LastName | Text | Person's last name |
-| EmailAddress | Text | Primary email |
-| AlternateEmail | Text | Secondary email |
-| PhoneNumber | Text | Phone with country code |
-| ImageURL | URL | Link to placeholder image |
-| Base64ImageURL | Text | Base64-encoded image data |
-| BirthDate | DateTime | Date of birth |
-| IsManager | Boolean | Manager status |
-| IsAdmin | Boolean | Admin status |
-| Notes | Text | Additional notes |
-| PassPhrase | Text | Sample passphrase hash |
-| Password | Text | Sample password (mock data) |
-| CountryCode | Text | Two-letter country code |
+| Column         | Type     | Description                      |
+|----------------|----------|----------------------------------|
+| Identifier     | Number   | Sequential identifier            |
+| GUID           | GUID     | Unique identifier                |
+| FirstName      | Text     | Person's first name              |
+| LastName       | Text     | Person's last name               |
+| EmailAddress   | Text     | Primary email                    |
+| AlternateEmail | Text     | Secondary email                  |
+| PhoneNumber    | Text     | Phone with country code          |
+| ImageURL       | URL      | Link to placeholder image        |
+| Base64ImageURL | Text     | Base64-encoded image data        |
+| BirthDate      | DateTime | Date of birth                    |
+| IsManager      | Boolean  | Manager status                   |
+| IsAdmin        | Boolean  | Admin status                     |
+| Notes          | Text     | Additional notes                 |
+| PassPhrase     | Text     | Sample passphrase hash           |
+| Password       | Text     | Sample password (mock data)      |
+| CountryCode    | Text     | Two-letter country code          |
 
 ## Use Cases
 
