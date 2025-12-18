@@ -1,9 +1,14 @@
 ---
 title: "Canvas Control"
 description: "FluidGrid canvas control examples, including one with Data Cards."
-category: "Controls"
+category: "ui-controls"
+subcategory: "canvas"
 tags: ["canvas", "fluidgrid", "layout", "responsive"]
 difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19

@@ -12,6 +12,8 @@ tags:
 difficulty: intermediate
 products:
   - power-apps-canvas
+dependencies: []
+related: []
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-01-01
@@ -21,7 +23,7 @@ updated: 2024-01-01
 
 In order to do alternating row colors in a Power Apps gallery control, you can use the following code to produce a great example on how to do this. This formula will alternate between two colors based on the index of the gallery item. You can replace the colors with your own as needed.
 
-How do we determine if a row should be 1 color or another? We use the [Mod](https://powerplatformlinks.com/Power+Apps/Canvas/Functions/Mod) function to determine if the index of the gallery item is even or odd. If it's even, we use one color, if it's odd, we use another. 
+How do we determine if a row should be 1 color or another? We use the [Mod](https://powerplatformlinks.com/Power+Apps/Canvas/Functions/Mod) function to determine if the index of the gallery item is even or odd. If it's even, we use one color, if it's odd, we use another.
 
 Here's the YAML code to paste into a screen in Power Apps Studio:
 
@@ -99,22 +101,22 @@ Here's the YAML code to paste into a screen in Power Apps Studio:
                 {
                     Data: CustomGallerySample,
                     RecordCount: CountRows(CustomGallerySample)
-                }, 
+                },
                 ForAll(
-                    Sequence(RecordCount * 2) As OrdinalPosition, 
+                    Sequence(RecordCount * 2) As OrdinalPosition,
                     AddColumns(
                         Index(
-                            Data, 
+                            Data,
                             If(
-                                OrdinalPosition.Value > RecordCount, 
-                                OrdinalPosition.Value - RecordCount, 
+                                OrdinalPosition.Value > RecordCount,
+                                OrdinalPosition.Value - RecordCount,
                                 OrdinalPosition.Value
                             )
-                        ), 
+                        ),
                         OrderNumber, OrdinalPosition.Value,
                         TemplateFill,   If(
-                                            Mod(OrdinalPosition.Value, 2) = 0, 
-                                            Color.White, 
+                                            Mod(OrdinalPosition.Value, 2) = 0,
+                                            Color.White,
                                             ColorFade(App.Theme.Colors.Lighter80, 50%)
                                         )
                     )
@@ -160,14 +162,14 @@ Here's the YAML code to paste into a screen in Power Apps Studio:
             Properties:
               OnSelect: =Select(Parent)
               Text: |-
-                =Concat( 
+                =Concat(
                     FirstN(
                         Split(
-                            ThisItem.SampleHeading, 
-                            " " 
+                            ThisItem.SampleHeading,
+                            " "
                         ),
                         2
-                    ) As MyRecord, 
+                    ) As MyRecord,
                     MyRecord.Value & " "
                 ) & ThisItem.OrderNumber
               Height: =Parent.TemplateHeight
@@ -191,6 +193,7 @@ Here's the YAML code to paste into a screen in Power Apps Studio:
 
 
 ---
+
 
 ## History
 

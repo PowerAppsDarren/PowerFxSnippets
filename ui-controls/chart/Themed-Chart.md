@@ -1,9 +1,14 @@
 ---
 title: "Themed Chart Control"
 description: "A themed BarChart control inside a container with custom styling."
-category: "Controls"
+category: "ui-controls"
+subcategory: "chart"
 tags: ["chart", "bar-chart", "theme", "visualization"]
 difficulty: intermediate
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
@@ -36,10 +41,10 @@ license: "MIT"
           Height: =Parent.Height - Self.X * 1.5
           ItemColorSet: |-
             =[
-                App.Theme.Colors.Primary, 
-                App.Theme.Colors.Lighter30, 
-                App.Theme.Colors.Darker30, 
-                App.Theme.Colors.Lighter60, 
+                App.Theme.Colors.Primary,
+                App.Theme.Colors.Lighter30,
+                App.Theme.Colors.Darker30,
+                App.Theme.Colors.Lighter60,
                 App.Theme.Colors.Lighter10
             ]
           ItemsGap: =15

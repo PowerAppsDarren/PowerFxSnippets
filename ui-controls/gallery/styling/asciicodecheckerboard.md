@@ -12,6 +12,8 @@ tags:
 difficulty: intermediate
 products:
   - power-apps-canvas
+dependencies: []
+related: []
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-01-01
@@ -34,7 +36,7 @@ will look like a black and white checkerboard.
       Items: |-
         =ForAll(
             //
-            // 33 is !
+            // 33 is!
             // 126 is ~
             // These two numbers mark the beginning and end of the
             // characters we're interested in!

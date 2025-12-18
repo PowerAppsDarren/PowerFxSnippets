@@ -1,9 +1,14 @@
 ---
 title: "Add Media Control"
 description: "A styled Add Media button control for uploading images."
-category: "Controls"
+category: "ui-controls"
+subcategory: "add-media"
 tags: ["media", "upload", "image", "button"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19

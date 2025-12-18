@@ -1,9 +1,14 @@
 ---
 title: "Naming Controls Guidelines"
 description: "Best practices and rules for naming controls in Power Apps."
-category: "Controls"
+category: "ui-controls"
+subcategory: "naming-controls"
 tags: ["naming", "best-practices", "standards", "conventions"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
@@ -14,7 +19,7 @@ license: "MIT"
 
 - [A better reading experience](https://powerplatformlinks.com/Power+Apps/Canvas/Naming+Controls).
 
-The names and scope of all control names in canvas Power Apps are global! This means that if you have a control named "txtFirstName" in one screen, you cannot have another control with the same name in another screen. The name "txtFirstName" is reserved for the first control you created with that name, and you cannot use it for another control. This rule applies to all control names, regardless of the control type or the screen it's on. It is for this reason, it's a good practice to use unique and descriptive names for your controls to avoid any confusion or errors in your app. This may mean including some of the screen name or the screen's purpose in the controls for that particular screen (minus any spaces or the word "Screen" - which developers are encouraged to use in screen names). For example, "txt_Customer_FirstName" or "btn_NewOrder_Submit". 
+The names and scope of all control names in canvas Power Apps are global! This means that if you have a control named "txtFirstName" in one screen, you cannot have another control with the same name in another screen. The name "txtFirstName" is reserved for the first control you created with that name, and you cannot use it for another control. This rule applies to all control names, regardless of the control type or the screen it's on. It is for this reason, it's a good practice to use unique and descriptive names for your controls to avoid any confusion or errors in your app. This may mean including some of the screen name or the screen's purpose in the controls for that particular screen (minus any spaces or the word "Screen" - which developers are encouraged to use in screen names). For example, "txt_Customer_FirstName" or "btn_NewOrder_Submit".
 
 Control names also have specific rules regarding allowed and disallowed characters. Here's a breakdown of the naming conventions for control names in canvas Power Apps:
 
@@ -60,5 +65,3 @@ Citations:
 [3] https://www.c-sharpcorner.com/article/prevent-special-characters-in-powerapps-forms/
 [4] https://www.microsoft.com/en-us/power-platform/blog/power-apps/powerapps-canvas-app-coding-standards-and-guidelines/
 [5] https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-readability
-
-

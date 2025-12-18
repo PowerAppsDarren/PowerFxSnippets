@@ -1,9 +1,14 @@
 ---
 title: "Spacer Rectangle"
 description: "A rectangle control used as a visual spacer or guide during development."
-category: "Controls"
+category: "ui-controls"
+subcategory: "rectangle"
 tags: ["rectangle", "spacer", "layout", "guide"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
@@ -31,5 +36,3 @@ This is a helpful canvas Power Apps code snippet.
       X: =Parent.Width - Self.Width
       Y: =Parent.Height - Self.Height
 ```
-
-

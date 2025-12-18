@@ -1,9 +1,14 @@
 ---
 title: "Attachment Control"
 description: "Examples of basic and advanced Attachment controls with accessibility and styling."
-category: "Controls"
+category: "ui-controls"
+subcategory: "attachment"
 tags: ["attachments", "files", "upload", "accessibility"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19

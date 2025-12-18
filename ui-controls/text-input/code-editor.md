@@ -1,9 +1,14 @@
 ---
 title: "Code Editor Input"
 description: "A multi-line text input styled as a code editor with monospaced font."
-category: "Controls"
+category: "ui-controls"
+subcategory: "text-input"
 tags: ["text-input", "code", "editor", "ui"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
@@ -20,7 +25,7 @@ This is some YAML you can paste into your canvas Power Apps applciation that wil
 - txtCodeEditor:
     Control: Classic/TextInput
     Properties:
-      Default: |-
+      Default: |-)
         ="- CONTROL_NAME_GOES_HERE:
             Control: Button"
       Clear: =true
@@ -39,5 +44,3 @@ This is some YAML you can paste into your canvas Power Apps applciation that wil
       X: =20
       Y: =20
 ```
-
-

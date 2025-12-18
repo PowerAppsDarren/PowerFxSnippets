@@ -1,9 +1,14 @@
 ---
 title: "Drop Down List Video"
 description: "Video tutorial on using Drop Down Lists in Power Apps."
-category: "Controls"
+category: "ui-controls"
+subcategory: "drop-down-list"
 tags: ["dropdown", "video", "tutorial", "input"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19

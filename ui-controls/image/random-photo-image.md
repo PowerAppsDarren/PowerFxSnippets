@@ -1,9 +1,14 @@
 ---
 title: "Random Profile Photo"
 description: "An Image control that displays a random person's face using an external service."
-category: "Controls"
+category: "ui-controls"
+subcategory: "image"
 tags: ["image", "random", "profile", "avatar"]
 difficulty: beginner
+products:
+  - power-apps-canvas
+dependencies: []
+related: []
 author: "Darren Neese"
 created: 2025-11-19
 updated: 2025-11-19
