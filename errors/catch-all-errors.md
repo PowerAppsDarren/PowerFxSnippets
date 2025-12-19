@@ -26,23 +26,51 @@ Whether it's a network timeout, a formula error, or a connector failure, you'll 
 
 ## How It Works
 
-```
-Error occurs → Generate signature → Already seen?
-                                         ↓
-                    ┌────────────────────┴────────────────────┐
-                    │ NO (new error)                          │ YES (repeat)
-                    │ • Add to collection                     │ • Increment counter
-                    │ • Send email with full summary          │ • No email
-                    └─────────────────────────────────────────┘
+### Deduplication + Cooldown
+
+The error handler uses **signature-based deduplication** combined with a **time-based cooldown** to balance two needs:
+1. **Don't flood your inbox** when errors loop rapidly
+2. **Do notify you again** when errors recur later
+
+```mermaid
+flowchart TD
+    A[🔴 Error Occurs] --> B{Generate Signature<br/>Screen | Source | Message}
+    B --> C{Seen Before?}
+
+    C -->|No - New Error| D[Add to Collection<br/>Set LastEmailSentTime = Now]
+    D --> E[✅ SEND EMAIL]
+
+    C -->|Yes - Existing| F{Cooldown Elapsed?<br/>Now - LastEmailSentTime >= 10s}
+    F -->|No| G[Increment Counter Only<br/>❌ No Email]
+    F -->|Yes| H[Update LastEmailSentTime = Now]
+    H --> E
+
+    style A fill:#fee2e2
+    style E fill:#dcfce7
+    style G fill:#fef3c7
 ```
 
-**Result:** 60 errors → 2 emails (one per unique error type)
+### What the Cooldown Does
 
-| Scenario     | Without This   | With This  |
-|--------------|:--------------:|:----------:|
-| Error A × 50 | 50 emails      | 1 email    |
-| Error B × 10 | 10 emails      | 1 email    |
-| **Total**    | **60 emails**  | **2 emails** |
+| Time | Event | Email Sent? | Why |
+|------|-------|:-----------:|-----|
+| 10:00:00 | Error A occurs (new) | ✅ Yes | First occurrence |
+| 10:00:00.1 | Error A occurs again | ❌ No | Within 10s cooldown |
+| 10:00:00.2 | Error A occurs again | ❌ No | Within 10s cooldown |
+| 10:00:05 | Error A occurs again | ❌ No | Within 10s cooldown |
+| **10:00:15** | **Error A occurs again** | **✅ Yes** | **Cooldown elapsed!** |
+| 10:00:16 | Error A occurs again | ❌ No | New cooldown started |
+
+### Result: Smart Email Grouping
+
+| Scenario | Without Cooldown | With 10s Cooldown |
+|----------|:----------------:|:-----------------:|
+| 100 errors in 1 second | 1 email | 1 email ✓ |
+| Same error 5 seconds later | No email | No email ✓ |
+| Same error 30 seconds later | No email | **New email** ✓ |
+| Different error anytime | New email | New email ✓ |
+
+> 💡 **Configure the cooldown** in `App.Formulas` with `fxErrorEmailCooldownSeconds`. Default is 10 seconds. Set to `0` to only email once per unique error (never re-email).
 
 ---
 
@@ -63,6 +91,12 @@ fxApplicationName = "My Power App";
 
 // 🔗 App URL (Player or Studio link from make.powerapps.com)
 fxApplicationURL = "https://apps.powerapps.com/";
+
+// ⏱️ Cooldown before same error can trigger another email (in seconds)
+// After an email is sent for an error, wait this long before sending another
+// for the same error. Prevents email floods while allowing recurring error alerts.
+// Set to 0 to only email once per unique error (original behavior).
+fxErrorEmailCooldownSeconds = 10;
 
 // 🎨 Email theme colors (customize to match your brand)
 fxEmailColors = {
@@ -288,31 +322,45 @@ With(
                 Collect(
                     colErrorSignatures,
                     {
-                        Signature:       ErrSignature,
-                        Screen:          ScreenName,
-                        Source:          Text(Err.Source),
-                        Kind:            Text(Err.Kind),
-                        Message:         Text(Err.Message),
-                        Observed:        Text(Err.Observed),
-                        HttpResponse:    Text(Err.Details.HttpResponse),
-                        HttpStatusCode:  Text(Err.Details.HttpStatusCode),
-                        Occurrences:     1,
-                        FirstOccurrence: Text(CurrentTime, "MM/dd/yyyy hh:mm:ss AM/PM"),
-                        LastOccurrence:  Text(CurrentTime, "MM/dd/yyyy hh:mm:ss AM/PM"),
-                        UserEmail:       MyUsersEmail,
-                        UsersName:       MyUsersName
+                        Signature:         ErrSignature,
+                        Screen:            ScreenName,
+                        Source:            Text(Err.Source),
+                        Kind:              Text(Err.Kind),
+                        Message:           Text(Err.Message),
+                        Observed:          Text(Err.Observed),
+                        HttpResponse:      Text(Err.Details.HttpResponse),
+                        HttpStatusCode:    Text(Err.Details.HttpStatusCode),
+                        Occurrences:       1,
+                        FirstOccurrence:   Text(CurrentTime, "MM/dd/yyyy hh:mm:ss AM/PM"),
+                        LastOccurrence:    Text(CurrentTime, "MM/dd/yyyy hh:mm:ss AM/PM"),
+                        LastEmailSentTime: CurrentTime,    // Track when email was sent for cooldown
+                        UserEmail:         MyUsersEmail,
+                        UsersName:         MyUsersName
                     }
                 ),
                 // ═══════════════════════════════════════════════════════════
-                // EXISTING ERROR - Just increment counter, NO EMAIL
+                // EXISTING ERROR - Increment counter, check cooldown for re-email
                 // ═══════════════════════════════════════════════════════════
-                Patch(
-                    colErrorSignatures,
-                    LookUp(colErrorSignatures, Signature = ErrSignature),
+                With(
                     {
-                        Occurrences:    LookUp(colErrorSignatures, Signature = ErrSignature).Occurrences + 1,
-                        LastOccurrence: Text(CurrentTime, "MM/dd/yyyy hh:mm:ss AM/PM")
-                    }
+                        ExistingRecord: LookUp(colErrorSignatures, Signature = ErrSignature),
+                        CooldownElapsed: fxErrorEmailCooldownSeconds > 0 And
+                            DateDiff(
+                                LookUp(colErrorSignatures, Signature = ErrSignature).LastEmailSentTime,
+                                CurrentTime,
+                                TimeUnit.Seconds
+                            ) >= fxErrorEmailCooldownSeconds
+                    },
+                    Patch(
+                        colErrorSignatures,
+                        ExistingRecord,
+                        {
+                            Occurrences:       ExistingRecord.Occurrences + 1,
+                            LastOccurrence:    Text(CurrentTime, "MM/dd/yyyy hh:mm:ss AM/PM"),
+                            // Update LastEmailSentTime if cooldown elapsed (triggers email)
+                            LastEmailSentTime: If(CooldownElapsed, CurrentTime, ExistingRecord.LastEmailSentTime)
+                        }
+                    )
                 )
             )
         )
@@ -327,15 +375,17 @@ With(
             CountBefore: CountBefore,
             CountAfter: CountRows(colErrorSignatures),
             NewErrorsAdded: CountRows(colErrorSignatures) - CountBefore,
-            WillSendEmail: CountRows(colErrorSignatures) > CountBefore,
+            ErrorsNeedingEmail: CountIf(colErrorSignatures, LastEmailSentTime = CurrentTime),
+            WillSendEmail: CountIf(colErrorSignatures, LastEmailSentTime = CurrentTime) > 0,
             TotalOccurrences: Sum(colErrorSignatures, Occurrences)
         }
     );
     // ═══════════════════════════════════════════════════════════════════════
-    // ONLY SEND EMAIL IF NEW UNIQUE ERROR(S) WERE ADDED
+    // SEND EMAIL IF: New error added OR existing error's cooldown elapsed
+    // (Any error with LastEmailSentTime = CurrentTime triggers email)
     // ═══════════════════════════════════════════════════════════════════════
     If(
-        CountRows(colErrorSignatures) > CountBefore,
+        CountIf(colErrorSignatures, LastEmailSentTime = CurrentTime) > 0,
         // ═══════════════════════════════════════════════════════════════════════
         // DIAGNOSTIC: Log email content details
         // ═══════════════════════════════════════════════════════════════════════
@@ -529,12 +579,24 @@ The error handler logs to **Power Apps Monitor** so you can see exactly what's h
     IsNew: true, Kind: "Network"
 
 [Information] ErrorHandler: Pre-Email Check
-    CountBefore: 0, CountAfter: 1, WillSendEmail: true
+    CountBefore: 0, CountAfter: 1
+    ErrorsNeedingEmail: 1, WillSendEmail: true
 
 [Warning] ErrorHandler: Sending Email
     To: "admin@domain.com"
     UniqueErrorCount: 1
     ErrorSummary: "HomeScreen: Network error (1×)"
+```
+
+**Cooldown in action:**
+```
+[Information] ErrorHandler: Pre-Email Check
+    CountBefore: 1, CountAfter: 1
+    ErrorsNeedingEmail: 0, WillSendEmail: false   ← Same error, still in cooldown
+
+[Information] ErrorHandler: Pre-Email Check
+    CountBefore: 1, CountAfter: 1
+    ErrorsNeedingEmail: 1, WillSendEmail: true    ← Cooldown elapsed, re-sending!
 ```
 
 </details>
@@ -547,17 +609,18 @@ The error handler logs to **Power Apps Monitor** so you can see exactly what's h
 
 The error handler automatically creates this collection to track errors:
 
-| Field                                 | Description                            |
-|---------------------------------------|----------------------------------------|
-| `Signature`                           | Unique key: `Screen\|Source\|Message`  |
-| `Screen`                              | Where the error occurred               |
-| `Source`                              | Control or function that caused it     |
-| `Kind`                                | Error type (Sync, Network, etc.)       |
-| `Message`                             | The error message                      |
-| `Occurrences`                         | How many times this error happened     |
-| `FirstOccurrence` / `LastOccurrence`  | Timestamps                             |
-| `UserEmail` / `UsersName`             | Who triggered the error                |
-| `HttpResponse` / `HttpStatusCode`     | API details (if applicable)            |
+| Field                                | Type     | Description                                    |
+|--------------------------------------|----------|------------------------------------------------|
+| `Signature`                          | Text     | Unique key: `Screen\|Source\|Message`          |
+| `Screen`                             | Text     | Where the error occurred                       |
+| `Source`                             | Text     | Control or function that caused it             |
+| `Kind`                               | Text     | Error type (Sync, Network, etc.)               |
+| `Message`                            | Text     | The error message                              |
+| `Occurrences`                        | Number   | How many times this error happened             |
+| `FirstOccurrence` / `LastOccurrence` | Text     | Timestamps (formatted strings)                 |
+| `LastEmailSentTime`                  | DateTime | When an email was last sent for this error     |
+| `UserEmail` / `UsersName`            | Text     | Who triggered the error                        |
+| `HttpResponse` / `HttpStatusCode`    | Text     | API details (if applicable)                    |
 
 ---
 
@@ -629,6 +692,9 @@ Clear(colErrorSignatures);
 
 | Date       | Author          | Changes                                                                                             |
 |------------|-----------------|-----------------------------------------------------------------------------------------------------|
+| 2025-12-18 | Claude Opus 4.5 | Added time-based cooldown feature with `fxErrorEmailCooldownSeconds` config (default 10s)           |
+| 2025-12-18 | Claude Opus 4.5 | Added `LastEmailSentTime` field to collection for cooldown tracking                                 |
+| 2025-12-18 | Claude Opus 4.5 | Rewrote "How It Works" section with Mermaid flowchart and cooldown examples                         |
 | 2025-12-17 | Claude Opus 4.5 | Added "Customizing the Email Design" section with visual preview instructions and 4 theme examples |
 | 2025-12-17 | Claude Opus 4.5 | Redesigned email template with modern styling: header banner, color-coded badges, card layout      |
 | 2025-12-17 | Claude Opus 4.5 | Added `fxEmailColors` record for customizable email theming                                         |

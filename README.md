@@ -56,6 +56,7 @@ The existing organization remains functional during migration:
 - [**📋 Contribution Guide**](./CONTRIBUTING.md) - How to add your own snippets
 - [**🔧 Tools & Utilities**](./tools/) - Helper scripts and utilities
 - [**📚 Documentation**](./docs/) - Detailed guides and references
+- [**⚠️ Power Fx Gotchas**](./Reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
 - [**🏛️ Code of Conduct**](./CODE_OF_CONDUCT.md) - Community standards
 
 ## 🔥 Popular Snippets

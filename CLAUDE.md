@@ -36,6 +36,7 @@ PowerFxSnippets/
 ├── Controls/           # Control-specific implementations
 ├── Data Sources/       # Database schemas and SQL patterns
 ├── Data Samples/       # Sample data files (CSV, JSON)
+├── Reference/          # Power Fx gotchas, syntax differences, tips
 ├── SVGs/              # SVG graphics and icons
 ├── Fonts/             # Font resources and configurations
 ├── Icons/             # Icon collections
@@ -52,6 +53,21 @@ PowerFxSnippets/
 - **`.json` files**: Configuration and schema definitions
 
 ## Working with Power Fx Code
+
+### ⚠️ MANDATORY: Check Gotchas Before Writing Code!
+Before giving advice OR writing ANY Power Fx code (especially date formatting, function behavior, etc.):
+- **ALWAYS read** `Reference/power-fx-gotchas.md` FIRST
+- Power Fx is NOT the same as .NET, Excel, or JavaScript — don't assume!
+- This applies to: code snippets, examples, fixes, refactors — ALL Power Fx output
+
+### 🔍 Power Fx Verification Workflow
+When uncertain about ANY Power Fx syntax or function behavior:
+1. **Check local gotchas first:** Read `Reference/power-fx-gotchas.md`
+2. **Verify with official docs:** Use `ref_search_documentation` with query like `"Power Fx [function name]"`
+3. **Read the result:** Use `ref_read_url` on the returned URL
+4. **Official docs base:** https://learn.microsoft.com/en-us/power-platform/power-fx/overview
+
+**Never guess confidently about Power Fx syntax — verify first!**
 
 ### Formula Patterns
 - Power Fx formulas are typically stored in `.yaml` files or documented in `.md` files

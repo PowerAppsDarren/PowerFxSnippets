@@ -6,51 +6,52 @@
 
 ## Current State
 
-Added comprehensive Environment Variables & ALM Guide for SharePoint solutions. All remotes in sync.
+Added time-based cooldown to error handler, created Power Fx gotchas reference doc, and established verification workflow for Power Fx syntax. All remotes in sync.
 
 **Branch:** `main`
 
 ## What Was Accomplished This Session (2025-12-18)
 
-### 1. Created Environment Variables & ALM Guide
+### 1. Error Handler Cooldown Feature
+- **File:** `errors/catch-all-errors.md`
+- **New config:** `fxErrorEmailCooldownSeconds = 10` (configurable)
+- **New field:** `LastEmailSentTime` in collection for cooldown tracking
+- **Behavior:** Same error can trigger new email after cooldown elapses
+- **Documentation:** Added Mermaid flowchart, timeline examples, behavior matrix
+
+### 2. Created Power Fx Gotchas Reference
+- **File:** `Reference/power-fx-gotchas.md`
+- **Purpose:** Document Power Fx quirks that differ from .NET/Excel/JavaScript
+- **Key content:**
+  - Date formatting rules (lowercase `mmm` not `MMM`)
+  - CRITICAL: `m`/`mm` is context-sensitive (month vs minutes based on position)
+  - Official docs link and verification workflow
+
+### 3. Updated CLAUDE.md with Verification Workflow
+- Added mandatory check for gotchas before writing ANY Power Fx code
+- Added 4-step verification workflow using `ref_search_documentation`
+- Added official docs URL
+
+### 4. Updated README.md
+- Added link to Power Fx Gotchas in Repository Tools section
+
+### 5. Updated User Profile (~/.claude/CLAUDE.md)
+- Added rule: "Lead with recommended option first when presenting choices"
+
+### Key Decisions
+- PDF docs (54MB) exceeds 32MB limit - cannot be used
+- URL-based verification via `ref_search_documentation` is the best approach
+- Custom MCP deemed overkill - existing tools work well
+
+---
+
+## Previous Session (2025-12-18 earlier)
+
+### Created Environment Variables & ALM Guide
 - **File:** `app-lifecycle/environment-variables-sharepoint-alm-guide.md`
-- **Purpose:** Complete step-by-step checklist for setting up environment variables and deploying Power Platform solutions across environments and tenants
-- **Content includes:**
-  - Prerequisites checklist
-  - Environment variable types explained (Text, Number, Data Source, Secret, etc.)
-  - Connection References vs Environment Variables comparison
-  - SharePoint-specific environment variables setup (Site URL + List)
-  - Canvas app integration (automatic and manual methods)
-  - Power Automate flow integration
-  - Complete deployment checklist (export/import)
-  - Cross-tenant deployment checklist
-  - Naming conventions and best practices
-  - Troubleshooting common issues
-  - Quick reference cards
-
-### 2. Updated app-lifecycle README
-- Added new "Environment & Deployment" subcategory
-- Added guide to complete snippet index
-- Updated Recent Updates section
-- Incremented snippet count to 26
-
-### Commits Made
-- `[pending]` - docs: add comprehensive environment variables & ALM guide for SharePoint
+- Complete deployment checklist for Power Platform solutions
 
 ---
-
-## Previous Session (2025-12-17 late night)
-
-### Fixed Snippet Validator & Folder Casing
-- Fixed validator scanning documentation directories
-- Corrected 12 folder casings for Git consistency
-- Commits: `4e3d81f`, `32933eb`, `8d9c38c`
-
----
-
-## Previous Sessions
-
-See git log for full history of reorganization work.
 
 ## Folder Structure
 
@@ -61,6 +62,7 @@ PowerFxSnippets/
 ├── functions/              # Algorithms, built-in, user-defined
 ├── integrations/           # Connectors, Power Automate
 ├── learning/               # Best practices, certification, tutorials
+├── Reference/              # Power Fx gotchas and syntax references (NEW)
 ├── ui-controls/            # Gallery, buttons, inputs, etc.
 ├── ui-patterns/            # Components, dialogs, menus, theming
 ├── utilities/              # Tools and scripts
@@ -69,9 +71,10 @@ PowerFxSnippets/
 
 ## Next Steps (Pick Up Here)
 
-1. **Continue Phase 2 migrations** from spec kit tasks
-2. **Fix broken internal links** (T202)
-3. **Add more ALM/deployment content** as needed
+1. **Add more gotchas** to `Reference/power-fx-gotchas.md` as discovered
+2. **Test error handler cooldown** in a real Power App
+3. **Continue Phase 2 migrations** from spec kit tasks
+4. **Fix broken internal links** (T202)
 
 ## Git Remotes
 
