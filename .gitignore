@@ -18,6 +18,7 @@
 # Explicitly ignore these dot folders
 .github/
 .specify/
+.clients/
 
 DARREN.md
 .darren/

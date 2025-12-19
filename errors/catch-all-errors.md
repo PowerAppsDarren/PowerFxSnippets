@@ -113,6 +113,39 @@ fxEmailColors = {
     FooterText:     "#6b7280",      // Medium gray
     LinkColor:      "#2563eb"       // Blue links
 };
+
+// 📖 Error kind descriptions (for hover tooltips in email)
+// See: https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-iferror#error-kinds
+fxErrorKinds = [
+    { KindName: "None",               KindNumber: 0,  Description: "There's no error." },
+    { KindName: "Sync",               KindNumber: 1,  Description: "An error was reported by the data source. Check the Message column for more information." },
+    { KindName: "MissingRequired",    KindNumber: 2,  Description: "A required field of a record was missing." },
+    { KindName: "CreatePermission",   KindNumber: 3,  Description: "The user doesn't have create record permission for the data source." },
+    { KindName: "EditPermissions",    KindNumber: 4,  Description: "The user doesn't have edit record permission for the data source." },
+    { KindName: "DeletePermissions",  KindNumber: 5,  Description: "The user doesn't have delete record permission for the data source." },
+    { KindName: "Conflict",           KindNumber: 6,  Description: "The record being updated has already been changed at the source." },
+    { KindName: "NotFound",           KindNumber: 7,  Description: "Record couldn't be found." },
+    { KindName: "ConstraintViolated", KindNumber: 8,  Description: "The record didn't pass a constraint check on the server." },
+    { KindName: "GeneratedValue",     KindNumber: 9,  Description: "A value was passed for a field that is auto-calculated by the server." },
+    { KindName: "ReadOnlyValue",      KindNumber: 10, Description: "Column is read only and can't be modified." },
+    { KindName: "Validation",         KindNumber: 11, Description: "The record didn't pass a validation check." },
+    { KindName: "Unknown",            KindNumber: 12, Description: "There was an error, but of an unknown kind." },
+    { KindName: "Div0",               KindNumber: 13, Description: "Division by zero." },
+    { KindName: "BadLanguageCode",    KindNumber: 14, Description: "An invalid or unrecognized language code was used." },
+    { KindName: "BadRegex",           KindNumber: 15, Description: "Invalid regular expression." },
+    { KindName: "InvalidFunctionUsage", KindNumber: 16, Description: "Invalid usage of a function." },
+    { KindName: "FileNotFound",       KindNumber: 17, Description: "The SaveData storage couldn't be found." },
+    { KindName: "AnalysisError",      KindNumber: 18, Description: "System error. There was a problem with compiler analysis." },
+    { KindName: "ReadPermission",     KindNumber: 19, Description: "The user doesn't have read record permission for the data source." },
+    { KindName: "NotSupported",       KindNumber: 20, Description: "Operation not supported by this player or device." },
+    { KindName: "InsufficientMemory", KindNumber: 21, Description: "There isn't enough memory or storage on the device." },
+    { KindName: "QuotaExceeded",      KindNumber: 22, Description: "Storage quota exceeded." },
+    { KindName: "Network",            KindNumber: 23, Description: "There was a problem with network communications." },
+    { KindName: "Numeric",            KindNumber: 24, Description: "A numeric function was used in an improper way." },
+    { KindName: "InvalidArgument",    KindNumber: 25, Description: "An invalid argument was passed to a function." },
+    { KindName: "Internal",           KindNumber: 26, Description: "System error. There was an internal problem with one of the functions." },
+    { KindName: "NotApplicable",      KindNumber: 27, Description: "No value is available." }
+];
 ```
 
 > 💡 **Finding your App URL:** Go to make.powerapps.com → Your App → `...` → Details → Web link
@@ -485,7 +518,7 @@ With(
                                                         </span>
                                                     </td>
                                                     <td style='padding:16px;vertical-align:top;'>
-                                                        <span style='display:inline-block;background-color:#fef3c7;color:#92400e;font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;'>
+                                                        <span style='display:inline-block;background-color:#fef3c7;color:#92400e;font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;' title='{LookUp(fxErrorKinds, KindName = ThisRecord.Kind, Description)}'>
                                                             {ThisRecord.Kind}
                                                         </span>
                                                     </td>
@@ -692,6 +725,8 @@ Clear(colErrorSignatures);
 
 | Date       | Author          | Changes                                                                                             |
 |------------|-----------------|-----------------------------------------------------------------------------------------------------|
+| 2025-12-18 | Claude Opus 4.5 | Added hover tooltips on Kind badges showing error description via `fxErrorKinds` LookUp             |
+| 2025-12-18 | Claude Opus 4.5 | Added `fxErrorKinds` named formula with all 28 error kinds and descriptions                         |
 | 2025-12-18 | Claude Opus 4.5 | Fixed Mermaid diagram parse error by escaping pipe characters with `&#124;` HTML entities           |
 | 2025-12-18 | Claude Opus 4.5 | Added time-based cooldown feature with `fxErrorEmailCooldownSeconds` config (default 10s)           |
 | 2025-12-18 | Claude Opus 4.5 | Added `LastEmailSentTime` field to collection for cooldown tracking                                 |
