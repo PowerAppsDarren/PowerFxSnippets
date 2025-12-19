@@ -6,11 +6,21 @@
 
 ## Current State
 
-Added time-based cooldown to error handler, created Power Fx gotchas reference doc, and established verification workflow for Power Fx syntax. All remotes in sync.
+Fixed Mermaid diagram rendering issue in error handler docs. All remotes in sync.
 
 **Branch:** `main`
 
-## What Was Accomplished This Session (2025-12-18)
+## What Was Accomplished This Session (2025-12-18 - Late)
+
+### Mermaid Diagram Fix
+- **File:** `errors/catch-all-errors.md`
+- **Issue:** GitHub unable to render Mermaid diagram - parse error on pipe characters
+- **Fix:** Replaced `|` with `&#124;` HTML entities in flowchart node text
+- **Root cause:** Mermaid uses `|` for edge labels, so `Screen | Source | Message` inside a node was misinterpreted
+
+---
+
+## Previous Session (2025-12-18 - Earlier)
 
 ### 1. Error Handler Cooldown Feature
 - **File:** `errors/catch-all-errors.md`

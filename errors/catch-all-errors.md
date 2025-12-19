@@ -34,7 +34,7 @@ The error handler uses **signature-based deduplication** combined with a **time-
 
 ```mermaid
 flowchart TD
-    A[🔴 Error Occurs] --> B{Generate Signature<br/>Screen | Source | Message}
+    A[🔴 Error Occurs] --> B{Generate Signature<br/>Screen &#124; Source &#124; Message}
     B --> C{Seen Before?}
 
     C -->|No - New Error| D[Add to Collection<br/>Set LastEmailSentTime = Now]
@@ -692,6 +692,7 @@ Clear(colErrorSignatures);
 
 | Date       | Author          | Changes                                                                                             |
 |------------|-----------------|-----------------------------------------------------------------------------------------------------|
+| 2025-12-18 | Claude Opus 4.5 | Fixed Mermaid diagram parse error by escaping pipe characters with `&#124;` HTML entities           |
 | 2025-12-18 | Claude Opus 4.5 | Added time-based cooldown feature with `fxErrorEmailCooldownSeconds` config (default 10s)           |
 | 2025-12-18 | Claude Opus 4.5 | Added `LastEmailSentTime` field to collection for cooldown tracking                                 |
 | 2025-12-18 | Claude Opus 4.5 | Rewrote "How It Works" section with Mermaid flowchart and cooldown examples                         |
