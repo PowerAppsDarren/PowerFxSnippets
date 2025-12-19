@@ -94,6 +94,14 @@ This category focuses on application-level operations and lifecycle management i
 
 **When to use**: Managing which screen users see first or implementing complex navigation flows.
 
+### Environment & Deployment
+**Purpose**: Environment variables, connection references, and ALM patterns for solution deployment.
+
+**Key Snippets:**
+- [**Environment Variables & ALM Guide**](./environment-variables-sharepoint-alm-guide.md) - Complete SharePoint deployment checklist
+
+**When to use**: Setting up configurable solutions that can be deployed across Dev/Test/Prod environments or different tenants.
+
 ## 🔍 Search & Filter
 
 ### By Technology
@@ -185,6 +193,7 @@ After mastering this category, consider:
 ## 📈 Recent Updates
 
 ### Latest Additions
+- [**Environment Variables & ALM Guide**](./environment-variables-sharepoint-alm-guide.md) - Added 2025-12-18 - Complete SharePoint deployment checklist
 - [**App.OnMessage Patterns**](../app-onmessage/app-onmessage.md) - Added 2025-12-17 - Message handling examples
 - [**Advanced Error Handling**](../app-onerror/fxapponerror-pa.yaml) - Added 2025-12-17 - Complex error scenarios
 - [**Formula Collections**](./formulas/collections/color-enum-in-named-formula.md) - Added 2025-12-17 - Color management
@@ -230,10 +239,13 @@ After mastering this category, consider:
 ### Messaging
 - [App.OnMessage](../app-onmessage/app-onmessage.md)
 
+### Environment & Deployment
+- [Environment Variables & ALM Guide](./environment-variables-sharepoint-alm-guide.md)
+
 ---
 
-**📊 Last Updated**: 2025-12-17
-**📄 Total Snippets**: 25
+**📊 Last Updated**: 2025-12-18
+**📄 Total Snippets**: 26
 **👥 Maintainers**: PowerAppsDarren
 
 ---

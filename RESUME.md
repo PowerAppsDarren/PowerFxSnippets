@@ -1,55 +1,50 @@
 # RESUME.md - Project State
 
 ## Last Session
-- **Date:** 2025-12-17 (late night)
+- **Date:** 2025-12-18
 - **Model:** Claude Opus 4.5
 
 ## Current State
 
-Validator fixed, folder casing corrected. All 3 remotes in sync. GitHub Actions should now pass.
+Added comprehensive Environment Variables & ALM Guide for SharePoint solutions. All remotes in sync.
 
 **Branch:** `main`
 
-## What Was Accomplished This Session (2025-12-17 late night)
+## What Was Accomplished This Session (2025-12-18)
 
-### 1. Fixed Snippet Validator (GitHub Actions Failure)
-- **Problem:** 127 files failing validation with "Missing YAML front matter"
-- **Root Cause:** Validator was scanning documentation directories (ai-chats, ai-protocols, etc.) that aren't code snippets
-- **Solution:** Added exclusion lists to `tools/validate-snippets.js`:
-  - 44 excluded directories (ai-chats, ai-protocols, docs, utilities, fonts, icons, etc.)
-  - 12 excluded file patterns (readme.md, index.md, changelog.md, etc.)
-- **Result:** 199 files → 62 actual snippets validated, all passing ✅
+### 1. Created Environment Variables & ALM Guide
+- **File:** `app-lifecycle/environment-variables-sharepoint-alm-guide.md`
+- **Purpose:** Complete step-by-step checklist for setting up environment variables and deploying Power Platform solutions across environments and tenants
+- **Content includes:**
+  - Prerequisites checklist
+  - Environment variable types explained (Text, Number, Data Source, Secret, etc.)
+  - Connection References vs Environment Variables comparison
+  - SharePoint-specific environment variables setup (Site URL + List)
+  - Canvas app integration (automatic and manual methods)
+  - Power Automate flow integration
+  - Complete deployment checklist (export/import)
+  - Cross-tenant deployment checklist
+  - Naming conventions and best practices
+  - Troubleshooting common issues
+  - Quick reference cards
 
-### 2. Fixed Git/GitHub Folder Casing Mismatch
-- **Problem:** GitHub showed `Communities`, `Constants`, etc. while local had lowercase
-- **Root Cause:** Windows/Git case insensitivity - Git tracked old PascalCase names
-- **Solution:** Used `git mv` two-step rename for 12 folders:
-  - Communities → communities
-  - Constants → constants
-  - Design → design
-  - Emojis → emojis
-  - Errors → errors
-  - Fonts → fonts
-  - Geocoding → geocoding
-  - Icons → icons
-  - Images → images
-  - JSON → json
-  - PowerShell → powershell
-  - Unicode-Magic → unicode-magic
+### 2. Updated app-lifecycle README
+- Added new "Environment & Deployment" subcategory
+- Added guide to complete snippet index
+- Updated Recent Updates section
+- Incremented snippet count to 26
 
 ### Commits Made
-- `4e3d81f` - fix(validator): exclude documentation directories from snippet validation
-- `32933eb` - Remove obsolete string manipulation functions (pushed during sync)
-- `8d9c38c` - fix: correct folder name casing for Git consistency
+- `[pending]` - docs: add comprehensive environment variables & ALM guide for SharePoint
 
 ---
 
-## Previous Session (2025-12-17 night)
+## Previous Session (2025-12-17 late night)
 
-### Repository Reorganization Phase 2
-- Completed Gallery migration (T022-T029)
-- Completed Color files update (T042-T045 partial)
-- Added History sections to 24 modified files
+### Fixed Snippet Validator & Folder Casing
+- Fixed validator scanning documentation directories
+- Corrected 12 folder casings for Git consistency
+- Commits: `4e3d81f`, `32933eb`, `8d9c38c`
 
 ---
 
@@ -61,7 +56,7 @@ See git log for full history of reorganization work.
 
 ```
 PowerFxSnippets/
-├── app-lifecycle/          # App formulas, OnStart, OnError, etc.
+├── app-lifecycle/          # App formulas, OnStart, OnError, ALM guides
 ├── data-operations/        # Data sources and samples
 ├── functions/              # Algorithms, built-in, user-defined
 ├── integrations/           # Connectors, Power Automate
@@ -74,9 +69,9 @@ PowerFxSnippets/
 
 ## Next Steps (Pick Up Here)
 
-1. **Verify GitHub Actions passes** - Validator should now work
-2. **Continue Phase 2 migrations** from spec kit tasks
-3. **Fix broken internal links** (T202)
+1. **Continue Phase 2 migrations** from spec kit tasks
+2. **Fix broken internal links** (T202)
+3. **Add more ALM/deployment content** as needed
 
 ## Git Remotes
 
