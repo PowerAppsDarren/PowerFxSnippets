@@ -518,7 +518,7 @@ With(
                                                         </span>
                                                     </td>
                                                     <td style='padding:16px;vertical-align:top;'>
-                                                        <span style='display:inline-block;background-color:#fef3c7;color:#92400e;font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;' title='{LookUp(fxErrorKinds, KindName = ThisRecord.Kind, Description)}'>
+                                                        <span style='display:inline-block;background-color:#fef3c7;color:#92400e;font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;' title='{Substitute(LookUp(fxErrorKinds, KindName = ThisRecord.Kind, Description), "'", "&#39;")}'>
                                                             {ThisRecord.Kind}
                                                         </span>
                                                     </td>

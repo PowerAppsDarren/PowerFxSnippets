@@ -6,11 +6,21 @@
 
 ## Current State
 
-Fixed Mermaid diagram rendering issue in error handler docs. All remotes in sync.
+Added error kind tooltips to error handler email. All remotes in sync.
 
 **Branch:** `main`
 
-## What Was Accomplished This Session (2025-12-18 - Late)
+## What Was Accomplished This Session (2025-12-18 - Latest)
+
+### Error Kind Tooltip Feature
+- **File:** `errors/catch-all-errors.md`
+- **Feature:** Hover tooltips on Kind badges in error emails show description
+- **Implementation:** Added `fxErrorKinds` lookup table with all 28 error kinds
+- **Fix:** Used `Substitute()` to escape apostrophes in descriptions for HTML attribute safety
+
+---
+
+## Previous Session (2025-12-18 - Late)
 
 ### Mermaid Diagram Fix
 - **File:** `errors/catch-all-errors.md`
