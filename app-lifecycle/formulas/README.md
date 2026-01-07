@@ -23,7 +23,7 @@ Data collections that can be copied directly into App.Formulas for reference dat
 |-------------------------------------------------------------------------------------------|---------------------------------|---------------------------------------------------------------------------------------------|------------|
 | [color-enum-in-named-formula.md](collections/color-enum-in-named-formula.md)             | Color Enum in Named Formula     | A collection of all 140 web colors for use in App.Formulas                                 | beginner   |
 | [icons-as-collection.md](collections/icons-as-collection.md)                             | Icon Enumeration to Collection  | Converts the standard Icon enumeration into a searchable, filterable collection with metadata | beginner   |
-| [error-kinds.md](collections/error-kinds.md)                                              | Error Kinds Collection          | A collection of all standard Power Apps error kinds for reference and handling              | beginner   |
+| [error-kinds.md](../../errors/error-kinds.md)                                              | Error Kinds Collection          | A collection of all standard Power Apps error kinds for reference and handling              | beginner   |
 | [fxmenuitems.yaml](collections/fxmenuitems.yaml)                                          | Menu Items Collection           | A template collection for building custom navigation menus with role-based visibility       | beginner   |
 
 ### Expressions

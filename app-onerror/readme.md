@@ -6,20 +6,20 @@ To add this error "catch all" feature to your canvas Power Apps, follow these st
 
 # 2 - Copy from this point:
 
-![Screenshot: Start-Code-Copy-From-Here](Start-Code-Copy-From-Here.png)
+![Screenshot: Start-Code-Copy-From-Here](./start-code-copy-from-here.png)
 
 ## all the way down to this point...
 
-![Screenshot: End-Code-Copy-To-Here](End-Code-Copy-To-Here.png)
+![Screenshot: End-Code-Copy-To-Here](./end-code-copy-to-here.png)
 
 # Or, you can import the [[fxAppOnError.yaml]] file into your environment and inspect and copy the code from there. 
 
-![Screenshot: msapp-tour-01.jpg](msapp-tour-01.jpg)
+![Screenshot: msapp-tour-01.jpg](./msapp-tour-01.jpg)
 
 # 3 - Then, follow the steps in the App.OnError event property. 
 
-![Screenshot: msapp-tour-02.jpg](msapp-tour-02.jpg)
+![Screenshot: msapp-tour-02.jpg](./msapp-tour-02.jpg)
 
 # Here is a sample email that will be generated and sent out: 
 
-![Screenshot: sample email](SampleImage.png)
+![Screenshot: sample email](./sampleimage.png)

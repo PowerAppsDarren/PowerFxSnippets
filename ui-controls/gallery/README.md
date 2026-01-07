@@ -69,7 +69,7 @@ User interaction and behavior patterns:
 
 | Simple & Elegant | Alternating Row Colors |
 |:----------------:|:----------------------:|
-| [![Simple Elegant](images/gallery-simple-elegant.png)](layouts/simple-elegant.md) | [![Alternating](images/gallery-alternating-background.png)](styling/alternating-row-colors.md) |
+| [![Simple Elegant](images/Gallery-Simple-Elegant.png)](layouts/simple-elegant.md) | [![Alternating](images/Gallery-Alternating-Background.png)](styling/alternating-row-colors.md) |
 
 | Checkerboard Pattern |
 |:--------------------:|

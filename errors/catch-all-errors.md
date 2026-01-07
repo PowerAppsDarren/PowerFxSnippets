@@ -160,7 +160,7 @@ The error emails use a modern, professional template with color-coded badges and
 
 An interactive HTML preview file is included so you can see and customize the email design in your browser:
 
-1. **Open the preview:** Open [`email-template-preview.html`](email-template-preview.html) in any web browser
+1. **Open the preview:** Open [`email-template-preview.html`](./email-template-preview.html) in any web browser
 2. **See sample data:** The preview shows 3 example errors so you can see how real emails will look
 3. **Pick your colors:** Use the color picker panel (top-right corner) to adjust:
    - Header background color

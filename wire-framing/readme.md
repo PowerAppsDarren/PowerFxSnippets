@@ -12,9 +12,9 @@ This category focuses on wireframing and prototyping techniques in Power Apps. I
 - ❌ **Don't use for**: Production code, data operations, or control implementations
 
 ### Related Categories
-- [**Design**](../design/) - Design principles and patterns
-- [**UI Controls**](../ui-controls/) - Control implementations
-- [**App Lifecycle**](../app-lifecycle/) - Application structure
+- [**Design**](../design) - Design principles and patterns
+- [**UI Controls**](../ui-controls) - Control implementations
+- [**App Lifecycle**](../app-lifecycle) - Application structure
 
 ## 📊 Category Statistics
 
@@ -147,16 +147,16 @@ Before using snippets in this category, you should understand:
 - [**App Planning**](https://learn.microsoft.com/en-us/power-apps/guidance/planning/) - Application planning
 
 ### Related Content
-- [**Design**](../design/) - Design implementation
-- [**UI Controls**](../ui-controls/) - Control patterns
-- [**Best Practices**](../best-practices/) - Development standards
-- [**Content for Learning**](../content-for-learning/) - Educational resources
+- [**Design**](../design) - Design implementation
+- [**UI Controls**](../ui-controls) - Control patterns
+- [**Best Practices**](../best-practices) - Development standards
+- [**Content for Learning**](../content-for-learning) - Educational resources
 
 ### Next Steps
 After mastering this category, consider:
-- [**UI Implementation**](../ui-controls/) - Building the designs
-- [**Design Systems**](../design/) - Consistent design
-- [**User Testing**](../best-practices/) - Validation techniques
+- [**UI Implementation**](../ui-controls) - Building the designs
+- [**Design Systems**](../design) - Consistent design
+- [**User Testing**](../best-practices) - Validation techniques
 
 ## 📞 Support & Help
 

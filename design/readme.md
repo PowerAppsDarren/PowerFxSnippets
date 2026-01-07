@@ -12,9 +12,9 @@ This category focuses on design patterns and principles for Power Apps. It inclu
 - ❌ **Don't use for**: Control-specific code, data operations, or app functionality
 
 ### Related Categories
-- [**UI Controls**](../ui-controls/) - Control implementations
-- [**Visual Assets**](../visual-assets/) - Colors and media
-- [**Wire Framing**](../wire-framing/) - Design planning
+- [**UI Controls**](../ui-controls) - Control implementations
+- [**Visual Assets**](../visual-assets) - Colors and media
+- [**Wire Framing**](../wire-framing) - Design planning
 
 ## 📊 Category Statistics
 
@@ -39,17 +39,17 @@ This category focuses on design patterns and principles for Power Apps. It inclu
 
 #### 🟢 Beginner Friendly
 - [**Basic Design**](./design.md) - Fundamental principles
-- [**Color Theory**](../visual-assets/colors/) - Color basics
-- [**Layout Basics**](../ui-controls/) - Simple layouts
+- [**Color Theory**](../visual-assets/colors) - Color basics
+- [**Layout Basics**](../ui-controls) - Simple layouts
 
 #### 🟡 Intermediate
 - [**Fluent UI**](./design.md) - Microsoft design system
 - [**Theme Creation**](./design.md) - Custom theming
-- [**Responsive Design**](../ui-controls/) - Mobile patterns
+- [**Responsive Design**](../ui-controls) - Mobile patterns
 
 #### 🟠 Advanced
 - [**Design Systems**](./design.md) - Enterprise design
-- [**Accessibility**](../best-practices/) - Inclusive design
+- [**Accessibility**](../best-practices) - Inclusive design
 - [**Advanced Theming**](./design.md) - Complex themes
 
 #### 🔴 Expert Level
@@ -107,12 +107,12 @@ This category focuses on design patterns and principles for Power Apps. It inclu
 ### For Beginners
 1. Start with [**Design Principles**](./design.md)
 2. Learn [**Basic Theming**](./design.md)
-3. Practice with [**Simple Patterns**](../ui-controls/)
+3. Practice with [**Simple Patterns**](../ui-controls)
 
 ### For Intermediate Users
 1. Master [**Fluent UI**](./design.md)
 2. Explore [**Theme Designer**](./design.md)
-3. Build [**Responsive Layouts**](../ui-controls/)
+3. Build [**Responsive Layouts**](../ui-controls)
 
 ### For Advanced Users
 1. Study [**Design Systems**](./design.md)
@@ -150,16 +150,16 @@ Before using snippets in this category, you should understand:
 - [**Control Properties**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/) - Visual controls
 
 ### Related Content
-- [**UI Controls**](../ui-controls/) - Control implementations
-- [**Visual Assets**](../visual-assets/) - Colors and media
-- [**Wire Framing**](../wire-framing/) - Design planning
-- [**Best Practices**](../best-practices/) - Design standards
+- [**UI Controls**](../ui-controls) - Control implementations
+- [**Visual Assets**](../visual-assets) - Colors and media
+- [**Wire Framing**](../wire-framing) - Design planning
+- [**Best Practices**](../best-practices) - Design standards
 
 ### Next Steps
 After mastering this category, consider:
-- [**Advanced Controls**](../ui-controls/) - Complex implementations
-- [**Custom Components**](../code-components/) - Component design
-- [**Accessibility**](../best-practices/) - Inclusive design
+- [**Advanced Controls**](../ui-controls) - Complex implementations
+- [**Custom Components**](../code-components) - Component design
+- [**Accessibility**](../best-practices) - Inclusive design
 
 ## 📞 Support & Help
 

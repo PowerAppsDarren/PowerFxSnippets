@@ -84,9 +84,9 @@ In the new repo (`purple-power-theme`):
 
 ## 📁 Exchange Index
 
-- [01 - Initial theme customization request](./Opus-4.5--01.md)
-- [02 - Status bar fix](./Opus-4.5--02.md)
-- [03 - Theme extension discussion](./Opus-4.5--03.md)
+- [01 - Initial theme customization request](../2025-12-04-01-onerror-improvements/Opus-4.5--01.md)
+- [02 - Status bar fix](../2025-12-10-01-error-handler-fixes/Opus-4.5--02.md)
+- [03 - Theme extension discussion](../2025-12-10-01-error-handler-fixes/Opus-4.5--03.md)
 - [04 - Local test theme creation](./Opus-4.5--04.md)
 - [05 - Separate repo setup](./Opus-4.5--05.md)
 - [06 - File name readability fix](./Opus-4.5--06.md)

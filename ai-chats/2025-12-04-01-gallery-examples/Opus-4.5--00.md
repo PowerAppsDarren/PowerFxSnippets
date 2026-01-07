@@ -58,4 +58,4 @@ Five sub-agents were spawned in parallel to create diverse gallery designs, each
 
 ## 📁 Exchange Index
 
-- [01 - Initial Request and Gallery Creation](./Opus-4.5--01.md)
+- [01 - Initial Request and Gallery Creation](../2025-12-04-01-onerror-improvements/Opus-4.5--01.md)

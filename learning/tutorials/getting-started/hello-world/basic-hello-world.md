@@ -180,7 +180,7 @@ Hello, World!
 
 - [**Interactive Hello World**](./interactive-hello-world.md) - Add user interaction
 - [**Data Hello World**](./data-hello-world.md) - Display data from collections
-- [**Variable Declaration**](../common-patterns/variable-declaration.md) - Learn about variables
+- [**Variable Declaration**](learning/tutorials/getting-started/common-patterns/variable-declaration.md) - Learn about variables
 
 ## 🔗 External Resources
 
@@ -202,7 +202,7 @@ Hello, World!
 - Create video tutorials
 
 ### Found an Issue?
-[Report it here](../../issues/new?template=bug-report.md&title=[BUG]%20Basic%20Hello%20World)
+[Report it here](learning/tutorials/issues/new?template=bug-report.md&title=[BUG]%20Basic%20Hello%20World)
 
 ---
 

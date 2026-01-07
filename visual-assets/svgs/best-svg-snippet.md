@@ -109,5 +109,5 @@ With(
 
 ## 🚨 IMPORTANT! 🚨
 > 💡If you'd like to take all this to the next level and simplify things, go to your App.Formulas, and create a named formula or user-defined function to replace each of these steps.
-> 1. [SVG code for a Spinner](Basic-SVG-Spinner.md) to add to your App.Formulas
-> 2. [Get Colored SVG](Basic-SVG-SVG-Color.md) to add to your App.Formulas
+> 1. [SVG code for a Spinner](./basic-svg-spinner.md) to add to your App.Formulas
+> 2. [Get Colored SVG](./basic-svg-svg-color.md) to add to your App.Formulas

@@ -4,37 +4,37 @@ Power Fx user-defined functions for string manipulation, parsing, validation, an
 
 ## Categories
 
-### [Padding](./padding/)
+### [Padding](./padding)
 
 Functions for padding and formatting numbers within strings.
 
 | File | Description |
 |------|-------------|
-| [padd-numbers-inside-string.md](./padding/padd-numbers-inside-string.md) | Collection of functions for extracting, padding, and formatting numbers embedded in strings |
+| [padd-numbers-inside-string.md](padding/padd-numbers-inside-string.md) | Collection of functions for extracting, padding, and formatting numbers embedded in strings |
 
-### [Transformations](./transformations/)
+### [Transformations](./transformations)
 
 Functions for modifying and transforming string content.
 
 | File | Description |
 |------|-------------|
-| [eliminate-string-within-string.md](./transformations/eliminate-string-within-string.md) | Remove a substring from within another string (case-insensitive) |
+| [eliminate-string-within-string.md](transformations/eliminate-string-within-string.md) | Remove a substring from within another string (case-insensitive) |
 
-### [Parsing](./parsing/)
+### [Parsing](./parsing)
 
 Functions for parsing, splitting, and searching within strings.
 
 | File | Description |
 |------|-------------|
-| [find-string-exactly-within-table.md](./parsing/find-string-exactly-within-table.md) | Check if a string exists exactly within a delimited list |
+| [find-string-exactly-within-table.md](parsing/find-string-exactly-within-table.md) | Check if a string exists exactly within a delimited list |
 
-### [Validation](./validation/)
+### [Validation](./validation)
 
 Functions for validating string content and format.
 
 | File | Description |
 |------|-------------|
-| [string-is-empty.md](./validation/string-is-empty.md) | Check if a string is empty or whitespace-only |
+| [string-is-empty.md](validation/string-is-empty.md) | Check if a string is empty or whitespace-only |
 
 ## Quick Reference
 

@@ -20,9 +20,9 @@
 
 ## 📖 Related Resources
 
-- [Related Category](../category/) - Description
-- [Learning Resources](../learning/) - Tutorials and best practices
+- [Related Category](utilities/category) - Description
+- [Learning Resources](../../learning) - Tutorials and best practices
 
 ---
 
-*Last updated: YYYY-MM-DD | [Contribute](../utilities/github/CONTRIBUTING.md)*
+*Last updated: YYYY-MM-DD | [Contribute](../../CONTRIBUTING.md)*

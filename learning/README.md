@@ -26,9 +26,9 @@ Educational resources for Power Platform and Power Apps development.
 
 | Folder                               | Description                                   |
 |--------------------------------------|-----------------------------------------------|
-| [tutorials/](./tutorials/)           | Step-by-step learning tutorials               |
-| [best-practices/](./best-practices/) | Development best practices and guidelines     |
-| [certification/](./certification/)   | Microsoft certification exam resources        |
+| [tutorials/](./tutorials)           | Step-by-step learning tutorials               |
+| [best-practices/](../best-practices) | Development best practices and guidelines     |
+| [certification/](./certification)   | Microsoft certification exam resources        |
 
 ## Tutorials
 
@@ -51,14 +51,14 @@ Advanced certification for functional consultants.
 
 ## Quick Start
 
-1. New to Power Apps? Start with [tutorials/getting-started](./tutorials/getting-started/)
-2. Check [best-practices](./best-practices/) for development guidelines
-3. Preparing for exams? See [certification](./certification/)
+1. New to Power Apps? Start with [tutorials/getting-started](tutorials/getting-started)
+2. Check [best-practices](../best-practices) for development guidelines
+3. Preparing for exams? See [certification](./certification)
 
 ## Related Resources
 
-- [Functions](../functions/) - Power Fx function patterns
-- [UI Controls](../ui-controls/) - Control snippets
+- [Functions](../functions) - Power Fx function patterns
+- [UI Controls](../ui-controls) - Control snippets
 
 ---
 

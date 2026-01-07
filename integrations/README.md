@@ -25,8 +25,8 @@ Patterns and snippets for integrating Power Apps with external services and syst
 
 | Folder                               | Description                          |
 |--------------------------------------|--------------------------------------|
-| [connectors/](./connectors/)         | Power Platform connector patterns    |
-| [power-automate/](./power-automate/) | Power Automate flow integrations     |
+| [connectors/](./connectors)         | Power Platform connector patterns    |
+| [power-automate/](./power-automate) | Power Automate flow integrations     |
 
 ## Connectors
 
@@ -43,14 +43,14 @@ SharePoint list operations, site management, and data sync patterns.
 
 ## Quick Start
 
-1. Check [connectors/office365-users](./connectors/office365-users/) for user profile patterns
-2. See [connectors/office365-outlook](./connectors/office365-outlook/) for email automation
-3. Review [power-automate/sharepoint](./power-automate/sharepoint/) for SharePoint flows
+1. Check [connectors/office365-users](connectors/office365-users) for user profile patterns
+2. See [connectors/office365-outlook](connectors/office365-outlook) for email automation
+3. Review [power-automate/sharepoint](power-automate/sharepoint) for SharePoint flows
 
 ## Related Resources
 
-- [Data Operations](../data-operations/) - Data manipulation patterns
-- [Functions](../functions/) - Utility functions
+- [Data Operations](../data-operations) - Data manipulation patterns
+- [Functions](../functions) - Utility functions
 
 ---
 

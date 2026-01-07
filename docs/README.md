@@ -27,16 +27,16 @@ Welcome to the Power Fx Snippets documentation! This directory contains detailed
 - [Search Optimization](./search-optimization.md) - Making content discoverable
 
 ### Templates
-- [Snippet Template](./templates/snippet-template.md) - Complete snippet template
-- [README Template](./templates/readme-template.md) - Category README template
-- [Tutorial Template](./templates/tutorial-template.md) - Learning content template
+- [Snippet Template](templates/snippet-template.md) - Complete snippet template
+- [README Template](templates/readme-template.md) - Category README template
+- [Tutorial Template](templates/tutorial-template.md) - Learning content template
 
 ## 🎯 Quick Navigation
 
 ### For New Contributors
 1. Read the [Quick Start Guide](./quick-start.md)
 2. Review [Snippet Standards](./snippet-standards.md)
-3. Use the [Snippet Template](./templates/snippet-template.md)
+3. Use the [Snippet Template](templates/snippet-template.md)
 4. Follow the [Contributing Guide](../CONTRIBUTING.md)
 
 ### For Repository Maintainers

@@ -12,8 +12,8 @@
 - [Qwen-Code--01.md](./Qwen-Code--01.md) - Detailed exchange log (full verbatim session)
 
 ### Claude Sonnet 4.5 Session
-- [Sonnet-4.5--00.md](./Sonnet-4.5--00.md) - Session summary (spec-kit integration, constitution creation, analysis)
-- [Sonnet-4.5--01.md](./Sonnet-4.5--01.md) - Exchange 1: Spec-Kit Integration Request
+- [Sonnet-4.5--00.md](../2025-11-20-01-general-session/Sonnet-4.5--00.md) - Session summary (spec-kit integration, constitution creation, analysis)
+- [Sonnet-4.5--01.md](../2025-11-20-01-general-session/Sonnet-4.5--01.md) - Exchange 1: Spec-Kit Integration Request
 - [Sonnet-4.5--02.md](./Sonnet-4.5--02.md) - Exchange 2: Constitution Creation
 - [Sonnet-4.5--03.md](./Sonnet-4.5--03.md) - Exchange 3: Next Steps Discussion
 - [Sonnet-4.5--04.md](./Sonnet-4.5--04.md) - Exchange 4: Specification Analysis

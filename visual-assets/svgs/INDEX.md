@@ -127,6 +127,6 @@ fxSpinnerSimple():Text = fxSVGEncode(
 
 ## Related Sections
 
-- [Power Platform Icons README](svg-files/power-platform/README.md)
-- [SVG Files README](svg-files/README.md)
-- [Best SVG Snippet Guide](best-svg-snippet.md)
+- [Power Platform Icons README](../../README.md)
+- [SVG Files README](../../README.md)
+- [Best SVG Snippet Guide](./best-svg-snippet.md)

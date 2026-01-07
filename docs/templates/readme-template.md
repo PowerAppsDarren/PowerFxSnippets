@@ -12,8 +12,8 @@ This category focuses on {detailed explanation of the category's purpose and sco
 - ❌ **Don't use for**: {what doesn't belong here}
 
 ### Related Categories
-- [**{Related Category}**](../{related-category-path}/) - {why it's related}
-- [**{Another Related}**](../{another-path}/) - {relationship explanation}
+- [**{Related Category}**](docs/{related-category-path}) - {why it's related}
+- [**{Another Related}**](docs/{another-path}) - {relationship explanation}
 
 ## 📊 Category Statistics
 
@@ -104,7 +104,7 @@ This category focuses on {detailed explanation of the category's purpose and sco
 
 ### Adding New Snippets
 1. **Check existing content** to avoid duplication
-2. **Follow the template** from [snippet template](../templates/snippet-template.md)
+2. **Follow the template** from [snippet template](./snippet-template.md)
 3. **Include comprehensive metadata** with proper categorization
 4. **Test thoroughly** in Power Apps environment
 5. **Submit a pull request** with clear description
@@ -126,19 +126,19 @@ This category focuses on {detailed explanation of the category's purpose and sco
 
 ### Prerequisites
 Before using snippets in this category, you should understand:
-- [**{Required Knowledge}**](../path/to/prerequisite.md) - {why it's needed}
-- [**{Related Concept}**](../path/to/concept.md) - {relationship}
+- [**{Required Knowledge}**](docs/path/to/prerequisite.md) - {why it's needed}
+- [**{Related Concept}**](docs/path/to/concept.md) - {relationship}
 
 ### Related Content
-- [**{Complementary Category}**](../complementary-category/) - {how it complements this category}
-- [**{Supporting Tools}**](../tools-category/) - {tools that help with this category}
-- [**{Learning Resources}**](../learning-resources/) - {educational content}
+- [**{Complementary Category}**](docs/complementary-category) - {how it complements this category}
+- [**{Supporting Tools}**](docs/tools-category) - {tools that help with this category}
+- [**{Learning Resources}**](docs/learning-resources) - {educational content}
 
 ### Next Steps
 After mastering this category, consider:
-- [**{Advanced Category}**](../advanced-category/) - {next level of complexity}
-- [**{Specialized Topic}**](../specialized-category/) - {specific use cases}
-- [**{Integration Patterns}**](../integration-category/) - {connecting with other systems}
+- [**{Advanced Category}**](docs/advanced-category) - {next level of complexity}
+- [**{Specialized Topic}**](docs/specialized-category) - {specific use cases}
+- [**{Integration Patterns}**](docs/integration-category) - {connecting with other systems}
 
 ## 📞 Support & Help
 

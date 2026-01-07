@@ -12,9 +12,9 @@ This category focuses on control-specific implementations and patterns in Power 
 - ❌ **Don't use for**: App-level logic, data operations, or backend functionality
 
 ### Related Categories
-- [**Design**](../design/) - Design patterns and principles
-- [**Visual Assets**](../visual-assets/) - Colors, icons, and media
-- [**App Lifecycle**](../app-lifecycle/) - Application-level operations
+- [**Design**](../design) - Design patterns and principles
+- [**Visual Assets**](../visual-assets) - Colors, icons, and media
+- [**App Lifecycle**](../app-lifecycle) - Application-level operations
 
 ## 📊 Category Statistics
 
@@ -31,29 +31,29 @@ This category focuses on control-specific implementations and patterns in Power 
 ### Most Popular
 | Snippet                                                           | Description                          | Difficulty |
 |-------------------------------------------------------------------|--------------------------------------|------------|
-| [**Simple Gallery Layout**](./gallery/layouts/simple-gallery.md) | Basic gallery setup with filtering   | 🟢         |
-| [**DataCard Customization**](./datacard/DataCard.md)             | Form datacard styling and behavior   | 🟡         |
-| [**Text Input Validation**](./text-input/code-editor.md)         | Input validation patterns            | 🟡         |
+| [**Simple Gallery Layout**](gallery/layouts/simple-gallery.md) | Basic gallery setup with filtering   | 🟢         |
+| [**DataCard Customization**](datacard/DataCard.md)             | Form datacard styling and behavior   | 🟡         |
+| [**Text Input Validation**](text-input/code-editor.md)         | Input validation patterns            | 🟡         |
 
 ### By Difficulty
 
 #### 🟢 Beginner Friendly
-- [**Basic Gallery**](./gallery/layouts/simple-gallery.md) - Simple data display
-- [**Text Input Basics**](./text-input/code-editor.md) - Basic input handling
-- [**Image Display**](./image/random-photo-image.md) - Simple image controls
+- [**Basic Gallery**](gallery/layouts/simple-gallery.md) - Simple data display
+- [**Text Input Basics**](text-input/code-editor.md) - Basic input handling
+- [**Image Display**](image/random-photo-image.md) - Simple image controls
 
 #### 🟡 Intermediate
-- [**Gallery Styling**](./gallery/styling/alternating-row-colors.md) - Advanced gallery appearance
-- [**Form Validation**](./datacard/DataCard.md) - Input validation
-- [**Dropdown Lists**](./drop-down-list/drop-down-list.md) - Selection controls
+- [**Gallery Styling**](gallery/styling/alternating-row-colors.md) - Advanced gallery appearance
+- [**Form Validation**](datacard/DataCard.md) - Input validation
+- [**Dropdown Lists**](drop-down-list/drop-down-list.md) - Selection controls
 
 #### 🟠 Advanced
-- [**Canvas Drawing**](./canvas/Canvas.md) - Signature and drawing
-- [**Chart Theming**](./chart/Themed-Chart.md) - Data visualization
-- [**Container Layouts**](./container/funnel-layout/) - Complex layouts
+- [**Canvas Drawing**](canvas/Canvas.md) - Signature and drawing
+- [**Chart Theming**](chart/Themed-Chart.md) - Data visualization
+- [**Container Layouts**](../controls/container/funnel-layout) - Complex layouts
 
 #### 🔴 Expert Level
-- [**Custom Control Behaviors**](./naming-controls/naming-controls.md) - Advanced control logic
+- [**Custom Control Behaviors**](naming-controls/naming-controls.md) - Advanced control logic
 
 ## 📁 Subcategories
 
@@ -61,9 +61,9 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Data display galleries with filtering, sorting, and interaction patterns.
 
 **Key Snippets:**
-- [**Simple Gallery**](./gallery/layouts/simple-gallery.md) - Basic gallery setup
-- [**Alternating Colors**](./gallery/styling/alternating-row-colors.md) - Row styling patterns
-- [**ASCII Checkerboard**](./gallery/styling/asciicodecheckerboard.md) - Advanced styling
+- [**Simple Gallery**](gallery/layouts/simple-gallery.md) - Basic gallery setup
+- [**Alternating Colors**](gallery/styling/alternating-row-colors.md) - Row styling patterns
+- [**ASCII Checkerboard**](gallery/styling/asciicodecheckerboard.md) - Advanced styling
 
 **When to use**: Displaying collections of data with interactive features.
 
@@ -71,8 +71,8 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Text input fields with validation, formatting, and user experience enhancements.
 
 **Key Snippets:**
-- [**Code Editor**](./text-input/code-editor.md) - Advanced text input
-- [**Input Validation**](./text-input/) - Validation patterns
+- [**Code Editor**](text-input/code-editor.md) - Advanced text input
+- [**Input Validation**](../controls/text-input) - Validation patterns
 
 **When to use**: Collecting text input from users with proper validation.
 
@@ -80,7 +80,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Form datacard customizations for edit and display forms.
 
 **Key Snippets:**
-- [**DataCard Basics**](./datacard/DataCard.md) - Form datacard patterns
+- [**DataCard Basics**](datacard/DataCard.md) - Form datacard patterns
 
 **When to use**: Building forms with custom datacard behaviors.
 
@@ -88,7 +88,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Dropdown selections and searchable comboboxes.
 
 **Key Snippets:**
-- [**Drop Down List**](./drop-down-list/drop-down-list.md) - Selection controls
+- [**Drop Down List**](drop-down-list/drop-down-list.md) - Selection controls
 
 **When to use**: Providing selection options to users.
 
@@ -96,7 +96,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Image display and manipulation controls.
 
 **Key Snippets:**
-- [**Random Photo**](./image/random-photo-image.md) - Dynamic image display
+- [**Random Photo**](image/random-photo-image.md) - Dynamic image display
 
 **When to use**: Displaying images in your app interface.
 
@@ -104,7 +104,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Drawing and signature capture functionality.
 
 **Key Snippets:**
-- [**Canvas Control**](./canvas/Canvas.md) - Drawing and signatures
+- [**Canvas Control**](canvas/Canvas.md) - Drawing and signatures
 
 **When to use**: Allowing users to draw or sign digitally.
 
@@ -112,7 +112,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Data visualization and charting components.
 
 **Key Snippets:**
-- [**Themed Chart**](./chart/Themed-Chart.md) - Chart customization
+- [**Themed Chart**](chart/Themed-Chart.md) - Chart customization
 
 **When to use**: Visualizing data with charts and graphs.
 
@@ -120,7 +120,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Layout containers and responsive design patterns.
 
 **Key Snippets:**
-- [**Funnel Layout**](./container/funnel-layout/) - Layout patterns
+- [**Funnel Layout**](../controls/container/funnel-layout) - Layout patterns
 
 **When to use**: Organizing controls in responsive layouts.
 
@@ -128,7 +128,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: File upload and attachment handling.
 
 **Key Snippets:**
-- [**Attachment Control**](./attachment/attachment-control.md) - File handling
+- [**Attachment Control**](attachment/attachment-control.md) - File handling
 
 **When to use**: Managing file uploads and attachments.
 
@@ -136,7 +136,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Media addition and management controls.
 
 **Key Snippets:**
-- [**Add Media**](./add-media/add-media.md) - Media controls
+- [**Add Media**](add-media/add-media.md) - Media controls
 
 **When to use**: Adding media content to your app.
 
@@ -144,7 +144,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Shape and layout elements.
 
 **Key Snippets:**
-- [**Spacer Medium**](./rectangle/spacer-medium.md) - Layout spacing
+- [**Spacer Medium**](rectangle/spacer-medium.md) - Layout spacing
 
 **When to use**: Creating visual elements and spacing.
 
@@ -152,7 +152,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Best practices for naming and organizing controls.
 
 **Key Snippets:**
-- [**Naming Controls**](./naming-controls/naming-controls.md) - Control organization
+- [**Naming Controls**](naming-controls/naming-controls.md) - Control organization
 
 **When to use**: Maintaining clean, organized control structures.
 
@@ -176,19 +176,19 @@ This category focuses on control-specific implementations and patterns in Power 
 ## 📚 Learning Path
 
 ### For Beginners
-1. Start with [**Simple Gallery**](./gallery/layouts/simple-gallery.md)
-2. Learn [**Text Input Basics**](./text-input/code-editor.md)
-3. Practice with [**Image Display**](./image/random-photo-image.md)
+1. Start with [**Simple Gallery**](gallery/layouts/simple-gallery.md)
+2. Learn [**Text Input Basics**](text-input/code-editor.md)
+3. Practice with [**Image Display**](image/random-photo-image.md)
 
 ### For Intermediate Users
-1. Master [**Gallery Styling**](./gallery/styling/alternating-row-colors.md)
-2. Explore [**Form Validation**](./datacard/DataCard.md)
-3. Build [**Dropdown Controls**](./drop-down-list/drop-down-list.md)
+1. Master [**Gallery Styling**](gallery/styling/alternating-row-colors.md)
+2. Explore [**Form Validation**](datacard/DataCard.md)
+3. Build [**Dropdown Controls**](drop-down-list/drop-down-list.md)
 
 ### For Advanced Users
-1. Study [**Canvas Drawing**](./canvas/Canvas.md)
-2. Implement [**Chart Theming**](./chart/Themed-Chart.md)
-3. Create [**Complex Layouts**](./container/funnel-layout/)
+1. Study [**Canvas Drawing**](canvas/Canvas.md)
+2. Implement [**Chart Theming**](chart/Themed-Chart.md)
+3. Create [**Complex Layouts**](../controls/container/funnel-layout)
 
 ## 🤝 Contributing
 
@@ -218,19 +218,19 @@ This category focuses on control-specific implementations and patterns in Power 
 Before using snippets in this category, you should understand:
 - [**Power Fx Basics**](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - Fundamental concepts
 - [**Control Properties**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/) - Control fundamentals
-- [**Data Sources**](../data-sources/) - Connecting to data
+- [**Data Sources**](../data-sources) - Connecting to data
 
 ### Related Content
-- [**Design Patterns**](../design/) - UI/UX design principles
-- [**Visual Assets**](../visual-assets/) - Colors and media
-- [**Functions**](../functions/) - Reusable logic
-- [**Data Operations**](../data-operations/) - Data manipulation
+- [**Design Patterns**](../design) - UI/UX design principles
+- [**Visual Assets**](../visual-assets) - Colors and media
+- [**Functions**](../functions) - Reusable logic
+- [**Data Operations**](../data-operations) - Data manipulation
 
 ### Next Steps
 After mastering this category, consider:
-- [**Advanced Interactions**](../ui-controls/gallery/) - Complex user interactions
-- [**Custom Components**](../code-components/) - Building custom controls
-- [**Responsive Design**](../design/) - Mobile-first approaches
+- [**Advanced Interactions**](./gallery) - Complex user interactions
+- [**Custom Components**](../code-components) - Building custom controls
+- [**Responsive Design**](../design) - Mobile-first approaches
 
 ## 📞 Support & Help
 
@@ -247,9 +247,9 @@ After mastering this category, consider:
 ## 📈 Recent Updates
 
 ### Latest Additions
-- [**Gallery Styling Patterns**](./gallery/styling/) - Added 2025-12-17 - Advanced gallery appearance
-- [**Canvas Controls**](./canvas/Canvas.md) - Added 2025-12-17 - Drawing functionality
-- [**Chart Theming**](./chart/Themed-Chart.md) - Added 2025-12-17 - Visualization enhancements
+- [**Gallery Styling Patterns**](gallery/styling) - Added 2025-12-17 - Advanced gallery appearance
+- [**Canvas Controls**](canvas/Canvas.md) - Added 2025-12-17 - Drawing functionality
+- [**Chart Theming**](chart/Themed-Chart.md) - Added 2025-12-17 - Visualization enhancements
 
 ### Recent Improvements
 - Enhanced documentation for input validation
@@ -261,42 +261,42 @@ After mastering this category, consider:
 ## 📝 Complete Snippet Index
 
 ### Gallery
-- [Simple Gallery Layout](./gallery/layouts/simple-gallery.md)
-- [Alternating Row Colors](./gallery/styling/alternating-row-colors.md)
-- [ASCII Code Checkerboard](./gallery/styling/asciicodecheckerboard.md)
+- [Simple Gallery Layout](gallery/layouts/simple-gallery.md)
+- [Alternating Row Colors](gallery/styling/alternating-row-colors.md)
+- [ASCII Code Checkerboard](gallery/styling/asciicodecheckerboard.md)
 
 ### Text Input
-- [Code Editor](./text-input/code-editor.md)
+- [Code Editor](text-input/code-editor.md)
 
 ### DataCard
-- [DataCard](./datacard/DataCard.md)
+- [DataCard](datacard/DataCard.md)
 
 ### Drop Down List
-- [Drop Down List](./drop-down-list/drop-down-list.md)
+- [Drop Down List](drop-down-list/drop-down-list.md)
 
 ### Image
-- [Random Photo Image](./image/random-photo-image.md)
+- [Random Photo Image](image/random-photo-image.md)
 
 ### Canvas
-- [Canvas](./canvas/Canvas.md)
+- [Canvas](canvas/Canvas.md)
 
 ### Chart
-- [Themed Chart](./chart/Themed-Chart.md)
+- [Themed Chart](chart/Themed-Chart.md)
 
 ### Container
-- [Funnel Layout](./container/funnel-layout/)
+- [Funnel Layout](../controls/container/funnel-layout)
 
 ### Attachment
-- [Attachment Control](./attachment/attachment-control.md)
+- [Attachment Control](attachment/attachment-control.md)
 
 ### Add Media
-- [Add Media](./add-media/add-media.md)
+- [Add Media](add-media/add-media.md)
 
 ### Rectangle
-- [Spacer Medium](./rectangle/spacer-medium.md)
+- [Spacer Medium](rectangle/spacer-medium.md)
 
 ### Naming Controls
-- [Naming Controls](./naming-controls/naming-controls.md)
+- [Naming Controls](naming-controls/naming-controls.md)
 
 ---
 

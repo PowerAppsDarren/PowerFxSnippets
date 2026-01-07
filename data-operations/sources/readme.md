@@ -16,7 +16,7 @@ In this directory you'll find resources related to specific data sources.
 
 ### File Downloads
 
-* [File: Person.csv](/SampleData/Person.csv)
+* [File: Person.csv](../samples/people/person.csv)
 
 ### Links to Downloads
 
@@ -26,5 +26,5 @@ In this directory you'll find resources related to specific data sources.
 
 ## Data Sources
 
-* [MSSQL - Model Table](/MSQL/ModelTable.md)
+* [MSSQL - Model Table](msql/modeltable.md)
 

@@ -10,7 +10,7 @@ Also!!! read in `./ai-chats/README.md`
 
 ## [CRITICAL] Protocol - Read First!
 
-### [MANDATORY] [AI-Chats Session Documentation Protocol](./ai-chats/README.md)
+### [MANDATORY] [AI-Chats Session Documentation Protocol](../ai-chats/README.md)
 **File:** `ai-chats/README.md` (main protocol)
 
 **What:** Mandatory folder-based documentation system (v3.2) for tracking ALL AI-assisted development sessions
@@ -99,7 +99,7 @@ Also!!! read in `./ai-chats/README.md`
 ## Quick Reference
 
 ### Starting a New Project Session?
-1. Read [`ai-chats/README.md`](./ai-chats/README.md) - AI-Chats protocol
+1. Read [`ai-chats/README.md`](../ai-chats/README.md) - AI-Chats protocol
 2. Create session folder: `ai-chats/YYYY-MM-DD-01-description/`
 3. Create your model file: `[Model-Version]--00.md`
 4. Update the session INDEX.md at session end

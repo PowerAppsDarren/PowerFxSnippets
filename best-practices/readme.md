@@ -12,9 +12,9 @@ This category focuses on best practices and development standards for Power Apps
 - ❌ **Don't use for**: Basic tutorials, control implementations, or learning materials
 
 ### Related Categories
-- [**App Lifecycle**](../app-lifecycle/) - Application architecture
-- [**Functions**](../functions/) - Code patterns
-- [**Content for Learning**](../content-for-learning/) - Educational resources
+- [**App Lifecycle**](../app-lifecycle) - Application architecture
+- [**Functions**](../functions) - Code patterns
+- [**Content for Learning**](../content-for-learning) - Educational resources
 
 ## 📊 Category Statistics
 
@@ -31,29 +31,29 @@ This category focuses on best practices and development standards for Power Apps
 ### Most Popular
 | Snippet | Description | Difficulty |
 |---------|-------------|------------|
-| [**Performance Optimization**](./readme.md) | App performance tips | 🟡 |
-| [**Security Guidelines**](./readme.md) | Security best practices | 🟠 |
-| [**Code Standards**](./readme.md) | Development standards | 🟡 |
+| [**Performance Optimization**](../readme.md) | App performance tips | 🟡 |
+| [**Security Guidelines**](../readme.md) | Security best practices | 🟠 |
+| [**Code Standards**](../readme.md) | Development standards | 🟡 |
 
 ### By Difficulty
 
 #### 🟢 Beginner Friendly
-- [**Basic Standards**](./readme.md) - Fundamental guidelines
-- [**Naming Conventions**](../ui-controls/naming-controls/) - Code organization
-- [**Error Handling**](../app-lifecycle/) - Basic error management
+- [**Basic Standards**](../readme.md) - Fundamental guidelines
+- [**Naming Conventions**](../ui-controls/naming-controls) - Code organization
+- [**Error Handling**](../app-lifecycle) - Basic error management
 
 #### 🟡 Intermediate
-- [**Performance Tips**](./readme.md) - Optimization techniques
-- [**Code Reviews**](./readme.md) - Quality assurance
-- [**Documentation**](./readme.md) - Code documentation
+- [**Performance Tips**](../readme.md) - Optimization techniques
+- [**Code Reviews**](../readme.md) - Quality assurance
+- [**Documentation**](../readme.md) - Code documentation
 
 #### 🟠 Advanced
-- [**Security Practices**](./readme.md) - Advanced security
-- [**Scalability**](./readme.md) - Enterprise patterns
-- [**Testing Strategies**](./readme.md) - Quality testing
+- [**Security Practices**](../readme.md) - Advanced security
+- [**Scalability**](../readme.md) - Enterprise patterns
+- [**Testing Strategies**](../readme.md) - Quality testing
 
 #### 🔴 Expert Level
-- [**Governance**](./readme.md) - Enterprise governance
+- [**Governance**](../readme.md) - Enterprise governance
 
 ## 📁 Subcategories
 
@@ -61,8 +61,8 @@ This category focuses on best practices and development standards for Power Apps
 **Purpose**: Performance optimization and efficiency best practices.
 
 **Key Snippets:**
-- [**Optimization Techniques**](./readme.md) - Performance tips
-- [**Loading Strategies**](../app-lifecycle/) - Efficient loading
+- [**Optimization Techniques**](../readme.md) - Performance tips
+- [**Loading Strategies**](../app-lifecycle) - Efficient loading
 
 **When to use**: Improving app performance and user experience.
 
@@ -70,8 +70,8 @@ This category focuses on best practices and development standards for Power Apps
 **Purpose**: Security guidelines and secure development practices.
 
 **Key Snippets:**
-- [**Security Best Practices**](./readme.md) - Security guidelines
-- [**Data Protection**](../data-operations/) - Secure data handling
+- [**Security Best Practices**](../readme.md) - Security guidelines
+- [**Data Protection**](../data-operations) - Secure data handling
 
 **When to use**: Implementing secure applications and protecting sensitive data.
 
@@ -79,8 +79,8 @@ This category focuses on best practices and development standards for Power Apps
 **Purpose**: Coding standards, conventions, and development guidelines.
 
 **Key Snippets:**
-- [**Code Standards**](./readme.md) - Development standards
-- [**Naming Conventions**](../ui-controls/naming-controls/) - Consistent naming
+- [**Code Standards**](../readme.md) - Development standards
+- [**Naming Conventions**](../ui-controls/naming-controls) - Consistent naming
 
 **When to use**: Maintaining code quality and consistency across teams.
 
@@ -88,8 +88,8 @@ This category focuses on best practices and development standards for Power Apps
 **Purpose**: Accessibility standards and inclusive design practices.
 
 **Key Snippets:**
-- [**Accessibility Guidelines**](./readme.md) - Inclusive design
-- [**Screen Reader Support**](../ui-controls/) - Accessible controls
+- [**Accessibility Guidelines**](../readme.md) - Inclusive design
+- [**Screen Reader Support**](../ui-controls) - Accessible controls
 
 **When to use**: Creating applications accessible to all users.
 
@@ -113,19 +113,19 @@ This category focuses on best practices and development standards for Power Apps
 ## 📚 Learning Path
 
 ### For Beginners
-1. Start with [**Basic Standards**](./readme.md)
-2. Learn [**Naming Conventions**](../ui-controls/naming-controls/)
-3. Practice [**Error Handling**](../app-lifecycle/)
+1. Start with [**Basic Standards**](../readme.md)
+2. Learn [**Naming Conventions**](../ui-controls/naming-controls)
+3. Practice [**Error Handling**](../app-lifecycle)
 
 ### For Intermediate Users
-1. Master [**Performance Optimization**](./readme.md)
-2. Explore [**Code Documentation**](./readme.md)
-3. Build [**Quality Assurance**](./readme.md)
+1. Master [**Performance Optimization**](../readme.md)
+2. Explore [**Code Documentation**](../readme.md)
+3. Build [**Quality Assurance**](../readme.md)
 
 ### For Advanced Users
-1. Study [**Security Practices**](./readme.md)
-2. Implement [**Enterprise Governance**](./readme.md)
-3. Create [**Testing Frameworks**](./readme.md)
+1. Study [**Security Practices**](../readme.md)
+2. Implement [**Enterprise Governance**](../readme.md)
+3. Create [**Testing Frameworks**](../readme.md)
 
 ## 🤝 Contributing
 
@@ -158,16 +158,16 @@ Before using snippets in this category, you should understand:
 - [**App Development**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/) - Development process
 
 ### Related Content
-- [**App Lifecycle**](../app-lifecycle/) - Application architecture
-- [**Functions**](../functions/) - Code patterns
-- [**UI Controls**](../ui-controls/) - Control standards
-- [**Content for Learning**](../content-for-learning/) - Educational resources
+- [**App Lifecycle**](../app-lifecycle) - Application architecture
+- [**Functions**](../functions) - Code patterns
+- [**UI Controls**](../ui-controls) - Control standards
+- [**Content for Learning**](../content-for-learning) - Educational resources
 
 ### Next Steps
 After mastering this category, consider:
-- [**Advanced Architecture**](../app-lifecycle/) - Complex applications
-- [**Custom Components**](../code-components/) - Component development
-- [**Enterprise Integration**](../custom-connectors-apis/) - System integration
+- [**Advanced Architecture**](../app-lifecycle) - Complex applications
+- [**Custom Components**](../code-components) - Component development
+- [**Enterprise Integration**](../custom-connectors-apis) - System integration
 
 ## 📞 Support & Help
 
@@ -184,9 +184,9 @@ After mastering this category, consider:
 ## 📈 Recent Updates
 
 ### Latest Additions
-- [**Performance Guidelines**](./readme.md) - Added 2025-12-17 - Optimization tips
-- [**Security Best Practices**](./readme.md) - Added 2025-12-17 - Security guidelines
-- [**Code Standards**](./readme.md) - Added 2025-12-17 - Development standards
+- [**Performance Guidelines**](../readme.md) - Added 2025-12-17 - Optimization tips
+- [**Security Best Practices**](../readme.md) - Added 2025-12-17 - Security guidelines
+- [**Code Standards**](../readme.md) - Added 2025-12-17 - Development standards
 
 ### Recent Improvements
 - Enhanced documentation for enterprise practices
@@ -198,7 +198,7 @@ After mastering this category, consider:
 ## 📝 Complete Snippet Index
 
 ### Best Practices
-- [Best Practices Guidelines](./readme.md)
+- [Best Practices Guidelines](../readme.md)
 
 ---
 

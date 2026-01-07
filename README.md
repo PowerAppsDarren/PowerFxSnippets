@@ -13,15 +13,15 @@
 
 ### 🆕 New Structure (In Progress)
 The repository is being reorganized into a **feature-first architecture** with:
-- 📱 **[app-lifecycle/](./app-lifecycle/)** - App initialization, error handling, formulas *(NEW STRUCTURE)*
-- 🎨 **[ui-controls/](./ui-controls/)** - Control-specific snippets *(NEW STRUCTURE)*
-- 🎭 **[ui-patterns/](./ui-patterns/)** - Reusable UI patterns *(NEW STRUCTURE)*
-- 🌈 **[visual-assets/](./visual-assets/)** - SVGs, icons, colors, fonts *(NEW STRUCTURE)*
-- 📊 **[data-operations/](./data-operations/)** - Data sources and transformations *(NEW STRUCTURE)*
-- 🔧 **[functions/](./functions/)** - UDFs, UDTs, utilities *(NEW STRUCTURE)*
-- 🔗 **[integrations/](./integrations/)** - Connectors and flows *(NEW STRUCTURE)*
-- 🎓 **[learning/](./learning/)** - Tutorials and best practices *(NEW STRUCTURE)*
-- 🧰 **[utilities/](./utilities/)** - Templates and tools *(NEW STRUCTURE)*
+- 📱 **[app-lifecycle/](./app-lifecycle)** - App initialization, error handling, formulas *(NEW STRUCTURE)*
+- 🎨 **[ui-controls/](./ui-controls)** - Control-specific snippets *(NEW STRUCTURE)*
+- 🎭 **[ui-patterns/](./ui-patterns)** - Reusable UI patterns *(NEW STRUCTURE)*
+- 🌈 **[visual-assets/](./visual-assets)** - SVGs, icons, colors, fonts *(NEW STRUCTURE)*
+- 📊 **[data-operations/](./data-operations)** - Data sources and transformations *(NEW STRUCTURE)*
+- 🔧 **[functions/](./functions)** - UDFs, UDTs, utilities *(NEW STRUCTURE)*
+- 🔗 **[integrations/](./integrations)** - Connectors and flows *(NEW STRUCTURE)*
+- 🎓 **[learning/](./learning)** - Tutorials and best practices *(NEW STRUCTURE)*
+- 🧰 **[utilities/](./utilities)** - Templates and tools *(NEW STRUCTURE)*
 
 📋 **[View Complete Restructuring Plan](./--new-structure-claude-code.md)**
 
@@ -31,9 +31,9 @@ The existing organization remains functional during migration:
 ## 🚀 Quick Start
 
 **New to Power Fx?** Start here:
-- [📚 Getting Started Guide](./01-getting-started/README.md)
-- [💡 Hello World Examples](./01-getting-started/hello-world/)
-- [🔧 Common Patterns](./01-getting-started/common-patterns/)
+- [📚 Getting Started Guide](./README.md)
+- [💡 Hello World Examples](learning/tutorials/getting-started/hello-world)
+- [🔧 Common Patterns](learning/tutorials/getting-started/common-patterns)
 
 ## 📖 Table of Contents
 
@@ -41,42 +41,42 @@ The existing organization remains functional during migration:
 
 | Category                                                      | Description                          | Quick Access                                                                                                                       |
 |---------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [**01-getting-started**](./01-getting-started/)               | Entry point for new developers       | [Hello World](./01-getting-started/hello-world/) • [Common Patterns](./01-getting-started/common-patterns/)                        |
-| [**02-app-architecture**](./02-app-architecture/)             | Application structure and lifecycle  | [App Events](./02-app-architecture/app-events/) • [Navigation](./02-app-architecture/navigation-patterns/)                         |
-| [**03-user-interface**](./03-user-interface/)                 | UI components and user experience    | [Controls](./03-user-interface/controls/) • [Themes](./03-user-interface/themes-and-styling/)                                      |
-| [**04-data-management**](./04-data-management/)               | Data operations and sources          | [Data Sources](./04-data-management/data-sources/) • [Validation](./04-data-management/data-validation/)                           |
-| [**05-business-logic**](./05-business-logic/)                 | Functions and calculations           | [Functions](./05-business-logic/functions/) • [Error Handling](./05-business-logic/error-handling/)                                |
-| [**06-integrations**](./06-integrations/)                     | External services and APIs           | [Microsoft 365](./06-integrations/microsoft-365/) • [Azure](./06-integrations/azure-services/)                                     |
-| [**07-assets-and-media**](./07-assets-and-media/)             | Visual assets and media              | [Icons](./07-assets-and-media/icons/) • [SVGs](./07-assets-and-media/svgs/)                                                       |
-| [**08-advanced-patterns**](./08-advanced-patterns/)           | Expert techniques and architecture   | [Custom Components](./08-advanced-patterns/custom-components/) • [Security](./08-advanced-patterns/security-patterns/)             |
-| [**09-learning-resources**](./09-learning-resources/)         | Tutorials and educational content    | [Tutorials](./09-learning-resources/tutorials/) • [Best Practices](./09-learning-resources/best-practices/)                        |
+| [**01-getting-started**](learning/tutorials/getting-started)               | Entry point for new developers       | [Hello World](learning/tutorials/getting-started/hello-world) • [Common Patterns](learning/tutorials/getting-started/common-patterns)                        |
+| [**02-app-architecture**](./app-lifecycle)             | Application structure and lifecycle  | [App Events](app-lifecycle) • [Navigation](app-lifecycle)                         |
+| [**03-user-interface**](./ui-controls)                 | UI components and user experience    | [Controls](./controls) • [Themes](design)                                      |
+| [**04-data-management**](./data-operations)               | Data operations and sources          | [Data Sources](./data-sources) • [Validation](data-operations)                           |
+| [**05-business-logic**](./functions)                 | Functions and calculations           | [Functions](./functions) • [Error Handling](app-onerror)                                |
+| [**06-integrations**](./integrations)                     | External services and APIs           | [Microsoft 365](integrations) • [Azure](integrations)                                     |
+| [**07-assets-and-media**](./visual-assets)             | Visual assets and media              | [Icons](./icons) • [SVGs](visual-assets/svgs)                                                       |
+| [**08-advanced-patterns**](./best-practices)           | Expert techniques and architecture   | [Custom Components](ui-patterns/components/custom-components) • [Security](best-practices)             |
+| [**09-learning-resources**](./learning)         | Tutorials and educational content    | [Tutorials](learning/tutorials) • [Best Practices](./best-practices)                        |
 
 ### 🛠️ Repository Tools
 
 - [**📋 Contribution Guide**](./CONTRIBUTING.md) - How to add your own snippets
-- [**🔧 Tools & Utilities**](./tools/) - Helper scripts and utilities
-- [**📚 Documentation**](./docs/) - Detailed guides and references
-- [**⚠️ Power Fx Gotchas**](./Reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
+- [**🔧 Tools & Utilities**](./tools) - Helper scripts and utilities
+- [**📚 Documentation**](./docs) - Detailed guides and references
+- [**⚠️ Power Fx Gotchas**](reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
 - [**🏛️ Code of Conduct**](./CODE_OF_CONDUCT.md) - Community standards
 
 ## 🔥 Popular Snippets
 
 ### Quick Wins (5 minutes or less)
-- [🔍 People Picker ComboBox](./06-integrations/microsoft-365/people-picker-combobox.md)
-- [🎨 Dynamic Theme Colors](./03-user-interface/themes-and-styling/dynamic-theme-colors.md)
-- [💾 Offline Data Sync](./04-data-management/offline-capabilities/offline-data-sync.md)
-- [⚡ Performance Optimization](./02-app-architecture/performance-optimization/lazy-loading.md)
+- [🔍 People Picker ComboBox](integrations/people-picker-combobox.md)
+- [🎨 Dynamic Theme Colors](design/dynamic-theme-colors.md)
+- [💾 Offline Data Sync](data-operations/offline-data-sync.md)
+- [⚡ Performance Optimization](best-practices/lazy-loading.md)
 
 ### Advanced Solutions
-- [🏗️ Custom Component Library](./08-advanced-patterns/custom-components/component-library.md)
-- [🔐 Row-Level Security](./08-advanced-patterns/security-patterns/row-level-security.md)
-- [📊 Real-time Dashboard](./04-data-management/data-visualization/real-time-dashboard.md)
-- [🤖 AI Integration](./06-integrations/azure-services/azure-openai-integration.md)
+- [🏗️ Custom Component Library](ui-patterns/components/component-library.md)
+- [🔐 Row-Level Security](best-practices/row-level-security.md)
+- [📊 Real-time Dashboard](data-operations/real-time-dashboard.md)
+- [🤖 AI Integration](integrations/azure-openai-integration.md)
 
 ## 🎯 How to Use This Repository
 
 ### For Beginners
-1. Start with [**Getting Started**](./01-getting-started/) category
+1. Start with [**Getting Started**](learning/tutorials/getting-started) category
 2. Browse by **difficulty level** (beginner/intermediate/advanced)
 3. Use the **search function** with keywords like "gallery", "form", or "SharePoint"
 
@@ -86,23 +86,23 @@ The existing organization remains functional during migration:
 3. Check **related snippets** for comprehensive solutions
 
 ### For Teams
-1. Use [**Learning Resources**](./09-learning-resources/) for onboarding
-2. Implement [**Best Practices**](./09-learning-resources/best-practices/) across projects
-3. Leverage [**Advanced Patterns**](./08-advanced-patterns/) for complex scenarios
+1. Use [**Learning Resources**](./learning) for onboarding
+2. Implement [**Best Practices**](./best-practices) across projects
+3. Leverage [**Advanced Patterns**](./best-practices) for complex scenarios
 
 ## 🔍 Search & Discovery
 
 ### By Technology
-- **Power Apps**: [Canvas Apps](./03-user-interface/), [Data Sources](./04-data-management/)
-- **Power Automate**: [Flows](./06-integrations/power-automate/), [API Calls](./06-integrations/third-party-apis/)
-- **Dataverse**: [Data Operations](./04-data-management/), [Security](./08-advanced-patterns/security-patterns/)
-- **SharePoint**: [Integration](./06-integrations/microsoft-365/), [Document Management](./04-data-management/data-sources/)
+- **Power Apps**: [Canvas Apps](./ui-controls), [Data Sources](./data-operations)
+- **Power Automate**: [Flows](integrations/power-automate), [API Calls](integrations)
+- **Dataverse**: [Data Operations](./data-operations), [Security](best-practices)
+- **SharePoint**: [Integration](integrations), [Document Management](./data-sources)
 
 ### By Use Case
-- **Business Apps**: [Forms](./03-user-interface/controls/), [Workflows](./05-business-logic/)
-- **Dashboards**: [Charts](./04-data-management/data-visualization/), [KPIs](./05-business-logic/calculations/)
-- **Mobile Apps**: [Responsive Design](./03-user-interface/controls/responsive-design/), [Offline](./04-data-management/offline-capabilities/)
-- **Admin Tools**: [User Management](./06-integrations/microsoft-365/), [Audit Logs](./08-advanced-patterns/security-patterns/)
+- **Business Apps**: [Forms](./controls), [Workflows](./functions)
+- **Dashboards**: [Charts](data-operations), [KPIs](functions)
+- **Mobile Apps**: [Responsive Design](ui-controls/responsive-design), [Offline](data-operations)
+- **Admin Tools**: [User Management](integrations), [Audit Logs](best-practices)
 
 ## 🤝 Contributing
 

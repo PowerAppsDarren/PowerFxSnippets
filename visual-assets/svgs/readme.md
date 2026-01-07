@@ -4,9 +4,9 @@ This directory contains SVG icons, documentation, and code patterns for working 
 
 ## Start Here
 
-1. **[INDEX.md](INDEX.md)** - Complete searchable catalog of all SVG files
-2. **[Best SVG Snippet](best-svg-snippet.md)** - Comprehensive guide to SVG usage
-3. **[SVG Files](svg-files/)** - Actual SVG icon files
+1. **[INDEX.md](../../ai-protocols/index.md)** - Complete searchable catalog of all SVG files
+2. **[Best SVG Snippet](./best-svg-snippet.md)** - Comprehensive guide to SVG usage
+3. **[SVG Files](./svg-files)** - Actual SVG icon files
 
 ## Quick Start
 
@@ -36,15 +36,15 @@ With(
 
 | Resource | Description |
 |----------|-------------|
-| [INDEX.md](INDEX.md) | Complete SVG catalog with paths and descriptions |
-| [svg-files/](svg-files/) | Icon files organized by category |
-| [best-svg-snippet.md](best-svg-snippet.md) | Detailed SVG implementation guide |
-| [basic-spinner.md](basic-spinner.md) | Animated spinner implementation |
-| [replace-color-in-svg.md](replace-color-in-svg.md) | Color replacement function |
-| [svgs.md](svgs.md) | Additional resources and links |
+| [INDEX.md](../../ai-protocols/index.md) | Complete SVG catalog with paths and descriptions |
+| [svg-files/](./svg-files) | Icon files organized by category |
+| [best-svg-snippet.md](./best-svg-snippet.md) | Detailed SVG implementation guide |
+| [basic-spinner.md](./basic-spinner.md) | Animated spinner implementation |
+| [replace-color-in-svg.md](./replace-color-in-svg.md) | Color replacement function |
+| [svgs.md](./svgs.md) | Additional resources and links |
 
 ## External Resources
 
 - [2,000 Free Power Apps Icons](https://www.matthewdevaney.com/2000-free-power-apps-icons/)
 - [SVG Video Playlist](https://www.youtube.com/playlist?list=PL4-IK0AVhVjP0EeV513_b30lhGRTfMbYd)
-- [Microsoft Branding Guidelines](microsoft-branding.md)
+- [Microsoft Branding Guidelines](./microsoft-branding.md)

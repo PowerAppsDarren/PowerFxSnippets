@@ -4,7 +4,7 @@ In this directory you'll find sample data (or links to them) you can easily impo
 
 ### File Downloads 
 
-* [File: Person.csv](/SampleData/Person.csv)
+* [File: Person.csv](people/person.csv)
 
 ### Links to Downloads 
 

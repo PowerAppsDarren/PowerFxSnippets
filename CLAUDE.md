@@ -6,6 +6,28 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a Power Fx snippets repository containing reusable code patterns, formulas, and components for Microsoft Power Platform development. The repository serves as a comprehensive collection of Power Apps development resources.
 
+### 🔀 Dual Repository Structure
+
+**This repository is part of a two-repo system:**
+
+1. **PowerFxSnippets/** (THIS REPO - Public)
+   - **Published to:** GitHub as public repository
+   - **Contains:** Generic, shareable Power Fx patterns and components
+   - **Use for:** Community-facing snippets, general best practices, reusable code
+   - **No client-specific or proprietary content**
+
+2. **PowerFxSnippets-Private/** (Sibling Repo - Private)
+   - **Location:** `../PowerFxSnippets-Private/`
+   - **Contains:** Client-specific implementations, proprietary patterns, internal tools
+   - **Use for:** NDA-protected work, client projects, private configurations
+   - **Has `.specify/` folder** with spec-kit for project specifications
+
+**When working across both repos:**
+- Generic/reusable patterns → Public repo (PowerFxSnippets)
+- Client-specific implementations → Private repo (PowerFxSnippets-Private)
+- Check both repos when searching for existing patterns
+- Reference public snippets from private implementations where possible
+
 ## Editing Markdown Files
 
 When adding or updating any `.md` file in this repository:

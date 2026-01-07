@@ -330,16 +330,16 @@ Set(
 ## 📚 Related Snippets
 
 ### Complementary Functionality
-- [**{Related Snippet}**](../path/to/related.md) - {How it complements this snippet}
-- [**{Another Related}**](../path/to/another.md) - {Additional relationship}
+- [**{Related Snippet}**](docs/path/to/related.md) - {How it complements this snippet}
+- [**{Another Related}**](docs/path/to/another.md) - {Additional relationship}
 
 ### Alternative Approaches
-- [**{Alternative Method}**](../path/to/alternative.md) - {When to use this instead}
-- [**{Different Solution}**](../path/to/different.md) - {Alternative for different scenarios}
+- [**{Alternative Method}**](docs/path/to/alternative.md) - {When to use this instead}
+- [**{Different Solution}**](docs/path/to/different.md) - {Alternative for different scenarios}
 
 ### Advanced Extensions
-- [**{Extended Version}**](../path/to/extended.md) - {More advanced implementation}
-- [**{Specialized Variant}**](../path/to/specialized.md) - {For specific use cases}
+- [**{Extended Version}**](docs/path/to/extended.md) - {More advanced implementation}
+- [**{Specialized Variant}**](docs/path/to/specialized.md) - {For specific use cases}
 
 ## 🔗 External Resources
 
@@ -365,7 +365,7 @@ This snippet can be enhanced by:
 - Adding performance optimizations for {scenario}
 
 ### Reporting Issues
-Found a bug or have a suggestion? [Create an issue](../../issues/new) with the "bug" or "enhancement" label.
+Found a bug or have a suggestion? [Create an issue](issues/new) with the "bug" or "enhancement" label.
 
 ### Code Reviews
 All contributions are welcome! Please ensure:

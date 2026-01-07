@@ -893,7 +893,7 @@ If(
 
 - [Gallery Headers](./gallery-headers.md)
 - [Accessible Color Palettes](../../visual-assets/colors/palettes/accessible-color-palettes.md)
-- [Responsive Gallery Layouts](./layouts/responsive-gallery.md)
+- [Responsive Gallery Layouts](ui-controls/gallery/layouts/responsive-gallery.md)
 
 ## Credits
 
@@ -995,11 +995,11 @@ Control-specific Power Fx snippets organized by control type.
 
 | Control Type              | Description                  | Snippet Count |
 |---------------------------|------------------------------|---------------|
-| [Gallery](./gallery/)     | Data display with templates  | 24            |
-| [Text Input](./text-input/) | User input fields          | 15            |
-| [Combobox](./combobox/)   | Dropdown selections          | 12            |
-| [Button](./button/)       | Action triggers              | 8             |
-| [Form](./form/)           | Data entry forms             | 18            |
+| [Gallery](components/gallery)     | Data display with templates  | 24            |
+| [Text Input](controls/text-input) | User input fields          | 15            |
+| [Combobox](./combobox)   | Dropdown selections          | 12            |
+| [Button](./button)       | Action triggers              | 8             |
+| [Form](./form)           | Data entry forms             | 18            |
 | ...                       | ...                          | ...           |
 
 ## 🏷️ Browse by Tag
@@ -1013,19 +1013,19 @@ Control-specific Power Fx snippets organized by control type.
 
 New to UI Controls in Power Fx? Start here:
 
-1. [Basic Gallery Setup](./gallery/layouts/responsive-gallery.md)
-2. [Form Validation Patterns](./form/form-validation.md)
-3. [Input Field Best Practices](./text-input/validation/email-validation.md)
+1. [Basic Gallery Setup](ui-controls/gallery/layouts/responsive-gallery.md)
+2. [Form Validation Patterns](form/form-validation.md)
+3. [Input Field Best Practices](text-input/validation/email-validation.md)
 
 ## 📖 Related Resources
 
-- [UI Patterns](../ui-patterns/) - Multi-control patterns
-- [Visual Assets](../visual-assets/) - Colors, icons, themes
-- [Best Practices](../learning/best-practices/) - Code quality guidelines
+- [UI Patterns](./ui-patterns) - Multi-control patterns
+- [Visual Assets](./visual-assets) - Colors, icons, themes
+- [Best Practices](./best-practices) - Code quality guidelines
 
 ---
 
-*Last updated: 2025-11-17 | [Contribute](../utilities/github/CONTRIBUTING.md)*
+*Last updated: 2025-11-17 | [Contribute](./CONTRIBUTING.md)*
 ```
 
 ### Subcategory README
@@ -1037,34 +1037,34 @@ Reusable Power Fx patterns for Gallery controls.
 
 ## 📂 Sub-Categories
 
-### [Layouts](./layouts/)
+### [Layouts](ui-controls/gallery/layouts)
 Gallery arrangement and structure patterns
 
-- [Responsive Gallery](./layouts/responsive-gallery.md) ⭐
-- [Nested Gallery](./layouts/nested-gallery.md)
-- [Horizontal Gallery](./layouts/horizontal-gallery.md)
-- [Card Layout Gallery](./layouts/card-layout-gallery.md)
+- [Responsive Gallery](ui-controls/gallery/layouts/responsive-gallery.md) ⭐
+- [Nested Gallery](layouts/nested-gallery.md)
+- [Horizontal Gallery](layouts/horizontal-gallery.md)
+- [Card Layout Gallery](layouts/card-layout-gallery.md)
 
-### [Interactions](./interactions/)
+### [Interactions](ui-controls/gallery/interactions)
 User interaction patterns
 
-- [Select/Deselect](./interactions/select-deselect.md) ⭐
-- [Multi-Select](./interactions/multi-select.md)
-- [Swipe Actions](./interactions/swipe-actions.md)
+- [Select/Deselect](interactions/select-deselect.md) ⭐
+- [Multi-Select](interactions/multi-select.md)
+- [Swipe Actions](interactions/swipe-actions.md)
 
-### [Styling](./styling/)
+### [Styling](ui-controls/gallery/styling)
 Visual appearance and theming
 
-- [Alternating Row Colors](./styling/alternating-row-colors.md) ⭐
-- [Gallery Headers](./styling/gallery-headers.md)
-- [Loading Indicators](./styling/loading-indicators.md)
+- [Alternating Row Colors](ui-controls/gallery/styling/alternating-row-colors.md) ⭐
+- [Gallery Headers](styling/gallery-headers.md)
+- [Loading Indicators](styling/loading-indicators.md)
 
-### [Filtering](./filtering/)
+### [Filtering](./filtering)
 Data filtering and search
 
-- [Search Filter](./filtering/search-filter.md) ⭐
-- [Multi-Field Filter](./filtering/multi-field-filter.md)
-- [Dynamic Sorting](./filtering/dynamic-sorting.md)
+- [Search Filter](filtering/search-filter.md) ⭐
+- [Multi-Field Filter](filtering/multi-field-filter.md)
+- [Dynamic Sorting](filtering/dynamic-sorting.md)
 
 ## 🔍 Browse by Difficulty
 

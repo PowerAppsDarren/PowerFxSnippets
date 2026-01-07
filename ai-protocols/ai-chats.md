@@ -223,7 +223,7 @@ The `ai-chats/INDEX.md` file is **MANDATORY** and serves as the complete table o
 
 ### YYYY-MM-DD
 
-#### [01] [Folder: YYYY-MM-DD-01-topic-name](./YYYY-MM-DD-01-topic-name/)
+#### [01] [Folder: YYYY-MM-DD-01-topic-name](./yyyy-mm-dd-01-topic-name)
 - **Topic:** Brief description
 - **Models Used:** Sonnet-4.5, Gemini-Pro-2.5
 - **Files:** 7 files (3 Sonnet + 4 Gemini)
@@ -233,7 +233,7 @@ The `ai-chats/INDEX.md` file is **MANDATORY** and serves as the complete table o
   - Achievement 2
 - **Related Sessions:** Links to related session folders
 
-#### [02] [Folder: YYYY-MM-DD-02-another-topic](./YYYY-MM-DD-02-another-topic/)
+#### [02] [Folder: YYYY-MM-DD-02-another-topic](./yyyy-mm-dd-02-another-topic)
 - **Topic:** Brief description
 - **Models Used:** GPT-4-Turbo
 - **Files:** 4 files
@@ -246,30 +246,30 @@ The `ai-chats/INDEX.md` file is **MANDATORY** and serves as the complete table o
 ## Sessions by Topic
 
 ### Database & Migrations
-- [YYYY-MM-DD-02-database-migration](./YYYY-MM-DD-02-database-migration/)
-- [YYYY-MM-DD-15-schema-refactor](./YYYY-MM-DD-15-schema-refactor/)
+- [YYYY-MM-DD-02-database-migration](./yyyy-mm-dd-02-database-migration)
+- [YYYY-MM-DD-15-schema-refactor](./yyyy-mm-dd-15-schema-refactor)
 
 ### API Development
-- [YYYY-MM-DD-01-api-integration](./YYYY-MM-DD-01-api-integration/)
-- [YYYY-MM-DD-08-rest-endpoints](./YYYY-MM-DD-08-rest-endpoints/)
+- [YYYY-MM-DD-01-api-integration](./yyyy-mm-dd-01-api-integration)
+- [YYYY-MM-DD-08-rest-endpoints](./yyyy-mm-dd-08-rest-endpoints)
 
 ### Frontend
-- [YYYY-MM-DD-03-react-setup](./YYYY-MM-DD-03-react-setup/)
+- [YYYY-MM-DD-03-react-setup](./yyyy-mm-dd-03-react-setup)
 
 ---
 
 ## Sessions by Model
 
 ### Sonnet-4.5 (Claude Code)
-- [YYYY-MM-DD-01-topic-name](./YYYY-MM-DD-01-topic-name/) - 3 files
-- [YYYY-MM-DD-05-another](./YYYY-MM-DD-05-another/) - 5 files
+- [YYYY-MM-DD-01-topic-name](./yyyy-mm-dd-01-topic-name) - 3 files
+- [YYYY-MM-DD-05-another](./yyyy-mm-dd-05-another) - 5 files
 
 ### Gemini-Pro-2.5
-- [YYYY-MM-DD-01-topic-name](./YYYY-MM-DD-01-topic-name/) - 4 files
-- [YYYY-MM-DD-03-different](./YYYY-MM-DD-03-different/) - 2 files
+- [YYYY-MM-DD-01-topic-name](./yyyy-mm-dd-01-topic-name) - 4 files
+- [YYYY-MM-DD-03-different](./yyyy-mm-dd-03-different) - 2 files
 
 ### GPT-4-Turbo
-- [YYYY-MM-DD-02-another-topic](./YYYY-MM-DD-02-another-topic/) - 4 files
+- [YYYY-MM-DD-02-another-topic](./yyyy-mm-dd-02-another-topic) - 4 files
 
 ---
 
@@ -294,19 +294,19 @@ The `ai-chats/INDEX.md` file is **MANDATORY** and serves as the complete table o
 ## Complete File Listing
 
 ### YYYY-MM-DD-01-topic-name/
-- [Sonnet-4.5--00.md](./YYYY-MM-DD-01-topic-name/Sonnet-4.5--00.md) - Main documentation
-- [Sonnet-4.5--01.md](./YYYY-MM-DD-01-topic-name/Sonnet-4.5--01.md) - Exchange 1
-- [Sonnet-4.5--02.md](./YYYY-MM-DD-01-topic-name/Sonnet-4.5--02.md) - Exchange 2
-- [Gemini-Pro-2.5--00.md](./YYYY-MM-DD-01-topic-name/Gemini-Pro-2.5--00.md) - Main documentation
-- [Gemini-Pro-2.5--01.md](./YYYY-MM-DD-01-topic-name/Gemini-Pro-2.5--01.md) - Exchange 1
-- [Gemini-Pro-2.5--02.md](./YYYY-MM-DD-01-topic-name/Gemini-Pro-2.5--02.md) - Exchange 2
-- [Gemini-Pro-2.5--03.md](./YYYY-MM-DD-01-topic-name/Gemini-Pro-2.5--03.md) - Exchange 3
+- [Sonnet-4.5--00.md](../ai-chats/2025-11-20-01-general-session/Sonnet-4.5--00.md) - Main documentation
+- [Sonnet-4.5--01.md](../ai-chats/2025-11-20-01-general-session/Sonnet-4.5--01.md) - Exchange 1
+- [Sonnet-4.5--02.md](../ai-chats/2025-11-20-02-repository-review-spec-integration/Sonnet-4.5--02.md) - Exchange 2
+- [Gemini-Pro-2.5--00.md](yyyy-mm-dd-01-topic-name/gemini-pro-2.5--00.md) - Main documentation
+- [Gemini-Pro-2.5--01.md](yyyy-mm-dd-01-topic-name/gemini-pro-2.5--01.md) - Exchange 1
+- [Gemini-Pro-2.5--02.md](yyyy-mm-dd-01-topic-name/gemini-pro-2.5--02.md) - Exchange 2
+- [Gemini-Pro-2.5--03.md](yyyy-mm-dd-01-topic-name/gemini-pro-2.5--03.md) - Exchange 3
 
 ### YYYY-MM-DD-02-another-topic/
-- [GPT-4-Turbo--00.md](./YYYY-MM-DD-02-another-topic/GPT-4-Turbo--00.md) - Main documentation
-- [GPT-4-Turbo--01.md](./YYYY-MM-DD-02-another-topic/GPT-4-Turbo--01.md) - Exchange 1
-- [GPT-4-Turbo--02.md](./YYYY-MM-DD-02-another-topic/GPT-4-Turbo--02.md) - Exchange 2
-- [GPT-4-Turbo--03.md](./YYYY-MM-DD-02-another-topic/GPT-4-Turbo--03.md) - Exchange 3
+- [GPT-4-Turbo--00.md](yyyy-mm-dd-02-another-topic/gpt-4-turbo--00.md) - Main documentation
+- [GPT-4-Turbo--01.md](yyyy-mm-dd-02-another-topic/gpt-4-turbo--01.md) - Exchange 1
+- [GPT-4-Turbo--02.md](yyyy-mm-dd-02-another-topic/gpt-4-turbo--02.md) - Exchange 2
+- [GPT-4-Turbo--03.md](yyyy-mm-dd-02-another-topic/gpt-4-turbo--03.md) - Exchange 3
 
 [Continue for all session folders...]
 ```
@@ -370,9 +370,9 @@ The `[Model-Version]--00.md` file **MUST** include these sections:
 #### 6. 📁 Exchange Index
 ```markdown
 ## Exchange Files
-- [01 - Initial Request](./Opus-4.1--01.md)
-- [02 - Implementation](./Opus-4.1--02.md)
-- [03 - Testing](./Opus-4.1--03.md)
+- [01 - Initial Request](./opus-4.1--01.md)
+- [02 - Implementation](./opus-4.1--02.md)
+- [03 - Testing](./opus-4.1--03.md)
 [Continue listing all exchanges]
 ```
 

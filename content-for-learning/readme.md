@@ -12,9 +12,9 @@ This category focuses on educational content and learning resources for Power Ap
 - ❌ **Don't use for**: Production code, data operations, or app functionality
 
 ### Related Categories
-- [**Best Practices**](../best-practices/) - Development standards
-- [**Functions**](../functions/) - Code patterns
-- [**UI Controls**](../ui-controls/) - Control examples
+- [**Best Practices**](../best-practices) - Development standards
+- [**Functions**](../functions) - Code patterns
+- [**UI Controls**](../ui-controls) - Control examples
 
 ## 📊 Category Statistics
 
@@ -31,28 +31,28 @@ This category focuses on educational content and learning resources for Power Ap
 ### Most Popular
 | Snippet | Description | Difficulty |
 |---------|-------------|------------|
-| [**Learning Resources**](./readme.md) | Educational content overview | 🟢 |
-| [**Tutorial Examples**](./readme.md) | Step-by-step guides | 🟢 |
-| [**Training Materials**](./readme.md) | Teaching resources | 🟡 |
+| [**Learning Resources**](../readme.md) | Educational content overview | 🟢 |
+| [**Tutorial Examples**](../readme.md) | Step-by-step guides | 🟢 |
+| [**Training Materials**](../readme.md) | Teaching resources | 🟡 |
 
 ### By Difficulty
 
 #### 🟢 Beginner Friendly
-- [**Getting Started**](./readme.md) - Power Apps basics
-- [**First App**](./readme.md) - Simple application
-- [**Formula Basics**](../functions/) - Power Fx introduction
+- [**Getting Started**](../readme.md) - Power Apps basics
+- [**First App**](../readme.md) - Simple application
+- [**Formula Basics**](../functions) - Power Fx introduction
 
 #### 🟡 Intermediate
-- [**Advanced Patterns**](../ui-controls/) - Complex examples
-- [**Data Integration**](../data-operations/) - External data
-- [**Best Practices**](../best-practices/) - Development standards
+- [**Advanced Patterns**](../ui-controls) - Complex examples
+- [**Data Integration**](../data-operations) - External data
+- [**Best Practices**](../best-practices) - Development standards
 
 #### 🟠 Advanced
-- [**Enterprise Solutions**](./readme.md) - Complex applications
-- [**Custom Components**](../code-components/) - Advanced development
+- [**Enterprise Solutions**](../readme.md) - Complex applications
+- [**Custom Components**](../code-components) - Advanced development
 
 #### 🔴 Expert Level
-- [**Architecture Patterns**](./readme.md) - System design
+- [**Architecture Patterns**](../readme.md) - System design
 
 ## 📁 Subcategories
 
@@ -60,8 +60,8 @@ This category focuses on educational content and learning resources for Power Ap
 **Purpose**: Step-by-step guides and tutorials for learning Power Apps.
 
 **Key Snippets:**
-- [**Beginner Tutorials**](./readme.md) - Getting started guides
-- [**Advanced Tutorials**](./readme.md) - Complex topics
+- [**Beginner Tutorials**](../readme.md) - Getting started guides
+- [**Advanced Tutorials**](../readme.md) - Complex topics
 
 **When to use**: Learning new concepts or following guided learning paths.
 
@@ -69,8 +69,8 @@ This category focuses on educational content and learning resources for Power Ap
 **Purpose**: Practical examples and sample applications for learning.
 
 **Key Snippets:**
-- [**Sample Apps**](./readme.md) - Complete applications
-- [**Code Examples**](../functions/) - Code patterns
+- [**Sample Apps**](../readme.md) - Complete applications
+- [**Code Examples**](../functions) - Code patterns
 
 **When to use**: Understanding concepts through practical implementation.
 
@@ -78,8 +78,8 @@ This category focuses on educational content and learning resources for Power Ap
 **Purpose**: Training materials and resources for teaching Power Apps.
 
 **Key Snippets:**
-- [**Training Guides**](./readme.md) - Teaching materials
-- [**Workshops**](./readme.md) - Hands-on sessions
+- [**Training Guides**](../readme.md) - Teaching materials
+- [**Workshops**](../readme.md) - Hands-on sessions
 
 **When to use**: Conducting training sessions or workshops.
 
@@ -103,19 +103,19 @@ This category focuses on educational content and learning resources for Power Ap
 ## 📚 Learning Path
 
 ### For Beginners
-1. Start with [**Power Apps Basics**](./readme.md)
-2. Learn [**Formula Fundamentals**](../functions/)
-3. Build [**Simple Apps**](./readme.md)
+1. Start with [**Power Apps Basics**](../readme.md)
+2. Learn [**Formula Fundamentals**](../functions)
+3. Build [**Simple Apps**](../readme.md)
 
 ### For Intermediate Users
-1. Master [**Advanced Controls**](../ui-controls/)
-2. Explore [**Data Operations**](../data-operations/)
-3. Practice [**Best Practices**](../best-practices/)
+1. Master [**Advanced Controls**](../ui-controls)
+2. Explore [**Data Operations**](../data-operations)
+3. Practice [**Best Practices**](../best-practices)
 
 ### For Advanced Users
-1. Study [**Enterprise Patterns**](./readme.md)
-2. Implement [**Custom Solutions**](../code-components/)
-3. Teach [**Advanced Concepts**](./readme.md)
+1. Study [**Enterprise Patterns**](../readme.md)
+2. Implement [**Custom Solutions**](../code-components)
+3. Teach [**Advanced Concepts**](../readme.md)
 
 ## 🤝 Contributing
 
@@ -148,16 +148,16 @@ Before using snippets in this category, you should understand:
 - [**Canvas Apps**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/) - App development
 
 ### Related Content
-- [**Best Practices**](../best-practices/) - Development standards
-- [**Functions**](../functions/) - Code patterns
-- [**UI Controls**](../ui-controls/) - Control examples
-- [**Data Operations**](../data-operations/) - Data handling
+- [**Best Practices**](../best-practices) - Development standards
+- [**Functions**](../functions) - Code patterns
+- [**UI Controls**](../ui-controls) - Control examples
+- [**Data Operations**](../data-operations) - Data handling
 
 ### Next Steps
 After mastering this category, consider:
-- [**Production Development**](../app-lifecycle/) - Real applications
-- [**Advanced Features**](../functions/algorithms/) - Complex logic
-- [**Custom Components**](../code-components/) - Component development
+- [**Production Development**](../app-lifecycle) - Real applications
+- [**Advanced Features**](../functions/algorithms) - Complex logic
+- [**Custom Components**](../code-components) - Component development
 
 ## 📞 Support & Help
 
@@ -174,9 +174,9 @@ After mastering this category, consider:
 ## 📈 Recent Updates
 
 ### Latest Additions
-- [**Learning Resources**](./readme.md) - Added 2025-12-17 - Educational content
-- [**Tutorial Guides**](./readme.md) - Added 2025-12-17 - Step-by-step learning
-- [**Training Materials**](./readme.md) - Added 2025-12-17 - Teaching resources
+- [**Learning Resources**](../readme.md) - Added 2025-12-17 - Educational content
+- [**Tutorial Guides**](../readme.md) - Added 2025-12-17 - Step-by-step learning
+- [**Training Materials**](../readme.md) - Added 2025-12-17 - Teaching resources
 
 ### Recent Improvements
 - Enhanced documentation for beginners
@@ -188,7 +188,7 @@ After mastering this category, consider:
 ## 📝 Complete Snippet Index
 
 ### Content for Learning
-- [Learning Resources](./readme.md)
+- [Learning Resources](../readme.md)
 
 ---
 

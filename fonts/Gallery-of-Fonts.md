@@ -1,6 +1,6 @@
 # Gallery Showing Available Fonts
 
-To make this reusable and more efficient, paste in the code from [this code snippet](Add-to-App-Formulas.md), then replace the `Items` property with `fxExp_Fonts` once you have done so. No need to have duplicate code. This code is shared as is so that if you didn't use App.Formulas, you can still use this code snippet to create a gallery that shows the available fonts in Power Apps.
+To make this reusable and more efficient, paste in the code from [this code snippet](./add-to-app-formulas.md), then replace the `Items` property with `fxExp_Fonts` once you have done so. No need to have duplicate code. This code is shared as is so that if you didn't use App.Formulas, you can still use this code snippet to create a gallery that shows the available fonts in Power Apps.
 
 ```yaml
 - galFonts:

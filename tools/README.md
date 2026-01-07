@@ -284,7 +284,7 @@ npm update
 
 - **Issues**: [Report tool problems](https://github.com/PowerAppsDarren/PowerFxSnippets/issues)
 - **Discussions**: [Ask questions](https://github.com/PowerAppsDarren/PowerFxSnippets/discussions)
-- **Documentation**: [Tool guides](./docs/)
+- **Documentation**: [Tool guides](../docs)
 
 ---
 

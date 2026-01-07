@@ -214,9 +214,9 @@ The `[Model-Version]--00.md` file **MUST** include these sections:
 #### 6. 📁 Exchange Index
 ```markdown
 ## Exchange Files
-- [01 - Initial Request](./Opus-4.1--01.md)
-- [02 - Implementation](./Opus-4.1--02.md)
-- [03 - Testing](./Opus-4.1--03.md)
+- [01 - Initial Request](./opus-4.1--01.md)
+- [02 - Implementation](./opus-4.1--02.md)
+- [03 - Testing](./opus-4.1--03.md)
 [Continue listing all exchanges]
 ```
 

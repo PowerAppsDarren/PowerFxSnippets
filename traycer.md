@@ -561,8 +561,8 @@ Repository evolution MUST preserve existing content and maintain backward compat
 ## 🔗 Related Resources
 
 ### Internal Documentation
-- [Complete Restructuring Plan](--new-structure-claude-code.md)
-- [AI-Chats Session History](ai-chats/)
+- [Complete Restructuring Plan](./--new-structure-claude-code.md)
+- [AI-Chats Session History](./ai-chats)
 - [Repository Constitution](.specify/memory/constitution.md)
 
 ### External Resources

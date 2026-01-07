@@ -42,4 +42,4 @@ All folders 02-09 contain only empty subfolders with malformed brace-expansion n
 - [To be updated after session]
 
 ## Exchange Files
-- [01 - Initial session continuation](./Opus-4.5--01.md)
+- [01 - Initial session continuation](../2025-12-04-01-onerror-improvements/Opus-4.5--01.md)

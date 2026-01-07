@@ -1,3 +1,3 @@
 # Menu-Related README
 
-- [Menu Items Schema](Menu-Items-Schema.md)
+- [Menu Items Schema](./Menu-Items-Schema.md)

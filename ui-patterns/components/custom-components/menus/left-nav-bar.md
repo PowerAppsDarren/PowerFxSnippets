@@ -23,7 +23,7 @@ related: []
 
 # Left Nav Bar
 
-- Look at this menu in action [here](example-left-nav-bar.png).
+- Look at this menu in action [here](./example-left-nav-bar.png).
 - Down below, there is a 2nd YAML code block that you could paste in to import this whole screen!
 - There are two code blocks below!
 

@@ -12,9 +12,9 @@ This category focuses on application-level operations and lifecycle management i
 - ❌ **Don't use for**: Control-specific logic, data operations, or UI styling
 
 ### Related Categories
-- [**Functions**](../functions/) - Reusable function patterns and algorithms
-- [**Data Operations**](../data-operations/) - Data manipulation and processing
-- [**UI Controls**](../ui-controls/) - Control-specific implementations
+- [**Functions**](../functions) - Reusable function patterns and algorithms
+- [**Data Operations**](../data-operations) - Data manipulation and processing
+- [**UI Controls**](../ui-controls) - Control-specific implementations
 
 ## 📊 Category Statistics
 
@@ -33,23 +33,23 @@ This category focuses on application-level operations and lifecycle management i
 |------------------------------------------------------------------------|------------------------------------------------|------------|
 | [**App.OnStart Patterns**](../app-onstart/app-onstart.md)             | Application initialization and startup logic   | 🟢         |
 | [**App.OnError Handling**](../app-onerror/fxapponerror.yaml)          | Global error management and user feedback      | 🟡         |
-| [**Named Formulas**](./formulas/expressions/top-of-app-formulas.md)   | Global formula organization and best practices | 🟡         |
+| [**Named Formulas**](formulas/expressions/top-of-app-formulas.md)   | Global formula organization and best practices | 🟡         |
 
 ### By Difficulty
 
 #### 🟢 Beginner Friendly
 - [**Basic App Initialization**](../app-onstart/app-onstart.md) - Set up your app properly
-- [**Simple Error Handling**](../app-onerror/app-onerror.md) - Basic error catching
-- [**Named Formula Basics**](./formulas/expressions/control-constants.md) - Introduction to global formulas
+- [**Simple Error Handling**](app-onerror/app-onerror.md) - Basic error catching
+- [**Named Formula Basics**](formulas/expressions/control-constants.md) - Introduction to global formulas
 
 #### 🟡 Intermediate
 - [**Advanced Error Patterns**](../app-onerror/fxapponerror-pa.yaml) - Complex error scenarios
-- [**User-Defined Functions**](./formulas/user-defined-functions/fxfindproportionalvalue.md) - Custom function creation
+- [**User-Defined Functions**](formulas/user-defined-functions/fxfindproportionalvalue.md) - Custom function creation
 - [**Navigation Logic**](../app-startscreen/app-startscreen.md) - Screen transition patterns
 
 #### 🟠 Advanced
-- [**Complex Formula Collections**](./formulas/collections/color-enum-in-named-formula.md) - Advanced formula organization
-- [**Type Definitions**](./formulas/user-defined-types/user-defined-types.md) - Custom data types
+- [**Complex Formula Collections**](formulas/collections/color-enum-in-named-formula.md) - Advanced formula organization
+- [**Type Definitions**](formulas/user-defined-types/user-defined-types.md) - Custom data types
 - [**Message Handling**](../app-onmessage/app-onmessage.md) - App.OnMessage patterns
 
 #### 🔴 Expert Level
@@ -61,9 +61,9 @@ This category focuses on application-level operations and lifecycle management i
 **Purpose**: Named formulas, expressions, user-defined functions, and types defined in App.Formulas for global application logic.
 
 **Key Snippets:**
-- [**Top-of-App Formulas**](./formulas/expressions/top-of-app-formulas.md) - Global formula organization
-- [**User-Defined Functions**](./formulas/user-defined-functions/fxfindproportionalvalue.md) - Custom function implementations
-- [**User-Defined Types**](./formulas/user-defined-types/user-defined-types.md) - Type definitions and schemas
+- [**Top-of-App Formulas**](formulas/expressions/top-of-app-formulas.md) - Global formula organization
+- [**User-Defined Functions**](formulas/user-defined-functions/fxfindproportionalvalue.md) - Custom function implementations
+- [**User-Defined Types**](formulas/user-defined-types/user-defined-types.md) - Type definitions and schemas
 
 **When to use**: When you need reusable logic across your entire application or complex formula organization.
 
@@ -72,7 +72,7 @@ This category focuses on application-level operations and lifecycle management i
 
 **Key Snippets:**
 - [**App.OnStart Basics**](../app-onstart/app-onstart.md) - Basic initialization patterns
-- [**Studio Mode Detection**](./formulas/expressions/boolean-is-in-studio-mode.md) - Environment-specific logic
+- [**Studio Mode Detection**](formulas/expressions/boolean-is-in-studio-mode.md) - Environment-specific logic
 
 **When to use**: Setting up your app when it first loads or detecting development vs. production environments.
 
@@ -81,7 +81,7 @@ This category focuses on application-level operations and lifecycle management i
 
 **Key Snippets:**
 - [**Global Error Handler**](../app-onerror/fxapponerror.yaml) - Comprehensive error management
-- [**Error Kinds**](./formulas/collections/error-kinds.md) - Understanding error types
+- [**Error Kinds**](../errors/error-kinds.md) - Understanding error types
 
 **When to use**: Implementing robust error handling that affects the entire application.
 
@@ -90,7 +90,7 @@ This category focuses on application-level operations and lifecycle management i
 
 **Key Snippets:**
 - [**Start Screen Logic**](../app-startscreen/app-startscreen.md) - Initial screen determination
-- [**Screen Transition Effects**](./formulas/user-defined-functions/screen-transition-random.md) - Visual navigation enhancements
+- [**Screen Transition Effects**](formulas/user-defined-functions/screen-transition-random.md) - Visual navigation enhancements
 
 **When to use**: Managing which screen users see first or implementing complex navigation flows.
 
@@ -123,17 +123,17 @@ This category focuses on application-level operations and lifecycle management i
 
 ### For Beginners
 1. Start with [**App.OnStart Basics**](../app-onstart/app-onstart.md)
-2. Learn [**Named Formula Organization**](./formulas/expressions/top-of-app-formulas.md)
-3. Practice with [**Basic Error Handling**](../app-onerror/app-onerror.md)
+2. Learn [**Named Formula Organization**](formulas/expressions/top-of-app-formulas.md)
+3. Practice with [**Basic Error Handling**](app-onerror/app-onerror.md)
 
 ### For Intermediate Users
-1. Master [**User-Defined Functions**](./formulas/user-defined-functions/fxfindproportionalvalue.md)
+1. Master [**User-Defined Functions**](formulas/user-defined-functions/fxfindproportionalvalue.md)
 2. Explore [**Advanced Error Patterns**](../app-onerror/fxapponerror-pa.yaml)
 3. Build [**Navigation Logic**](../app-startscreen/app-startscreen.md)
 
 ### For Advanced Users
-1. Study [**Complex Formula Collections**](./formulas/collections/color-enum-in-named-formula.md)
-2. Implement [**Custom Types**](./formulas/user-defined-types/user-defined-types.md)
+1. Study [**Complex Formula Collections**](formulas/collections/color-enum-in-named-formula.md)
+2. Implement [**Custom Types**](formulas/user-defined-types/user-defined-types.md)
 3. Optimize [**Enterprise Error Management**](../app-onerror/fxapponerror.yaml)
 
 ## 🤝 Contributing
@@ -163,20 +163,20 @@ This category focuses on application-level operations and lifecycle management i
 ### Prerequisites
 Before using snippets in this category, you should understand:
 - [**Power Fx Basics**](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - Fundamental Power Fx concepts
-- [**App Architecture**](../best-practices/) - Application design principles
-- [**Data Sources**](../data-sources/) - Connecting to data
+- [**App Architecture**](../best-practices) - Application design principles
+- [**Data Sources**](../data-sources) - Connecting to data
 
 ### Related Content
-- [**Functions**](../functions/) - Reusable function patterns
-- [**Data Operations**](../data-operations/) - Data manipulation techniques
-- [**UI Controls**](../ui-controls/) - Control implementations
-- [**Best Practices**](../best-practices/) - Development guidelines
+- [**Functions**](../functions) - Reusable function patterns
+- [**Data Operations**](../data-operations) - Data manipulation techniques
+- [**UI Controls**](../ui-controls) - Control implementations
+- [**Best Practices**](../best-practices) - Development guidelines
 
 ### Next Steps
 After mastering this category, consider:
-- [**Advanced Functions**](../functions/algorithms/) - Complex algorithms
-- [**Data Integration**](../data-operations/sources/) - External data connections
-- [**UI Patterns**](../ui-controls/gallery/) - Advanced control patterns
+- [**Advanced Functions**](../functions/algorithms) - Complex algorithms
+- [**Data Integration**](../data-operations/sources) - External data connections
+- [**UI Patterns**](../ui-controls/gallery) - Advanced control patterns
 
 ## 📞 Support & Help
 
@@ -196,7 +196,7 @@ After mastering this category, consider:
 - [**Environment Variables & ALM Guide**](./environment-variables-sharepoint-alm-guide.md) - Added 2025-12-18 - Complete SharePoint deployment checklist
 - [**App.OnMessage Patterns**](../app-onmessage/app-onmessage.md) - Added 2025-12-17 - Message handling examples
 - [**Advanced Error Handling**](../app-onerror/fxapponerror-pa.yaml) - Added 2025-12-17 - Complex error scenarios
-- [**Formula Collections**](./formulas/collections/color-enum-in-named-formula.md) - Added 2025-12-17 - Color management
+- [**Formula Collections**](formulas/collections/color-enum-in-named-formula.md) - Added 2025-12-17 - Color management
 
 ### Recent Improvements
 - Enhanced documentation for global formulas
@@ -208,28 +208,28 @@ After mastering this category, consider:
 ## 📝 Complete Snippet Index
 
 ### Formulas
-- [Top-of-App Formulas](./formulas/expressions/top-of-app-formulas.md)
-- [Control Constants](./formulas/expressions/control-constants.md)
-- [Boolean Expressions](./formulas/expressions/boolean-is-in-studio-mode.md)
-- [Code Comments](./formulas/expressions/code-comments.md)
-- [Doc Type Icons](./formulas/expressions/doc-type-icons.md)
-- [All Controls Expression](./formulas/expressions/fxexp-allcontrols.md)
-- [SharePoint URL](./formulas/expressions/fxrootsharepointurl.yaml)
-- [Color Enum](./formulas/collections/color-enum-in-named-formula.md)
-- [Error Kinds](./formulas/collections/error-kinds.md)
-- [FX Menu Items](./formulas/collections/fxmenuitems.yaml)
-- [Icons as Collection](./formulas/collections/icons-as-collection.md)
-- [Find Proportional Value](./formulas/user-defined-functions/fxfindproportionalvalue.md)
-- [Regular Expressions](./formulas/user-defined-functions/regular-expressions.md)
-- [Screen Transition Random](./formulas/user-defined-functions/screen-transition-random.md)
-- [User-Defined Types Syntax](./formulas/user-defined-types/user-defined-types-syntax.md)
-- [User-Defined Types](./formulas/user-defined-types/user-defined-types.md)
+- [Top-of-App Formulas](formulas/expressions/top-of-app-formulas.md)
+- [Control Constants](formulas/expressions/control-constants.md)
+- [Boolean Expressions](formulas/expressions/boolean-is-in-studio-mode.md)
+- [Code Comments](formulas/expressions/code-comments.md)
+- [Doc Type Icons](formulas/expressions/doc-type-icons.md)
+- [All Controls Expression](formulas/expressions/fxexp-allcontrols.md)
+- [SharePoint URL](formulas/expressions/fxrootsharepointurl.yaml)
+- [Color Enum](formulas/collections/color-enum-in-named-formula.md)
+- [Error Kinds](../errors/error-kinds.md)
+- [FX Menu Items](formulas/collections/fxmenuitems.yaml)
+- [Icons as Collection](formulas/collections/icons-as-collection.md)
+- [Find Proportional Value](formulas/user-defined-functions/fxfindproportionalvalue.md)
+- [Regular Expressions](formulas/user-defined-functions/regular-expressions.md)
+- [Screen Transition Random](formulas/user-defined-functions/screen-transition-random.md)
+- [User-Defined Types Syntax](formulas/user-defined-types/user-defined-types-syntax.md)
+- [User-Defined Types](formulas/user-defined-types/user-defined-types.md)
 
 ### Initialization
 - [App.OnStart](../app-onstart/app-onstart.md)
 
 ### Error Handling
-- [App.OnError](../app-onerror/app-onerror.md)
+- [App.OnError](app-onerror/app-onerror.md)
 - [Error Handler PA](../app-onerror/fxapponerror-pa.yaml)
 - [Error Handler YAML](../app-onerror/fxapponerror.yaml)
 

@@ -8,7 +8,7 @@ When working with custom fonts, there's no guarantee that your chosen typeface w
 
 >**TIP**: Each item in this collection has a `Family` property that lists the font and its alternatives. You can use this property to set the `FontFamily` of your controls in Power Apps to have safe fallbacks.
 
-![Sample Fonts Screen](app-formulas-collection.png)
+![Sample Fonts Screen](./app-formulas-collection.png)
 
 Paste in the following code into your `App.Formulas` to create the collection:
 

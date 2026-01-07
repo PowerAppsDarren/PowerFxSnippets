@@ -55,4 +55,4 @@ With(
 
 ## Subdirectories
 
-- **[power-platform/](power-platform/README.md)** - Official Microsoft Power Platform service icons
+- **[power-platform/](../../../README.md)** - Official Microsoft Power Platform service icons

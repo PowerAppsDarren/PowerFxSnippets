@@ -341,7 +341,7 @@ Fixes #issue_number
 ## 🏆 Recognition
 
 ### Contributor Recognition
-- All contributors are listed in our [contributors file](./CONTRIBUTORS.md)
+- All contributors are listed in our [contributors file](./contributors.md)
 - Significant contributions may be highlighted in release notes
 - Top contributors may be invited to become maintainers
 
@@ -359,7 +359,7 @@ Fixes #issue_number
 - **Community**: Join our [Power Platform Community](https://powerplatform.microsoft.com/community/)
 
 ### Support
-- **Documentation**: Check our [detailed guides](./docs/)
+- **Documentation**: Check our [detailed guides](./docs)
 - **Examples**: Look at existing snippets for reference
 - **Maintainers**: Tag maintainers in issues/PRs for help
 

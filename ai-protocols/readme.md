@@ -18,12 +18,12 @@ All AI coding assistants and tools **MUST** (**MANDATORY!!**) follow every one o
 
 ### Core Mandatory Protocols
 
-- [ ] **[AI-Chats Session Documentation](./ai-chats/README.md)** (v3.2)
+- [ ] **[AI-Chats Session Documentation](../ai-chats/README.md)** (v3.2)
   - Create session folder: `ai-chats/YYYY-MM-DD-NN-description/`
   - Create model-specific files: `[Model-Version]--00.md` (summary), `--01.md+` (verbatim exchanges)
   - NO SPACES in filenames, DOUBLE DASH before sequence numbers
   - Update session INDEX.md at end of session
-  - Full protocol: [`ai-chats/README.md`](./ai-chats/README.md) | Condensed: [`ai-chats.md`](./ai-chats.md)
+  - Full protocol: [`ai-chats/README.md`](../ai-chats/README.md) | Condensed: [`ai-chats.md`](./ai-chats.md)
 
 ### Important Development Protocols
 

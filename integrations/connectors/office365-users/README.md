@@ -29,11 +29,11 @@ All snippets now include metadata for better discoverability and tooling support
 
 ## You May be interested in the following:
 
-- [People Picker Combobox](PeoplePIckerCombobox.md)
-- [Automatically Add a User](auto-add-user.md)
-- [Get Manager Rollup](get-manager-rollup.md)
-- [Get Direct Reports](get-direct-reports.md)
-- [Display All Profile Fields](display-all-fields.md)
+- [People Picker Combobox](./peoplepickercombobox.md)
+- [Automatically Add a User](./auto-add-user.md)
+- [Get Manager Rollup](./get-manager-rollup.md)
+- [Get Direct Reports](./get-direct-reports.md)
+- [Display All Profile Fields](./display-all-fields.md)
 
 # Create Database Tables
 
@@ -41,4 +41,4 @@ You may want to create data sources to hold the org chart data. This will keep y
 
 [Sample ERD hosted in DrawSQL ⬇️](https://drawsql.app/teams/neeseus/diagrams/org-chart-profile-data)
 
-![Screenshot: ERD](drawSQL.png)
+![Screenshot: ERD](./drawSQL.png)
