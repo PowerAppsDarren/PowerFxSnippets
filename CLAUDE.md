@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+> 📁 **Workspace Context:** This repo is part of a multi-repo VS Code workspace. See `../CLAUDE.md` for workspace-level guidance.
+
 ## Repository Overview
 
 This is a Power Fx snippets repository containing reusable code patterns, formulas, and components for Microsoft Power Platform development. The repository serves as a comprehensive collection of Power Apps development resources.
@@ -120,3 +122,11 @@ Document AI-assisted work sessions in `ai-chats/` using the format:
 - Power Fx GitHub: https://github.com/microsoft/Power-Fx
 - PowerApps Tooling: https://github.com/microsoft/PowerApps-Tooling
 - Community Materials: https://tinyurl.com/DarrensStuffPower
+
+---
+
+## History
+
+| Date       | Author | Changes                                                   |
+|------------|--------|-----------------------------------------------------------|
+| 2026-01-08 | Claude | Added workspace context reference to parent CLAUDE.md    |
