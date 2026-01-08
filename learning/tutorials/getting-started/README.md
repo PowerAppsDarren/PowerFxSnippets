@@ -14,9 +14,9 @@ The getting-started category is your launchpad for Power Fx development. Whether
 - ❌ **Production Apps**: Use advanced categories for complex applications
 
 ### Related Categories
-- [**02-app-architecture**](learning/tutorials/02-app-architecture) - Application structure and lifecycle
-- [**03-user-interface**](learning/tutorials/03-user-interface) - UI components and controls
-- [**09-learning-resources**](learning/tutorials/09-learning-resources) - Educational content and tutorials
+- **02-app-architecture** (TODO: directory missing) - Application structure and lifecycle
+- **03-user-interface** (TODO: directory missing) - UI components and controls
+- **09-learning-resources** (TODO: directory missing) - Educational content and tutorials
 
 ## 📊 Category Statistics
 
@@ -34,30 +34,30 @@ The getting-started category is your launchpad for Power Fx development. Whether
 | Snippet                                                          | Description                        | Difficulty |
 |------------------------------------------------------------------|------------------------------------|------------|
 | [**Hello World**](hello-world/basic-hello-world.md)           | Your first Power Fx expression     | Beginner   |
-| [**Variable Basics**](common-patterns/variable-declaration.md) | Understanding variables and scope  | Beginner   |
-| [**Simple Navigation**](common-patterns/screen-navigation.md)  | Moving between screens             | Beginner   |
+| **Variable Basics** (TODO: file missing) | Understanding variables and scope  | Beginner   |
+| **Simple Navigation** (TODO: file missing)  | Moving between screens             | Beginner   |
 
 ### By Topic
 
 #### 🟢 Hello World Examples
 - [**Basic Hello World**](hello-world/basic-hello-world.md) - Simple text display
-- [**Interactive Hello World**](hello-world/interactive-hello-world.md) - Button with response
-- [**Data-Driven Hello World**](hello-world/data-hello-world.md) - Using collections
+- **Interactive Hello World** (TODO: file missing) - Button with response
+- **Data-Driven Hello World** (TODO: file missing) - Using collections
 
 #### 🟢 Common Patterns
-- [**Variable Declaration**](common-patterns/variable-declaration.md) - Set, UpdateContext, Navigate
-- [**Screen Navigation**](common-patterns/screen-navigation.md) - Basic navigation patterns
-- [**Error Handling Basics**](common-patterns/basic-error-handling.md) - Try/catch fundamentals
+- **Variable Declaration** (TODO: file missing) - Set, UpdateContext, Navigate
+- **Screen Navigation** (TODO: file missing) - Basic navigation patterns
+- **Error Handling Basics** (TODO: file missing) - Try/catch fundamentals
 
 #### 🟢 Debugging & Troubleshooting
-- [**Debug Notifications**](debugging-tips/debug-notifications.md) - Using Notify for debugging
-- [**Variable Inspection**](debugging-tips/variable-inspection.md) - Checking variable values
-- [**Common Error Messages**](debugging-tips/common-errors.md) - Understanding error messages
+- **Debug Notifications** (TODO: file missing) - Using Notify for debugging
+- **Variable Inspection** (TODO: file missing) - Checking variable values
+- **Common Error Messages** (TODO: file missing) - Understanding error messages
 
 #### 🟡 Migration Guides
-- [**From Excel**](migration-guides/from-excel-formulas.md) - Excel to Power Fx translation
-- [**From JavaScript**](migration-guides/from-javascript.md) - JavaScript concepts in Power Fx
-- [**From VBA**](migration-guides/from-vba.md) - VBA patterns in Power Apps
+- **From Excel** (TODO: file missing) - Excel to Power Fx translation
+- **From JavaScript** (TODO: file missing) - JavaScript concepts in Power Fx
+- **From VBA** (TODO: file missing) - VBA patterns in Power Apps
 
 ## 📁 Subcategories
 
@@ -66,8 +66,8 @@ The getting-started category is your launchpad for Power Fx development. Whether
 
 **Key Snippets:**
 - [**Basic Output**](hello-world/basic-hello-world.md) - Display text and numbers
-- [**User Interaction**](hello-world/interactive-hello-world.md) - Buttons and responses
-- [**Data Display**](hello-world/data-hello-world.md) - Collections and galleries
+- **User Interaction** (TODO: file missing) - Buttons and responses
+- **Data Display** (TODO: file missing) - Collections and galleries
 
 **When to use**: When learning Power Fx syntax and basic concepts
 
@@ -75,9 +75,9 @@ The getting-started category is your launchpad for Power Fx development. Whether
 **Purpose**: Frequently used code patterns and techniques
 
 **Key Snippets:**
-- [**Variables**](common-patterns/variable-declaration.md) - Different ways to store data
-- [**Navigation**](common-patterns/screen-navigation.md) - Moving between screens
-- [**Collections**](common-patterns/collection-basics.md) - Working with data tables
+- **Variables** (TODO: file missing) - Different ways to store data
+- **Navigation** (TODO: file missing) - Moving between screens
+- **Collections** (TODO: file missing) - Working with data tables
 
 **When to use**: When implementing standard Power Apps functionality
 
@@ -85,9 +85,9 @@ The getting-started category is your launchpad for Power Fx development. Whether
 **Purpose**: Tools and techniques for troubleshooting and development
 
 **Key Snippets:**
-- [**Debug Output**](debugging-tips/debug-notifications.md) - Using notifications for debugging
-- [**Variable Watching**](debugging-tips/variable-inspection.md) - Monitoring variable changes
-- [**Error Patterns**](debugging-tips/common-errors.md) - Understanding and fixing errors
+- **Debug Output** (TODO: file missing) - Using notifications for debugging
+- **Variable Watching** (TODO: file missing) - Monitoring variable changes
+- **Error Patterns** (TODO: file missing) - Understanding and fixing errors
 
 **When to use**: When encountering issues or need to understand app behavior
 
@@ -95,9 +95,9 @@ The getting-started category is your launchpad for Power Fx development. Whether
 **Purpose**: Help developers transitioning from other platforms
 
 **Key Snippets:**
-- [**Excel Formulas**](migration-guides/from-excel-formulas.md) - Excel function equivalents
-- [**JavaScript Basics**](migration-guides/from-javascript.md) - Programming concepts
-- [**VBA Procedures**](migration-guides/from-vba.md) - Procedural programming patterns
+- **Excel Formulas** (TODO: file missing) - Excel function equivalents
+- **JavaScript Basics** (TODO: file missing) - Programming concepts
+- **VBA Procedures** (TODO: file missing) - Procedural programming patterns
 
 **When to use**: When coming from Excel, JavaScript, or VBA backgrounds
 
@@ -117,21 +117,21 @@ The getting-started category is your launchpad for Power Fx development. Whether
 
 ### Complete Beginner (0-2 hours)
 1. Start with [**Basic Hello World**](hello-world/basic-hello-world.md)
-2. Learn [**Variable Declaration**](common-patterns/variable-declaration.md)
-3. Practice [**Screen Navigation**](common-patterns/screen-navigation.md)
-4. Try [**Debug Notifications**](debugging-tips/debug-notifications.md)
+2. Learn **Variable Declaration** (TODO: file missing)
+3. Practice **Screen Navigation** (TODO: file missing)
+4. Try **Debug Notifications** (TODO: file missing)
 
 ### Excel User (1-3 hours)
-1. Review [**Excel Formulas**](migration-guides/from-excel-formulas.md)
-2. Practice [**Variable Basics**](common-patterns/variable-declaration.md)
-3. Learn [**Collection Basics**](common-patterns/collection-basics.md)
+1. Review **Excel Formulas** (TODO: file missing)
+2. Practice **Variable Basics** (TODO: file missing)
+3. Learn **Collection Basics** (TODO: file missing)
 4. Build [**Simple Calculator**](common-patterns/calculator-example.md)
 
 ### Developer (2-4 hours)
-1. Study [**Programming Concepts**](migration-guides/from-javascript.md)
-2. Master [**Error Handling**](common-patterns/basic-error-handling.md)
+1. Study **Programming Concepts** (TODO: file missing)
+2. Master **Error Handling** (TODO: file missing)
 3. Explore [**Advanced Patterns**](common-patterns/advanced-patterns.md)
-4. Practice [**Debug Techniques**](debugging-tips/variable-inspection.md)
+4. Practice **Debug Techniques** (TODO: file missing)
 
 ## 🤝 Contributing
 
@@ -155,8 +155,8 @@ No prerequisites required - this is where you start!
 
 ### Next Steps
 After mastering getting-started:
-- [**App Architecture**](learning/tutorials/02-app-architecture) - Building complete applications
-- [**User Interface**](learning/tutorials/03-user-interface) - Creating great user experiences
+- **App Architecture** (TODO: directory missing) - Building complete applications
+- **User Interface** (TODO: directory missing) - Creating great user experiences
 - [**Data Management**](learning/tutorials/04-data-management) - Working with data sources
 
 ### Related Learning
@@ -173,7 +173,7 @@ After mastering getting-started:
 
 ### Getting Stuck?
 - **Check the [debugging tips](./debugging-tips)** in this category
-- **Review [common errors](debugging-tips/common-errors.md)**
+- **Review common errors (TODO: file missing)**
 - **Ask in [GitHub Discussions](learning/discussions)**
 
 ## 📈 Recent Updates
@@ -181,7 +181,7 @@ After mastering getting-started:
 ### Latest Additions
 - [**Interactive Examples**](hello-world/interactive-examples.md) - Added 2024-11 - Hands-on learning
 - [**Migration Guides**](./migration-guides) - Added 2024-11 - Platform transition help
-- [**Error Handling Basics**](common-patterns/basic-error-handling.md) - Added 2024-11 - Fundamental error management
+- **Error Handling Basics** (TODO: file missing) - Added 2024-11 - Fundamental error management
 
 ### Recent Improvements
 - Enhanced explanations for complex concepts
@@ -195,27 +195,27 @@ After mastering getting-started:
 
 ### Hello World
 - [basic-hello-world.md](hello-world/basic-hello-world.md)
-- [interactive-hello-world.md](hello-world/interactive-hello-world.md)
-- [data-hello-world.md](hello-world/data-hello-world.md)
+- interactive-hello-world.md (TODO: file missing)
+- data-hello-world.md (TODO: file missing)
 - [interactive-examples.md](hello-world/interactive-examples.md)
 
 ### Common Patterns
-- [variable-declaration.md](common-patterns/variable-declaration.md)
-- [screen-navigation.md](common-patterns/screen-navigation.md)
-- [collection-basics.md](common-patterns/collection-basics.md)
-- [basic-error-handling.md](common-patterns/basic-error-handling.md)
+- variable-declaration.md (TODO: file missing)
+- screen-navigation.md (TODO: file missing)
+- collection-basics.md (TODO: file missing)
+- basic-error-handling.md (TODO: file missing)
 - [calculator-example.md](common-patterns/calculator-example.md)
 - [advanced-patterns.md](common-patterns/advanced-patterns.md)
 
 ### Debugging Tips
-- [debug-notifications.md](debugging-tips/debug-notifications.md)
-- [variable-inspection.md](debugging-tips/variable-inspection.md)
-- [common-errors.md](debugging-tips/common-errors.md)
+- debug-notifications.md (TODO: file missing)
+- variable-inspection.md (TODO: file missing)
+- common-errors.md (TODO: file missing)
 
 ### Migration Guides
-- [from-excel-formulas.md](migration-guides/from-excel-formulas.md)
-- [from-javascript.md](migration-guides/from-javascript.md)
-- [from-vba.md](migration-guides/from-vba.md)
+- from-excel-formulas.md (TODO: file missing)
+- from-javascript.md (TODO: file missing)
+- from-vba.md (TODO: file missing)
 
 ---
 

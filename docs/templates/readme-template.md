@@ -12,8 +12,8 @@ This category focuses on {detailed explanation of the category's purpose and sco
 - ❌ **Don't use for**: {what doesn't belong here}
 
 ### Related Categories
-- [**{Related Category}**](docs/{related-category-path}) - {why it's related}
-- [**{Another Related}**](docs/{another-path}) - {relationship explanation}
+- **{Related Category}** (TODO: update link) - {why it's related}
+- **{Another Related}** (TODO: update link) - {relationship explanation}
 
 ## 📊 Category Statistics
 
@@ -30,26 +30,26 @@ This category focuses on {detailed explanation of the category's purpose and sco
 ### Most Popular
 | Snippet | Description | Difficulty |
 |---------|-------------|------------|
-| [**{Snippet Name}**](subfolder/snippet-file.md) | {Brief description} | {difficulty} |
-| [**{Another}**](subfolder/another.md) | {Description} | {difficulty} |
+| **{Snippet Name}** (TODO: update link) | {Brief description} | {difficulty} |
+| **{Another}** (TODO: update link) | {Description} | {difficulty} |
 
 ### By Difficulty
 
 #### 🟢 Beginner Friendly
-- [**{Beginner Snippet}**](path/to/snippet.md) - {description}
-- [**{Another Beginner}**](path/to/snippet.md) - {description}
+- **{Beginner Snippet}** (TODO: update link) - {description}
+- **{Another Beginner}** (TODO: update link) - {description}
 
 #### 🟡 Intermediate
-- [**{Intermediate Snippet}**](path/to/snippet.md) - {description}
-- [**{Another Intermediate}**](path/to/snippet.md) - {description}
+- **{Intermediate Snippet}** (TODO: update link) - {description}
+- **{Another Intermediate}** (TODO: update link) - {description}
 
 #### 🟠 Advanced
-- [**{Advanced Snippet}**](path/to/snippet.md) - {description}
-- [**{Another Advanced}**](path/to/snippet.md) - {description}
+- **{Advanced Snippet}** (TODO: update link) - {description}
+- **{Another Advanced}** (TODO: update link) - {description}
 
 #### 🔴 Expert Level
-- [**{Expert Snippet}**](path/to/snippet.md) - {description}
-- [**{Another Expert}**](path/to/snippet.md) - {description}
+- **{Expert Snippet}** (TODO: update link) - {description}
+- **{Another Expert}** (TODO: update link) - {description}
 
 ## 📁 Subcategories
 
@@ -57,8 +57,8 @@ This category focuses on {detailed explanation of the category's purpose and sco
 **Purpose**: {What this subcategory contains}
 
 **Key Snippets:**
-- [**{Snippet}**](subcategory/snippet.md) - {description}
-- [**{Another}**](subcategory/snippet.md) - {description}
+- **{Snippet}** (TODO: update link) - {description}
+- **{Another}** (TODO: update link) - {description}
 
 **When to use**: {use cases for this subcategory}
 
@@ -66,45 +66,45 @@ This category focuses on {detailed explanation of the category's purpose and sco
 **Purpose**: {What this subcategory contains}
 
 **Key Snippets:**
-- [**{Snippet}**](subcategory/snippet.md) - {description}
-- [**{Another}**](subcategory/snippet.md) - {description}
+- **{Snippet}** (TODO: update link) - {description}
+- **{Another}** (TODO: update link) - {description}
 
 ## 🔍 Search & Filter
 
 ### By Technology
-- **{Technology 1}**: [View all {tech1} snippets](#{tech1}-snippets)
-- **{Technology 2}**: [View all {tech2} snippets](#{tech2}-snippets)
+- **{Technology 1}**: View all {tech1} snippets (TODO: update link)
+- **{Technology 2}**: View all {tech2} snippets (TODO: update link)
 
 ### By Use Case
-- **{Use Case 1}**: [View all {usecase1} snippets](#{usecase1}-snippets)
-- **{Use Case 2}**: [View all {usecase2} snippets](#{usecase2}-snippets)
+- **{Use Case 1}**: View all {usecase1} snippets (TODO: update link)
+- **{Use Case 2}**: View all {usecase2} snippets (TODO: update link)
 
 ### By Feature
-- **{Feature 1}**: [View all {feature1} snippets](#{feature1}-snippets)
-- **{Feature 2}**: [View all {feature2} snippets](#{feature2}-snippets)
+- **{Feature 1}**: View all {feature1} snippets (TODO: update link)
+- **{Feature 2}**: View all {feature2} snippets (TODO: update link)
 
 ## 📚 Learning Path
 
 ### For Beginners
-1. Start with [**{Beginner Snippet}**](path/to/snippet.md)
-2. Learn [**{Fundamental Concept}**](path/to/snippet.md)
-3. Practice with [**{Simple Example}**](path/to/snippet.md)
+1. Start with **{Beginner Snippet}** (TODO: update link)
+2. Learn **{Fundamental Concept}** (TODO: update link)
+3. Practice with **{Simple Example}** (TODO: update link)
 
 ### For Intermediate Users
-1. Master [**{Common Pattern}**](path/to/snippet.md)
-2. Explore [**{Advanced Feature}**](path/to/snippet.md)
-3. Build [**{Complex Example}**](path/to/snippet.md)
+1. Master **{Common Pattern}** (TODO: update link)
+2. Explore **{Advanced Feature}** (TODO: update link)
+3. Build **{Complex Example}** (TODO: update link)
 
 ### For Advanced Users
-1. Study [**{Expert Technique}**](path/to/snippet.md)
-2. Implement [**{Architecture Pattern}**](path/to/snippet.md)
-3. Optimize with [**{Performance Tip}**](path/to/snippet.md)
+1. Study **{Expert Technique}** (TODO: update link)
+2. Implement **{Architecture Pattern}** (TODO: update link)
+3. Optimize with **{Performance Tip}** (TODO: update link)
 
 ## 🤝 Contributing
 
 ### Adding New Snippets
 1. **Check existing content** to avoid duplication
-2. **Follow the template** from [snippet template](./snippet-template.md)
+2. **Follow the template** from snippet template (TODO: update link)
 3. **Include comprehensive metadata** with proper categorization
 4. **Test thoroughly** in Power Apps environment
 5. **Submit a pull request** with clear description
@@ -126,37 +126,37 @@ This category focuses on {detailed explanation of the category's purpose and sco
 
 ### Prerequisites
 Before using snippets in this category, you should understand:
-- [**{Required Knowledge}**](docs/path/to/prerequisite.md) - {why it's needed}
-- [**{Related Concept}**](docs/path/to/concept.md) - {relationship}
+- **{Required Knowledge}** (TODO: update link) - {why it's needed}
+- **{Related Concept}** (TODO: update link) - {relationship}
 
 ### Related Content
-- [**{Complementary Category}**](docs/complementary-category) - {how it complements this category}
-- [**{Supporting Tools}**](docs/tools-category) - {tools that help with this category}
-- [**{Learning Resources}**](docs/learning-resources) - {educational content}
+- **{Complementary Category}** (TODO: update link) - {how it complements this category}
+- **{Supporting Tools}** (TODO: update link) - {tools that help with this category}
+- **{Learning Resources}** (TODO: update link) - {educational content}
 
 ### Next Steps
 After mastering this category, consider:
-- [**{Advanced Category}**](docs/advanced-category) - {next level of complexity}
-- [**{Specialized Topic}**](docs/specialized-category) - {specific use cases}
-- [**{Integration Patterns}**](docs/integration-category) - {connecting with other systems}
+- **{Advanced Category}** (TODO: update link) - {next level of complexity}
+- **{Specialized Topic}** (TODO: update link) - {specific use cases}
+- **{Integration Patterns}** (TODO: update link) - {connecting with other systems}
 
 ## 📞 Support & Help
 
 ### Getting Help
-- **❓ Questions**: [GitHub Discussions](https://github.com/PowerAppsDarren/PowerFxSnippets/discussions)
-- **🐛 Issues**: [Report problems](https://github.com/PowerAppsDarren/PowerFxSnippets/issues)
-- **💡 Suggestions**: [Feature requests](https://github.com/PowerAppsDarren/PowerFxSnippets/issues)
+- **❓ Questions**: GitHub Discussions (TODO: update link)
+- **🐛 Issues**: Report problems (TODO: update link)
+- **💡 Suggestions**: Feature requests (TODO: update link)
 
 ### Community Resources
-- [**Power Platform Community**](https://powerplatform.microsoft.com/community/) - General discussions
-- [**Microsoft Learn**](https://learn.microsoft.com/en-us/power-platform/) - Official documentation
-- [**Power Apps Ideas**](https://powerusers.microsoft.com/t5/Power-Apps-Ideas/idb-p/PowerAppsIdeas) - Feature requests
+- **Power Platform Community** (TODO: update link) - General discussions
+- **Microsoft Learn** (TODO: update link) - Official documentation
+- **Power Apps Ideas** (TODO: update link) - Feature requests
 
 ## 📈 Recent Updates
 
 ### Latest Additions
-- [**{New Snippet}**](path/to/new.md) - Added {date} - {description}
-- [**{Another New}**](path/to/new.md) - Added {date} - {description}
+- **{New Snippet}** (TODO: update link) - Added {date} - {description}
+- **{Another New}** (TODO: update link) - Added {date} - {description}
 
 ### Recent Improvements
 - Enhanced documentation for {feature}
@@ -181,4 +181,4 @@ After mastering this category, consider:
 
 ---
 
-*Found this category helpful? ⭐ [Star the repository](https://github.com/PowerAppsDarren/PowerFxSnippets) to show your support!* 🚀
+*Found this category helpful? ⭐ Star the repository (TODO: update link) to show your support!* 🚀

@@ -5,51 +5,51 @@ Welcome to the Power Fx Snippets documentation! This directory contains detailed
 ## 📋 Table of Contents
 
 ### Getting Started
-- [Quick Start Guide](./quick-start.md) - Get up and running in 5 minutes
-- [Repository Structure](./repository-structure.md) - Understanding the organization
-- [Contributing Overview](./contributing-overview.md) - How to contribute effectively
+- Quick Start Guide (TODO: file missing) - Get up and running in 5 minutes
+- Repository Structure (TODO: file missing) - Understanding the organization
+- Contributing Overview (TODO: file missing) - How to contribute effectively
 
 ### Guidelines & Standards
-- [Snippet Standards](./snippet-standards.md) - Requirements for code snippets
-- [Metadata Guide](./metadata-guide.md) - YAML front matter reference
-- [Style Guide](./style-guide.md) - Formatting and style standards
-- [Testing Guidelines](./testing-guidelines.md) - How to test your contributions
+- Snippet Standards (TODO: file missing) - Requirements for code snippets
+- Metadata Guide (TODO: file missing) - YAML front matter reference
+- Style Guide (TODO: file missing) - Formatting and style standards
+- Testing Guidelines (TODO: file missing) - How to test your contributions
 
 ### Advanced Topics
-- [Category Selection](./category-selection.md) - Choosing the right category
-- [Cross-Referencing](./cross-referencing.md) - Linking related content
-- [Performance Considerations](./performance-considerations.md) - Writing efficient code
-- [Security Best Practices](./security-best-practices.md) - Secure coding patterns
+- Category Selection (TODO: file missing) - Choosing the right category
+- Cross-Referencing (TODO: file missing) - Linking related content
+- Performance Considerations (TODO: file missing) - Writing efficient code
+- Security Best Practices (TODO: file missing) - Secure coding patterns
 
 ### Tools & Utilities
-- [Validation Scripts](./validation-scripts.md) - Automated checking tools
-- [Migration Tools](./migration-tools.md) - Moving existing content
-- [Search Optimization](./search-optimization.md) - Making content discoverable
+- Validation Scripts (TODO: file missing) - Automated checking tools
+- Migration Tools (TODO: file missing) - Moving existing content
+- Search Optimization (TODO: file missing) - Making content discoverable
 
 ### Templates
 - [Snippet Template](templates/snippet-template.md) - Complete snippet template
 - [README Template](templates/readme-template.md) - Category README template
-- [Tutorial Template](templates/tutorial-template.md) - Learning content template
+- Tutorial Template (TODO: file missing) - Learning content template
 
 ## 🎯 Quick Navigation
 
 ### For New Contributors
-1. Read the [Quick Start Guide](./quick-start.md)
-2. Review [Snippet Standards](./snippet-standards.md)
+1. Read the Quick Start Guide (TODO: file missing)
+2. Review Snippet Standards (TODO: file missing)
 3. Use the [Snippet Template](templates/snippet-template.md)
 4. Follow the [Contributing Guide](../CONTRIBUTING.md)
 
 ### For Repository Maintainers
-1. Check [Validation Scripts](./validation-scripts.md) for automation
-2. Use [Migration Tools](./migration-tools.md) for content reorganization
-3. Follow [Style Guide](./style-guide.md) for consistency
-4. Review [Testing Guidelines](./testing-guidelines.md) for quality assurance
+1. Check Validation Scripts (TODO: file missing) for automation
+2. Use Migration Tools (TODO: file missing) for content reorganization
+3. Follow Style Guide (TODO: file missing) for consistency
+4. Review Testing Guidelines (TODO: file missing) for quality assurance
 
 ### For Content Consumers
-1. Start with [Repository Structure](./repository-structure.md)
-2. Use [Search Optimization](./search-optimization.md) tips
-3. Follow [Cross-Referencing](./cross-referencing.md) for related content
-4. Check [Category Selection](./category-selection.md) for navigation
+1. Start with Repository Structure (TODO: file missing)
+2. Use Search Optimization (TODO: file missing) tips
+3. Follow Cross-Referencing (TODO: file missing) for related content
+4. Check Category Selection (TODO: file missing) for navigation
 
 ## 📖 Detailed Guides
 
@@ -127,7 +127,7 @@ Before submitting a snippet, ensure:
 
 ### Getting Help
 - **Documentation Issues**: Create issue with "documentation" label
-- **Tool Problems**: Check [Validation Scripts](./validation-scripts.md)
+- **Tool Problems**: Check Validation Scripts (TODO: file missing)
 - **Process Questions**: Review [Contributing Guide](../CONTRIBUTING.md)
 - **Technical Support**: Contact maintainers
 

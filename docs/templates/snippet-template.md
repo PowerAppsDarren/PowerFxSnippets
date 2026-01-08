@@ -330,31 +330,31 @@ Set(
 ## 📚 Related Snippets
 
 ### Complementary Functionality
-- [**{Related Snippet}**](docs/path/to/related.md) - {How it complements this snippet}
-- [**{Another Related}**](docs/path/to/another.md) - {Additional relationship}
+- **{Related Snippet}** (TODO: update link) - {How it complements this snippet}
+- **{Another Related}** (TODO: update link) - {Additional relationship}
 
 ### Alternative Approaches
-- [**{Alternative Method}**](docs/path/to/alternative.md) - {When to use this instead}
-- [**{Different Solution}**](docs/path/to/different.md) - {Alternative for different scenarios}
+- **{Alternative Method}** (TODO: update link) - {When to use this instead}
+- **{Different Solution}** (TODO: update link) - {Alternative for different scenarios}
 
 ### Advanced Extensions
-- [**{Extended Version}**](docs/path/to/extended.md) - {More advanced implementation}
-- [**{Specialized Variant}**](docs/path/to/specialized.md) - {For specific use cases}
+- **{Extended Version}** (TODO: update link) - {More advanced implementation}
+- **{Specialized Variant}** (TODO: update link) - {For specific use cases}
 
 ## 🔗 External Resources
 
 ### Official Documentation
-- [Microsoft Learn: {Topic}](https://learn.microsoft.com/en-us/power-platform/power-fx/{topic})
-- [Power Apps Documentation](https://docs.microsoft.com/en-us/powerapps/)
+- Microsoft Learn: {Topic} (TODO: update link)
+- Power Apps Documentation (TODO: update link)
 
 ### Community Resources
-- [Power Platform Community Thread](https://powerplatform.microsoft.com/community/)
-- [YouTube Tutorial](https://youtube.com/watch?v=example)
-- [Blog Post](https://example.com/blog-post)
+- Power Platform Community Thread (TODO: update link)
+- YouTube Tutorial (TODO: update link)
+- Blog Post (TODO: update link)
 
 ### Related Tools
-- [{Tool Name}](https://github.com/example/tool) - {Tool description}
-- [{Another Tool}](https://github.com/example/another) - {Tool description}
+- {Tool Name} (TODO: update link) - {Tool description}
+- {Another Tool} (TODO: update link) - {Tool description}
 
 ## 🤝 Contributing
 
@@ -365,11 +365,11 @@ This snippet can be enhanced by:
 - Adding performance optimizations for {scenario}
 
 ### Reporting Issues
-Found a bug or have a suggestion? [Create an issue](issues/new) with the "bug" or "enhancement" label.
+Found a bug or have a suggestion? Create an issue (TODO: update link) with the "bug" or "enhancement" label.
 
 ### Code Reviews
 All contributions are welcome! Please ensure:
-- Code follows the [style guide](../../CONTRIBUTING.md#style-guidelines)
+- Code follows the style guide (TODO: update link)
 - Tests are included for new functionality
 - Documentation is updated accordingly
 
@@ -382,4 +382,4 @@ All contributions are welcome! Please ensure:
 
 ## 📝 License
 
-This code snippet is provided as-is under the [MIT License](../../LICENSE).
+This code snippet is provided as-is under the MIT License (TODO: update link).

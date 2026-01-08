@@ -39,7 +39,7 @@ This category focuses on application-level operations and lifecycle management i
 
 #### 🟢 Beginner Friendly
 - [**Basic App Initialization**](../app-onstart/app-onstart.md) - Set up your app properly
-- [**Simple Error Handling**](app-onerror/app-onerror.md) - Basic error catching
+- [**Simple Error Handling**](../app-onerror/README.md) - Basic error catching
 - [**Named Formula Basics**](formulas/expressions/control-constants.md) - Introduction to global formulas
 
 #### 🟡 Intermediate
@@ -124,7 +124,7 @@ This category focuses on application-level operations and lifecycle management i
 ### For Beginners
 1. Start with [**App.OnStart Basics**](../app-onstart/app-onstart.md)
 2. Learn [**Named Formula Organization**](formulas/expressions/top-of-app-formulas.md)
-3. Practice with [**Basic Error Handling**](app-onerror/app-onerror.md)
+3. Practice with [**Basic Error Handling**](../app-onerror/README.md)
 
 ### For Intermediate Users
 1. Master [**User-Defined Functions**](formulas/user-defined-functions/fxfindproportionalvalue.md)
@@ -229,7 +229,7 @@ After mastering this category, consider:
 - [App.OnStart](../app-onstart/app-onstart.md)
 
 ### Error Handling
-- [App.OnError](app-onerror/app-onerror.md)
+- [App.OnError](../app-onerror/README.md)
 - [Error Handler PA](../app-onerror/fxapponerror-pa.yaml)
 - [Error Handler YAML](../app-onerror/fxapponerror.yaml)
 

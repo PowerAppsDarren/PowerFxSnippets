@@ -23,7 +23,7 @@ The repository is being reorganized into a **feature-first architecture** with:
 - 🎓 **[learning/](./learning)** - Tutorials and best practices *(NEW STRUCTURE)*
 - 🧰 **[utilities/](./utilities)** - Templates and tools *(NEW STRUCTURE)*
 
-📋 **[View Complete Restructuring Plan](./--new-structure-claude-code.md)**
+📋 **[View Complete Restructuring Plan](./new-structure-claude-code.md)**
 
 ### 📚 Current Structure (Original)
 The existing organization remains functional during migration:
@@ -33,7 +33,7 @@ The existing organization remains functional during migration:
 **New to Power Fx?** Start here:
 - [📚 Getting Started Guide](./README.md)
 - [💡 Hello World Examples](learning/tutorials/getting-started/hello-world)
-- [🔧 Common Patterns](learning/tutorials/getting-started/common-patterns)
+- 🔧 Common Patterns (Coming Soon)
 
 ## 📖 Table of Contents
 
@@ -41,7 +41,7 @@ The existing organization remains functional during migration:
 
 | Category                                                      | Description                          | Quick Access                                                                                                                       |
 |---------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [**01-getting-started**](learning/tutorials/getting-started)               | Entry point for new developers       | [Hello World](learning/tutorials/getting-started/hello-world) • [Common Patterns](learning/tutorials/getting-started/common-patterns)                        |
+| [**01-getting-started**](learning/tutorials/getting-started)               | Entry point for new developers       | [Hello World](learning/tutorials/getting-started/hello-world) • Common Patterns (Coming Soon)                        |
 | [**02-app-architecture**](./app-lifecycle)             | Application structure and lifecycle  | [App Events](app-lifecycle) • [Navigation](app-lifecycle)                         |
 | [**03-user-interface**](./ui-controls)                 | UI components and user experience    | [Controls](./controls) • [Themes](design)                                      |
 | [**04-data-management**](./data-operations)               | Data operations and sources          | [Data Sources](./data-sources) • [Validation](data-operations)                           |
@@ -62,16 +62,16 @@ The existing organization remains functional during migration:
 ## 🔥 Popular Snippets
 
 ### Quick Wins (5 minutes or less)
-- [🔍 People Picker ComboBox](integrations/people-picker-combobox.md)
-- [🎨 Dynamic Theme Colors](design/dynamic-theme-colors.md)
-- [💾 Offline Data Sync](data-operations/offline-data-sync.md)
-- [⚡ Performance Optimization](best-practices/lazy-loading.md)
+- 🔍 People Picker ComboBox (Coming Soon)
+- 🎨 Dynamic Theme Colors (Coming Soon)
+- 💾 Offline Data Sync (Coming Soon)
+- ⚡ Performance Optimization (Coming Soon)
 
 ### Advanced Solutions
-- [🏗️ Custom Component Library](ui-patterns/components/component-library.md)
-- [🔐 Row-Level Security](best-practices/row-level-security.md)
-- [📊 Real-time Dashboard](data-operations/real-time-dashboard.md)
-- [🤖 AI Integration](integrations/azure-openai-integration.md)
+- 🏗️ Custom Component Library (Coming Soon)
+- 🔐 Row-Level Security (Coming Soon)
+- 📊 Real-time Dashboard (Coming Soon)
+- 🤖 AI Integration (Coming Soon)
 
 ## 🎯 How to Use This Repository
 
@@ -101,7 +101,7 @@ The existing organization remains functional during migration:
 ### By Use Case
 - **Business Apps**: [Forms](./controls), [Workflows](./functions)
 - **Dashboards**: [Charts](data-operations), [KPIs](functions)
-- **Mobile Apps**: [Responsive Design](ui-controls/responsive-design), [Offline](data-operations)
+- **Mobile Apps**: Responsive Design (Coming Soon), [Offline](data-operations)
 - **Admin Tools**: [User Management](integrations), [Audit Logs](best-practices)
 
 ## 🤝 Contributing

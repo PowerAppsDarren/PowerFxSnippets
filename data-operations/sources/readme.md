@@ -26,5 +26,5 @@ In this directory you'll find resources related to specific data sources.
 
 ## Data Sources
 
-* [MSSQL - Model Table](msql/modeltable.md)
+* MSSQL - Model Table (TODO: file missing)
 

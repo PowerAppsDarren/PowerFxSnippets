@@ -37,7 +37,7 @@ Also!!! read in `./ai-chats/README.md`
 
 ### Development Philosophy
 
-#### [IMPORTANT] [AI Priorities - Make-It-Work-First](./ai-priorities.md)
+#### [ai-priorities.md]
 - **Description:** Development philosophy emphasizing functional code before defensive programming
 - **Core principles:**
   - Build the happy path first
@@ -67,7 +67,7 @@ Also!!! read in `./ai-chats/README.md`
 
 ### Technical Standards
 
-#### [REFERENCE] [Port Number Assignment Protocol](./port-numbers.md)
+#### [port-numbers.md]
 - **Description:** Standard for selecting available port numbers (50000-60000 range)
 - **Rules:**
   - Avoid common ports (80, 8080, 3000, etc.)
@@ -105,8 +105,8 @@ Also!!! read in `./ai-chats/README.md`
 4. Update the session INDEX.md at session end
 
 ### Writing Code?
-1. Follow [`ai-priorities.md`](./ai-priorities.md) - Make it work first!
-2. Check [`port-numbers.md`](./port-numbers.md) if setting up services
+1. Follow [ai-priorities.md] - Make it work first!
+2. Check [port-numbers.md] if setting up services
 3. Document in your session files as you go
 
 ### Doing a Code Review?

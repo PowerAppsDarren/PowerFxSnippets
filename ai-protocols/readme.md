@@ -27,7 +27,7 @@ All AI coding assistants and tools **MUST** (**MANDATORY!!**) follow every one o
 
 ### Important Development Protocols
 
-- [ ] **[Make-It-Work-First Philosophy](./ai-priorities.md)**
+- [ai-priorities.md]**
   - Build happy path first, no theoretical defenses
   - Learn from real failures, guard only what breaks
   - Keep code readable and honest
@@ -39,7 +39,7 @@ All AI coding assistants and tools **MUST** (**MANDATORY!!**) follow every one o
 
 ### Technical Reference Protocols
 
-- [ ] **[Port Number Assignment](./port-numbers.md)**
+- [port-numbers.md]**
   - Use random ports between 50000-60000
   - Verify availability with netstat/lsof/ss
   - Sequential assignment for multi-service apps
