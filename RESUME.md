@@ -1,16 +1,26 @@
 # RESUME.md - Project State
 
 ## Last Session
-- **Date:** 2025-12-18
+- **Date:** 2026-01-21
 - **Model:** Claude Opus 4.5
 
 ## Current State
 
-Added error kind tooltips to error handler email. All remotes in sync.
+Moved ai-chats folder to private repo. All remotes in sync.
 
 **Branch:** `main`
 
-## What Was Accomplished This Session (2025-12-18 - Latest)
+## What Was Accomplished This Session (2026-01-21)
+
+### AI Chats Migration to Private Repo
+- **Moved:** `ai-chats/` folder (12 session folders, 49 files) → `PowerFxSnippets-Private/.ai-chats/`
+- **Reason:** AI chat history should not be in public repository
+- **Updated:** INDEX.md in private repo with all 13 sessions
+- **Commits:** `8f62a8e` (public), `6d54fad` (private)
+
+---
+
+## Previous Session (2025-12-18 - Latest)
 
 ### Error Kind Tooltip Feature
 - **File:** `errors/catch-all-errors.md`
