@@ -1,5 +1,6 @@
 ---
 title: Pad Numbers Inside String
+business-logic: Pad Numbers
 description: Collection of user-defined functions for padding, extracting, and formatting numbers embedded within strings
 category: string-manipulation/padding
 tags:
@@ -50,12 +51,12 @@ related:
         Value(
             First(
                 Split(
-                    Trim( 
+                    Trim(
                         Concat(
                             ForAll(
                                 Sequence(Len(StringValue)) As my,
                                 With(
-                                    { 
+                                    {
                                         myChar: Mid(StringValue, my.Value, 1)
                                     },
                                     If(
@@ -64,9 +65,9 @@ related:
                                         " "
                                     )
                                 )
-                            ), 
-                            Value 
-                        )                                   // "   123   " 
+                            ),
+                            Value
+                        )                                   // "   123   "
 
                                                                 // " "
                                                                 // " "
@@ -80,22 +81,22 @@ related:
 
                                                             // Trim gives us..
                                                             // "4 5 6"
-                    ),  
+                    ),
                     " "
                 )
             ).Value
-        ) 
+        )
     );
 
     fxFormatNumberAsText(NumberString:Text):Text = Text(
-        Value(NumberString), 
+        Value(NumberString),
         "0000.00"
     );
 
     fxGetBeforeDuringAfterNumeric(StringValue:Text):fxNumericHandlingType = (
         With(
             {
-                myBeginning:    fxGetNumericPosition(StringValue), 
+                myBeginning:    fxGetNumericPosition(StringValue),
                 myEnding:       fxGetEndingNumericPosition(StringValue)
             },
             {
@@ -105,7 +106,7 @@ related:
                         1,
                         myBeginning - 1
                     ),
-                NumberText:                         
+                NumberText:
                     Mid(
                         StringValue,
                         myBeginning,
@@ -128,12 +129,12 @@ related:
         Value(
             Index(
                 Split(
-                    Trim( 
+                    Trim(
                         Concat(
                             ForAll(
                                 Sequence(Len(StringValue)) As my,
                                 With(
-                                    { 
+                                    {
                                         myChar: Mid(StringValue, my.Value, 1)
                                     },
                                     If(
@@ -142,14 +143,14 @@ related:
                                         " "
                                     )
                                 )
-                            ), 
-                            Value 
+                            ),
+                            Value
                         )
                                         //"DRILLING SUPPORT -- DRILL SHIELD 30" -- DS10 - 8' -- EACH"
                                         //"                                 30            8         "
                                         //                                  ^34
-                        
-                                                        // "   123   " 
+
+                                                        // "   123   "
 
                                                                 // " "
                                                                 // " "
@@ -160,24 +161,24 @@ related:
                                                                 // " "
                                                                 // " "
                                                                 // " "
-                                                                
+
                                                             // Trim gives us..
                                                             // "4 5 6"
-                    ),  
+                    ),
                     " "
-                ), 
+                ),
                 2
             ).Value
-        ) 
+        )
     );
 
     fxGetNumericEndingPosition__OLD(StringValue:Text):Number = (
         Value(
-            First( 
+            First(
                 ForAll(
                     Sequence(Len(StringValue)) As my,
                     With(
-                        { 
+                        {
                             myChar: Mid(StringValue, my.Value, 1)
                         },
                         If(
@@ -187,7 +188,7 @@ related:
                         )
                     )
                 )
-            ).Value   
+            ).Value
         ) - 1
     );
 
@@ -196,15 +197,15 @@ related:
             ForAll(
                 Sequence(Len(StringValue)) As my,
                 With(
-                    { 
+                    {
                         myChar:Mid(StringValue,my.Value,1)
                     },
                     If(
                         IsNumeric(myChar),
                         myChar,
                         If(
-                            myChar = ".", 
-                            myChar, 
+                            myChar = ".",
+                            myChar,
                             ""
                         )
                     )
@@ -230,5 +231,4 @@ related:
             If(IsBlank( myPosition), 0, myPosition)
         )
     );
-```
-
+```faculty

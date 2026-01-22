@@ -1,7 +1,7 @@
 ---
 title: "Sample Data: Person Records (Large)"
 description: "Large dataset of person records with extensive identity and security fields"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data
@@ -16,6 +16,7 @@ products:
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

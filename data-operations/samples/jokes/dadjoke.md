@@ -1,7 +1,8 @@
 ---
 title: "Sample Data: Dad Jokes Collection"
 description: "Collection of family-friendly dad jokes for testing and entertainment"
-category: "data-operations"
+license: "MIT"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data

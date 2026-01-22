@@ -1,7 +1,7 @@
 ---
 title: "Sample Data: All Kinds of Data"
 description: "Comprehensive sample dataset with diverse data types for testing Power Apps applications"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data
@@ -15,6 +15,7 @@ products:
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

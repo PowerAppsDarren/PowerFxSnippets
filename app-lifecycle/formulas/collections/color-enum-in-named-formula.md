@@ -1,7 +1,7 @@
 ---
 title: "Color Enum in Named Formula"
 description: "A collection of all 140 web colors for use in App.Formulas."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - colors
@@ -1188,7 +1188,7 @@ fxWebColors = [
         Category:           "Blues",
         Tags:               ["bright", "vibrant", "fresh"],
         ComplementaryHex:   "#800000",
-        AccentHex:          "#BA55D3",
+        AccentHex:          "#DA55D3",
         Alpha:              1
     },
     {
@@ -1342,7 +1342,7 @@ fxWebColors = [
         Category:           "Beiges",
         Tags:               ["bold", "deep", "passionate"],
         ComplementaryHex:   "#F5FFFA",
-        AccentHex:          "#FFDEAD",
+        AccentHex:          "#FFA07A",
         Alpha:              1
     },
     {
@@ -1426,7 +1426,7 @@ fxWebColors = [
         Category:           "Oranges",
         Tags:               ["earthy", "natural", "muted"],
         ComplementaryHex:   "#808000",
-        AccentHex:          "#FF6347",
+        AccentHex:          "#000080",
         Alpha:              1
     },
     {
@@ -1440,7 +1440,7 @@ fxWebColors = [
         Category:           "Oranges",
         Tags:               ["natural", "muted", "earthy"],
         ComplementaryHex:   "#6B8E23",
-        AccentHex:          "#DA70D6",
+        AccentHex:          "#FFA07A",
         Alpha:              1
     },
     {
@@ -1454,7 +1454,7 @@ fxWebColors = [
         Category:           "Purples",
         Tags:               ["vibrant", "warm", "bright"],
         ComplementaryHex:   "#FF4500",
-        AccentHex:          "#EEE8AA",
+        AccentHex:          "#EE82EE",
         Alpha:              1
     },
     {
@@ -1991,4 +1991,3 @@ fxWebColors = [
     }
 ];
 ```
-

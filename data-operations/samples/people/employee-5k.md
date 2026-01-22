@@ -1,7 +1,7 @@
 ---
 title: "Sample Data: Employee Records (5K)"
 description: "5,000 mock employee records with comprehensive HR data fields"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data
@@ -17,6 +17,7 @@ products:
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

@@ -1,7 +1,7 @@
 ---
 title: "All Controls Expression"
 description: "A comprehensive table of all Power Apps controls with metadata like purpose, category, and tags."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - controls
@@ -36,7 +36,7 @@ If you ever need a listing of all the controls available in Power Apps, here is 
             Categories: "Recommended|Display",
             Tags: ["Paragraph", "Field Label"],
             WhyUse: "The classic version does not have rounded corners (border radius)",
-            YAMLTemplate: 
+            YAMLTemplate:
 "- @@ControlName:
     Control: @@ControlClassName
     Properties:
@@ -983,7 +983,7 @@ If you ever need a listing of all the controls available in Power Apps, here is 
             Categories: "Classic",
             Tags: ["Icon", "Button", "OnSelect"],
             WhyUse: "The modern icon control does not have an OnSelect!",
-            YAMLTemplate: 
+            YAMLTemplate:
 "- @@ControlName:
     Control: @@ControlClassName
     Properties:

@@ -1,6 +1,26 @@
+---
+title: "World Cities Data Collection"
+description: "Comprehensive collection of world cities with demographic and geographic data for mapping and analysis"
+category: "data-management"
+subcategory: "samples"
+tags:
+  - sample-data
+  - cities
+  - geography
+  - demographics
+  - world-data
+difficulty: intermediate
+products:
+  - power-apps-canvas
+  - power-bi
+author: "PowerAppsDarren"
+created: 2024-01-01
+updated: 2025-01-21
+license: "MIT"
+---
 # World City Data
 
-This is some helpful data for world cities. It includes the city name, country, continent, area, density, population. This data is useful for mapping and other geospatial applications. It is also useful for data analysis and visualization. The data is in PowerFx named-formula format. 
+This is some helpful data for world cities. It includes the city name, country, continent, area, density, population. This data is useful for mapping and other geospatial applications. It is also useful for data analysis and visualization. The data is in PowerFx named-formula format.
 
 ## Add This to Your Application
 
@@ -908,4 +928,3 @@ This is some helpful data for world cities. It includes the city name, country, 
         }
     ];
 ```
-

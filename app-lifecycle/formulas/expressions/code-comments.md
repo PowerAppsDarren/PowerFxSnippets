@@ -1,7 +1,7 @@
 ---
 title: "Consistent Code Comment Decor"
 description: "Standardized code comment decorations for consistent documentation."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - comments
@@ -25,8 +25,8 @@ Want to keep your code comment decorations consistent? Look no further!
 
 ```JavaScript
 // Here is a comment about some comments!
-    fxCodeCommentLine =     "   //==========================================================================";
-    fxCodeCommentBlock =    "  /*==========================================================================" 
-                            & Char(10) & Char(10) & 
+    fxCodeCommentLine =     "  //==========================================================================";
+    fxCodeCommentBlock =    "  /*=========================================================================="
+                            & Char(10) & Char(10) &
                             "   ==========================================================================*/";
 ```

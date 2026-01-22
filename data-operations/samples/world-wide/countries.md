@@ -1,7 +1,7 @@
 ---
 title: "Sample Data: Countries List"
 description: "Complete list of world countries with ISO codes"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data
@@ -17,6 +17,7 @@ author: "PowerAppsDarren"
 source: "https://github.com/stefangabos/world_countries"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

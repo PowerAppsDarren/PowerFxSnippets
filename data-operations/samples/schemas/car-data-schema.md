@@ -1,7 +1,7 @@
 ---
 title: "Schema: Car Data Generation Schema"
 description: "Mockaroo schema definition for generating car/vehicle sample data"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - schema
@@ -15,6 +15,7 @@ products:
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

@@ -1,7 +1,7 @@
 ---
 title: "User Defined Types Syntax"
 description: "Examples of defining custom types (records and collections) in Power Fx."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - types
@@ -31,8 +31,8 @@ This is a helpful canvas Power Apps code snippet.
     //
     fxMyPerson := Type(
         {
-            FirstName:          Text, 
-            LastName:           Text, 
+            FirstName:          Text,
+            LastName:           Text,
             DateOfBirth:        Date,
             Email:              Text,
             Phone:              Text,
@@ -51,4 +51,3 @@ This is a helpful canvas Power Apps code snippet.
     );
 
 ```
-

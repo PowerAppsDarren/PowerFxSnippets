@@ -1,7 +1,7 @@
 ---
 title: "Are We in Studio Mode?"
 description: "Determine if the app is running in Studio Mode (editing mode) to show/hide elements."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - studio-mode

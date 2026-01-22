@@ -1,3 +1,6 @@
+---
+title: "Encode Decode"
+---
 # Encode Decode
 
 ```
@@ -146,4 +149,3 @@ Substitute(
     "%27",
     "'"
 )
-```

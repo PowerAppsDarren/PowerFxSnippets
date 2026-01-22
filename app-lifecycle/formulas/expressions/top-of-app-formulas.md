@@ -1,7 +1,7 @@
 ---
 title: "Top of App Formulas"
 description: "Table of contents and naming guidelines for App.Formulas."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - formulas
@@ -24,12 +24,12 @@ license: "MIT"
         🚨 APP.FORMULAS - TABLE OF CONTENTS 🚨
 
         Author: Darren Neese
-        
+
         ==========================================
 
         Naming Guidlines (all the ideas):
 
-            Notes (our guidline is based on these, in order of priority): 
+            Notes (our guidline is based on these, in order of priority):
                 - Adhere to any current standards (practiced in the industry)
                 - To be extremely handy while coding (IntelliSense)
                     - Having to wrap names with single quotes is NOT
@@ -42,7 +42,7 @@ license: "MIT"
 
             All the types of thigs that can be in App.Formulas
 
-                1 - Named Expressions (named formulas)                
+                1 - Named Expressions (named formulas)
                     - fx...
                     - fxExp_    ** favorite
 

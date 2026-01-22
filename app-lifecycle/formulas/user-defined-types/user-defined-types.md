@@ -1,7 +1,7 @@
 ---
 title: "User-Defined Types Examples"
 description: "Comprehensive examples of User-Defined Types (UDT), Named Formulas, and User-Defined Functions (UDF)."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - udt
@@ -47,7 +47,7 @@ Here are some examples of named formulas, below. These are called "named express
 ```PowerFx
     fxPerson := Type(
         {
-            FirstName: Text, 
+            FirstName: Text,
             LastName: Text,
             DateOfBirth: Date,
             Address: fxAddress  // Here is a type defined within a type!
@@ -56,31 +56,30 @@ Here are some examples of named formulas, below. These are called "named express
 
     fxAddress := Type(
         {
-            AddressLine1: Text, 
-            AddressLine2: Text, 
-            City: Text, 
+            AddressLine1: Text,
+            AddressLine2: Text,
+            City: Text,
             State: Text,
             Zip: Text
         }
     );
 ```
 
-And now, putting it all together: 
+And now, putting it all together:
 
 ```PowerFx
-    fxGetUsersFromState(FilterState:Text):fxPeople = 
+    fxGetUsersFromState(FilterState:Text):fxPeople =
         AddColumns(
             ShowColumns(
                 Filter(
-                    AppUser, 
+                    AppUser,
                     IsActive = true
                     And State = FilterState
-                ), 
-                FirstName, 
+                ),
+                FirstName,
                 LastName
-            ), 
+            ),
             Address,
             LookUp(Address, UserID = ThisRecord.ID)
         );
 ```
-

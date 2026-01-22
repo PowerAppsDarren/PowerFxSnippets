@@ -1,7 +1,7 @@
 ---
 title: "Random Screen Transition"
 description: "A function to return a random screen transition effect."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - navigation
@@ -28,24 +28,23 @@ so that it will return a fresh value.
 
 ```JavaScript
     //
-    // This function will return one of the 5 screen transitions randomly.    
+    // This function will return one of the 5 screen transitions randomly.
     // It is a user defined function (UDF) and not a named formula
-    // so that it will return a fresh value. 
+    // so that it will return a fresh value.
     //
-    fxRandomScreenTransition():Text = 
+    fxRandomScreenTransition():Text =
         With(
             {
                 RandomNumber: RandBetween(1, 5)
-            }, 
+            },
             Switch(
-                RandomNumber, 
+                RandomNumber,
                 1, ScreenTransition.Cover,
                 2, ScreenTransition.CoverRight,
                 3, ScreenTransition.Fade,
                 4, ScreenTransition.UnCover,
                 5, ScreenTransition.UnCoverRight,
                 ScreenTransition.None
-            )    
+            )
         );
 ```
-

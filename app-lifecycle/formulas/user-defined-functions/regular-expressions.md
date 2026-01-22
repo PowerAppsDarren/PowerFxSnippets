@@ -1,7 +1,7 @@
 ---
 title: "Regular Expressions Collection"
 description: "A collection of common regular expressions for validation (email, phone, SSN, etc.) with a UDF lookup function."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - regex
@@ -26,8 +26,8 @@ Here's an easy way to implement a set of pre-defined regular expressions in your
 
 ```PowerFx
     fxGetRegEx(RegExName:Text):Text = LookUp(
-        fxRegExStrings, 
-        Name = RegExName, 
+        fxRegExStrings,
+        Name = RegExName,
         Expression
     );
 
@@ -35,7 +35,7 @@ Here's an easy way to implement a set of pre-defined regular expressions in your
         {
             Name: "Numeric",
             Expression: "^\d+(.\d+)?$"
-        }, 
+        },
         {
             Name: "Email",
             Expression: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$"
@@ -47,15 +47,15 @@ Here's an easy way to implement a set of pre-defined regular expressions in your
         {
             Name: "Phone Number (International)",
             Expression: "^\+(?:[0-9] ?){6,14}[0-9]$"
-        }, 
+        },
         {
             Name: "SSN (USA)",
             Expression: "^(?!000|666|9\d{2})\d{3}-(?!00)\d{2}-(?!0000)\d{4}$"
-        }, 
+        },
         {
             Name: "URL",
             Expression: "^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"
-        }, 
+        },
         /*
             At least one lowercase letter
             At least one uppercase letter
@@ -71,19 +71,18 @@ Here's an easy way to implement a set of pre-defined regular expressions in your
         {
             Name: "Postal Code (USA)",
             Expression: "^($$d{5}(-\d{4})?|[A-CEGHJ-NPRSTVXY]\d[A-CEGHJ-NPRSTV-Z] ?\d[A-CEGHJ-NPRSTV-Z]\d)$"
-        }, 
+        },
         {
             Name: "Date",
             Expression: "^(0[1-9]|1[0-2])/(0[1-9]|\d|31)/\d{4}$"
-        }, 
+        },
         {
             Name: "Time (12 Hour)",
             Expression: "^(0?[1-9]|1[0-2]):[0-5]0-9$"
-        }, 
+        },
         {
             Name: "Time (24 Hour)",
             Expression: "^([01]\d|2[0-3]):[0-5]\d$"
         }
     ];
 ```
-

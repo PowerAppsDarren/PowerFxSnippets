@@ -1,7 +1,7 @@
 ---
 title: "Sample Data: Employee Info (5K)"
 description: "5,000 basic employee information records for testing"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data
@@ -14,6 +14,7 @@ products:
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

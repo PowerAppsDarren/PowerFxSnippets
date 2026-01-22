@@ -1,7 +1,7 @@
 ---
 title: "Error Kinds Collection"
 description: "A collection of all standard Power Apps error kinds for reference and handling."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - errors
@@ -59,5 +59,3 @@ ClearCollect(
     {KindNumber: 24, KindName: "Numeric"}
 );
 ```
-
-

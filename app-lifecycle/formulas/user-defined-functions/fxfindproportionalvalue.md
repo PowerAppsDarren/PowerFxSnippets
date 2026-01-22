@@ -1,7 +1,7 @@
 ---
 title: "Find Proportional Value"
 description: "Calculates a proportional value based on two related fractions where one value is unknown."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - math
@@ -27,7 +27,7 @@ Solves for either UnknownNumerator or UnknownDenominator, but not both.
 
 ## Add This to Your Application
 
-```PowerFx    
+```PowerFx
 /* ===========================================================================================
 
     Calculates a proportional value based on two related fractions where one value is unknown.
@@ -56,7 +56,7 @@ Solves for either UnknownNumerator or UnknownDenominator, but not both.
         fxFindProportionalValue(5, 2, 25, Blank()) returns 10
 
     ===========================================================================*/
-    fxFindProportionalValue(Known:Number, KnownDenominator:Number, UnknownNumerator:Number, UnknownDenominator:Number):Number = 
+    fxFindProportionalValue(Known:Number, KnownDenominator:Number, UnknownNumerator:Number, UnknownDenominator:Number):Number =
         With(
             {
                 KnownFraction: Known / KnownDenominator,
@@ -78,7 +78,7 @@ Solves for either UnknownNumerator or UnknownDenominator, but not both.
 
 Here is some YAML code you can paste onto a screen to use or test:
 
-```YAML    
+```YAML
 - Container2:
     Control: GroupContainer
     Variant: manualLayoutContainer
@@ -128,7 +128,7 @@ Here is some YAML code you can paste onto a screen to use or test:
         Properties:
           Text: |-
             =If(
-                Len(txtUnknownDenominator.Text) = 0, 
+                Len(txtUnknownDenominator.Text) = 0,
                 fxFindProportionalValue(
                     Value(txtNumerator.Text),
                     Value(txtDenominator.Text),
@@ -145,7 +145,7 @@ Here is some YAML code you can paste onto a screen to use or test:
         Properties:
           Text: |-
             =If(
-                Len(txtUnknownNumberator.Text) = 0, 
+                Len(txtUnknownNumberator.Text) = 0,
                 fxFindProportionalValue(
                     Value(txtNumerator.Text),
                     Value(txtDenominator.Text),
@@ -158,4 +158,3 @@ Here is some YAML code you can paste onto a screen to use or test:
           X: =356
           Y: =40
 ```
-

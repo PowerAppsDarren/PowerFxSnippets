@@ -1,7 +1,7 @@
 ---
 title: "Sample Data: Vehicle/Car Records"
 description: "Comprehensive vehicle dataset with make, model, VIN, and maintenance data"
-category: "data-operations"
+category: "data-management"
 subcategory: "samples"
 tags:
   - sample-data
@@ -17,6 +17,7 @@ products:
 author: "PowerAppsDarren"
 created: 2024-01-01
 updated: 2024-12-17
+license: "MIT"
 ---
 
 ## Overview

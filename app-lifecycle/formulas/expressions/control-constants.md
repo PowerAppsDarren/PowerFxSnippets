@@ -1,7 +1,7 @@
 ---
 title: "Helpful Constants"
 description: "A set of standard constants for spacing, screen defaults, and control properties."
-category: "app-lifecycle"
+category: "app-architecture"
 subcategory: "formulas"
 tags:
   - constants
@@ -27,13 +27,13 @@ This is a helpful canvas Power Apps code snippet.
 ```PowerFx
     fxConstants = {
         //
-        // Spacing values when you need a consistent way of 
+        // Spacing values when you need a consistent way of
         // spacing things out.
         //
         Spacing: {
-            SpacingSm: 10, 
-            SpacingMd: 20, 
-            SpacingLg: 40, 
+            SpacingSm: 10,
+            SpacingMd: 20,
+            SpacingLg: 40,
             SpacingXL: 50
         },
         //
@@ -55,17 +55,17 @@ This is a helpful canvas Power Apps code snippet.
         //
         Container: {
             GapSm: 8,
-            GapMd: 16, 
-            GapLg: 24, 
-            GapXL: 32, 
+            GapMd: 16,
+            GapLg: 24,
+            GapXL: 32,
             GapForLayout: 12,
             PaddingForLayout: 2,
             PaddingSm: 2,
             PaddingMd: 8,
             PaddingLg: 8,
             PaddingXL: 8,
-            DropShadowDefault: DropShadow.Regular, 
-            DropShadowForLayout: DropShadow.Light, 
+            DropShadowDefault: DropShadow.Regular,
+            DropShadowForLayout: DropShadow.Light,
             BorderRadiusNone: 0,
             BorderRadiusSm: 4,
             BorderRadiusMd: 8,
@@ -80,5 +80,3 @@ This is a helpful canvas Power Apps code snippet.
         }
     };
 ```
-
-
