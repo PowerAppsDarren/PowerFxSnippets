@@ -1,5 +1,20 @@
 ---
 title: "Encode Decode"
+description: "Comprehensive URL encoding and decoding functions to handle special characters and ensure proper data transmission in web contexts."
+category: "business-logic"
+subcategory: "encoding-decoding"
+tags:
+  - encoding
+  - decoding
+  - url-encoding
+  - text-processing
+difficulty: intermediate
+products:
+  - power-apps-canvas
+author: "Unknown"
+created: 2026-01-22
+updated: 2026-01-22
+license: "MIT"
 ---
 # Encode Decode
 

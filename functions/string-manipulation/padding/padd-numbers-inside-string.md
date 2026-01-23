@@ -1,17 +1,21 @@
 ---
 title: Pad Numbers Inside String
-business-logic: Pad Numbers
 description: Collection of user-defined functions for padding, extracting, and formatting numbers embedded within strings
-category: string-manipulation/padding
+category: "business-logic"
+subcategory: "string-manipulation"
 tags:
   - padding
   - numbers
   - formatting
   - text-extraction
   - user-defined-function
-related:
-  - ../transformations/eliminate-string-within-string
-  - ../parsing/find-string-exactly-within-table
+difficulty: advanced
+products:
+  - power-apps-canvas
+author: "Unknown"
+created: 2026-01-22
+updated: 2026-01-22
+license: "MIT"
 ---
 
 # Pad Numbers Inside String

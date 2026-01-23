@@ -1,15 +1,19 @@
 ---
 title: Eliminate String Within String
 description: User-defined function to remove a substring from within another string (case-insensitive)
-category: string-manipulation/transformations
+category: "business-logic"
+subcategory: "string-manipulation"
 tags:
   - string-removal
   - substring
   - text-transformation
   - user-defined-function
-related:
-  - ../parsing/find-string-exactly-within-table
-  - ../validation/string-is-empty
+difficulty: intermediate
+products:
+  - power-apps-canvas
+author: "Unknown"
+created: 2026-01-22
+updated: 2026-01-22
+license: "MIT"
 ---
-
 # Eliminate String Within String

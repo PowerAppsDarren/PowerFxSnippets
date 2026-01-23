@@ -1,6 +1,20 @@
 ---
 title: "Performing Mass Updates Quickly"
-description: "Learn how to efficiently perform mass updates or add records in a data source,zenspeeding up the process significantly compared to making individual updates for each record."
+description: "Learn how to efficiently perform mass updates or add records in a data source, speeding up the process significantly compared to making individual updates for each record."
+category: "business-logic"
+subcategory: "algorithms"
+tags:
+  - mass-updates
+  - performance
+  - data-operations
+  - bulk-operations
+difficulty: intermediate
+products:
+  - power-apps-canvas
+author: "Unknown"
+created: 2026-01-22
+updated: 2026-01-22
+license: "MIT"
 ---
 # Performing Mass Updates Quickly
 
