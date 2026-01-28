@@ -14,7 +14,7 @@ This category focuses on data operations and manipulation in Power Apps. It incl
 ### Related Categories
 - [**Functions**](../functions) - Data processing functions and algorithms
 - [**App Lifecycle**](../app-lifecycle) - Data loading and initialization
-- [**Data Sources**](../data-sources) - External data connections
+- [**Data Sources**](./sources) - External data connections
 
 ## 📊 Category Statistics
 
@@ -74,8 +74,8 @@ This category focuses on data operations and manipulation in Power Apps. It incl
 **Purpose**: Data source configurations, connection patterns, and integration examples.
 
 **Key Snippets:**
-- [**MSSQL Integration**](../data-sources/mssql) - SQL Server connections
-- [**DrawSQL ERDs**](../data-sources/drawsql) - Entity-relationship diagrams
+- [**MSSQL Integration**](./sources/mssql) - SQL Server connections
+- [**DrawSQL ERDs**](./sources/drawsql) - Entity-relationship diagrams
 
 **When to use**: Setting up data connections or understanding data source architectures.
 
@@ -109,8 +109,8 @@ This category focuses on data operations and manipulation in Power Apps. It incl
 3. Build [**Data Connections**](./sources)
 
 ### For Advanced Users
-1. Study [**Database Integration**](../data-sources/mssql)
-2. Implement [**ERD Models**](../data-sources/drawsql)
+1. Study [**Database Integration**](./sources/mssql)
+2. Implement [**ERD Models**](./sources/drawsql)
 3. Create [**Complex Schemas**](samples/schemas)
 
 ## 🤝 Contributing
@@ -145,14 +145,14 @@ Before using snippets in this category, you should understand:
 
 ### Related Content
 - [**Functions**](../functions) - Data processing functions
-- [**Data Sources**](../data-sources) - Connection configurations
+- [**Data Sources**](./sources) - Connection configurations
 - [**App Lifecycle**](../app-lifecycle) - Data loading patterns
-- [**Best Practices**](../best-practices) - Data handling guidelines
+- [**Best Practices**](../learning/best-practices) - Data handling guidelines
 
 ### Next Steps
 After mastering this category, consider:
 - [**Advanced Processing**](../functions/algorithms) - Complex data operations
-- [**External APIs**](../custom-connectors-apis) - API integrations
+- [**External APIs**](../integrations/connectors) - API integrations
 - [**Data Visualization**](../ui-controls/chart) - Chart data sources
 
 ## 📞 Support & Help
@@ -172,7 +172,7 @@ After mastering this category, consider:
 ### Latest Additions
 - [**World Data Collections**](samples/world-wide) - Added 2025-12-17 - Geographic datasets
 - [**Schema Definitions**](samples/schemas) - Added 2025-12-17 - Data modeling
-- [**MSSQL Integration**](../data-sources/mssql) - Added 2025-12-17 - Database connections
+- [**MSSQL Integration**](./sources/mssql) - Added 2025-12-17 - Database connections
 
 ### Recent Improvements
 - Enhanced documentation for sample datasets

@@ -14,7 +14,7 @@ This category focuses on visual assets and media resources in Power Apps. It inc
 ### Related Categories
 - [**Design**](../design) - Design principles and patterns
 - [**UI Controls**](../ui-controls) - Control styling and theming
-- [**Fonts**](../fonts) - Typography resources
+- [**Fonts**](./fonts) - Typography resources
 
 ## 📊 Category Statistics
 
@@ -33,19 +33,19 @@ This category focuses on visual assets and media resources in Power Apps. It inc
 |---------|-------------|------------|
 | [**Color Schemes**](./colors) | Color palette management | 🟢 |
 | [**SVG Icons**](./svgs) | Scalable icon collections | 🟡 |
-| [**Icon Collections**](../icons) | Icon management patterns | 🟡 |
+| [**Icon Collections**](./icons) | Icon management patterns | 🟡 |
 
 ### By Difficulty
 
 #### 🟢 Beginner Friendly
 - [**Basic Colors**](./colors) - Simple color usage
 - [**Icon Basics**](./svgs) - Basic icon implementation
-- [**Image Assets**](../emojis) - Simple media resources
+- [**Image Assets**](./emojis) - Simple media resources
 
 #### 🟡 Intermediate
 - [**Color Palettes**](./colors) - Advanced color schemes
 - [**SVG Manipulation**](./svgs) - Icon customization
-- [**Media Management**](../fonts) - Asset organization
+- [**Media Management**](./fonts) - Asset organization
 
 #### 🟠 Advanced
 - [**Dynamic Colors**](./colors) - Theming systems
@@ -106,7 +106,7 @@ This category focuses on visual assets and media resources in Power Apps. It inc
 ### For Advanced Users
 1. Study [**Enterprise Branding**](./colors) - Brand systems
 2. Implement [**Custom SVGs**](./svgs) - Advanced graphics
-3. Create [**Asset Management**](../fonts) - Resource organization
+3. Create [**Asset Management**](./fonts) - Resource organization
 
 ## 🤝 Contributing
 
@@ -141,14 +141,14 @@ Before using snippets in this category, you should understand:
 ### Related Content
 - [**Design**](../design) - Design patterns and principles
 - [**UI Controls**](../ui-controls) - Control styling
-- [**Fonts**](../fonts) - Typography assets
-- [**Icons**](../icons) - Icon collections
+- [**Fonts**](./fonts) - Typography assets
+- [**Icons**](./icons) - Icon collections
 
 ### Next Steps
 After mastering this category, consider:
 - [**Advanced Theming**](../design) - Complex design systems
-- [**Custom Controls**](../code-components) - Component development
-- [**Brand Guidelines**](../best-practices) - Visual standards
+- [**Custom Controls**](../ui-patterns/components) - Component development
+- [**Brand Guidelines**](../learning/best-practices) - Visual standards
 
 ## 📞 Support & Help
 
@@ -167,7 +167,7 @@ After mastering this category, consider:
 ### Latest Additions
 - [**Color Palette Systems**](./colors) - Added 2025-12-17 - Color management
 - [**SVG Icon Collections**](./svgs) - Added 2025-12-17 - Vector graphics
-- [**Asset Organization**](../fonts) - Added 2025-12-17 - Resource management
+- [**Asset Organization**](./fonts) - Added 2025-12-17 - Resource management
 
 ### Recent Improvements
 - Enhanced documentation for color schemes

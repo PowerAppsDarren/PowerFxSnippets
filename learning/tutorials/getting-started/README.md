@@ -161,7 +161,7 @@ After mastering getting-started:
 
 ### Related Learning
 - [**Tutorials**](..) - Step-by-step guides
-- [**Best Practices**](../../../best-practices) - Coding standards
+- [**Best Practices**](../../best-practices) - Coding standards
 - [**Certification Prep**](learning/tutorials/09-learning-resources/certification-prep) - PL-900 preparation
 
 ## 📞 Support & Help

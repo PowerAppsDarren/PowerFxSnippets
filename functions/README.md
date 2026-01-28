@@ -182,13 +182,13 @@ Before using snippets in this category, you should understand:
 - [**App Lifecycle**](../app-lifecycle) - Global formulas and UDFs
 - [**Data Operations**](../data-operations) - Data manipulation functions
 - [**UI Controls**](../ui-controls) - Control-specific logic
-- [**Best Practices**](../best-practices) - Function design guidelines
+- [**Best Practices**](../learning/best-practices) - Function design guidelines
 
 ### Next Steps
 After mastering this category, consider:
 - [**Advanced Algorithms**](./algorithms) - Complex implementations
-- [**Custom Connectors**](../custom-connectors-apis) - External API functions
-- [**Performance Optimization**](../best-practices) - Function efficiency
+- [**Custom Connectors**](../integrations/connectors) - External API functions
+- [**Performance Optimization**](../learning/best-practices) - Function efficiency
 
 ## 📞 Support & Help
 

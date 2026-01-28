@@ -24,7 +24,7 @@ created: 2025-12-18
 updated: 2025-12-18
 license: "MIT"
 related:
-  - ../best-practices/readme.md
+  - ../learning/best-practices/readme.md
 ---
 
 # Environment Variables & ALM Guide for SharePoint Solutions

@@ -12,9 +12,9 @@ This category focuses on best practices and development standards for Power Apps
 - ❌ **Don't use for**: Basic tutorials, control implementations, or learning materials
 
 ### Related Categories
-- [**App Lifecycle**](../app-lifecycle) - Application architecture
-- [**Functions**](../functions) - Code patterns
-- [**Content for Learning**](../content-for-learning) - Educational resources
+- [**App Lifecycle**](../../app-lifecycle) - Application architecture
+- [**Functions**](../../functions) - Code patterns
+- [**Content for Learning**](../tutorials) - Educational resources
 
 ## 📊 Category Statistics
 
@@ -40,7 +40,7 @@ This category focuses on best practices and development standards for Power Apps
 #### 🟢 Beginner Friendly
 - [**Basic Standards**](../readme.md) - Fundamental guidelines
 - [**Naming Conventions**](../ui-controls/naming-controls) - Code organization
-- [**Error Handling**](../app-lifecycle) - Basic error management
+- [**Error Handling**](../../app-lifecycle) - Basic error management
 
 #### 🟡 Intermediate
 - [**Performance Tips**](../readme.md) - Optimization techniques
@@ -62,7 +62,7 @@ This category focuses on best practices and development standards for Power Apps
 
 **Key Snippets:**
 - [**Optimization Techniques**](../readme.md) - Performance tips
-- [**Loading Strategies**](../app-lifecycle) - Efficient loading
+- [**Loading Strategies**](../../app-lifecycle) - Efficient loading
 
 **When to use**: Improving app performance and user experience.
 
@@ -89,7 +89,7 @@ This category focuses on best practices and development standards for Power Apps
 
 **Key Snippets:**
 - [**Accessibility Guidelines**](../readme.md) - Inclusive design
-- [**Screen Reader Support**](../ui-controls) - Accessible controls
+- [**Screen Reader Support**](../../ui-controls) - Accessible controls
 
 **When to use**: Creating applications accessible to all users.
 
@@ -115,7 +115,7 @@ This category focuses on best practices and development standards for Power Apps
 ### For Beginners
 1. Start with [**Basic Standards**](../readme.md)
 2. Learn [**Naming Conventions**](../ui-controls/naming-controls)
-3. Practice [**Error Handling**](../app-lifecycle)
+3. Practice [**Error Handling**](../../app-lifecycle)
 
 ### For Intermediate Users
 1. Master [**Performance Optimization**](../readme.md)
@@ -158,16 +158,16 @@ Before using snippets in this category, you should understand:
 - [**App Development**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/) - Development process
 
 ### Related Content
-- [**App Lifecycle**](../app-lifecycle) - Application architecture
-- [**Functions**](../functions) - Code patterns
-- [**UI Controls**](../ui-controls) - Control standards
-- [**Content for Learning**](../content-for-learning) - Educational resources
+- [**App Lifecycle**](../../app-lifecycle) - Application architecture
+- [**Functions**](../../functions) - Code patterns
+- [**UI Controls**](../../ui-controls) - Control standards
+- [**Content for Learning**](../tutorials) - Educational resources
 
 ### Next Steps
 After mastering this category, consider:
-- [**Advanced Architecture**](../app-lifecycle) - Complex applications
-- [**Custom Components**](../code-components) - Component development
-- [**Enterprise Integration**](../custom-connectors-apis) - System integration
+- [**Advanced Architecture**](../../app-lifecycle) - Complex applications
+- [**Custom Components**](../../ui-patterns/components) - Component development
+- [**Enterprise Integration**](../../integrations/connectors) - System integration
 
 ## 📞 Support & Help
 
