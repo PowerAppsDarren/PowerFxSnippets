@@ -275,6 +275,31 @@ def format_error(error: ValidationError) -> str:
     return f"  {location}: [{error.field}] {error.message}"
 
 
+def validate_directory(directory: Path) -> tuple[list[ValidationError], int, int]:
+    """
+    Validate all markdown files in a directory recursively.
+    Skips README.md files as they are documentation, not snippets.
+
+    Returns:
+        Tuple of (all_errors, total_files, passed_files)
+    """
+    all_errors: list[ValidationError] = []
+    total_files = 0
+    passed_files = 0
+
+    for md_file in directory.rglob("*.md"):
+        if md_file.name.lower() == "readme.md":
+            continue  # Skip README files
+        total_files += 1
+        errors = validate_file(md_file)
+        if errors:
+            all_errors.extend(errors)
+        else:
+            passed_files += 1
+
+    return all_errors, total_files, passed_files
+
+
 def main() -> int:
     """Main entry point."""
     parser = argparse.ArgumentParser(
@@ -298,7 +323,13 @@ Validation rules:
     parser.add_argument(
         "file_path",
         type=Path,
-        help="Path to the markdown file to validate"
+        nargs="?",
+        help="Path to the markdown file to validate (or directory if --batch)"
+    )
+    parser.add_argument(
+        "--batch",
+        action="store_true",
+        help="Batch validate all .md files in the specified directory recursively"
     )
     parser.add_argument(
         "-q", "--quiet",
@@ -313,19 +344,47 @@ Validation rules:
 
     args = parser.parse_args()
 
-    errors = validate_file(args.file_path)
+    if args.batch:
+        if not args.file_path:
+            print("Error: --batch requires a directory path")
+            return 1
+        if not args.file_path.is_dir():
+            print(f"Error: {args.file_path} is not a directory")
+            return 1
 
-    if errors:
-        if not args.quiet:
-            print(f"Validation FAILED for: {args.file_path}")
-            print(f"Found {len(errors)} error(s):")
-            for error in errors:
-                print(format_error(error))
-        return 1
+        errors, total_files, passed_files = validate_directory(args.file_path)
+
+        if errors:
+            if not args.quiet:
+                print(f"Batch validation FAILED for: {args.file_path}")
+                print(f"Total files: {total_files}, Passed: {passed_files}, Failed: {total_files - passed_files}")
+                print(f"Found {len(errors)} error(s):")
+                for error in errors:
+                    print(format_error(error))
+            return 1
+        else:
+            if not args.quiet:
+                print(f"Batch validation PASSED for: {args.file_path}")
+                print(f"All {total_files} files passed validation.")
+            return 0
     else:
-        if args.verbose and not args.quiet:
-            print(f"Validation PASSED for: {args.file_path}")
-        return 0
+        if not args.file_path:
+            parser.print_help()
+            return 1
+
+        errors = validate_file(args.file_path)
+
+        if errors:
+            if not args.quiet:
+                print(f"Validation FAILED for: {args.file_path}")
+                print(f"Found {len(errors)} error(s):")
+                for error in errors:
+                    print(format_error(error))
+            return 1
+        else:
+            if args.verbose and not args.quiet:
+                print(f"Validation PASSED for: {args.file_path}")
+            return 0
 
 
 if __name__ == "__main__":
