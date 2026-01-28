@@ -14,6 +14,48 @@ related: ["path/to/related/snippet1", "path/to/related/snippet2"]
 
 # Snippet Title
 
+## Table of Contents
+
+- [🎯 What This Snippet Does](#what-this-snippet-does)
+- [📋 Prerequisites](#prerequisites)
+- [🛠️ Implementation](#implementation)
+  - [Step-by-Step Setup](#step-by-step-setup)
+  - [Complete Code](#complete-code)
+- [🎨 YAML Configuration](#yaml-configuration)
+- [📖 Usage Examples](#usage-examples)
+  - [Basic Example](#basic-example)
+  - [Advanced Example](#advanced-example)
+  - [Real-World Scenario](#real-world-scenario)
+- [🔧 Customization Options](#customization-options)
+  - [Parameter Variations](#parameter-variations)
+  - [Configuration Settings](#configuration-settings)
+- [🐛 Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Tips](#debug-tips)
+- [🚀 Performance Considerations](#performance-considerations)
+  - [Optimization Tips](#optimization-tips)
+  - [Performance Benchmarks](#performance-benchmarks)
+- [🔒 Security Best Practices](#security-best-practices)
+  - [Input Validation](#input-validation)
+  - [Data Protection](#data-protection)
+- [🧪 Testing](#testing)
+  - [Unit Tests](#unit-tests)
+  - [Integration Testing](#integration-testing)
+- [📚 Related Snippets](#related-snippets)
+  - [Complementary Functionality](#complementary-functionality)
+  - [Alternative Approaches](#alternative-approaches)
+  - [Advanced Extensions](#advanced-extensions)
+- [🔗 External Resources](#external-resources)
+  - [Official Documentation](#official-documentation)
+  - [Community Resources](#community-resources)
+  - [Related Tools](#related-tools)
+- [🤝 Contributing](#contributing)
+  - [Improvements](#improvements)
+  - [Reporting Issues](#reporting-issues)
+  - [Code Reviews](#code-reviews)
+- [📊 Version History](#version-history)
+- [📝 License](#license)
+
 > {Brief description - should match the YAML description above}
 
 ## 🎯 What This Snippet Does
@@ -383,3 +425,10 @@ All contributions are welcome! Please ensure:
 ## 📝 License
 
 This code snippet is provided as-is under the MIT License (TODO: update link).
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

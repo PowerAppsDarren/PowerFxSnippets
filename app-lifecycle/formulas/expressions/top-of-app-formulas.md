@@ -71,3 +71,10 @@ license: "MIT"
         ==========================================
     */
     fxEnableErrorEmailNotifications = false; // Set to true to enable email notifications for errors (requires Office365Outlook connector)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

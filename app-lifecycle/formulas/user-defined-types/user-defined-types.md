@@ -19,6 +19,10 @@ license: "MIT"
 
 # User-Defined Types
 
+## Table of Contents
+
+- [Named Formulas](#named-formulas)
+
 The following code is based on this article here: https://powerplatformlinks.com/CanvasUserDefined
 
 ## Named Formulas
@@ -83,3 +87,10 @@ And now, putting it all together:
             LookUp(Address, UserID = ThisRecord.ID)
         );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

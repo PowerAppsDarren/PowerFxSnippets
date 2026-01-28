@@ -22,6 +22,10 @@ related: []
 
 # Model Database SQL Schema
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet provides SQL CREATE TABLE statements for a model database schema, including main tables, detail tables, and many-to-many mapping tables suitable for Power Apps data sources.
 
 ## Add This to Your Application
@@ -107,4 +111,10 @@ ALTER TABLE
 ALTER TABLE
     "MANY2MANY_MAP" ADD CONSTRAINT "many2many_map_right_id_foreign" FOREIGN KEY("RIGHT_ID") REFERENCES "MANY2MANY_RIGHT"("ID");
 ```
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

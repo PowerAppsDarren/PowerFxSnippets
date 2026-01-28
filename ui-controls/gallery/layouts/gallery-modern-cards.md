@@ -20,6 +20,13 @@ updated: 2024-01-01
 
 # Modern Card-Style Gallery
 
+## Table of Contents
+
+- [Features](#features)
+- [Structure](#structure)
+- [Sample Data Structure](#sample-data-structure)
+- [Add This to Your Application](#add-this-to-your-application)
+
 A gallery with modern card design featuring bold drop shadows, status-colored icons, and a summary row showing record counts.
 
 ## Features

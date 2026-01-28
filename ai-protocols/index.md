@@ -1,5 +1,24 @@
 # AI-Protocols Master Index
 
+## Table of Contents
+
+- [[CRITICAL] Protocol - Read First!](#critical-protocol-read-first)
+  - [[MANDATORY] [AI-Chats Session Documentation Protocol](../ai-chats/README.md)](#mandatory-ai-chats-session-documentation-protocolai-chatsreadmemd)
+- [Protocol Directory](#protocol-directory)
+  - [Core Workflow Protocols](#core-workflow-protocols)
+  - [Development Philosophy](#development-philosophy)
+  - [Prompt Engineering](#prompt-engineering)
+  - [Technical Standards](#technical-standards)
+  - [Quality Assurance](#quality-assurance)
+- [Quick Reference](#quick-reference)
+  - [Starting a New Project Session?](#starting-a-new-project-session)
+  - [Writing Code?](#writing-code)
+  - [Doing a Code Review?](#doing-a-code-review)
+  - [Optimizing Prompts?](#optimizing-prompts)
+- [Protocol Statistics](#protocol-statistics)
+- [Maintenance](#maintenance)
+- [File Structure](#file-structure)
+
 **Purpose:** Central directory of all mandatory protocols and guidelines for AI-assisted development across all repositories.
 
 **Last Updated:** 2025-10-31
@@ -163,3 +182,10 @@ ai-protocols/
 ---
 
 **Remember:** All protocols in this directory will be copied to every repository you work on. They are meant to ensure consistency, quality, and proper documentation across all AI-assisted development work.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

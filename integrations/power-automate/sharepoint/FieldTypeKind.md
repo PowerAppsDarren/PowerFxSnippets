@@ -32,3 +32,10 @@ WorkflowEventType = 30
 Geolocation = 31
 OutcomeChoice = 32
 MaxItems = 33
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

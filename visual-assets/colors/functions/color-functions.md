@@ -248,3 +248,10 @@ Credit: https://github.com/P3N-101/color-functions
     Y: =0
     ZIndex: =1
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

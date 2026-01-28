@@ -1,5 +1,13 @@
 # 538 Data Samples
 
+## Table of Contents
+
+- [Contents](#contents)
+- [About FiveThirtyEight Data](#about-fivethirtyeight-data)
+- [Usage](#usage)
+- [Resources](#resources)
+- [Importing into Power Apps](#importing-into-power-apps)
+
 Sample datasets and links from FiveThirtyEight, the statistical analysis and data journalism organization.
 
 ## Contents
@@ -36,3 +44,10 @@ ClearCollect(col538Index, '538-data-index')
 // Launch dataset link
 Launch(First(Filter(col538Index, subfolder_name = "pollster-ratings")).dataset_url)
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

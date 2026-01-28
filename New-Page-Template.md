@@ -14,6 +14,15 @@ license: "MIT"                                  # License type
 
 # Snippet Title
 
+## Table of Contents
+
+- [Why It Matters](#why-it-matters)
+- [Implementation](#implementation)
+  - [Formula/Code](#formulacode)
+- [Best Practices](#best-practices)
+- [Related Patterns](#related-patterns)
+- [Credits](#credits)
+
 ## Why It Matters
 
 [Explain the problem this snippet solves and why it's important]
@@ -38,3 +47,10 @@ license: "MIT"                                  # License type
 ## Credits
 
 [Attribution and sources]
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

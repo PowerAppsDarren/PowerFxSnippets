@@ -20,6 +20,12 @@ updated: 2024-01-01
 
 # Data Table Style Gallery
 
+## Table of Contents
+
+- [Features](#features)
+- [Sample Data Structure](#sample-data-structure)
+- [Add This to Your Application](#add-this-to-your-application)
+
 A professional data table style gallery component featuring column headers, alternating row colors (zebra striping), and a toolbar with record count.
 
 ## Features

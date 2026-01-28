@@ -1,5 +1,19 @@
 # String Manipulation Functions
 
+## Table of Contents
+
+- [Categories](#categories)
+  - [[Padding](./padding)](#paddingpadding)
+  - [[Transformations](./transformations)](#transformationstransformations)
+  - [[Parsing](./parsing)](#parsingparsing)
+  - [[Validation](./validation)](#validationvalidation)
+- [Quick Reference](#quick-reference)
+  - [Padding Functions](#padding-functions)
+  - [Transformation Functions](#transformation-functions)
+  - [Parsing Functions](#parsing-functions)
+  - [Validation Functions](#validation-functions)
+- [Related Resources](#related-resources)
+
 Power Fx user-defined functions for string manipulation, parsing, validation, and formatting.
 
 ## Categories
@@ -83,3 +97,10 @@ fxFun_StringIsEmpty(TextValue:Text):Boolean
 ---
 
 *Merged from `string-manipulation/` and `text-manipulation/` directories*
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

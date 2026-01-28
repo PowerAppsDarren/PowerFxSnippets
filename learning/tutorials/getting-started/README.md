@@ -1,5 +1,45 @@
 # 01-getting-started - Your Power Fx Journey Begins Here
 
+## Table of Contents
+
+- [📋 Overview](#overview)
+  - [When to Use](#when-to-use)
+  - [Related Categories](#related-categories)
+- [📊 Category Statistics](#category-statistics)
+- [🎯 Quick Access](#quick-access)
+  - [Most Popular](#most-popular)
+  - [By Topic](#by-topic)
+- [📁 Subcategories](#subcategories)
+  - [Hello World](#hello-world)
+  - [Common Patterns](#common-patterns)
+  - [Debugging Tips](#debugging-tips)
+  - [Migration Guides](#migration-guides)
+- [🔍 Search & Filter](#search-filter)
+  - [By Learning Goal](#by-learning-goal)
+  - [By Background](#by-background)
+- [📚 Learning Path](#learning-path)
+  - [Complete Beginner (0-2 hours)](#complete-beginner-0-2-hours)
+  - [Excel User (1-3 hours)](#excel-user-1-3-hours)
+  - [Developer (2-4 hours)](#developer-2-4-hours)
+- [🤝 Contributing](#contributing)
+  - [Adding Getting Started Content](#adding-getting-started-content)
+  - [Content Guidelines](#content-guidelines)
+- [🔗 Cross-References](#cross-references)
+  - [Prerequisites](#prerequisites)
+  - [Next Steps](#next-steps)
+  - [Related Learning](#related-learning)
+- [📞 Support & Help](#support-help)
+  - [Learning Resources](#learning-resources)
+  - [Getting Stuck?](#getting-stuck)
+- [📈 Recent Updates](#recent-updates)
+  - [Latest Additions](#latest-additions)
+  - [Recent Improvements](#recent-improvements)
+- [📝 Complete Snippet Index](#complete-snippet-index)
+  - [Hello World](#hello-world)
+  - [Common Patterns](#common-patterns)
+  - [Debugging Tips](#debugging-tips)
+  - [Migration Guides](#migration-guides)
+
 > Welcome to Power Fx! This category contains essential snippets and patterns to help you get started with Power Apps development, from basic concepts to fundamental techniques.
 
 ## 📋 Overview
@@ -226,3 +266,10 @@ After mastering getting-started:
 ---
 
 *Ready to start your Power Fx journey? 🚀 Let's build something amazing!* ✨
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

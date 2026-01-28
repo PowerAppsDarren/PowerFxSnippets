@@ -19,6 +19,10 @@ license: "MIT"
 
 # Icon Enumeration to Collection
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This code works great, doesn't it?
 
 ```text
@@ -1474,3 +1478,10 @@ All the icons in canvas Power Apps are contained in an enumeration so you can ea
         SortOrder.Ascending
     );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

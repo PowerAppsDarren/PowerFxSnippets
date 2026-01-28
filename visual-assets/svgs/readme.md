@@ -1,5 +1,14 @@
 # SVG Resources for Power Apps
 
+## Table of Contents
+
+- [Start Here](#start-here)
+- [Quick Start](#quick-start)
+  - [Display an SVG in Power Apps](#display-an-svg-in-power-apps)
+  - [Use Theme Colors with SVGs](#use-theme-colors-with-svgs)
+- [Contents](#contents)
+- [External Resources](#external-resources)
+
 This directory contains SVG icons, documentation, and code patterns for working with SVGs in Power Apps.
 
 ## Start Here
@@ -48,3 +57,10 @@ With(
 - [2,000 Free Power Apps Icons](https://www.matthewdevaney.com/2000-free-power-apps-icons/)
 - [SVG Video Playlist](https://www.youtube.com/playlist?list=PL4-IK0AVhVjP0EeV513_b30lhGRTfMbYd)
 - [Microsoft Branding Guidelines](./microsoft-branding.md)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

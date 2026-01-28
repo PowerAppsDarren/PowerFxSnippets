@@ -21,6 +21,10 @@ related: []
 
 # Funnel Layout for Power Apps
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet provides a responsive funnel layout with containers having decreasing numbers of columns (4, 3, 2, 1) for canvas apps.
 
 All credit goes to Daniel Laskewitz	GitHub (@Laskewitz )
@@ -113,6 +117,10 @@ All credit goes to Daniel Laskewitz	GitHub (@Laskewitz )
         Properties:
           LayoutMode: =LayoutMode.Auto
 ```
+---
 
+## History
 
-
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

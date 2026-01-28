@@ -86,3 +86,10 @@ SortByColumns(colAllKindsOfData, "dateTime", SortOrder.Descending)
 - Contains mock/synthetic data for testing purposes only
 - Credit card numbers are generated test data, not real
 - Passwords and hashes are sample data, not for production use
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

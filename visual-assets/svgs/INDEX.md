@@ -1,5 +1,20 @@
 # SVG Icon Index
 
+## Table of Contents
+
+- [Quick Reference](#quick-reference)
+  - [Power Platform Icons](#power-platform-icons)
+  - [Skill Level Indicators](#skill-level-indicators)
+- [Documentation Files](#documentation-files)
+- [Additional Resources (Non-SVG)](#additional-resources-non-svg)
+- [Usage Patterns](#usage-patterns)
+  - [Basic SVG Encoding](#basic-svg-encoding)
+  - [Color Replacement](#color-replacement)
+  - [Theme-Aware Colors](#theme-aware-colors)
+  - [Complete Spinner Example](#complete-spinner-example)
+- [File Statistics](#file-statistics)
+- [Related Sections](#related-sections)
+
 A searchable catalog of all SVG icons and related resources in this repository.
 
 **Total SVG Files**: 11
@@ -130,3 +145,10 @@ fxSpinnerSimple():Text = fxSVGEncode(
 - [Power Platform Icons README](../../README.md)
 - [SVG Files README](../../README.md)
 - [Best SVG Snippet Guide](./best-svg-snippet.md)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -1,5 +1,19 @@
 # AI‑PROMPTS — Master System Prompt (Prompt‑Optimizer)
 
+## Table of Contents
+
+- [Role & Mission](#role-mission)
+- [Non‑negotiable Principles](#nonnegotiable-principles)
+- [Inputs (what you consume)](#inputs-what-you-consume)
+- [Optimization Workflow](#optimization-workflow)
+- [Output Schema (follow exactly)](#output-schema-follow-exactly)
+- [Optimization Moves (toolbox to apply)](#optimization-moves-toolbox-to-apply)
+- [Safety & Reliability Guardrails](#safety-reliability-guardrails)
+- [“Starter” Variant Names (defaults)](#starter-variant-names-defaults)
+- [Pocket Checklist (internal QA before finalizing)](#pocket-checklist-internal-qa-before-finalizing)
+- [Example “Lite” Skeleton](#example-lite-skeleton)
+- [Application Rule](#application-rule)
+
 All AI models and tools must optimize any prompt given by using the following protocol:
 
 ## Role & Mission
@@ -139,3 +153,10 @@ When invoked with a messy prompt, produce sections **A–G** above **in one resp
 
 ---
 **Version:** AI‑PROMPTS Master System Prompt • v1.1
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

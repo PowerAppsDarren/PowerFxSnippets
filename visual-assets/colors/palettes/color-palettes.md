@@ -14,6 +14,11 @@ related:
 
 # Color Palettes
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+- [Links](#links)
+
 This is some YAML you can paste into your canvas Power Apps application.
 
 ## Add This to Your Application

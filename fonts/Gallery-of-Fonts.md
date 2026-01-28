@@ -1925,3 +1925,10 @@ To make this reusable and more efficient, paste in the code from [this code snip
             X: =417
 
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

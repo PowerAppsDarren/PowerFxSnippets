@@ -20,6 +20,10 @@ license: "MIT"
 
 # Regular Expressions
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Here's an easy way to implement a set of pre-defined regular expressions in your Power Apps application. This can be useful for validating user input, such as email addresses, phone numbers, and more. You can add more regular expressions to the `fxRegExStrings` table as needed.
 
 ## Add This to Your Application
@@ -86,3 +90,10 @@ Here's an easy way to implement a set of pre-defined regular expressions in your
         }
     ];
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

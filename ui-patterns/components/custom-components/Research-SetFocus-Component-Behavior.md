@@ -20,6 +20,41 @@ license: "MIT"
 
 # Research: Power Apps Canvas Component SetFocus Capabilities
 
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Question 1: Can canvas components have callable behavior properties (methods)?](#question-1-can-canvas-components-have-callable-behavior-properties-methods)
+  - [Key Points:](#key-points)
+  - [Requirements:](#requirements)
+  - [References:](#references)
+- [Question 2: What is the syntax for PropertyKind: Action or Event?](#question-2-what-is-the-syntax-for-propertykind-action-or-event)
+  - [YAML Syntax for Action Property:](#yaml-syntax-for-action-property)
+  - [Example from Existing Component (super-input-control.pa.yaml):](#example-from-existing-component-super-input-controlpayaml)
+  - [How to Call from App:](#how-to-call-from-app)
+  - [References:](#references)
+- [Question 3: Limitations & Reasons NOT to Use Behavior Properties for SetFocus](#question-3-limitations-reasons-not-to-use-behavior-properties-for-setfocus)
+  - [Critical Limitation:](#critical-limitation)
+  - [Additional SetFocus Limitations:](#additional-setfocus-limitations)
+  - [Why This Matters for Components:](#why-this-matters-for-components)
+  - [References:](#references)
+- [Question 4: What's the Alternative if Behavior Properties Don't Work Well?](#question-4-whats-the-alternative-if-behavior-properties-dont-work-well)
+  - [Workaround #1: Event Property with Context Variable Trigger](#workaround-1-event-property-with-context-variable-trigger)
+  - [Workaround #2: Action Property to Reset Component State](#workaround-2-action-property-to-reset-component-state)
+  - [Workaround #3: Use OnReset with RaiseOnReset](#workaround-3-use-onreset-with-raiseonreset)
+  - [References:](#references)
+- [Question 5: Example YAML for Implementing Focus Behavior](#question-5-example-yaml-for-implementing-focus-behavior)
+  - [Complete Example: Input Component with Focus Capability](#complete-example-input-component-with-focus-capability)
+  - [Usage from App:](#usage-from-app)
+- [Additional Findings](#additional-findings)
+  - [Property Type Comparison](#property-type-comparison)
+  - [Best Practices for SetFocus in Components](#best-practices-for-setfocus-in-components)
+  - [Experimental Features Warning](#experimental-features-warning)
+- [Conclusions](#conclusions)
+  - [Answers Summary:](#answers-summary)
+  - [Recommended Approach for SetFocus:](#recommended-approach-for-setfocus)
+- [Sources](#sources)
+- [Related Files in Repository](#related-files-in-repository)
+
 ## Executive Summary
 
 This research document answers critical questions about implementing SetFocus functionality in Power Apps canvas components through callable behavior properties.
@@ -397,3 +432,10 @@ This approach works around the SetFocus limitation while still providing a clean
 
 - `C:\src\src-power-platform\PowerFxSnippets\Components\Input-Control\super-input-control.pa.yaml` - Example Event property implementation
 - `C:\src\src-power-platform\PowerFxSnippets\Components\Spinner\Spinner.md` - Example component with RaiseOnReset
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

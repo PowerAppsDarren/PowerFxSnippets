@@ -1,5 +1,69 @@
 # 📚 AI-Chats Protocol Documentation v3.2
 
+## Table of Contents
+
+- [🚨 ATTENTION ALL AI CODING ASSISTANTS 🚨](#attention-all-ai-coding-assistants)
+- [🔴 CRITICAL FILENAME CONVENTION (v3.1) 🔴](#critical-filename-convention-v31)
+  - [⚠️ MANDATORY RULES - NO EXCEPTIONS!](#mandatory-rules-no-exceptions)
+  - [📝 EXAMPLES OF CORRECT NAMING:](#examples-of-correct-naming)
+  - [🚫 WHY THIS MATTERS:](#why-this-matters)
+- [🚀 CRITICAL CHANGE TO v3.0 - SOLVES VERBATIM PROBLEM!](#critical-change-to-v30-solves-verbatim-problem)
+- [🎯 Overview](#overview)
+- [🔴 CRITICAL: THE NEW PROTOCOL (v3.2)](#critical-the-new-protocol-v32)
+  - [📑 STEP 0: MASTER INDEX MAINTENANCE (NEW IN v3.2!)](#step-0-master-index-maintenance-new-in-v32)
+  - [📁 STEP 1: FOLDER CREATION/DETECTION](#step-1-folder-creationdetection)
+  - [📝 STEP 2: MODEL-SPECIFIC FILE CREATION](#step-2-model-specific-file-creation)
+- [📋 Folder Naming Convention](#folder-naming-convention)
+  - [✅ Correct Examples:](#correct-examples)
+  - [❌ WRONG Examples:](#wrong-examples)
+- [🤖 IMPLEMENTATION ALGORITHM FOR AI TOOLS v3.2](#implementation-algorithm-for-ai-tools-v32)
+- [📋 Required Document Structure](#required-document-structure)
+  - [📑 Master Index File (INDEX.md) - NEW IN v3.2!](#master-index-file-indexmd-new-in-v32)
+  - [📄 Main Documentation File (--00)](#main-documentation-file-00)
+  - [💬 Exchange Files (--01, --02, etc.)](#exchange-files-01-02-etc)
+  - [Starting a Session](#starting-a-session)
+  - [During the Session](#during-the-session)
+  - [Ending a Session](#ending-a-session)
+- [🌟 Benefits](#benefits)
+  - [📊 Knowledge Management](#knowledge-management)
+  - [🤝 Team Collaboration](#team-collaboration)
+  - [🚀 Productivity](#productivity)
+- [📂 REAL-WORLD EXAMPLE v3.2](#real-world-example-v32)
+  - [Complete Folder Structure with Split Files and Master Index](#complete-folder-structure-with-split-files-and-master-index)
+- [🎭 MULTI-MODEL COLLABORATION](#multi-model-collaboration)
+  - [Example Scenario:](#example-scenario)
+- [🏷️ HOW TO DETERMINE YOUR MODEL NAME](#how-to-determine-your-model-name)
+  - [For AI Tools - Use This Logic:](#for-ai-tools-use-this-logic)
+  - [🔴 MANDATORY: Version Number Rules](#mandatory-version-number-rules)
+- [🔍 Search and Discovery](#search-and-discovery)
+  - [Finding Past Solutions](#finding-past-solutions)
+  - [Using with Git](#using-with-git)
+- [🚀 Advanced Features](#advanced-features)
+  - [AI Value Vault Synchronization](#ai-value-vault-synchronization)
+  - [Session Analytics](#session-analytics)
+- [⚡ Quick Commands](#quick-commands)
+- [🎯 Best Practices](#best-practices)
+  - [✅ DO:](#do)
+  - [❌ DON'T:](#dont)
+- [🔗 Related Documentation](#related-documentation)
+- [❓ FAQ FOR AI TOOLS v3.2](#faq-for-ai-tools-v32)
+  - [Q: Why split into multiple files?](#q-why-split-into-multiple-files)
+  - [Q: What goes in --00 vs --01, --02 files?](#q-what-goes-in-00-vs-01-02-files)
+  - [Q: What is INDEX.md and why is it mandatory? (NEW v3.2)](#q-what-is-indexmd-and-why-is-it-mandatory-new-v32)
+  - [Q: What if INDEX.md doesn't exist?](#q-what-if-indexmd-doesnt-exist)
+  - [Q: Do I need to update INDEX.md if I'm just continuing an existing session?](#q-do-i-need-to-update-indexmd-if-im-just-continuing-an-existing-session)
+  - [Q: How many exchange files can I create?](#q-how-many-exchange-files-can-i-create)
+  - [Q: What if ai-chats/ folder doesn't exist?](#q-what-if-ai-chats-folder-doesnt-exist)
+  - [Q: How do I know what sequence number to use?](#q-how-do-i-know-what-sequence-number-to-use)
+  - [Q: What if user's topic doesn't match any existing folder?](#q-what-if-users-topic-doesnt-match-any-existing-folder)
+  - [Q: Should I read other model's files in the same folder?](#q-should-i-read-other-models-files-in-the-same-folder)
+  - [Q: What if my model name has special characters or spaces?](#q-what-if-my-model-name-has-special-characters-or-spaces)
+  - [Q: Can I summarize in the exchange files?](#q-can-i-summarize-in-the-exchange-files)
+  - [Q: Should archived sessions be in INDEX.md?](#q-should-archived-sessions-be-in-indexmd)
+- [🚀 QUICK IMPLEMENTATION CHECKLIST v3.2](#quick-implementation-checklist-v32)
+- [📞 Support](#support)
+- [🎯 Why v3.2 Works](#why-v32-works)
+
 ## 🚨 ATTENTION ALL AI CODING ASSISTANTS 🚨
 
 **This protocol MUST be followed by ALL AI tools:** Claude Code, Gemini CLI, Qwen CLI, Kilo Code Extension, Codex Extension, and any other AI coding assistant.
@@ -702,3 +766,10 @@ SESSION END:
 - --00 = Summary, --01+ = VERBATIM EXCHANGES!
 - NO SPACES IN FILENAMES!
 - ALWAYS UPDATE INDEX.md!**
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

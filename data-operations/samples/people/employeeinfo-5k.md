@@ -81,3 +81,10 @@ GroupBy(colEmployeeInfo, "Location", "Employees")
 | File Size     | Larger          | Smaller             |
 
 Use this dataset when you need a lighter-weight option for testing.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -18,6 +18,10 @@ related: []
 
 # Get Manager Rollup
 
+## Table of Contents
+
+- [Add this code to your screen](#add-this-code-to-your-screen)
+
 The user and their manager and their manager and their manager, and so on.
 
 ## Add this code to your screen
@@ -93,3 +97,10 @@ ForAll(
     )
 )
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

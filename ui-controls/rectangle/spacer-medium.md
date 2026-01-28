@@ -17,6 +17,10 @@ license: "MIT"
 
 # Spacer Medium Rectangle
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is a helpful canvas Power Apps code snippet.
 
 ## Add This to Your Application
@@ -36,3 +40,10 @@ This is a helpful canvas Power Apps code snippet.
       X: =Parent.Width - Self.Width
       Y: =Parent.Height - Self.Height
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

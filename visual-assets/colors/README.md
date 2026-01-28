@@ -1,5 +1,19 @@
 # Colors
 
+## Table of Contents
+
+- [Categories](#categories)
+  - [[Functions](../../functions)](#functionsfunctions)
+  - [[Palettes](./palettes)](#palettespalettes)
+  - [[Utilities](../../utilities)](#utilitiesutilities)
+- [Quick Reference](#quick-reference)
+  - [Color Conversions](#color-conversions)
+  - [Web Colors Collection](#web-colors-collection)
+  - [Theme Palette](#theme-palette)
+- [Accessibility](#accessibility)
+- [Related Resources](#related-resources)
+- [Credits](#credits)
+
 Power Fx color utilities, conversion functions, palettes, and resources for Power Apps development.
 
 ## Categories
@@ -100,3 +114,10 @@ The color functions include simulations for various types of color blindness:
 ---
 
 *Merged from `color/`, `color-palettes/`, and `themes-color-palettes/` directories*
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

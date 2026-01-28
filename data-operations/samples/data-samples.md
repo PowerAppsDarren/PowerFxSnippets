@@ -17,3 +17,10 @@ updated: 2025-01-21
 license: "MIT"
 ---
 # Data Samples
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -1,5 +1,9 @@
 # Read Me 
 
+## Table of Contents
+
+- [all the way down to this point...](#all-the-way-down-to-this-point)
+
 To add this error "catch all" feature to your canvas Power Apps, follow these steps: 
 
 # 1 - Open the [[fxAppOnError.yaml]] file
@@ -23,3 +27,10 @@ To add this error "catch all" feature to your canvas Power Apps, follow these st
 # Here is a sample email that will be generated and sent out: 
 
 ![Screenshot: sample email](./sampleimage.png)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

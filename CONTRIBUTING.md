@@ -373,3 +373,10 @@ Fixes #issue_number
 ---
 
 Thank you for contributing to Power Fx Snippets! Your efforts help build a better resource for the entire Power Platform community. 🚀
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

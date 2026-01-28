@@ -1,5 +1,14 @@
 # Jokes Sample Data
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Dataset Details](#dataset-details)
+  - [Dad Jokes](#dad-jokes)
+- [Usage Ideas](#usage-ideas)
+- [Quick Start](#quick-start)
+- [Contributing](#contributing)
+
 A collection of family-friendly joke datasets for testing and entertainment applications.
 
 ## Contents
@@ -40,3 +49,10 @@ With(
 ## Contributing
 
 Have more clean jokes to add? Feel free to extend the dataset!
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

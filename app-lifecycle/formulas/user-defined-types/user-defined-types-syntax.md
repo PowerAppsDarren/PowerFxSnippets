@@ -19,6 +19,10 @@ license: "MIT"
 
 # User Defined Types
 
+## Table of Contents
+
+- [Add This to Your App.Formulas!](#add-this-to-your-appformulas)
+
 This is a helpful canvas Power Apps code snippet.
 
 ## Add This to Your App.Formulas!
@@ -51,3 +55,10 @@ This is a helpful canvas Power Apps code snippet.
     );
 
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

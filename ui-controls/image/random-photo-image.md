@@ -17,6 +17,10 @@ license: "MIT"
 
 # Need a Random Profile Photo
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is really nice if you want to have a photo for each row in your gallery control for people.
 
 ## Add This to Your Application
@@ -39,3 +43,10 @@ This is really nice if you want to have a photo for each row in your gallery con
       RadiusTopLeft: =Average(Self.Height, Self.Width) * 10%
       RadiusTopRight: =Average(Self.Height, Self.Width) * 10%
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

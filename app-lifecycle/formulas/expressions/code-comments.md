@@ -19,6 +19,10 @@ license: "MIT"
 
 # Consistent Code Comment Decor
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Want to keep your code comment decorations consistent? Look no further!
 
 ## Add This to Your Application
@@ -30,3 +34,10 @@ Want to keep your code comment decorations consistent? Look no further!
                             & Char(10) & Char(10) &
                             "   ==========================================================================*/";
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

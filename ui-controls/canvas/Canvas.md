@@ -17,6 +17,11 @@ license: "MIT"
 
 # Canvas Control
 
+## Table of Contents
+
+- [Canvas Control Only](#canvas-control-only)
+- [Canvas with Data Cards](#canvas-with-data-cards)
+
 This is some YAML you can paste into your canvas Power Apps applciation.
 
 ## Canvas Control Only
@@ -120,3 +125,10 @@ This is some YAML you can paste into your canvas Power Apps applciation.
               X: =25
               Y: =25
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -21,6 +21,8 @@ updated: 2024-01-01
 
 # Simple Gallery
 
+## Table of Contents
+
 ```PowerFx
 - galFieldTypes:
     Control: Gallery

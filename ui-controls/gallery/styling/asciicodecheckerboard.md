@@ -21,6 +21,10 @@ updated: 2024-01-01
 
 # ASCII Code Checkerboard
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is some YAML you can paste into your canvas Power Apps application.
 Once pasted into canvas Power Apps as YAML, you will get a gallery (vertical)
 that displays the ASCII codes from 33 to 126 in a checkerboard pattern, and it

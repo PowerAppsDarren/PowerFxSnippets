@@ -23,6 +23,12 @@ related: []
 
 # Left Nav Bar
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Concepts](#key-concepts)
+- [Customization Checklist](#customization-checklist)
+
 - Look at this menu in action [here](./example-left-nav-bar.png).
 - Down below, there is a 2nd YAML code block that you could paste in to import this whole screen!
 - There are two code blocks below!
@@ -655,3 +661,10 @@ Screens:
                         RadiusTopRight: =12
 
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -1,5 +1,15 @@
 # People Sample Data
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Dataset Comparison](#dataset-comparison)
+- [Common Fields](#common-fields)
+- [Use Cases](#use-cases)
+- [Quick Start](#quick-start)
+- [Special Characters](#special-characters)
+- [Performance Notes](#performance-notes)
+
 Mock employee and person datasets for HR applications, directories, and testing.
 
 ## Contents
@@ -63,3 +73,10 @@ For the large `person.csv` dataset:
 - Consider pagination
 - Use local caching
 - Implement search delegation
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

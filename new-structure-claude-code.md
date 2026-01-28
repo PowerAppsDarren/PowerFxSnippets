@@ -1,4 +1,50 @@
 # PowerFxSnippets Repository Restructuring Plan
+
+## Table of Contents
+
+- [World-Class Organization for Developer Experience](#world-class-organization-for-developer-experience)
+- [Executive Summary](#executive-summary)
+  - [Current State Analysis](#current-state-analysis)
+  - [Transformation Goals](#transformation-goals)
+- [📁 Proposed New Structure](#proposed-new-structure)
+  - [Top-Level Architecture](#top-level-architecture)
+- [📱 app-lifecycle/ Structure](#app-lifecycle-structure)
+- [🎨 ui-controls/ Structure](#ui-controls-structure)
+- [🎭 ui-patterns/ Structure](#ui-patterns-structure)
+- [🌈 visual-assets/ Structure](#visual-assets-structure)
+- [📊 data-operations/ Structure](#data-operations-structure)
+- [🔧 functions/ Structure](#functions-structure)
+- [🔗 integrations/ Structure](#integrations-structure)
+- [🎓 learning/ Structure](#learning-structure)
+- [🧰 utilities/ Structure](#utilities-structure)
+- [📝 Metadata Schema](#metadata-schema)
+  - [YAML Frontmatter Standard](#yaml-frontmatter-standard)
+  - [Example Snippet with Frontmatter](#example-snippet-with-frontmatter)
+- [🗺️ Migration Mapping (Old → New)](#migration-mapping-old-new)
+  - [Complete Path Conversions](#complete-path-conversions)
+- [📋 README Template Examples](#readme-template-examples)
+  - [Top-Level Category README](#top-level-category-readme)
+  - [Subcategory README](#subcategory-readme)
+- [🚀 Implementation Plan](#implementation-plan)
+  - [Phase 1: Foundation (Week 1)](#phase-1-foundation-week-1)
+  - [Phase 2: Content Migration (Week 2-3)](#phase-2-content-migration-week-2-3)
+  - [Phase 3: Documentation (Week 3-4)](#phase-3-documentation-week-3-4)
+  - [Phase 4: Automation (Week 4-5)](#phase-4-automation-week-4-5)
+  - [Phase 5: Cleanup (Week 5-6)](#phase-5-cleanup-week-5-6)
+- [✅ Success Criteria](#success-criteria)
+  - [Developer Experience](#developer-experience)
+  - [Technical Quality](#technical-quality)
+  - [Scalability](#scalability)
+  - [Discoverability](#discoverability)
+- [🎯 Key Benefits](#key-benefits)
+  - [For Contributors](#for-contributors)
+  - [For Users](#for-users)
+  - [For Maintainers](#for-maintainers)
+- [🔄 Maintenance Strategy](#maintenance-strategy)
+  - [Weekly](#weekly)
+  - [Monthly](#monthly)
+  - [Quarterly](#quarterly)
+- [📞 Questions & Feedback](#questions-feedback)
 ## World-Class Organization for Developer Experience
 
 **Created:** 2025-11-17
@@ -1260,3 +1306,10 @@ For questions about this restructuring plan:
 **Last Updated:** 2025-11-17
 **Author:** Claude Code (Sonnet 4.5)
 **Status:** Proposed - Awaiting Review
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

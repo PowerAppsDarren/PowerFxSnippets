@@ -1,5 +1,11 @@
 # Microsoft Exam: PL-900
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Skills at a glance](#skills-at-a-glance)
+- [Links](#links)
+
 ![alt text](../images/pl900-credential.png)
 
 ## Overview
@@ -37,4 +43,10 @@ You can use this certification to prepare for role-based or specialty certificat
 * https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/?source=recommendations&practice-assessment-type=certification
 * https://learn.microsoft.com/en-us/training/paths/power-platform-fundamentals/?source=recommendations
 * https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/?source=recommendations&practice-assessment-type=certification
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

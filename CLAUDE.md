@@ -1,5 +1,21 @@
 # CLAUDE.md
 
+## Table of Contents
+
+- [Repository Overview](#repository-overview)
+  - [🔀 Dual Repository Structure](#dual-repository-structure)
+- [Editing Markdown Files](#editing-markdown-files)
+- [Repository Structure](#repository-structure)
+- [Key File Types](#key-file-types)
+- [Working with Power Fx Code](#working-with-power-fx-code)
+  - [⚠️ MANDATORY: Check Gotchas Before Writing Code!](#mandatory-check-gotchas-before-writing-code)
+  - [🔍 Power Fx Verification Workflow](#power-fx-verification-workflow)
+  - [Formula Patterns](#formula-patterns)
+  - [Common Tasks](#common-tasks)
+- [Documentation Standards](#documentation-standards)
+- [AI Session Documentation](#ai-session-documentation)
+- [Related Resources](#related-resources)
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 > 📁 **Workspace Context:** This repo is part of a multi-repo VS Code workspace. See `../CLAUDE.md` for workspace-level guidance.

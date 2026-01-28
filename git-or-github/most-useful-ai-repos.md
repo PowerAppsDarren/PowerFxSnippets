@@ -1,5 +1,14 @@
 # Most Useful AI Repos
 
+## Table of Contents
+
+- [Top Machine Learning Frameworks](#top-machine-learning-frameworks)
+- [Essential AI Resources](#essential-ai-resources)
+- [Computer Vision & Deep Learning](#computer-vision-deep-learning)
+- [Production Tools](#production-tools)
+- [Specialized AI Tools](#specialized-ai-tools)
+- [Ethics and Responsibility](#ethics-and-responsibility)
+
 Here are the most significant AI-related GitHub repositories, ranked by their impact and star count:
 
 ## Top Machine Learning Frameworks
@@ -56,3 +65,10 @@ Citations:
 [9] https://www.restack.io/p/open-assistant-answer-github-examples-cat-ai
 [10] https://docs.fast.ai
 [11] https://mit-ll-responsible-ai.github.io/responsible-ai-toolbox/
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

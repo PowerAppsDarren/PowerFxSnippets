@@ -21,6 +21,10 @@ related: []
 
 # Modern Text Label Control
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet provides a modern text label control with border and primary color styling.
 
 ## Add This to Your Application
@@ -38,5 +42,10 @@ This snippet provides a modern text label control with border and primary color 
       Text: ="This is a text (or modern label) control"
       Width: =300
 ```
+---
 
+## History
 
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

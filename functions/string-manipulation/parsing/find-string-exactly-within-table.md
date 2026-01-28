@@ -19,3 +19,10 @@ license: "MIT"
 ---
 
 # Find String Exactly Within Table of Strings
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -19,6 +19,12 @@ updated: 2024-01-01
 
 # Responsive Hero Cards Gallery
 
+## Table of Contents
+
+- [Features](#features)
+- [Add This to Your Application](#add-this-to-your-application)
+- [Key Formula: Responsive WrapCount](#key-formula-responsive-wrapcount)
+
 This code was originally created by Scott Durow and shared via the PnP Power Platform Snippets repository. It demonstrates a responsive gallery with hero cards that automatically adjust their layout based on the available width.
 
 **Original source:** https://github.com/pnp/powerplatform-snippets/blob/main/power-apps/responsive-hero-cards-gallery/source/responsive-hero-card-gallery.yaml

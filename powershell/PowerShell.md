@@ -1,5 +1,12 @@
 # PowerShell
 
+## Table of Contents
+
+- [Why is there a PowerShell folder or content in this repo that has to deal with the Power Platform and Power Apps?](#why-is-there-a-powershell-folder-or-content-in-this-repo-that-has-to-deal-with-the-power-platform-and-power-apps)
+- [Key Benefits](#key-benefits)
+- [Primary Use Cases](#primary-use-cases)
+- [Advanced Features](#advanced-features)
+
 ## Why is there a PowerShell folder or content in this repo that has to deal with the Power Platform and Power Apps?
 
 PowerShell integration with Power Platform offers significant advantages for administrators and developers, enhancing their ability to manage and automate platform resources effectively.
@@ -52,3 +59,10 @@ Citations:
 [3] https://www.michaelroth42.com/post/2023-09-07-become-the-best-power-platform-admin/
 [4] https://learn.microsoft.com/en-us/power-platform/admin/powerapps-powershell
 [5] https://blog.cellenza.com/en/power-platform/what-can-powershell-add-to-power-platform/
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

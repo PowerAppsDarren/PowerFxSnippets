@@ -14,6 +14,10 @@ related:
 
 # Color Collection
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 All 140 web colors defined in a Power Apps collection.
 Just copy the code below and paste it in your
 App.Forumlas. Then you can use the collection in your app.

@@ -20,6 +20,10 @@ license: "MIT"
 
 # Color Enum in Named Formula
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is a collection you can paste in your App.Formulas library to use in your apps. It contains all 140 web colors defined here: https://en.wikipedia.org/wiki/Web_colors
 
 ## Add This to Your Application
@@ -1991,3 +1995,10 @@ fxWebColors = [
     }
 ];
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

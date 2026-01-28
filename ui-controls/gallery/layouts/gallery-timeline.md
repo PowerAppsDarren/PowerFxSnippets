@@ -19,6 +19,12 @@ updated: 2024-01-01
 
 # Timeline Style Gallery
 
+## Table of Contents
+
+- [Features](#features)
+- [Sample Data Structure](#sample-data-structure)
+- [Add This to Your Application](#add-this-to-your-application)
+
 A vertical timeline-style gallery component for displaying chronological events with visual connecting lines and color-coded markers.
 
 ## Features

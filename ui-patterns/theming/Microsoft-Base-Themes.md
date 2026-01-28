@@ -1,5 +1,9 @@
 # Microsoft-Base-Themes
 
+## Table of Contents
+
+- [Add This to Your App.Formulas](#add-this-to-your-appformulas)
+
 This is some YAML you can paste into your canvas Power Apps applciation.
 
 ## Add This to Your App.Formulas
@@ -27,3 +31,10 @@ Related Tagss:
     - #color-palettes
     - #color-functions
     - #app-formulas
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

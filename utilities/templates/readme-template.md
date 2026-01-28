@@ -1,5 +1,12 @@
 # Category Name
 
+## Table of Contents
+
+- [📂 Sub-Categories](#sub-categories)
+- [🔍 Browse by Difficulty](#browse-by-difficulty)
+- [🏷️ Tags](#tags)
+- [📖 Related Resources](#related-resources)
+
 [Brief description of this category and what snippets it contains]
 
 ## 📂 Sub-Categories
@@ -26,3 +33,10 @@
 ---
 
 *Last updated: YYYY-MM-DD | [Contribute](../../CONTRIBUTING.md)*
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

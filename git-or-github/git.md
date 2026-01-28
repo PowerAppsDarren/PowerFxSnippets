@@ -1,5 +1,11 @@
 # Git Related
 
+## Table of Contents
+
+- [Power Platform Related Repos](#power-platform-related-repos)
+- [Topics](#topics)
+- [Documentation Repos](#documentation-repos)
+
 - [Training.github.com](https://training.github.com/)
 - [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 - [Git Traning Manual](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
@@ -23,3 +29,10 @@
 
 - https://github.com/MicrosoftDocs
 - https://github.com/MicrosoftDocs/power-platform
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

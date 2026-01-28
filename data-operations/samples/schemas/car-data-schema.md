@@ -74,3 +74,10 @@ abc-123,active,1/15/2020,3/20/2021,Sport,2019,Toyota,Camry,1HGBH41JXMN109186
 ## Related Files
 
 - `vehicles/car-data.csv` - Generated using this schema
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

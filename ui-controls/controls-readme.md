@@ -20,6 +20,10 @@ related: []
 
 # Controls
 
+## Table of Contents
+
+- [Listing of Controls](#listing-of-controls)
+
 Here in this folder, you will find code snippets related to the controls available in canvas Power Apps.
 
 Each control that has a code snippet will have a folder with the name of the control.
@@ -27,3 +31,10 @@ Each control that has a code snippet will have a folder with the name of the con
 ## Listing of Controls 
 
 If you ever need a listing of all the controls available in Power Apps, [here is a snippet](../app-lifecycle/formulas/expressions/fxexp-allcontrols.md) you can paste in App.Formulas. It is an expression that will return a table of all the controls available in Power Apps.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

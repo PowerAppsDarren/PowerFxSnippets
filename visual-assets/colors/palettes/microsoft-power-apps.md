@@ -13,6 +13,8 @@ related:
 
 # Microsoft Power Apps Style
 
+## Table of Contents
+
 
 # Microsoft's Official Guidlines
 
