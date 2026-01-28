@@ -208,14 +208,14 @@ This category focuses on application-level operations and lifecycle management i
 ### Prerequisites
 Before using snippets in this category, you should understand:
 - [**Power Fx Basics**](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - Fundamental Power Fx concepts
-- [**App Architecture**](../best-practices) - Application design principles
-- [**Data Sources**](../data-sources) - Connecting to data
+- [**App Architecture**](../learning/best-practices) - Application design principles
+- [**Data Sources**](../data-operations/sources) - Connecting to data
 
 ### Related Content
 - [**Functions**](../functions) - Reusable function patterns
 - [**Data Operations**](../data-operations) - Data manipulation techniques
 - [**UI Controls**](../ui-controls) - Control implementations
-- [**Best Practices**](../best-practices) - Development guidelines
+- [**Best Practices**](../learning/best-practices) - Development guidelines
 
 ### Next Steps
 After mastering this category, consider:

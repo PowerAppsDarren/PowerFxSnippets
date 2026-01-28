@@ -276,7 +276,7 @@ This category focuses on control-specific implementations and patterns in Power 
 Before using snippets in this category, you should understand:
 - [**Power Fx Basics**](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) - Fundamental concepts
 - [**Control Properties**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/) - Control fundamentals
-- [**Data Sources**](../data-sources) - Connecting to data
+- [**Data Sources**](../data-operations/sources) - Connecting to data
 
 ### Related Content
 - [**Design Patterns**](../design) - UI/UX design principles
@@ -287,7 +287,7 @@ Before using snippets in this category, you should understand:
 ### Next Steps
 After mastering this category, consider:
 - [**Advanced Interactions**](./gallery) - Complex user interactions
-- [**Custom Components**](../code-components) - Building custom controls
+- [**Custom Components**](../ui-patterns/components) - Building custom controls
 - [**Responsive Design**](../design) - Mobile-first approaches
 
 ## 📞 Support & Help

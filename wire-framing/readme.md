@@ -187,14 +187,14 @@ Before using snippets in this category, you should understand:
 ### Related Content
 - [**Design**](../design) - Design implementation
 - [**UI Controls**](../ui-controls) - Control patterns
-- [**Best Practices**](../best-practices) - Development standards
-- [**Content for Learning**](../content-for-learning) - Educational resources
+- [**Best Practices**](../learning/best-practices) - Development standards
+- [**Content for Learning**](../learning/tutorials) - Educational resources
 
 ### Next Steps
 After mastering this category, consider:
 - [**UI Implementation**](../ui-controls) - Building the designs
 - [**Design Systems**](../design) - Consistent design
-- [**User Testing**](../best-practices) - Validation techniques
+- [**User Testing**](../learning/best-practices) - Validation techniques
 
 ## 📞 Support & Help
 

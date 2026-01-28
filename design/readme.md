@@ -87,7 +87,7 @@ This category focuses on design patterns and principles for Power Apps. It inclu
 
 #### 🟠 Advanced
 - [**Design Systems**](./design.md) - Enterprise design
-- [**Accessibility**](../best-practices) - Inclusive design
+- [**Accessibility**](../learning/best-practices) - Inclusive design
 - [**Advanced Theming**](./design.md) - Complex themes
 
 #### 🔴 Expert Level
@@ -191,13 +191,13 @@ Before using snippets in this category, you should understand:
 - [**UI Controls**](../ui-controls) - Control implementations
 - [**Visual Assets**](../visual-assets) - Colors and media
 - [**Wire Framing**](../wire-framing) - Design planning
-- [**Best Practices**](../best-practices) - Design standards
+- [**Best Practices**](../learning/best-practices) - Design standards
 
 ### Next Steps
 After mastering this category, consider:
 - [**Advanced Controls**](../ui-controls) - Complex implementations
-- [**Custom Components**](../code-components) - Component design
-- [**Accessibility**](../best-practices) - Inclusive design
+- [**Custom Components**](../ui-patterns/components) - Component design
+- [**Accessibility**](../learning/best-practices) - Inclusive design
 
 ## 📞 Support & Help
 

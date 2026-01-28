@@ -50,9 +50,9 @@ This category focuses on educational content and learning resources for Power Ap
 - ❌ **Don't use for**: Production code, data operations, or app functionality
 
 ### Related Categories
-- [**Best Practices**](../best-practices) - Development standards
-- [**Functions**](../functions) - Code patterns
-- [**UI Controls**](../ui-controls) - Control examples
+- [**Best Practices**](../best-practices/) - Development standards
+- [**Functions**](../../functions) - Code patterns
+- [**UI Controls**](../../ui-controls) - Control examples
 
 ## 📊 Category Statistics
 
@@ -78,16 +78,16 @@ This category focuses on educational content and learning resources for Power Ap
 #### 🟢 Beginner Friendly
 - [**Getting Started**](../readme.md) - Power Apps basics
 - [**First App**](../readme.md) - Simple application
-- [**Formula Basics**](../functions) - Power Fx introduction
+- [**Formula Basics**](../../functions) - Power Fx introduction
 
 #### 🟡 Intermediate
-- [**Advanced Patterns**](../ui-controls) - Complex examples
-- [**Data Integration**](../data-operations) - External data
-- [**Best Practices**](../best-practices) - Development standards
+- [**Advanced Patterns**](../../ui-controls) - Complex examples
+- [**Data Integration**](../../data-operations) - External data
+- [**Best Practices**](../best-practices/) - Development standards
 
 #### 🟠 Advanced
 - [**Enterprise Solutions**](../readme.md) - Complex applications
-- [**Custom Components**](../code-components) - Advanced development
+- [**Custom Components**](../../ui-patterns/components) - Advanced development
 
 #### 🔴 Expert Level
 - [**Architecture Patterns**](../readme.md) - System design
@@ -108,7 +108,7 @@ This category focuses on educational content and learning resources for Power Ap
 
 **Key Snippets:**
 - [**Sample Apps**](../readme.md) - Complete applications
-- [**Code Examples**](../functions) - Code patterns
+- [**Code Examples**](../../functions) - Code patterns
 
 **When to use**: Understanding concepts through practical implementation.
 
@@ -142,24 +142,24 @@ This category focuses on educational content and learning resources for Power Ap
 
 ### For Beginners
 1. Start with [**Power Apps Basics**](../readme.md)
-2. Learn [**Formula Fundamentals**](../functions)
+2. Learn [**Formula Fundamentals**](../../functions)
 3. Build [**Simple Apps**](../readme.md)
 
 ### For Intermediate Users
-1. Master [**Advanced Controls**](../ui-controls)
-2. Explore [**Data Operations**](../data-operations)
-3. Practice [**Best Practices**](../best-practices)
+1. Master [**Advanced Controls**](../../ui-controls)
+2. Explore [**Data Operations**](../../data-operations)
+3. Practice [**Best Practices**](../best-practices/)
 
 ### For Advanced Users
 1. Study [**Enterprise Patterns**](../readme.md)
-2. Implement [**Custom Solutions**](../code-components)
+2. Implement [**Custom Solutions**](../../ui-patterns/components)
 3. Teach [**Advanced Concepts**](../readme.md)
 
 ## 🤝 Contributing
 
 ### Adding New Snippets
 1. **Check existing content** to avoid duplication
-2. **Follow the template** from [snippet template](../docs/templates/snippet-template.md)
+2. **Follow the template** from [snippet template](../../docs/templates/snippet-template.md)
 3. **Include comprehensive metadata** with proper categorization
 4. **Test thoroughly** in Power Apps environment
 5. **Submit a pull request** with clear description
@@ -186,16 +186,16 @@ Before using snippets in this category, you should understand:
 - [**Canvas Apps**](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/) - App development
 
 ### Related Content
-- [**Best Practices**](../best-practices) - Development standards
-- [**Functions**](../functions) - Code patterns
-- [**UI Controls**](../ui-controls) - Control examples
-- [**Data Operations**](../data-operations) - Data handling
+- [**Best Practices**](../best-practices/) - Development standards
+- [**Functions**](../../functions) - Code patterns
+- [**UI Controls**](../../ui-controls) - Control examples
+- [**Data Operations**](../../data-operations) - Data handling
 
 ### Next Steps
 After mastering this category, consider:
-- [**Production Development**](../app-lifecycle) - Real applications
+- [**Production Development**](../../app-lifecycle) - Real applications
 - [**Advanced Features**](../functions/algorithms) - Complex logic
-- [**Custom Components**](../code-components) - Component development
+- [**Custom Components**](../../ui-patterns/components) - Component development
 
 ## 📞 Support & Help
 
