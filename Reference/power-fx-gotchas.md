@@ -1,5 +1,17 @@
 # Power Fx Gotchas
 
+## Table of Contents
+
+- [Date & Time Formatting](#date-time-formatting)
+  - [⚠️ CRITICAL: `m`/`mm` is Context-Sensitive!](#critical-mmm-is-context-sensitive)
+  - [Month Formats](#month-formats)
+  - [Day Formats](#day-formats)
+  - [Time Formats](#time-formats)
+  - [Year Formats](#year-formats)
+  - [Working Examples](#working-examples)
+  - [Inside String Interpolation](#inside-string-interpolation)
+- [More Gotchas](#more-gotchas)
+
 > **Purpose:** Document Power Fx behaviors that differ from common assumptions (Excel, JavaScript, .NET, etc.). This file helps AI assistants and developers avoid incorrect assumptions.
 
 📚 **Official Documentation:** https://learn.microsoft.com/en-us/power-platform/power-fx/overview

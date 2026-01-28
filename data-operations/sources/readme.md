@@ -12,6 +12,12 @@ license: "MIT"
 
 # Data Sources
 
+## Table of Contents
+
+  - [File Downloads](#file-downloads)
+  - [Links to Downloads](#links-to-downloads)
+- [Data Sources](#data-sources)
+
 In this directory you'll find resources related to specific data sources.
 
 ### File Downloads
@@ -27,4 +33,10 @@ In this directory you'll find resources related to specific data sources.
 ## Data Sources
 
 * MSSQL - Model Table (TODO: file missing)
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

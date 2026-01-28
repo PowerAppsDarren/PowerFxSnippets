@@ -1,5 +1,9 @@
 # App.StartScreen
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is a helpful canvas Power Apps code snippet.
 
 ## Add This to Your Application
@@ -17,5 +21,10 @@ If(
     'Loading Screen'
 )
 ```
+---
 
+## History
 
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

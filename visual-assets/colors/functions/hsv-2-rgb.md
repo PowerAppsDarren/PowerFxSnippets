@@ -16,6 +16,10 @@ related:
 
 # HSV to RGB
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Credit: https://github.com/matthewdevaney/powerapps-custom-functions/tree/main/custom_functions_hiro
 
 ## Add This to Your Application

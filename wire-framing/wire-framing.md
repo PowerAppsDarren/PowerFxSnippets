@@ -1,5 +1,12 @@
 # Wire Framing
 
+## Table of Contents
+
+- [What is Wire Framing?](#what-is-wire-framing)
+- [Why is Wire Framing Important?](#why-is-wire-framing-important)
+- [How to Create a Wire Frame](#how-to-create-a-wire-frame)
+- [Wire Framing Tools](#wire-framing-tools)
+
 ## What is Wire Framing?
 
 Wireframing is a way to design a website service at the structural level. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content is added.
@@ -32,3 +39,10 @@ There are many wire framing tools available that can help you create wire frames
 - **InVision**: A digital product design platform that includes tools for wireframing, prototyping, and collaboration.
 - **Marvel**: A design platform that allows you to create wireframes, prototypes, and design specs.
 - **Moqups**: A web-based tool for creating wireframes, mockups, and prototypes.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

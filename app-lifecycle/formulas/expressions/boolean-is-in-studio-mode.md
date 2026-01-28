@@ -27,3 +27,10 @@ Credit: [Matthew Devaney](https://www.linkedin.com/feed/update/urn:li:activity:7
 ```PowerFx
 fxIsInStudioMode = StartsWith(Host.Version, "PowerApps-Studio");
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

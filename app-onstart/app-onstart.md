@@ -1,5 +1,9 @@
 # App.OnStart
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Here are code comments to put at the top of your App.OnStart(). 
 
 ## Add This to Your Application
@@ -20,4 +24,10 @@ Here are code comments to put at the top of your App.OnStart().
 
    =================================================================== */
 ```
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

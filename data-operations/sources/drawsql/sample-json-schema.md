@@ -22,6 +22,10 @@ related: []
 
 # Sample DrawSQL JSON Schema
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet provides Power Fx code that creates a variable called fxSampleDrawSQLJSON containing a JSON string. This JSON represents a sample schema used to draw SQL database diagrams in Power Apps, which you can use as a starting point for your own database modeling.
 
 ## Add This to Your Application
@@ -217,4 +221,10 @@ This snippet provides Power Fx code that creates a variable called fxSampleDrawS
 		""version"": 2
 	}"
 ```
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

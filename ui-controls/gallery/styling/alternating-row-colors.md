@@ -21,6 +21,10 @@ updated: 2024-01-01
 
 # Alternating Row Colors
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 In order to do alternating row colors in a Power Apps gallery control, you can use the following code to produce a great example on how to do this. This formula will alternate between two colors based on the index of the gallery item. You can replace the colors with your own as needed.
 
 How do we determine if a row should be 1 color or another? We use the [Mod](https://powerplatformlinks.com/Power+Apps/Canvas/Functions/Mod) function to determine if the index of the gallery item is even or odd. If it's even, we use one color, if it's odd, we use another.

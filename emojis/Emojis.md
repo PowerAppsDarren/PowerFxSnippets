@@ -1,5 +1,9 @@
 # Emojis
 
+## Table of Contents
+
+- [Related Links & Resources](#related-links-resources)
+
 
 ## Related Links & Resources
 
@@ -920,3 +924,10 @@ walking
 ⚡zero
 0️⃣zzz
 💤
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -1,5 +1,13 @@
 # Data Schemas
 
+## Table of Contents
+
+- [Contents](#contents)
+- [About Mockaroo](#about-mockaroo)
+- [Using Schema Files](#using-schema-files)
+- [Creating Custom Schemas](#creating-custom-schemas)
+- [Common Mockaroo Types](#common-mockaroo-types)
+
 Schema definitions used to generate sample datasets.
 
 ## Contents
@@ -53,3 +61,10 @@ To create your own schema:
 - `Phone` - Phone numbers
 - `Car Make`, `Car Model`, `Car VIN` - Vehicle data
 - `Custom List` - Your own values
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

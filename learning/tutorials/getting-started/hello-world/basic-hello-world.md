@@ -14,6 +14,34 @@ related: ["interactive-hello-world", "data-hello-world"]
 
 # Basic Hello World
 
+## Table of Contents
+
+- [🎯 What This Snippet Does](#what-this-snippet-does)
+- [📋 Prerequisites](#prerequisites)
+- [🛠️ Implementation](#implementation)
+  - [Simple Text Display](#simple-text-display)
+  - [Adding to a Label Control](#adding-to-a-label-control)
+  - [YAML Configuration](#yaml-configuration)
+- [📖 Usage Examples](#usage-examples)
+  - [Different Text Messages](#different-text-messages)
+  - [Combining Text](#combining-text)
+  - [Dynamic Text with Variables](#dynamic-text-with-variables)
+- [🔧 Understanding the Code](#understanding-the-code)
+  - [Power Fx Basics](#power-fx-basics)
+  - [Key Concepts](#key-concepts)
+- [🐛 Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+- [🚀 Next Steps](#next-steps)
+  - [Build on This Knowledge](#build-on-this-knowledge)
+  - [Related Snippets](#related-snippets)
+- [🔗 External Resources](#external-resources)
+  - [Official Documentation](#official-documentation)
+  - [Community Resources](#community-resources)
+- [🤝 Contributing](#contributing)
+  - [Improving This Snippet](#improving-this-snippet)
+  - [Found an Issue?](#found-an-issue)
+- [📊 Version History](#version-history)
+
 > Display your first text in Power Apps and understand the fundamental Power Fx expression syntax.
 
 ## 🎯 What This Snippet Does
@@ -217,3 +245,10 @@ Hello, World!
 **🎉 Congratulations!** You've written your first Power Fx expression! 🌟
 
 **Ready for more?** Try the [Interactive Hello World](./interactive-hello-world.md) next!
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

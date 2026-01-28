@@ -23,6 +23,11 @@ related: []
 
 # Auto-Add User from Office 365
 
+## Table of Contents
+
+- [Security and Privacy Considerations](#security-and-privacy-considerations)
+- [Step 01 - Add this code to your screen](#step-01-add-this-code-to-your-screen)
+
 This pattern automatically adds the current user to the app's user table if they don't exist, retrieving profile information from the Office 365 Users connector.
 
 ## Security and Privacy Considerations
@@ -100,3 +105,10 @@ With(
     );
 );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

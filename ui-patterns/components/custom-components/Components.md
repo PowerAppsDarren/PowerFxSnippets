@@ -21,3 +21,10 @@ related: []
 - https://material-components.github.io/material-components-web-catalog/#/
 - https://material-components.github.io/material-components-web-catalog/#/component/top-app-bar?variant=dense
 - https://github.com/e-gallis/PowerApps/tree/master/Components
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

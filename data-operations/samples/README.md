@@ -1,5 +1,28 @@
 # Sample Data Catalog
 
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Dataset Overview](#dataset-overview)
+  - [By Category](#by-category)
+  - [By Size](#by-size)
+- [Quick Start Guide](#quick-start-guide)
+  - [Loading Data in Power Apps](#loading-data-in-power-apps)
+  - [Common Operations](#common-operations)
+- [Detailed Dataset Catalog](#detailed-dataset-catalog)
+  - [538-data/](#538-data)
+  - [jokes/](#jokes)
+  - [lorem-ipsum/](#lorem-ipsum)
+  - [people/](#people)
+  - [schemas/](#schemas)
+  - [vehicles/](#vehicles)
+  - [world-wide/](#world-wide)
+  - [Root Files](#root-files)
+- [Data Formats](#data-formats)
+- [External Data Sources](#external-data-sources)
+- [Contributing](#contributing)
+- [License](#license)
+
 A comprehensive collection of sample datasets for Power Apps development, testing, and demonstrations.
 
 ## Directory Structure
@@ -138,3 +161,10 @@ To add new sample datasets:
 Sample data in this repository is provided for educational and testing purposes. Check individual datasets for specific licensing terms.
 
 ---
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

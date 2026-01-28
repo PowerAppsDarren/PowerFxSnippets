@@ -22,6 +22,10 @@ related: []
 
 # Sample DrawSQL Export JSON
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet provides a complete JSON export from DrawSQL, containing a full database schema with tables, columns, relationships, and metadata that can be used for data modeling in Power Apps.
 
 ## Add This to Your Application
@@ -854,4 +858,10 @@ This snippet provides a complete JSON export from DrawSQL, containing a full dat
     "version": 2
 }
 ```
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

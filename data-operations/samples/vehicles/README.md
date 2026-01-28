@@ -1,5 +1,15 @@
 # Vehicle Sample Data
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Dataset Features](#dataset-features)
+- [Car Makes Included](#car-makes-included)
+- [Use Cases](#use-cases)
+- [Quick Start](#quick-start)
+- [Related Schema](#related-schema)
+- [External Resources](#external-resources)
+
 Automotive and fleet management sample datasets.
 
 ## Contents
@@ -59,3 +69,10 @@ See `schemas/car-data-schema.json` for the Mockaroo schema used to generate this
 
 - [Vehicle Make/Model Datasets](https://github.com/topics/make-model-year)
 - [Kaggle Car Datasets](https://www.kaggle.com/datasets?search=cars)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

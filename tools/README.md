@@ -1,5 +1,43 @@
 # Tools & Utilities 🔧
 
+## Table of Contents
+
+- [📋 Available Tools](#available-tools)
+  - [Validation Scripts](#validation-scripts)
+  - [Migration Tools](#migration-tools)
+  - [Development Tools](#development-tools)
+  - [Maintenance Scripts](#maintenance-scripts)
+- [🚀 Quick Start](#quick-start)
+  - [Prerequisites](#prerequisites)
+  - [Basic Usage](#basic-usage)
+- [📖 Tool Documentation](#tool-documentation)
+  - [validate-snippets.js](#validate-snippetsjs)
+  - [migrate-content.js](#migrate-contentjs)
+  - [create-snippet.js](#create-snippetjs)
+- [🔧 Development](#development)
+  - [Adding New Tools](#adding-new-tools)
+  - [Code Standards](#code-standards)
+  - [Example Tool Structure](#example-tool-structure)
+- [📊 Monitoring & Analytics](#monitoring-analytics)
+  - [Repository Statistics](#repository-statistics)
+  - [Link Health Monitoring](#link-health-monitoring)
+- [🔄 Automation](#automation)
+  - [GitHub Actions Integration](#github-actions-integration)
+  - [Pre-commit Hooks](#pre-commit-hooks)
+- [🐛 Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Getting Help](#getting-help)
+- [🤝 Contributing](#contributing)
+  - [Improving Tools](#improving-tools)
+  - [Adding New Tools](#adding-new-tools)
+- [📈 Performance](#performance)
+  - [Optimization Tips](#optimization-tips)
+  - [Benchmarking](#benchmarking)
+- [🔒 Security](#security)
+  - [Best Practices](#best-practices)
+  - [Security Scanning](#security-scanning)
+- [📞 Support](#support)
+
 This directory contains scripts, tools, and utilities to help maintain and work with the Power Fx Snippets repository.
 
 ## 📋 Available Tools
@@ -290,3 +328,10 @@ npm update
 
 **Last Updated**: November 2024
 **Version**: 1.0.0
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

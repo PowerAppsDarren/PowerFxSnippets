@@ -70,3 +70,10 @@ I've tried my best to come up with a standard schema for the menu items that you
         SortOrder
     );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -22,6 +22,11 @@ related: []
 
 # Office365Users Snippets
 
+## Table of Contents
+
+- [Available Snippets](#available-snippets)
+- [You May be interested in the following:](#you-may-be-interested-in-the-following)
+
 This folder contains code snippets related to the Office365Users connector in Power Apps.
 All snippets now include metadata for better discoverability and tooling support.
 
@@ -42,3 +47,10 @@ You may want to create data sources to hold the org chart data. This will keep y
 [Sample ERD hosted in DrawSQL ⬇️](https://drawsql.app/teams/neeseus/diagrams/org-chart-profile-data)
 
 ![Screenshot: ERD](./drawSQL.png)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

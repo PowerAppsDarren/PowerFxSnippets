@@ -1,5 +1,30 @@
 # Link Fix Summary Report - Phase 0 Post-Renaming (T202)
 
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+  - [Final Statistics](#final-statistics)
+- [Session 2 Accomplishments (2026-01-08)](#session-2-accomplishments-2026-01-08)
+  - [Strategy Change](#strategy-change)
+  - [Fixes Applied](#fixes-applied)
+- [Verification](#verification)
+  - [Final Link Check Results](#final-link-check-results)
+  - [Remaining Non-Critical Items](#remaining-non-critical-items)
+- [Session 1 Summary (2026-01-07)](#session-1-summary-2026-01-07)
+  - [Path Normalization (757 links)](#path-normalization-757-links)
+  - [Numbered Directory References (27 links)](#numbered-directory-references-27-links)
+- [Tools Used](#tools-used)
+  - [Session 1](#session-1)
+  - [Session 2](#session-2)
+- [Files Modified (Session 2)](#files-modified-session-2)
+- [Task Status](#task-status)
+  - [T202: Fix Remaining Broken Links](#t202-fix-remaining-broken-links)
+  - [T203: Final Link Verification](#t203-final-link-verification)
+- [Recommendations](#recommendations)
+  - [Short Term](#short-term)
+  - [Long Term](#long-term)
+- [Conclusion](#conclusion)
+
 **Date Started**: 2026-01-07
 **Date Completed**: 2026-01-08
 **Task**: T202 - Update all internal links after Phase 0 renaming
@@ -148,3 +173,10 @@ The repository internal link structure is healthy and navigable.
 Report Updated: 2026-01-08
 Total Internal Links Fixed: 960+ (both sessions combined)
 Final Status: ALL INTERNAL LINKS HEALTHY
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

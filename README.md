@@ -173,3 +173,10 @@ This repository is licensed under the MIT License - see the [LICENSE](./LICENSE)
 **⭐ Found this helpful?** [Star this repository](https://github.com/PowerAppsDarren/PowerFxSnippets) to show your support!
 
 **🤝 Want to contribute?** Check out our [Contribution Guide](./CONTRIBUTING.md) to get started!
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

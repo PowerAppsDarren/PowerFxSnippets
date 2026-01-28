@@ -23,6 +23,10 @@ related: []
 
 # Display All Office 365 User Profile Fields
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet displays all available fields from the current user's Office 365 profile.
 
 ## Add This to Your Application
@@ -532,3 +536,10 @@ This snippet displays all available fields from the current user's Office 365 pr
       Height: =80
       Width: =80
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

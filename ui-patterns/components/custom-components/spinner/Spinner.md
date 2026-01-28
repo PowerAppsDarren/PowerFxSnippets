@@ -193,3 +193,10 @@ ComponentDefinitions:
                   X: =Abs((App.Width - Self.Width) / 2)
                   Y: =Abs((App.Height - Self.Height) / 2)
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -20,6 +20,10 @@ license: "MIT"
 
 # Find Proportional Value
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Calculates a proportional value based on two related fractions where one value is unknown.
 
 Given two equivalent fractions (Known/KnownDenominator = UnknownNumerator/UnknownDenominator),
@@ -158,3 +162,10 @@ Here is some YAML code you can paste onto a screen to use or test:
           X: =356
           Y: =40
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

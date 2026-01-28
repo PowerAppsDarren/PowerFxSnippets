@@ -38,3 +38,10 @@ Paste this code into your App.Formulas and call it to convert a ColorValue to a 
         7
     );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

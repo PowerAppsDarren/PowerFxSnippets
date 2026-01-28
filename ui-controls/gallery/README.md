@@ -18,6 +18,21 @@ updated: 2024-01-01
 
 # Gallery Control Snippets
 
+## Table of Contents
+
+- [Folder Structure](#folder-structure)
+- [Subcategories](#subcategories)
+  - [Layouts (`layouts/`)](#layouts-layouts)
+  - [Styling (`styling/`)](#styling-styling)
+  - [Interactions (`interactions/`)](#interactions-interactions)
+- [Visual Examples](#visual-examples)
+- [Key Concepts](#key-concepts)
+  - [Gallery Properties](#gallery-properties)
+  - [Selection Patterns](#selection-patterns)
+  - [Responsive Design](#responsive-design)
+- [Getting Started](#getting-started)
+- [Related Resources](#related-resources)
+
 This folder contains Power Fx snippets for the Gallery control in Power Apps Canvas applications. Gallery controls are essential for displaying collections of data in various visual formats.
 
 ## Folder Structure
@@ -116,4 +131,10 @@ WrapCount: =Max(1, RoundDown((Parent.Width - 64) / 200, 0))
 
 - [Power Fx Gallery Documentation](https://learn.microsoft.com/power-apps/maker/canvas-apps/controls/control-gallery)
 - [Power Platform Links](https://powerplatformlinks.com)
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

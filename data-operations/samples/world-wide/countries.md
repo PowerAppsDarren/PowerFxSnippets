@@ -91,3 +91,10 @@ AddColumns(
 
 - [ISO 3166-1 Standard](https://www.iso.org/iso-3166-country-codes.html)
 - [World Countries GitHub](https://github.com/stefangabos/world_countries)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

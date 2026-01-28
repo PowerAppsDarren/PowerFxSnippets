@@ -86,3 +86,10 @@ Due to the large size of this dataset:
 ## Security Note
 
 All passwords, hashes, and security tokens in this dataset are mock data generated for testing purposes. Never use real credentials in sample data files.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

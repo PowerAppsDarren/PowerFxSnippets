@@ -1,5 +1,43 @@
 # Super Input Control (cmp_Input)
 
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Supported Input Types](#supported-input-types)
+- [Custom Properties](#custom-properties)
+  - [Core Configuration](#core-configuration)
+  - [Default Values](#default-values)
+  - [Border Styling](#border-styling)
+  - [Color Styling](#color-styling)
+  - [Font Styling](#font-styling)
+  - [Events](#events)
+  - [Output](#output)
+- [Usage Examples](#usage-examples)
+  - [Example 1: Single Line Text Input](#example-1-single-line-text-input)
+  - [Example 2: Multi-line Text Input](#example-2-multi-line-text-input)
+  - [Example 3: Dropdown Selection](#example-3-dropdown-selection)
+  - [Example 4: Date Picker](#example-4-date-picker)
+  - [Example 5: Custom Theming](#example-5-custom-theming)
+  - [Example 6: Form Reset](#example-6-form-reset)
+- [The aValue Output Property](#the-avalue-output-property)
+  - [Using aValue in Collections](#using-avalue-in-collections)
+  - [Using aValue in Patch](#using-avalue-in-patch)
+- [Styling and Theming](#styling-and-theming)
+  - [Color System](#color-system)
+  - [Default Theme](#default-theme)
+  - [Creating Theme Variations](#creating-theme-variations)
+- [Validation Behavior](#validation-behavior)
+- [Component Dimensions](#component-dimensions)
+- [Credits](#credits)
+- [Tips and Best Practices](#tips-and-best-practices)
+- [Troubleshooting](#troubleshooting)
+  - [Border color not changing for required fields](#border-color-not-changing-for-required-fields)
+  - [Reset not working](#reset-not-working)
+  - [Dropdown items not showing](#dropdown-items-not-showing)
+  - [Value not retrieving correctly](#value-not-retrieving-correctly)
+- [Related Resources](#related-resources)
+
 A versatile, morphing Power Apps input component that adapts to different input types while maintaining consistent styling and validation behavior.
 
 ## Description
@@ -358,3 +396,10 @@ Original component created by **Colin** and shared with the Power Apps community
 - [Power Apps Components Documentation](https://learn.microsoft.com/power-apps/maker/canvas-apps/create-component)
 - [Power Fx Formula Reference](https://learn.microsoft.com/power-platform/power-fx/formula-reference)
 - [Component Best Practices](https://learn.microsoft.com/power-apps/maker/canvas-apps/component-behavior)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

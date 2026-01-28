@@ -21,6 +21,10 @@ related: []
 
 # Nested Galleries
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This snippet demonstrates nested galleries with parent-child relationships and dynamic data generation.
 
 [nested-galleries.msapp](https://github.com/PowerAppsDarren/PowerFxSnippets/blob/main/Controls/Gallery/ResponsiveGallery.yaml)

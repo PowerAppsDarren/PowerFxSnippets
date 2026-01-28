@@ -18,6 +18,35 @@ updated: 2025-12-04
 
 # Focus Behavior in Canvas Components - Usage Guide
 
+## Table of Contents
+
+- [Overview](#overview)
+- [The Problem](#the-problem)
+- [The Solution: FocusTrigger Pattern](#the-solution-focustrigger-pattern)
+  - [Implementation in Component](#implementation-in-component)
+  - [Usage from App](#usage-from-app)
+- [Why This Works](#why-this-works)
+- [Complete Usage Examples](#complete-usage-examples)
+  - [Example 1: Simple Focus Button](#example-1-simple-focus-button)
+  - [Example 2: Focus on Screen Load](#example-2-focus-on-screen-load)
+  - [Example 3: Focus After Validation](#example-3-focus-after-validation)
+  - [Example 4: Sequential Focus (Tab-Like Behavior)](#example-4-sequential-focus-tab-like-behavior)
+  - [Example 5: Focus on Error](#example-5-focus-on-error)
+- [Best Practices](#best-practices)
+  - [✅ DO:](#do)
+  - [❌ DON'T:](#dont)
+- [Advanced Patterns](#advanced-patterns)
+  - [Pattern 1: Focus with Delay](#pattern-1-focus-with-delay)
+  - [Pattern 2: Focus on Specific Condition](#pattern-2-focus-on-specific-condition)
+  - [Pattern 3: Focus with State Management](#pattern-3-focus-with-state-management)
+- [Troubleshooting](#troubleshooting)
+  - [Problem: Focus not working](#problem-focus-not-working)
+  - [Problem: Focus happens too early](#problem-focus-happens-too-early)
+  - [Problem: Multiple components focusing](#problem-multiple-components-focusing)
+- [Why Not Use Action Properties?](#why-not-use-action-properties)
+- [Related Files](#related-files)
+- [References](#references)
+
 ## Overview
 
 This guide demonstrates how to use the **FocusTrigger pattern** to enable SetFocus behavior in canvas components, working around Power Apps limitations.
@@ -371,3 +400,10 @@ cmp_Input.Focus()  // ❌ SetFocus limitation still applies
 - [SetFocus function - Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-setfocus)
 - [Canvas component properties - Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/component-properties)
 - [Behavior formulas for components - Microsoft Learn](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/component-behavior)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

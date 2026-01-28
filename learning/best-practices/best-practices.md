@@ -1,5 +1,10 @@
 # Best Practices
 
+## Table of Contents
+
+- [Best Practice Areas](#best-practice-areas)
+- [Sources](#sources)
+
 ## Best Practice Areas
 
 [[Accessible]]
@@ -18,3 +23,10 @@
     - Use combo boxes instead of drop downs
     - Use themes
     - Limit code inside the OnStart property
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

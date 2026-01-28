@@ -20,6 +20,10 @@ license: "MIT"
 ---
 # World City Data
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is some helpful data for world cities. It includes the city name, country, continent, area, density, population. This data is useful for mapping and other geospatial applications. It is also useful for data analysis and visualization. The data is in PowerFx named-formula format.
 
 ## Add This to Your Application
@@ -928,3 +932,10 @@ This is some helpful data for world cities. It includes the city name, country, 
         }
     ];
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

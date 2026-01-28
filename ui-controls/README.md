@@ -1,5 +1,63 @@
 # UI Controls - Control-Specific Power Fx Snippets
 
+## Table of Contents
+
+- [📋 Overview](#overview)
+  - [When to Use](#when-to-use)
+  - [Related Categories](#related-categories)
+- [📊 Category Statistics](#category-statistics)
+- [🎯 Quick Access](#quick-access)
+  - [Most Popular](#most-popular)
+  - [By Difficulty](#by-difficulty)
+- [📁 Subcategories](#subcategories)
+  - [Gallery](#gallery)
+  - [Text Input](#text-input)
+  - [DataCard](#datacard)
+  - [Drop Down List](#drop-down-list)
+  - [Image](#image)
+  - [Canvas](#canvas)
+  - [Chart](#chart)
+  - [Container](#container)
+  - [Attachment](#attachment)
+  - [Add Media](#add-media)
+  - [Rectangle](#rectangle)
+  - [Naming Controls](#naming-controls)
+- [🔍 Search & Filter](#search-filter)
+  - [By Technology](#by-technology)
+  - [By Use Case](#by-use-case)
+  - [By Feature](#by-feature)
+- [📚 Learning Path](#learning-path)
+  - [For Beginners](#for-beginners)
+  - [For Intermediate Users](#for-intermediate-users)
+  - [For Advanced Users](#for-advanced-users)
+- [🤝 Contributing](#contributing)
+  - [Adding New Snippets](#adding-new-snippets)
+  - [Snippet Requirements](#snippet-requirements)
+  - [Category Maintenance](#category-maintenance)
+- [🔗 Cross-References](#cross-references)
+  - [Prerequisites](#prerequisites)
+  - [Related Content](#related-content)
+  - [Next Steps](#next-steps)
+- [📞 Support & Help](#support-help)
+  - [Getting Help](#getting-help)
+  - [Community Resources](#community-resources)
+- [📈 Recent Updates](#recent-updates)
+  - [Latest Additions](#latest-additions)
+  - [Recent Improvements](#recent-improvements)
+- [📝 Complete Snippet Index](#complete-snippet-index)
+  - [Gallery](#gallery)
+  - [Text Input](#text-input)
+  - [DataCard](#datacard)
+  - [Drop Down List](#drop-down-list)
+  - [Image](#image)
+  - [Canvas](#canvas)
+  - [Chart](#chart)
+  - [Container](#container)
+  - [Attachment](#attachment)
+  - [Add Media](#add-media)
+  - [Rectangle](#rectangle)
+  - [Naming Controls](#naming-controls)
+
 > Power Fx snippets organized by control type for implementing interactive user interfaces in Power Apps, including galleries, forms, inputs, and visualizations.
 
 ## 📋 Overview
@@ -307,3 +365,10 @@ After mastering this category, consider:
 ---
 
 *Found this category helpful? ⭐ [Star the repository](https://github.com/PowerAppsDarren/PowerFxSnippets) to show your support!* 🚀
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

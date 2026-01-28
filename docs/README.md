@@ -155,3 +155,10 @@ See our [Contributing Guide](../CONTRIBUTING.md) for details on how to contribut
 **Last Updated**: November 2024
 **Version**: 1.0.0
 **Maintainers**: Power Fx Snippets Team
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -16,6 +16,10 @@ related:
 
 # HEX to RGB
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Credit: https://github.com/matthewdevaney/powerapps-custom-functions/tree/main/custom_functions_hiro
 
 ## Add This to Your Application
@@ -117,4 +121,10 @@ With(
     )
 )
 ```
+---
 
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

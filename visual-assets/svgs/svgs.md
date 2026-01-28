@@ -1,5 +1,10 @@
 # SVGs
 
+## Table of Contents
+
+- [Resources](#resources)
+- [Replace and Encode SVGs](#replace-and-encode-svgs)
+
 ## Resources
 
 - [[Guide to SVGs]]
@@ -22,3 +27,10 @@ fxSVGEncode(svgCode:Text):Text =
 ```
 
 - A beginners guide to SVG: https://www.youtube.com/playlist?list=PL4-IK0AVhVjP0EeV513_b30lhGRTfMbYd
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

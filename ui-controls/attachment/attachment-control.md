@@ -17,6 +17,11 @@ license: "MIT"
 
 # Attachment Control
 
+## Table of Contents
+
+- [Simple Attachment Control](#simple-attachment-control)
+- [Much More Useful Attachment Control](#much-more-useful-attachment-control)
+
 This control is used to manage file attachments in Power Apps.
 It allows users to upload, view, and delete files as needed.
 
@@ -59,3 +64,10 @@ This example includes properties for accessibility, language, maximum attachment
       X: =(Parent.Width - Self.Width) / 2
       Y: =(Parent.Height - Self.Height) / 2
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

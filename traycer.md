@@ -1,6 +1,41 @@
 
 # PowerFxSnippets Repository Restructuring - Current Status
 
+## Table of Contents
+
+- [📊 Overview](#overview)
+- [✅ What's Been Completed](#whats-been-completed)
+  - [Phase 1: Foundation (100% Complete)](#phase-1-foundation-100-complete)
+  - [Phase 2a: Components/ Directory (100% Complete)](#phase-2a-components-directory-100-complete)
+  - [Phase 2b: Connectors/ Directory (100% Complete)](#phase-2b-connectors-directory-100-complete)
+- [🔄 What's Currently In Progress](#whats-currently-in-progress)
+  - [Phase 2c: Controls/ Directory Migration (IN PROGRESS)](#phase-2c-controls-directory-migration-in-progress)
+- [📋 What's Left To Do](#whats-left-to-do)
+  - [Phase 2d: Data Sources/ Directory (Next After Phase 2c)](#phase-2d-data-sources-directory-next-after-phase-2c)
+  - [Phase 2 (Remaining): Content Migration (Weeks 2-3)](#phase-2-remaining-content-migration-weeks-2-3)
+  - [Phase 3: Documentation (Weeks 3-4)](#phase-3-documentation-weeks-3-4)
+  - [Phase 4: Automation (Weeks 4-5)](#phase-4-automation-weeks-4-5)
+  - [Phase 5: Cleanup (Weeks 5-6)](#phase-5-cleanup-weeks-5-6)
+  - [Phase 6: Launch (Week 6)](#phase-6-launch-week-6)
+- [📈 Progress Metrics](#progress-metrics)
+  - [Overall Progress](#overall-progress)
+  - [Phase Breakdown](#phase-breakdown)
+  - [Files Processed](#files-processed)
+  - [🎯 Key Principles (From Constitution v1.0.0)](#key-principles-from-constitution-v100)
+  - [📁 Key Files & Locations](#key-files-locations)
+  - [🚀 Recommended Next Action](#recommended-next-action)
+- [📊 Repository Statistics](#repository-statistics)
+  - [Current Repository Size](#current-repository-size)
+  - [Content Distribution](#content-distribution)
+  - [Migration Progress](#migration-progress)
+- [🔗 Related Resources](#related-resources)
+  - [Internal Documentation](#internal-documentation)
+  - [External Resources](#external-resources)
+- [📝 Notes](#notes)
+  - [Recent Changes](#recent-changes)
+  - [Known Issues](#known-issues)
+  - [Decisions Made](#decisions-made)
+
 **Last Updated:** 2025-11-26
 **Project:** 001-repository-restructure
 **Framework:** GitHub Spec-Kit
@@ -591,3 +626,10 @@ Repository evolution MUST preserve existing content and maintain backward compat
 - Requiring complete YAML frontmatter for all snippets
 - Archiving old structure rather than deleting
 - 48-hour SLA for pull request feedback
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

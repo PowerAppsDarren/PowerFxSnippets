@@ -79,3 +79,10 @@ Search(colWorld, txtSearch.Text, "name")
 | Political analysis     | countries.csv    |
 | Complete ISO reference | world.csv        |
 | Simplified UI          | countries.csv    |
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

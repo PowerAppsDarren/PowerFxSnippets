@@ -18,6 +18,15 @@ updated: 2025-12-17
 
 # UI Patterns
 
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Components](#components)
+  - [Custom Components](#custom-components)
+  - [Code Components (PCF)](#code-components-pcf)
+- [Quick Start](#quick-start)
+- [Related Resources](#related-resources)
+
 Reusable UI patterns and components for Power Apps canvas applications.
 
 ## Directory Structure
@@ -52,3 +61,10 @@ Power Apps Component Framework components using TypeScript/React.
 ---
 
 *Last updated: 2025-12-17*
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

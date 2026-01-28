@@ -1,5 +1,28 @@
 # RESUME.md - Project State
 
+## Table of Contents
+
+- [Last Session](#last-session)
+- [Current State](#current-state)
+- [What Was Accomplished This Session (2026-01-21)](#what-was-accomplished-this-session-2026-01-21)
+  - [AI Chats Migration to Private Repo](#ai-chats-migration-to-private-repo)
+- [Previous Session (2025-12-18 - Latest)](#previous-session-2025-12-18-latest)
+  - [Error Kind Tooltip Feature](#error-kind-tooltip-feature)
+- [Previous Session (2025-12-18 - Late)](#previous-session-2025-12-18-late)
+  - [Mermaid Diagram Fix](#mermaid-diagram-fix)
+- [Previous Session (2025-12-18 - Earlier)](#previous-session-2025-12-18-earlier)
+  - [1. Error Handler Cooldown Feature](#1-error-handler-cooldown-feature)
+  - [2. Created Power Fx Gotchas Reference](#2-created-power-fx-gotchas-reference)
+  - [3. Updated CLAUDE.md with Verification Workflow](#3-updated-claudemd-with-verification-workflow)
+  - [4. Updated README.md](#4-updated-readmemd)
+  - [5. Updated User Profile (~/.claude/CLAUDE.md)](#5-updated-user-profile-claudeclaudemd)
+  - [Key Decisions](#key-decisions)
+- [Previous Session (2025-12-18 earlier)](#previous-session-2025-12-18-earlier)
+  - [Created Environment Variables & ALM Guide](#created-environment-variables-alm-guide)
+- [Folder Structure](#folder-structure)
+- [Next Steps (Pick Up Here)](#next-steps-pick-up-here)
+- [Git Remotes](#git-remotes)
+
 ## Last Session
 - **Date:** 2026-01-21
 - **Model:** Claude Opus 4.5
@@ -113,3 +136,10 @@ PowerFxSnippets/
 | origin | ssh://git@git.superpowerlabs.app:2222/darren/PowerFxSnippets.git |
 | alt    | ssh://git@pool:2222/darren/PowerFxSnippets.git                   |
 | github | git@github.com:PowerAppsDarren/PowerFxSnippets.git               |
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

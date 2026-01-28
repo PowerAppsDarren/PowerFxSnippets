@@ -15,6 +15,10 @@ related:
 
 # Web-Colors
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is some YAML you can paste into your App.Formulas to create a collection of web colors. This is a collection of 140 web colors, including their names, hex codes, RGB values, and some additional properties like categories and tags.
 
 ## Add This to Your Application

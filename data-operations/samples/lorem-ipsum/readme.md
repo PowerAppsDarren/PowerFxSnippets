@@ -1,5 +1,14 @@
 # Lorem-Ipsum
 
+## Table of Contents
+
+- [Offical Lipsum Site](#offical-lipsum-site)
+  - [What is Lorem Ipsum?](#what-is-lorem-ipsum)
+  - [Why do we use it?](#why-do-we-use-it)
+  - [Very Small Excerpt](#very-small-excerpt)
+- [Samuel Jackson Lipsum](#samuel-jackson-lipsum)
+- [Pokemon Lipsum](#pokemon-lipsum)
+
 Things get more intesting the farther you go down the list. The first few are the standard Lorem Ipsum text, but then it gets fun!
 
 ## Offical Lipsum Site
@@ -103,3 +112,10 @@ Tyrogue becomes stressed out if it does not get to train every day. When raising
 
 Silcoon was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this Pokémon slakes its thirst by drinking rainwater that collects on its silk.It lived on land and went out into the sea to hunt for prey. Its sharp claws were its greatest weapon.Doduo’s two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokémon possessing different sets of brains.
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

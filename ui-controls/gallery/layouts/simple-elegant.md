@@ -22,6 +22,16 @@ related: []
 
 # Simple, Yet Elegant
 
+## Table of Contents
+
+- [Visual Demo](#visual-demo)
+- [PowerFx code](#powerfx-code)
+- [Description of the code snippet](#description-of-the-code-snippet)
+  - [GroupContainer](#groupcontainer)
+  - [Header](#header)
+  - [Gallery](#gallery)
+  - [Responsive Behavior](#responsive-behavior)
+
 A full description of how this snippet was created, look at the bottom of this page.
 
 ## Visual Demo

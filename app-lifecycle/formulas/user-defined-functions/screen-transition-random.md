@@ -20,6 +20,10 @@ license: "MIT"
 
 # Random Screen Transition
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This function will return one of the 5 screen transitions randomly.
 It is a user defined function (UDF) and not a named formula
 so that it will return a fresh value.
@@ -48,3 +52,10 @@ so that it will return a fresh value.
             )
         );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

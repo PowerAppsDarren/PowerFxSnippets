@@ -15,6 +15,13 @@ related:
 
 # Color Resources
 
+## Table of Contents
+
+- [Nord Theme](#nord-theme)
+  - [Polar Night](#polar-night)
+- [Gradients](#gradients)
+- [Others](#others)
+
 ## Nord Theme
 
 - [Nord Theme](https://www.nordtheme.com/docs/colors-and-palettes)

@@ -14,6 +14,8 @@ related:
 
 # Color Palette: Power Apps
 
+## Table of Contents
+
 ```PowerFx
 
     #742774         // Primary

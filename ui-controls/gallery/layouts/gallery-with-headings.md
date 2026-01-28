@@ -19,6 +19,11 @@ updated: 2024-01-01
 
 # Gallery with Column Headings
 
+## Table of Contents
+
+- [Features](#features)
+- [Add This to Your Application](#add-this-to-your-application)
+
 A gallery layout featuring column headers for displaying structured data. Includes a styled header row with customizable column labels and a selection highlight on row interaction.
 
 ## Features

@@ -103,3 +103,10 @@ Average(
 ## Related Schema
 
 See `schemas/car-data-schema.json` for the Mockaroo schema used to generate this data.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

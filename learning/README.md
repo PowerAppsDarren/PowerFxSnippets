@@ -20,6 +20,17 @@ updated: 2025-12-17
 
 # Learning
 
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Tutorials](#tutorials)
+- [Best Practices](#best-practices)
+- [Certification](#certification)
+  - [PL-900: Microsoft Power Platform Fundamentals](#pl-900-microsoft-power-platform-fundamentals)
+  - [PL-200: Microsoft Power Platform Functional Consultant](#pl-200-microsoft-power-platform-functional-consultant)
+- [Quick Start](#quick-start)
+- [Related Resources](#related-resources)
+
 Educational resources for Power Platform and Power Apps development.
 
 ## Directory Structure
@@ -63,3 +74,10 @@ Advanced certification for functional consultants.
 ---
 
 *Last updated: 2025-12-17*
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

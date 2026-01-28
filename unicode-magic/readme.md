@@ -1,5 +1,10 @@
 # Unicode Magic
 
+## Table of Contents
+
+- [Symbols, Letters and ASCII Art](#symbols-letters-and-ascii-art)
+  - [Symbols](#symbols)
+
 This document contains a collection of Unicode characters, symbols, letters, and ASCII art that can be used for various purposes such as decoration, emphasis, or just for fun.
 
 ## Symbols, Letters and ASCII Art
@@ -265,3 +270,10 @@ ______________________
 "(@)'(@)"""''"**|(@)(@)*****''(@)
 
 ---
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

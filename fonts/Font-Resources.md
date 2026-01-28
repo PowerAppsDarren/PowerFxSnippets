@@ -18,3 +18,10 @@
 - [MyFonts](https://www.myfonts.com/)
 - [Typekit](https://typekit.com/)
 - [Font Bundles](https://fontbundles.net/)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

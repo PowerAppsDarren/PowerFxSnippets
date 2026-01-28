@@ -1,5 +1,14 @@
 # SVG Icon Files
 
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Skill Level Indicator Icons](#skill-level-indicator-icons)
+- [Usage](#usage)
+  - [In Power Apps Image Control](#in-power-apps-image-control)
+  - [With Theme Colors](#with-theme-colors)
+- [Subdirectories](#subdirectories)
+
 This directory contains SVG icon files organized by category for use in Power Apps.
 
 ## Directory Structure
@@ -56,3 +65,10 @@ With(
 ## Subdirectories
 
 - **[power-platform/](../../../README.md)** - Official Microsoft Power Platform service icons
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

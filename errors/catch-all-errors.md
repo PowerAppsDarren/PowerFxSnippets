@@ -1,5 +1,26 @@
 # Catching All Errors in Power Apps
 
+## Table of Contents
+
+- [⚡ Quick Start](#quick-start)
+- [How It Works](#how-it-works)
+  - [Deduplication + Cooldown](#deduplication-cooldown)
+  - [What the Cooldown Does](#what-the-cooldown-does)
+  - [Result: Smart Email Grouping](#result-smart-email-grouping)
+- [Step 1: Configure Settings](#step-1-configure-settings)
+- [Customizing the Email Design](#customizing-the-email-design)
+  - [Option A: Use the Visual Preview Tool (Recommended)](#option-a-use-the-visual-preview-tool-recommended)
+  - [Option B: Edit Colors Directly in PowerFx](#option-b-edit-colors-directly-in-powerfx)
+  - [Color Theme Examples](#color-theme-examples)
+- [Step 2: Add Error Handler](#step-2-add-error-handler)
+- [Debugging with Monitor](#debugging-with-monitor)
+- [Reference: `colErrorSignatures` Collection](#reference-colerrorsignatures-collection)
+- [Optional Enhancements](#optional-enhancements)
+  - [Display Errors in Your App](#display-errors-in-your-app)
+  - [Clear Errors on App Start](#clear-errors-on-app-start)
+  - [Persist Errors to SharePoint/Database](#persist-errors-to-sharepointdatabase)
+- [Further Reading](#further-reading)
+
 > 📧 **Get notified of every error without inbox overload** — smart deduplication sends 2 emails instead of 60.
 
 Power Apps can silently swallow errors, leaving users frustrated and developers blind to problems. This error handler catches **every** error in your canvas app and emails you a detailed report — but intelligently groups duplicate errors so you don't get flooded with 50 identical emails.

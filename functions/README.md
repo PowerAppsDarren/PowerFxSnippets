@@ -1,5 +1,51 @@
 # Functions - Power Fx Function Patterns and Implementations
 
+## Table of Contents
+
+- [📋 Overview](#overview)
+  - [When to Use](#when-to-use)
+  - [Related Categories](#related-categories)
+- [📊 Category Statistics](#category-statistics)
+- [🎯 Quick Access](#quick-access)
+  - [Most Popular](#most-popular)
+  - [By Difficulty](#by-difficulty)
+- [📁 Subcategories](#subcategories)
+  - [Built-in Functions](#built-in-functions)
+  - [User-Defined Functions](#user-defined-functions)
+  - [User-Defined Types](#user-defined-types)
+  - [Algorithms](#algorithms)
+  - [Encoding-Decoding](#encoding-decoding)
+  - [String Manipulation](#string-manipulation)
+- [🔍 Search & Filter](#search-filter)
+  - [By Technology](#by-technology)
+  - [By Use Case](#by-use-case)
+  - [By Feature](#by-feature)
+- [📚 Learning Path](#learning-path)
+  - [For Beginners](#for-beginners)
+  - [For Intermediate Users](#for-intermediate-users)
+  - [For Advanced Users](#for-advanced-users)
+- [🤝 Contributing](#contributing)
+  - [Adding New Snippets](#adding-new-snippets)
+  - [Snippet Requirements](#snippet-requirements)
+  - [Category Maintenance](#category-maintenance)
+- [🔗 Cross-References](#cross-references)
+  - [Prerequisites](#prerequisites)
+  - [Related Content](#related-content)
+  - [Next Steps](#next-steps)
+- [📞 Support & Help](#support-help)
+  - [Getting Help](#getting-help)
+  - [Community Resources](#community-resources)
+- [📈 Recent Updates](#recent-updates)
+  - [Latest Additions](#latest-additions)
+  - [Recent Improvements](#recent-improvements)
+- [📝 Complete Snippet Index](#complete-snippet-index)
+  - [Built-in Functions](#built-in-functions)
+  - [User-Defined Functions](#user-defined-functions)
+  - [User-Defined Types](#user-defined-types)
+  - [Algorithms](#algorithms)
+  - [Encoding-Decoding](#encoding-decoding)
+  - [String Manipulation](#string-manipulation)
+
 > Power Fx function patterns including user-defined functions, built-in function examples, algorithms, and utility functions for code reusability and complex logic implementation.
 
 ## 📋 Overview
@@ -255,3 +301,10 @@ After mastering this category, consider:
 ---
 
 *Found this category helpful? ⭐ [Star the repository](https://github.com/PowerAppsDarren/PowerFxSnippets) to show your support!* 🚀
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

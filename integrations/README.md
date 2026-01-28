@@ -19,6 +19,17 @@ updated: 2025-12-17
 
 # Integrations
 
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Connectors](#connectors)
+  - [Office 365 Outlook](#office-365-outlook)
+  - [Office 365 Users](#office-365-users)
+- [Power Automate](#power-automate)
+  - [SharePoint](#sharepoint)
+- [Quick Start](#quick-start)
+- [Related Resources](#related-resources)
+
 Patterns and snippets for integrating Power Apps with external services and systems.
 
 ## Directory Structure
@@ -55,3 +66,10 @@ SharePoint list operations, site management, and data sync patterns.
 ---
 
 *Last updated: 2025-12-17*
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

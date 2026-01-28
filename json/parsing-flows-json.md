@@ -1,5 +1,9 @@
 # Parsing JSON Returned by Flows
 
+## Table of Contents
+
+- [Example](#example)
+
 This is something you may not need to do often, but it is useful to know how to parse JSON returned by flows.
 
 ## Example
@@ -41,3 +45,10 @@ ClearCollect(
     )    
 );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

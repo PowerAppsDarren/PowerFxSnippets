@@ -18,6 +18,10 @@ related: []
 
 # Get Direct Reports
 
+## Table of Contents
+
+- [Step 01 - Add this code to your screen](#step-01-add-this-code-to-your-screen)
+
 Yes, this is a one-line simple method call. 🤔👍
 
 ## Step 01 - Add this code to your screen
@@ -25,3 +29,10 @@ Yes, this is a one-line simple method call. 🤔👍
 ```JavaScript
 Office365Users.DirectReportsV2(User().EntraObjectId).value
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

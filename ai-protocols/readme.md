@@ -1,5 +1,13 @@
 # Timeless Message to AI
 
+## Table of Contents
+
+- [Git Configuration](#git-configuration)
+- [AI Protocols](#ai-protocols)
+  - [Core Mandatory Protocols](#core-mandatory-protocols)
+  - [Important Development Protocols](#important-development-protocols)
+  - [Technical Reference Protocols](#technical-reference-protocols)
+
 Timeless Message to AI regarding this repo:
 
 ## Git Configuration
@@ -49,4 +57,11 @@ All AI coding assistants and tools **MUST** (**MANDATORY!!**) follow every one o
   - Output to `./look-around/YYYY-MM-DD--HH-MM--{MODEL_NAME}`
   - Run when first assisting repo or after significant changes
 
-**Quick Navigation:** See [`index.md`](./index.md) for complete protocol directory and quick reference guides. 
+**Quick Navigation:** See [`index.md`](./index.md) for complete protocol directory and quick reference guides.
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

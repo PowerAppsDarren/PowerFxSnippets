@@ -1,5 +1,16 @@
 # World-Wide Sample Data
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Dataset Comparison](#dataset-comparison)
+- [Data Fields](#data-fields)
+  - [Countries/World](#countriesworld)
+  - [Nationalities](#nationalities)
+  - [World Cities](#world-cities)
+- [Quick Start](#quick-start)
+- [External Sources](#external-sources)
+
 Geographic reference data including countries, nationalities, and cities.
 
 ## Contents
@@ -53,3 +64,10 @@ Items: Sort(colNationalities, Nationality)
 - [ISO 3166 Standard](https://www.iso.org/iso-3166-country-codes.html)
 - [World Countries GitHub](https://github.com/stefangabos/world_countries)
 - [World Bank Data Catalog](https://datacatalog.worldbank.org)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

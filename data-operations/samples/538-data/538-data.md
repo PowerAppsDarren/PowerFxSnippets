@@ -21,3 +21,10 @@ license: "MIT"
 # Sample Data from 538 Data
 - https://github.com/fivethirtyeight/
 - https://abcnews.go.com/538
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

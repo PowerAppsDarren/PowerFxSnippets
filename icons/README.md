@@ -1,5 +1,9 @@
 # Icons, Icons, Icons! 🤠
 
+## Table of Contents
+
+- [Icon Packs](#icon-packs)
+
 Related: [[..\SVGs\SVGs.md]]
 
 - https://icomoon.io/ 
@@ -70,3 +74,10 @@ Related: [[..\SVGs\SVGs.md]]
 | Payment Icons | https://github.com/activemerchant/payment_icons|
 | UK Traffic Signs | https://gov.uk|
 | Dashboard Icons | https://github.com/walkxcode/dashboard-icons|
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

@@ -76,3 +76,10 @@ Filter(col538Index, "election" in LowerCase(subfolder_name))
 - Data is sourced from FiveThirtyEight's open data initiative
 - Some datasets may require additional context from associated articles
 - URLs may change; verify links before production use
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

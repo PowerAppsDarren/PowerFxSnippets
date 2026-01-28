@@ -21,3 +21,10 @@ Need to center a control in relation to its parent dimension? Use this formula t
     // You could simply copy/paste this for Y value for centered self
     // #️⃣ fxGetCenteredDimension(Parent.Height, Self.Height)
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

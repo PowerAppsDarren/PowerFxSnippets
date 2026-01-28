@@ -1,5 +1,9 @@
 # App.OnMessage
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 Explanation for [App.OnMessage](https://powerplatformlinks.com/Power+Apps/Canvas/App+OnMessage).
 
 ## Add This to Your Application
@@ -28,5 +32,10 @@ With(
     )
 );
 ```
+---
 
+## History
 
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

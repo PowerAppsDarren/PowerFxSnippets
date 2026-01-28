@@ -20,6 +20,12 @@ updated: 2024-01-01
 
 # Status Board Gallery (Kanban Style)
 
+## Table of Contents
+
+- [Features](#features)
+- [Sample Data Structure](#sample-data-structure)
+- [Add This to Your Application](#add-this-to-your-application)
+
 A task/status board style gallery (Kanban-inspired but vertical) with status indicators, priority badges, and filter tabs.
 
 ## Features

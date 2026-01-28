@@ -1,5 +1,19 @@
 # App.Formulas - Power Fx Named Formulas and Functions
 
+## Table of Contents
+
+- [Directory Structure](#directory-structure)
+- [Quick Reference](#quick-reference)
+  - [Collections](#collections)
+  - [Expressions](#expressions)
+  - [User-Defined Functions (UDFs)](#user-defined-functions-udfs)
+  - [User-Defined Types (UDTs)](#user-defined-types-udts)
+- [Usage](#usage)
+  - [How to Use These Snippets](#how-to-use-these-snippets)
+  - [Naming Conventions](#naming-conventions)
+  - [Prerequisites](#prerequisites)
+- [Related Resources](#related-resources)
+
 This directory contains reusable Power Fx formulas, functions, and type definitions for use in canvas Power Apps `App.Formulas` property.
 
 ## Directory Structure
@@ -87,3 +101,10 @@ We recommend the following prefixes for organization:
 
 - [Power Fx Reference](https://learn.microsoft.com/en-us/power-platform/power-fx/overview)
 - [User-Defined Types Documentation](https://powerplatformlinks.com/CanvasUserDefined)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

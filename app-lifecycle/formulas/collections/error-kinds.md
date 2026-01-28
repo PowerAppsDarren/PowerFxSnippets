@@ -19,6 +19,10 @@ license: "MIT"
 
 # Error Kinds Collection
 
+## Table of Contents
+
+- [Add This to Your Application](#add-this-to-your-application)
+
 This is a helpful canvas Power Apps code snippet that creates a collection of all standard error kinds.
 
 ## Add This to Your Application
@@ -59,3 +63,10 @@ ClearCollect(
     {KindNumber: 24, KindName: "Numeric"}
 );
 ```
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

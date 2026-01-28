@@ -1,5 +1,16 @@
 # Power Platform SVG Icons
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Additional Resources](#additional-resources)
+- [Usage in Power Apps](#usage-in-power-apps)
+  - [Basic SVG Display](#basic-svg-display)
+  - [With Color Replacement](#with-color-replacement)
+- [Icon Specifications](#icon-specifications)
+- [Licensing](#licensing)
+- [Related Resources](#related-resources)
+
 This directory contains official scalable SVG icons for Microsoft Power Platform services and components.
 
 ## Contents
@@ -66,3 +77,10 @@ These icons are provided by Microsoft for use with Power Platform applications. 
 
 - [Microsoft Power Platform Icons](https://docs.microsoft.com/power-platform/)
 - [Power Apps Icon Guidelines](https://docs.microsoft.com/powerapps/)
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |

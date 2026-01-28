@@ -1,6 +1,10 @@
 
 # Microsoft Communities
 
+## Table of Contents
+
+- [Archived Communities](#archived-communities)
+
 - [Power Platform](https://community.powerplatform.com/)
 - [Power Apps](https://community.powerplatform.com/forums/thread/?groupid=b5652dc6-2c99-4e33-8b6f-45be4a896a40) 
 - [Power Automate](https://community.powerplatform.com/forums/thread/?groupid=46ce02a3-e1a7-4176-81fc-d93a4001d287)
@@ -14,3 +18,10 @@ Thanks to [Matthew Devaney](https://x.com/mattbdevaney/status/186468968717004439
 
 - https://jgvjg48436.lithium.com/t5/Power-Apps-Community/ct-p/PowerApps1
 - https://jgvjg48436.lithium.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-27 | Migration | Initial TOC and history section added |
