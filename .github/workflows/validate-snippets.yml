@@ -1,0 +1,162 @@
+name: Validate Snippets
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/*.yaml'
+      - '**/*.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+      - '**/*.yaml'
+      - '**/*.yml'
+  workflow_dispatch:
+
+jobs:
+  validate-markdown:
+    name: Validate Markdown Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Run markdownlint
+        run: |
+          # Run markdownlint with relaxed rules for Power Fx snippets
+          markdownlint '**/*.md' \
+            --ignore node_modules \
+            --ignore .git \
+            --disable MD013 MD033 MD041 MD024 \
+            || echo "::warning::Some markdown issues found. See output above."
+
+  validate-yaml-frontmatter:
+    name: Validate YAML Frontmatter
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Validate YAML frontmatter in changed files
+        run: |
+          echo "Validating YAML frontmatter in markdown files..."
+
+          # Create validation script
+          cat << 'SCRIPT' > validate_frontmatter.py
+          import sys
+          import yaml
+          import os
+          import glob
+
+          VALID_CATEGORIES = [
+              'ui-controls', 'ui-patterns', 'visual-assets', 'data-operations',
+              'functions', 'integrations', 'learning', 'app-lifecycle',
+              'best-practices', 'utilities', 'tools', 'reference'
+          ]
+
+          VALID_DIFFICULTIES = ['beginner', 'intermediate', 'advanced', 'expert']
+
+          def validate_frontmatter(filepath):
+              with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                  content = f.read()
+
+              if not content.startswith('---'):
+                  return None  # No frontmatter, skip
+
+              try:
+                  # Extract frontmatter
+                  parts = content.split('---', 2)
+                  if len(parts) < 3:
+                      return None
+
+                  frontmatter = yaml.safe_load(parts[1])
+                  if not frontmatter:
+                      return None
+
+                  errors = []
+
+                  # Check required fields (warnings only, not blocking)
+                  if 'title' not in frontmatter:
+                      errors.append(f"  - Missing 'title' field")
+
+                  if 'difficulty' in frontmatter:
+                      if frontmatter['difficulty'] not in VALID_DIFFICULTIES:
+                          errors.append(f"  - Invalid difficulty: {frontmatter['difficulty']}")
+
+                  return errors if errors else None
+
+              except yaml.YAMLError as e:
+                  return [f"  - YAML parse error: {e}"]
+
+          def main():
+              errors_found = False
+              for filepath in glob.glob('**/*.md', recursive=True):
+                  if any(x in filepath for x in ['node_modules', '.git', '.worktrees']):
+                      continue
+
+                  errors = validate_frontmatter(filepath)
+                  if errors:
+                      print(f"::warning file={filepath}::Frontmatter issues in {filepath}")
+                      for error in errors:
+                          print(error)
+                      errors_found = True
+
+              if errors_found:
+                  print("\nSome files have frontmatter issues. Please review.")
+              else:
+                  print("All frontmatter validated successfully!")
+
+              # Don't fail the build for frontmatter issues
+              sys.exit(0)
+
+          if __name__ == '__main__':
+              main()
+          SCRIPT
+
+          python validate_frontmatter.py
+
+  check-file-naming:
+    name: Check File Naming Conventions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for naming issues
+        run: |
+          echo "Checking file naming conventions..."
+
+          # Check for files with spaces in names (warning only)
+          FILES_WITH_SPACES=$(find . -name "* *" -type f 2>/dev/null | grep -v node_modules | grep -v .git || true)
+          if [ -n "$FILES_WITH_SPACES" ]; then
+            echo "::warning::Files with spaces in names found (consider renaming to kebab-case):"
+            echo "$FILES_WITH_SPACES"
+          fi
+
+          # Check for uppercase file extensions
+          UPPERCASE_EXT=$(find . -type f \( -name "*.MD" -o -name "*.YAML" -o -name "*.YML" \) 2>/dev/null | grep -v node_modules | grep -v .git || true)
+          if [ -n "$UPPERCASE_EXT" ]; then
+            echo "::warning::Files with uppercase extensions found:"
+            echo "$UPPERCASE_EXT"
+          fi
+
+          echo "File naming check complete!"

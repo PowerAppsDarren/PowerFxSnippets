@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Power Platform Community
+    url: https://powerplatform.microsoft.com/community/
+    about: Get help from the Power Platform community
+  - name: Microsoft Learn - Power Fx
+    url: https://learn.microsoft.com/en-us/power-platform/power-fx/
+    about: Official Power Fx documentation
+  - name: GitHub Discussions
+    url: https://github.com/PowerAppsDarren/PowerFxSnippets/discussions
+    about: Ask questions and discuss ideas with the community

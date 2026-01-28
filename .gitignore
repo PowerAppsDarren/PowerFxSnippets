@@ -14,9 +14,9 @@
 !.vscode/
 !.gitignore
 !.gitattributes
+!.github/
 
 # Explicitly ignore these dot folders
-.github/
 .specify/
 .clients/
 
