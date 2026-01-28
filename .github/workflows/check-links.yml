@@ -1,0 +1,175 @@
+name: Check Links
+
+on:
+  # Run weekly on Sundays at midnight UTC
+  schedule:
+    - cron: '0 0 * * 0'
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on PRs that modify markdown files
+  pull_request:
+    paths:
+      - '**/*.md'
+
+jobs:
+  check-links:
+    name: Check Markdown Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          # Check all markdown files
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,204,206,301,302,307,308
+            --exclude-mail
+            --exclude-path node_modules
+            --exclude-path .git
+            --exclude-path .worktrees
+            --exclude 'linkedin\.com'
+            --exclude 'twitter\.com'
+            --exclude 'x\.com'
+            --exclude 'localhost'
+            --exclude '127\.0\.0\.1'
+            --timeout 30
+            --retry-wait-time 5
+            --max-retries 3
+            '**/*.md'
+          # Don't fail the workflow on broken links (report only)
+          fail: false
+          # Output format
+          format: markdown
+          # Output file
+          output: ./lychee-report.md
+
+      - name: Upload link check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: ./lychee-report.md
+          retention-days: 30
+
+      - name: Comment on PR with link issues
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportPath = './lychee-report.md';
+
+            if (fs.existsSync(reportPath)) {
+              const report = fs.readFileSync(reportPath, 'utf8');
+
+              // Only comment if there are issues
+              if (report.includes('Errors') || report.includes('Warnings')) {
+                const body = `## Link Check Report
+
+            The following link issues were found in this PR:
+
+            <details>
+            <summary>Click to expand report</summary>
+
+            ${report}
+
+            </details>
+
+            > Note: Some external links may fail due to rate limiting. Please verify manually if needed.`;
+
+                github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: body
+                });
+              }
+            }
+
+  check-internal-links:
+    name: Check Internal Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check internal markdown links
+        run: |
+          echo "Checking internal markdown links..."
+
+          # Create a simple internal link checker
+          cat << 'SCRIPT' > check_internal_links.py
+          import os
+          import re
+          import sys
+          from pathlib import Path
+          from urllib.parse import unquote
+
+          def find_broken_links():
+              broken_links = []
+
+              for md_file in Path('.').rglob('*.md'):
+                  if any(x in str(md_file) for x in ['node_modules', '.git', '.worktrees']):
+                      continue
+
+                  try:
+                      content = md_file.read_text(encoding='utf-8', errors='ignore')
+                  except:
+                      continue
+
+                  # Find markdown links: [text](path) but not external URLs
+                  links = re.findall(r'\[([^\]]*)\]\(([^)]+)\)', content)
+
+                  for link_text, link_path in links:
+                      # Skip external links, anchors only, and mailto
+                      if link_path.startswith(('http://', 'https://', '#', 'mailto:')):
+                          continue
+
+                      # Remove anchor from path
+                      clean_path = link_path.split('#')[0]
+                      if not clean_path:
+                          continue
+
+                      # URL decode the path
+                      clean_path = unquote(clean_path)
+
+                      # Resolve relative path
+                      if clean_path.startswith('/'):
+                          target = Path('.') / clean_path[1:]
+                      else:
+                          target = md_file.parent / clean_path
+
+                      # Check if target exists
+                      try:
+                          target = target.resolve()
+                          if not target.exists():
+                              broken_links.append((str(md_file), link_path, link_text))
+                      except:
+                          pass
+
+              return broken_links
+
+          def main():
+              broken = find_broken_links()
+
+              if broken:
+                  print("::warning::Potentially broken internal links found:")
+                  for source, link, text in broken[:20]:  # Limit output
+                      print(f"  {source}: [{text}]({link})")
+
+                  if len(broken) > 20:
+                      print(f"  ... and {len(broken) - 20} more")
+              else:
+                  print("All internal links appear valid!")
+
+              sys.exit(0)
+
+          if __name__ == '__main__':
+              main()
+          SCRIPT
+
+          python check_internal_links.py

@@ -115,21 +115,60 @@ your-snippet-name.md
 ```
 
 ### Required Metadata (YAML Front Matter)
+
+All snippets should include YAML frontmatter at the top of the file. This metadata is validated by our GitHub Actions workflow.
+
 ```yaml
 ---
 title: "Descriptive Title"
 description: "Brief explanation of what the snippet does"
-category: "XX-category-name/subcategory"
-tags: ["tag1", "tag2", "tag3"]
-difficulty: "beginner|intermediate|advanced|expert"
-prerequisites: ["Prerequisite 1", "Prerequisite 2"]
+category: "ui-controls"              # See valid categories below
+subcategory: "gallery"               # Optional: specific subcategory
+tags:
+  - tag1
+  - tag2
+  - tag3
+difficulty: beginner                 # beginner | intermediate | advanced | expert
+products:
+  - power-apps-canvas
+  - power-apps-model-driven          # Optional: relevant products
 author: "YourGitHubUsername"
-created: "YYYY-MM-DD"
-updated: "YYYY-MM-DD"
-featured: true|false
-related: ["path/to/related/snippet1", "path/to/related/snippet2"]
+created: 2026-01-27                  # YYYY-MM-DD format
+updated: 2026-01-27                  # YYYY-MM-DD format
+license: "MIT"                       # Optional: defaults to MIT
+prerequisites:                       # Optional
+  - "Prerequisite 1"
+  - "Prerequisite 2"
+related:                             # Optional: links to related snippets
+  - "path/to/related/snippet1.md"
+  - "path/to/related/snippet2.md"
 ---
 ```
+
+### Valid Categories
+
+| Category | Description |
+|----------|-------------|
+| `ui-controls` | Gallery, form, input, and other control snippets |
+| `ui-patterns` | Components, dialogs, menus, theming patterns |
+| `visual-assets` | Colors, SVGs, icons, fonts |
+| `data-operations` | Data manipulation, samples, sources |
+| `functions` | Built-in functions, UDFs, algorithms |
+| `integrations` | Connectors, Power Automate flows |
+| `learning` | Tutorials, best practices, certification |
+| `app-lifecycle` | OnStart, OnError, formulas, navigation |
+| `best-practices` | Guidelines and optimization patterns |
+| `utilities` | Templates, tools, helpers |
+| `reference` | Gotchas, syntax guides, quick references |
+
+### Valid Difficulty Levels
+
+| Level | Description |
+|-------|-------------|
+| `beginner` | Basic concepts, simple implementation, no prerequisites |
+| `intermediate` | Requires understanding of multiple concepts |
+| `advanced` | Complex logic, performance optimization, enterprise patterns |
+| `expert` | Deep technical knowledge, edge cases, advanced architecture |
 
 ### Content Standards
 
@@ -148,17 +187,22 @@ related: ["path/to/related/snippet1", "path/to/related/snippet2"]
 - ✅ **Troubleshooting**: Include common issues and solutions
 
 ### Category Selection
-Choose the most specific appropriate category:
 
-- **01-getting-started**: Basic concepts and first steps
-- **02-app-architecture**: App structure and lifecycle
-- **03-user-interface**: Controls, themes, and UX
-- **04-data-management**: Data operations and sources
-- **05-business-logic**: Functions and calculations
-- **06-integrations**: External services and APIs
-- **07-assets-and-media**: Visual assets and media
-- **08-advanced-patterns**: Complex scenarios and expert techniques
-- **09-learning-resources**: Tutorials and educational content
+Choose the most appropriate category for your snippet. Use the directory structure as a guide:
+
+| Directory | Best For |
+|-----------|----------|
+| `ui-controls/` | Specific control implementations (gallery, form, button, etc.) |
+| `ui-patterns/` | Reusable UI patterns (dialogs, menus, theming) |
+| `visual-assets/` | Colors, icons, SVGs, fonts |
+| `data-operations/` | Data manipulation, sample datasets |
+| `functions/` | UDFs, algorithms, utility functions |
+| `integrations/` | Connector patterns, Power Automate flows |
+| `learning/` | Tutorials, certification resources |
+| `app-lifecycle/` | OnStart, OnError, global formulas |
+| `best-practices/` | Guidelines, performance tips |
+
+**Tip:** Browse existing snippets in each category to see examples of proper organization.
 
 ## 📚 Documentation Standards
 
