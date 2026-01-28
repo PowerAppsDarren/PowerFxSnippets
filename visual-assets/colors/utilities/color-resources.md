@@ -1,13 +1,21 @@
 ---
 title: Color Resources
 description: External color resources, tools, and theme references including Nord Theme, gradient generators, and palette tools
-category: colors/utilities
+category: visual-assets
+subcategory: colors
 tags:
   - resources
   - nord-theme
   - gradients
   - tools
   - external-links
+difficulty: beginner
+products:
+  - power-apps-canvas
+author: PowerAppsDarren
+created: 2026-01-27
+updated: 2026-01-27
+license: MIT
 related:
   - ../palettes/color-palettes
   - ../palettes/web-colors
