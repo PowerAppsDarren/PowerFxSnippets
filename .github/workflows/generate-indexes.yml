@@ -1,0 +1,61 @@
+name: Generate Indexes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+  workflow_dispatch:
+
+jobs:
+  generate-indexes:
+    name: Generate Search Indexes
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Generate indexes
+        run: |
+          python utilities/tools/index-generator.py . --output-dir .
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          git diff --quiet SEARCH-INDEX.md TAG-INDEX.md DIFFICULTY-INDEX.md 2>/dev/null \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Create Pull Request
+        if: steps.check-changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: update search indexes"
+          title: "chore: update search indexes"
+          body: |
+            Auto-generated index update triggered by changes to markdown files.
+
+            Updated files:
+            - `SEARCH-INDEX.md`
+            - `TAG-INDEX.md`
+            - `DIFFICULTY-INDEX.md`
+
+            > This PR was created automatically by the Generate Indexes workflow.
+          branch: auto/update-indexes
+          delete-branch: true
+          labels: automated

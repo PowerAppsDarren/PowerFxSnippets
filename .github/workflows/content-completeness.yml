@@ -1,0 +1,230 @@
+name: Content Completeness
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+  workflow_dispatch:
+
+jobs:
+  check-content-completeness:
+    name: Check Content Completeness
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            # Get changed .md files in the PR
+            git fetch origin ${{ github.base_ref }} --depth=1
+            CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- '*.md' || true)
+          else
+            # For manual trigger, check all .md files
+            CHANGED=$(find . -name '*.md' -not -path './.git/*' -not -path './.worktrees/*' -not -path '*/node_modules/*' | sed 's|^\./||')
+          fi
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Check content completeness
+        id: check
+        run: |
+          cat << 'SCRIPT' > check_completeness.py
+          import sys
+          import yaml
+          import os
+          import json
+
+          REQUIRED_FRONTMATTER_FIELDS = [
+              'title', 'description', 'category', 'tags', 'difficulty', 'products'
+          ]
+
+          # Files to skip (not snippets)
+          SKIP_PATTERNS = [
+              'readme', 'contributing', 'license', 'changelog', 'claude',
+              'code_of_conduct', 'resume', 'release-notes', 'index',
+              '.github/', 'node_modules/', '.git/', '.worktrees/',
+              '.ai-chats/', '.taskmaster/', 'docs/'
+          ]
+
+          def should_skip(filepath):
+              """Check if file should be skipped (not a snippet)."""
+              lower = filepath.lower()
+              return any(pattern in lower for pattern in SKIP_PATTERNS)
+
+          def check_frontmatter(filepath):
+              """Check YAML frontmatter for required fields."""
+              errors = []
+              try:
+                  with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                      content = f.read()
+
+                  if not content.startswith('---'):
+                      errors.append("Missing YAML frontmatter (file must start with ---)")
+                      return errors
+
+                  parts = content.split('---', 2)
+                  if len(parts) < 3:
+                      errors.append("Incomplete YAML frontmatter (missing closing ---)")
+                      return errors
+
+                  try:
+                      frontmatter = yaml.safe_load(parts[1])
+                  except yaml.YAMLError as e:
+                      errors.append(f"Invalid YAML syntax: {e}")
+                      return errors
+
+                  if not isinstance(frontmatter, dict):
+                      errors.append("YAML frontmatter must be a key-value mapping")
+                      return errors
+
+                  for field in REQUIRED_FRONTMATTER_FIELDS:
+                      if field not in frontmatter:
+                          errors.append(f"Missing required field: '{field}'")
+                      elif frontmatter[field] is None or frontmatter[field] == '':
+                          errors.append(f"Field '{field}' is empty")
+
+              except Exception as e:
+                  errors.append(f"Error reading file: {e}")
+
+              return errors
+
+          def check_toc(filepath):
+              """Check for Table of Contents section."""
+              try:
+                  with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                      content = f.read().lower()
+                  if '## table of contents' not in content and '## toc' not in content:
+                      return ["Missing Table of Contents section"]
+              except Exception:
+                  pass
+              return []
+
+          def check_history(filepath):
+              """Check for History section."""
+              try:
+                  with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                      content = f.read().lower()
+                  if '## history' not in content:
+                      return ["Missing History section"]
+              except Exception:
+                  pass
+              return []
+
+          def main():
+              changed_files_str = os.environ.get('CHANGED_FILES', '')
+              changed_files = [f.strip() for f in changed_files_str.strip().split('\n') if f.strip()]
+
+              if not changed_files:
+                  print("No changed markdown files to check.")
+                  sys.exit(0)
+
+              all_results = []
+              has_errors = False
+
+              for filepath in changed_files:
+                  if should_skip(filepath):
+                      continue
+
+                  if not os.path.isfile(filepath):
+                      continue
+
+                  if not filepath.endswith('.md'):
+                      continue
+
+                  file_errors = []
+
+                  # Check frontmatter
+                  fm_errors = check_frontmatter(filepath)
+                  file_errors.extend(fm_errors)
+
+                  # Check Table of Contents
+                  toc_errors = check_toc(filepath)
+                  file_errors.extend(toc_errors)
+
+                  # Check History section
+                  history_errors = check_history(filepath)
+                  file_errors.extend(history_errors)
+
+                  if file_errors:
+                      has_errors = True
+                      all_results.append({
+                          'file': filepath,
+                          'errors': file_errors
+                      })
+
+                      # Output as GitHub annotations
+                      for error in file_errors:
+                          print(f"::warning file={filepath}::{error}")
+
+              # Write summary for PR comment
+              if all_results:
+                  summary_lines = ["## Content Completeness Report\n"]
+                  summary_lines.append(f"Found issues in **{len(all_results)}** file(s):\n")
+
+                  for result in all_results:
+                      summary_lines.append(f"### `{result['file']}`\n")
+                      for error in result['errors']:
+                          summary_lines.append(f"- {error}")
+                      summary_lines.append("")
+
+                  summary_lines.append("\n> **Note:** Snippet files should include YAML frontmatter "
+                                       "(title, description, category, tags, difficulty, products), "
+                                       "a Table of Contents, and a History section.")
+
+                  summary = "\n".join(summary_lines)
+
+                  with open('completeness-report.md', 'w', encoding='utf-8') as f:
+                      f.write(summary)
+
+                  print(f"\n{len(all_results)} file(s) have completeness issues.")
+              else:
+                  print("All changed files pass completeness checks!")
+
+              # Exit with warning but don't fail the build
+              sys.exit(0)
+
+          if __name__ == '__main__':
+              main()
+          SCRIPT
+
+          export CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
+          python check_completeness.py
+
+      - name: Comment on PR with results
+        if: github.event_name == 'pull_request' && hashFiles('completeness-report.md') != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportPath = './completeness-report.md';
+
+            if (fs.existsSync(reportPath)) {
+              const report = fs.readFileSync(reportPath, 'utf8');
+
+              if (report.trim()) {
+                const body = `${report}
+
+            ---
+            *Generated by Content Completeness workflow*`;
+
+                github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: body
+                });
+              }
+            }
