@@ -1,29 +1,29 @@
 # PowerFx Snippets - Search Index
 
-**Generated:** 2026-01-28 08:14:51
+**Generated:** 2026-01-29 01:42:13
 
-**Total Snippets:** 103
+**Total Snippets:** 100
 
 ---
 
 ## Table of Contents
 
-- [01 Getting Started/Hello World](#01gettingstarted/helloworld) (2 snippets)
-- [Xx Category Name/Subcategory](#XXcategoryname/subcategory) (2 snippets)
+- [01 Getting Started/Hello World](#01gettingstarted/helloworld) (1 snippets)
+- [Xx Category Name/Subcategory](#XXcategoryname/subcategory) (1 snippets)
 - [App Architecture](#apparchitecture) (14 snippets)
 - [App Lifecycle](#applifecycle) (1 snippets)
 - [Business Logic](#businesslogic) (10 snippets)
 - [Category Name](#categoryname) (2 snippets)
 - [Colors/Functions](#colors/functions) (8 snippets)
 - [Colors/Palettes](#colors/palettes) (6 snippets)
-- [Colors/Utilities](#colors/utilities) (1 snippets)
 - [Data Management](#datamanagement) (13 snippets)
 - [Data Operations](#dataoperations) (4 snippets)
 - [Guides](#guides) (1 snippets)
 - [Integrations](#integrations) (6 snippets)
 - [Research](#research) (1 snippets)
 - [Ui Controls](#uicontrols) (28 snippets)
-- [Ui Patterns](#uipatterns) (4 snippets)
+- [Ui Patterns](#uipatterns) (3 snippets)
+- [Visual Assets](#visualassets) (1 snippets)
 
 ---
 
@@ -34,7 +34,6 @@
 | Title | Description | Difficulty | Tags |
 |-------|-------------|------------|------|
 | [Basic Hello World](learning\tutorials\getting-started\hello-world\basic-hello-world.md) | Your first Power Fx expression - display text and understand basic syntax | beginner | `basics`, `syntax`, `text` +2 |
-| [Basic Hello World](_backup_links_20260107_180824\learning\tutorials\getting-started\hello-world\basic-hello-world.md) | Your first Power Fx expression - display text and understand basic syntax | beginner | `basics`, `syntax`, `text` +2 |
 
 ## Xx Category Name/Subcategory
 
@@ -43,7 +42,6 @@
 | Title | Description | Difficulty | Tags |
 |-------|-------------|------------|------|
 | [Snippet Title](docs\templates\snippet-template.md) | Brief description of what this snippet does and when to use it | beginner | `tag1`, `tag2`, `tag3` +1 |
-| [Snippet Title](_backup_links_20260107_180824\docs\templates\snippet-template.md) | Brief description of what this snippet does and when to use it | beginner | `tag1`, `tag2`, `tag3` +1 |
 
 ## App Architecture
 
@@ -157,14 +155,6 @@
 | [Microsoft Power Apps Style](visual-assets\colors\palettes\microsoft-power-apps.md) | Links to Microsoft's official branding and trademark guidelines for Power App... | N/A | `Microsoft`, `branding`, `guidelines` +1 |
 | [Power Apps Color Palette](visual-assets\colors\palettes\color-palette-pa.md) | Extended theme configuration with Power Apps branding colors including primar... | N/A | `theme`, `branding`, `Power-Apps` +1 |
 | [Web Colors](visual-assets\colors\palettes\web-colors.md) | Complete collection of 140 web colors with names, hex codes, RGB values, cate... | N/A | `web-colors`, `collection`, `ColorValue` +2 |
-
-## Colors/Utilities
-
-### General
-
-| Title | Description | Difficulty | Tags |
-|-------|-------------|------------|------|
-| [Color Resources](visual-assets\colors\utilities\color-resources.md) | External color resources, tools, and theme references including Nord Theme, g... | N/A | `resources`, `nord-theme`, `gradients` +2 |
 
 ## Data Management
 
@@ -359,11 +349,18 @@
 | Title | Description | Difficulty | Tags |
 |-------|-------------|------------|------|
 | [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | A reusable side navigation menu component for canvas apps with role-based vis... | intermediate | `navigation`, `menu`, `component` +3 |
-| [Left Nav Bar Component](_backup_links_20260107_180824\ui-patterns\components\custom-components\menus\left-nav-bar.md) | A reusable side navigation menu component for canvas apps with role-based vis... | intermediate | `navigation`, `menu`, `component` +3 |
 
 ### Resources
 
 | Title | Description | Difficulty | Tags |
 |-------|-------------|------------|------|
 | [Component Resources](ui-patterns\components\custom-components\Components.md) | Links to external resources for Power Apps components and design toolkits. | beginner | `components`, `resources`, `design` +1 |
+
+## Visual Assets
+
+### Colors
+
+| Title | Description | Difficulty | Tags |
+|-------|-------------|------------|------|
+| [Color Resources](visual-assets\colors\utilities\color-resources.md) | External color resources, tools, and theme references including Nord Theme, g... | beginner | `resources`, `nord-theme`, `gradients` +2 |
 

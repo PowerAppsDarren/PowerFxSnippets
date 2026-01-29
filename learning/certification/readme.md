@@ -23,6 +23,24 @@ updated: 2026-01-27
 
 # Microsoft Certification Resources
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Certification Pathway](#certification-pathway)
+- [Available Certifications](#available-certifications)
+  - [PL-900: Power Platform Fundamentals](#pl-900-power-platform-fundamentals)
+  - [PL-200: Power Platform Functional Consultant](#pl-200-power-platform-functional-consultant)
+  - [PL-400: Power Platform Developer](#pl-400-power-platform-developer)
+- [Study Tips](#study-tips)
+  - [Before the Exam](#before-the-exam)
+  - [During the Exam](#during-the-exam)
+  - [Exam Format](#exam-format)
+- [Additional Resources](#additional-resources)
+  - [Official Resources](#official-resources)
+  - [Community Resources](#community-resources)
+- [Related Content](#related-content)
+
 Study resources and exam preparation for Power Platform certifications.
 
 ## Overview

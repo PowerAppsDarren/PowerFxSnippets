@@ -17,6 +17,8 @@ related: []
 
 # Handling Vertical Sliders
 
+## Table of Contents
+
 ```PowerFx
 - Label2:
     Control: Label

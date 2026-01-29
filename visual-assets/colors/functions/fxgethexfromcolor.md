@@ -14,6 +14,8 @@ related:
 
 # fxGetHexFromColor() User-Defined Function
 
+## Table of Contents
+
 Paste this code into your App.Formulas and call it to convert a ColorValue to a hex string.
 
 ```PowerFx

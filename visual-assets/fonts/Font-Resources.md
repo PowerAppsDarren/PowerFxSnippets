@@ -1,5 +1,7 @@
 # Font Resources
 
+## Table of Contents
+
 - [Safe Web Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php)
 - [MIT Safe Fonts](https://web.mit.edu/jmorzins/www/fonts.html)
 - [Cool Labs Fonts](https://fonts.coollabs.io/)

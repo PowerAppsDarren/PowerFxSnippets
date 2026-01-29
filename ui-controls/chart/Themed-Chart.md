@@ -17,6 +17,8 @@ license: "MIT"
 
 # Chart-Controls
 
+## Table of Contents
+
 ```PowerFx
 - cntChartContainer:
     Control: GroupContainer

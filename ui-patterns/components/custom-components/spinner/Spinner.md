@@ -22,6 +22,8 @@ related: []
 
 # Spinner Component
 
+## Table of Contents
+
 ````yaml
 ComponentDefinitions:
   compSpinner:

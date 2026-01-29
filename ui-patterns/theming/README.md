@@ -19,6 +19,20 @@ updated: 2026-01-27
 
 # Theming Patterns
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Contents](#contents)
+- [Theme Structure](#theme-structure)
+  - [Color Palette](#color-palette)
+  - [Typography](#typography)
+  - [Spacing](#spacing)
+- [Applying Themes](#applying-themes)
+  - [Control Properties](#control-properties)
+  - [Dynamic Theming](#dynamic-theming)
+- [Best Practices](#best-practices)
+- [Related Resources](#related-resources)
+
 Patterns for implementing consistent theming and styling across Power Apps applications.
 
 ## Overview

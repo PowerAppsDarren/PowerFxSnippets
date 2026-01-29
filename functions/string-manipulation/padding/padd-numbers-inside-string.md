@@ -20,6 +20,8 @@ license: "MIT"
 
 # Pad Numbers Inside String
 
+## Table of Contents
+
 
 ```PowerFx
     // =======================================================

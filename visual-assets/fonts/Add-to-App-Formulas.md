@@ -1,5 +1,7 @@
 # Paste to Your App.Formulas
 
+## Table of Contents
+
 Here is a static collection of fonts that you can use in your Power Apps applications. This collection includes various properties such as whether the font is a PowerApps font, its category, whether it is web-safe, and its best use case.
 
 It doesn't have to be a static collection. You could easily make this into a database table or a SharePoint list to manage your fonts dynamically. However, for simplicity, we are providing it as a static collection here.

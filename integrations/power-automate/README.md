@@ -20,6 +20,30 @@ updated: 2026-01-27
 
 # Power Automate Integration
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Flow Integration Types](#flow-integration-types)
+  - [Instant Flows (Triggered from Power Apps)](#instant-flows-triggered-from-power-apps)
+  - [Scheduled Flows](#scheduled-flows)
+  - [Automated Flows](#automated-flows)
+- [Calling Flows from Power Apps](#calling-flows-from-power-apps)
+  - [Basic Flow Call](#basic-flow-call)
+  - [With Response Handling](#with-response-handling)
+  - [With Loading State](#with-loading-state)
+- [Common Patterns](#common-patterns)
+  - [SharePoint Document Generation](#sharepoint-document-generation)
+  - [Approval Workflows](#approval-workflows)
+  - [Data Processing](#data-processing)
+  - [Email with Attachments](#email-with-attachments)
+- [Best Practices](#best-practices)
+  - [1. Error Handling](#1-error-handling)
+  - [2. Response Schema](#2-response-schema)
+  - [3. Performance](#3-performance)
+  - [4. Security](#4-security)
+- [Related Resources](#related-resources)
+
 Patterns for integrating Power Apps with Power Automate flows.
 
 ## Overview

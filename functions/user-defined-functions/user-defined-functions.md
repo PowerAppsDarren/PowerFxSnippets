@@ -18,6 +18,8 @@ updated: 2026-01-26
 license: "MIT"
 ---
 # User Defined Functions
+
+## Table of Contents
 ---
 
 ## History

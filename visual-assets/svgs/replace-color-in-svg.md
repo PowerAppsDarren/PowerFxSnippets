@@ -1,5 +1,7 @@
 # Replace Color in SVG
 
+## Table of Contents
+
 ```PowerFx
 //
 // fxGetColoredSVGNoEncode

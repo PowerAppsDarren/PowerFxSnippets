@@ -19,6 +19,19 @@ updated: 2026-01-27
 
 # Dialog Patterns
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Contents](#contents)
+- [Common Dialog Types](#common-dialog-types)
+  - [Confirmation Dialogs](#confirmation-dialogs)
+  - [Information Dialogs](#information-dialogs)
+  - [Input Dialogs](#input-dialogs)
+- [Implementation Pattern](#implementation-pattern)
+  - [Basic Dialog Structure](#basic-dialog-structure)
+- [Best Practices](#best-practices)
+- [Related Resources](#related-resources)
+
 Reusable dialog and modal patterns for Power Apps canvas applications.
 
 ## Overview

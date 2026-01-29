@@ -19,6 +19,8 @@ license: "MIT"
 ---
 
 # Find String Exactly Within Table of Strings
+
+## Table of Contents
 ---
 
 ## History

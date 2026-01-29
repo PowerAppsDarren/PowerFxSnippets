@@ -1,5 +1,7 @@
 # Read Me: Fonts
 
+## Table of Contents
+
 Alphabetical Order of documents in this folder: 
 
 - [Add to Formulas](./add-to-app-formulas.md)⭐

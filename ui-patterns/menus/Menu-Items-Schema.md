@@ -1,5 +1,7 @@
 # Menu-Items-Schema
 
+## Table of Contents
+
 I've tried my best to come up with a standard schema for the menu items that you might use in your Power Apps applications. If this is the format you'd like to use, then copy and paste this into your App.Formulas. 
 
 ```PowerFx

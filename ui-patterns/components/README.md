@@ -20,6 +20,26 @@ updated: 2026-01-27
 
 # Component Patterns
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Component Types](#component-types)
+  - [Custom Components (Canvas)](#custom-components-canvas)
+  - [Code Components (PCF)](#code-components-pcf)
+- [Creating Canvas Components](#creating-canvas-components)
+  - [Basic Component Structure](#basic-component-structure)
+  - [Component Property Types](#component-property-types)
+  - [Example: Button with Loading State](#example-button-with-loading-state)
+- [Best Practices](#best-practices)
+  - [Component Design](#component-design)
+  - [Performance](#performance)
+  - [Reusability](#reusability)
+- [Folder Contents](#folder-contents)
+  - [[custom-components/](./custom-components/)](#custom-componentscustom-components)
+  - [[code-components/](./code-components/)](#code-componentscode-components)
+- [Related Resources](#related-resources)
+
 Reusable component patterns for Power Apps development.
 
 ## Overview

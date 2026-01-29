@@ -1,5 +1,7 @@
 # Power Apps Rock Stars
 
+## Table of Contents
+
 Sorted by GitHub Username: 
 
 - https://github.com/aprildunnam

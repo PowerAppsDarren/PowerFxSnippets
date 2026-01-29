@@ -17,6 +17,8 @@ license: "MIT"
 
 # Add Media
 
+## Table of Contents
+
 ```PowerFx
 - AddMediaButton2_1:
     Control: AddMedia

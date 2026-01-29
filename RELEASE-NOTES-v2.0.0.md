@@ -1,5 +1,16 @@
 # 🎉 PowerFxSnippets v2.0.0 - Repository Restructuring Complete
 
+## Table of Contents
+
+- [✨ What's New](#whats-new)
+  - [📁 New Organization Structure](#new-organization-structure)
+  - [📝 Standardized Content](#standardized-content)
+  - [🤖 Automation](#automation)
+  - [🛠️ Developer Tools](#developer-tools)
+- [📊 Statistics](#statistics)
+- [🙏 Acknowledgments](#acknowledgments)
+- [📚 Getting Started](#getting-started)
+
 This major release completes a comprehensive restructuring of the PowerFxSnippets repository, transforming it into a **feature-first architecture** for better navigation, discoverability, and developer experience.
 
 ## ✨ What's New
@@ -57,3 +68,10 @@ This restructuring was completed with the help of AI-assisted development tools,
 2. Check out the [tutorials](./learning/tutorials/)
 3. Review [Power Fx gotchas](./Reference/power-fx-gotchas.md)
 4. [Contribute](./CONTRIBUTING.md) your own snippets!
+---
+
+## History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-29 | Migration | Initial TOC and history section added |

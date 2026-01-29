@@ -1,5 +1,7 @@
 # Data ERDs
 
+## Table of Contents
+
 - [Draw DB](https://www.drawdb.app/)
     - [Templates](https://www.drawdb.app/templates)
 - [Draw SQL](https://drawsql.app/)

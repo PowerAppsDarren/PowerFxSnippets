@@ -1,5 +1,7 @@
 # Constants
 
+## Table of Contents
+
 ```PowerFx
 //
 // Code Readability - constants eliminate "magic numbers" and meaningless values in code by 

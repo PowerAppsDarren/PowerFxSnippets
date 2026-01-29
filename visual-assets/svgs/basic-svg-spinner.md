@@ -1,5 +1,7 @@
 # Basic-SVG-Spinner
 
+## Table of Contents
+
 Here's a basic SVG spinner that you can use in your Power Apps. 
 
 ```PowerFx

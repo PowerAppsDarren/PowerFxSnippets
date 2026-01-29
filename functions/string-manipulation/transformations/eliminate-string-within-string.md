@@ -17,6 +17,8 @@ updated: 2026-01-22
 license: "MIT"
 ---
 # Eliminate String Within String
+
+## Table of Contents
 ---
 
 ## History

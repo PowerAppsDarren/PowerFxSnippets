@@ -19,6 +19,8 @@ license: "MIT"
 ---
 # User Defined Types
 
+## Table of Contents
+
 Here are some examples of User Defined Types:
 
 ```PowerFx

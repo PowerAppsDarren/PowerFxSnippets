@@ -1,5 +1,7 @@
 # Theming
 
+## Table of Contents
+
 Be sure to check out these related topics:
 
 - [Colors](./colors.md)

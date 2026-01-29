@@ -19,6 +19,23 @@ updated: 2026-01-27
 
 # Menu Patterns
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Contents](#contents)
+- [Menu Types](#menu-types)
+  - [Side Navigation (Sidebar)](#side-navigation-sidebar)
+  - [Top Navigation (Navbar)](#top-navigation-navbar)
+  - [Tab Navigation](#tab-navigation)
+  - [Hamburger Menu](#hamburger-menu)
+- [Menu Item Structure](#menu-item-structure)
+- [Navigation Patterns](#navigation-patterns)
+  - [Basic Navigation](#basic-navigation)
+  - [With Parameters](#with-parameters)
+  - [Highlight Active Item](#highlight-active-item)
+- [Best Practices](#best-practices)
+- [Related Resources](#related-resources)
+
 Navigation and menu patterns for Power Apps canvas applications.
 
 ## Overview

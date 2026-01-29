@@ -1,108 +1,72 @@
-# RESUME.md - Project State
+# RESUME.md - PowerFxSnippets Project State
 
 ## Table of Contents
 
 - [Last Session](#last-session)
 - [Current State](#current-state)
-- [What Was Accomplished This Session (2026-01-21)](#what-was-accomplished-this-session-2026-01-21)
-  - [AI Chats Migration to Private Repo](#ai-chats-migration-to-private-repo)
-- [Previous Session (2025-12-18 - Latest)](#previous-session-2025-12-18-latest)
-  - [Error Kind Tooltip Feature](#error-kind-tooltip-feature)
-- [Previous Session (2025-12-18 - Late)](#previous-session-2025-12-18-late)
-  - [Mermaid Diagram Fix](#mermaid-diagram-fix)
-- [Previous Session (2025-12-18 - Earlier)](#previous-session-2025-12-18-earlier)
-  - [1. Error Handler Cooldown Feature](#1-error-handler-cooldown-feature)
-  - [2. Created Power Fx Gotchas Reference](#2-created-power-fx-gotchas-reference)
-  - [3. Updated CLAUDE.md with Verification Workflow](#3-updated-claudemd-with-verification-workflow)
-  - [4. Updated README.md](#4-updated-readmemd)
-  - [5. Updated User Profile (~/.claude/CLAUDE.md)](#5-updated-user-profile-claudeclaudemd)
-  - [Key Decisions](#key-decisions)
-- [Previous Session (2025-12-18 earlier)](#previous-session-2025-12-18-earlier)
-  - [Created Environment Variables & ALM Guide](#created-environment-variables-alm-guide)
+- [Repository Restructuring Status](#repository-restructuring-status)
+- [Outstanding Work (Priority Order)](#outstanding-work-priority-order)
 - [Folder Structure](#folder-structure)
-- [Next Steps (Pick Up Here)](#next-steps-pick-up-here)
+- [Search Indexes](#search-indexes)
+- [GitHub Automation In Place](#github-automation-in-place)
+- [Key Files](#key-files)
 - [Git Remotes](#git-remotes)
+- [Power Fx Gotchas](#power-fx-gotchas)
+- [Session History](#session-history)
 
 ## Last Session
-- **Date:** 2026-01-21
+
+- **Date:** 2026-01-29
 - **Model:** Claude Opus 4.5
+- **Activity:** Executed all outstanding recommendations from audit
 
 ## Current State
 
-Moved ai-chats folder to private repo. All remotes in sync.
-
 **Branch:** `main`
 
-## What Was Accomplished This Session (2026-01-21)
+Repository restructuring is **~94% complete**. All content migrated, old empty directories deleted, search indexes generated, TOC coverage at ~87%, tasks.md reconciled.
 
-### AI Chats Migration to Private Repo
-- **Moved:** `ai-chats/` folder (12 session folders, 49 files) → `PowerFxSnippets-Private/.ai-chats/`
-- **Reason:** AI chat history should not be in public repository
-- **Updated:** INDEX.md in private repo with all 13 sessions
-- **Commits:** `8f62a8e` (public), `6d54fad` (private)
+> **Full context:** See `PowerFxSnippets-Private/handoff.md` for the comprehensive handoff with task-level detail.
 
 ---
 
-## Previous Session (2025-12-18 - Latest)
+## Repository Restructuring Status
 
-### Error Kind Tooltip Feature
-- **File:** `errors/catch-all-errors.md`
-- **Feature:** Hover tooltips on Kind badges in error emails show description
-- **Implementation:** Added `fxErrorKinds` lookup table with all 28 error kinds
-- **Fix:** Used `Substitute()` to escape apostrophes in descriptions for HTML attribute safety
+| Phase | Description       | Status          |
+|-------|-------------------|-----------------|
+| **0** | File Standards    | ✅ ~99% Done    |
+| **1** | Foundation        | ✅ 100% Done    |
+| **2** | Content Migration | ✅ ~95% Done    |
+| **3** | Documentation     | ✅ ~95% Done    |
+| **4** | Automation        | ✅ ~90% Done    |
+| **5** | Cleanup           | ✅ ~90% Done    |
+| **6** | Launch            | ❌ Not Started  |
 
----
-
-## Previous Session (2025-12-18 - Late)
-
-### Mermaid Diagram Fix
-- **File:** `errors/catch-all-errors.md`
-- **Issue:** GitHub unable to render Mermaid diagram - parse error on pipe characters
-- **Fix:** Replaced `|` with `&#124;` HTML entities in flowchart node text
-- **Root cause:** Mermaid uses `|` for edge labels, so `Screen | Source | Message` inside a node was misinterpreted
+**TaskMaster tracking reconciled** - tasks.md now shows 111/143 (77.6%).
 
 ---
 
-## Previous Session (2025-12-18 - Earlier)
+## Outstanding Work (Priority Order)
 
-### 1. Error Handler Cooldown Feature
-- **File:** `errors/catch-all-errors.md`
-- **New config:** `fxErrorEmailCooldownSeconds = 10` (configurable)
-- **New field:** `LastEmailSentTime` in collection for cooldown tracking
-- **Behavior:** Same error can trigger new email after cooldown elapses
-- **Documentation:** Added Mermaid flowchart, timeline examples, behavior matrix
+### 1. Final Validation (Phase 5 remainder)
 
-### 2. Created Power Fx Gotchas Reference
-- **File:** `Reference/power-fx-gotchas.md`
-- **Purpose:** Document Power Fx quirks that differ from .NET/Excel/JavaScript
-- **Key content:**
-  - Date formatting rules (lowercase `mmm` not `MMM`)
-  - CRITICAL: `m`/`mm` is context-sensitive (month vs minutes based on position)
-  - Official docs link and verification workflow
+- Run snippet validator across all files
+- Final link check
 
-### 3. Updated CLAUDE.md with Verification Workflow
-- Added mandatory check for gotchas before writing ANY Power Fx code
-- Added 4-step verification workflow using `ref_search_documentation`
-- Added official docs URL
+### 2. Create MIGRATION-GUIDE.md (Phase 3 remainder)
 
-### 4. Updated README.md
-- Added link to Power Fx Gotchas in Repository Tools section
+- Complete old-to-new path mapping document
 
-### 5. Updated User Profile (~/.claude/CLAUDE.md)
-- Added rule: "Lead with recommended option first when presenting choices"
+### 3. Missing GitHub Workflows (Phase 4 remainder)
 
-### Key Decisions
-- PDF docs (54MB) exceeds 32MB limit - cannot be used
-- URL-based verification via `ref_search_documentation` is the best approach
-- Custom MCP deemed overkill - existing tools work well
+- `generate-indexes.yml` - auto-generate indexes on merge
+- `content-completeness.yml` - verify content on PR
 
----
+### 4. Phase 6 Launch
 
-## Previous Session (2025-12-18 earlier)
-
-### Created Environment Variables & ALM Guide
-- **File:** `app-lifecycle/environment-variables-sharepoint-alm-guide.md`
-- Complete deployment checklist for Power Platform solutions
+- Create GitHub Release (v2.0.0 release notes exist)
+- Community announcement
+- Monitoring/feedback setup
 
 ---
 
@@ -111,35 +75,115 @@ Moved ai-chats folder to private repo. All remotes in sync.
 ```
 PowerFxSnippets/
 ├── app-lifecycle/          # App formulas, OnStart, OnError, ALM guides
-├── data-operations/        # Data sources and samples
-├── functions/              # Algorithms, built-in, user-defined
+├── ui-controls/            # Gallery, buttons, inputs, charts, etc.
+├── ui-patterns/            # Components, dialogs, menus, theming
+├── visual-assets/          # SVGs, icons, colors, fonts, emojis
+├── data-operations/        # Data sources, samples, JSON, geocoding
+├── functions/              # Algorithms, built-in, UDFs, string manipulation
 ├── integrations/           # Connectors, Power Automate
 ├── learning/               # Best practices, certification, tutorials
-├── Reference/              # Power Fx gotchas and syntax references (NEW)
-├── ui-controls/            # Gallery, buttons, inputs, etc.
-├── ui-patterns/            # Components, dialogs, menus, theming
-├── utilities/              # Tools and scripts
-└── visual-assets/          # Colors, SVGs
+├── utilities/              # Tools, templates, scripts
+├── Reference/              # Power Fx gotchas and syntax reference
+├── .github/                # Workflows, issue templates, PR template
+├── SEARCH-INDEX.md         # Searchable snippet catalog
+├── TAG-INDEX.md            # Snippets organized by tag
+├── DIFFICULTY-INDEX.md     # Snippets organized by difficulty
+├── CONTRIBUTING.md         # Contribution guidelines
+├── CODE_OF_CONDUCT.md      # Community standards
+└── README.md               # Main entry point
 ```
 
-## Next Steps (Pick Up Here)
+---
 
-1. **Add more gotchas** to `Reference/power-fx-gotchas.md` as discovered
-2. **Test error handler cooldown** in a real Power App
-3. **Continue Phase 2 migrations** from spec kit tasks
-4. **Fix broken internal links** (T202)
+## Search Indexes
+
+Generated 2026-01-29 from 100 snippets with YAML frontmatter:
+
+| Index               | Description                              |
+|---------------------|------------------------------------------|
+| `SEARCH-INDEX.md`   | Full catalog by category and subcategory |
+| `TAG-INDEX.md`      | Snippets grouped by tag                  |
+| `DIFFICULTY-INDEX.md` | Snippets by difficulty level           |
+
+---
+
+## GitHub Automation In Place
+
+### Workflows
+
+- `validate-snippets.yml` - Validates YAML frontmatter on PRs
+- `check-links.yml` - Checks for broken links
+
+### Issue Templates
+
+- `bug-report.md`, `feature-request.md`, `documentation-improvement.md`, `snippet-submission.md`
+
+### Other
+
+- `PULL_REQUEST_TEMPLATE.md` - PR checklist
+- `CONTRIBUTING.md` - 13.7 KB comprehensive guide
+
+---
+
+## Key Files
+
+| Purpose                  | Path                                                  |
+|--------------------------|-------------------------------------------------------|
+| Claude Code guidance     | `CLAUDE.md`                                           |
+| This handoff             | `RESUME.md`                                           |
+| Main README              | `README.md`                                           |
+| Power Fx gotchas         | `Reference/power-fx-gotchas.md`                       |
+| Contribution guide       | `CONTRIBUTING.md`                                     |
+| Full project handoff     | `../PowerFxSnippets-Private/handoff.md`               |
+| Task tracking            | `../PowerFxSnippets-Private/.taskmaster/features/001-repository-restructure/tasks.md` |
+
+---
 
 ## Git Remotes
 
-| Remote | URL                                                              |
-|--------|------------------------------------------------------------------|
-| origin | ssh://git@git.superpowerlabs.app:2222/darren/PowerFxSnippets.git |
-| alt    | ssh://git@pool:2222/darren/PowerFxSnippets.git                   |
-| github | git@github.com:PowerAppsDarren/PowerFxSnippets.git               |
+| Remote   | URL                                                                |
+|----------|--------------------------------------------------------------------|
+| origin   | `ssh://git@git.superpowerlabs.app:2222/darren/PowerFxSnippets.git` |
+| alt      | `ssh://git@pool:2222/darren/PowerFxSnippets.git`                   |
+| github   | `git@github.com:PowerAppsDarren/PowerFxSnippets.git`               |
+
+---
+
+## Power Fx Gotchas
+
+Before writing ANY Power Fx code:
+- Check `Reference/power-fx-gotchas.md` (restored 2026-01-29)
+- `m`/`mm` is context-sensitive (month vs minutes in Power Fx)
+- Power Fx is NOT .NET, Excel, or JavaScript
+- Use `ref_search_documentation` to verify syntax
+- Official docs: https://learn.microsoft.com/en-us/power-platform/power-fx/overview
+
+---
+
+## Session History
+
+| Session | Date       | Key Accomplishments                                                                       |
+|---------|------------|-------------------------------------------------------------------------------------------|
+| **6**   | 2026-01-29 | All recommendations executed: 50 TOCs, 9 dirs deleted, gotchas restored, 3 indexes, tasks.md reconciled |
+| **5**   | 2026-01-28 | Full audit, handoff refresh, discrepancy analysis                                         |
+| **4**   | 2026-01-27 | 3 parallel agents: TOC/History (217 files), migrations (28 files), docs/Actions           |
+| **3**   | 2026-01-21 | AI chats migration to private repo; Phase 2 functions migration                           |
+| **2**   | 2026-01-08 | Gallery migration complete; link fixes verified; Phase 0 100%                             |
+| **1**   | 2026-01-07 | TaskMaster migration; 3 parallel agents: links, validation tools, migration tools         |
+
+### Previous Session Notes (Archived)
+
+- **2025-12-18:** Error Kind tooltip feature, Mermaid diagram fix, cooldown feature, Power Fx gotchas reference created
+- **2025-12-18 (earlier):** Environment Variables & ALM Guide created
+
 ---
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2026-01-27 | Migration | Initial TOC and history section added |
+| Date       | Author | Changes                                                      |
+|------------|--------|--------------------------------------------------------------|
+| 2026-01-29 | Claude | Session 6: all recommendations executed, indexes generated   |
+| 2026-01-28 | Claude | Complete rewrite - audit-based, reconciled with true state   |
+| 2026-01-27 | Claude | Migration: Initial TOC and history section added             |
+| 2026-01-21 | Claude | Updated with AI chats migration summary                      |
+| 2025-12-18 | Claude | Error handler cooldown, gotchas reference, CLAUDE.md updates |

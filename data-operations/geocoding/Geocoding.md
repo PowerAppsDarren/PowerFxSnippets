@@ -1,5 +1,7 @@
 # Geocoding
 
+## Table of Contents
+
 Resources and patterns for geocoding in Power Apps.
 ---
 

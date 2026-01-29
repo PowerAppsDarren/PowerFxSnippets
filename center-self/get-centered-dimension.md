@@ -1,5 +1,7 @@
 # Get Centered Dimension (X or Y for Self)
 
+## Table of Contents
+
 Need to center a control in relation to its parent dimension? Use this formula to get the X or Y value for the control.
 
 ```PowerFx
