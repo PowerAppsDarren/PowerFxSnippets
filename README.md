@@ -7,11 +7,13 @@
 [![GitHub PRs](https://img.shields.io/github/issues-pr/PowerAppsDarren/PowerFxSnippets)](https://github.com/PowerAppsDarren/PowerFxSnippets/pulls)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
-## 🎉 What's New in 2026
+## 🎉 What's New -- v2.0.0 Release
 
 **Major repository restructuring complete!** The repository has been reorganized with a **feature-first architecture** for better navigation, discoverability, and developer experience.
 
-### ✅ New Structure (Complete)
+📣 **[Read the full v2.0.0 Announcement](./docs/ANNOUNCEMENT-v2.0.0.md)** | 📋 **[Release Notes](./RELEASE-NOTES-v2.0.0.md)**
+
+### ✅ New Structure (9 Categories)
 
 | Category | Description | Highlights |
 |----------|-------------|------------|
@@ -25,23 +27,105 @@
 | 🎓 **[learning/](./learning)** | Educational content | Tutorials, certification, best practices |
 | 🧰 **[utilities/](./utilities)** | Tools & templates | Validation scripts, templates |
 
-### 🆕 January 2026 Updates
+### 🆕 January 2026 Highlights
 
 - **468 markdown files** with standardized structure
 - **YAML frontmatter** on all snippets for searchability
 - **Table of Contents** auto-generated in all files
-- **History sections** tracking changes
-- **GitHub Actions** for validation and link checking
-- **Issue templates** for snippet submissions
+- **History sections** tracking changes in every file
+- **GitHub Actions** for automated snippet validation and weekly link checking
+- **Unit test coverage** for all repository tools (validator, index generator, migration helper)
+- **Issue & PR templates** for consistent contributions
+- **[PRODUCT-INDEX.md](./PRODUCT-INDEX.md)** -- Browse snippets by Power Platform product
+- **[MIGRATION-GUIDE.md](./MIGRATION-GUIDE.md)** -- Find where your old bookmarks moved
 
-📋 **[View Migration Details](./new-structure-claude-code.md)**
+📋 **[View Migration Details](./MIGRATION-GUIDE.md)** | 🔍 **[Browse by Product](./PRODUCT-INDEX.md)**
 
 ## 🚀 Quick Start
 
 **New to Power Fx?** Start here:
-- [📚 Getting Started Guide](./README.md)
-- [💡 Hello World Examples](learning/tutorials/getting-started/hello-world)
-- 🔧 Common Patterns (Coming Soon)
+- [📚 Getting Started Guide](./learning/tutorials/getting-started)
+- [💡 Hello World Examples](./learning/tutorials/getting-started/hello-world)
+- [⚠️ Power Fx Gotchas](./Reference/power-fx-gotchas.md) -- Syntax quirks that differ from .NET/Excel/JavaScript
+
+### Copy-Paste Code Examples
+
+**1. Detect if the app is running in Studio (edit) mode:**
+
+```powerfx
+// Named formula -- place in App.Formulas
+fxIsInStudioMode = StartsWith(Host.Version, "PowerApps-Studio");
+```
+> Source: [app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md](./app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md)
+
+**2. Alternating row colors (zebra striping) in a Gallery:**
+
+```powerfx
+// Set TemplateFill on your Gallery control
+If(
+    Mod(ThisItem.OrderNumber, 2) = 0,
+    Color.White,
+    ColorFade(App.Theme.Colors.Lighter80, 50%)
+)
+```
+> Source: [ui-controls/gallery/styling/alternating-row-colors.md](./ui-controls/gallery/styling/alternating-row-colors.md)
+
+**3. Convert a Color value to its hex string:**
+
+```powerfx
+// User-defined function -- place in App.Formulas
+fxGetHexFromColor(ColorValue: Color): Text = Left(
+    Substitute(
+        JSON(ColorValue, JSONFormat.Compact),
+        """",
+        ""
+    ),
+    7
+);
+```
+> Source: [ui-patterns/theming/Theming.md](./ui-patterns/theming/Theming.md)
+
+**4. Random screen transition effect (UDF):**
+
+```powerfx
+// User-defined function -- place in App.Formulas
+fxRandomScreenTransition(): Text =
+    With(
+        { RandomNumber: RandBetween(1, 5) },
+        Switch(
+            RandomNumber,
+            1, ScreenTransition.Cover,
+            2, ScreenTransition.CoverRight,
+            3, ScreenTransition.Fade,
+            4, ScreenTransition.UnCover,
+            5, ScreenTransition.UnCoverRight,
+            ScreenTransition.None
+        )
+    );
+```
+> Source: [app-lifecycle/formulas/user-defined-functions/screen-transition-random.md](./app-lifecycle/formulas/user-defined-functions/screen-transition-random.md)
+
+**5. Parse JSON returned from a Power Automate flow:**
+
+```powerfx
+UpdateContext(
+    {
+        locFlowResult: ParseJSON(MyFlow.Run(ThisItem.URL).response).value
+    }
+);
+ClearCollect(
+    colParsedData,
+    ForAll(
+        locFlowResult As MyRecord,
+        {
+            Name:        Text(MyRecord.Name),
+            DisplayName: Text(MyRecord.DisplayName),
+            Type:        Text(MyRecord.Type)
+        }
+    )
+);
+```
+> Source: [data-operations/json/parsing-flows-json.md](./data-operations/json/parsing-flows-json.md)
 
 ## 📖 Table of Contents
 
@@ -70,16 +154,26 @@
 ## 🔥 Popular Snippets
 
 ### Quick Wins (5 minutes or less)
-- 🔍 People Picker ComboBox (Coming Soon)
-- 🎨 Dynamic Theme Colors (Coming Soon)
-- 💾 Offline Data Sync (Coming Soon)
-- ⚡ Performance Optimization (Coming Soon)
+
+| Snippet | Category | Difficulty |
+|---------|----------|------------|
+| [Alternating Row Colors](./ui-controls/gallery/styling/alternating-row-colors.md) | ui-controls / gallery | Intermediate |
+| [Detect Studio Mode](./app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md) | app-lifecycle / formulas | Beginner |
+| [Color to Hex Conversion](./ui-patterns/theming/Theming.md) | ui-patterns / theming | Intermediate |
+| [Random Screen Transition](./app-lifecycle/formulas/user-defined-functions/screen-transition-random.md) | app-lifecycle / formulas | Beginner |
+| [Error Kinds Collection](./app-lifecycle/formulas/collections/error-kinds.md) | app-lifecycle / formulas | Beginner |
 
 ### Advanced Solutions
-- 🏗️ Custom Component Library (Coming Soon)
-- 🔐 Row-Level Security (Coming Soon)
-- 📊 Real-time Dashboard (Coming Soon)
-- 🤖 AI Integration (Coming Soon)
+
+| Snippet | Category | Difficulty |
+|---------|----------|------------|
+| [Responsive Hero Cards Gallery](./ui-controls/gallery/layouts/responsive-gallery.md) | ui-controls / gallery | Intermediate |
+| [Get Manager Rollup (Org Hierarchy)](./integrations/connectors/office365-users/get-manager-rollup.md) | integrations / Office 365 | Advanced |
+| [Parse JSON from Power Automate Flows](./data-operations/json/parsing-flows-json.md) | data-operations / json | Intermediate |
+| [Proportional Value Calculator (UDF)](./app-lifecycle/formulas/user-defined-functions/fxfindproportionalvalue.md) | app-lifecycle / formulas | Intermediate |
+| [Microsoft Base Themes](./ui-patterns/theming/Microsoft-Base-Themes.md) | ui-patterns / theming | Beginner |
+
+> **Browse all snippets:** [By Category](#-core-categories) | [By Product](./PRODUCT-INDEX.md) | [By Tag](./SEARCH-INDEX.md)
 
 ## 🎯 How to Use This Repository
 
@@ -165,6 +259,23 @@ Power Fx is the low-code language that powers Microsoft Power Platform applicati
 - 📚 **Microsoft Learn**: [Power Fx documentation](https://learn.microsoft.com/en-us/power-platform/power-fx/)
 - 🎓 **Training**: [Power Apps training](https://learn.microsoft.com/en-us/training/paths/create-powerapps/)
 
+## ❓ FAQ / Troubleshooting
+
+**Where did my old bookmark go?**
+The repository was restructured in v2.0.0 (January 2026). All files were reorganized into 9 feature-based categories. See the **[Migration Guide](./MIGRATION-GUIDE.md)** for a complete mapping of old paths to new locations.
+
+**How do I find snippets by product (Canvas Apps, Model-Driven, Power Automate)?**
+Check the **[Product Index](./PRODUCT-INDEX.md)** which groups every snippet by the Power Platform product it applies to.
+
+**How do I contribute a snippet?**
+Read the **[Contributing Guide](./CONTRIBUTING.md)** for instructions on adding snippets, reporting issues, or proposing improvements. Every snippet needs YAML frontmatter, a clear description, and working Power Fx code.
+
+**Power Fx is not working the way I expected.**
+Power Fx has important syntax differences from .NET, Excel, and JavaScript. Before debugging further, read the **[Power Fx Gotchas](./Reference/power-fx-gotchas.md)** document -- especially the section on date/time formatting where `m`/`mm` is context-sensitive.
+
+**How do I validate my snippet before submitting?**
+Run the snippet validator tool: `python utilities/tools/snippet-validator.py your-file.md`. This checks YAML frontmatter, required fields, and valid category/tag values.
+
 ## 📄 License
 
 This repository is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
@@ -185,6 +296,7 @@ This repository is licensed under the MIT License - see the [LICENSE](./LICENSE)
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2026-01-27 | Migration | Initial TOC and history section added |
+| Date       | Author    | Changes                                                                      |
+|------------|-----------|------------------------------------------------------------------------------|
+| 2026-01-29 | Phase 6   | v2.0.0 launch updates: enhanced Quick Start, Popular Snippets, FAQ, What's New |
+| 2026-01-27 | Migration | Initial TOC and history section added                                        |
