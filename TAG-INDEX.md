@@ -1,2703 +1,1347 @@
-# PowerFx Snippets - Tag Index
-
-**Generated:** 2026-01-29 01:42:13
-
-**Total Tags:** 279
-
----
-
-## All Tags
-
-- [`538`](#538) (2 snippets)
-- [`ColorFade`](#ColorFade) (1 snippets)
-- [`ColorValue`](#ColorValue) (3 snippets)
-- [`HSL`](#HSL) (1 snippets)
-- [`HSV`](#HSV) (2 snippets)
-- [`IsBlank`](#IsBlank) (1 snippets)
-- [`JSON`](#JSON) (1 snippets)
-- [`Microsoft`](#Microsoft) (1 snippets)
-- [`Power-Apps`](#PowerApps) (1 snippets)
-- [`RGB`](#RGB) (5 snippets)
-- [`RGBA`](#RGBA) (4 snippets)
-- [`accessibility`](#accessibility) (4 snippets)
-- [`achromatomaly`](#achromatomaly) (1 snippets)
-- [`action-property`](#actionproperty) (1 snippets)
-- [`adaptive`](#adaptive) (1 snippets)
-- [`advanced`](#advanced) (1 snippets)
-- [`alm`](#alm) (1 snippets)
-- [`alternating-colors`](#alternatingcolors) (1 snippets)
-- [`animation`](#animation) (1 snippets)
-- [`ascii`](#ascii) (1 snippets)
-- [`attachments`](#attachments) (2 snippets)
-- [`authentication`](#authentication) (1 snippets)
-- [`auto-add`](#autoadd) (1 snippets)
-- [`automotive`](#automotive) (1 snippets)
-- [`avatar`](#avatar) (1 snippets)
-- [`azure-ad`](#azuread) (1 snippets)
-- [`badge`](#badge) (1 snippets)
-- [`bar-chart`](#barchart) (1 snippets)
-- [`basic`](#basic) (1 snippets)
-- [`basic-info`](#basicinfo) (1 snippets)
-- [`basics`](#basics) (1 snippets)
-- [`beginner`](#beginner) (1 snippets)
-- [`behavior`](#behavior) (2 snippets)
-- [`best-practices`](#bestpractices) (4 snippets)
-- [`branding`](#branding) (2 snippets)
-- [`bulk-operations`](#bulkoperations) (2 snippets)
-- [`button`](#button) (1 snippets)
-- [`calculation`](#calculation) (1 snippets)
-- [`calendar`](#calendar) (1 snippets)
-- [`canvas`](#canvas) (1 snippets)
-- [`canvas-component`](#canvascomponent) (2 snippets)
-- [`cards`](#cards) (1 snippets)
-- [`cars`](#cars) (1 snippets)
-- [`categorized`](#categorized) (1 snippets)
-- [`chart`](#chart) (2 snippets)
-- [`checkerboard`](#checkerboard) (1 snippets)
-- [`chronological`](#chronological) (1 snippets)
-- [`cities`](#cities) (1 snippets)
-- [`classic`](#classic) (1 snippets)
-- [`code`](#code) (1 snippets)
-- [`code-organization`](#codeorganization) (1 snippets)
-- [`collection`](#collection) (5 snippets)
-- [`collections`](#collections) (1 snippets)
-- [`color-blindness`](#colorblindness) (2 snippets)
-- [`color-conversion`](#colorconversion) (6 snippets)
-- [`colors`](#colors) (1 snippets)
-- [`columns`](#columns) (2 snippets)
-- [`comments`](#comments) (1 snippets)
-- [`component`](#component) (4 snippets)
-- [`components`](#components) (1 snippets)
-- [`comprehensive`](#comprehensive) (1 snippets)
-- [`connection-references`](#connectionreferences) (1 snippets)
-- [`constants`](#constants) (1 snippets)
-- [`container`](#container) (1 snippets)
-- [`contrast`](#contrast) (1 snippets)
-- [`controls`](#controls) (1 snippets)
-- [`conventions`](#conventions) (1 snippets)
-- [`countries`](#countries) (2 snippets)
-- [`cross-tenant`](#crosstenant) (1 snippets)
-- [`csv`](#csv) (11 snippets)
-- [`cursor`](#cursor) (1 snippets)
-- [`data`](#data) (4 snippets)
-- [`data-generation`](#datageneration) (1 snippets)
-- [`data-operations`](#dataoperations) (1 snippets)
-- [`data-structure`](#datastructure) (1 snippets)
-- [`data-structures`](#datastructures) (1 snippets)
-- [`database`](#database) (2 snippets)
-- [`datacard`](#datacard) (1 snippets)
-- [`datasets`](#datasets) (2 snippets)
-- [`datatable`](#datatable) (1 snippets)
-- [`date`](#date) (1 snippets)
-- [`debug`](#debug) (1 snippets)
-- [`debugging`](#debugging) (1 snippets)
-- [`declarative`](#declarative) (1 snippets)
-- [`decoding`](#decoding) (1 snippets)
-- [`delimiter`](#delimiter) (1 snippets)
-- [`demographics`](#demographics) (1 snippets)
-- [`demonyms`](#demonyms) (1 snippets)
-- [`deployment`](#deployment) (1 snippets)
-- [`design`](#design) (4 snippets)
-- [`diagram`](#diagram) (1 snippets)
-- [`direct-reports`](#directreports) (1 snippets)
-- [`directory`](#directory) (1 snippets)
-- [`display`](#display) (1 snippets)
-- [`diverse-types`](#diversetypes) (1 snippets)
-- [`documentation`](#documentation) (2 snippets)
-- [`dropdown`](#dropdown) (1 snippets)
-- [`dynamic`](#dynamic) (1 snippets)
-- [`editor`](#editor) (1 snippets)
-- [`elegant`](#elegant) (1 snippets)
-- [`email`](#email) (1 snippets)
-- [`employees`](#employees) (2 snippets)
-- [`empty-check`](#emptycheck) (1 snippets)
-- [`encoding`](#encoding) (1 snippets)
-- [`entertainment`](#entertainment) (1 snippets)
-- [`entra`](#entra) (1 snippets)
-- [`enum`](#enum) (1 snippets)
-- [`environment`](#environment) (1 snippets)
-- [`environment-variables`](#environmentvariables) (1 snippets)
-- [`error-handling`](#errorhandling) (1 snippets)
-- [`errors`](#errors) (1 snippets)
-- [`event-property`](#eventproperty) (1 snippets)
-- [`events`](#events) (1 snippets)
-- [`exact-match`](#exactmatch) (1 snippets)
-- [`export`](#export) (1 snippets)
-- [`expression`](#expression) (6 snippets)
-- [`extended-theme`](#extendedtheme) (1 snippets)
-- [`external-links`](#externallinks) (1 snippets)
-- [`fields`](#fields) (1 snippets)
-- [`file-types`](#filetypes) (1 snippets)
-- [`files`](#files) (1 snippets)
-- [`first-steps`](#firststeps) (1 snippets)
-- [`fivethirtyeight`](#fivethirtyeight) (1 snippets)
-- [`fleet-management`](#fleetmanagement) (1 snippets)
-- [`fluidgrid`](#fluidgrid) (1 snippets)
-- [`forall`](#forall) (1 snippets)
-- [`form`](#form) (1 snippets)
-- [`formatting`](#formatting) (1 snippets)
-- [`formulas`](#formulas) (1 snippets)
-- [`fraction`](#fraction) (1 snippets)
-- [`fundamentals`](#fundamentals) (1 snippets)
-- [`gallery`](#gallery) (13 snippets)
-- [`geography`](#geography) (3 snippets)
-- [`gradients`](#gradients) (1 snippets)
-- [`grid`](#grid) (1 snippets)
-- [`guide`](#guide) (1 snippets)
-- [`guidelines`](#guidelines) (2 snippets)
-- [`header`](#header) (1 snippets)
-- [`headers`](#headers) (1 snippets)
-- [`hero-cards`](#herocards) (1 snippets)
-- [`hex`](#hex) (2 snippets)
-- [`hierarchy`](#hierarchy) (2 snippets)
-- [`hr`](#hr) (1 snippets)
-- [`human-resources`](#humanresources) (1 snippets)
-- [`humor`](#humor) (1 snippets)
-- [`icon`](#icon) (1 snippets)
-- [`icons`](#icons) (4 snippets)
-- [`identity`](#identity) (1 snippets)
-- [`image`](#image) (2 snippets)
-- [`images`](#images) (2 snippets)
-- [`input`](#input) (3 snippets)
-- [`international`](#international) (1 snippets)
-- [`ismatch`](#ismatch) (1 snippets)
-- [`iso-codes`](#isocodes) (2 snippets)
-- [`iteration`](#iteration) (1 snippets)
-- [`jokes`](#jokes) (1 snippets)
-- [`json`](#json) (3 snippets)
-- [`kanban`](#kanban) (1 snippets)
-- [`label`](#label) (2 snippets)
-- [`labels`](#labels) (1 snippets)
-- [`large-dataset`](#largedataset) (1 snippets)
-- [`layout`](#layout) (12 snippets)
-- [`linear`](#linear) (1 snippets)
-- [`loading`](#loading) (1 snippets)
-- [`luminance`](#luminance) (2 snippets)
-- [`manager`](#manager) (1 snippets)
-- [`mass-updates`](#massupdates) (1 snippets)
-- [`math`](#math) (1 snippets)
-- [`media`](#media) (1 snippets)
-- [`menu`](#menu) (1 snippets)
-- [`metadata`](#metadata) (1 snippets)
-- [`mockaroo`](#mockaroo) (1 snippets)
-- [`mod-function`](#modfunction) (1 snippets)
-- [`modern`](#modern) (2 snippets)
-- [`named-formula`](#namedformula) (3 snippets)
-- [`named-formulas`](#namedformulas) (1 snippets)
-- [`naming`](#naming) (2 snippets)
-- [`nationalities`](#nationalities) (1 snippets)
-- [`navigation`](#navigation) (2 snippets)
-- [`nested`](#nested) (1 snippets)
-- [`nord-theme`](#nordtheme) (1 snippets)
-- [`numbers`](#numbers) (1 snippets)
-- [`office365`](#office365) (5 snippets)
-- [`outlook`](#outlook) (1 snippets)
-- [`padding`](#padding) (1 snippets)
-- [`palette`](#palette) (1 snippets)
-- [`parent-child`](#parentchild) (1 snippets)
-- [`pattern`](#pattern) (1 snippets)
-- [`pattern-matching`](#patternmatching) (1 snippets)
-- [`patterns`](#patterns) (1 snippets)
-- [`people`](#people) (1 snippets)
-- [`performance`](#performance) (1 snippets)
-- [`photos`](#photos) (1 snippets)
-- [`politics`](#politics) (1 snippets)
-- [`position`](#position) (1 snippets)
-- [`primary-functionality`](#primaryfunctionality) (1 snippets)
-- [`priority`](#priority) (1 snippets)
-- [`profile`](#profile) (3 snippets)
-- [`proportion`](#proportion) (1 snippets)
-- [`random`](#random) (2 snippets)
-- [`rectangle`](#rectangle) (1 snippets)
-- [`reference`](#reference) (1 snippets)
-- [`regex`](#regex) (2 snippets)
-- [`relationships`](#relationships) (2 snippets)
-- [`resources`](#resources) (2 snippets)
-- [`responsive`](#responsive) (3 snippets)
-- [`reusable-logic`](#reusablelogic) (1 snippets)
-- [`role-based`](#rolebased) (1 snippets)
-- [`rollup`](#rollup) (1 snippets)
-- [`sRGB`](#sRGB) (1 snippets)
-- [`sample`](#sample) (1 snippets)
-- [`sample-data`](#sampledata) (13 snippets)
-- [`schema`](#schema) (4 snippets)
-- [`sequence`](#sequence) (1 snippets)
-- [`setfocus`](#setfocus) (2 snippets)
-- [`shadow`](#shadow) (1 snippets)
-- [`sharepoint`](#sharepoint) (2 snippets)
-- [`slider`](#slider) (1 snippets)
-- [`solutions`](#solutions) (1 snippets)
-- [`spacer`](#spacer) (1 snippets)
-- [`spinner`](#spinner) (1 snippets)
-- [`sql`](#sql) (1 snippets)
-- [`standardization`](#standardization) (1 snippets)
-- [`standards`](#standards) (1 snippets)
-- [`statistics`](#statistics) (2 snippets)
-- [`status`](#status) (2 snippets)
-- [`string-removal`](#stringremoval) (1 snippets)
-- [`string-search`](#stringsearch) (1 snippets)
-- [`studio-mode`](#studiomode) (1 snippets)
-- [`styling`](#styling) (2 snippets)
-- [`substring`](#substring) (1 snippets)
-- [`svg`](#svg) (1 snippets)
-- [`syntax`](#syntax) (2 snippets)
-- [`table`](#table) (1 snippets)
-- [`table-lookup`](#tablelookup) (1 snippets)
-- [`tabular`](#tabular) (1 snippets)
-- [`tag1`](#tag1) (3 snippets)
-- [`tag2`](#tag2) (3 snippets)
-- [`tag3`](#tag3) (2 snippets)
-- [`tasks`](#tasks) (1 snippets)
-- [`template`](#template) (1 snippets)
-- [`territories`](#territories) (1 snippets)
-- [`testing`](#testing) (1 snippets)
-- [`text`](#text) (3 snippets)
-- [`text-extraction`](#textextraction) (1 snippets)
-- [`text-input`](#textinput) (1 snippets)
-- [`text-processing`](#textprocessing) (1 snippets)
-- [`text-transformation`](#texttransformation) (1 snippets)
-- [`theme`](#theme) (2 snippets)
-- [`time-format`](#timeformat) (1 snippets)
-- [`timeline`](#timeline) (1 snippets)
-- [`toc`](#toc) (1 snippets)
-- [`toolkit`](#toolkit) (1 snippets)
-- [`tools`](#tools) (1 snippets)
-- [`trademarks`](#trademarks) (1 snippets)
-- [`transition`](#transition) (1 snippets)
-- [`tutorial`](#tutorial) (1 snippets)
-- [`type-safety`](#typesafety) (1 snippets)
-- [`type-system`](#typesystem) (1 snippets)
-- [`types`](#types) (2 snippets)
-- [`udf`](#udf) (5 snippets)
-- [`udt`](#udt) (3 snippets)
-- [`ui`](#ui) (8 snippets)
-- [`upload`](#upload) (2 snippets)
-- [`url-encoding`](#urlencoding) (1 snippets)
-- [`user-defined-function`](#userdefinedfunction) (5 snippets)
-- [`user-defined-functions`](#userdefinedfunctions) (1 snippets)
-- [`user-defined-types`](#userdefinedtypes) (1 snippets)
-- [`users`](#users) (4 snippets)
-- [`ux`](#ux) (1 snippets)
-- [`validation`](#validation) (3 snippets)
-- [`vehicles`](#vehicles) (2 snippets)
-- [`vertical`](#vertical) (2 snippets)
-- [`video`](#video) (1 snippets)
-- [`visualization`](#visualization) (2 snippets)
-- [`web-colors`](#webcolors) (3 snippets)
-- [`whitespace`](#whitespace) (1 snippets)
-- [`world-data`](#worlddata) (1 snippets)
-- [`zebra-striping`](#zebrastriping) (2 snippets)
-
----
-
-## `538`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [538 Data Sample Directory](data-operations\samples\538-data\538-data.md) | data-management | beginner | Directory of sample datasets from FiveThirtyEight (538) f... |
-| [Sample Data: FiveThirtyEight Data Index](data-operations\samples\538-data\index.md) | data-operations | intermediate | Index of FiveThirtyEight (538) open datasets for politica... |
-
-## `ColorFade`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Palettes](visual-assets\colors\palettes\color-palettes.md) | colors/palettes | N/A | Simple color palette configuration for Power Apps with pr... |
-
-## `ColorValue`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Collection](visual-assets\colors\palettes\color-collection.md) | colors/palettes | N/A | All 140 web colors defined as a Power Apps collection wit... |
-| [Color Palettes](visual-assets\colors\palettes\color-palettes.md) | colors/palettes | N/A | Simple color palette configuration for Power Apps with pr... |
-| [Web Colors](visual-assets\colors\palettes\web-colors.md) | colors/palettes | N/A | Complete collection of 140 web colors with names, hex cod... |
-
-## `HSL`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [RGB to HSL Conversion](visual-assets\colors\functions\rgb-2-hsl.md) | colors/functions | N/A | Convert RGB color values to HSL (Hue, Saturation, Lightne... |
-
-## `HSV`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [HSV to RGB Conversion](visual-assets\colors\functions\hsv-2-rgb.md) | colors/functions | N/A | Convert HSV (Hue, Saturation, Value) color values to RGB ... |
-| [RGB to HSV Conversion](visual-assets\colors\functions\rgb-2-hsv.md) | colors/functions | N/A | Convert RGB color values to HSV (Hue, Saturation, Value) ... |
-
-## `IsBlank`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [String Is Empty](functions\string-manipulation\validation\string-is-empty.md) | business-logic | beginner | User-defined function to check if a string is empty or co... |
-
-## `JSON`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [fxGetHexFromColor](visual-assets\colors\functions\fxgethexfromcolor.md) | colors/functions | N/A | User-defined function to convert a Power Apps Color value... |
-
-## `Microsoft`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Microsoft Power Apps Style](visual-assets\colors\palettes\microsoft-power-apps.md) | colors/palettes | N/A | Links to Microsoft's official branding and trademark guid... |
-
-## `Power-Apps`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Power Apps Color Palette](visual-assets\colors\palettes\color-palette-pa.md) | colors/palettes | N/A | Extended theme configuration with Power Apps branding col... |
-
-## `RGB`
-
-**5 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [HEX to RGB Conversion](visual-assets\colors\functions\hex-2-rgb.md) | colors/functions | N/A | Convert hexadecimal color codes to RGB values in Power Fx |
-| [HSV to RGB Conversion](visual-assets\colors\functions\hsv-2-rgb.md) | colors/functions | N/A | Convert HSV (Hue, Saturation, Value) color values to RGB ... |
-| [RGB to HSL Conversion](visual-assets\colors\functions\rgb-2-hsl.md) | colors/functions | N/A | Convert RGB color values to HSL (Hue, Saturation, Lightne... |
-| [RGB to HSV Conversion](visual-assets\colors\functions\rgb-2-hsv.md) | colors/functions | N/A | Convert RGB color values to HSV (Hue, Saturation, Value) ... |
-| [RGB to Linear Conversion](visual-assets\colors\functions\rgb-2-lin.md) | colors/functions | N/A | Convert sRGB color values to linearized values for accura... |
-
-## `RGBA`
-
-**4 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Functions Component](visual-assets\colors\functions\color-functions.md) | colors/functions | N/A | Canvas component with accessibility color functions for c... |
-| [HEX to RGB Conversion](visual-assets\colors\functions\hex-2-rgb.md) | colors/functions | N/A | Convert hexadecimal color codes to RGB values in Power Fx |
-| [HSV to RGB Conversion](visual-assets\colors\functions\hsv-2-rgb.md) | colors/functions | N/A | Convert HSV (Hue, Saturation, Value) color values to RGB ... |
-| [Luminance Calculation](visual-assets\colors\functions\luminance.md) | colors/functions | N/A | Calculate luminance values for accessibility and color bl... |
-
-## `accessibility`
-
-**4 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Attachment Control](ui-controls\attachment\attachment-control.md) | ui-controls | beginner | Examples of basic and advanced Attachment controls with a... |
-| [Color Functions Component](visual-assets\colors\functions\color-functions.md) | colors/functions | N/A | Canvas component with accessibility color functions for c... |
-| [Color Functions Template](visual-assets\colors\palettes\color-template.md) | colors/palettes | N/A | Canvas component template for color accessibility functio... |
-| [Luminance Calculation](visual-assets\colors\functions\luminance.md) | colors/functions | N/A | Calculate luminance values for accessibility and color bl... |
-
-## `achromatomaly`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Luminance Calculation](visual-assets\colors\functions\luminance.md) | colors/functions | N/A | Calculate luminance values for accessibility and color bl... |
-
-## `action-property`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns\components\custom-components\Research-SetFocus-Component-Behavior.md) | research | advanced | Comprehensive research on implementing callable behavior ... |
-
-## `adaptive`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Responsive Hero Cards Gallery](ui-controls\gallery\layouts\responsive-gallery.md) | ui-controls | intermediate | A responsive gallery with hero card layout that automatic... |
-
-## `advanced`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User-Defined Types Examples](app-lifecycle\formulas\user-defined-types\user-defined-types.md) | app-architecture | advanced | Comprehensive examples of User-Defined Types (UDT), Named... |
-
-## `alm`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
-
-## `alternating-colors`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Alternating Row Colors in Gallery](ui-controls\gallery\styling\alternating-row-colors.md) | ui-controls | intermediate | Implement alternating row colors (zebra striping) in a Ga... |
-
-## `animation`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spinner Component](ui-patterns\components\custom-components\spinner\Spinner.md) | ui-patterns | intermediate | A customizable loading spinner component for canvas apps ... |
-
-## `ascii`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ASCII Code Checkerboard](ui-controls\gallery\styling\asciicodecheckerboard.md) | ui-controls | intermediate | A gallery displaying ASCII codes in a visual checkerboard... |
-
-## `attachments`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Attachment Control](ui-controls\attachment\attachment-control.md) | ui-controls | beginner | Examples of basic and advanced Attachment controls with a... |
-| [Email Attachments](integrations\connectors\office365-outlook\email-attachments.md) | integrations | intermediate | Send email with multiple attachments using Office365Outlo... |
-
-## `authentication`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Auto-Add User from Office 365](integrations\connectors\office365-users\auto-add-user.md) | integrations | intermediate | Automatically add the current user to the app's user tabl... |
-
-## `auto-add`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Auto-Add User from Office 365](integrations\connectors\office365-users\auto-add-user.md) | integrations | intermediate | Automatically add the current user to the app's user tabl... |
-
-## `automotive`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Vehicle/Car Records](data-operations\samples\vehicles\car-data.md) | data-management | beginner | Comprehensive vehicle dataset with make, model, VIN, and ... |
-
-## `avatar`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Random Profile Photo](ui-controls\image\random-photo-image.md) | ui-controls | beginner | An Image control that displays a random person's face usi... |
-
-## `azure-ad`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Entra User Type](integrations\connectors\office365-users\Entra-User-Type.md) | integrations | intermediate | Define a custom type for Entra (Azure AD) users and handl... |
-
-## `badge`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Simple and Elegant Gallery](ui-controls\gallery\layouts\simple-elegant.md) | ui-controls | intermediate | An elegant gallery design with header, drop shadow, and b... |
-
-## `bar-chart`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Themed Chart Control](ui-controls\chart\Themed-Chart.md) | ui-controls | intermediate | A themed BarChart control inside a container with custom ... |
-
-## `basic`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Simple Gallery](ui-controls\gallery\layouts\simple-gallery.md) | ui-controls | beginner | A basic vertical gallery implementation with selection hi... |
-
-## `basic-info`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Employee Info (5K)](data-operations\samples\people\employeeinfo-5k.md) | data-management | beginner | 5,000 basic employee information records for testing |
-
-## `basics`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Basic Hello World](learning\tutorials\getting-started\hello-world\basic-hello-world.md) | 01-getting-started/hello-world | beginner | Your first Power Fx expression - display text and underst... |
-
-## `beginner`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Simple Gallery](ui-controls\gallery\layouts\simple-gallery.md) | ui-controls | beginner | A basic vertical gallery implementation with selection hi... |
-
-## `behavior`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Focus Behavior in Canvas Components - Usage Guide](ui-patterns\components\custom-components\input-control\FOCUS-USAGE-GUIDE.md) | guides | intermediate | Practical guide for implementing and using SetFocus behav... |
-| [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns\components\custom-components\Research-SetFocus-Component-Behavior.md) | research | advanced | Comprehensive research on implementing callable behavior ... |
-
-## `best-practices`
-
-**4 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Consistent Code Comment Decor](app-lifecycle\formulas\expressions\code-comments.md) | app-architecture | beginner | Standardized code comment decorations for consistent docu... |
-| [Focus Behavior in Canvas Components - Usage Guide](ui-patterns\components\custom-components\input-control\FOCUS-USAGE-GUIDE.md) | guides | intermediate | Practical guide for implementing and using SetFocus behav... |
-| [Naming Controls Guidelines](ui-controls\naming-controls\naming-controls.md) | ui-controls | beginner | Best practices and rules for naming controls in Power Apps. |
-| [User Defined Functions Overview](functions\user-defined-functions\user-defined-functions.md) | business-logic | intermediate | Introduction to creating and using user-defined functions... |
-
-## `branding`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Microsoft Power Apps Style](visual-assets\colors\palettes\microsoft-power-apps.md) | colors/palettes | N/A | Links to Microsoft's official branding and trademark guid... |
-| [Power Apps Color Palette](visual-assets\colors\palettes\color-palette-pa.md) | colors/palettes | N/A | Extended theme configuration with Power Apps branding col... |
-
-## `bulk-operations`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ForAll Function - Declarative Iteration](functions\built-in\forall\ForAll.md) | business-logic | intermediate | Using ForAll function for declarative iteration with Sequ... |
-| [Performing Mass Updates Quickly](functions\algorithms\Quick-Mass-Updates.md) | business-logic | intermediate | Learn how to efficiently perform mass updates or add reco... |
-
-## `button`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Add Media Control](ui-controls\add-media\add-media.md) | ui-controls | beginner | A styled Add Media button control for uploading images. |
-
-## `calculation`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find Proportional Value](app-lifecycle\formulas\user-defined-functions\fxfindproportionalvalue.md) | app-architecture | intermediate | Calculates a proportional value based on two related frac... |
-
-## `calendar`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Custom Calendar Control](ui-controls\calendar\Calendar.md) | ui-controls | advanced | A custom calendar implementation using galleries for mont... |
-
-## `canvas`
-
-**1 snippets**
+# Tag Index
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Canvas Control](ui-controls\canvas\Canvas.md) | ui-controls | intermediate | FluidGrid canvas control examples, including one with Dat... |
-
-## `canvas-component`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Functions Component](visual-assets\colors\functions\color-functions.md) | colors/functions | N/A | Canvas component with accessibility color functions for c... |
-| [Color Functions Template](visual-assets\colors\palettes\color-template.md) | colors/palettes | N/A | Canvas component template for color accessibility functio... |
-
-## `cards`
+_Auto-generated on 2026-01-29 19:43:02_
 
-**1 snippets**
+**Total Tags:** 289
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Modern Card-Style Gallery](ui-controls\gallery\layouts\gallery-modern-cards.md) | ui-controls | intermediate | A modern card gallery with responsive layout, bold shadow... |
+## Tags
 
-## `cars`
+### 538 (2)
 
-**1 snippets**
+- [538 Data Sample Directory](data-operations/samples/538-data/538-data.md)
+- [Sample Data: FiveThirtyEight Data Index](data-operations/samples/538-data/index.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Vehicle/Car Records](data-operations\samples\vehicles\car-data.md) | data-management | beginner | Comprehensive vehicle dataset with make, model, VIN, and ... |
+### accessibility (4)
 
-## `categorized`
+- [Attachment Control](ui-controls/attachment/attachment-control.md)
+- [Color Functions Component](visual-assets/colors/functions/color-functions.md)
+- [Color Functions Template](visual-assets/colors/palettes/color-template.md)
+- [Luminance Calculation](visual-assets/colors/functions/luminance.md)
 
-**1 snippets**
+### achromatomaly (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Web Colors](visual-assets\colors\palettes\web-colors.md) | colors/palettes | N/A | Complete collection of 140 web colors with names, hex cod... |
+- [Luminance Calculation](visual-assets/colors/functions/luminance.md)
 
-## `chart`
+### action-property (1)
 
-**2 snippets**
+- [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns/components/custom-components/Research-SetFocus-Component-Behavior.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Chart Data](ui-controls\chart\sample-data.md) | ui-controls | beginner | Sample data collection for testing Column, Line, and Pie ... |
-| [Themed Chart Control](ui-controls\chart\Themed-Chart.md) | ui-controls | intermediate | A themed BarChart control inside a container with custom ... |
+### adaptive (1)
 
-## `checkerboard`
+- [Responsive Hero Cards Gallery](ui-controls/gallery/layouts/responsive-gallery.md)
 
-**1 snippets**
+### advanced (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ASCII Code Checkerboard](ui-controls\gallery\styling\asciicodecheckerboard.md) | ui-controls | intermediate | A gallery displaying ASCII codes in a visual checkerboard... |
+- [User-Defined Types Examples](app-lifecycle/formulas/user-defined-types/user-defined-types.md)
 
-## `chronological`
+### alm (1)
 
-**1 snippets**
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Timeline Style Gallery](ui-controls\gallery\layouts\gallery-timeline.md) | ui-controls | intermediate | A vertical timeline gallery for displaying chronological ... |
+### alternating-colors (1)
 
-## `cities`
+- [Alternating Row Colors in Gallery](ui-controls/gallery/styling/alternating-row-colors.md)
 
-**1 snippets**
+### animation (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [World Cities Data Collection](data-operations\samples\world-wide\world-cities.md) | data-management | intermediate | Comprehensive collection of world cities with demographic... |
+- [Spinner Component](ui-patterns/components/custom-components/spinner/Spinner.md)
 
-## `classic`
+### api (1)
 
-**1 snippets**
+- [Connector Patterns](integrations/connectors/readme.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Classic Label Control](ui-controls\label-or-text\label-classic.md) | ui-controls | beginner | A classic label control for displaying text in Power Apps... |
+### ascii (1)
 
-## `code`
+- [ASCII Code Checkerboard](ui-controls/gallery/styling/asciicodecheckerboard.md)
 
-**1 snippets**
+### attachments (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Code Editor Input](ui-controls\text-input\code-editor.md) | ui-controls | beginner | A multi-line text input styled as a code editor with mono... |
+- [Attachment Control](ui-controls/attachment/attachment-control.md)
+- [Email Attachments](integrations/connectors/office365-outlook/email-attachments.md)
 
-## `code-organization`
+### authentication (1)
 
-**1 snippets**
+- [Auto-Add User from Office 365](integrations/connectors/office365-users/auto-add-user.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Functions Overview](functions\user-defined-functions\user-defined-functions.md) | business-logic | intermediate | Introduction to creating and using user-defined functions... |
+### auto-add (1)
 
-## `collection`
+- [Auto-Add User from Office 365](integrations/connectors/office365-users/auto-add-user.md)
 
-**5 snippets**
+### automotive (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Collection](visual-assets\colors\palettes\color-collection.md) | colors/palettes | N/A | All 140 web colors defined as a Power Apps collection wit... |
-| [Color Enum in Named Formula](app-lifecycle\formulas\collections\color-enum-in-named-formula.md) | app-architecture | beginner | A collection of all 140 web colors for use in App.Formulas. |
-| [Error Kinds Collection](app-lifecycle\formulas\collections\error-kinds.md) | app-architecture | beginner | A collection of all standard Power Apps error kinds for r... |
-| [Icon Enumeration to Collection](app-lifecycle\formulas\collections\icons-as-collection.md) | app-architecture | beginner | Converts the standard Icon enumeration into a searchable,... |
-| [Web Colors](visual-assets\colors\palettes\web-colors.md) | colors/palettes | N/A | Complete collection of 140 web colors with names, hex cod... |
+- [Sample Data: Vehicle/Car Records](data-operations/samples/vehicles/car-data.md)
 
-## `collections`
+### avatar (1)
 
-**1 snippets**
+- [Random Profile Photo](ui-controls/image/random-photo-image.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ForAll Function - Declarative Iteration](functions\built-in\forall\ForAll.md) | business-logic | intermediate | Using ForAll function for declarative iteration with Sequ... |
+### azure-ad (1)
 
-## `color-blindness`
+- [Entra User Type](integrations/connectors/office365-users/Entra-User-Type.md)
 
-**2 snippets**
+### badge (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Functions Component](visual-assets\colors\functions\color-functions.md) | colors/functions | N/A | Canvas component with accessibility color functions for c... |
-| [Color Functions Template](visual-assets\colors\palettes\color-template.md) | colors/palettes | N/A | Canvas component template for color accessibility functio... |
+- [Simple and Elegant Gallery](ui-controls/gallery/layouts/simple-elegant.md)
 
-## `color-conversion`
+### bar-chart (1)
 
-**6 snippets**
+- [Themed Chart Control](ui-controls/chart/Themed-Chart.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [fxGetHexFromColor](visual-assets\colors\functions\fxgethexfromcolor.md) | colors/functions | N/A | User-defined function to convert a Power Apps Color value... |
-| [HEX to RGB Conversion](visual-assets\colors\functions\hex-2-rgb.md) | colors/functions | N/A | Convert hexadecimal color codes to RGB values in Power Fx |
-| [HSV to RGB Conversion](visual-assets\colors\functions\hsv-2-rgb.md) | colors/functions | N/A | Convert HSV (Hue, Saturation, Value) color values to RGB ... |
-| [RGB to HSL Conversion](visual-assets\colors\functions\rgb-2-hsl.md) | colors/functions | N/A | Convert RGB color values to HSL (Hue, Saturation, Lightne... |
-| [RGB to HSV Conversion](visual-assets\colors\functions\rgb-2-hsv.md) | colors/functions | N/A | Convert RGB color values to HSV (Hue, Saturation, Value) ... |
-| [RGB to Linear Conversion](visual-assets\colors\functions\rgb-2-lin.md) | colors/functions | N/A | Convert sRGB color values to linearized values for accura... |
+### basic (1)
 
-## `colors`
+- [Simple Gallery](ui-controls/gallery/layouts/simple-gallery.md)
 
-**1 snippets**
+### basic-info (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Enum in Named Formula](app-lifecycle\formulas\collections\color-enum-in-named-formula.md) | app-architecture | beginner | A collection of all 140 web colors for use in App.Formulas. |
+- [Sample Data: Employee Info (5K)](data-operations/samples/people/employeeinfo-5k.md)
 
-## `columns`
+### basics (1)
 
-**2 snippets**
+- [Basic Hello World](learning/tutorials/getting-started/hello-world/basic-hello-world.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Data Table Style Gallery](ui-controls\gallery\layouts\gallery-datatable.md) | ui-controls | intermediate | A professional data table gallery with column headers, al... |
-| [Gallery with Column Headings](ui-controls\gallery\layouts\gallery-with-headings.md) | ui-controls | beginner | A gallery layout with column headers for displaying tabul... |
+### beginner (1)
 
-## `comments`
+- [Simple Gallery](ui-controls/gallery/layouts/simple-gallery.md)
 
-**1 snippets**
+### beginners (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Consistent Code Comment Decor](app-lifecycle\formulas\expressions\code-comments.md) | app-architecture | beginner | Standardized code comment decorations for consistent docu... |
+- [Power Apps Tutorials](learning/tutorials/readme.md)
 
-## `component`
+### behavior (2)
 
-**4 snippets**
+- [Focus Behavior in Canvas Components - Usage Guide](ui-patterns/components/custom-components/input-control/FOCUS-USAGE-GUIDE.md)
+- [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns/components/custom-components/Research-SetFocus-Component-Behavior.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Focus Behavior in Canvas Components - Usage Guide](ui-patterns\components\custom-components\input-control\FOCUS-USAGE-GUIDE.md) | guides | intermediate | Practical guide for implementing and using SetFocus behav... |
-| [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | ui-patterns | intermediate | A reusable side navigation menu component for canvas apps... |
-| [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns\components\custom-components\Research-SetFocus-Component-Behavior.md) | research | advanced | Comprehensive research on implementing callable behavior ... |
-| [Spinner Component](ui-patterns\components\custom-components\spinner\Spinner.md) | ui-patterns | intermediate | A customizable loading spinner component for canvas apps ... |
+### best-practices (4)
 
-## `components`
+- [Consistent Code Comment Decor](app-lifecycle/formulas/expressions/code-comments.md)
+- [Focus Behavior in Canvas Components - Usage Guide](ui-patterns/components/custom-components/input-control/FOCUS-USAGE-GUIDE.md)
+- [Naming Controls Guidelines](ui-controls/naming-controls/naming-controls.md)
+- [User Defined Functions Overview](functions/user-defined-functions/user-defined-functions.md)
 
-**1 snippets**
+### branding (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Component Resources](ui-patterns\components\custom-components\Components.md) | ui-patterns | beginner | Links to external resources for Power Apps components and... |
+- [Microsoft Power Apps Style](visual-assets/colors/palettes/microsoft-power-apps.md)
+- [Power Apps Color Palette](visual-assets/colors/palettes/color-palette-pa.md)
 
-## `comprehensive`
+### bulk-operations (2)
 
-**1 snippets**
+- [ForAll Function - Declarative Iteration](functions/built-in/forall/ForAll.md)
+- [Performing Mass Updates Quickly](functions/algorithms/Quick-Mass-Updates.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: All Kinds of Data](data-operations\samples\all-kinds-of-data.md) | data-management | beginner | Comprehensive sample dataset with diverse data types for ... |
+### button (1)
 
-## `connection-references`
+- [Add Media Control](ui-controls/add-media/add-media.md)
 
-**1 snippets**
+### calculation (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
+- [Find Proportional Value](app-lifecycle/formulas/user-defined-functions/fxfindproportionalvalue.md)
 
-## `constants`
+### calendar (1)
 
-**1 snippets**
+- [Custom Calendar Control](ui-controls/calendar/Calendar.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Helpful Constants](app-lifecycle\formulas\expressions\control-constants.md) | app-architecture | beginner | A set of standard constants for spacing, screen defaults,... |
+### canvas (1)
 
-## `container`
+- [Canvas Control](ui-controls/canvas/Canvas.md)
 
-**1 snippets**
+### canvas-component (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [DataCard Control](ui-controls\datacard\DataCard.md) | ui-controls | beginner | A basic DataCard control snippet (note: pasting support i... |
+- [Color Functions Component](visual-assets/colors/functions/color-functions.md)
+- [Color Functions Template](visual-assets/colors/palettes/color-template.md)
 
-## `contrast`
+### cards (1)
 
-**1 snippets**
+- [Modern Card-Style Gallery](ui-controls/gallery/layouts/gallery-modern-cards.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Functions Component](visual-assets\colors\functions\color-functions.md) | colors/functions | N/A | Canvas component with accessibility color functions for c... |
+### cars (1)
 
-## `controls`
+- [Sample Data: Vehicle/Car Records](data-operations/samples/vehicles/car-data.md)
 
-**1 snippets**
+### categorized (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [All Controls Expression](app-lifecycle\formulas\expressions\fxexp-allcontrols.md) | app-architecture | intermediate | A comprehensive table of all Power Apps controls with met... |
+- [Web Colors](visual-assets/colors/palettes/web-colors.md)
 
-## `conventions`
+### certification (1)
 
-**1 snippets**
+- [Microsoft Certification Resources](learning/certification/readme.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Naming Controls Guidelines](ui-controls\naming-controls\naming-controls.md) | ui-controls | beginner | Best practices and rules for naming controls in Power Apps. |
+### chart (2)
 
-## `countries`
+- [Sample Chart Data](ui-controls/chart/sample-data.md)
+- [Themed Chart Control](ui-controls/chart/Themed-Chart.md)
 
-**2 snippets**
+### checkerboard (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Countries List](data-operations\samples\world-wide\countries.md) | data-management | beginner | Complete list of world countries with ISO codes |
-| [Sample Data: World Countries (Complete)](data-operations\samples\world-wide\world.md) | data-management | beginner | Extended world countries list including territories and s... |
+- [ASCII Code Checkerboard](ui-controls/gallery/styling/asciicodecheckerboard.md)
 
-## `cross-tenant`
+### chronological (1)
 
-**1 snippets**
+- [Timeline Style Gallery](ui-controls/gallery/layouts/gallery-timeline.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
+### cities (1)
 
-## `csv`
+- [World Cities Data Collection](data-operations/samples/world-wide/world-cities.md)
 
-**11 snippets**
+### classic (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Data Samples Directory](data-operations\samples\data-samples.md) | data-management | beginner | Directory overview of sample data files and datasets avai... |
-| [Sample Data: All Kinds of Data](data-operations\samples\all-kinds-of-data.md) | data-management | beginner | Comprehensive sample dataset with diverse data types for ... |
-| [Sample Data: Countries List](data-operations\samples\world-wide\countries.md) | data-management | beginner | Complete list of world countries with ISO codes |
-| [Sample Data: Dad Jokes Collection](data-operations\samples\jokes\dadjoke.md) | data-management | beginner | Collection of family-friendly dad jokes for testing and e... |
-| [Sample Data: Employee Info (5K)](data-operations\samples\people\employeeinfo-5k.md) | data-management | beginner | 5,000 basic employee information records for testing |
-| [Sample Data: Employee Records (5K)](data-operations\samples\people\employee-5k.md) | data-management | beginner | 5,000 mock employee records with comprehensive HR data fi... |
-| [Sample Data: FiveThirtyEight Data Index](data-operations\samples\538-data\index.md) | data-operations | intermediate | Index of FiveThirtyEight (538) open datasets for politica... |
-| [Sample Data: Nationalities List](data-operations\samples\world-wide\nationalities.md) | data-management | beginner | List of nationality demonyms for international applications |
-| [Sample Data: Person Records (Large)](data-operations\samples\people\person.md) | data-management | intermediate | Large dataset of person records with extensive identity a... |
-| [Sample Data: Vehicle/Car Records](data-operations\samples\vehicles\car-data.md) | data-management | beginner | Comprehensive vehicle dataset with make, model, VIN, and ... |
-| [Sample Data: World Countries (Complete)](data-operations\samples\world-wide\world.md) | data-management | beginner | Extended world countries list including territories and s... |
+- [Classic Label Control](ui-controls/label-or-text/label-classic.md)
 
-## `cursor`
+### code (1)
 
-**1 snippets**
+- [Code Editor Input](ui-controls/text-input/code-editor.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Change Pointer to Hand](ui-controls\icon\chnage-pointer-to-hand.md) | ui-controls | beginner | An icon control configured to show a hand cursor on hover. |
+### code-organization (1)
 
-## `data`
+- [User Defined Functions Overview](functions/user-defined-functions/user-defined-functions.md)
 
-**4 snippets**
+### collection (5)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Model Database SQL Schema](data-operations\sources\mssql\model-db-sql.md) | data-operations | intermediate | SQL CREATE TABLE statements for a model database schema w... |
-| [Sample Chart Data](ui-controls\chart\sample-data.md) | ui-controls | beginner | Sample data collection for testing Column, Line, and Pie ... |
-| [Sample DrawSQL Export JSON](data-operations\sources\drawsql\sample-drawsql-export-json.md) | data-operations | intermediate | Complete JSON export from DrawSQL containing database sch... |
-| [Sample DrawSQL JSON Schema](data-operations\sources\drawsql\sample-json-schema.md) | data-operations | intermediate | Sample JSON schema for DrawSQL database diagrams, contain... |
+- [Color Collection](visual-assets/colors/palettes/color-collection.md)
+- [Color Enum in Named Formula](app-lifecycle/formulas/collections/color-enum-in-named-formula.md)
+- [Error Kinds Collection](app-lifecycle/formulas/collections/error-kinds.md)
+- [Icon Enumeration to Collection](app-lifecycle/formulas/collections/icons-as-collection.md)
+- [Web Colors](visual-assets/colors/palettes/web-colors.md)
 
-## `data-generation`
+### collections (1)
 
-**1 snippets**
+- [ForAll Function - Declarative Iteration](functions/built-in/forall/ForAll.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Schema: Car Data Generation Schema](data-operations\samples\schemas\car-data-schema.md) | data-management | intermediate | Mockaroo schema definition for generating car/vehicle sam... |
+### color-blindness (2)
 
-## `data-operations`
+- [Color Functions Component](visual-assets/colors/functions/color-functions.md)
+- [Color Functions Template](visual-assets/colors/palettes/color-template.md)
 
-**1 snippets**
+### color-conversion (6)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Performing Mass Updates Quickly](functions\algorithms\Quick-Mass-Updates.md) | business-logic | intermediate | Learn how to efficiently perform mass updates or add reco... |
+- [fxGetHexFromColor](visual-assets/colors/functions/fxgethexfromcolor.md)
+- [HEX to RGB Conversion](visual-assets/colors/functions/hex-2-rgb.md)
+- [HSV to RGB Conversion](visual-assets/colors/functions/hsv-2-rgb.md)
+- [RGB to HSL Conversion](visual-assets/colors/functions/rgb-2-hsl.md)
+- [RGB to HSV Conversion](visual-assets/colors/functions/rgb-2-hsv.md)
+- [RGB to Linear Conversion](visual-assets/colors/functions/rgb-2-lin.md)
 
-## `data-structure`
+### colorfade (1)
 
-**1 snippets**
+- [Color Palettes](visual-assets/colors/palettes/color-palettes.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Types Syntax](app-lifecycle\formulas\user-defined-types\user-defined-types-syntax.md) | app-architecture | intermediate | Examples of defining custom types (records and collection... |
+### colors (1)
 
-## `data-structures`
+- [Color Enum in Named Formula](app-lifecycle/formulas/collections/color-enum-in-named-formula.md)
 
-**1 snippets**
+### colorvalue (3)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Types Overview](functions\user-defined-types\user-defined-types.md) | business-logic | advanced | Introduction to creating and using user-defined types (UD... |
+- [Color Collection](visual-assets/colors/palettes/color-collection.md)
+- [Color Palettes](visual-assets/colors/palettes/color-palettes.md)
+- [Web Colors](visual-assets/colors/palettes/web-colors.md)
 
-## `database`
+### columns (2)
 
-**2 snippets**
+- [Data Table Style Gallery](ui-controls/gallery/layouts/gallery-datatable.md)
+- [Gallery with Column Headings](ui-controls/gallery/layouts/gallery-with-headings.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Model Database SQL Schema](data-operations\sources\mssql\model-db-sql.md) | data-operations | intermediate | SQL CREATE TABLE statements for a model database schema w... |
-| [Sample DrawSQL JSON Schema](data-operations\sources\drawsql\sample-json-schema.md) | data-operations | intermediate | Sample JSON schema for DrawSQL database diagrams, contain... |
+### comments (1)
 
-## `datacard`
+- [Consistent Code Comment Decor](app-lifecycle/formulas/expressions/code-comments.md)
 
-**1 snippets**
+### component (4)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [DataCard Control](ui-controls\datacard\DataCard.md) | ui-controls | beginner | A basic DataCard control snippet (note: pasting support i... |
+- [Focus Behavior in Canvas Components - Usage Guide](ui-patterns/components/custom-components/input-control/FOCUS-USAGE-GUIDE.md)
+- [Left Nav Bar Component](ui-patterns/components/custom-components/menus/left-nav-bar.md)
+- [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns/components/custom-components/Research-SetFocus-Component-Behavior.md)
+- [Spinner Component](ui-patterns/components/custom-components/spinner/Spinner.md)
 
-## `datasets`
+### components (1)
 
-**2 snippets**
+- [Component Resources](ui-patterns/components/custom-components/Components.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [538 Data Sample Directory](data-operations\samples\538-data\538-data.md) | data-management | beginner | Directory of sample datasets from FiveThirtyEight (538) f... |
-| [Data Samples Directory](data-operations\samples\data-samples.md) | data-management | beginner | Directory overview of sample data files and datasets avai... |
+### comprehensive (1)
 
-## `datatable`
+- [Sample Data: All Kinds of Data](data-operations/samples/all-kinds-of-data.md)
 
-**1 snippets**
+### connection-references (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Data Table Style Gallery](ui-controls\gallery\layouts\gallery-datatable.md) | ui-controls | intermediate | A professional data table gallery with column headers, al... |
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
 
-## `date`
+### connectors (1)
 
-**1 snippets**
+- [Connector Patterns](integrations/connectors/readme.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Custom Calendar Control](ui-controls\calendar\Calendar.md) | ui-controls | advanced | A custom calendar implementation using galleries for mont... |
+### constants (1)
 
-## `debug`
+- [Helpful Constants](app-lifecycle/formulas/expressions/control-constants.md)
 
-**1 snippets**
+### container (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Are We in Studio Mode?](app-lifecycle\formulas\expressions\boolean-is-in-studio-mode.md) | app-architecture | beginner | Determine if the app is running in Studio Mode (editing m... |
+- [DataCard Control](ui-controls/datacard/DataCard.md)
+- [Funnel Layout Container](ui-controls/container/funnel-layout/readme.md)
 
-## `debugging`
+### contrast (1)
 
-**1 snippets**
+- [Color Functions Component](visual-assets/colors/functions/color-functions.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Error Kinds Collection](app-lifecycle\formulas\collections\error-kinds.md) | app-architecture | beginner | A collection of all standard Power Apps error kinds for r... |
+### controls (2)
 
-## `declarative`
+- [All Controls Expression](app-lifecycle/formulas/expressions/fxexp-allcontrols.md)
+- [Controls Overview](ui-controls/controls-readme.md)
 
-**1 snippets**
+### conventions (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ForAll Function - Declarative Iteration](functions\built-in\forall\ForAll.md) | business-logic | intermediate | Using ForAll function for declarative iteration with Sequ... |
+- [Naming Controls Guidelines](ui-controls/naming-controls/naming-controls.md)
 
-## `decoding`
+### countries (2)
 
-**1 snippets**
+- [Sample Data: Countries List](data-operations/samples/world-wide/countries.md)
+- [Sample Data: World Countries (Complete)](data-operations/samples/world-wide/world.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Encode Decode](functions\encoding-decoding\encode-decode.md) | business-logic | intermediate | Comprehensive URL encoding and decoding functions to hand... |
+### cross-tenant (1)
 
-## `delimiter`
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
 
-**1 snippets**
+### csv (12)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find String Exactly Within Table](functions\string-manipulation\parsing\find-string-exactly-within-table.md) | business-logic | intermediate | User-defined function to check if a string exists exactly... |
+- [Data Samples Directory](data-operations/samples/data-samples.md)
+- [Data Sources Resources](data-operations/sources/readme.md)
+- [Sample Data: All Kinds of Data](data-operations/samples/all-kinds-of-data.md)
+- [Sample Data: Countries List](data-operations/samples/world-wide/countries.md)
+- [Sample Data: Dad Jokes Collection](data-operations/samples/jokes/dadjoke.md)
+- [Sample Data: Employee Info (5K)](data-operations/samples/people/employeeinfo-5k.md)
+- [Sample Data: Employee Records (5K)](data-operations/samples/people/employee-5k.md)
+- [Sample Data: FiveThirtyEight Data Index](data-operations/samples/538-data/index.md)
+- [Sample Data: Nationalities List](data-operations/samples/world-wide/nationalities.md)
+- [Sample Data: Person Records (Large)](data-operations/samples/people/person.md)
+- [Sample Data: Vehicle/Car Records](data-operations/samples/vehicles/car-data.md)
+- [Sample Data: World Countries (Complete)](data-operations/samples/world-wide/world.md)
 
-## `demographics`
+### cursor (1)
 
-**1 snippets**
+- [Change Pointer to Hand](ui-controls/icon/chnage-pointer-to-hand.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [World Cities Data Collection](data-operations\samples\world-wide\world-cities.md) | data-management | intermediate | Comprehensive collection of world cities with demographic... |
+### data (5)
 
-## `demonyms`
+- [Data Sources Resources](data-operations/sources/readme.md)
+- [Model Database SQL Schema](data-operations/sources/mssql/model-db-sql.md)
+- [Sample Chart Data](ui-controls/chart/sample-data.md)
+- [Sample DrawSQL Export JSON](data-operations/sources/drawsql/sample-drawsql-export-json.md)
+- [Sample DrawSQL JSON Schema](data-operations/sources/drawsql/sample-json-schema.md)
 
-**1 snippets**
+### data-generation (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Nationalities List](data-operations\samples\world-wide\nationalities.md) | data-management | beginner | List of nationality demonyms for international applications |
+- [Schema: Car Data Generation Schema](data-operations/samples/schemas/car-data-schema.md)
 
-## `deployment`
+### data-operations (1)
 
-**1 snippets**
+- [Performing Mass Updates Quickly](functions/algorithms/Quick-Mass-Updates.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
+### data-structure (1)
 
-## `design`
+- [User Defined Types Syntax](app-lifecycle/formulas/user-defined-types/user-defined-types-syntax.md)
 
-**4 snippets**
+### data-structures (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Enum in Named Formula](app-lifecycle\formulas\collections\color-enum-in-named-formula.md) | app-architecture | beginner | A collection of all 140 web colors for use in App.Formulas. |
-| [Component Resources](ui-patterns\components\custom-components\Components.md) | ui-patterns | beginner | Links to external resources for Power Apps components and... |
-| [Helpful Constants](app-lifecycle\formulas\expressions\control-constants.md) | app-architecture | beginner | A set of standard constants for spacing, screen defaults,... |
-| [Icon Enumeration to Collection](app-lifecycle\formulas\collections\icons-as-collection.md) | app-architecture | beginner | Converts the standard Icon enumeration into a searchable,... |
+- [User Defined Types Overview](functions/user-defined-types/user-defined-types.md)
 
-## `diagram`
+### database (2)
 
-**1 snippets**
+- [Model Database SQL Schema](data-operations/sources/mssql/model-db-sql.md)
+- [Sample DrawSQL JSON Schema](data-operations/sources/drawsql/sample-json-schema.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample DrawSQL JSON Schema](data-operations\sources\drawsql\sample-json-schema.md) | data-operations | intermediate | Sample JSON schema for DrawSQL database diagrams, contain... |
+### datacard (1)
 
-## `direct-reports`
+- [DataCard Control](ui-controls/datacard/DataCard.md)
 
-**1 snippets**
+### datasets (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Get Direct Reports](integrations\connectors\office365-users\get-direct-reports.md) | integrations | beginner | Retrieve direct reports for the current user using Office... |
+- [538 Data Sample Directory](data-operations/samples/538-data/538-data.md)
+- [Data Samples Directory](data-operations/samples/data-samples.md)
 
-## `directory`
+### datatable (1)
 
-**1 snippets**
+- [Data Table Style Gallery](ui-controls/gallery/layouts/gallery-datatable.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Data Samples Directory](data-operations\samples\data-samples.md) | data-management | beginner | Directory overview of sample data files and datasets avai... |
+### dataverse (1)
 
-## `display`
+- [Connector Patterns](integrations/connectors/readme.md)
 
-**1 snippets**
+### date (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Display All Office 365 User Profile Fields](integrations\connectors\office365-users\display-all-fields.md) | integrations | beginner | Display all available fields from the current user's Offi... |
+- [Custom Calendar Control](ui-controls/calendar/Calendar.md)
 
-## `diverse-types`
+### debug (1)
 
-**1 snippets**
+- [Are We in Studio Mode?](app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: All Kinds of Data](data-operations\samples\all-kinds-of-data.md) | data-management | beginner | Comprehensive sample dataset with diverse data types for ... |
+### debugging (1)
 
-## `documentation`
+- [Error Kinds Collection](app-lifecycle/formulas/collections/error-kinds.md)
 
-**2 snippets**
+### declarative (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [All Controls Expression](app-lifecycle\formulas\expressions\fxexp-allcontrols.md) | app-architecture | intermediate | A comprehensive table of all Power Apps controls with met... |
-| [Consistent Code Comment Decor](app-lifecycle\formulas\expressions\code-comments.md) | app-architecture | beginner | Standardized code comment decorations for consistent docu... |
+- [ForAll Function - Declarative Iteration](functions/built-in/forall/ForAll.md)
 
-## `dropdown`
+### decoding (1)
 
-**1 snippets**
+- [Encode Decode](functions/encoding-decoding/encode-decode.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Drop Down List Video](ui-controls\drop-down-list\drop-down-list.md) | ui-controls | beginner | Video tutorial on using Drop Down Lists in Power Apps. |
+### delimiter (1)
 
-## `dynamic`
+- [Find String Exactly Within Table](functions/string-manipulation/parsing/find-string-exactly-within-table.md)
 
-**1 snippets**
+### demographics (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Nested Galleries](ui-controls\gallery\interactions\nested-galleries.md) | ui-controls | intermediate | Implementation of nested galleries with parent-child rela... |
+- [World Cities Data Collection](data-operations/samples/world-wide/world-cities.md)
 
-## `editor`
+### demonyms (1)
 
-**1 snippets**
+- [Sample Data: Nationalities List](data-operations/samples/world-wide/nationalities.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Code Editor Input](ui-controls\text-input\code-editor.md) | ui-controls | beginner | A multi-line text input styled as a code editor with mono... |
+### deployment (1)
 
-## `elegant`
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
 
-**1 snippets**
+### design (4)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Simple and Elegant Gallery](ui-controls\gallery\layouts\simple-elegant.md) | ui-controls | intermediate | An elegant gallery design with header, drop shadow, and b... |
+- [Color Enum in Named Formula](app-lifecycle/formulas/collections/color-enum-in-named-formula.md)
+- [Component Resources](ui-patterns/components/custom-components/Components.md)
+- [Helpful Constants](app-lifecycle/formulas/expressions/control-constants.md)
+- [Icon Enumeration to Collection](app-lifecycle/formulas/collections/icons-as-collection.md)
 
-## `email`
+### diagram (1)
 
-**1 snippets**
+- [Sample DrawSQL JSON Schema](data-operations/sources/drawsql/sample-json-schema.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Email Attachments](integrations\connectors\office365-outlook\email-attachments.md) | integrations | intermediate | Send email with multiple attachments using Office365Outlo... |
+### direct-reports (1)
 
-## `employees`
+- [Get Direct Reports](integrations/connectors/office365-users/get-direct-reports.md)
 
-**2 snippets**
+### directory (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Employee Info (5K)](data-operations\samples\people\employeeinfo-5k.md) | data-management | beginner | 5,000 basic employee information records for testing |
-| [Sample Data: Employee Records (5K)](data-operations\samples\people\employee-5k.md) | data-management | beginner | 5,000 mock employee records with comprehensive HR data fi... |
+- [Data Samples Directory](data-operations/samples/data-samples.md)
 
-## `empty-check`
+### display (1)
 
-**1 snippets**
+- [Display All Office 365 User Profile Fields](integrations/connectors/office365-users/display-all-fields.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [String Is Empty](functions\string-manipulation\validation\string-is-empty.md) | business-logic | beginner | User-defined function to check if a string is empty or co... |
+### diverse-types (1)
 
-## `encoding`
+- [Sample Data: All Kinds of Data](data-operations/samples/all-kinds-of-data.md)
 
-**1 snippets**
+### documentation (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Encode Decode](functions\encoding-decoding\encode-decode.md) | business-logic | intermediate | Comprehensive URL encoding and decoding functions to hand... |
+- [All Controls Expression](app-lifecycle/formulas/expressions/fxexp-allcontrols.md)
+- [Consistent Code Comment Decor](app-lifecycle/formulas/expressions/code-comments.md)
 
-## `entertainment`
+### dropdown (1)
 
-**1 snippets**
+- [Drop Down List Video](ui-controls/drop-down-list/drop-down-list.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Dad Jokes Collection](data-operations\samples\jokes\dadjoke.md) | data-management | beginner | Collection of family-friendly dad jokes for testing and e... |
+### dynamic (1)
 
-## `entra`
+- [Nested Galleries](ui-controls/gallery/interactions/nested-galleries.md)
 
-**1 snippets**
+### editor (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Entra User Type](integrations\connectors\office365-users\Entra-User-Type.md) | integrations | intermediate | Define a custom type for Entra (Azure AD) users and handl... |
+- [Code Editor Input](ui-controls/text-input/code-editor.md)
 
-## `enum`
+### elegant (1)
 
-**1 snippets**
+- [Simple and Elegant Gallery](ui-controls/gallery/layouts/simple-elegant.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Enum in Named Formula](app-lifecycle\formulas\collections\color-enum-in-named-formula.md) | app-architecture | beginner | A collection of all 140 web colors for use in App.Formulas. |
+### email (1)
 
-## `environment`
+- [Email Attachments](integrations/connectors/office365-outlook/email-attachments.md)
 
-**1 snippets**
+### employees (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Are We in Studio Mode?](app-lifecycle\formulas\expressions\boolean-is-in-studio-mode.md) | app-architecture | beginner | Determine if the app is running in Studio Mode (editing m... |
+- [Sample Data: Employee Info (5K)](data-operations/samples/people/employeeinfo-5k.md)
+- [Sample Data: Employee Records (5K)](data-operations/samples/people/employee-5k.md)
 
-## `environment-variables`
+### empty-check (1)
 
-**1 snippets**
+- [String Is Empty](functions/string-manipulation/validation/string-is-empty.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
+### encoding (1)
 
-## `error-handling`
+- [Encode Decode](functions/encoding-decoding/encode-decode.md)
 
-**1 snippets**
+### entertainment (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Error Kinds Collection](app-lifecycle\formulas\collections\error-kinds.md) | app-architecture | beginner | A collection of all standard Power Apps error kinds for r... |
+- [Sample Data: Dad Jokes Collection](data-operations/samples/jokes/dadjoke.md)
 
-## `errors`
+### entra (1)
 
-**1 snippets**
+- [Entra User Type](integrations/connectors/office365-users/Entra-User-Type.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Error Kinds Collection](app-lifecycle\formulas\collections\error-kinds.md) | app-architecture | beginner | A collection of all standard Power Apps error kinds for r... |
+### enum (1)
 
-## `event-property`
+- [Color Enum in Named Formula](app-lifecycle/formulas/collections/color-enum-in-named-formula.md)
 
-**1 snippets**
+### environment (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns\components\custom-components\Research-SetFocus-Component-Behavior.md) | research | advanced | Comprehensive research on implementing callable behavior ... |
+- [Are We in Studio Mode?](app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md)
 
-## `events`
+### environment-variables (1)
 
-**1 snippets**
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Timeline Style Gallery](ui-controls\gallery\layouts\gallery-timeline.md) | ui-controls | intermediate | A vertical timeline gallery for displaying chronological ... |
+### error-handling (1)
 
-## `exact-match`
+- [Error Kinds Collection](app-lifecycle/formulas/collections/error-kinds.md)
 
-**1 snippets**
+### errors (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find String Exactly Within Table](functions\string-manipulation\parsing\find-string-exactly-within-table.md) | business-logic | intermediate | User-defined function to check if a string exists exactly... |
+- [Error Kinds Collection](app-lifecycle/formulas/collections/error-kinds.md)
 
-## `export`
+### event-property (1)
 
-**1 snippets**
+- [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns/components/custom-components/Research-SetFocus-Component-Behavior.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample DrawSQL Export JSON](data-operations\sources\drawsql\sample-drawsql-export-json.md) | data-operations | intermediate | Complete JSON export from DrawSQL containing database sch... |
+### events (1)
 
-## `expression`
+- [Timeline Style Gallery](ui-controls/gallery/layouts/gallery-timeline.md)
 
-**6 snippets**
+### exact-match (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [All Controls Expression](app-lifecycle\formulas\expressions\fxexp-allcontrols.md) | app-architecture | intermediate | A comprehensive table of all Power Apps controls with met... |
-| [Are We in Studio Mode?](app-lifecycle\formulas\expressions\boolean-is-in-studio-mode.md) | app-architecture | beginner | Determine if the app is running in Studio Mode (editing m... |
-| [Consistent Code Comment Decor](app-lifecycle\formulas\expressions\code-comments.md) | app-architecture | beginner | Standardized code comment decorations for consistent docu... |
-| [File Type Icons](app-lifecycle\formulas\expressions\doc-type-icons.md) | app-architecture | beginner | Generate URLs for file type icons based on file extensions. |
-| [Helpful Constants](app-lifecycle\formulas\expressions\control-constants.md) | app-architecture | beginner | A set of standard constants for spacing, screen defaults,... |
-| [Top of App Formulas](app-lifecycle\formulas\expressions\top-of-app-formulas.md) | app-architecture | beginner | Table of contents and naming guidelines for App.Formulas. |
+- [Find String Exactly Within Table](functions/string-manipulation/parsing/find-string-exactly-within-table.md)
 
-## `extended-theme`
+### exams (1)
 
-**1 snippets**
+- [Microsoft Certification Resources](learning/certification/readme.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Power Apps Color Palette](visual-assets\colors\palettes\color-palette-pa.md) | colors/palettes | N/A | Extended theme configuration with Power Apps branding col... |
+### export (1)
 
-## `external-links`
+- [Sample DrawSQL Export JSON](data-operations/sources/drawsql/sample-drawsql-export-json.md)
 
-**1 snippets**
+### expression (6)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Resources](visual-assets\colors\utilities\color-resources.md) | visual-assets | beginner | External color resources, tools, and theme references inc... |
+- [All Controls Expression](app-lifecycle/formulas/expressions/fxexp-allcontrols.md)
+- [Are We in Studio Mode?](app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md)
+- [Consistent Code Comment Decor](app-lifecycle/formulas/expressions/code-comments.md)
+- [File Type Icons](app-lifecycle/formulas/expressions/doc-type-icons.md)
+- [Helpful Constants](app-lifecycle/formulas/expressions/control-constants.md)
+- [Top of App Formulas](app-lifecycle/formulas/expressions/top-of-app-formulas.md)
 
-## `fields`
+### extended-theme (1)
 
-**1 snippets**
+- [Power Apps Color Palette](visual-assets/colors/palettes/color-palette-pa.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Display All Office 365 User Profile Fields](integrations\connectors\office365-users\display-all-fields.md) | integrations | beginner | Display all available fields from the current user's Offi... |
+### fields (1)
 
-## `file-types`
+- [Display All Office 365 User Profile Fields](integrations/connectors/office365-users/display-all-fields.md)
 
-**1 snippets**
+### file-types (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [File Type Icons](app-lifecycle\formulas\expressions\doc-type-icons.md) | app-architecture | beginner | Generate URLs for file type icons based on file extensions. |
+- [File Type Icons](app-lifecycle/formulas/expressions/doc-type-icons.md)
 
-## `files`
+### files (1)
 
-**1 snippets**
+- [Attachment Control](ui-controls/attachment/attachment-control.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Attachment Control](ui-controls\attachment\attachment-control.md) | ui-controls | beginner | Examples of basic and advanced Attachment controls with a... |
+### first-steps (1)
 
-## `first-steps`
+- [Basic Hello World](learning/tutorials/getting-started/hello-world/basic-hello-world.md)
 
-**1 snippets**
+### fivethirtyeight (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Basic Hello World](learning\tutorials\getting-started\hello-world\basic-hello-world.md) | 01-getting-started/hello-world | beginner | Your first Power Fx expression - display text and underst... |
+- [Sample Data: FiveThirtyEight Data Index](data-operations/samples/538-data/index.md)
 
-## `fivethirtyeight`
+### fleet-management (1)
 
-**1 snippets**
+- [Sample Data: Vehicle/Car Records](data-operations/samples/vehicles/car-data.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: FiveThirtyEight Data Index](data-operations\samples\538-data\index.md) | data-operations | intermediate | Index of FiveThirtyEight (538) open datasets for politica... |
+### fluidgrid (1)
 
-## `fleet-management`
+- [Canvas Control](ui-controls/canvas/Canvas.md)
 
-**1 snippets**
+### forall (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Vehicle/Car Records](data-operations\samples\vehicles\car-data.md) | data-management | beginner | Comprehensive vehicle dataset with make, model, VIN, and ... |
+- [ForAll Function - Declarative Iteration](functions/built-in/forall/ForAll.md)
 
-## `fluidgrid`
+### form (1)
 
-**1 snippets**
+- [DataCard Control](ui-controls/datacard/DataCard.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Canvas Control](ui-controls\canvas\Canvas.md) | ui-controls | intermediate | FluidGrid canvas control examples, including one with Dat... |
+### formatting (1)
 
-## `forall`
+- [Pad Numbers Inside String](functions/string-manipulation/padding/padd-numbers-inside-string.md)
 
-**1 snippets**
+### formulas (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ForAll Function - Declarative Iteration](functions\built-in\forall\ForAll.md) | business-logic | intermediate | Using ForAll function for declarative iteration with Sequ... |
+- [Top of App Formulas](app-lifecycle/formulas/expressions/top-of-app-formulas.md)
 
-## `form`
+### fraction (1)
 
-**1 snippets**
+- [Find Proportional Value](app-lifecycle/formulas/user-defined-functions/fxfindproportionalvalue.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [DataCard Control](ui-controls\datacard\DataCard.md) | ui-controls | beginner | A basic DataCard control snippet (note: pasting support i... |
+### fundamentals (1)
 
-## `formatting`
+- [Basic Hello World](learning/tutorials/getting-started/hello-world/basic-hello-world.md)
 
-**1 snippets**
+### funnel (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Pad Numbers Inside String](functions\string-manipulation\padding\padd-numbers-inside-string.md) | business-logic | advanced | Collection of user-defined functions for padding, extract... |
+- [Funnel Layout Container](ui-controls/container/funnel-layout/readme.md)
 
-## `formulas`
+### gallery (13)
 
-**1 snippets**
+- [Alternating Row Colors in Gallery](ui-controls/gallery/styling/alternating-row-colors.md)
+- [ASCII Code Checkerboard](ui-controls/gallery/styling/asciicodecheckerboard.md)
+- [Custom Calendar Control](ui-controls/calendar/Calendar.md)
+- [Data Table Style Gallery](ui-controls/gallery/layouts/gallery-datatable.md)
+- [Gallery with Column Headings](ui-controls/gallery/layouts/gallery-with-headings.md)
+- [Image Grid Gallery](ui-controls/gallery/layouts/gallery-imagegrid.md)
+- [Modern Card-Style Gallery](ui-controls/gallery/layouts/gallery-modern-cards.md)
+- [Nested Galleries](ui-controls/gallery/interactions/nested-galleries.md)
+- [Responsive Hero Cards Gallery](ui-controls/gallery/layouts/responsive-gallery.md)
+- [Simple and Elegant Gallery](ui-controls/gallery/layouts/simple-elegant.md)
+- [Simple Gallery](ui-controls/gallery/layouts/simple-gallery.md)
+- [Status Board Gallery (Kanban Style)](ui-controls/gallery/layouts/gallery-statusboard.md)
+- [Timeline Style Gallery](ui-controls/gallery/layouts/gallery-timeline.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Top of App Formulas](app-lifecycle\formulas\expressions\top-of-app-formulas.md) | app-architecture | beginner | Table of contents and naming guidelines for App.Formulas. |
+### geography (3)
 
-## `fraction`
+- [Sample Data: Countries List](data-operations/samples/world-wide/countries.md)
+- [Sample Data: World Countries (Complete)](data-operations/samples/world-wide/world.md)
+- [World Cities Data Collection](data-operations/samples/world-wide/world-cities.md)
 
-**1 snippets**
+### getting-started (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find Proportional Value](app-lifecycle\formulas\user-defined-functions\fxfindproportionalvalue.md) | app-architecture | intermediate | Calculates a proportional value based on two related frac... |
+- [Power Apps Tutorials](learning/tutorials/readme.md)
 
-## `fundamentals`
+### grid (1)
 
-**1 snippets**
+- [Image Grid Gallery](ui-controls/gallery/layouts/gallery-imagegrid.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Basic Hello World](learning\tutorials\getting-started\hello-world\basic-hello-world.md) | 01-getting-started/hello-world | beginner | Your first Power Fx expression - display text and underst... |
+### guide (1)
 
-## `gallery`
+- [Spacer Rectangle](ui-controls/rectangle/spacer-medium.md)
 
-**13 snippets**
+### guidelines (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Alternating Row Colors in Gallery](ui-controls\gallery\styling\alternating-row-colors.md) | ui-controls | intermediate | Implement alternating row colors (zebra striping) in a Ga... |
-| [ASCII Code Checkerboard](ui-controls\gallery\styling\asciicodecheckerboard.md) | ui-controls | intermediate | A gallery displaying ASCII codes in a visual checkerboard... |
-| [Custom Calendar Control](ui-controls\calendar\Calendar.md) | ui-controls | advanced | A custom calendar implementation using galleries for mont... |
-| [Data Table Style Gallery](ui-controls\gallery\layouts\gallery-datatable.md) | ui-controls | intermediate | A professional data table gallery with column headers, al... |
-| [Gallery with Column Headings](ui-controls\gallery\layouts\gallery-with-headings.md) | ui-controls | beginner | A gallery layout with column headers for displaying tabul... |
-| [Image Grid Gallery](ui-controls\gallery\layouts\gallery-imagegrid.md) | ui-controls | intermediate | A responsive image gallery/grid with wrap count, category... |
-| [Modern Card-Style Gallery](ui-controls\gallery\layouts\gallery-modern-cards.md) | ui-controls | intermediate | A modern card gallery with responsive layout, bold shadow... |
-| [Nested Galleries](ui-controls\gallery\interactions\nested-galleries.md) | ui-controls | intermediate | Implementation of nested galleries with parent-child rela... |
-| [Responsive Hero Cards Gallery](ui-controls\gallery\layouts\responsive-gallery.md) | ui-controls | intermediate | A responsive gallery with hero card layout that automatic... |
-| [Simple and Elegant Gallery](ui-controls\gallery\layouts\simple-elegant.md) | ui-controls | intermediate | An elegant gallery design with header, drop shadow, and b... |
-| [Simple Gallery](ui-controls\gallery\layouts\simple-gallery.md) | ui-controls | beginner | A basic vertical gallery implementation with selection hi... |
-| [Status Board Gallery (Kanban Style)](ui-controls\gallery\layouts\gallery-statusboard.md) | ui-controls | intermediate | A task/status board style gallery with status color strip... |
-| [Timeline Style Gallery](ui-controls\gallery\layouts\gallery-timeline.md) | ui-controls | intermediate | A vertical timeline gallery for displaying chronological ... |
+- [Microsoft Power Apps Style](visual-assets/colors/palettes/microsoft-power-apps.md)
+- [Top of App Formulas](app-lifecycle/formulas/expressions/top-of-app-formulas.md)
 
-## `geography`
+### header (1)
 
-**3 snippets**
+- [Simple and Elegant Gallery](ui-controls/gallery/layouts/simple-elegant.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Countries List](data-operations\samples\world-wide\countries.md) | data-management | beginner | Complete list of world countries with ISO codes |
-| [Sample Data: World Countries (Complete)](data-operations\samples\world-wide\world.md) | data-management | beginner | Extended world countries list including territories and s... |
-| [World Cities Data Collection](data-operations\samples\world-wide\world-cities.md) | data-management | intermediate | Comprehensive collection of world cities with demographic... |
+### headers (1)
 
-## `gradients`
+- [Gallery with Column Headings](ui-controls/gallery/layouts/gallery-with-headings.md)
 
-**1 snippets**
+### hero-cards (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Resources](visual-assets\colors\utilities\color-resources.md) | visual-assets | beginner | External color resources, tools, and theme references inc... |
+- [Responsive Hero Cards Gallery](ui-controls/gallery/layouts/responsive-gallery.md)
 
-## `grid`
+### hex (2)
 
-**1 snippets**
+- [fxGetHexFromColor](visual-assets/colors/functions/fxgethexfromcolor.md)
+- [HEX to RGB Conversion](visual-assets/colors/functions/hex-2-rgb.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Image Grid Gallery](ui-controls\gallery\layouts\gallery-imagegrid.md) | ui-controls | intermediate | A responsive image gallery/grid with wrap count, category... |
+### hierarchy (2)
 
-## `guide`
+- [Get Direct Reports](integrations/connectors/office365-users/get-direct-reports.md)
+- [Get Manager Rollup](integrations/connectors/office365-users/get-manager-rollup.md)
 
-**1 snippets**
+### hr (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spacer Rectangle](ui-controls\rectangle\spacer-medium.md) | ui-controls | beginner | A rectangle control used as a visual spacer or guide duri... |
+- [Sample Data: Employee Records (5K)](data-operations/samples/people/employee-5k.md)
 
-## `guidelines`
+### hsl (1)
 
-**2 snippets**
+- [RGB to HSL Conversion](visual-assets/colors/functions/rgb-2-hsl.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Microsoft Power Apps Style](visual-assets\colors\palettes\microsoft-power-apps.md) | colors/palettes | N/A | Links to Microsoft's official branding and trademark guid... |
-| [Top of App Formulas](app-lifecycle\formulas\expressions\top-of-app-formulas.md) | app-architecture | beginner | Table of contents and naming guidelines for App.Formulas. |
+### hsv (2)
 
-## `header`
+- [HSV to RGB Conversion](visual-assets/colors/functions/hsv-2-rgb.md)
+- [RGB to HSV Conversion](visual-assets/colors/functions/rgb-2-hsv.md)
 
-**1 snippets**
+### human-resources (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Simple and Elegant Gallery](ui-controls\gallery\layouts\simple-elegant.md) | ui-controls | intermediate | An elegant gallery design with header, drop shadow, and b... |
+- [Sample Data: Employee Records (5K)](data-operations/samples/people/employee-5k.md)
 
-## `headers`
+### humor (1)
 
-**1 snippets**
+- [Sample Data: Dad Jokes Collection](data-operations/samples/jokes/dadjoke.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Gallery with Column Headings](ui-controls\gallery\layouts\gallery-with-headings.md) | ui-controls | beginner | A gallery layout with column headers for displaying tabul... |
+### icon (1)
 
-## `hero-cards`
+- [Change Pointer to Hand](ui-controls/icon/chnage-pointer-to-hand.md)
 
-**1 snippets**
+### icons (4)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Responsive Hero Cards Gallery](ui-controls\gallery\layouts\responsive-gallery.md) | ui-controls | intermediate | A responsive gallery with hero card layout that automatic... |
+- [File Type Icons](app-lifecycle/formulas/expressions/doc-type-icons.md)
+- [Icon Enumeration to Collection](app-lifecycle/formulas/collections/icons-as-collection.md)
+- [Left Nav Bar Component](ui-patterns/components/custom-components/menus/left-nav-bar.md)
+- [Modern Card-Style Gallery](ui-controls/gallery/layouts/gallery-modern-cards.md)
 
-## `hex`
+### identity (1)
 
-**2 snippets**
+- [Sample Data: Person Records (Large)](data-operations/samples/people/person.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [fxGetHexFromColor](visual-assets\colors\functions\fxgethexfromcolor.md) | colors/functions | N/A | User-defined function to convert a Power Apps Color value... |
-| [HEX to RGB Conversion](visual-assets\colors\functions\hex-2-rgb.md) | colors/functions | N/A | Convert hexadecimal color codes to RGB values in Power Fx |
+### image (2)
 
-## `hierarchy`
+- [Add Media Control](ui-controls/add-media/add-media.md)
+- [Random Profile Photo](ui-controls/image/random-photo-image.md)
 
-**2 snippets**
+### images (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Get Direct Reports](integrations\connectors\office365-users\get-direct-reports.md) | integrations | beginner | Retrieve direct reports for the current user using Office... |
-| [Get Manager Rollup](integrations\connectors\office365-users\get-manager-rollup.md) | integrations | advanced | Recursively retrieve a user's manager hierarchy (rollup) ... |
+- [Image Grid Gallery](ui-controls/gallery/layouts/gallery-imagegrid.md)
+- [Left Nav Bar Component](ui-patterns/components/custom-components/menus/left-nav-bar.md)
 
-## `hr`
+### input (3)
 
-**1 snippets**
+- [DataCard Control](ui-controls/datacard/DataCard.md)
+- [Drop Down List Video](ui-controls/drop-down-list/drop-down-list.md)
+- [Regular Expressions Collection](app-lifecycle/formulas/user-defined-functions/regular-expressions.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Employee Records (5K)](data-operations\samples\people\employee-5k.md) | data-management | beginner | 5,000 mock employee records with comprehensive HR data fi... |
+### international (1)
 
-## `human-resources`
+- [Sample Data: Nationalities List](data-operations/samples/world-wide/nationalities.md)
 
-**1 snippets**
+### isblank (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Employee Records (5K)](data-operations\samples\people\employee-5k.md) | data-management | beginner | 5,000 mock employee records with comprehensive HR data fi... |
+- [String Is Empty](functions/string-manipulation/validation/string-is-empty.md)
 
-## `humor`
+### ismatch (1)
 
-**1 snippets**
+- [IsMatch Function - Time Validation Pattern](functions/built-in/IsMatch.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Dad Jokes Collection](data-operations\samples\jokes\dadjoke.md) | data-management | beginner | Collection of family-friendly dad jokes for testing and e... |
+### iso-codes (2)
 
-## `icon`
+- [Sample Data: Countries List](data-operations/samples/world-wide/countries.md)
+- [Sample Data: World Countries (Complete)](data-operations/samples/world-wide/world.md)
 
-**1 snippets**
+### iteration (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Change Pointer to Hand](ui-controls\icon\chnage-pointer-to-hand.md) | ui-controls | beginner | An icon control configured to show a hand cursor on hover. |
+- [ForAll Function - Declarative Iteration](functions/built-in/forall/ForAll.md)
 
-## `icons`
+### jokes (1)
 
-**4 snippets**
+- [Sample Data: Dad Jokes Collection](data-operations/samples/jokes/dadjoke.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [File Type Icons](app-lifecycle\formulas\expressions\doc-type-icons.md) | app-architecture | beginner | Generate URLs for file type icons based on file extensions. |
-| [Icon Enumeration to Collection](app-lifecycle\formulas\collections\icons-as-collection.md) | app-architecture | beginner | Converts the standard Icon enumeration into a searchable,... |
-| [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | ui-patterns | intermediate | A reusable side navigation menu component for canvas apps... |
-| [Modern Card-Style Gallery](ui-controls\gallery\layouts\gallery-modern-cards.md) | ui-controls | intermediate | A modern card gallery with responsive layout, bold shadow... |
+### json (4)
 
-## `identity`
+- [fxGetHexFromColor](visual-assets/colors/functions/fxgethexfromcolor.md)
+- [Sample DrawSQL Export JSON](data-operations/sources/drawsql/sample-drawsql-export-json.md)
+- [Sample DrawSQL JSON Schema](data-operations/sources/drawsql/sample-json-schema.md)
+- [Schema: Car Data Generation Schema](data-operations/samples/schemas/car-data-schema.md)
 
-**1 snippets**
+### kanban (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Person Records (Large)](data-operations\samples\people\person.md) | data-management | intermediate | Large dataset of person records with extensive identity a... |
+- [Status Board Gallery (Kanban Style)](ui-controls/gallery/layouts/gallery-statusboard.md)
 
-## `image`
+### label (2)
 
-**2 snippets**
+- [Classic Label Control](ui-controls/label-or-text/label-classic.md)
+- [Modern Text Label Control](ui-controls/label-or-text/text-modern.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Add Media Control](ui-controls\add-media\add-media.md) | ui-controls | beginner | A styled Add Media button control for uploading images. |
-| [Random Profile Photo](ui-controls\image\random-photo-image.md) | ui-controls | beginner | An Image control that displays a random person's face usi... |
+### labels (1)
 
-## `images`
+- [Display All Office 365 User Profile Fields](integrations/connectors/office365-users/display-all-fields.md)
 
-**2 snippets**
+### large-dataset (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Image Grid Gallery](ui-controls\gallery\layouts\gallery-imagegrid.md) | ui-controls | intermediate | A responsive image gallery/grid with wrap count, category... |
-| [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | ui-patterns | intermediate | A reusable side navigation menu component for canvas apps... |
+- [Sample Data: Person Records (Large)](data-operations/samples/people/person.md)
 
-## `input`
+### layout (13)
 
-**3 snippets**
+- [Canvas Control](ui-controls/canvas/Canvas.md)
+- [Data Table Style Gallery](ui-controls/gallery/layouts/gallery-datatable.md)
+- [Funnel Layout Container](ui-controls/container/funnel-layout/readme.md)
+- [Gallery with Column Headings](ui-controls/gallery/layouts/gallery-with-headings.md)
+- [Handling Vertical Sliders](ui-controls/sliders/handing-vertical-sliders.md)
+- [Helpful Constants](app-lifecycle/formulas/expressions/control-constants.md)
+- [Image Grid Gallery](ui-controls/gallery/layouts/gallery-imagegrid.md)
+- [Modern Card-Style Gallery](ui-controls/gallery/layouts/gallery-modern-cards.md)
+- [Responsive Hero Cards Gallery](ui-controls/gallery/layouts/responsive-gallery.md)
+- [Simple Gallery](ui-controls/gallery/layouts/simple-gallery.md)
+- [Spacer Rectangle](ui-controls/rectangle/spacer-medium.md)
+- [Status Board Gallery (Kanban Style)](ui-controls/gallery/layouts/gallery-statusboard.md)
+- [Timeline Style Gallery](ui-controls/gallery/layouts/gallery-timeline.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [DataCard Control](ui-controls\datacard\DataCard.md) | ui-controls | beginner | A basic DataCard control snippet (note: pasting support i... |
-| [Drop Down List Video](ui-controls\drop-down-list\drop-down-list.md) | ui-controls | beginner | Video tutorial on using Drop Down Lists in Power Apps. |
-| [Regular Expressions Collection](app-lifecycle\formulas\user-defined-functions\regular-expressions.md) | app-architecture | intermediate | A collection of common regular expressions for validation... |
+### learning (1)
 
-## `international`
+- [Power Apps Tutorials](learning/tutorials/readme.md)
 
-**1 snippets**
+### linear (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Nationalities List](data-operations\samples\world-wide\nationalities.md) | data-management | beginner | List of nationality demonyms for international applications |
+- [RGB to Linear Conversion](visual-assets/colors/functions/rgb-2-lin.md)
 
-## `ismatch`
+### loading (1)
 
-**1 snippets**
+- [Spinner Component](ui-patterns/components/custom-components/spinner/Spinner.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [IsMatch Function - Time Validation Pattern](functions\built-in\IsMatch.md) | business-logic | intermediate | Regular expression pattern for validating 12-hour time fo... |
+### luminance (2)
 
-## `iso-codes`
+- [Color Functions Component](visual-assets/colors/functions/color-functions.md)
+- [Luminance Calculation](visual-assets/colors/functions/luminance.md)
 
-**2 snippets**
+### manager (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Countries List](data-operations\samples\world-wide\countries.md) | data-management | beginner | Complete list of world countries with ISO codes |
-| [Sample Data: World Countries (Complete)](data-operations\samples\world-wide\world.md) | data-management | beginner | Extended world countries list including territories and s... |
+- [Get Manager Rollup](integrations/connectors/office365-users/get-manager-rollup.md)
 
-## `iteration`
+### mass-updates (1)
 
-**1 snippets**
+- [Performing Mass Updates Quickly](functions/algorithms/Quick-Mass-Updates.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ForAll Function - Declarative Iteration](functions\built-in\forall\ForAll.md) | business-logic | intermediate | Using ForAll function for declarative iteration with Sequ... |
+### math (1)
 
-## `jokes`
+- [Find Proportional Value](app-lifecycle/formulas/user-defined-functions/fxfindproportionalvalue.md)
 
-**1 snippets**
+### media (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Dad Jokes Collection](data-operations\samples\jokes\dadjoke.md) | data-management | beginner | Collection of family-friendly dad jokes for testing and e... |
+- [Add Media Control](ui-controls/add-media/add-media.md)
 
-## `json`
+### menu (1)
 
-**3 snippets**
+- [Left Nav Bar Component](ui-patterns/components/custom-components/menus/left-nav-bar.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample DrawSQL Export JSON](data-operations\sources\drawsql\sample-drawsql-export-json.md) | data-operations | intermediate | Complete JSON export from DrawSQL containing database sch... |
-| [Sample DrawSQL JSON Schema](data-operations\sources\drawsql\sample-json-schema.md) | data-operations | intermediate | Sample JSON schema for DrawSQL database diagrams, contain... |
-| [Schema: Car Data Generation Schema](data-operations\samples\schemas\car-data-schema.md) | data-management | intermediate | Mockaroo schema definition for generating car/vehicle sam... |
+### metadata (1)
 
-## `kanban`
+- [All Controls Expression](app-lifecycle/formulas/expressions/fxexp-allcontrols.md)
 
-**1 snippets**
+### microsoft (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Status Board Gallery (Kanban Style)](ui-controls\gallery\layouts\gallery-statusboard.md) | ui-controls | intermediate | A task/status board style gallery with status color strip... |
+- [Microsoft Power Apps Style](visual-assets/colors/palettes/microsoft-power-apps.md)
 
-## `label`
+### microsoft-learn (1)
 
-**2 snippets**
+- [Microsoft Certification Resources](learning/certification/readme.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Classic Label Control](ui-controls\label-or-text\label-classic.md) | ui-controls | beginner | A classic label control for displaying text in Power Apps... |
-| [Modern Text Label Control](ui-controls\label-or-text\text-modern.md) | ui-controls | beginner | A modern text label control with border styling and prima... |
+### mockaroo (1)
 
-## `labels`
+- [Schema: Car Data Generation Schema](data-operations/samples/schemas/car-data-schema.md)
 
-**1 snippets**
+### mod-function (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Display All Office 365 User Profile Fields](integrations\connectors\office365-users\display-all-fields.md) | integrations | beginner | Display all available fields from the current user's Offi... |
+- [Alternating Row Colors in Gallery](ui-controls/gallery/styling/alternating-row-colors.md)
 
-## `large-dataset`
+### modern (2)
 
-**1 snippets**
+- [Modern Card-Style Gallery](ui-controls/gallery/layouts/gallery-modern-cards.md)
+- [Modern Text Label Control](ui-controls/label-or-text/text-modern.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Person Records (Large)](data-operations\samples\people\person.md) | data-management | intermediate | Large dataset of person records with extensive identity a... |
+### named-formula (3)
 
-## `layout`
+- [Color Collection](visual-assets/colors/palettes/color-collection.md)
+- [Color Palettes](visual-assets/colors/palettes/color-palettes.md)
+- [Web Colors](visual-assets/colors/palettes/web-colors.md)
 
-**12 snippets**
+### named-formulas (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Canvas Control](ui-controls\canvas\Canvas.md) | ui-controls | intermediate | FluidGrid canvas control examples, including one with Dat... |
-| [Data Table Style Gallery](ui-controls\gallery\layouts\gallery-datatable.md) | ui-controls | intermediate | A professional data table gallery with column headers, al... |
-| [Gallery with Column Headings](ui-controls\gallery\layouts\gallery-with-headings.md) | ui-controls | beginner | A gallery layout with column headers for displaying tabul... |
-| [Handling Vertical Sliders](ui-controls\sliders\handing-vertical-sliders.md) | ui-controls | intermediate | Example of using vertical sliders to control image position. |
-| [Helpful Constants](app-lifecycle\formulas\expressions\control-constants.md) | app-architecture | beginner | A set of standard constants for spacing, screen defaults,... |
-| [Image Grid Gallery](ui-controls\gallery\layouts\gallery-imagegrid.md) | ui-controls | intermediate | A responsive image gallery/grid with wrap count, category... |
-| [Modern Card-Style Gallery](ui-controls\gallery\layouts\gallery-modern-cards.md) | ui-controls | intermediate | A modern card gallery with responsive layout, bold shadow... |
-| [Responsive Hero Cards Gallery](ui-controls\gallery\layouts\responsive-gallery.md) | ui-controls | intermediate | A responsive gallery with hero card layout that automatic... |
-| [Simple Gallery](ui-controls\gallery\layouts\simple-gallery.md) | ui-controls | beginner | A basic vertical gallery implementation with selection hi... |
-| [Spacer Rectangle](ui-controls\rectangle\spacer-medium.md) | ui-controls | beginner | A rectangle control used as a visual spacer or guide duri... |
-| [Status Board Gallery (Kanban Style)](ui-controls\gallery\layouts\gallery-statusboard.md) | ui-controls | intermediate | A task/status board style gallery with status color strip... |
-| [Timeline Style Gallery](ui-controls\gallery\layouts\gallery-timeline.md) | ui-controls | intermediate | A vertical timeline gallery for displaying chronological ... |
+- [User-Defined Types Examples](app-lifecycle/formulas/user-defined-types/user-defined-types.md)
 
-## `linear`
+### naming (2)
 
-**1 snippets**
+- [Naming Controls Guidelines](ui-controls/naming-controls/naming-controls.md)
+- [Top of App Formulas](app-lifecycle/formulas/expressions/top-of-app-formulas.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [RGB to Linear Conversion](visual-assets\colors\functions\rgb-2-lin.md) | colors/functions | N/A | Convert sRGB color values to linearized values for accura... |
+### nationalities (1)
 
-## `loading`
+- [Sample Data: Nationalities List](data-operations/samples/world-wide/nationalities.md)
 
-**1 snippets**
+### navigation (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spinner Component](ui-patterns\components\custom-components\spinner\Spinner.md) | ui-patterns | intermediate | A customizable loading spinner component for canvas apps ... |
+- [Left Nav Bar Component](ui-patterns/components/custom-components/menus/left-nav-bar.md)
+- [Random Screen Transition](app-lifecycle/formulas/user-defined-functions/screen-transition-random.md)
 
-## `luminance`
+### nested (1)
 
-**2 snippets**
+- [Nested Galleries](ui-controls/gallery/interactions/nested-galleries.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Functions Component](visual-assets\colors\functions\color-functions.md) | colors/functions | N/A | Canvas component with accessibility color functions for c... |
-| [Luminance Calculation](visual-assets\colors\functions\luminance.md) | colors/functions | N/A | Calculate luminance values for accessibility and color bl... |
+### numbers (1)
 
-## `manager`
+- [Pad Numbers Inside String](functions/string-manipulation/padding/padd-numbers-inside-string.md)
 
-**1 snippets**
+### office365 (6)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Get Manager Rollup](integrations\connectors\office365-users\get-manager-rollup.md) | integrations | advanced | Recursively retrieve a user's manager hierarchy (rollup) ... |
+- [Auto-Add User from Office 365](integrations/connectors/office365-users/auto-add-user.md)
+- [Connector Patterns](integrations/connectors/readme.md)
+- [Display All Office 365 User Profile Fields](integrations/connectors/office365-users/display-all-fields.md)
+- [Email Attachments](integrations/connectors/office365-outlook/email-attachments.md)
+- [Get Direct Reports](integrations/connectors/office365-users/get-direct-reports.md)
+- [Get Manager Rollup](integrations/connectors/office365-users/get-manager-rollup.md)
 
-## `mass-updates`
+### outlook (1)
 
-**1 snippets**
+- [Email Attachments](integrations/connectors/office365-outlook/email-attachments.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Performing Mass Updates Quickly](functions\algorithms\Quick-Mass-Updates.md) | business-logic | intermediate | Learn how to efficiently perform mass updates or add reco... |
+### overview (1)
 
-## `math`
+- [Controls Overview](ui-controls/controls-readme.md)
 
-**1 snippets**
+### padding (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find Proportional Value](app-lifecycle\formulas\user-defined-functions\fxfindproportionalvalue.md) | app-architecture | intermediate | Calculates a proportional value based on two related frac... |
+- [Pad Numbers Inside String](functions/string-manipulation/padding/padd-numbers-inside-string.md)
 
-## `media`
+### palette (1)
 
-**1 snippets**
+- [Color Palettes](visual-assets/colors/palettes/color-palettes.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Add Media Control](ui-controls\add-media\add-media.md) | ui-controls | beginner | A styled Add Media button control for uploading images. |
+### parent-child (1)
 
-## `menu`
+- [Nested Galleries](ui-controls/gallery/interactions/nested-galleries.md)
 
-**1 snippets**
+### pattern (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | ui-patterns | intermediate | A reusable side navigation menu component for canvas apps... |
+- [ASCII Code Checkerboard](ui-controls/gallery/styling/asciicodecheckerboard.md)
 
-## `metadata`
+### pattern-matching (1)
 
-**1 snippets**
+- [IsMatch Function - Time Validation Pattern](functions/built-in/IsMatch.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [All Controls Expression](app-lifecycle\formulas\expressions\fxexp-allcontrols.md) | app-architecture | intermediate | A comprehensive table of all Power Apps controls with met... |
+### patterns (1)
 
-## `mockaroo`
+- [Regular Expressions Collection](app-lifecycle/formulas/user-defined-functions/regular-expressions.md)
 
-**1 snippets**
+### people (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Schema: Car Data Generation Schema](data-operations\samples\schemas\car-data-schema.md) | data-management | intermediate | Mockaroo schema definition for generating car/vehicle sam... |
+- [Sample Data: Person Records (Large)](data-operations/samples/people/person.md)
 
-## `mod-function`
+### performance (1)
 
-**1 snippets**
+- [Performing Mass Updates Quickly](functions/algorithms/Quick-Mass-Updates.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Alternating Row Colors in Gallery](ui-controls\gallery\styling\alternating-row-colors.md) | ui-controls | intermediate | Implement alternating row colors (zebra striping) in a Ga... |
+### photos (1)
 
-## `modern`
+- [Image Grid Gallery](ui-controls/gallery/layouts/gallery-imagegrid.md)
 
-**2 snippets**
+### pl-200 (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Modern Card-Style Gallery](ui-controls\gallery\layouts\gallery-modern-cards.md) | ui-controls | intermediate | A modern card gallery with responsive layout, bold shadow... |
-| [Modern Text Label Control](ui-controls\label-or-text\text-modern.md) | ui-controls | beginner | A modern text label control with border styling and prima... |
+- [Microsoft Certification Resources](learning/certification/readme.md)
 
-## `named-formula`
+### pl-400 (1)
 
-**3 snippets**
+- [Microsoft Certification Resources](learning/certification/readme.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Collection](visual-assets\colors\palettes\color-collection.md) | colors/palettes | N/A | All 140 web colors defined as a Power Apps collection wit... |
-| [Color Palettes](visual-assets\colors\palettes\color-palettes.md) | colors/palettes | N/A | Simple color palette configuration for Power Apps with pr... |
-| [Web Colors](visual-assets\colors\palettes\web-colors.md) | colors/palettes | N/A | Complete collection of 140 web colors with names, hex cod... |
+### pl-900 (1)
 
-## `named-formulas`
+- [Microsoft Certification Resources](learning/certification/readme.md)
 
-**1 snippets**
+### politics (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User-Defined Types Examples](app-lifecycle\formulas\user-defined-types\user-defined-types.md) | app-architecture | advanced | Comprehensive examples of User-Defined Types (UDT), Named... |
+- [Sample Data: FiveThirtyEight Data Index](data-operations/samples/538-data/index.md)
 
-## `naming`
+### position (1)
 
-**2 snippets**
+- [Handling Vertical Sliders](ui-controls/sliders/handing-vertical-sliders.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Naming Controls Guidelines](ui-controls\naming-controls\naming-controls.md) | ui-controls | beginner | Best practices and rules for naming controls in Power Apps. |
-| [Top of App Formulas](app-lifecycle\formulas\expressions\top-of-app-formulas.md) | app-architecture | beginner | Table of contents and naming guidelines for App.Formulas. |
+### power-apps (1)
 
-## `nationalities`
+- [Power Apps Color Palette](visual-assets/colors/palettes/color-palette-pa.md)
 
-**1 snippets**
+### priority (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Nationalities List](data-operations\samples\world-wide\nationalities.md) | data-management | beginner | List of nationality demonyms for international applications |
+- [Status Board Gallery (Kanban Style)](ui-controls/gallery/layouts/gallery-statusboard.md)
 
-## `navigation`
+### profile (3)
 
-**2 snippets**
+- [Auto-Add User from Office 365](integrations/connectors/office365-users/auto-add-user.md)
+- [Display All Office 365 User Profile Fields](integrations/connectors/office365-users/display-all-fields.md)
+- [Random Profile Photo](ui-controls/image/random-photo-image.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | ui-patterns | intermediate | A reusable side navigation menu component for canvas apps... |
-| [Random Screen Transition](app-lifecycle\formulas\user-defined-functions\screen-transition-random.md) | app-architecture | beginner | A function to return a random screen transition effect. |
+### proportion (1)
 
-## `nested`
+- [Find Proportional Value](app-lifecycle/formulas/user-defined-functions/fxfindproportionalvalue.md)
 
-**1 snippets**
+### random (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Nested Galleries](ui-controls\gallery\interactions\nested-galleries.md) | ui-controls | intermediate | Implementation of nested galleries with parent-child rela... |
+- [Random Profile Photo](ui-controls/image/random-photo-image.md)
+- [Random Screen Transition](app-lifecycle/formulas/user-defined-functions/screen-transition-random.md)
 
-## `nord-theme`
+### rectangle (1)
 
-**1 snippets**
+- [Spacer Rectangle](ui-controls/rectangle/spacer-medium.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Resources](visual-assets\colors\utilities\color-resources.md) | visual-assets | beginner | External color resources, tools, and theme references inc... |
+### reference (1)
 
-## `numbers`
+- [All Controls Expression](app-lifecycle/formulas/expressions/fxexp-allcontrols.md)
 
-**1 snippets**
+### regex (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Pad Numbers Inside String](functions\string-manipulation\padding\padd-numbers-inside-string.md) | business-logic | advanced | Collection of user-defined functions for padding, extract... |
+- [IsMatch Function - Time Validation Pattern](functions/built-in/IsMatch.md)
+- [Regular Expressions Collection](app-lifecycle/formulas/user-defined-functions/regular-expressions.md)
 
-## `office365`
+### relationships (2)
 
-**5 snippets**
+- [Model Database SQL Schema](data-operations/sources/mssql/model-db-sql.md)
+- [Sample DrawSQL Export JSON](data-operations/sources/drawsql/sample-drawsql-export-json.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Auto-Add User from Office 365](integrations\connectors\office365-users\auto-add-user.md) | integrations | intermediate | Automatically add the current user to the app's user tabl... |
-| [Display All Office 365 User Profile Fields](integrations\connectors\office365-users\display-all-fields.md) | integrations | beginner | Display all available fields from the current user's Offi... |
-| [Email Attachments](integrations\connectors\office365-outlook\email-attachments.md) | integrations | intermediate | Send email with multiple attachments using Office365Outlo... |
-| [Get Direct Reports](integrations\connectors\office365-users\get-direct-reports.md) | integrations | beginner | Retrieve direct reports for the current user using Office... |
-| [Get Manager Rollup](integrations\connectors\office365-users\get-manager-rollup.md) | integrations | advanced | Recursively retrieve a user's manager hierarchy (rollup) ... |
+### resources (1)
 
-## `outlook`
+- [Component Resources](ui-patterns/components/custom-components/Components.md)
 
-**1 snippets**
+### responsive (4)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Email Attachments](integrations\connectors\office365-outlook\email-attachments.md) | integrations | intermediate | Send email with multiple attachments using Office365Outlo... |
+- [Canvas Control](ui-controls/canvas/Canvas.md)
+- [Funnel Layout Container](ui-controls/container/funnel-layout/readme.md)
+- [Image Grid Gallery](ui-controls/gallery/layouts/gallery-imagegrid.md)
+- [Responsive Hero Cards Gallery](ui-controls/gallery/layouts/responsive-gallery.md)
 
-## `padding`
+### reusable-logic (1)
 
-**1 snippets**
+- [User Defined Functions Overview](functions/user-defined-functions/user-defined-functions.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Pad Numbers Inside String](functions\string-manipulation\padding\padd-numbers-inside-string.md) | business-logic | advanced | Collection of user-defined functions for padding, extract... |
+### rgb (5)
 
-## `palette`
+- [HEX to RGB Conversion](visual-assets/colors/functions/hex-2-rgb.md)
+- [HSV to RGB Conversion](visual-assets/colors/functions/hsv-2-rgb.md)
+- [RGB to HSL Conversion](visual-assets/colors/functions/rgb-2-hsl.md)
+- [RGB to HSV Conversion](visual-assets/colors/functions/rgb-2-hsv.md)
+- [RGB to Linear Conversion](visual-assets/colors/functions/rgb-2-lin.md)
 
-**1 snippets**
+### rgba (4)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Palettes](visual-assets\colors\palettes\color-palettes.md) | colors/palettes | N/A | Simple color palette configuration for Power Apps with pr... |
+- [Color Functions Component](visual-assets/colors/functions/color-functions.md)
+- [HEX to RGB Conversion](visual-assets/colors/functions/hex-2-rgb.md)
+- [HSV to RGB Conversion](visual-assets/colors/functions/hsv-2-rgb.md)
+- [Luminance Calculation](visual-assets/colors/functions/luminance.md)
 
-## `parent-child`
+### role-based (1)
 
-**1 snippets**
+- [Left Nav Bar Component](ui-patterns/components/custom-components/menus/left-nav-bar.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Nested Galleries](ui-controls\gallery\interactions\nested-galleries.md) | ui-controls | intermediate | Implementation of nested galleries with parent-child rela... |
+### rollup (1)
 
-## `pattern`
+- [Get Manager Rollup](integrations/connectors/office365-users/get-manager-rollup.md)
 
-**1 snippets**
+### sample (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ASCII Code Checkerboard](ui-controls\gallery\styling\asciicodecheckerboard.md) | ui-controls | intermediate | A gallery displaying ASCII codes in a visual checkerboard... |
+- [Sample Chart Data](ui-controls/chart/sample-data.md)
 
-## `pattern-matching`
+### sample-data (13)
 
-**1 snippets**
+- [538 Data Sample Directory](data-operations/samples/538-data/538-data.md)
+- [Data Samples Directory](data-operations/samples/data-samples.md)
+- [Sample Data: All Kinds of Data](data-operations/samples/all-kinds-of-data.md)
+- [Sample Data: Countries List](data-operations/samples/world-wide/countries.md)
+- [Sample Data: Dad Jokes Collection](data-operations/samples/jokes/dadjoke.md)
+- [Sample Data: Employee Info (5K)](data-operations/samples/people/employeeinfo-5k.md)
+- [Sample Data: Employee Records (5K)](data-operations/samples/people/employee-5k.md)
+- [Sample Data: FiveThirtyEight Data Index](data-operations/samples/538-data/index.md)
+- [Sample Data: Nationalities List](data-operations/samples/world-wide/nationalities.md)
+- [Sample Data: Person Records (Large)](data-operations/samples/people/person.md)
+- [Sample Data: Vehicle/Car Records](data-operations/samples/vehicles/car-data.md)
+- [Sample Data: World Countries (Complete)](data-operations/samples/world-wide/world.md)
+- [World Cities Data Collection](data-operations/samples/world-wide/world-cities.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [IsMatch Function - Time Validation Pattern](functions\built-in\IsMatch.md) | business-logic | intermediate | Regular expression pattern for validating 12-hour time fo... |
+### schema (4)
 
-## `patterns`
+- [Model Database SQL Schema](data-operations/sources/mssql/model-db-sql.md)
+- [Sample DrawSQL Export JSON](data-operations/sources/drawsql/sample-drawsql-export-json.md)
+- [Sample DrawSQL JSON Schema](data-operations/sources/drawsql/sample-json-schema.md)
+- [Schema: Car Data Generation Schema](data-operations/samples/schemas/car-data-schema.md)
 
-**1 snippets**
+### sequence (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Regular Expressions Collection](app-lifecycle\formulas\user-defined-functions\regular-expressions.md) | app-architecture | intermediate | A collection of common regular expressions for validation... |
+- [ForAll Function - Declarative Iteration](functions/built-in/forall/ForAll.md)
 
-## `people`
+### setfocus (2)
 
-**1 snippets**
+- [Focus Behavior in Canvas Components - Usage Guide](ui-patterns/components/custom-components/input-control/FOCUS-USAGE-GUIDE.md)
+- [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns/components/custom-components/Research-SetFocus-Component-Behavior.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Person Records (Large)](data-operations\samples\people\person.md) | data-management | intermediate | Large dataset of person records with extensive identity a... |
+### shadow (1)
 
-## `performance`
+- [Simple and Elegant Gallery](ui-controls/gallery/layouts/simple-elegant.md)
 
-**1 snippets**
+### sharepoint (3)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Performing Mass Updates Quickly](functions\algorithms\Quick-Mass-Updates.md) | business-logic | intermediate | Learn how to efficiently perform mass updates or add reco... |
+- [Connector Patterns](integrations/connectors/readme.md)
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
+- [File Type Icons](app-lifecycle/formulas/expressions/doc-type-icons.md)
 
-## `photos`
+### slider (1)
 
-**1 snippets**
+- [Handling Vertical Sliders](ui-controls/sliders/handing-vertical-sliders.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Image Grid Gallery](ui-controls\gallery\layouts\gallery-imagegrid.md) | ui-controls | intermediate | A responsive image gallery/grid with wrap count, category... |
+### solutions (1)
 
-## `politics`
+- [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle/environment-variables-sharepoint-alm-guide.md)
 
-**1 snippets**
+### sources (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: FiveThirtyEight Data Index](data-operations\samples\538-data\index.md) | data-operations | intermediate | Index of FiveThirtyEight (538) open datasets for politica... |
+- [Data Sources Resources](data-operations/sources/readme.md)
 
-## `position`
+### spacer (1)
 
-**1 snippets**
+- [Spacer Rectangle](ui-controls/rectangle/spacer-medium.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Handling Vertical Sliders](ui-controls\sliders\handing-vertical-sliders.md) | ui-controls | intermediate | Example of using vertical sliders to control image position. |
+### spinner (1)
 
-## `primary-functionality`
+- [Spinner Component](ui-patterns/components/custom-components/spinner/Spinner.md)
 
-**1 snippets**
+### sql (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Snippet Title](docs\templates\snippet-template.md) | XX-category-name/subcategory | beginner | Brief description of what this snippet does and when to u... |
+- [Data Sources Resources](data-operations/sources/readme.md)
+- [Model Database SQL Schema](data-operations/sources/mssql/model-db-sql.md)
 
-## `priority`
+### srgb (1)
 
-**1 snippets**
+- [RGB to Linear Conversion](visual-assets/colors/functions/rgb-2-lin.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Status Board Gallery (Kanban Style)](ui-controls\gallery\layouts\gallery-statusboard.md) | ui-controls | intermediate | A task/status board style gallery with status color strip... |
+### standardization (1)
 
-## `profile`
+- [Helpful Constants](app-lifecycle/formulas/expressions/control-constants.md)
 
-**3 snippets**
+### standards (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Auto-Add User from Office 365](integrations\connectors\office365-users\auto-add-user.md) | integrations | intermediate | Automatically add the current user to the app's user tabl... |
-| [Display All Office 365 User Profile Fields](integrations\connectors\office365-users\display-all-fields.md) | integrations | beginner | Display all available fields from the current user's Offi... |
-| [Random Profile Photo](ui-controls\image\random-photo-image.md) | ui-controls | beginner | An Image control that displays a random person's face usi... |
+- [Naming Controls Guidelines](ui-controls/naming-controls/naming-controls.md)
 
-## `proportion`
+### statistics (2)
 
-**1 snippets**
+- [538 Data Sample Directory](data-operations/samples/538-data/538-data.md)
+- [Sample Data: FiveThirtyEight Data Index](data-operations/samples/538-data/index.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find Proportional Value](app-lifecycle\formulas\user-defined-functions\fxfindproportionalvalue.md) | app-architecture | intermediate | Calculates a proportional value based on two related frac... |
+### status (2)
 
-## `random`
+- [Modern Card-Style Gallery](ui-controls/gallery/layouts/gallery-modern-cards.md)
+- [Status Board Gallery (Kanban Style)](ui-controls/gallery/layouts/gallery-statusboard.md)
 
-**2 snippets**
+### step-by-step (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Random Profile Photo](ui-controls\image\random-photo-image.md) | ui-controls | beginner | An Image control that displays a random person's face usi... |
-| [Random Screen Transition](app-lifecycle\formulas\user-defined-functions\screen-transition-random.md) | app-architecture | beginner | A function to return a random screen transition effect. |
+- [Power Apps Tutorials](learning/tutorials/readme.md)
 
-## `rectangle`
+### string-removal (1)
 
-**1 snippets**
+- [Eliminate String Within String](functions/string-manipulation/transformations/eliminate-string-within-string.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spacer Rectangle](ui-controls\rectangle\spacer-medium.md) | ui-controls | beginner | A rectangle control used as a visual spacer or guide duri... |
+### string-search (1)
 
-## `reference`
+- [Find String Exactly Within Table](functions/string-manipulation/parsing/find-string-exactly-within-table.md)
 
-**1 snippets**
+### studio-mode (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [All Controls Expression](app-lifecycle\formulas\expressions\fxexp-allcontrols.md) | app-architecture | intermediate | A comprehensive table of all Power Apps controls with met... |
+- [Are We in Studio Mode?](app-lifecycle/formulas/expressions/boolean-is-in-studio-mode.md)
 
-## `regex`
+### styling (2)
 
-**2 snippets**
+- [Alternating Row Colors in Gallery](ui-controls/gallery/styling/alternating-row-colors.md)
+- [ASCII Code Checkerboard](ui-controls/gallery/styling/asciicodecheckerboard.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [IsMatch Function - Time Validation Pattern](functions\built-in\IsMatch.md) | business-logic | intermediate | Regular expression pattern for validating 12-hour time fo... |
-| [Regular Expressions Collection](app-lifecycle\formulas\user-defined-functions\regular-expressions.md) | app-architecture | intermediate | A collection of common regular expressions for validation... |
+### substring (1)
 
-## `relationships`
+- [Eliminate String Within String](functions/string-manipulation/transformations/eliminate-string-within-string.md)
 
-**2 snippets**
+### svg (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Model Database SQL Schema](data-operations\sources\mssql\model-db-sql.md) | data-operations | intermediate | SQL CREATE TABLE statements for a model database schema w... |
-| [Sample DrawSQL Export JSON](data-operations\sources\drawsql\sample-drawsql-export-json.md) | data-operations | intermediate | Complete JSON export from DrawSQL containing database sch... |
+- [Spinner Component](ui-patterns/components/custom-components/spinner/Spinner.md)
 
-## `resources`
+### syntax (2)
 
-**2 snippets**
+- [Basic Hello World](learning/tutorials/getting-started/hello-world/basic-hello-world.md)
+- [User Defined Types Syntax](app-lifecycle/formulas/user-defined-types/user-defined-types-syntax.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Resources](visual-assets\colors\utilities\color-resources.md) | visual-assets | beginner | External color resources, tools, and theme references inc... |
-| [Component Resources](ui-patterns\components\custom-components\Components.md) | ui-patterns | beginner | Links to external resources for Power Apps components and... |
+### table (1)
 
-## `responsive`
+- [Data Table Style Gallery](ui-controls/gallery/layouts/gallery-datatable.md)
 
-**3 snippets**
+### table-lookup (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Canvas Control](ui-controls\canvas\Canvas.md) | ui-controls | intermediate | FluidGrid canvas control examples, including one with Dat... |
-| [Image Grid Gallery](ui-controls\gallery\layouts\gallery-imagegrid.md) | ui-controls | intermediate | A responsive image gallery/grid with wrap count, category... |
-| [Responsive Hero Cards Gallery](ui-controls\gallery\layouts\responsive-gallery.md) | ui-controls | intermediate | A responsive gallery with hero card layout that automatic... |
+- [Find String Exactly Within Table](functions/string-manipulation/parsing/find-string-exactly-within-table.md)
 
-## `reusable-logic`
+### tabular (1)
 
-**1 snippets**
+- [Gallery with Column Headings](ui-controls/gallery/layouts/gallery-with-headings.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Functions Overview](functions\user-defined-functions\user-defined-functions.md) | business-logic | intermediate | Introduction to creating and using user-defined functions... |
+### tag1 (1)
 
-## `role-based`
+- [Snippet Title](New-Page-Template.md)
 
-**1 snippets**
+### tag2 (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Left Nav Bar Component](ui-patterns\components\custom-components\menus\left-nav-bar.md) | ui-patterns | intermediate | A reusable side navigation menu component for canvas apps... |
+- [Snippet Title](New-Page-Template.md)
 
-## `rollup`
+### tasks (1)
 
-**1 snippets**
+- [Status Board Gallery (Kanban Style)](ui-controls/gallery/layouts/gallery-statusboard.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Get Manager Rollup](integrations\connectors\office365-users\get-manager-rollup.md) | integrations | advanced | Recursively retrieve a user's manager hierarchy (rollup) ... |
+### template (1)
 
-## `sRGB`
+- [Color Functions Template](visual-assets/colors/palettes/color-template.md)
 
-**1 snippets**
+### territories (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [RGB to Linear Conversion](visual-assets\colors\functions\rgb-2-lin.md) | colors/functions | N/A | Convert sRGB color values to linearized values for accura... |
+- [Sample Data: World Countries (Complete)](data-operations/samples/world-wide/world.md)
 
-## `sample`
+### testing (1)
 
-**1 snippets**
+- [Sample Data: All Kinds of Data](data-operations/samples/all-kinds-of-data.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Chart Data](ui-controls\chart\sample-data.md) | ui-controls | beginner | Sample data collection for testing Column, Line, and Pie ... |
+### text (3)
 
-## `sample-data`
+- [Basic Hello World](learning/tutorials/getting-started/hello-world/basic-hello-world.md)
+- [Classic Label Control](ui-controls/label-or-text/label-classic.md)
+- [Modern Text Label Control](ui-controls/label-or-text/text-modern.md)
 
-**13 snippets**
+### text-extraction (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [538 Data Sample Directory](data-operations\samples\538-data\538-data.md) | data-management | beginner | Directory of sample datasets from FiveThirtyEight (538) f... |
-| [Data Samples Directory](data-operations\samples\data-samples.md) | data-management | beginner | Directory overview of sample data files and datasets avai... |
-| [Sample Data: All Kinds of Data](data-operations\samples\all-kinds-of-data.md) | data-management | beginner | Comprehensive sample dataset with diverse data types for ... |
-| [Sample Data: Countries List](data-operations\samples\world-wide\countries.md) | data-management | beginner | Complete list of world countries with ISO codes |
-| [Sample Data: Dad Jokes Collection](data-operations\samples\jokes\dadjoke.md) | data-management | beginner | Collection of family-friendly dad jokes for testing and e... |
-| [Sample Data: Employee Info (5K)](data-operations\samples\people\employeeinfo-5k.md) | data-management | beginner | 5,000 basic employee information records for testing |
-| [Sample Data: Employee Records (5K)](data-operations\samples\people\employee-5k.md) | data-management | beginner | 5,000 mock employee records with comprehensive HR data fi... |
-| [Sample Data: FiveThirtyEight Data Index](data-operations\samples\538-data\index.md) | data-operations | intermediate | Index of FiveThirtyEight (538) open datasets for politica... |
-| [Sample Data: Nationalities List](data-operations\samples\world-wide\nationalities.md) | data-management | beginner | List of nationality demonyms for international applications |
-| [Sample Data: Person Records (Large)](data-operations\samples\people\person.md) | data-management | intermediate | Large dataset of person records with extensive identity a... |
-| [Sample Data: Vehicle/Car Records](data-operations\samples\vehicles\car-data.md) | data-management | beginner | Comprehensive vehicle dataset with make, model, VIN, and ... |
-| [Sample Data: World Countries (Complete)](data-operations\samples\world-wide\world.md) | data-management | beginner | Extended world countries list including territories and s... |
-| [World Cities Data Collection](data-operations\samples\world-wide\world-cities.md) | data-management | intermediate | Comprehensive collection of world cities with demographic... |
+- [Pad Numbers Inside String](functions/string-manipulation/padding/padd-numbers-inside-string.md)
 
-## `schema`
+### text-input (1)
 
-**4 snippets**
+- [Code Editor Input](ui-controls/text-input/code-editor.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Model Database SQL Schema](data-operations\sources\mssql\model-db-sql.md) | data-operations | intermediate | SQL CREATE TABLE statements for a model database schema w... |
-| [Sample DrawSQL Export JSON](data-operations\sources\drawsql\sample-drawsql-export-json.md) | data-operations | intermediate | Complete JSON export from DrawSQL containing database sch... |
-| [Sample DrawSQL JSON Schema](data-operations\sources\drawsql\sample-json-schema.md) | data-operations | intermediate | Sample JSON schema for DrawSQL database diagrams, contain... |
-| [Schema: Car Data Generation Schema](data-operations\samples\schemas\car-data-schema.md) | data-management | intermediate | Mockaroo schema definition for generating car/vehicle sam... |
+### text-processing (1)
 
-## `sequence`
+- [Encode Decode](functions/encoding-decoding/encode-decode.md)
 
-**1 snippets**
+### text-transformation (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [ForAll Function - Declarative Iteration](functions\built-in\forall\ForAll.md) | business-logic | intermediate | Using ForAll function for declarative iteration with Sequ... |
+- [Eliminate String Within String](functions/string-manipulation/transformations/eliminate-string-within-string.md)
 
-## `setfocus`
+### theme (2)
 
-**2 snippets**
+- [Power Apps Color Palette](visual-assets/colors/palettes/color-palette-pa.md)
+- [Themed Chart Control](ui-controls/chart/Themed-Chart.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Focus Behavior in Canvas Components - Usage Guide](ui-patterns\components\custom-components\input-control\FOCUS-USAGE-GUIDE.md) | guides | intermediate | Practical guide for implementing and using SetFocus behav... |
-| [Research: Power Apps Canvas Component SetFocus Capabilities](ui-patterns\components\custom-components\Research-SetFocus-Component-Behavior.md) | research | advanced | Comprehensive research on implementing callable behavior ... |
+### time-format (1)
 
-## `shadow`
+- [IsMatch Function - Time Validation Pattern](functions/built-in/IsMatch.md)
 
-**1 snippets**
+### timeline (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Simple and Elegant Gallery](ui-controls\gallery\layouts\simple-elegant.md) | ui-controls | intermediate | An elegant gallery design with header, drop shadow, and b... |
+- [Timeline Style Gallery](ui-controls/gallery/layouts/gallery-timeline.md)
 
-## `sharepoint`
+### toc (1)
 
-**2 snippets**
+- [Top of App Formulas](app-lifecycle/formulas/expressions/top-of-app-formulas.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
-| [File Type Icons](app-lifecycle\formulas\expressions\doc-type-icons.md) | app-architecture | beginner | Generate URLs for file type icons based on file extensions. |
+### toolkit (1)
 
-## `slider`
+- [Component Resources](ui-patterns/components/custom-components/Components.md)
 
-**1 snippets**
+### trademarks (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Handling Vertical Sliders](ui-controls\sliders\handing-vertical-sliders.md) | ui-controls | intermediate | Example of using vertical sliders to control image position. |
+- [Microsoft Power Apps Style](visual-assets/colors/palettes/microsoft-power-apps.md)
 
-## `solutions`
+### transition (1)
 
-**1 snippets**
+- [Random Screen Transition](app-lifecycle/formulas/user-defined-functions/screen-transition-random.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Environment Variables & ALM Guide for SharePoint Solutions](app-lifecycle\environment-variables-sharepoint-alm-guide.md) | app-lifecycle | intermediate | Complete step-by-step checklist for setting up environmen... |
+### tutorial (1)
 
-## `spacer`
+- [Drop Down List Video](ui-controls/drop-down-list/drop-down-list.md)
 
-**1 snippets**
+### tutorials (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spacer Rectangle](ui-controls\rectangle\spacer-medium.md) | ui-controls | beginner | A rectangle control used as a visual spacer or guide duri... |
+- [Power Apps Tutorials](learning/tutorials/readme.md)
 
-## `spinner`
+### type-safety (1)
 
-**1 snippets**
+- [User Defined Types Overview](functions/user-defined-types/user-defined-types.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spinner Component](ui-patterns\components\custom-components\spinner\Spinner.md) | ui-patterns | intermediate | A customizable loading spinner component for canvas apps ... |
+### type-system (1)
 
-## `sql`
+- [User Defined Types Overview](functions/user-defined-types/user-defined-types.md)
 
-**1 snippets**
+### types (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Model Database SQL Schema](data-operations\sources\mssql\model-db-sql.md) | data-operations | intermediate | SQL CREATE TABLE statements for a model database schema w... |
+- [Entra User Type](integrations/connectors/office365-users/Entra-User-Type.md)
+- [User Defined Types Syntax](app-lifecycle/formulas/user-defined-types/user-defined-types-syntax.md)
 
-## `standardization`
+### udf (5)
 
-**1 snippets**
+- [Find Proportional Value](app-lifecycle/formulas/user-defined-functions/fxfindproportionalvalue.md)
+- [Random Screen Transition](app-lifecycle/formulas/user-defined-functions/screen-transition-random.md)
+- [Regular Expressions Collection](app-lifecycle/formulas/user-defined-functions/regular-expressions.md)
+- [User Defined Functions Overview](functions/user-defined-functions/user-defined-functions.md)
+- [User-Defined Types Examples](app-lifecycle/formulas/user-defined-types/user-defined-types.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Helpful Constants](app-lifecycle\formulas\expressions\control-constants.md) | app-architecture | beginner | A set of standard constants for spacing, screen defaults,... |
+### udt (3)
 
-## `standards`
+- [User Defined Types Overview](functions/user-defined-types/user-defined-types.md)
+- [User Defined Types Syntax](app-lifecycle/formulas/user-defined-types/user-defined-types-syntax.md)
+- [User-Defined Types Examples](app-lifecycle/formulas/user-defined-types/user-defined-types.md)
 
-**1 snippets**
+### ui (9)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Naming Controls Guidelines](ui-controls\naming-controls\naming-controls.md) | ui-controls | beginner | Best practices and rules for naming controls in Power Apps. |
+- [Change Pointer to Hand](ui-controls/icon/chnage-pointer-to-hand.md)
+- [Classic Label Control](ui-controls/label-or-text/label-classic.md)
+- [Code Editor Input](ui-controls/text-input/code-editor.md)
+- [Controls Overview](ui-controls/controls-readme.md)
+- [Custom Calendar Control](ui-controls/calendar/Calendar.md)
+- [File Type Icons](app-lifecycle/formulas/expressions/doc-type-icons.md)
+- [Icon Enumeration to Collection](app-lifecycle/formulas/collections/icons-as-collection.md)
+- [Modern Text Label Control](ui-controls/label-or-text/text-modern.md)
+- [Random Screen Transition](app-lifecycle/formulas/user-defined-functions/screen-transition-random.md)
 
-## `statistics`
+### upload (2)
 
-**2 snippets**
+- [Add Media Control](ui-controls/add-media/add-media.md)
+- [Attachment Control](ui-controls/attachment/attachment-control.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [538 Data Sample Directory](data-operations\samples\538-data\538-data.md) | data-management | beginner | Directory of sample datasets from FiveThirtyEight (538) f... |
-| [Sample Data: FiveThirtyEight Data Index](data-operations\samples\538-data\index.md) | data-operations | intermediate | Index of FiveThirtyEight (538) open datasets for politica... |
+### url-encoding (1)
 
-## `status`
+- [Encode Decode](functions/encoding-decoding/encode-decode.md)
 
-**2 snippets**
+### user-defined-function (5)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Modern Card-Style Gallery](ui-controls\gallery\layouts\gallery-modern-cards.md) | ui-controls | intermediate | A modern card gallery with responsive layout, bold shadow... |
-| [Status Board Gallery (Kanban Style)](ui-controls\gallery\layouts\gallery-statusboard.md) | ui-controls | intermediate | A task/status board style gallery with status color strip... |
+- [Eliminate String Within String](functions/string-manipulation/transformations/eliminate-string-within-string.md)
+- [Find String Exactly Within Table](functions/string-manipulation/parsing/find-string-exactly-within-table.md)
+- [fxGetHexFromColor](visual-assets/colors/functions/fxgethexfromcolor.md)
+- [Pad Numbers Inside String](functions/string-manipulation/padding/padd-numbers-inside-string.md)
+- [String Is Empty](functions/string-manipulation/validation/string-is-empty.md)
 
-## `string-removal`
+### user-defined-functions (1)
 
-**1 snippets**
+- [User Defined Functions Overview](functions/user-defined-functions/user-defined-functions.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Eliminate String Within String](functions\string-manipulation\transformations\eliminate-string-within-string.md) | business-logic | intermediate | User-defined function to remove a substring from within a... |
+### user-defined-types (1)
 
-## `string-search`
+- [User Defined Types Overview](functions/user-defined-types/user-defined-types.md)
 
-**1 snippets**
+### users (4)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find String Exactly Within Table](functions\string-manipulation\parsing\find-string-exactly-within-table.md) | business-logic | intermediate | User-defined function to check if a string exists exactly... |
+- [Auto-Add User from Office 365](integrations/connectors/office365-users/auto-add-user.md)
+- [Entra User Type](integrations/connectors/office365-users/Entra-User-Type.md)
+- [Get Direct Reports](integrations/connectors/office365-users/get-direct-reports.md)
+- [Get Manager Rollup](integrations/connectors/office365-users/get-manager-rollup.md)
 
-## `studio-mode`
+### ux (1)
 
-**1 snippets**
+- [Change Pointer to Hand](ui-controls/icon/chnage-pointer-to-hand.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Are We in Studio Mode?](app-lifecycle\formulas\expressions\boolean-is-in-studio-mode.md) | app-architecture | beginner | Determine if the app is running in Studio Mode (editing m... |
+### validation (3)
 
-## `styling`
+- [IsMatch Function - Time Validation Pattern](functions/built-in/IsMatch.md)
+- [Regular Expressions Collection](app-lifecycle/formulas/user-defined-functions/regular-expressions.md)
+- [String Is Empty](functions/string-manipulation/validation/string-is-empty.md)
 
-**2 snippets**
+### vehicles (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Alternating Row Colors in Gallery](ui-controls\gallery\styling\alternating-row-colors.md) | ui-controls | intermediate | Implement alternating row colors (zebra striping) in a Ga... |
-| [ASCII Code Checkerboard](ui-controls\gallery\styling\asciicodecheckerboard.md) | ui-controls | intermediate | A gallery displaying ASCII codes in a visual checkerboard... |
+- [Sample Data: Vehicle/Car Records](data-operations/samples/vehicles/car-data.md)
+- [Schema: Car Data Generation Schema](data-operations/samples/schemas/car-data-schema.md)
 
-## `substring`
+### vertical (2)
 
-**1 snippets**
+- [Handling Vertical Sliders](ui-controls/sliders/handing-vertical-sliders.md)
+- [Simple Gallery](ui-controls/gallery/layouts/simple-gallery.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Eliminate String Within String](functions\string-manipulation\transformations\eliminate-string-within-string.md) | business-logic | intermediate | User-defined function to remove a substring from within a... |
+### video (1)
 
-## `svg`
+- [Drop Down List Video](ui-controls/drop-down-list/drop-down-list.md)
 
-**1 snippets**
+### visualization (2)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Spinner Component](ui-patterns\components\custom-components\spinner\Spinner.md) | ui-patterns | intermediate | A customizable loading spinner component for canvas apps ... |
+- [Sample Chart Data](ui-controls/chart/sample-data.md)
+- [Themed Chart Control](ui-controls/chart/Themed-Chart.md)
 
-## `syntax`
+### web-colors (3)
 
-**2 snippets**
+- [Color Collection](visual-assets/colors/palettes/color-collection.md)
+- [Color Enum in Named Formula](app-lifecycle/formulas/collections/color-enum-in-named-formula.md)
+- [Web Colors](visual-assets/colors/palettes/web-colors.md)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Basic Hello World](learning\tutorials\getting-started\hello-world\basic-hello-world.md) | 01-getting-started/hello-world | beginner | Your first Power Fx expression - display text and underst... |
-| [User Defined Types Syntax](app-lifecycle\formulas\user-defined-types\user-defined-types-syntax.md) | app-architecture | intermediate | Examples of defining custom types (records and collection... |
+### whitespace (1)
 
-## `table`
+- [String Is Empty](functions/string-manipulation/validation/string-is-empty.md)
 
-**1 snippets**
+### world-data (1)
 
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Data Table Style Gallery](ui-controls\gallery\layouts\gallery-datatable.md) | ui-controls | intermediate | A professional data table gallery with column headers, al... |
+- [World Cities Data Collection](data-operations/samples/world-wide/world-cities.md)
 
-## `table-lookup`
+### zebra-striping (2)
 
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find String Exactly Within Table](functions\string-manipulation\parsing\find-string-exactly-within-table.md) | business-logic | intermediate | User-defined function to check if a string exists exactly... |
-
-## `tabular`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Gallery with Column Headings](ui-controls\gallery\layouts\gallery-with-headings.md) | ui-controls | beginner | A gallery layout with column headers for displaying tabul... |
-
-## `tag1`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Snippet Title](New-Page-Template.md) | category-name | beginner | Brief description of what this snippet does |
-| [Snippet Title](docs\templates\snippet-template.md) | XX-category-name/subcategory | beginner | Brief description of what this snippet does and when to u... |
-| [Snippet Title](utilities\templates\snippet-template.md) | category-name | beginner | Brief description of what this snippet does |
-
-## `tag2`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Snippet Title](New-Page-Template.md) | category-name | beginner | Brief description of what this snippet does |
-| [Snippet Title](docs\templates\snippet-template.md) | XX-category-name/subcategory | beginner | Brief description of what this snippet does and when to u... |
-| [Snippet Title](utilities\templates\snippet-template.md) | category-name | beginner | Brief description of what this snippet does |
-
-## `tag3`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Snippet Title](docs\templates\snippet-template.md) | XX-category-name/subcategory | beginner | Brief description of what this snippet does and when to u... |
-| [Snippet Title](utilities\templates\snippet-template.md) | category-name | beginner | Brief description of what this snippet does |
-
-## `tasks`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Status Board Gallery (Kanban Style)](ui-controls\gallery\layouts\gallery-statusboard.md) | ui-controls | intermediate | A task/status board style gallery with status color strip... |
-
-## `template`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Functions Template](visual-assets\colors\palettes\color-template.md) | colors/palettes | N/A | Canvas component template for color accessibility functio... |
-
-## `territories`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: World Countries (Complete)](data-operations\samples\world-wide\world.md) | data-management | beginner | Extended world countries list including territories and s... |
-
-## `testing`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: All Kinds of Data](data-operations\samples\all-kinds-of-data.md) | data-management | beginner | Comprehensive sample dataset with diverse data types for ... |
-
-## `text`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Basic Hello World](learning\tutorials\getting-started\hello-world\basic-hello-world.md) | 01-getting-started/hello-world | beginner | Your first Power Fx expression - display text and underst... |
-| [Classic Label Control](ui-controls\label-or-text\label-classic.md) | ui-controls | beginner | A classic label control for displaying text in Power Apps... |
-| [Modern Text Label Control](ui-controls\label-or-text\text-modern.md) | ui-controls | beginner | A modern text label control with border styling and prima... |
-
-## `text-extraction`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Pad Numbers Inside String](functions\string-manipulation\padding\padd-numbers-inside-string.md) | business-logic | advanced | Collection of user-defined functions for padding, extract... |
-
-## `text-input`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Code Editor Input](ui-controls\text-input\code-editor.md) | ui-controls | beginner | A multi-line text input styled as a code editor with mono... |
-
-## `text-processing`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Encode Decode](functions\encoding-decoding\encode-decode.md) | business-logic | intermediate | Comprehensive URL encoding and decoding functions to hand... |
-
-## `text-transformation`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Eliminate String Within String](functions\string-manipulation\transformations\eliminate-string-within-string.md) | business-logic | intermediate | User-defined function to remove a substring from within a... |
-
-## `theme`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Power Apps Color Palette](visual-assets\colors\palettes\color-palette-pa.md) | colors/palettes | N/A | Extended theme configuration with Power Apps branding col... |
-| [Themed Chart Control](ui-controls\chart\Themed-Chart.md) | ui-controls | intermediate | A themed BarChart control inside a container with custom ... |
-
-## `time-format`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [IsMatch Function - Time Validation Pattern](functions\built-in\IsMatch.md) | business-logic | intermediate | Regular expression pattern for validating 12-hour time fo... |
-
-## `timeline`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Timeline Style Gallery](ui-controls\gallery\layouts\gallery-timeline.md) | ui-controls | intermediate | A vertical timeline gallery for displaying chronological ... |
-
-## `toc`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Top of App Formulas](app-lifecycle\formulas\expressions\top-of-app-formulas.md) | app-architecture | beginner | Table of contents and naming guidelines for App.Formulas. |
-
-## `toolkit`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Component Resources](ui-patterns\components\custom-components\Components.md) | ui-patterns | beginner | Links to external resources for Power Apps components and... |
-
-## `tools`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Resources](visual-assets\colors\utilities\color-resources.md) | visual-assets | beginner | External color resources, tools, and theme references inc... |
-
-## `trademarks`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Microsoft Power Apps Style](visual-assets\colors\palettes\microsoft-power-apps.md) | colors/palettes | N/A | Links to Microsoft's official branding and trademark guid... |
-
-## `transition`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Random Screen Transition](app-lifecycle\formulas\user-defined-functions\screen-transition-random.md) | app-architecture | beginner | A function to return a random screen transition effect. |
-
-## `tutorial`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Drop Down List Video](ui-controls\drop-down-list\drop-down-list.md) | ui-controls | beginner | Video tutorial on using Drop Down Lists in Power Apps. |
-
-## `type-safety`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Types Overview](functions\user-defined-types\user-defined-types.md) | business-logic | advanced | Introduction to creating and using user-defined types (UD... |
-
-## `type-system`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Types Overview](functions\user-defined-types\user-defined-types.md) | business-logic | advanced | Introduction to creating and using user-defined types (UD... |
-
-## `types`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Entra User Type](integrations\connectors\office365-users\Entra-User-Type.md) | integrations | intermediate | Define a custom type for Entra (Azure AD) users and handl... |
-| [User Defined Types Syntax](app-lifecycle\formulas\user-defined-types\user-defined-types-syntax.md) | app-architecture | intermediate | Examples of defining custom types (records and collection... |
-
-## `udf`
-
-**5 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Find Proportional Value](app-lifecycle\formulas\user-defined-functions\fxfindproportionalvalue.md) | app-architecture | intermediate | Calculates a proportional value based on two related frac... |
-| [Random Screen Transition](app-lifecycle\formulas\user-defined-functions\screen-transition-random.md) | app-architecture | beginner | A function to return a random screen transition effect. |
-| [Regular Expressions Collection](app-lifecycle\formulas\user-defined-functions\regular-expressions.md) | app-architecture | intermediate | A collection of common regular expressions for validation... |
-| [User Defined Functions Overview](functions\user-defined-functions\user-defined-functions.md) | business-logic | intermediate | Introduction to creating and using user-defined functions... |
-| [User-Defined Types Examples](app-lifecycle\formulas\user-defined-types\user-defined-types.md) | app-architecture | advanced | Comprehensive examples of User-Defined Types (UDT), Named... |
-
-## `udt`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Types Overview](functions\user-defined-types\user-defined-types.md) | business-logic | advanced | Introduction to creating and using user-defined types (UD... |
-| [User Defined Types Syntax](app-lifecycle\formulas\user-defined-types\user-defined-types-syntax.md) | app-architecture | intermediate | Examples of defining custom types (records and collection... |
-| [User-Defined Types Examples](app-lifecycle\formulas\user-defined-types\user-defined-types.md) | app-architecture | advanced | Comprehensive examples of User-Defined Types (UDT), Named... |
-
-## `ui`
-
-**8 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Change Pointer to Hand](ui-controls\icon\chnage-pointer-to-hand.md) | ui-controls | beginner | An icon control configured to show a hand cursor on hover. |
-| [Classic Label Control](ui-controls\label-or-text\label-classic.md) | ui-controls | beginner | A classic label control for displaying text in Power Apps... |
-| [Code Editor Input](ui-controls\text-input\code-editor.md) | ui-controls | beginner | A multi-line text input styled as a code editor with mono... |
-| [Custom Calendar Control](ui-controls\calendar\Calendar.md) | ui-controls | advanced | A custom calendar implementation using galleries for mont... |
-| [File Type Icons](app-lifecycle\formulas\expressions\doc-type-icons.md) | app-architecture | beginner | Generate URLs for file type icons based on file extensions. |
-| [Icon Enumeration to Collection](app-lifecycle\formulas\collections\icons-as-collection.md) | app-architecture | beginner | Converts the standard Icon enumeration into a searchable,... |
-| [Modern Text Label Control](ui-controls\label-or-text\text-modern.md) | ui-controls | beginner | A modern text label control with border styling and prima... |
-| [Random Screen Transition](app-lifecycle\formulas\user-defined-functions\screen-transition-random.md) | app-architecture | beginner | A function to return a random screen transition effect. |
-
-## `upload`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Add Media Control](ui-controls\add-media\add-media.md) | ui-controls | beginner | A styled Add Media button control for uploading images. |
-| [Attachment Control](ui-controls\attachment\attachment-control.md) | ui-controls | beginner | Examples of basic and advanced Attachment controls with a... |
-
-## `url-encoding`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Encode Decode](functions\encoding-decoding\encode-decode.md) | business-logic | intermediate | Comprehensive URL encoding and decoding functions to hand... |
-
-## `user-defined-function`
-
-**5 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Eliminate String Within String](functions\string-manipulation\transformations\eliminate-string-within-string.md) | business-logic | intermediate | User-defined function to remove a substring from within a... |
-| [Find String Exactly Within Table](functions\string-manipulation\parsing\find-string-exactly-within-table.md) | business-logic | intermediate | User-defined function to check if a string exists exactly... |
-| [fxGetHexFromColor](visual-assets\colors\functions\fxgethexfromcolor.md) | colors/functions | N/A | User-defined function to convert a Power Apps Color value... |
-| [Pad Numbers Inside String](functions\string-manipulation\padding\padd-numbers-inside-string.md) | business-logic | advanced | Collection of user-defined functions for padding, extract... |
-| [String Is Empty](functions\string-manipulation\validation\string-is-empty.md) | business-logic | beginner | User-defined function to check if a string is empty or co... |
-
-## `user-defined-functions`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Functions Overview](functions\user-defined-functions\user-defined-functions.md) | business-logic | intermediate | Introduction to creating and using user-defined functions... |
-
-## `user-defined-types`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [User Defined Types Overview](functions\user-defined-types\user-defined-types.md) | business-logic | advanced | Introduction to creating and using user-defined types (UD... |
-
-## `users`
-
-**4 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Auto-Add User from Office 365](integrations\connectors\office365-users\auto-add-user.md) | integrations | intermediate | Automatically add the current user to the app's user tabl... |
-| [Entra User Type](integrations\connectors\office365-users\Entra-User-Type.md) | integrations | intermediate | Define a custom type for Entra (Azure AD) users and handl... |
-| [Get Direct Reports](integrations\connectors\office365-users\get-direct-reports.md) | integrations | beginner | Retrieve direct reports for the current user using Office... |
-| [Get Manager Rollup](integrations\connectors\office365-users\get-manager-rollup.md) | integrations | advanced | Recursively retrieve a user's manager hierarchy (rollup) ... |
-
-## `ux`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Change Pointer to Hand](ui-controls\icon\chnage-pointer-to-hand.md) | ui-controls | beginner | An icon control configured to show a hand cursor on hover. |
-
-## `validation`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [IsMatch Function - Time Validation Pattern](functions\built-in\IsMatch.md) | business-logic | intermediate | Regular expression pattern for validating 12-hour time fo... |
-| [Regular Expressions Collection](app-lifecycle\formulas\user-defined-functions\regular-expressions.md) | app-architecture | intermediate | A collection of common regular expressions for validation... |
-| [String Is Empty](functions\string-manipulation\validation\string-is-empty.md) | business-logic | beginner | User-defined function to check if a string is empty or co... |
-
-## `vehicles`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Data: Vehicle/Car Records](data-operations\samples\vehicles\car-data.md) | data-management | beginner | Comprehensive vehicle dataset with make, model, VIN, and ... |
-| [Schema: Car Data Generation Schema](data-operations\samples\schemas\car-data-schema.md) | data-management | intermediate | Mockaroo schema definition for generating car/vehicle sam... |
-
-## `vertical`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Handling Vertical Sliders](ui-controls\sliders\handing-vertical-sliders.md) | ui-controls | intermediate | Example of using vertical sliders to control image position. |
-| [Simple Gallery](ui-controls\gallery\layouts\simple-gallery.md) | ui-controls | beginner | A basic vertical gallery implementation with selection hi... |
-
-## `video`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Drop Down List Video](ui-controls\drop-down-list\drop-down-list.md) | ui-controls | beginner | Video tutorial on using Drop Down Lists in Power Apps. |
-
-## `visualization`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Sample Chart Data](ui-controls\chart\sample-data.md) | ui-controls | beginner | Sample data collection for testing Column, Line, and Pie ... |
-| [Themed Chart Control](ui-controls\chart\Themed-Chart.md) | ui-controls | intermediate | A themed BarChart control inside a container with custom ... |
-
-## `web-colors`
-
-**3 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Color Collection](visual-assets\colors\palettes\color-collection.md) | colors/palettes | N/A | All 140 web colors defined as a Power Apps collection wit... |
-| [Color Enum in Named Formula](app-lifecycle\formulas\collections\color-enum-in-named-formula.md) | app-architecture | beginner | A collection of all 140 web colors for use in App.Formulas. |
-| [Web Colors](visual-assets\colors\palettes\web-colors.md) | colors/palettes | N/A | Complete collection of 140 web colors with names, hex cod... |
-
-## `whitespace`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [String Is Empty](functions\string-manipulation\validation\string-is-empty.md) | business-logic | beginner | User-defined function to check if a string is empty or co... |
-
-## `world-data`
-
-**1 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [World Cities Data Collection](data-operations\samples\world-wide\world-cities.md) | data-management | intermediate | Comprehensive collection of world cities with demographic... |
-
-## `zebra-striping`
-
-**2 snippets**
-
-| Title | Category | Difficulty | Description |
-|-------|----------|------------|-------------|
-| [Alternating Row Colors in Gallery](ui-controls\gallery\styling\alternating-row-colors.md) | ui-controls | intermediate | Implement alternating row colors (zebra striping) in a Ga... |
-| [Data Table Style Gallery](ui-controls\gallery\layouts\gallery-datatable.md) | ui-controls | intermediate | A professional data table gallery with column headers, al... |
-
+- [Alternating Row Colors in Gallery](ui-controls/gallery/styling/alternating-row-colors.md)
+- [Data Table Style Gallery](ui-controls/gallery/layouts/gallery-datatable.md)
