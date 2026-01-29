@@ -163,7 +163,7 @@ certification/
 ## Related Content
 
 - [Tutorials](../tutorials/)
-- [Best Practices](../../best-practices/)
+- [Best Practices](../best-practices/)
 - [Learning Overview](../README.md)
 
 ---

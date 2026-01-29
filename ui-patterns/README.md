@@ -33,7 +33,7 @@ Reusable UI patterns and components for Power Apps canvas applications.
 
 | Folder                       | Description                                                  |
 |------------------------------|--------------------------------------------------------------|
-| [components/](../components) | Reusable Power Apps components (custom and code components) |
+| [components/](components) | Reusable Power Apps components (custom and code components) |
 | [dialogs/](./dialogs)       | Dialog and modal patterns                                    |
 | [menus/](./menus)           | Navigation and menu patterns                                 |
 | [theming/](./theming)       | Theming and styling patterns                                 |
@@ -48,7 +48,7 @@ Power Apps Component Framework components using TypeScript/React.
 
 ## Quick Start
 
-1. Browse the [components](../components) folder for reusable UI elements
+1. Browse the [components](components) folder for reusable UI elements
 2. Check [dialogs](./dialogs) for modal and dialog implementations
 3. See [menus](./menus) for navigation patterns
 4. Review [theming](./theming) for consistent styling approaches

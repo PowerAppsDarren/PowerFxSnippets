@@ -138,7 +138,7 @@ Start with simple apps that solve real problems:
 
 - [Microsoft Learn - Power Apps](https://learn.microsoft.com/en-us/training/browse/?products=power-apps)
 - [Certification Prep](../certification/)
-- [Best Practices](../../best-practices/)
+- [Best Practices](../best-practices/)
 - [Learning Overview](../README.md)
 
 ---

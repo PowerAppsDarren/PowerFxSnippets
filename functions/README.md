@@ -182,17 +182,17 @@ This category focuses on function implementations and patterns in Power Apps. It
 ### For Beginners
 1. Start with [**Built-in Functions**](./built-in) - Learn core Power Fx functions
 2. Learn [**String Manipulation**](./string-manipulation) - Basic text operations
-3. Practice with [**Simple UDFs**](../user-defined-functions) - Function creation
+3. Practice with [**Simple UDFs**](./user-defined-functions) - Function creation
 
 ### For Intermediate Users
 1. Master [**ForAll Patterns**](built-in/forall/ForAll.md) - Collection processing
-2. Explore [**Type Definitions**](../user-defined-types) - Data structures
+2. Explore [**Type Definitions**](./user-defined-types) - Data structures
 3. Build [**Regular Expressions**](../app-lifecycle/formulas/user-defined-functions/regular-expressions.md) - Advanced text processing
 
 ### For Advanced Users
 1. Study [**Complex Algorithms**](algorithms/Quick-Mass-Updates.md) - Performance optimization
 2. Implement [**Encoding Utilities**](./encoding-decoding) - Data transformation
-3. Create [**Enterprise UDFs**](../user-defined-functions) - Reusable components
+3. Create [**Enterprise UDFs**](./user-defined-functions) - Reusable components
 
 ## 🤝 Contributing
 
