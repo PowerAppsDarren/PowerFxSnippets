@@ -108,7 +108,7 @@ This category focuses on control-specific implementations and patterns in Power 
 #### 🟠 Advanced
 - [**Canvas Drawing**](canvas/Canvas.md) - Signature and drawing
 - [**Chart Theming**](chart/Themed-Chart.md) - Data visualization
-- [**Container Layouts**](../controls/container/funnel-layout) - Complex layouts
+- [**Container Layouts**](container/funnel-layout) - Complex layouts
 
 #### 🔴 Expert Level
 - [**Custom Control Behaviors**](naming-controls/naming-controls.md) - Advanced control logic
@@ -130,7 +130,7 @@ This category focuses on control-specific implementations and patterns in Power 
 
 **Key Snippets:**
 - [**Code Editor**](text-input/code-editor.md) - Advanced text input
-- [**Input Validation**](../controls/text-input) - Validation patterns
+- [**Input Validation**](text-input) - Validation patterns
 
 **When to use**: Collecting text input from users with proper validation.
 
@@ -178,7 +178,7 @@ This category focuses on control-specific implementations and patterns in Power 
 **Purpose**: Layout containers and responsive design patterns.
 
 **Key Snippets:**
-- [**Funnel Layout**](../controls/container/funnel-layout) - Layout patterns
+- [**Funnel Layout**](container/funnel-layout) - Layout patterns
 
 **When to use**: Organizing controls in responsive layouts.
 
@@ -246,7 +246,7 @@ This category focuses on control-specific implementations and patterns in Power 
 ### For Advanced Users
 1. Study [**Canvas Drawing**](canvas/Canvas.md)
 2. Implement [**Chart Theming**](chart/Themed-Chart.md)
-3. Create [**Complex Layouts**](../controls/container/funnel-layout)
+3. Create [**Complex Layouts**](container/funnel-layout)
 
 ## 🤝 Contributing
 
@@ -342,7 +342,7 @@ After mastering this category, consider:
 - [Themed Chart](chart/Themed-Chart.md)
 
 ### Container
-- [Funnel Layout](../controls/container/funnel-layout)
+- [Funnel Layout](container/funnel-layout)
 
 ### Attachment
 - [Attachment Control](attachment/attachment-control.md)

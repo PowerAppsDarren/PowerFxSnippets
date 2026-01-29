@@ -51,13 +51,13 @@
 |---------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | [**01-getting-started**](learning/tutorials/getting-started)               | Entry point for new developers       | [Hello World](learning/tutorials/getting-started/hello-world) • Common Patterns (Coming Soon)                        |
 | [**02-app-architecture**](./app-lifecycle)             | Application structure and lifecycle  | [App Events](app-lifecycle) • [Navigation](app-lifecycle)                         |
-| [**03-user-interface**](./ui-controls)                 | UI components and user experience    | [Controls](./controls) • [Themes](design)                                      |
-| [**04-data-management**](./data-operations)               | Data operations and sources          | [Data Sources](./data-sources) • [Validation](data-operations)                           |
+| [**03-user-interface**](./ui-controls)                 | UI components and user experience    | [Controls](./ui-controls) • [Themes](design)                                      |
+| [**04-data-management**](./data-operations)               | Data operations and sources          | [Data Sources](./data-operations/sources) • [Validation](data-operations)                           |
 | [**05-business-logic**](./functions)                 | Functions and calculations           | [Functions](./functions) • [Error Handling](app-onerror)                                |
 | [**06-integrations**](./integrations)                     | External services and APIs           | [Microsoft 365](integrations) • [Azure](integrations)                                     |
-| [**07-assets-and-media**](./visual-assets)             | Visual assets and media              | [Icons](./icons) • [SVGs](visual-assets/svgs)                                                       |
-| [**08-advanced-patterns**](./best-practices)           | Expert techniques and architecture   | [Custom Components](ui-patterns/components/custom-components) • [Security](best-practices)             |
-| [**09-learning-resources**](./learning)         | Tutorials and educational content    | [Tutorials](learning/tutorials) • [Best Practices](./best-practices)                        |
+| [**07-assets-and-media**](./visual-assets)             | Visual assets and media              | [Icons](./visual-assets/icons) • [SVGs](visual-assets/svgs)                                                       |
+| [**08-advanced-patterns**](./learning/best-practices)           | Expert techniques and architecture   | [Custom Components](ui-patterns/components/custom-components) • [Security](learning/best-practices)             |
+| [**09-learning-resources**](./learning)         | Tutorials and educational content    | [Tutorials](learning/tutorials) • [Best Practices](./learning/best-practices)                        |
 
 ### 🛠️ Repository Tools
 
@@ -95,22 +95,22 @@
 
 ### For Teams
 1. Use [**Learning Resources**](./learning) for onboarding
-2. Implement [**Best Practices**](./best-practices) across projects
-3. Leverage [**Advanced Patterns**](./best-practices) for complex scenarios
+2. Implement [**Best Practices**](./learning/best-practices) across projects
+3. Leverage [**Advanced Patterns**](./learning/best-practices) for complex scenarios
 
 ## 🔍 Search & Discovery
 
 ### By Technology
 - **Power Apps**: [Canvas Apps](./ui-controls), [Data Sources](./data-operations)
 - **Power Automate**: [Flows](integrations/power-automate), [API Calls](integrations)
-- **Dataverse**: [Data Operations](./data-operations), [Security](best-practices)
-- **SharePoint**: [Integration](integrations), [Document Management](./data-sources)
+- **Dataverse**: [Data Operations](./data-operations), [Security](learning/best-practices)
+- **SharePoint**: [Integration](integrations), [Document Management](./data-operations/sources)
 
 ### By Use Case
-- **Business Apps**: [Forms](./controls), [Workflows](./functions)
+- **Business Apps**: [Forms](./ui-controls), [Workflows](./functions)
 - **Dashboards**: [Charts](data-operations), [KPIs](functions)
 - **Mobile Apps**: Responsive Design (Coming Soon), [Offline](data-operations)
-- **Admin Tools**: [User Management](integrations), [Audit Logs](best-practices)
+- **Admin Tools**: [User Management](integrations), [Audit Logs](learning/best-practices)
 
 ## 🤝 Contributing
 

@@ -78,7 +78,7 @@ This category focuses on best practices and development standards for Power Apps
 
 #### 🟢 Beginner Friendly
 - [**Basic Standards**](../readme.md) - Fundamental guidelines
-- [**Naming Conventions**](../ui-controls/naming-controls) - Code organization
+- [**Naming Conventions**](../../ui-controls/naming-controls) - Code organization
 - [**Error Handling**](../../app-lifecycle) - Basic error management
 
 #### 🟡 Intermediate
@@ -110,7 +110,7 @@ This category focuses on best practices and development standards for Power Apps
 
 **Key Snippets:**
 - [**Security Best Practices**](../readme.md) - Security guidelines
-- [**Data Protection**](../data-operations) - Secure data handling
+- [**Data Protection**](../../data-operations) - Secure data handling
 
 **When to use**: Implementing secure applications and protecting sensitive data.
 
@@ -119,7 +119,7 @@ This category focuses on best practices and development standards for Power Apps
 
 **Key Snippets:**
 - [**Code Standards**](../readme.md) - Development standards
-- [**Naming Conventions**](../ui-controls/naming-controls) - Consistent naming
+- [**Naming Conventions**](../../ui-controls/naming-controls) - Consistent naming
 
 **When to use**: Maintaining code quality and consistency across teams.
 
@@ -153,7 +153,7 @@ This category focuses on best practices and development standards for Power Apps
 
 ### For Beginners
 1. Start with [**Basic Standards**](../readme.md)
-2. Learn [**Naming Conventions**](../ui-controls/naming-controls)
+2. Learn [**Naming Conventions**](../../ui-controls/naming-controls)
 3. Practice [**Error Handling**](../../app-lifecycle)
 
 ### For Intermediate Users
@@ -170,7 +170,7 @@ This category focuses on best practices and development standards for Power Apps
 
 ### Adding New Snippets
 1. **Check existing content** to avoid duplication
-2. **Follow the template** from [snippet template](../docs/templates/snippet-template.md)
+2. **Follow the template** from [snippet template](../../docs/templates/snippet-template.md)
 3. **Include comprehensive metadata** with proper categorization
 4. **Test thoroughly** in Power Apps environment
 5. **Submit a pull request** with clear description
