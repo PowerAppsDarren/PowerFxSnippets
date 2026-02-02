@@ -20,6 +20,24 @@ updated: 2026-01-27
 
 # Connector Patterns
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Available Connectors](#available-connectors)
+  - [[Office 365 Outlook](./office365-outlook/)](#office-365-outlookoffice365-outlook)
+  - [[Office 365 Users](./office365-users/)](#office-365-usersoffice365-users)
+- [Connector Best Practices](#connector-best-practices)
+  - [1. Delegation Awareness](#1-delegation-awareness)
+  - [2. Error Handling](#2-error-handling)
+  - [3. Performance Optimization](#3-performance-optimization)
+  - [4. Connection References (ALM)](#4-connection-references-alm)
+- [Common Patterns](#common-patterns)
+  - [People Picker](#people-picker)
+  - [Send Email](#send-email)
+  - [Get Manager](#get-manager)
+- [Related Resources](#related-resources)
+
 Patterns for working with Power Platform connectors in Power Apps.
 
 ## Overview

@@ -20,6 +20,24 @@ updated: 2026-01-27
 
 # Power Apps Tutorials
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Directory Structure](#directory-structure)
+- [Getting Started Path](#getting-started-path)
+  - [[1. Getting Started](./getting-started/)](#1-getting-startedgetting-started)
+- [Learning Tracks](#learning-tracks)
+  - [Track 1: Canvas App Fundamentals](#track-1-canvas-app-fundamentals)
+  - [Track 2: Data Management](#track-2-data-management)
+  - [Track 3: User Experience](#track-3-user-experience)
+  - [Track 4: Advanced Concepts](#track-4-advanced-concepts)
+- [Tutorial Format](#tutorial-format)
+- [Tips for Learning](#tips-for-learning)
+  - [Practice Regularly](#practice-regularly)
+  - [Use the Community](#use-the-community)
+  - [Build Real Apps](#build-real-apps)
+- [Related Resources](#related-resources)
+
 Step-by-step tutorials for learning Power Apps development.
 
 ## Overview
@@ -120,7 +138,7 @@ Start with simple apps that solve real problems:
 
 - [Microsoft Learn - Power Apps](https://learn.microsoft.com/en-us/training/browse/?products=power-apps)
 - [Certification Prep](../certification/)
-- [Best Practices](../../best-practices/)
+- [Best Practices](../best-practices/)
 - [Learning Overview](../README.md)
 
 ---
