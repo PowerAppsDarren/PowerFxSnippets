@@ -18,7 +18,7 @@
 
 - **Date:** 2026-02-02
 - **Model:** Claude Opus 4.5
-- **Activity:** Session 8 - Status review and wrap-up; committed pending README TOC/link fixes
+- **Activity:** Session 9 - Fixed Purple Power VS Code theme (installed as local extension, moved colorCustomizations to .code-workspace)
 
 ## Current State
 
@@ -166,6 +166,7 @@ Before writing ANY Power Fx code:
 
 | Session | Date       | Key Accomplishments                                                                       |
 |---------|------------|-------------------------------------------------------------------------------------------|
+| **9**   | 2026-02-02 | Fixed Purple Power theme: root cause was window-scoped settings in folder-level config; installed as local VS Code extension for permanence |
 | **8**   | 2026-02-02 | Status review, committed pending TOC/link fixes, worktree cleanup, session wrap-up |
 | **7**   | 2026-01-29 | Parallel execution (3 worktrees): PRODUCT-INDEX, MIGRATION-GUIDE, 2 workflows, 59 unit tests, README enhanced, launch prep |
 | **6**   | 2026-01-29 | All recommendations executed: 50 TOCs, 9 dirs deleted, gotchas restored, 3 indexes, tasks.md reconciled |
@@ -186,6 +187,7 @@ Before writing ANY Power Fx code:
 
 | Date       | Author | Changes                                                      |
 |------------|--------|--------------------------------------------------------------|
+| 2026-02-02 | Claude | Session 9: Purple Power theme fix - local extension install  |
 | 2026-02-02 | Claude | Session 8: status review, TOC/link fixes committed, wrap-up |
 | 2026-01-29 | Claude | Session 7: parallel execution, 146/152 tasks (96.1%)        |
 | 2026-01-29 | Claude | Session 6: all recommendations executed, indexes generated   |
