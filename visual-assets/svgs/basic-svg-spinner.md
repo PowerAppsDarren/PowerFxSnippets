@@ -1,3 +1,18 @@
+---
+title: "Basic SVG Spinner"
+description: "Simple named formula for basic SVG spinner animation"
+category: "visual-assets"
+subcategory: "svgs"
+tags: [svg, spinner, animation, named-formula]
+difficulty: "beginner"
+products: ["power-apps-canvas"]
+author: "PowerAppsDarren"
+created: "2024-01-01"
+updated: "2026-01-22"
+license: "MIT"
+related: [basic-spinner]
+---
+
 # Basic-SVG-Spinner
 
 ## Table of Contents

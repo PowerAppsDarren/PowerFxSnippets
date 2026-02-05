@@ -1,3 +1,18 @@
+---
+title: "Guide to SVGs"
+description: "Video resources and learning materials for SVG usage in Power Apps"
+category: "visual-assets"
+subcategory: "svgs"
+tags: [svg, learning, video, resources]
+difficulty: "beginner"
+products: ["power-apps-canvas"]
+author: "PowerAppsDarren"
+created: "2024-01-01"
+updated: "2026-01-22"
+license: "MIT"
+related: [best-svg-snippet, basic-spinner]
+---
+
 # Guide to SVGs
 
 ## Table of Contents

@@ -1,3 +1,18 @@
+---
+title: "Best SVG Snippet"
+description: "Comprehensive guide to the best SVG snippet with color replacement and encoding patterns"
+category: "visual-assets"
+subcategory: "svgs"
+tags: [svg, guide, best-practices, tutorial, color-replacement]
+difficulty: "advanced"
+products: ["power-apps-canvas"]
+author: "PowerAppsDarren"
+created: "2024-01-01"
+updated: "2026-01-22"
+license: "MIT"
+related: [basic-spinner, replace-color-in-svg, guide-to-svgs]
+---
+
 # Best-SVG-Snippet
 
 ## Table of Contents

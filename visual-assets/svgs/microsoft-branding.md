@@ -1,3 +1,18 @@
+---
+title: "Microsoft Branding"
+description: "Microsoft trademark and branding guidelines resources for Power Apps"
+category: "visual-assets"
+subcategory: "svgs"
+tags: [svg, branding, microsoft, guidelines, trademarks]
+difficulty: "beginner"
+products: ["power-apps"]
+author: "PowerAppsDarren"
+created: "2024-01-01"
+updated: "2026-01-22"
+license: "MIT"
+related: []
+---
+
 # Images, Icons, SVG's, etc. from Microsoft
 
 ## Table of Contents

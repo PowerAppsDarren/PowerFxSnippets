@@ -1,3 +1,18 @@
+---
+title: "Basic Spinner"
+description: "Complete SVG spinner implementation with color replacement using user-defined functions"
+category: "visual-assets"
+subcategory: "svgs"
+tags: [svg, spinner, animation, loading, user-defined-function]
+difficulty: "intermediate"
+products: ["power-apps-canvas"]
+author: "PowerAppsDarren"
+created: "2024-01-01"
+updated: "2026-01-22"
+license: "MIT"
+related: [basic-svg-spinner, replace-color-in-svg]
+---
+
 # Basic Spinner
 
 ## Table of Contents

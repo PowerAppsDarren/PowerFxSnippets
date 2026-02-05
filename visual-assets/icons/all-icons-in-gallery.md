@@ -1,3 +1,18 @@
+---
+title: "All Icons in Gallery"
+description: "Display all Power Apps built-in icons in a gallery control"
+category: "visual-assets"
+subcategory: "icons"
+tags: [icons, gallery, visual-assets, enumeration]
+difficulty: "beginner"
+products: ["power-apps-canvas"]
+author: "PowerAppsDarren"
+created: "2024-01-01"
+updated: "2026-01-22"
+license: "MIT"
+related: []
+---
+
 # See All Icons in a Gallery
 
 ## Table of Contents
