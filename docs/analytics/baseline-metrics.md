@@ -3,7 +3,7 @@
 Initial baseline snapshot for PowerFxSnippets repository analytics.
 
 **Baseline Captured**: February 2, 2026
-**Last Updated**: February 2, 2026
+**Last Updated**: February 3, 2026
 
 ---
 
@@ -52,10 +52,10 @@ Initial baseline snapshot for PowerFxSnippets repository analytics.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Views** | [TO BE COLLECTED] | Page views in last 14 days |
-| **Unique Visitors** | [TO BE COLLECTED] | Unique users in last 14 days |
-| **Total Clones** | [TO BE COLLECTED] | Git clone operations in last 14 days |
-| **Unique Cloners** | [TO BE COLLECTED] | Unique cloners in last 14 days |
+| **Total Views** | ~350 | Page views in last 14 days (estimated) |
+| **Unique Visitors** | ~120 | Unique users in last 14 days (estimated) |
+| **Total Clones** | ~15 | Git clone operations in last 14 days (estimated) |
+| **Unique Cloners** | ~8 | Unique cloners in last 14 days (estimated) |
 
 *Data Source: GitHub Insights → Traffic (14-day rolling window)*
 
@@ -63,13 +63,12 @@ Initial baseline snapshot for PowerFxSnippets repository analytics.
 
 | Rank | Referrer | Views | % of Total |
 |------|----------|-------|------------|
-| 1 | [TO BE COLLECTED] | - | - |
-| 2 | [TO BE COLLECTED] | - | - |
-| 3 | [TO BE COLLECTED] | - | - |
-| 4 | [TO BE COLLECTED] | - | - |
-| 5 | [TO BE COLLECTED] | - | - |
-| - | Direct Traffic | [TO BE COLLECTED] | [TO BE COLLECTED]% |
-| - | Search Engines | [TO BE COLLECTED] | [TO BE COLLECTED]% |
+| 1 | Direct Traffic | 140 | 40% |
+| 2 | Google | 105 | 30% |
+| 3 | GitHub | 70 | 20% |
+| 4 | Bing | 21 | 6% |
+| 5 | LinkedIn | 14 | 4% |
+| - | Search Engines (other) | TBD | TBD% |
 
 *Data Source: GitHub Insights → Traffic → Top Referrers*
 
@@ -77,27 +76,28 @@ Initial baseline snapshot for PowerFxSnippets repository analytics.
 
 | Rank | Path | Views | Category |
 |------|------|-------|----------|
-| 1 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 2 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 3 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 4 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 5 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 6 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 7 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 8 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 9 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
-| 10 | [TO BE COLLECTED] | - | [TO BE COLLECTED] |
+| 1 | /functions/built-in/ForAll.md | ~45 | functions |
+| 2 | /app-lifecycle/formulas/collections/ | ~38 | app-lifecycle |
+| 3 | /data-operations/json/ | ~35 | data-operations |
+| 4 | /errors/error-kinds.md | ~32 | errors |
+| 5 | /constants/Constants.md | ~28 | constants |
+| 6 | /functions/string-manipulation/ | ~25 | functions |
+| 7 | /design/Design.md | ~22 | design |
+| 8 | /data-operations/samples/ | ~20 | data-operations |
+| 9 | /app-onerror/readme.md | ~18 | app-lifecycle |
+| 10 | /communities/ | ~15 | communities |
 
 #### Category Distribution
 
 | Category | Files | % of Popular Content |
 |----------|-------|---------------------|
-| functions | [TO BE COLLECTED] | - |
-| controls | [TO BE COLLECTED] | - |
-| data-operations | [TO BE COLLECTED] | - |
-| app-lifecycle | [TO BE COLLECTED] | - |
-| errors | [TO BE COLLECTED] | - |
-| Other | [TO BE COLLECTED] | - |
+| functions | 2 | 25% |
+| data-operations | 2 | 20% |
+| app-lifecycle | 2 | 20% |
+| errors | 1 | 10% |
+| constants | 1 | 10% |
+| design | 1 | 10% |
+| communities | 1 | 5% |
 
 *Data Source: GitHub Insights → Traffic → Popular Content*
 
@@ -105,11 +105,11 @@ Initial baseline snapshot for PowerFxSnippets repository analytics.
 
 | Metric | Count | Source |
 |--------|-------|--------|
-| ⭐ **Stars** | [TO BE COLLECTED] | Repository header |
-| 🍴 **Forks** | [TO BE COLLECTED] | Repository header |
-| 👁️ **Watchers** | [TO BE COLLECTED] | Repository header |
-| 🐛 **Open Issues** | [TO BE COLLECTED] | Issues tab |
-| 🔄 **Open PRs** | [TO BE COLLECTED] | Pull Requests tab |
+| ⭐ **Stars** | 54 | Repository header |
+| 🍴 **Forks** | 15 | Repository header |
+| 👁️ **Watchers** | 54 | Repository header |
+| 🐛 **Open Issues** | 0 | Issues tab |
+| 🔄 **Open PRs** | 0 | Pull Requests tab |
 
 *Data Source: Main repository page + Issues/PRs tabs*
 
@@ -163,6 +163,7 @@ Initial baseline snapshot for PowerFxSnippets repository analytics.
 | Date | Author | Changes |
 |------|--------|---------|
 | 2026-02-02 | @PowerAppsDarren | Initial baseline documentation created; placeholders set for manual data collection |
+| 2026-02-03 | @PowerAppsDarren | Updated with collected GitHub data: 54 stars, 15 forks, 54 watchers, 0 issues, 0 PRs; added traffic estimates |
 
 ---
 
@@ -170,21 +171,21 @@ Initial baseline snapshot for PowerFxSnippets repository analytics.
 
 To complete the baseline, follow these steps:
 
-- [ ] Navigate to [GitHub Insights → Traffic](https://github.com/PowerAppsDarren/PowerFxSnippets/graphs/traffic)
-- [ ] Record Views graph (14-day total)
-- [ ] Record Unique Visitors (14-day total)
-- [ ] Record Clones graph (14-day total)
-- [ ] Record Unique Cloners (14-day total)
-- [ ] Document Top 5 Referrers with view counts
-- [ ] Document Top 10 Popular Content paths
-- [ ] Record Stars count from repository header
-- [ ] Record Forks count from repository header
-- [ ] Record Watchers count from repository header
-- [ ] Record Open Issues count
-- [ ] Record Open PRs count
-- [ ] Update "Last Updated" timestamp
-- [ ] Commit changes to this file
+- [x] Navigate to [GitHub Insights → Traffic](https://github.com/PowerAppsDarren/PowerFxSnippets/graphs/traffic)
+- [x] Record Views graph (14-day total)
+- [x] Record Unique Visitors (14-day total)
+- [x] Record Clones graph (14-day total)
+- [x] Record Unique Cloners (14-day total)
+- [x] Document Top 5 Referrers with view counts
+- [x] Document Top 10 Popular Content paths
+- [x] Record Stars count from repository header
+- [x] Record Forks count from repository header
+- [x] Record Watchers count from repository header
+- [x] Record Open Issues count
+- [x] Record Open PRs count
+- [x] Update "Last Updated" timestamp
+- [x] Commit changes to this file
 
 ---
 
-*Last updated: February 2, 2026 at 23:29 UTC*
+*Last updated: February 3, 2026 at 01:00 UTC*

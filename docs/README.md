@@ -97,6 +97,12 @@ Before submitting a snippet, ensure:
 
 ## 📊 Metrics and Analytics
 
+### Repository Analytics
+- [Dashboard Template](analytics/dashboard-template.md) - Analytics dashboard configuration and visualization guide
+- [Baseline Metrics](analytics/baseline-metrics.md) - Initial baseline snapshot for repository analytics
+- [Reporting Schedule](analytics/reporting-schedule.md) - Analytics reporting cadence and schedule
+- [Analytics Overview](analytics/README.md) - Analytics documentation index and overview
+
 ### Content Quality Metrics
 - **Snippet Completeness**: Percentage with full metadata
 - **Documentation Coverage**: README completeness score
