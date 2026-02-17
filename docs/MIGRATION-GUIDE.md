@@ -44,10 +44,10 @@ The repository was restructured to provide a clearer, more consistent organizati
 | `msapp-files/`              | *(archived)*                             | MSAPP file content moved to separate toolkit repo  |
 | `certification-exams/`      | `learning/certification/`                | PL-900, PL-200, and other cert resources           |
 | `App.Formulas/`             | `app-lifecycle/formulas/`                | Named formulas, expressions, collections           |
-| `App.OnError/`              | `app-onerror/`                           | Error handling patterns                            |
-| `App.OnMessage/`            | `app-onmessage/`                         | Message handling patterns                          |
-| `App.OnStart/`              | `app-onstart/`                           | App initialization patterns                        |
-| `App.StartScreen/`          | `app-startscreen/`                       | Start screen configurations                        |
+| `App.OnError/`              | `app-lifecycle/error-handling/`           | Error handling patterns                            |
+| `App.OnMessage/`            | `app-lifecycle/`                         | Message handling patterns (app-onmessage.md)       |
+| `App.OnStart/`              | `app-lifecycle/`                         | App initialization patterns (app-onstart.md)       |
+| `App.StartScreen/`          | `app-lifecycle/`                         | Start screen configurations (app-startscreen.md)   |
 | `Algorithms/`               | `functions/algorithms/`                  | Algorithm implementations                          |
 | `Connectors/`               | `integrations/connectors/`               | Connector-specific patterns                        |
 | `Controls/`                 | `ui-controls/`                           | Same as `controls/` above                          |
@@ -173,6 +173,7 @@ learning/
 
 The following old directories no longer exist in the repository. All content has been migrated to the new locations shown in the mapping table above:
 
+**Phase 1 (v2.0 initial restructure):**
 - `controls/` and `Controls/`
 - `components/` and `Components/`
 - `code-components/`
@@ -189,12 +190,31 @@ The following old directories no longer exist in the repository. All content has
 - `Fonts/`
 - `Icons/`
 
+**Phase 2 (v2.0 cleanup):**
+- `app-onerror/` → `app-lifecycle/error-handling/`
+- `app-onmessage/` → `app-lifecycle/`
+- `app-onstart/` → `app-lifecycle/`
+- `app-startscreen/` → `app-lifecycle/`
+- `center-self/` → `ui-patterns/`
+- `communities/` → `learning/`
+- `constants/` → `app-lifecycle/formulas/expressions/`
+- `data-erds/` → `data-operations/`
+- `design/` → `ui-patterns/theming/`
+- `errors/` → `app-lifecycle/error-handling/`
+- `git-or-github/` → `learning/`
+- `model-driven/` → `learning/`
+- `power-apps-rock-stars/` → `learning/`
+- `tools/` → `utilities/tools/node/`
+- `unicode-magic/` → `visual-assets/unicode/`
+- `wire-framing/` → `ui-patterns/wireframing/`
+
 **Note:** These old paths will return 404 errors if accessed directly. Use the migration table to find the new locations.
 
 ---
 
 ## History
 
-| Date       | Author | Changes                                                     |
-|------------|--------|-------------------------------------------------------------|
-| 2026-01-29 | Claude | Created migration guide documenting v2.0 path restructuring |
+| Date       | Author  | Changes                                                     |
+|------------|---------|-------------------------------------------------------------|
+| 2026-02-17 | Cleanup | Updated mappings to final destinations, added Phase 2 dirs  |
+| 2026-01-29 | Claude  | Created migration guide documenting v2.0 path restructuring |

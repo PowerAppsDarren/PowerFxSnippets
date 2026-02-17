@@ -5,6 +5,8 @@ Welcome to the Power Fx Snippets documentation! This directory contains detailed
 ## 📋 Table of Contents
 
 ### Getting Started
+- [Migration Guide](./MIGRATION-GUIDE.md) - Where old paths map to new v2.0 locations
+- [Release Notes v2.0.0](./RELEASE-NOTES-v2.0.0.md) - What changed in the restructure
 - Quick Start Guide (TODO: file missing) - Get up and running in 5 minutes
 - Repository Structure (TODO: file missing) - Understanding the organization
 - Contributing Overview (TODO: file missing) - How to contribute effectively
@@ -165,6 +167,7 @@ See our [Contributing Guide](../CONTRIBUTING.md) for details on how to contribut
 
 ## History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| 2026-01-27 | Migration | Initial TOC and history section added |
+| Date       | Author    | Changes                                                 |
+|------------|-----------|--------------------------------------------------------|
+| 2026-02-17 | Cleanup   | Added links to MIGRATION-GUIDE and RELEASE-NOTES       |
+| 2026-01-27 | Migration | Initial TOC and history section added                   |

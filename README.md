@@ -11,7 +11,7 @@
 
 **Major repository restructuring complete!** The repository has been reorganized with a **feature-first architecture** for better navigation, discoverability, and developer experience.
 
-📣 **[Read the full v2.0.0 Announcement](./docs/ANNOUNCEMENT-v2.0.0.md)** | 📋 **[Release Notes](./RELEASE-NOTES-v2.0.0.md)**
+📣 **[Read the full v2.0.0 Announcement](./docs/ANNOUNCEMENT-v2.0.0.md)** | 📋 **[Release Notes](./docs/RELEASE-NOTES-v2.0.0.md)**
 
 ### ✅ New Structure (9 Categories)
 
@@ -29,7 +29,7 @@
 
 ### 🆕 January 2026 Highlights
 
-- **468 markdown files** with standardized structure
+- **230+ markdown files** with standardized structure
 - **YAML frontmatter** on all snippets for searchability
 - **Table of Contents** auto-generated in all files
 - **History sections** tracking changes in every file
@@ -37,9 +37,9 @@
 - **Unit test coverage** for all repository tools (validator, index generator, migration helper)
 - **Issue & PR templates** for consistent contributions
 - **[PRODUCT-INDEX.md](./PRODUCT-INDEX.md)** -- Browse snippets by Power Platform product
-- **[MIGRATION-GUIDE.md](./MIGRATION-GUIDE.md)** -- Find where your old bookmarks moved
+- **[MIGRATION-GUIDE.md](./docs/MIGRATION-GUIDE.md)** -- Find where your old bookmarks moved
 
-📋 **[View Migration Details](./MIGRATION-GUIDE.md)** | 🔍 **[Browse by Product](./PRODUCT-INDEX.md)**
+📋 **[View Migration Details](./docs/MIGRATION-GUIDE.md)** | 🔍 **[Browse by Product](./PRODUCT-INDEX.md)**
 
 ## 🚀 Quick Start
 
@@ -133,22 +133,22 @@ ClearCollect(
 
 | Category                                                      | Description                          | Quick Access                                                                                                                       |
 |---------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [**01-getting-started**](learning/tutorials/getting-started)               | Entry point for new developers       | [Hello World](learning/tutorials/getting-started/hello-world) • Common Patterns (Coming Soon)                        |
-| [**02-app-architecture**](./app-lifecycle)             | Application structure and lifecycle  | [App Events](app-lifecycle) • [Navigation](app-lifecycle)                         |
-| [**03-user-interface**](./ui-controls)                 | UI components and user experience    | [Controls](./ui-controls) • [Themes](design)                                      |
-| [**04-data-management**](./data-operations)               | Data operations and sources          | [Data Sources](./data-operations/sources) • [Validation](data-operations)                           |
-| [**05-business-logic**](./functions)                 | Functions and calculations           | [Functions](./functions) • [Error Handling](app-onerror)                                |
-| [**06-integrations**](./integrations)                     | External services and APIs           | [Microsoft 365](integrations) • [Azure](integrations)                                     |
-| [**07-assets-and-media**](./visual-assets)             | Visual assets and media              | [Icons](./visual-assets/icons) • [SVGs](visual-assets/svgs)                                                       |
-| [**08-advanced-patterns**](./learning/best-practices)           | Expert techniques and architecture   | [Custom Components](ui-patterns/components/custom-components) • [Security](learning/best-practices)             |
-| [**09-learning-resources**](./learning)         | Tutorials and educational content    | [Tutorials](learning/tutorials) • [Best Practices](./learning/best-practices)                        |
+| 📱 [**app-lifecycle/**](./app-lifecycle)                       | App initialization & lifecycle       | [Formulas](./app-lifecycle/formulas) • [Error Handling](./app-lifecycle/error-handling)                              |
+| 🎨 [**ui-controls/**](./ui-controls)                          | Control-specific snippets            | [Gallery](./ui-controls/gallery) • [Buttons](./ui-controls)                                                        |
+| 🎭 [**ui-patterns/**](./ui-patterns)                          | Reusable UI patterns                 | [Theming](./ui-patterns/theming) • [Components](./ui-patterns/components)                                          |
+| 🌈 [**visual-assets/**](./visual-assets)                      | Visual resources                     | [Icons](./visual-assets/icons) • [SVGs](./visual-assets/svgs)                                                      |
+| 📊 [**data-operations/**](./data-operations)                  | Data & transformations               | [Sources](./data-operations/sources) • [JSON](./data-operations/json)                                              |
+| 🔧 [**functions/**](./functions)                              | Functions & utilities                | [UDFs](./functions/user-defined-functions) • [Algorithms](./functions/algorithms)                                   |
+| 🔗 [**integrations/**](./integrations)                        | External services & APIs             | [Connectors](./integrations/connectors) • [Power Automate](./integrations/power-automate)                          |
+| 🎓 [**learning/**](./learning)                                | Educational content                  | [Tutorials](./learning/tutorials) • [Best Practices](./learning/best-practices)                                    |
+| 🧰 [**utilities/**](./utilities)                              | Tools & templates                    | [Tools](./utilities/tools) • [Templates](./utilities/templates)                                                     |
 
 ### 🛠️ Repository Tools
 
 - [**📋 Contribution Guide**](./CONTRIBUTING.md) - How to add your own snippets
-- [**🔧 Tools & Utilities**](./tools) - Helper scripts and utilities
+- [**🔧 Tools & Utilities**](./utilities) - Helper scripts and utilities
 - [**📚 Documentation**](./docs) - Detailed guides and references
-- [**⚠️ Power Fx Gotchas**](reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
+- [**⚠️ Power Fx Gotchas**](./Reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
 - [**🏛️ Code of Conduct**](./CODE_OF_CONDUCT.md) - Community standards
 
 ## 🔥 Popular Snippets
@@ -232,9 +232,8 @@ We welcome contributions! Here's how to get involved:
 ## 📊 Repository Stats
 
 - **📁 Categories**: 9 main categories with 40+ subcategories
-- **📄 Snippets**: 500+ code examples and patterns
-- **🏷️ Tags**: 200+ searchable tags for filtering
-- **👥 Contributors**: 50+ community members
+- **📄 Snippets**: 230+ code examples and patterns
+- **🏷️ Tags**: Searchable tags for filtering
 - **⭐ Stars**: Your support helps grow the community!
 
 ## 🏢 About Power Fx
@@ -262,7 +261,7 @@ Power Fx is the low-code language that powers Microsoft Power Platform applicati
 ## ❓ FAQ / Troubleshooting
 
 **Where did my old bookmark go?**
-The repository was restructured in v2.0.0 (January 2026). All files were reorganized into 9 feature-based categories. See the **[Migration Guide](./MIGRATION-GUIDE.md)** for a complete mapping of old paths to new locations.
+The repository was restructured in v2.0.0 (January 2026). All files were reorganized into 9 feature-based categories. See the **[Migration Guide](./docs/MIGRATION-GUIDE.md)** for a complete mapping of old paths to new locations.
 
 **How do I find snippets by product (Canvas Apps, Model-Driven, Power Automate)?**
 Check the **[Product Index](./PRODUCT-INDEX.md)** which groups every snippet by the Power Platform product it applies to.
@@ -298,5 +297,6 @@ This repository is licensed under the MIT License - see the [LICENSE](./LICENSE)
 
 | Date       | Author    | Changes                                                                      |
 |------------|-----------|------------------------------------------------------------------------------|
+| 2026-02-17 | Cleanup   | Fix stats (230+), update TOC links, fix paths to docs/, correct Reference/ case |
 | 2026-01-29 | Phase 6   | v2.0.0 launch updates: enhanced Quick Start, Popular Snippets, FAQ, What's New |
 | 2026-01-27 | Migration | Initial TOC and history section added                                        |

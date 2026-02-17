@@ -65,22 +65,18 @@ When adding or updating any `.md` file in this repository:
 
 ```
 PowerFxSnippets/
-├── Algorithms/          # Algorithm implementations and patterns
-├── App.Formulas/       # Named formulas and app-level formulas
-├── App.OnError/        # Error handling patterns
-├── App.OnMessage/      # Message handling patterns
-├── App.OnStart/        # App initialization patterns
-├── App.StartScreen/    # Start screen configurations
-├── Components/         # Reusable Power Apps components
-├── Connectors/         # Connector-specific patterns (Office365, etc.)
-├── Controls/           # Control-specific implementations
-├── Data Sources/       # Database schemas and SQL patterns
-├── Data Samples/       # Sample data files (CSV, JSON)
-├── Reference/          # Power Fx gotchas, syntax differences, tips
-├── SVGs/              # SVG graphics and icons
-├── Fonts/             # Font resources and configurations
-├── Icons/             # Icon collections
-└── ai-chats/          # AI session documentation
+├── app-lifecycle/       # App initialization, lifecycle, formulas, error handling
+├── ui-controls/         # Control-specific snippets (gallery, buttons, inputs)
+├── ui-patterns/         # Reusable UI patterns (theming, dialogs, components)
+├── visual-assets/       # SVGs, icons, colors, fonts, emojis, unicode
+├── data-operations/     # Data sources, samples, JSON, geocoding
+├── functions/           # UDFs, algorithms, string manipulation, encoding
+├── integrations/        # Connectors, Office 365, Power Automate
+├── learning/            # Tutorials, certification, best practices
+├── utilities/           # Validation tools, templates, scripts
+├── Reference/           # Power Fx gotchas, syntax differences, tips
+├── docs/                # Migration guide, release notes, analytics
+└── .github/             # Actions workflows, issue/PR templates
 ```
 
 ## Key File Types
@@ -118,8 +114,10 @@ When uncertain about ANY Power Fx syntax or function behavior:
 
 1. **Adding New Snippets**: Create markdown files in the appropriate category folder with clear examples
 2. **Documenting Components**: Include both the Power Fx code and usage instructions
-3. **Sample Data**: Place CSV files in `Data Samples/` with descriptive names
-4. **SVG Resources**: Store in `SVGs/SVG Files/` organized by provider (Azure, Fabric, Power BI)
+3. **Sample Data**: Place CSV files in `data-operations/samples/` with descriptive names
+4. **SVG Resources**: Store in `visual-assets/svgs/` organized by provider (Azure, Fabric, Power BI)
+5. **Error Handling**: Place patterns in `app-lifecycle/error-handling/`
+6. **Tools/Scripts**: Place in `utilities/tools/` (Python) or `utilities/tools/node/` (Node.js)
 
 ## Documentation Standards
 
@@ -143,6 +141,7 @@ Document AI-assisted work sessions in `ai-chats/` using the format:
 
 ## History
 
-| Date       | Author | Changes                                                   |
-|------------|--------|-----------------------------------------------------------|
-| 2026-01-08 | Claude | Added workspace context reference to parent CLAUDE.md    |
+| Date       | Author  | Changes                                                   |
+|------------|---------|-----------------------------------------------------------|
+| 2026-02-17 | Cleanup | Updated directory structure and paths to match v2.0 layout |
+| 2026-01-08 | Claude  | Added workspace context reference to parent CLAUDE.md    |
