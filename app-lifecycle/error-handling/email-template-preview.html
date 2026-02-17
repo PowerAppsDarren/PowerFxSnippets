@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Email Template Preview</title>
+    <style>
+        /* ═══════════════════════════════════════════════════════════════
+           CUSTOMIZABLE COLOR VARIABLES - Edit these to match your brand!
+           ═══════════════════════════════════════════════════════════════ */
+        :root {
+            --header-bg: #dc2626;           /* Red banner background */
+            --header-text: #ffffff;         /* White header text */
+            --card-bg: #ffffff;             /* White card background */
+            --card-border: #e5e7eb;         /* Light gray border */
+            --table-header-bg: #f9fafb;     /* Very light gray */
+            --table-header-text: #374151;   /* Dark gray text */
+            --table-border: #e5e7eb;        /* Light gray */
+            --count-badge-bg: #fef2f2;      /* Light red background */
+            --count-badge-text: #dc2626;    /* Red text */
+            --footer-bg: #f3f4f6;           /* Light gray footer */
+            --footer-text: #6b7280;         /* Medium gray */
+            --link-color: #2563eb;          /* Blue links */
+            --screen-badge-bg: #dbeafe;     /* Light blue */
+            --screen-badge-text: #1e40af;   /* Dark blue */
+            --kind-badge-bg: #fef3c7;       /* Light yellow */
+            --kind-badge-text: #92400e;     /* Dark amber */
+        }
+
+        /* Preview Controls - Not part of email */
+        .preview-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            z-index: 1000;
+            max-width: 300px;
+        }
+        .preview-controls h3 {
+            margin: 0 0 15px 0;
+            font-size: 14px;
+            color: #374151;
+        }
+        .color-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        .color-row input[type="color"] {
+            width: 30px;
+            height: 24px;
+            border: none;
+            cursor: pointer;
+            margin-right: 8px;
+        }
+        .color-row label {
+            color: #6b7280;
+        }
+        .preview-controls button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .preview-controls button:hover {
+            background: #1d4ed8;
+        }
+        .preview-controls .code-output {
+            margin-top: 10px;
+            font-size: 11px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body style="margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background-color:#f3f4f6;">
+
+    <!-- Preview Controls Panel -->
+    <div class="preview-controls">
+        <h3>🎨 Customize Colors</h3>
+        <div class="color-row">
+            <input type="color" id="headerBg" value="#dc2626" onchange="updateColor('--header-bg', this.value)">
+            <label>Header Background</label>
+        </div>
+        <div class="color-row">
+            <input type="color" id="countBadgeBg" value="#fef2f2" onchange="updateColor('--count-badge-bg', this.value)">
+            <label>Count Badge BG</label>
+        </div>
+        <div class="color-row">
+            <input type="color" id="countBadgeText" value="#dc2626" onchange="updateColor('--count-badge-text', this.value)">
+            <label>Count Badge Text</label>
+        </div>
+        <div class="color-row">
+            <input type="color" id="linkColor" value="#2563eb" onchange="updateColor('--link-color', this.value)">
+            <label>Button/Link Color</label>
+        </div>
+        <div class="color-row">
+            <input type="color" id="screenBadgeBg" value="#dbeafe" onchange="updateColor('--screen-badge-bg', this.value)">
+            <label>Screen Badge BG</label>
+        </div>
+        <div class="color-row">
+            <input type="color" id="kindBadgeBg" value="#fef3c7" onchange="updateColor('--kind-badge-bg', this.value)">
+            <label>Kind Badge BG</label>
+        </div>
+        <button onclick="exportColors()">📋 Copy PowerFx Colors</button>
+        <div class="code-output" id="codeOutput"></div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         EMAIL TEMPLATE STARTS HERE
+         ═══════════════════════════════════════════════════════════════ -->
+
+    <!-- Header Banner -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color:var(--header-bg);">
+        <tr>
+            <td style="padding:24px 32px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <span style="font-size:28px;">⚠️</span>
+                            <span style="color:var(--header-text);font-size:22px;font-weight:600;margin-left:12px;vertical-align:middle;">
+                                Error Alert
+                            </span>
+                        </td>
+                        <td style="text-align:right;">
+                            <span style="color:var(--header-text);font-size:14px;opacity:0.9;">
+                                Dec 17, 2025 · 03:45 PM
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Main Content Card -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="padding:24px;">
+        <tr>
+            <td>
+                <table width="100%" cellpadding="0" cellspacing="0" style="background-color:var(--card-bg);border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.1);overflow:hidden;">
+                    <!-- User Info -->
+                    <tr>
+                        <td style="padding:24px 24px 16px 24px;border-bottom:1px solid var(--card-border);">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <div style="font-size:18px;font-weight:600;color:#111827;margin-bottom:4px;">
+                                            John Doe
+                                        </div>
+                                        <div style="font-size:14px;color:#6b7280;">
+                                            john.doe@contoso.com
+                                        </div>
+                                    </td>
+                                    <td style="text-align:right;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--count-badge-bg);color:var(--count-badge-text);font-size:14px;font-weight:600;padding:6px 12px;border-radius:20px;">
+                                            3 unique errors
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Error Table -->
+                    <tr>
+                        <td style="padding:0;">
+                            <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+                                <tr style="background-color:var(--table-header-bg);">
+                                    <th style="padding:12px 16px;text-align:center;font-size:12px;font-weight:600;color:var(--table-header-text);text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--table-border);width:70px;">Count</th>
+                                    <th style="padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:var(--table-header-text);text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--table-border);">Screen</th>
+                                    <th style="padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:var(--table-header-text);text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--table-border);">Kind</th>
+                                    <th style="padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:var(--table-header-text);text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--table-border);">Source</th>
+                                    <th style="padding:12px 16px;text-align:left;font-size:12px;font-weight:600;color:var(--table-header-text);text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--table-border);">Message</th>
+                                    <th style="padding:12px 16px;text-align:right;font-size:12px;font-weight:600;color:var(--table-header-text);text-transform:uppercase;letter-spacing:0.5px;border-bottom:2px solid var(--table-border);width:140px;">Timestamps</th>
+                                </tr>
+
+                                <!-- Sample Error Row 1 -->
+                                <tr style="border-bottom:1px solid var(--table-border);">
+                                    <td style="padding:16px;text-align:center;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--count-badge-bg);color:var(--count-badge-text);font-size:16px;font-weight:700;padding:8px 14px;border-radius:8px;min-width:40px;">
+                                            47×
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--screen-badge-bg);color:var(--screen-badge-text);font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;">
+                                            HomeScreen
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--kind-badge-bg);color:var(--kind-badge-text);font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;">
+                                            Network
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;font-size:14px;color:#374151;font-family:ui-monospace,monospace;">
+                                        Gallery1.Items
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;font-size:14px;color:#111827;max-width:300px;">
+                                        Network error when communicating with the server
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;text-align:right;">
+                                        <div style="font-size:12px;color:#6b7280;margin-bottom:4px;">
+                                            <strong>First:</strong> 12/17/2025 02:30:15 PM
+                                        </div>
+                                        <div style="font-size:12px;color:#6b7280;">
+                                            <strong>Last:</strong> 12/17/2025 03:45:22 PM
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <!-- Sample Error Row 2 -->
+                                <tr style="border-bottom:1px solid var(--table-border);">
+                                    <td style="padding:16px;text-align:center;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--count-badge-bg);color:var(--count-badge-text);font-size:16px;font-weight:700;padding:8px 14px;border-radius:8px;min-width:40px;">
+                                            12×
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--screen-badge-bg);color:var(--screen-badge-text);font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;">
+                                            DetailScreen
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--kind-badge-bg);color:var(--kind-badge-text);font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;">
+                                            Sync
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;font-size:14px;color:#374151;font-family:ui-monospace,monospace;">
+                                        Button_Submit.OnSelect
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;font-size:14px;color:#111827;max-width:300px;">
+                                        The data source returned an error: Invalid column 'Status'
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;text-align:right;">
+                                        <div style="font-size:12px;color:#6b7280;margin-bottom:4px;">
+                                            <strong>First:</strong> 12/17/2025 03:10:05 PM
+                                        </div>
+                                        <div style="font-size:12px;color:#6b7280;">
+                                            <strong>Last:</strong> 12/17/2025 03:42:18 PM
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <!-- Sample Error Row 3 -->
+                                <tr style="border-bottom:1px solid var(--table-border);">
+                                    <td style="padding:16px;text-align:center;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--count-badge-bg);color:var(--count-badge-text);font-size:16px;font-weight:700;padding:8px 14px;border-radius:8px;min-width:40px;">
+                                            1×
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--screen-badge-bg);color:var(--screen-badge-text);font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;">
+                                            SettingsScreen
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;">
+                                        <span style="display:inline-block;background-color:var(--kind-badge-bg);color:var(--kind-badge-text);font-size:13px;font-weight:500;padding:4px 10px;border-radius:6px;">
+                                            Validation
+                                        </span>
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;font-size:14px;color:#374151;font-family:ui-monospace,monospace;">
+                                        TextInput_Email.OnChange
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;font-size:14px;color:#111827;max-width:300px;">
+                                        Email address format is invalid
+                                    </td>
+                                    <td style="padding:16px;vertical-align:top;text-align:right;">
+                                        <div style="font-size:12px;color:#6b7280;margin-bottom:4px;">
+                                            <strong>First:</strong> 12/17/2025 03:44:55 PM
+                                        </div>
+                                        <div style="font-size:12px;color:#6b7280;">
+                                            <strong>Last:</strong> 12/17/2025 03:44:55 PM
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Summary Footer -->
+                    <tr>
+                        <td style="padding:20px 24px;background-color:var(--footer-bg);border-top:1px solid var(--card-border);">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <span style="font-size:14px;color:var(--footer-text);">
+                                            <strong style="color:#374151;">3</strong> unique errors ·
+                                            <strong style="color:#374151;">60</strong> total occurrences
+                                        </span>
+                                    </td>
+                                    <td style="text-align:right;">
+                                        <a href="#" style="display:inline-block;background-color:var(--link-color);color:#ffffff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:8px;text-decoration:none;">
+                                            Open My Power App
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td style="padding:16px 24px 32px 24px;text-align:center;">
+                <div style="font-size:12px;color:#9ca3af;">
+                    Automated error report from My Power App
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        function updateColor(varName, value) {
+            document.documentElement.style.setProperty(varName, value);
+        }
+
+        function exportColors() {
+            const colors = {
+                HeaderBg: document.getElementById('headerBg').value,
+                HeaderText: '#ffffff',
+                CardBg: '#ffffff',
+                CardBorder: '#e5e7eb',
+                TableHeaderBg: '#f9fafb',
+                TableHeaderText: '#374151',
+                TableBorder: '#e5e7eb',
+                CountBadgeBg: document.getElementById('countBadgeBg').value,
+                CountBadgeText: document.getElementById('countBadgeText').value,
+                FooterBg: '#f3f4f6',
+                FooterText: '#6b7280',
+                LinkColor: document.getElementById('linkColor').value
+            };
+
+            const powerfx = `fxEmailColors = {
+    HeaderBg:       "${colors.HeaderBg}",
+    HeaderText:     "${colors.HeaderText}",
+    CardBg:         "${colors.CardBg}",
+    CardBorder:     "${colors.CardBorder}",
+    TableHeaderBg:  "${colors.TableHeaderBg}",
+    TableHeaderText:"${colors.TableHeaderText}",
+    TableBorder:    "${colors.TableBorder}",
+    CountBadgeBg:   "${colors.CountBadgeBg}",
+    CountBadgeText: "${colors.CountBadgeText}",
+    FooterBg:       "${colors.FooterBg}",
+    FooterText:     "${colors.FooterText}",
+    LinkColor:      "${colors.LinkColor}"
+};`;
+
+            navigator.clipboard.writeText(powerfx).then(() => {
+                document.getElementById('codeOutput').innerHTML = '✅ Copied to clipboard!';
+                setTimeout(() => {
+                    document.getElementById('codeOutput').innerHTML = '';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

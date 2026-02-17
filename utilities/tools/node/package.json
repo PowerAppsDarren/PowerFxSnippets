@@ -1,0 +1,48 @@
+{
+  "name": "powerfx-snippets-tools",
+  "version": "1.0.0",
+  "description": "Tools and utilities for Power Fx Snippets repository maintenance",
+  "main": "validate-snippets.js",
+  "scripts": {
+    "validate": "node validate-snippets.js",
+    "validate:fix": "node validate-snippets.js --fix",
+    "validate:ci": "node validate-snippets.js --ci",
+    "lint": "node lint-markdown.js",
+    "links": "node check-links.js",
+    "index": "node generate-index.js",
+    "stats": "node stats-generator.js",
+    "migrate": "node migrate-content.js",
+    "create": "node create-snippet.js",
+    "test": "npm run validate && npm run lint && npm run links"
+  },
+  "keywords": [
+    "power-fx",
+    "power-apps",
+    "validation",
+    "tools",
+    "utilities"
+  ],
+  "author": "Power Fx Snippets Community",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "markdownlint": "^0.31.1",
+    "markdownlint-cli": "^0.37.0",
+    "glob": "^10.3.10",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PowerAppsDarren/PowerFxSnippets.git",
+    "directory": "tools"
+  },
+  "bugs": {
+    "url": "https://github.com/PowerAppsDarren/PowerFxSnippets/issues"
+  },
+  "homepage": "https://github.com/PowerAppsDarren/PowerFxSnippets#readme"
+}
