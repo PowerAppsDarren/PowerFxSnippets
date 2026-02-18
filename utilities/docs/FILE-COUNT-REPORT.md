@@ -59,7 +59,7 @@ Files not referenced from any README, index, or other markdown file in the repos
 | `data-operations/json/parsing-flows-json.md` | data-operations |
 | `data-operations/json/sample-json.md` | data-operations |
 | `design/Design.md` | design |
-| `docs/LINK-VALIDATION-REPORT.md` | docs |
+| `utilities/docs/LINK-VALIDATION-REPORT.md` | utilities/docs |
 | `errors/catch-all-errors.md` | errors |
 | `git-or-github/git.md` | git-or-github |
 | `git-or-github/most-useful-ai-repos.md` | git-or-github |

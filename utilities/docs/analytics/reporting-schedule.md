@@ -48,7 +48,7 @@ Analytics reporting cadence and procedures for PowerFxSnippets.
 
 ### Report Storage
 
-- **Location**: `docs/analytics/reports/`
+- **Location**: `utilities/docs/analytics/reports/`
 - **Naming**: `YYYY-MM-DD-weekly-report.md`
 - **Example**: `2026-02-09-weekly-report.md`
 
@@ -208,7 +208,7 @@ Use this checklist for every report to ensure consistency:
 - [ ] Create GitHub Discussion (with "analytics" label)
 - [ ] Post to appropriate channels
 - [ ] Link to full report in repository
-- [ ] Archive report in `docs/analytics/reports/`
+- [ ] Archive report in `utilities/docs/analytics/reports/`
 
 ### Post-Report
 

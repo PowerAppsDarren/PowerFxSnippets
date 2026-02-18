@@ -73,9 +73,7 @@ PowerFxSnippets/
 ├── functions/           # UDFs, algorithms, string manipulation, encoding
 ├── integrations/        # Connectors, Office 365, Power Automate
 ├── learning/            # Tutorials, certification, best practices
-├── utilities/           # Validation tools, templates, scripts
-├── Reference/           # Power Fx gotchas, syntax differences, tips
-├── docs/                # Migration guide, release notes, analytics
+├── utilities/           # Validation tools, templates, scripts, project docs
 └── .github/             # Actions workflows, issue/PR templates
 ```
 
@@ -92,13 +90,13 @@ PowerFxSnippets/
 
 ### ⚠️ MANDATORY: Check Gotchas Before Writing Code!
 Before giving advice OR writing ANY Power Fx code (especially date formatting, function behavior, etc.):
-- **ALWAYS read** `Reference/power-fx-gotchas.md` FIRST
+- **ALWAYS read** `learning/reference/power-fx-gotchas.md` FIRST
 - Power Fx is NOT the same as .NET, Excel, or JavaScript — don't assume!
 - This applies to: code snippets, examples, fixes, refactors — ALL Power Fx output
 
 ### 🔍 Power Fx Verification Workflow
 When uncertain about ANY Power Fx syntax or function behavior:
-1. **Check local gotchas first:** Read `Reference/power-fx-gotchas.md`
+1. **Check local gotchas first:** Read `learning/reference/power-fx-gotchas.md`
 2. **Verify with official docs:** Use `ref_search_documentation` with query like `"Power Fx [function name]"`
 3. **Read the result:** Use `ref_read_url` on the returned URL
 4. **Official docs base:** https://learn.microsoft.com/en-us/power-platform/power-fx/overview
@@ -143,5 +141,6 @@ Document AI-assisted work sessions in `ai-chats/` using the format:
 
 | Date       | Author  | Changes                                                   |
 |------------|---------|-----------------------------------------------------------|
+| 2026-02-18 | Cleanup | Remove Reference/ and docs/ from structure; update all paths |
 | 2026-02-17 | Cleanup | Updated directory structure and paths to match v2.0 layout |
 | 2026-01-08 | Claude  | Added workspace context reference to parent CLAUDE.md    |

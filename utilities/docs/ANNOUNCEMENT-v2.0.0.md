@@ -65,7 +65,7 @@ Located in `utilities/tools/`:
 1. **Browse the new structure** -- Start with the [README](../README.md) and explore the 9 categories
 2. **Find snippets by product** -- Use the [Product Index](../PRODUCT-INDEX.md) to filter by Canvas Apps, Model-Driven Apps, or Power Automate
 3. **Search by tag** -- Use the [Search Index](../SEARCH-INDEX.md) and [Tag Index](../TAG-INDEX.md)
-4. **Check the gotchas** -- Read [Power Fx Gotchas](../Reference/power-fx-gotchas.md) before writing Power Fx code
+4. **Check the gotchas** -- Read [Power Fx Gotchas](../../learning/reference/power-fx-gotchas.md) before writing Power Fx code
 
 ## For Existing Users
 

@@ -63,7 +63,7 @@ Since old directory locations **no longer exist**, there are no locations to add
 
 ### Current State
 
-Link validation report (`docs/LINK-VALIDATION-REPORT.md`) shows:
+Link validation report (`utilities/docs/LINK-VALIDATION-REPORT.md`) shows:
 - **Files scanned:** 222
 - **Files with internal links:** 63
 - **Valid internal links:** 1,525
@@ -253,7 +253,7 @@ To fully verify these workflows work:
 ## Files Referenced
 
 - `PowerFxSnippets-Private/.taskmaster/features/001-repository-restructure/tasks.md`
-- `docs/LINK-VALIDATION-REPORT.md`
+- `utilities/docs/LINK-VALIDATION-REPORT.md`
 - `RESUME.md`
 - `.github/workflows/check-links.yml`
 - `.github/workflows/content-completeness.yml`

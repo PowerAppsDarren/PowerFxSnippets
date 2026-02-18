@@ -66,7 +66,7 @@ This restructuring was completed with the help of AI-assisted development tools,
 
 1. Browse the new structure above
 2. Check out the [tutorials](./learning/tutorials/)
-3. Review [Power Fx gotchas](./Reference/power-fx-gotchas.md)
+3. Review [Power Fx gotchas](../../learning/reference/power-fx-gotchas.md)
 4. [Contribute](./CONTRIBUTING.md) your own snippets!
 ---
 

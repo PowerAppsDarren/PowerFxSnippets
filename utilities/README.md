@@ -6,6 +6,7 @@
   - [When to Use](#when-to-use)
   - [Related Categories](#related-categories)
 - [📁 Subcategories](#subcategories)
+  - [Docs](#docs)
   - [PowerShell](#powershell)
   - [Templates](#templates)
   - [Tools](#tools)
@@ -48,10 +49,20 @@ This category contains the supporting infrastructure for the PowerFxSnippets rep
 
 ### Related Categories
 - [**Learning**](../learning) - Tutorials and best practices for contributors
-- [**Docs**](../docs) - Repository documentation and guides
 - [**Functions**](../functions) - Power Fx function patterns (what these tools help maintain)
 
 ## 📁 Subcategories
+
+### Docs
+**Purpose**: Project documentation including release notes, migration guides, analytics, and reports.
+
+**Key Content:**
+- [**Release Notes v2.0.0**](docs/RELEASE-NOTES-v2.0.0.md) - Major restructuring release details
+- [**Announcement v2.0.0**](docs/ANNOUNCEMENT-v2.0.0.md) - Community announcement
+- [**Migration Guide**](docs/MIGRATION-GUIDE.md) - Old-to-new path mapping
+- [**Analytics**](docs/analytics/) - Reporting schedule, baselines, dashboards
+
+**When to use**: Referencing release history, understanding migration paths, or reviewing repository analytics.
 
 ### PowerShell
 **Purpose**: PowerShell scripts and documentation for Power Platform administration, automation, and development workflows.
@@ -153,13 +164,12 @@ Before using utilities in this category, you should understand:
 - [**YAML Syntax**](https://yaml.org/) - Used in snippet frontmatter
 
 ### Related Content
-- [**Docs**](../docs) - Repository documentation
-- [**Learning**](../learning) - Tutorials and best practices
-- [**Reference**](../Reference) - Power Fx gotchas and syntax guides
+- [**Learning**](../learning) - Tutorials, best practices, and reference guides
+- [**Reference**](../learning/reference) - Power Fx gotchas and syntax guides
 
 ### Next Steps
 After familiarizing yourself with utilities, consider:
-- [**Contributing Snippets**](../docs) - Use templates to add new content
+- [**Contributing Snippets**](../CONTRIBUTING.md) - Use templates to add new content
 - [**Running Validations**](tools/validate-all-snippets.sh) - Ensure quality across the repo
 - [**Generating Indexes**](tools/index-generator.py) - Keep search up to date
 
@@ -225,4 +235,5 @@ After familiarizing yourself with utilities, consider:
 
 | Date       | Author | Changes                                               |
 |------------|--------|-------------------------------------------------------|
+| 2026-02-18 | Cleanup | Add docs/ subdirectory; update cross-references for new paths |
 | 2026-01-29 | Darren | Created utilities README with full tool index         |

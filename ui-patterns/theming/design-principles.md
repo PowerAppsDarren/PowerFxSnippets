@@ -161,7 +161,7 @@ This category focuses on design patterns and principles for Power Apps. It inclu
 
 ### Adding New Snippets
 1. **Check existing content** to avoid duplication
-2. **Follow the template** from [snippet template](../docs/templates/snippet-template.md)
+2. **Follow the template** from [snippet template](../../utilities/templates/snippet-template.md)
 3. **Include comprehensive metadata** with proper categorization
 4. **Test thoroughly** in Power Apps environment
 5. **Submit a pull request** with clear description

@@ -11,7 +11,7 @@
 
 **Major repository restructuring complete!** The repository has been reorganized with a **feature-first architecture** for better navigation, discoverability, and developer experience.
 
-📣 **[Read the full v2.0.0 Announcement](./docs/ANNOUNCEMENT-v2.0.0.md)** | 📋 **[Release Notes](./docs/RELEASE-NOTES-v2.0.0.md)**
+📣 **[Read the full v2.0.0 Announcement](./utilities/docs/ANNOUNCEMENT-v2.0.0.md)** | 📋 **[Release Notes](./utilities/docs/RELEASE-NOTES-v2.0.0.md)**
 
 ### ✅ New Structure (9 Categories)
 
@@ -37,16 +37,16 @@
 - **Unit test coverage** for all repository tools (validator, index generator, migration helper)
 - **Issue & PR templates** for consistent contributions
 - **[PRODUCT-INDEX.md](./PRODUCT-INDEX.md)** -- Browse snippets by Power Platform product
-- **[MIGRATION-GUIDE.md](./docs/MIGRATION-GUIDE.md)** -- Find where your old bookmarks moved
+- **[MIGRATION-GUIDE.md](./utilities/docs/MIGRATION-GUIDE.md)** -- Find where your old bookmarks moved
 
-📋 **[View Migration Details](./docs/MIGRATION-GUIDE.md)** | 🔍 **[Browse by Product](./PRODUCT-INDEX.md)**
+📋 **[View Migration Details](./utilities/docs/MIGRATION-GUIDE.md)** | 🔍 **[Browse by Product](./PRODUCT-INDEX.md)**
 
 ## 🚀 Quick Start
 
 **New to Power Fx?** Start here:
 - [📚 Getting Started Guide](./learning/tutorials/getting-started)
 - [💡 Hello World Examples](./learning/tutorials/getting-started/hello-world)
-- [⚠️ Power Fx Gotchas](./Reference/power-fx-gotchas.md) -- Syntax quirks that differ from .NET/Excel/JavaScript
+- [⚠️ Power Fx Gotchas](./learning/reference/power-fx-gotchas.md) -- Syntax quirks that differ from .NET/Excel/JavaScript
 
 ### Copy-Paste Code Examples
 
@@ -147,8 +147,8 @@ ClearCollect(
 
 - [**📋 Contribution Guide**](./CONTRIBUTING.md) - How to add your own snippets
 - [**🔧 Tools & Utilities**](./utilities) - Helper scripts and utilities
-- [**📚 Documentation**](./docs) - Detailed guides and references
-- [**⚠️ Power Fx Gotchas**](./Reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
+- [**📚 Documentation**](./utilities/docs) - Detailed guides and references
+- [**⚠️ Power Fx Gotchas**](./learning/reference/power-fx-gotchas.md) - Syntax quirks that differ from .NET/Excel/JavaScript
 - [**🏛️ Code of Conduct**](./CODE_OF_CONDUCT.md) - Community standards
 
 ## 🔥 Popular Snippets
@@ -261,7 +261,7 @@ Power Fx is the low-code language that powers Microsoft Power Platform applicati
 ## ❓ FAQ / Troubleshooting
 
 **Where did my old bookmark go?**
-The repository was restructured in v2.0.0 (January 2026). All files were reorganized into 9 feature-based categories. See the **[Migration Guide](./docs/MIGRATION-GUIDE.md)** for a complete mapping of old paths to new locations.
+The repository was restructured in v2.0.0 (January 2026). All files were reorganized into 9 feature-based categories. See the **[Migration Guide](./utilities/docs/MIGRATION-GUIDE.md)** for a complete mapping of old paths to new locations.
 
 **How do I find snippets by product (Canvas Apps, Model-Driven, Power Automate)?**
 Check the **[Product Index](./PRODUCT-INDEX.md)** which groups every snippet by the Power Platform product it applies to.
@@ -270,7 +270,7 @@ Check the **[Product Index](./PRODUCT-INDEX.md)** which groups every snippet by 
 Read the **[Contributing Guide](./CONTRIBUTING.md)** for instructions on adding snippets, reporting issues, or proposing improvements. Every snippet needs YAML frontmatter, a clear description, and working Power Fx code.
 
 **Power Fx is not working the way I expected.**
-Power Fx has important syntax differences from .NET, Excel, and JavaScript. Before debugging further, read the **[Power Fx Gotchas](./Reference/power-fx-gotchas.md)** document -- especially the section on date/time formatting where `m`/`mm` is context-sensitive.
+Power Fx has important syntax differences from .NET, Excel, and JavaScript. Before debugging further, read the **[Power Fx Gotchas](./learning/reference/power-fx-gotchas.md)** document -- especially the section on date/time formatting where `m`/`mm` is context-sensitive.
 
 **How do I validate my snippet before submitting?**
 Run the snippet validator tool: `python utilities/tools/snippet-validator.py your-file.md`. This checks YAML frontmatter, required fields, and valid category/tag values.
